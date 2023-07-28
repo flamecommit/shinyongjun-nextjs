@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "pm2 reload ecosystem.config.js --env=prod",
     "lint": "next lint"
   },
   "dependencies": {
