@@ -5,4 +5,4 @@ cd $REPOSITORY
 
 sudo /usr/bin/yarn install
 sudo /usr/bin/yarn build
-sudo /usr/bin/yarn start
+sudo /usr/bin/pm2 reload ecosystem.config.js --env=prod
