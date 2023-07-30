@@ -1,6 +1,7 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
-export default function Home() {
-  return <main className={styles.main}>next.js2</main>;
+export default function Index() {
+  return (
+    <div className="page-index">
+      <h1 style={{ fontSize: 30 }}>메인 페이지</h1>
+    </div>
+  );
 }
