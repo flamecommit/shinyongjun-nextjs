@@ -4,8 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "pm2 reload ecosystem.config.js --env=prod",
     "lint": "next lint"
   },
   "dependencies": {
