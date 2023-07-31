@@ -1,16 +1,11 @@
-import React from "react";
-import { MDXProvider } from "@mdx-js/react";
+"use client";
 
-interface MDXProps {
-  children: React.ReactNode;
-}
+import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 
-export default function MDXLayout({ children }: MDXProps) {
+export default function MdxViewer(mdx: MDXRemoteSerializeResult) {
   return (
-    <>
-      <MDXProvider>
-        <div className="markdown-body">{children}</div>
-      </MDXProvider>
-    </>
+    <div>
+      <MDXRemote {...mdx} />
+    </div>
   );
 }
