@@ -1,5 +1,5 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { getPost } from "@/libs/post";
+import { getPost, getPosts } from "@/libs/post";
 
 type Post = {
   slug: string;
@@ -7,6 +7,14 @@ type Post = {
   body: string;
   published: boolean;
 };
+
+export async function generateStaticParams() {
+  const posts = (await getPosts()) as unknown as Post[];
+
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
+}
 
 export default async function Post({ params }: { params: { slug: string } }) {
   const { slug } = params;
