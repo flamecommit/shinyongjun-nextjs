@@ -1,9 +1,6 @@
 import "./globals.scss";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import Link from "next/link";
-
-const inter = Inter({ subsets: ["latin"] });
+import Gnb from "@/components/Gnb";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,14 +13,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <nav className="gnb">
-          <Link href="/">홈</Link>
-          <Link href="/list">상품 목록</Link>
-          <Link href="/cart">장바구니</Link>
-          <Link href="/cart/payment">결제</Link>
-        </nav>
+    <html lang="ko">
+      <body>
+        <Gnb />
         {children}
       </body>
     </html>
