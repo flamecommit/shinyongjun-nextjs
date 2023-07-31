@@ -1,8 +1,15 @@
-import { getAllPosts } from "@/libs/post";
+import { getPosts } from "@/libs/post";
 import Link from "next/link";
 
-export default function Post() {
-  const posts = getAllPosts();
+type Post = {
+  slug: string;
+  content: string;
+  title: number;
+  body: any;
+};
+
+export default async function Post() {
+  const posts = (await getPosts()) as unknown as Post[];
 
   console.log(posts);
 
@@ -11,7 +18,7 @@ export default function Post() {
       {posts.map((post) => {
         return (
           <div key={post.slug}>
-            <Link href={post.slug}>{post.title}</Link>
+            <Link href={`/blog/${post.slug}`}>{post.title}</Link>
           </div>
         );
       })}
