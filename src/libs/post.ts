@@ -6,51 +6,13 @@ import matter from "gray-matter";
 const BASE_PATH = "/src/posts";
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
 
-type Post = {
+export type Post = {
   slug: string;
   title: string;
   body: string;
-  published: boolean;
 };
 
-// const parsePost = (postPath: string): Post | undefined => {
-//   try {
-//     const file = fs.readFileSync(postPath, { encoding: "utf8" });
-//     const { content, data } = matter(file);
-//     const grayMatter = data as PostMatter;
-
-//     if (grayMatter.draft) {
-//       return;
-//     }
-
-//     return {
-//       ...grayMatter,
-//       tags: grayMatter.tags.filter(Boolean),
-//       // date: dayjs(grayMatter.date).format('YYYY-MM-DD'),
-//       content,
-//       slug: postPath
-//         .slice(postPath.indexOf(BASE_PATH))
-//         .replace("/src/posts", "/blog")
-//         .replace("/index.mdx", ""),
-//       // readingMinutes: Math.ceil(readingTime(content).minutes),
-//       wordCount: content.split(/\s+/gu).length,
-//     };
-//   } catch (e) {
-//     console.error(e);
-//   }
-// };
-
-// export const getAllPosts = () => {
-//   const postPaths: string[] = sync(`${POSTS_PATH}/**/*.mdx`);
-//   return postPaths.reduce<Post[]>((ac, postPath) => {
-//     const post = parsePost(postPath);
-//     if (!post) return ac;
-
-//     return [...ac, post];
-//   }, []);
-// };
-
-export const getPosts = async (): Promise<Array<Post | null>> => {
+export const getPosts = async (): Promise<Array<Post>> => {
   const posts: string[] = sync(`${POSTS_PATH}/**/*.mdx`);
 
   return Promise.all(
@@ -62,17 +24,11 @@ export const getPosts = async (): Promise<Array<Post | null>> => {
         .replace(`${BASE_PATH}/`, "")
         .replace("/index.mdx", "");
 
-      if (data.published === false) {
-        return null;
-      }
-
       return {
-        title: "",
-        published: true,
-        body: content,
-        slug,
         ...data,
-      };
+        slug: slug,
+        body: content,
+      } as Post;
     })
   );
 };
