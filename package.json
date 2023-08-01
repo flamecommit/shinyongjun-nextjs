@@ -23,7 +23,6 @@
   },
   "devDependencies": {
     "@types/glob": "^8.1.0",
-    "gray-matter": "^4.0.3",
-    "sass": "^1.64.1"
+    "gray-matter": "^4.0.3"
   }
 }

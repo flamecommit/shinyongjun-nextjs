@@ -3,12 +3,14 @@ import path from "path";
 import fs from "fs/promises";
 import matter from "gray-matter";
 
-const BASE_PATH = "/src/posts";
+const BASE_PATH = "/posts";
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
 
 export type Post = {
-  slug: string;
   title: string;
+  date: Date;
+  tags: string[];
+  slug: string;
   body: string;
 };
 
@@ -35,6 +37,6 @@ export const getPosts = async (): Promise<Array<Post>> => {
 
 export async function getPost(slug: string) {
   const posts = await getPosts();
-  console.log("posts", posts);
+
   return posts.find((post) => post?.slug === slug) as Post;
 }
