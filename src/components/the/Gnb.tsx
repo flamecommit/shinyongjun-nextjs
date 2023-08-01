@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const TheGnb = () => {
   return (
-    <StyledTheGnb className="gnb">
+    <StyledTheGnb>
       <Link href="/">Home</Link>
     </StyledTheGnb>
   );

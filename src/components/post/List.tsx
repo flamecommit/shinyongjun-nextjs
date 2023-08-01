@@ -8,7 +8,7 @@ import { config } from "@/styles/config";
 
 const PostList = ({ postList }: { postList: Post[] }) => {
   return (
-    <StyledPostList className="gnb">
+    <StyledPostList>
       {postList.map((post) => {
         return (
           <div key={post.slug} className="post-item">
