@@ -16,9 +16,14 @@ export default async function Post({ params }: { params: { slug: string } }) {
   console.log(post, slug);
 
   return (
-    <div>
-      <div>{post.title}</div>
-      <MDXRemote source={post.body} />
-    </div>
+    <>
+      <head>
+        <title>{post.title}</title>
+      </head>
+      <div>
+        <div>{post.title}</div>
+        <MDXRemote source={post.body} />
+      </div>
+    </>
   );
 }
