@@ -3,7 +3,6 @@
 import { Post } from "@/libs/post";
 import styled from "styled-components";
 import { MDXRemote } from "next-mdx-remote";
-import PageTitle from "../page/Title";
 import { getFormatDatetime } from "@/libs/utils/time";
 
 interface Props {

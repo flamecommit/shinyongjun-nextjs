@@ -16,8 +16,6 @@ export async function generateMetadata(
   const { slug } = params;
   const parentTitle = (await parent).title?.absolute;
 
-  console.log(parentTitle);
-
   return {
     title: `${parentTitle} | tag - ${slug}`,
   };

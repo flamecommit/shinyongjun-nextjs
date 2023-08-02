@@ -9,3 +9,16 @@ tags: ["tag1", "tag2"]
 In, the snowfall was above average.
 It was followed by a warm spring which caused
 flood conditions in many of the nearby rivers.
+
+```tsx
+import PostList from "@/components/post/List";
+import { getPosts } from "@/libs/post";
+
+const RootPage = async () => {
+  const posts = await getPosts();
+
+  return <PostList postList={posts} />;
+};
+
+export default RootPage;
+```
