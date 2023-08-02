@@ -26,8 +26,11 @@ const StyledTagList = styled.div`
   column-gap: 12px;
   row-gap: 12px;
   .tag-item {
-    padding: 12px;
-    border: 1px solid #000;
+    a {
+      display: block;
+      padding: 12px;
+      border: 1px solid #000;
+    }
   }
 `;
 

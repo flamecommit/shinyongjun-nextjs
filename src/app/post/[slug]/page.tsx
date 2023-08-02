@@ -1,4 +1,3 @@
-import { MDXRemote } from "next-mdx-remote/rsc";
 import { getPost, getPosts } from "@/libs/post";
 import { Metadata } from "next";
 import PostViewer from "@/components/post/Viewer";
