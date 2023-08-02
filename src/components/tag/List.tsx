@@ -1,14 +1,13 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import styled from "styled-components";
-import TagItem from "./Item";
+import styled from 'styled-components';
+import TagItem from './Item';
 
 type Props = {
   tags: string[];
 };
 
-const TagList = ({ tags }: Props) => {
+function TagList({ tags }: Props) {
   return (
     <StyledTagList>
       {tags.map((tag) => {
@@ -16,7 +15,7 @@ const TagList = ({ tags }: Props) => {
       })}
     </StyledTagList>
   );
-};
+}
 
 const StyledTagList = styled.div`
   display: flex;

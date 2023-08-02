@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import styled from "styled-components";
+import styled from 'styled-components';
 
 type Props = {
   children: React.ReactNode;
 };
 
-const PageTitle = ({ children }: Props) => {
+function PageTitle({ children }: Props) {
   return <StyledPageTitle>{children}</StyledPageTitle>;
-};
+}
 
 const StyledPageTitle = styled.h2`
   font-weight: 700;

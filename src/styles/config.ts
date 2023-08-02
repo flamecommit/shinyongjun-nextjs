@@ -1,3 +1,3 @@
 export const config = {
-  forestGreen: "#228c22",
+  forestGreen: '#228c22',
 };

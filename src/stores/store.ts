@@ -1,5 +1,5 @@
-import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import coreReducer from "./features/core";
+import { combineReducers, configureStore } from '@reduxjs/toolkit';
+import coreReducer from './features/core';
 
 const reducer = combineReducers({
   core: coreReducer,
@@ -7,7 +7,7 @@ const reducer = combineReducers({
 
 export const store = configureStore({
   reducer,
-  devTools: process.env.NODE_ENV !== "production",
+  devTools: process.env.NODE_ENV !== 'production',
 });
 
 export type RootState = ReturnType<typeof store.getState>;

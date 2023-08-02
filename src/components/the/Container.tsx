@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import styled from "styled-components";
+import styled from 'styled-components';
 
-const TheContainer = ({ children }: { children: React.ReactNode }) => {
+function TheContainer({ children }: { children: React.ReactNode }) {
   return <StyledTheContainer>{children}</StyledTheContainer>;
-};
+}
 
 const StyledTheContainer = styled.main`
   max-width: 768px;

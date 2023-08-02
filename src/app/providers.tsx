@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { PropsWithChildren } from "react";
-import { ResetStyle } from "@/styles/reset";
-import Providers from "@/stores/provider";
+import { PropsWithChildren } from 'react';
+import { ResetStyle } from '@/styles/reset';
+import Providers from '@/stores/provider';
 
-export function RootProviders({ children }: PropsWithChildren) {
+export default function RootProviders({ children }: PropsWithChildren) {
   return (
     <Providers>
       <ResetStyle />

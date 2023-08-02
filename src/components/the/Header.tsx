@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import styled from "styled-components";
-import TheGnb from "@/components/the/Gnb";
+import styled from 'styled-components';
+import TheGnb from '@/components/the/Gnb';
 
-const TheHeader = () => {
+function TheHeader() {
   return (
     <StyledTheHeader>
       <TheGnb />
     </StyledTheHeader>
   );
-};
+}
 
 const StyledTheHeader = styled.header`
   display: flex;

@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import styled from "styled-components";
+import Link from 'next/link';
+import styled from 'styled-components';
 
 type Props = {
   tag: string;
 };
 
-const TagItem = ({ tag }: Props) => {
+function TagItem({ tag }: Props) {
   return <StyledTagItem href={`/tag/${tag}`}>{tag}</StyledTagItem>;
-};
+}
 
 const StyledTagItem = styled(Link)`
   padding: 6px;

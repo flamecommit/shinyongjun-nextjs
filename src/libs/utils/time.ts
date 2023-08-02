@@ -1,7 +1,7 @@
 export const getFormatDatetime = (datetime: Date, format: string) => {
   const origin = datetime.toISOString();
 
-  const year = format.includes("YYYY")
+  const year = format.includes('YYYY')
     ? origin.substring(0, 4)
     : origin.substring(2, 4);
   const month = origin.substring(5, 7);

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import StyledComponentsRegistry from '@/libs/registry';
 import TheContainer from '@/components/the/Container';
 import TheHeader from '@/components/the/Header';
-import { RootProviders } from './providers';
+import RootProviders from './providers';
 
 export const metadata: Metadata = {
   title: 'Shinyongjun',

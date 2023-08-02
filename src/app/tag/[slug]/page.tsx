@@ -1,7 +1,7 @@
-import PageTitle from "@/components/page/Title";
-import PostList from "@/components/post/List";
-import { getPostsByTag, getTags } from "@/libs/post";
-import { Metadata, ResolvingMetadata } from "next";
+import { Metadata, ResolvingMetadata } from 'next';
+import PageTitle from '@/components/page/Title';
+import PostList from '@/components/post/List';
+import { getPostsByTag, getTags } from '@/libs/post';
 
 type Props = {
   params: {
@@ -11,7 +11,7 @@ type Props = {
 
 export async function generateMetadata(
   { params }: Props,
-  parent: ResolvingMetadata
+  parent: ResolvingMetadata,
 ): Promise<Metadata> {
   const { slug } = params;
   const parentTitle = (await parent).title?.absolute;

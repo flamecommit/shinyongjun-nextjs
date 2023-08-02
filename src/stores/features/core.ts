@@ -1,18 +1,18 @@
-import { createSlice } from "@reduxjs/toolkit";
-import type { PayloadAction } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
+import type { PayloadAction } from '@reduxjs/toolkit';
 
-type LocaleType = "ko" | "en";
+type LocaleType = 'ko' | 'en';
 
 export interface CoreState {
-  locale: "ko" | "en";
+  locale: 'ko' | 'en';
 }
 
 const initialState: CoreState = {
-  locale: "ko",
+  locale: 'ko',
 };
 
 export const coreSlice = createSlice({
-  name: "core",
+  name: 'core',
   initialState,
   reducers: {
     changeLocale: (state, action: PayloadAction<LocaleType>) => {

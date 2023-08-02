@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import { reset } from "@/styles/mixin";
+import { createGlobalStyle } from 'styled-components';
+import { reset } from '@/styles/mixin';
 
 export const ResetStyle = createGlobalStyle`
   * {

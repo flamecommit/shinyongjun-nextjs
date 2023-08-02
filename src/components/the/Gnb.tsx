@@ -1,16 +1,16 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import styled from "styled-components";
+import Link from 'next/link';
+import styled from 'styled-components';
 
-const TheGnb = () => {
+function TheGnb() {
   return (
     <StyledTheGnb>
       <Link href="/">Home</Link>
       <Link href="/tag">Tag</Link>
     </StyledTheGnb>
   );
-};
+}
 
 const StyledTheGnb = styled.nav`
   display: flex;

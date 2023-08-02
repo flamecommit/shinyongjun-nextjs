@@ -1,6 +1,6 @@
-import { getPost, getPosts } from "@/libs/post";
-import { Metadata } from "next";
-import PostViewer from "@/components/post/Viewer";
+import { Metadata } from 'next';
+import { getPost, getPosts } from '@/libs/post';
+import PostViewer from '@/components/post/Viewer';
 
 type Props = {
   params: {
