@@ -1,4 +1,4 @@
-0:["KCO7-h9ZJ7BfxZBHG_8Ww",[[["",{"children":["tag",{"children":[["slug","tag1","d"],{"children":["__PAGE__?{\"slug\":\"tag1\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["2CHC0sQM7OSQCjsK2TSO7",[[["",{"children":["tag",{"children":[["slug","tag1","d"],{"children":["__PAGE__?{\"slug\":\"tag1\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":3304,"chunks":["576:static/chunks/576-9e8696a007203fc7.js","396:static/chunks/396-7368747ad74ed4d8.js","286:static/chunks/286-aafabb380e0c619e.js","185:static/chunks/app/layout-5dd0a1dc99c30324.js"],"name":"","async":false}
 4:I{"id":5802,"chunks":["576:static/chunks/576-9e8696a007203fc7.js","396:static/chunks/396-7368747ad74ed4d8.js","286:static/chunks/286-aafabb380e0c619e.js","185:static/chunks/app/layout-5dd0a1dc99c30324.js"],"name":"RootProviders","async":false}
 5:I{"id":872,"chunks":["576:static/chunks/576-9e8696a007203fc7.js","396:static/chunks/396-7368747ad74ed4d8.js","286:static/chunks/286-aafabb380e0c619e.js","185:static/chunks/app/layout-5dd0a1dc99c30324.js"],"name":"","async":false}
@@ -9,4 +9,105 @@
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Shinyongjun | tag - tag1"}],["$","meta","2",{"name":"description","content":"Welcome to Shinyongjun.com"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:I{"id":6680,"chunks":["576:static/chunks/576-9e8696a007203fc7.js","396:static/chunks/396-7368747ad74ed4d8.js","982:static/chunks/app/tag/[slug]/page-be16f78b6d2abbd6.js"],"name":"","async":false}
 b:I{"id":1223,"chunks":["576:static/chunks/576-9e8696a007203fc7.js","396:static/chunks/396-7368747ad74ed4d8.js","982:static/chunks/app/tag/[slug]/page-be16f78b6d2abbd6.js"],"name":"","async":false}
-9:[["$","$La",null,{"children":["Tag - ","tag1"]}],["$","$Lb",null,{"postList":[{"title":"포스트 제목","date":"$D2023-08-01T00:00:00.000Z","tags":["tag1","tag2"],"slug":"test-mdx-posts-1","mdx":{"compiledSource":"/*@jsxRuntime automatic @jsxImportSource react*/\nconst {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];\nconst {useMDXComponents: _provideComponents} = arguments[0];\nfunction _createMdxContent(props) {\n  const _components = Object.assign({\n    h1: \"h1\",\n    p: \"p\"\n  }, _provideComponents(), props.components);\n  return _jsxs(_Fragment, {\n    children: [_jsx(_components.h1, {\n      children: \"첫번째 게시글입니다.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"In, the snowfall was above average.\\nIt was followed by a warm spring which caused\\nflood conditions in many of the nearby rivers.\"\n    })]\n  });\n}\nfunction MDXContent(props = {}) {\n  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);\n  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {\n    children: _jsx(_createMdxContent, props)\n  })) : _createMdxContent(props);\n}\nreturn {\n  default: MDXContent\n};\n","frontmatter":{},"scope":{}}},{"title":"포스트 제목22","date":"$D2023-07-31T00:00:00.000Z","tags":["tag1","tag3"],"slug":"test-mdx-posts-2","mdx":{"compiledSource":"/*@jsxRuntime automatic @jsxImportSource react*/\nconst {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];\nconst {useMDXComponents: _provideComponents} = arguments[0];\nfunction _createMdxContent(props) {\n  const _components = Object.assign({\n    h1: \"h1\",\n    p: \"p\"\n  }, _provideComponents(), props.components);\n  return _jsxs(_Fragment, {\n    children: [_jsx(_components.h1, {\n      children: \"Last year’s snowfall\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"In, the snowfall was above average.\\nIt was followed by a warm spring which caused\\nflood conditions in many of the nearby rivers.\"\n    })]\n  });\n}\nfunction MDXContent(props = {}) {\n  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);\n  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {\n    children: _jsx(_createMdxContent, props)\n  })) : _createMdxContent(props);\n}\nreturn {\n  default: MDXContent\n};\n","frontmatter":{},"scope":{}}}]}]]
+c:Te85,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    h1: "h1",
+    p: "p",
+    pre: "pre",
+    code: "code",
+    span: "span"
+  }, _provideComponents(), props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h1, {
+      children: "첫번째 게시글입니다."
+    }), "\n", _jsx(_components.p, {
+      children: "In, the snowfall was above average.\nIt was followed by a warm spring which caused\nflood conditions in many of the nearby rivers."
+    }), "\n", _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-tsx",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "PostList"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "\"@/components/post/List\""
+        }), ";\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { getPosts } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "\"@/libs/post\""
+        }), ";\n\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "RootPage"
+        }), " = ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "async"
+        }), " (", _jsx(_components.span, {
+          className: "hljs-params"
+        }), ") => {\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " posts = ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "await"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "getPosts"
+        }), "();\n\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "return"
+        }), " ", _jsx(_components.span, {
+          className: "xml",
+          children: _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "PostList"
+            }), " ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "postList"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{posts}"
+            }), " />"]
+          })
+        }), ";\n};\n\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "default"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "RootPage"
+        }), ";\n"]
+      })
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+9:[["$","$La",null,{"children":["Tag - ","tag1"]}],["$","$Lb",null,{"postList":[{"title":"포스트 제목","date":"$D2023-08-01T00:00:00.000Z","tags":["tag1","tag2"],"slug":"test-mdx-posts-1","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}},{"title":"포스트 제목22","date":"$D2023-07-31T00:00:00.000Z","tags":["tag1","tag3"],"slug":"test-mdx-posts-2","mdx":{"compiledSource":"/*@jsxRuntime automatic @jsxImportSource react*/\nconst {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];\nconst {useMDXComponents: _provideComponents} = arguments[0];\nfunction _createMdxContent(props) {\n  const _components = Object.assign({\n    h1: \"h1\",\n    p: \"p\"\n  }, _provideComponents(), props.components);\n  return _jsxs(_Fragment, {\n    children: [_jsx(_components.h1, {\n      children: \"Last year’s snowfall\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"In, the snowfall was above average.\\nIt was followed by a warm spring which caused\\nflood conditions in many of the nearby rivers.\"\n    })]\n  });\n}\nfunction MDXContent(props = {}) {\n  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);\n  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {\n    children: _jsx(_createMdxContent, props)\n  })) : _createMdxContent(props);\n}\nreturn {\n  default: MDXContent\n};\n","frontmatter":{},"scope":{}}}]}]]
