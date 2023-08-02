@@ -7,6 +7,7 @@ const TheGnb = () => {
   return (
     <StyledTheGnb>
       <Link href="/">Home</Link>
+      <Link href="/tag">Tag</Link>
     </StyledTheGnb>
   );
 };

@@ -2,6 +2,8 @@ import { sync } from "glob";
 import path from "path";
 import fs from "fs/promises";
 import matter from "gray-matter";
+import { MDXRemoteSerializeResult } from "next-mdx-remote";
+import { serialize } from "next-mdx-remote/serialize";
 
 const BASE_PATH = "/posts";
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
@@ -11,7 +13,7 @@ export type Post = {
   date: Date;
   tags: string[];
   slug: string;
-  body: string;
+  mdx: MDXRemoteSerializeResult;
 };
 
 export const getPosts = async (): Promise<Array<Post>> => {
@@ -21,6 +23,7 @@ export const getPosts = async (): Promise<Array<Post>> => {
     posts.map(async (file) => {
       const postContent = await fs.readFile(file, "utf8");
       const { data, content } = matter(postContent);
+      const mdx = await serialize(content);
       const slug = file
         .slice(file.indexOf(BASE_PATH))
         .replace(`${BASE_PATH}/`, "")
@@ -29,14 +32,35 @@ export const getPosts = async (): Promise<Array<Post>> => {
       return {
         ...data,
         slug: slug,
-        body: content,
-      } as Post;
+        mdx: mdx,
+      } as unknown as Post;
     })
   );
 };
 
-export async function getPost(slug: string) {
+export const getPost = async (slug: string) => {
   const posts = await getPosts();
 
   return posts.find((post) => post?.slug === slug) as Post;
-}
+};
+
+export const getTags = async () => {
+  const result: string[] = [];
+  const posts = await getPosts();
+  const flattenedTags = posts.flatMap((post) => post["tags"]);
+  const uniqueTags = new Set(flattenedTags);
+
+  uniqueTags.forEach((tag) => {
+    result.push(tag);
+  });
+
+  return result;
+};
+
+export const getPostsByTag = async (tag: string) => {
+  const posts = await getPosts();
+
+  return posts.filter((post) => {
+    return post.tags.includes(tag);
+  });
+};

@@ -7,7 +7,7 @@ const TheContainer = ({ children }: { children: React.ReactNode }) => {
 };
 
 const StyledTheContainer = styled.main`
-  max-width: 1020px;
+  max-width: 768px;
   margin-inline: auto;
   padding: 60px 30px;
 `;

@@ -1,5 +1,22 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getPost, getPosts } from "@/libs/post";
+import { Metadata } from "next";
+import PostViewer from "@/components/post/Viewer";
+
+type Props = {
+  params: {
+    slug: string;
+  };
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = params;
+  const post = await getPost(slug);
+
+  return {
+    title: post.title,
+  };
+}
 
 export async function generateStaticParams() {
   const posts = await getPosts();
@@ -9,21 +26,15 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function Post({ params }: { params: { slug: string } }) {
+const PostViewPage = async ({ params }: Props) => {
   const { slug } = params;
   const post = await getPost(slug);
 
-  console.log(post, slug);
-
   return (
     <>
-      <head>
-        <title>{post.title}</title>
-      </head>
-      <div>
-        <div>{post.title}</div>
-        <MDXRemote source={post.body} />
-      </div>
+      <PostViewer postData={post} />
     </>
   );
-}
+};
+
+export default PostViewPage;
