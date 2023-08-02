@@ -2,7 +2,11 @@
 
 import styled from 'styled-components';
 
-function TheContainer({ children }: { children: React.ReactNode }) {
+type Props = {
+  children: React.ReactNode;
+};
+
+function TheContainer({ children }: Props) {
   return <StyledTheContainer>{children}</StyledTheContainer>;
 }
 

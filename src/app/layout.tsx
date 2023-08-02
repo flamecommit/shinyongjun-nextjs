@@ -1,22 +1,24 @@
 import type { Metadata } from 'next';
 import StyledComponentsRegistry from '@/styles/registry';
-import TheContainer from '@/components/the/Container';
-import TheHeader from '@/components/the/Header';
 import RootProvider from '@/stores/provider';
+import DefaultLayout from '@/components/layout/Default';
+
+type Props = {
+  children: React.ReactNode;
+};
 
 export const metadata: Metadata = {
   title: 'Shinyongjun',
   description: 'Welcome to Shinyongjun.com',
 };
 
-function RootLayout({ children }: { children: React.ReactNode }) {
+function RootLayout({ children }: Props) {
   return (
     <html lang="ko">
       <body>
         <StyledComponentsRegistry>
           <RootProvider>
-            <TheHeader />
-            <TheContainer>{children}</TheContainer>
+            <DefaultLayout>{children}</DefaultLayout>
           </RootProvider>
         </StyledComponentsRegistry>
       </body>

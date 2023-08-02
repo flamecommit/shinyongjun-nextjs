@@ -7,7 +7,11 @@ import { getFormatDatetime } from '@/libs/utils/time';
 import { config } from '@/styles/config';
 import TagItem from '../tag/Item';
 
-function PostList({ postList }: { postList: Post[] }) {
+type Props = {
+  postList: Post[];
+};
+
+function PostList({ postList }: Props) {
   return (
     <StyledPostList>
       {postList.map((post) => {
