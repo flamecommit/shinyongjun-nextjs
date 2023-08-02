@@ -1,13 +1,13 @@
-import { sync } from "glob";
-import path from "path";
-import fs from "fs/promises";
-import matter from "gray-matter";
-import { MDXRemoteSerializeResult } from "next-mdx-remote";
-import { serialize } from "next-mdx-remote/serialize";
-import rehypeHighlight from "rehype-highlight";
-import transformImgSrc from "./transMdxImgSrc";
+import path from 'path';
+import fs from 'fs/promises';
+import { sync } from 'glob';
+import matter from 'gray-matter';
+import { MDXRemoteSerializeResult } from 'next-mdx-remote';
+import { serialize } from 'next-mdx-remote/serialize';
+import rehypeHighlight from 'rehype-highlight';
+import transformImgSrc from './transMdxImgSrc';
 
-const BASE_PATH = "/posts";
+const BASE_PATH = '/posts';
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
 
 export type Post = {
@@ -23,12 +23,12 @@ export const getPosts = async (): Promise<Array<Post>> => {
 
   return Promise.all(
     posts.map(async (file) => {
-      const postContent = await fs.readFile(file, "utf8");
+      const postContent = await fs.readFile(file, 'utf8');
       const { data, content } = matter(postContent);
       const slug = file
         .slice(file.indexOf(BASE_PATH))
-        .replace(`${BASE_PATH}/`, "")
-        .replace("/index.mdx", "");
+        .replace(`${BASE_PATH}/`, '')
+        .replace('/index.mdx', '');
       const mdx = await serialize(content, {
         mdxOptions: {
           remarkPlugins: [[transformImgSrc, { slug }]],
@@ -38,10 +38,10 @@ export const getPosts = async (): Promise<Array<Post>> => {
 
       return {
         ...data,
-        slug: slug,
-        mdx: mdx,
+        slug,
+        mdx,
       } as unknown as Post;
-    })
+    }),
   );
 };
 
@@ -54,7 +54,7 @@ export const getPost = async (slug: string) => {
 export const getTags = async () => {
   const result: string[] = [];
   const posts = await getPosts();
-  const flattenedTags = posts.flatMap((post) => post["tags"]);
+  const flattenedTags = posts.flatMap((post) => post.tags);
   const uniqueTags = new Set(flattenedTags);
 
   uniqueTags.forEach((tag) => {

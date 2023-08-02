@@ -1,23 +1,23 @@
-"use client";
+'use client';
 
-import { Post } from "@/libs/post";
-import styled from "styled-components";
-import { MDXRemote } from "next-mdx-remote";
-import { getFormatDatetime } from "@/libs/utils/time";
-import { prism } from "@/styles/prism";
-import { markdown } from "@/styles/markdown";
+import styled from 'styled-components';
+import { MDXRemote } from 'next-mdx-remote';
+import { Post } from '@/libs/post';
+import { getFormatDatetime } from '@/libs/utils/time';
+import { prism } from '@/styles/prism';
+import { markdown } from '@/styles/markdown';
 
 interface Props {
   postData: Post;
 }
 
-const PostViewer = ({ postData }: Props) => {
+function PostViewer({ postData }: Props) {
   return (
     <StyledPostViewer>
       <header className="post-header">
         <h1 className="post-title">{postData.title}</h1>
         <div className="post-date">
-          {getFormatDatetime(postData.date, "YYYY-MM-DD")}
+          {getFormatDatetime(postData.date, 'YYYY-MM-DD')}
         </div>
       </header>
       <div className="post-content">
@@ -25,12 +25,11 @@ const PostViewer = ({ postData }: Props) => {
       </div>
     </StyledPostViewer>
   );
-};
+}
 
 const StyledPostViewer = styled.article`
   .post-header {
     text-align: center;
-    margin-bottom: 24px;
     padding-block: 60px;
     .post-title {
       font-weight: 700;

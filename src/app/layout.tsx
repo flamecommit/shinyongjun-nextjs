@@ -1,15 +1,15 @@
-import type { Metadata } from "next";
-import StyledComponentsRegistry from "@/libs/registry";
-import TheContainer from "@/components/the/Container";
-import TheHeader from "@/components/the/Header";
-import { RootProviders } from "./providers";
+import type { Metadata } from 'next';
+import StyledComponentsRegistry from '@/libs/registry';
+import TheContainer from '@/components/the/Container';
+import TheHeader from '@/components/the/Header';
+import { RootProviders } from './providers';
 
 export const metadata: Metadata = {
-  title: "Shinyongjun",
-  description: "Welcome to Shinyongjun.com",
+  title: 'Shinyongjun',
+  description: 'Welcome to Shinyongjun.com',
 };
 
-const RootLayout = ({ children }: { children: React.ReactNode }) => {
+function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
       <body>
@@ -22,6 +22,6 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       </body>
     </html>
   );
-};
+}
 
 export default RootLayout;

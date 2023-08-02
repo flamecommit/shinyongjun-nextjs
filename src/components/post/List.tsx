@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import styled from "styled-components";
-import { Post } from "@/libs/post";
-import { getFormatDatetime } from "@/libs/utils/time";
-import { config } from "@/styles/config";
-import TagItem from "../tag/Item";
+import Link from 'next/link';
+import styled from 'styled-components';
+import { Post } from '@/libs/post';
+import { getFormatDatetime } from '@/libs/utils/time';
+import { config } from '@/styles/config';
+import TagItem from '../tag/Item';
 
-const PostList = ({ postList }: { postList: Post[] }) => {
+function PostList({ postList }: { postList: Post[] }) {
   return (
     <StyledPostList>
       {postList.map((post) => {
@@ -17,7 +17,7 @@ const PostList = ({ postList }: { postList: Post[] }) => {
               {post.title}
             </Link>
             <div className="date">
-              {getFormatDatetime(post.date, "YYYY-MM-DD")}
+              {getFormatDatetime(post.date, 'YYYY-MM-DD')}
             </div>
             <div className="tags">
               {post.tags.map((tag) => {
@@ -29,7 +29,7 @@ const PostList = ({ postList }: { postList: Post[] }) => {
       })}
     </StyledPostList>
   );
-};
+}
 
 const StyledPostList = styled.div`
   display: grid;
