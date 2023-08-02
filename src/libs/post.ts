@@ -1,11 +1,12 @@
 import path from 'path';
-import fs from 'fs/promises';
+import fs from 'fs';
 import { sync } from 'glob';
 import matter from 'gray-matter';
 import { MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { serialize } from 'next-mdx-remote/serialize';
 import rehypeHighlight from 'rehype-highlight';
-import transformImgSrc from './transMdxImgSrc';
+import { visit } from 'unist-util-visit';
+import { Node, Parent } from 'unist';
 
 const BASE_PATH = '/posts';
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
@@ -18,12 +19,16 @@ export type Post = {
   mdx: MDXRemoteSerializeResult;
 };
 
+type Image = {
+  url: string;
+};
+
 export const getPosts = async (): Promise<Array<Post>> => {
   const posts: string[] = sync(`${POSTS_PATH}/**/*.mdx`);
 
   return Promise.all(
     posts.map(async (file) => {
-      const postContent = await fs.readFile(file, 'utf8');
+      const postContent = await fs.promises.readFile(file, 'utf8');
       const { data, content } = matter(postContent);
       const slug = file
         .slice(file.indexOf(BASE_PATH))
@@ -71,3 +76,21 @@ export const getPostsByTag = async (tag: string) => {
     return post.tags.includes(tag);
   });
 };
+
+export default function transformImgSrc({ slug }: { slug: string }) {
+  return (tree: Node) => {
+    visit(tree, 'paragraph', (node: Parent) => {
+      const image = node.children.find(
+        (child: { type: string }) => child.type === 'image',
+      ) as Image | undefined;
+
+      if (image) {
+        const fileName = image.url.replace('./', '');
+        const imageUrl = `./posts/${slug}/${fileName}`;
+        const imageBuffer = fs.readFileSync(imageUrl);
+        const base64String = imageBuffer.toString('base64');
+        image.url = `data:image/jpeg;base64,${base64String}`;
+      }
+    });
+  };
+}

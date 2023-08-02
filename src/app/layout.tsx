@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
-import StyledComponentsRegistry from '@/libs/registry';
+import StyledComponentsRegistry from '@/styles/registry';
 import TheContainer from '@/components/the/Container';
 import TheHeader from '@/components/the/Header';
-import RootProviders from './providers';
+import RootProvider from '@/stores/provider';
 
 export const metadata: Metadata = {
   title: 'Shinyongjun',
@@ -14,10 +14,10 @@ function RootLayout({ children }: { children: React.ReactNode }) {
     <html lang="ko">
       <body>
         <StyledComponentsRegistry>
-          <RootProviders>
+          <RootProvider>
             <TheHeader />
             <TheContainer>{children}</TheContainer>
-          </RootProviders>
+          </RootProvider>
         </StyledComponentsRegistry>
       </body>
     </html>
