@@ -6,7 +6,6 @@ import { MDXRemoteSerializeResult } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
 import rehypeHighlight from "rehype-highlight";
 import transformImgSrc from "./transMdxImgSrc";
-import remarkEmbedImages from "remark-embed-images";
 
 const BASE_PATH = "/posts";
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
@@ -32,7 +31,7 @@ export const getPosts = async (): Promise<Array<Post>> => {
         .replace("/index.mdx", "");
       const mdx = await serialize(content, {
         mdxOptions: {
-          remarkPlugins: [[transformImgSrc, { slug }], remarkEmbedImages],
+          remarkPlugins: [[transformImgSrc, { slug }]],
           rehypePlugins: [rehypeHighlight],
         },
       });

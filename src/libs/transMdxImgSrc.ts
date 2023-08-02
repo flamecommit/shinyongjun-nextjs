@@ -1,6 +1,5 @@
 import { visit } from "unist-util-visit";
-
-const imgDirInsidePublic = "posts";
+import fs from "fs";
 
 export default function transformImgSrc({ slug }: { slug: string }) {
   return (tree: any) => {
@@ -11,7 +10,10 @@ export default function transformImgSrc({ slug }: { slug: string }) {
 
       if (image) {
         const fileName = image.url.replace("./", "");
-        image.url = `./${imgDirInsidePublic}/${slug}/${fileName}`;
+        const imageUrl = `./posts/${slug}/${fileName}`;
+        const imageBuffer = fs.readFileSync(imageUrl);
+        const base64String = imageBuffer.toString("base64");
+        image.url = `data:image/jpeg;base64,${base64String}`;
       }
     });
   };
