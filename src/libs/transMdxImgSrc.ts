@@ -1,12 +1,17 @@
 import fs from 'fs';
 import { visit } from 'unist-util-visit';
+import { Node, Parent } from 'unist';
+
+type Image = {
+  url: string;
+};
 
 export default function transformImgSrc({ slug }: { slug: string }) {
-  return (tree: any) => {
-    visit(tree, 'paragraph', (node) => {
+  return (tree: Node) => {
+    visit(tree, 'paragraph', (node: Parent) => {
       const image = node.children.find(
         (child: { type: string }) => child.type === 'image',
-      );
+      ) as Image | undefined;
 
       if (image) {
         const fileName = image.url.replace('./', '');
