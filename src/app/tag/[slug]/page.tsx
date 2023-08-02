@@ -1,3 +1,4 @@
+import PageTitle from "@/components/page/Title";
 import PostList from "@/components/post/List";
 import { getPostsByTag, getTags } from "@/libs/post";
 import { Metadata, ResolvingMetadata } from "next";
@@ -34,7 +35,12 @@ const PostListByTagPage = async ({ params }: Props) => {
   const { slug } = params;
   const posts = await getPostsByTag(slug);
 
-  return <PostList postList={posts} />;
+  return (
+    <>
+      <PageTitle>Tag - {slug}</PageTitle>
+      <PostList postList={posts} />
+    </>
+  );
 };
 
 export default PostListByTagPage;

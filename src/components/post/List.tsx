@@ -5,6 +5,7 @@ import styled from "styled-components";
 import { Post } from "@/libs/post";
 import { getFormatDatetime } from "@/libs/utils/time";
 import { config } from "@/styles/config";
+import TagItem from "../tag/Item";
 
 const PostList = ({ postList }: { postList: Post[] }) => {
   return (
@@ -20,11 +21,7 @@ const PostList = ({ postList }: { postList: Post[] }) => {
             </div>
             <div className="tags">
               {post.tags.map((tag) => {
-                return (
-                  <Link href={`/tag/${tag}`} className="tag" key={tag}>
-                    {tag}
-                  </Link>
-                );
+                return <TagItem key={tag} tag={tag} />;
               })}
             </div>
           </div>
@@ -57,14 +54,6 @@ const StyledPostList = styled.div`
       display: flex;
       column-gap: 12px;
       margin-top: 6px;
-      .tag {
-        padding: 6px;
-        border: solid #000;
-        border: 1px solid #000;
-        &:hover {
-          background-color: #f7f7f7;
-        }
-      }
     }
   }
 `;
