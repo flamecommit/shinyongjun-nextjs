@@ -5,6 +5,8 @@ import matter from "gray-matter";
 import { MDXRemoteSerializeResult } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
 import rehypeHighlight from "rehype-highlight";
+import transformImgSrc from "./transMdxImgSrc";
+import remarkEmbedImages from "remark-embed-images";
 
 const BASE_PATH = "/posts";
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
@@ -24,15 +26,16 @@ export const getPosts = async (): Promise<Array<Post>> => {
     posts.map(async (file) => {
       const postContent = await fs.readFile(file, "utf8");
       const { data, content } = matter(postContent);
-      const mdx = await serialize(content, {
-        mdxOptions: {
-          rehypePlugins: [rehypeHighlight],
-        },
-      });
       const slug = file
         .slice(file.indexOf(BASE_PATH))
         .replace(`${BASE_PATH}/`, "")
         .replace("/index.mdx", "");
+      const mdx = await serialize(content, {
+        mdxOptions: {
+          remarkPlugins: [[transformImgSrc, { slug }], remarkEmbedImages],
+          rehypePlugins: [rehypeHighlight],
+        },
+      });
 
       return {
         ...data,
