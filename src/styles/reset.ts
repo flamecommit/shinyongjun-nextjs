@@ -2,15 +2,10 @@ import { createGlobalStyle } from 'styled-components';
 import { reset } from '@/styles/mixin';
 
 export const ResetStyle = createGlobalStyle`
-  * {
+  *,
+  :before,
+  :after {
     ${reset};
-    &::before,
-    &::after {
-      ${reset};
-    }
-    &:focus-visible {
-      outline: 2px dashed #ffffff;
-    }
   }
   html {
     scroll-behavior: smooth;
