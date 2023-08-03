@@ -1,8 +1,8 @@
 'use client';
 
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { MDXRemote } from 'next-mdx-remote';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Post } from '@/libs/post';
 import { getFormatDatetime } from '@/libs/utils/time';
 import { prism } from '@/styles/prism';
@@ -19,32 +19,27 @@ function PostViewer({ postData }: Props) {
   const [initActiveIndex, setInitActiveIndex] = useState(0);
   const postContents = useRef<HTMLDivElement>(null);
 
-  const toggleGallery = useCallback(() => {
-    setIsGallery(!isGallery);
-  }, [isGallery]);
+  const closeGallery = () => {
+    setIsGallery(false);
+  };
 
   useEffect(() => {
     const mdxImages = postContents.current?.getElementsByTagName('img');
     const mdxImageArray = Array.from(mdxImages || []);
     const result = mdxImageArray.map((image, index) => {
-      setInitActiveIndex(index);
-      image.addEventListener('click', toggleGallery);
+      image.addEventListener('click', () => {
+        setInitActiveIndex(index);
+        setIsGallery(true);
+      });
       return image.src;
     });
 
     setImages(result);
-
-    return () => {
-      mdxImageArray.map((image) => {
-        image.removeEventListener('click', toggleGallery);
-        return image.src;
-      });
-    };
-  }, [toggleGallery]);
+  }, []);
 
   return (
     <>
-      <StyledPostViewer isGallery={isGallery}>
+      <StyledPostViewer>
         <header className="post-header">
           <h1 className="post-title">{postData.title}</h1>
           <div className="post-date">
@@ -56,14 +51,17 @@ function PostViewer({ postData }: Props) {
         </div>
       </StyledPostViewer>
       {isGallery && (
-        <PostGallery images={images} initActiveIndex={initActiveIndex} />
+        <PostGallery
+          images={images}
+          initActiveIndex={initActiveIndex}
+          closeGallery={closeGallery}
+        />
       )}
     </>
   );
 }
 
-const StyledPostViewer = styled.article<{ isGallery: boolean }>`
-  filter: ${(props) => (props.isGallery ? 'blur(4px)' : 'blur(0px)')};
+const StyledPostViewer = styled.article`
   .post-header {
     text-align: center;
     padding-block: 60px;
