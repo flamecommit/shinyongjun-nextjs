@@ -1,12 +1,12 @@
 'use client';
 
 import styled from 'styled-components';
-import TheGnb from '@/components/the/Gnb';
+import LayoutGnb from '@/components/layout/Gnb';
 
 function TheHeader() {
   return (
     <StyledTheHeader>
-      <TheGnb />
+      <LayoutGnb />
     </StyledTheHeader>
   );
 }

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import StyledComponentsRegistry from '@/styles/registry';
 import RootProvider from '@/stores/provider';
-import DefaultLayout from '@/components/layout/Default';
+import DefaultWrapper from '@/components/wrapper/Default';
 
 type Props = {
   children: React.ReactNode;
@@ -18,7 +18,7 @@ function RootLayout({ children }: Props) {
       <body>
         <StyledComponentsRegistry>
           <RootProvider>
-            <DefaultLayout>{children}</DefaultLayout>
+            <DefaultWrapper>{children}</DefaultWrapper>
           </RootProvider>
         </StyledComponentsRegistry>
       </body>
