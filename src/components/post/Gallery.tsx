@@ -1,49 +1,186 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
+import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+import PostGalleryItem from './GalleryItem';
 
-type Props = {
-  images: string[];
+interface GalleryType {
+  key: number;
+  src: string;
+}
+
+interface Props {
+  images: GalleryType[];
   initActiveIndex: number;
   closeGallery: () => void;
-};
+}
 
 function PostGallery({ images, initActiveIndex, closeGallery }: Props) {
+  const maxScale = 10;
+  const minScale = 0.3;
   const [activeIndex, setActiveIndex] = useState(initActiveIndex);
+  const [scale, setScale] = useState(1);
+  const imageCount = images.length;
+  const thumbnails = useRef<HTMLDivElement>(null);
+
+  const clickBackground = (e: React.MouseEvent<HTMLButtonElement>) => {
+    if (e.target === e.currentTarget) {
+      closeGallery();
+    }
+  };
+
+  const moveToActiveIndex = (index: number) => {
+    setScale(1);
+    if (index > imageCount - 1) return setActiveIndex(0);
+    if (index < 0) return setActiveIndex(imageCount - 1);
+    return setActiveIndex(index);
+  };
+
+  const zoomGalleryImage = (e: React.WheelEvent) => {
+    if (e.deltaY < 0) {
+      if (scale * 1.05 > maxScale) {
+        setScale(maxScale);
+      } else {
+        setScale(scale * 1.05);
+      }
+    }
+    if (e.deltaY > 0) {
+      if (scale * 0.95 < minScale) {
+        setScale(minScale);
+      } else {
+        setScale(scale * 0.95);
+      }
+    }
+  };
+
+  useEffect(() => {
+    thumbnails.current
+      ?.getElementsByTagName('button')
+      [activeIndex].scrollIntoView();
+  }, [activeIndex]);
+
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+
+    return () => {
+      document.body.style.overflow = 'initial';
+    };
+  }, []);
 
   return (
-    <StyledPostGallery onClick={() => closeGallery()}>
-      <div className="image-list">
+    <StyledPostGallery onWheel={zoomGalleryImage} $scale={scale}>
+      <button type="button" className="image-list" onClick={clickBackground}>
         {images.map((image, index) => {
           return (
             activeIndex === index && (
-              <div key={image} className="image-item">
-                <img src={image} alt="" />
-              </div>
+              <PostGalleryItem
+                key={image.key}
+                image={image.src}
+                scale={scale}
+              />
             )
           );
         })}
+      </button>
+      <nav className="controller">
+        <button
+          type="button"
+          className="btn-prev"
+          onClick={() => moveToActiveIndex(activeIndex - 1)}
+        >
+          <FiChevronLeft />
+        </button>
+        <button
+          type="button"
+          className="btn-next"
+          onClick={() => moveToActiveIndex(activeIndex + 1)}
+        >
+          <FiChevronRight />
+        </button>
+      </nav>
+      <div className="thumbnails" ref={thumbnails}>
+        <div className="center">
+          {images.map((image, index) => {
+            return (
+              <button
+                type="button"
+                key={image.key}
+                className={`thumbnail ${activeIndex === index ? 'active' : ''}`}
+                onClick={() => moveToActiveIndex(index)}
+              >
+                <img src={image.src} alt="" />
+              </button>
+            );
+          })}
+        </div>
       </div>
     </StyledPostGallery>
   );
 }
 
-const StyledPostGallery = styled.div`
-  backdrop-filter: blur(4px);
+const StyledPostGallery = styled.div<{ $scale: number }>`
+  backdrop-filter: blur(5px);
   position: fixed;
   inset: 0;
   z-index: 101;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.5);
   .image-list {
     position: absolute;
     inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
     .image-item {
-      display: flex;
+      cursor: grab;
+      transform: ${(props) => `scale(${props.$scale})`};
+    }
+  }
+  .controller {
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    button {
+      line-height: 1;
+      svg {
+        color: #fff;
+        font-size: 30px;
+      }
+    }
+  }
+  .thumbnails {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    text-align: center;
+    .center {
+      display: inline-block;
+      white-space: nowrap;
+    }
+    .thumbnail {
+      display: inline-flex;
       justify-content: center;
       align-items: center;
-      width: 100%;
-      height: 100%;
+      vertical-align: top;
+      width: 50px;
+      height: 50px;
+      background: #fff;
+      opacity: 0.5;
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+      &.active {
+        opacity: 1;
+      }
     }
   }
 `;

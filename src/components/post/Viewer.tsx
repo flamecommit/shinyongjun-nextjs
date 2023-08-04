@@ -13,8 +13,13 @@ interface Props {
   postData: Post;
 }
 
+interface GalleryType {
+  key: number;
+  src: string;
+}
+
 function PostViewer({ postData }: Props) {
-  const [images, setImages] = useState<string[]>([]);
+  const [images, setImages] = useState<GalleryType[]>([]);
   const [isGallery, setIsGallery] = useState(false);
   const [initActiveIndex, setInitActiveIndex] = useState(0);
   const postContents = useRef<HTMLDivElement>(null);
@@ -31,7 +36,10 @@ function PostViewer({ postData }: Props) {
         setInitActiveIndex(index);
         setIsGallery(true);
       });
-      return image.src;
+      return {
+        key: index,
+        src: image.src,
+      };
     });
 
     setImages(result);
