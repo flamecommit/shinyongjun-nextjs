@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getPost, getPosts } from '@/libs/post';
+import { getPost, getPosts } from '@/libs/services/post';
 import PostViewer from '@/components/post/Viewer';
 
 type Props = {

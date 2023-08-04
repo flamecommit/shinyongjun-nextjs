@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import styled from 'styled-components';
-import { Post } from '@/libs/post';
+import { Post } from '@/libs/services/post';
 import { getFormatDatetime } from '@/libs/utils/time';
 import CategoryItem from '../category/Item';
 

@@ -3,7 +3,7 @@
 import styled from 'styled-components';
 import { MDXRemote } from 'next-mdx-remote';
 import { useEffect, useRef, useState } from 'react';
-import { Post } from '@/libs/post';
+import { Post } from '@/libs/services/post';
 import { getFormatDatetime } from '@/libs/utils/time';
 import { prism } from '@/styles/prism';
 import { markdown } from '@/styles/markdown';

@@ -1,4 +1,4 @@
-import { getCategories, getPosts } from '@/libs/post';
+import { getCategories, getPosts } from '@/libs/services/post';
 import PageTitle from '@/components/page/Title';
 import CategoryList from '@/components/category/List';
 import PostList from '@/components/post/List';
