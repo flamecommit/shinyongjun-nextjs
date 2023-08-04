@@ -16,6 +16,7 @@ const StyledBaseGnb = styled.nav`
   display: flex;
   column-gap: 24px;
   a {
+    font-family: 'Roboto';
     font-size: 20px;
   }
 `;

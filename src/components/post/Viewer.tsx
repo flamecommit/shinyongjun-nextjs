@@ -72,7 +72,7 @@ function PostViewer({ postData }: Props) {
 const StyledPostViewer = styled.article`
   .post-header {
     text-align: center;
-    padding-block: 60px;
+    margin-bottom: 60px;
     .post-title {
       font-weight: 700;
       font-size: 48px;

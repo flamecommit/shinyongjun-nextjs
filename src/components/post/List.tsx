@@ -4,7 +4,6 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import { Post } from '@/libs/post';
 import { getFormatDatetime } from '@/libs/utils/time';
-import { config } from '@/styles/config';
 import CategoryItem from '../category/Item';
 
 type Props = {
@@ -46,7 +45,6 @@ const StyledPostList = styled.div`
       font-size: 20px;
       &:hover {
         text-decoration: underline;
-        color: ${config.forestGreen};
       }
     }
     .date {
