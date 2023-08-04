@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { Post } from '@/libs/post';
 import { getFormatDatetime } from '@/libs/utils/time';
 import { config } from '@/styles/config';
-import TagItem from '../tag/Item';
+import CategoryItem from '../category/Item';
 
 type Props = {
   postList: Post[];
@@ -23,9 +23,9 @@ function PostList({ postList }: Props) {
             <div className="date">
               {getFormatDatetime(post.date, 'YYYY-MM-DD')}
             </div>
-            <div className="tags">
-              {post.tags.map((tag) => {
-                return <TagItem key={tag} tag={tag} />;
+            <div className="categories">
+              {post.categories.map((category) => {
+                return <CategoryItem key={category} category={category} />;
               })}
             </div>
           </div>
@@ -54,7 +54,7 @@ const StyledPostList = styled.div`
       margin-top: 6px;
       color: #666;
     }
-    .tags {
+    .categories {
       display: flex;
       column-gap: 12px;
       margin-top: 6px;

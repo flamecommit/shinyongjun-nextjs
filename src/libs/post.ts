@@ -14,7 +14,7 @@ const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
 export type Post = {
   title: string;
   date: Date;
-  tags: string[];
+  categories: string[];
   slug: string;
   mdx: MDXRemoteSerializeResult;
 };
@@ -56,24 +56,24 @@ export const getPost = async (slug: string) => {
   return posts.find((post) => post?.slug === slug) as Post;
 };
 
-export const getTags = async () => {
+export const getCategories = async () => {
   const result: string[] = [];
   const posts = await getPosts();
-  const flattenedTags = posts.flatMap((post) => post.tags);
-  const uniqueTags = new Set(flattenedTags);
+  const flattenedCategories = posts.flatMap((post) => post.categories);
+  const uniqueCategories = new Set(flattenedCategories);
 
-  uniqueTags.forEach((tag) => {
-    result.push(tag);
+  uniqueCategories.forEach((category) => {
+    result.push(category);
   });
 
   return result;
 };
 
-export const getPostsByTag = async (tag: string) => {
+export const getPostsByCategory = async (category: string) => {
   const posts = await getPosts();
 
   return posts.filter((post) => {
-    return post.tags.includes(tag);
+    return post.categories.includes(category);
   });
 };
 

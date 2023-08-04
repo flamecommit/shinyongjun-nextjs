@@ -1,7 +1,7 @@
 import { Metadata, ResolvingMetadata } from 'next';
 import PageTitle from '@/components/page/Title';
 import PostList from '@/components/post/List';
-import { getPostsByTag, getTags } from '@/libs/post';
+import { getPostsByCategory, getCategories } from '@/libs/post';
 
 type Props = {
   params: {
@@ -17,28 +17,28 @@ export async function generateMetadata(
   const parentTitle = (await parent).title?.absolute;
 
   return {
-    title: `${parentTitle} | tag - ${slug}`,
+    title: `${parentTitle} | category - ${slug}`,
   };
 }
 
 export async function generateStaticParams() {
-  const tags = await getTags();
+  const categories = await getCategories();
 
-  return tags.map((tag) => ({
-    slug: tag,
+  return categories.map((category) => ({
+    slug: category,
   }));
 }
 
-const PostListByTagPage = async ({ params }: Props) => {
+const PostListByCategoryPage = async ({ params }: Props) => {
   const { slug } = params;
-  const posts = await getPostsByTag(slug);
+  const posts = await getPostsByCategory(slug);
 
   return (
     <>
-      <PageTitle>Tag - {slug}</PageTitle>
+      <PageTitle>Category - {slug}</PageTitle>
       <PostList postList={posts} />
     </>
   );
 };
 
-export default PostListByTagPage;
+export default PostListByCategoryPage;

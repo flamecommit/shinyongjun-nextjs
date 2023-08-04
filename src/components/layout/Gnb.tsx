@@ -7,7 +7,7 @@ function TheGnb() {
   return (
     <StyledTheGnb>
       <Link href="/">Home</Link>
-      <Link href="/tag">Tag</Link>
+      <Link href="/category">Category</Link>
     </StyledTheGnb>
   );
 }
