@@ -37,6 +37,7 @@ function PostGalleryItem({ image, scale }: Props) {
       onMouseDown={mousedownGallery}
       onMouseMove={mousemoveGallery}
       $transform={transform}
+      data-pressed={isMousePressed.toString()}
     >
       <img src={image} alt="" />
     </StyledPostGalleryItem>
@@ -54,6 +55,10 @@ const StyledPostGalleryItem = styled.div.attrs<{ $transform: string }>(
   img {
     pointer-events: none;
     user-select: none;
+  }
+  &[data-pressed='true'] {
+    border: 2px dashed #fff;
+    cursor: grabbing;
   }
 `;
 
