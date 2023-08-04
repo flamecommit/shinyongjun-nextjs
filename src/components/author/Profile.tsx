@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import { FaGithub } from 'react-icons/fa';
 
 function AuthorProfile() {
   return (
@@ -11,6 +12,15 @@ function AuthorProfile() {
       <div className="names-container">
         <div className="name">Yongjun Shin</div>
         <div className="bio">Welcome to shinyongjun.com</div>
+        <div className="links">
+          <a
+            href="https://github.com/shinyj1991"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaGithub />
+          </a>
+        </div>
       </div>
     </StyledAuthorProfile>
   );
@@ -36,6 +46,13 @@ const StyledAuthorProfile = styled.div`
     .bio {
       margin-top: 6px;
       color: #000;
+    }
+    .links {
+      margin-top: 9px;
+      a {
+        font-size: 20px;
+        line-height: 1;
+      }
     }
   }
 `;
