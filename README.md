@@ -1,8 +1,8 @@
-## Node version
+## Node Version
 
 - 18.16.0
 
-## Commit message
+## Commit Message
 
 - feat : 새로운 기능 추가, 기존의 기능을 요구 사항에 맞추어 수정
 - fix : 기능에 대한 버그 수정
@@ -14,3 +14,9 @@
 - refactor : 기능의 변화가 아닌 코드 리팩터링 ex) 변수 이름 변경
 - test : 테스트 코드 추가/수정
 - release : 버전 릴리즈
+
+## Git Flow
+
+- develop : 개발 단계
+- posting : 블로그 포스팅
+- release : 배포
