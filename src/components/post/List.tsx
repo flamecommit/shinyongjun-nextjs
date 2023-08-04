@@ -36,10 +36,12 @@ function PostList({ postList }: Props) {
 
 const StyledPostList = styled.div`
   display: grid;
-  row-gap: 36px;
   .post-item {
-    padding: 20px;
-    border: 1px solid #000;
+    padding: 30px 0;
+    border-bottom: 1px solid #dddddd;
+    &:first-child {
+      border-top: 1px solid #dddddd;
+    }
     .title {
       font-weight: 500;
       font-size: 20px;

@@ -13,7 +13,7 @@ function BaseContainer({ children }: Props) {
 const StyledBaseContainer = styled.main`
   max-width: 768px;
   margin-inline: auto;
-  padding: 30px;
+  padding: 36px;
   margin-block: 60px;
   background-color: #fff;
 `;
