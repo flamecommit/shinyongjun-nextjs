@@ -8,6 +8,7 @@ function BaseGnb() {
     <StyledBaseGnb>
       <Link href="/">Home</Link>
       <Link href="/category">Category</Link>
+      <Link href="/about">About</Link>
     </StyledBaseGnb>
   );
 }
