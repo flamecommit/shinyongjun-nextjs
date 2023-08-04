@@ -3,16 +3,16 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 
-function TheGnb() {
+function BaseGnb() {
   return (
-    <StyledTheGnb>
+    <StyledBaseGnb>
       <Link href="/">Home</Link>
       <Link href="/category">Category</Link>
-    </StyledTheGnb>
+    </StyledBaseGnb>
   );
 }
 
-const StyledTheGnb = styled.nav`
+const StyledBaseGnb = styled.nav`
   display: flex;
   column-gap: 24px;
   a {
@@ -20,4 +20,4 @@ const StyledTheGnb = styled.nav`
   }
 `;
 
-export default TheGnb;
+export default BaseGnb;
