@@ -18,9 +18,11 @@ function CategoryItem({ category }: Props) {
 const StyledCategoryItem = styled(Link)`
   padding: 3px 12px;
   background-color: #ddd;
+  color: #333;
+  font-size: 14px;
   &:hover {
     background-color: #333;
-    color: #fff;
+    color: #ddd;
   }
 `;
 
