@@ -19,7 +19,7 @@ const StyledBaseFooter = styled.footer`
   bottom: 0;
   height: 60px;
   border-top: 1px solid #000;
-  background-color: #ccc;
+  background-color: #ddd;
   display: flex;
   align-items: center;
   justify-content: center;
