@@ -51,13 +51,15 @@ const StyledPostGalleryItem = styled.div.attrs<{ $transform: string }>(
     },
   }),
 )`
+  position: absolute;
   cursor: grab;
+  padding: 20px;
+  background-color: #fff;
   img {
     pointer-events: none;
     user-select: none;
   }
   &[data-pressed='true'] {
-    border: 2px dashed #fff;
     cursor: grabbing;
   }
 `;

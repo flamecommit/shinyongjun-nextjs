@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+import { CSSTransition } from 'react-transition-group';
 import PostGalleryItem from './GalleryItem';
 
 interface GalleryType {
@@ -73,13 +74,15 @@ function PostGallery({ images, initActiveIndex, closeGallery }: Props) {
       <button type="button" className="image-list" onClick={clickBackground}>
         {images.map((image, index) => {
           return (
-            activeIndex === index && (
-              <PostGalleryItem
-                key={image.key}
-                image={image.src}
-                scale={scale}
-              />
-            )
+            <CSSTransition
+              in={activeIndex === index}
+              key={image.key}
+              timeout={300}
+              unmountOnExit
+              classNames="galleryItem"
+            >
+              <PostGalleryItem image={image.src} scale={scale} />
+            </CSSTransition>
           );
         })}
       </button>
@@ -124,7 +127,7 @@ const StyledPostGallery = styled.div<{ $scale: number }>`
   position: fixed;
   inset: 0;
   z-index: 101;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   .image-list {
     position: absolute;
     inset: 0;
@@ -135,6 +138,27 @@ const StyledPostGallery = styled.div<{ $scale: number }>`
     .image-item {
       cursor: grab;
       transform: ${(props) => `scale(${props.$scale})`};
+    }
+    .galleryItem-enter {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    .galleryItem-enter-active {
+      opacity: 1;
+      transform: translateX(0);
+      transition:
+        opacity 300ms,
+        transform 300ms;
+    }
+    .galleryItem-exit {
+      opacity: 1;
+    }
+    .galleryItem-exit-active {
+      opacity: 0;
+      transform: scale(0.9);
+      transition:
+        opacity 300ms,
+        transform 300ms;
     }
   }
   .controller {
