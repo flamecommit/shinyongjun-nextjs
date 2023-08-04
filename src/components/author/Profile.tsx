@@ -17,7 +17,7 @@ function AuthorProfile() {
 }
 
 const StyledAuthorProfile = styled.div`
-  padding-bottom: 36px;
+  margin-bottom: 36px;
   display: flex;
   align-items: center;
   column-gap: 30px;

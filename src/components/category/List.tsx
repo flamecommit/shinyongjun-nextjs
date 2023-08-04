@@ -21,6 +21,7 @@ const StyledCategoryList = styled.div`
   display: flex;
   column-gap: 12px;
   row-gap: 12px;
+  margin-bottom: 36px;
 `;
 
 export default CategoryList;
