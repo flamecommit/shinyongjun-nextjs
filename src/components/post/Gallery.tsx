@@ -6,13 +6,14 @@ import styled from 'styled-components';
 type Props = {
   images: string[];
   initActiveIndex: number;
+  closeGallery: () => void;
 };
 
-function PostGallery({ images, initActiveIndex }: Props) {
+function PostGallery({ images, initActiveIndex, closeGallery }: Props) {
   const [activeIndex, setActiveIndex] = useState(initActiveIndex);
 
   return (
-    <StyledPostGallery>
+    <StyledPostGallery onClick={() => closeGallery()}>
       <div className="image-list">
         {images.map((image, index) => {
           return (
@@ -29,6 +30,7 @@ function PostGallery({ images, initActiveIndex }: Props) {
 }
 
 const StyledPostGallery = styled.div`
+  backdrop-filter: blur(4px);
   position: fixed;
   inset: 0;
   z-index: 101;

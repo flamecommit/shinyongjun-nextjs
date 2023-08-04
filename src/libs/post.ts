@@ -77,7 +77,7 @@ export const getPostsByCategory = async (category: string) => {
   });
 };
 
-export default function transformImgSrc({ slug }: { slug: string }) {
+export const transformImgSrc = ({ slug }: { slug: string }) => {
   return (tree: Node) => {
     visit(tree, 'paragraph', (node: Parent) => {
       const image = node.children.find(
@@ -93,4 +93,4 @@ export default function transformImgSrc({ slug }: { slug: string }) {
       }
     });
   };
-}
+};
