@@ -12,13 +12,13 @@ import { getExtensionOfFilename } from '@/libs/utils/file';
 const BASE_PATH = '/posts';
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
 
-interface Matter {
+interface PostMatter {
   title: string;
   date: Date;
   categories: string[];
 }
 
-export interface Post extends Matter {
+export interface Post extends PostMatter {
   slug: string;
   mdx: MDXRemoteSerializeResult;
 }
@@ -27,28 +27,33 @@ type Image = {
   url: string;
 };
 
-export const getPosts = async (): Promise<Post[]> => {
-  const posts: string[] = sync(`${POSTS_PATH}/**/*.mdx`);
-  const result = await Promise.all(
-    posts.map(async (file) => {
-      const postContent = await fs.promises.readFile(file, 'utf8');
-      const { data, content } = matter(postContent);
-      const slug = file
-        .slice(file.indexOf(BASE_PATH))
-        .replace(`${BASE_PATH}/`, '')
-        .replace('/index.mdx', '');
-      const mdx = await serialize(content, {
-        mdxOptions: {
-          remarkPlugins: [[transformImgSrc, { slug }]],
-          rehypePlugins: [rehypeHighlight],
-        },
-      });
+const parsePost = async (postPath: string): Promise<Post> => {
+  const file = fs.readFileSync(postPath, 'utf8');
+  const { data, content } = matter(file);
+  const grayMatter = data as PostMatter;
+  const slug = postPath
+    .slice(postPath.indexOf(BASE_PATH))
+    .replace(`${BASE_PATH}/`, '')
+    .replace('/index.mdx', '');
+  const mdx = await serialize(content, {
+    mdxOptions: {
+      remarkPlugins: [[transformImgSrc, { slug }]],
+      rehypePlugins: [rehypeHighlight],
+    },
+  });
 
-      return {
-        ...data,
-        slug,
-        mdx,
-      } as Post;
+  return {
+    ...grayMatter,
+    slug,
+    mdx,
+  };
+};
+
+export const getPosts = async (): Promise<Post[]> => {
+  const postPaths: string[] = sync(`${POSTS_PATH}/**/*.mdx`);
+  const result = await Promise.all(
+    postPaths.map((postPath) => {
+      return parsePost(postPath);
     }),
   );
 
