@@ -11,7 +11,7 @@ export const ResetStyle = createGlobalStyle`
     scroll-behavior: smooth;
   }
   body {
-    font-family: sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
