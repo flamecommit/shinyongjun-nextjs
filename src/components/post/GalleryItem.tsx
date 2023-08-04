@@ -54,10 +54,13 @@ const StyledPostGalleryItem = styled.div.attrs<{ $transform: string }>(
   position: absolute;
   cursor: grab;
   padding: 20px;
+  margin: 20px;
   background-color: #fff;
+  max-width: 100%;
   img {
     pointer-events: none;
     user-select: none;
+    max-width: 100%;
   }
   &[data-pressed='true'] {
     cursor: grabbing;
