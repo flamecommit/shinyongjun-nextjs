@@ -9,6 +9,7 @@ function BaseGnb() {
       <Link href="/">Home</Link>
       <Link href="/category">Category</Link>
       <Link href="/about">About</Link>
+      <Link href="/work">Work</Link>
     </StyledBaseGnb>
   );
 }

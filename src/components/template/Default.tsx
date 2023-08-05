@@ -23,7 +23,7 @@ const StyledDefaultTemplate = styled.div`
   position: relative;
   min-height: 100vh;
   padding-block: 60px;
-  background-color: #f7f7f7;
+  background-color: #eee;
 `;
 
 export default DefaultTemplate;

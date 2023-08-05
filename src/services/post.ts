@@ -7,7 +7,7 @@ import { serialize } from 'next-mdx-remote/serialize';
 import rehypeHighlight from 'rehype-highlight';
 import { visit } from 'unist-util-visit';
 import { Node, Parent } from 'unist';
-import { getExtensionOfFilename } from '@/libs/utils/file';
+import { getExtensionOfFilename } from '@/utils/file';
 
 const BASE_PATH = '/posts';
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
