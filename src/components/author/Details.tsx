@@ -2,24 +2,24 @@
 
 import styled from 'styled-components';
 import { SiTypescript } from '@react-icons/all-files/si/SiTypescript';
-import { SiJavascript } from '@react-icons/all-files/si/SiJavascript';
-import { SiCss3 } from '@react-icons/all-files/si/SiCss3';
 import { SiSass } from '@react-icons/all-files/si/SiSass';
-import { SiHtml5 } from '@react-icons/all-files/si/SiHtml5';
 import { SiReact } from '@react-icons/all-files/si/SiReact';
-import { SiVueDotJs } from '@react-icons/all-files/si/SiVueDotJs';
-import { SiNuxtDotJs } from '@react-icons/all-files/si/SiNuxtDotJs';
 import { SiNextDotJs } from '@react-icons/all-files/si/SiNextDotJs';
 import { SiNodeDotJs } from '@react-icons/all-files/si/SiNodeDotJs';
 import { SiGit } from '@react-icons/all-files/si/SiGit';
 import { SiJquery } from '@react-icons/all-files/si/SiJquery';
 import { SiNotion } from '@react-icons/all-files/si/SiNotion';
-import { SiAdobephotoshop } from '@react-icons/all-files/si/SiAdobephotoshop';
 import { SiJira } from '@react-icons/all-files/si/SiJira';
 import { SiConfluence } from '@react-icons/all-files/si/SiConfluence';
 import Figma from '@/assets/icons/figma.svg';
 import VSCode from '@/assets/icons/vscode.svg';
 import Gmail from '@/assets/icons/gmail.svg';
+import Photoshop from '@/assets/icons/photoshop.svg';
+import Vue from '@/assets/icons/vue.svg';
+import Nuxt from '@/assets/icons/nuxt.svg';
+import Css from '@/assets/icons/css.svg';
+import Html from '@/assets/icons/html.svg';
+import Javascript from '@/assets/icons/javascript.svg';
 
 function AuthorDetails() {
   return (
@@ -28,11 +28,11 @@ function AuthorDetails() {
         <h3 className="section-title">Stacks</h3>
         <div className="item-list">
           <div className="item">
-            <SiHtml5 style={{ color: '#DD4B25' }} />
+            <img src={Html.src} alt="" />
             HTML
           </div>
           <div className="item">
-            <SiCss3 style={{ color: '#146EB1' }} />
+            <img src={Css.src} alt="" />
             CSS
           </div>
           <div className="item">
@@ -40,7 +40,7 @@ function AuthorDetails() {
             SASS
           </div>
           <div className="item">
-            <SiJavascript style={{ color: '#F7DF1E' }} />
+            <img src={Javascript.src} alt="" />
             Javascript
           </div>
           <div className="item">
@@ -64,11 +64,11 @@ function AuthorDetails() {
             Next.js
           </div>
           <div className="item">
-            <SiVueDotJs style={{ color: '#3FB27F' }} />
+            <img src={Vue.src} alt="" />
             Vue.js
           </div>
           <div className="item">
-            <SiNuxtDotJs style={{ color: '#00D57E' }} />
+            <img src={Nuxt.src} alt="" />
             Nuxt.js
           </div>
           <div className="item">
@@ -89,7 +89,7 @@ function AuthorDetails() {
             Figma
           </div>
           <div className="item">
-            <SiAdobephotoshop style={{ color: '#2FA3F7' }} />
+            <img src={Photoshop.src} alt="" />
             Photoshop
           </div>
           <div className="item">
@@ -141,9 +141,8 @@ const StyledAuthorDetails = styled.div`
         font-size: 14px;
         img,
         svg {
-          width: 18px;
+          min-width: 18px;
           height: 18px;
-          font-size: 18px;
         }
       }
     }
