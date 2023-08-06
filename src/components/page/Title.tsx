@@ -11,6 +11,7 @@ function PageTitle({ children }: Props) {
 }
 
 const StyledPageTitle = styled.h2`
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 24px;

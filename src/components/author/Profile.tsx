@@ -1,7 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
-import { FaGithub } from 'react-icons/fa';
+import { SiGithub } from '@react-icons/all-files/si/SiGithub';
 
 function AuthorProfile() {
   return (
@@ -10,15 +10,15 @@ function AuthorProfile() {
         <img src="/images/author-avatar.jpg" alt="" />
       </div>
       <div className="names-container">
-        <div className="name">Yongjun Shin</div>
-        <div className="bio">Welcome to shinyongjun.com</div>
+        <div className="name">신용준</div>
+        <div className="bio">기타치는 집돌이</div>
         <div className="links">
           <a
             href="https://github.com/shinyj1991"
             target="_blank"
             rel="noreferrer"
           >
-            <FaGithub />
+            <SiGithub style={{ color: '#000000' }} />
           </a>
         </div>
       </div>
@@ -40,15 +40,16 @@ const StyledAuthorProfile = styled.div`
   }
   .names-container {
     .name {
-      font-weight: 700;
       font-size: 20px;
+      letter-spacing: -0.05em;
     }
     .bio {
-      margin-top: 6px;
-      color: #000;
+      color: #666;
+      font-size: 14px;
+      letter-spacing: -0.02em;
     }
     .links {
-      margin-top: 9px;
+      margin-top: 6px;
       a {
         font-size: 20px;
         line-height: 1;
