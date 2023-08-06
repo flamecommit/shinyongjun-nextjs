@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import styled from 'styled-components';
-import useMousePressed from '@/libs/hooks/useMousePressed';
+import useMousePressed from '@/hooks/useMousePressed';
 
 type Props = {
   image: string;

@@ -2,7 +2,8 @@
 
 import { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
-import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
+import { FiChevronLeft } from '@react-icons/all-files/fi/FiChevronLeft';
+import { FiChevronRight } from '@react-icons/all-files/fi/FiChevronRight';
 import { CSSTransition } from 'react-transition-group';
 import PostGalleryItem from './GalleryItem';
 
