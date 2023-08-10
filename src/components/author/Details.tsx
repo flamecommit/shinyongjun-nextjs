@@ -11,6 +11,8 @@ import { SiJquery } from '@react-icons/all-files/si/SiJquery';
 import { SiNotion } from '@react-icons/all-files/si/SiNotion';
 import { SiJira } from '@react-icons/all-files/si/SiJira';
 import { SiConfluence } from '@react-icons/all-files/si/SiConfluence';
+import { SiAzuredevops } from '@react-icons/all-files/si/SiAzuredevops';
+import { SiRedux } from '@react-icons/all-files/si/SiRedux';
 import Figma from '@/assets/icons/figma.svg';
 import VSCode from '@/assets/icons/vscode.svg';
 import Gmail from '@/assets/icons/gmail.svg';
@@ -20,6 +22,7 @@ import Nuxt from '@/assets/icons/nuxt.svg';
 import Css from '@/assets/icons/css.svg';
 import Html from '@/assets/icons/html.svg';
 import Javascript from '@/assets/icons/javascript.svg';
+import Zeplin from '@/assets/icons/zeplin.svg';
 
 function AuthorDetails() {
   return (
@@ -60,6 +63,10 @@ function AuthorDetails() {
             React
           </div>
           <div className="item">
+            <SiRedux style={{ color: '#593D88' }} />
+            Redux
+          </div>
+          <div className="item">
             <SiNextDotJs style={{ color: '#000000' }} />
             Next.js
           </div>
@@ -93,6 +100,10 @@ function AuthorDetails() {
             Photoshop
           </div>
           <div className="item">
+            <img src={Zeplin.src} alt="" />
+            Zeplin
+          </div>
+          <div className="item">
             <SiNotion style={{ color: '#000000' }} />
             Notion
           </div>
@@ -103,6 +114,10 @@ function AuthorDetails() {
           <div className="item">
             <SiConfluence style={{ color: '#2684FF' }} />
             Confluence
+          </div>
+          <div className="item">
+            <SiAzuredevops style={{ color: '#0078D4' }} />
+            Azure DevOps
           </div>
         </div>
       </section>
