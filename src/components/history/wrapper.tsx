@@ -1,25 +1,16 @@
 'use client';
 
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import styled from 'styled-components';
-
-interface HistoryType {
-  index: number;
-  key: string;
-  year: number;
-  yearSize: number;
-  month: number;
-}
+import { companies, portfolios } from '@/constants/history';
+import type {
+  CompanyType,
+  HistoryType,
+  PortfolioType,
+} from '@/constants/history';
 
 function HistoryWrapper() {
   const [histories, setHistories] = useState<HistoryType[]>([]);
-  const companies = [
-    { name: 'Wise C&S', joining: [2013, 9], leaving: [2014, 1] },
-    { name: 'Megacoding', joining: [2014, 2], leaving: [2015, 3] },
-    { name: 'Newriver', joining: [2015, 4], leaving: [2018, 8] },
-    { name: 'Newborn Holdings', joining: [2019, 2], leaving: [2022, 2] },
-    { name: 'Wemade', joining: [2022, 3], leaving: [] },
-  ];
 
   useEffect(() => {
     const today = new Date();
@@ -34,12 +25,33 @@ function HistoryWrapper() {
       const firstMonth = year === historyStart[0] ? historyStart[1] : 1;
 
       for (let month = lastMonth; month >= firstMonth; month--) {
+        const company: CompanyType | undefined = companies.find(
+          (item) => item.leave[0] === year && item.leave[1] === month,
+        );
+
+        const portfolio: PortfolioType | undefined = portfolios.find(
+          (item) => item.ended[0] === year && item.ended[1] === month,
+        );
+
         temp.push({
           index: ++rowIndex,
           key: `${year}-${month}`,
           year,
           yearSize: month === lastMonth ? lastMonth - firstMonth : 0,
           month,
+          company: company && {
+            ...company,
+            size: (year - company.join[0]) * 12 + month - company.join[1] + 1,
+          },
+          portfolio: portfolio && {
+            ...portfolio,
+            size:
+              (year - portfolio.started[0]) * 12 +
+              month -
+              portfolio.started[1] +
+              1,
+          },
+          // ...(company && company),
         });
       }
     }
@@ -51,22 +63,46 @@ function HistoryWrapper() {
     <StyledHistoryWrapper>
       {histories.map((history) => {
         return (
-          <>
-            {history.yearSize > 0 && (
-              <div
-                className="year"
-                style={{
-                  gridRowStart: history.index,
-                  gridRowEnd: history.index + history.yearSize + 1,
-                }}
-              >
-                {history.year}
+          <Fragment key={history.key}>
+            <div
+              className="year"
+              style={{
+                gridColumnStart: 1,
+                gridColumnEnd: 1,
+                gridRowStart: history.index,
+                gridRowEnd: history.index + history.yearSize + 1,
+              }}
+            >
+              <div className="sticky">
+                {history.yearSize > 0 && history.year}
               </div>
-            )}
+            </div>
             <div className="month">{history.month}</div>
-            <div className="company" />
-            <div className="work" />
-          </>
+            <div
+              className="company"
+              data-test={!!history.company?.name}
+              style={{
+                gridColumnStart: 3,
+                gridColumnEnd: 3,
+                gridRowStart: history.index,
+                gridRowEnd: history.index + (history.company?.size ?? 0),
+              }}
+            >
+              <div className="sticky">{history.company?.name}</div>
+            </div>
+            <div
+              className="portfolio"
+              data-test={!!history.portfolio?.name}
+              style={{
+                gridColumnStart: 4,
+                gridColumnEnd: 4,
+                gridRowStart: history.index,
+                gridRowEnd: history.index + (history.portfolio?.size ?? 0),
+              }}
+            >
+              <div className="sticky">{history.portfolio?.name}</div>
+            </div>
+          </Fragment>
         );
       })}
     </StyledHistoryWrapper>
@@ -77,6 +113,33 @@ const StyledHistoryWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 24px;
+  row-gap: 12px;
+  column-gap: 12px;
+  .month {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .company {
+    &[data-test='true'] {
+      background-color: #f7f7f7;
+    }
+  }
+  .portfolio {
+    &[data-test='true'] {
+      background-color: #f7f7f7;
+    }
+  }
+  .sticky {
+    position: sticky;
+    top: 60px;
+    left: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export default HistoryWrapper;
