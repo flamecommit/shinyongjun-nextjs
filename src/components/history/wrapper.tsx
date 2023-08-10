@@ -73,6 +73,7 @@ function HistoryWrapper() {
             <Fragment key={history.key}>
               <div
                 className="year"
+                data-value={history.yearSize > 0}
                 style={{
                   gridColumnStart: 1,
                   gridColumnEnd: 1,
@@ -89,7 +90,7 @@ function HistoryWrapper() {
               </div>
               <div
                 className="company"
-                data-is-valid={!!history.company?.name}
+                data-value={!!history.company?.size}
                 style={{
                   gridColumnStart: 3,
                   gridColumnEnd: 3,
@@ -101,7 +102,7 @@ function HistoryWrapper() {
               </div>
               <div
                 className="portfolio"
-                data-is-valid={!!history.portfolio?.name}
+                data-value={!!history.portfolio?.size}
                 style={{
                   gridColumnStart: 4,
                   gridColumnEnd: 4,
@@ -122,12 +123,14 @@ function HistoryWrapper() {
 const StyledHistoryWrapper = styled.div`
   .history-head {
     margin-inline: -36px;
-    padding-inline: 36px;
+    padding-inline: 12px;
     display: flex;
     position: sticky;
     top: 60px;
     z-index: 1;
-    background-color: #666;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     > div {
       display: flex;
       align-items: center;
@@ -145,19 +148,29 @@ const StyledHistoryWrapper = styled.div`
     margin-top: 12px;
     row-gap: 12px;
     column-gap: 12px;
-    .year,
+    margin-inline: -24px;
+    > div {
+      width: 100%;
+      flex-grow: 1;
+      flex-basis: 100%;
+    }
+    .year {
+      &[data-value='true'] {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+    }
     .month {
-      font-family: 'Roboto';
-      font-weight: 700;
+      background-color: rgba(0, 0, 0, 0.05);
     }
     .company,
     .portfolio {
       font-size: 14px;
       color: #000;
       line-height: 120%;
-      &[data-is-valid='true'] {
+      &[data-value='true'] {
         position: relative;
-        background-color: #eee;
+        background-color: rgba(0, 0, 0, 0.05);
       }
     }
     .sticky {
@@ -170,7 +183,7 @@ const StyledHistoryWrapper = styled.div`
       justify-content: center;
       align-items: center;
       text-align: center;
-      word-break: keep-all;
+      word-break: break-all;
     }
   }
 `;
