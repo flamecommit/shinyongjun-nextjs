@@ -61,84 +61,117 @@ function HistoryWrapper() {
 
   return (
     <StyledHistoryWrapper>
-      {histories.map((history) => {
-        return (
-          <Fragment key={history.key}>
-            <div
-              className="year"
-              style={{
-                gridColumnStart: 1,
-                gridColumnEnd: 1,
-                gridRowStart: history.index,
-                gridRowEnd: history.index + history.yearSize + 1,
-              }}
-            >
-              <div className="sticky">
-                {history.yearSize > 0 && history.year}
+      <div className="history-head">
+        <div>Year</div>
+        <div>Month</div>
+        <div>Company</div>
+        <div>Project</div>
+      </div>
+      <div className="history-body">
+        {histories.map((history) => {
+          return (
+            <Fragment key={history.key}>
+              <div
+                className="year"
+                style={{
+                  gridColumnStart: 1,
+                  gridColumnEnd: 1,
+                  gridRowStart: history.index,
+                  gridRowEnd: history.index + history.yearSize + 1,
+                }}
+              >
+                <div className="sticky">
+                  {history.yearSize > 0 && history.year}
+                </div>
               </div>
-            </div>
-            <div className="month">{history.month}</div>
-            <div
-              className="company"
-              data-test={!!history.company?.name}
-              style={{
-                gridColumnStart: 3,
-                gridColumnEnd: 3,
-                gridRowStart: history.index,
-                gridRowEnd: history.index + (history.company?.size ?? 0),
-              }}
-            >
-              <div className="sticky">{history.company?.name}</div>
-            </div>
-            <div
-              className="portfolio"
-              data-test={!!history.portfolio?.name}
-              style={{
-                gridColumnStart: 4,
-                gridColumnEnd: 4,
-                gridRowStart: history.index,
-                gridRowEnd: history.index + (history.portfolio?.size ?? 0),
-              }}
-            >
-              <div className="sticky">{history.portfolio?.name}</div>
-            </div>
-          </Fragment>
-        );
-      })}
+              <div className="month">
+                <div className="sticky">{history.month}</div>
+              </div>
+              <div
+                className="company"
+                data-is-valid={!!history.company?.name}
+                style={{
+                  gridColumnStart: 3,
+                  gridColumnEnd: 3,
+                  gridRowStart: history.index,
+                  gridRowEnd: history.index + (history.company?.size ?? 0),
+                }}
+              >
+                <div className="sticky">{history.company?.name}</div>
+              </div>
+              <div
+                className="portfolio"
+                data-is-valid={!!history.portfolio?.name}
+                style={{
+                  gridColumnStart: 4,
+                  gridColumnEnd: 4,
+                  gridRowStart: history.index,
+                  gridRowEnd: history.index + (history.portfolio?.size ?? 0),
+                }}
+              >
+                <div className="sticky">{history.portfolio?.name}</div>
+              </div>
+            </Fragment>
+          );
+        })}
+      </div>
     </StyledHistoryWrapper>
   );
 }
 
 const StyledHistoryWrapper = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-top: 24px;
-  row-gap: 12px;
-  column-gap: 12px;
-  .month {
-    height: 60px;
+  .history-head {
+    margin-inline: -36px;
+    padding-inline: 36px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .company {
-    &[data-test='true'] {
-      background-color: #f7f7f7;
-    }
-  }
-  .portfolio {
-    &[data-test='true'] {
-      background-color: #f7f7f7;
-    }
-  }
-  .sticky {
     position: sticky;
     top: 60px;
-    left: 0;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: 1;
+    background-color: #666;
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-basis: 100%;
+      height: 60px;
+      flex-grow: 1;
+      text-align: center;
+      color: #fff;
+    }
+  }
+  .history-body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 12px;
+    row-gap: 12px;
+    column-gap: 12px;
+    .year,
+    .month {
+      font-family: 'Roboto';
+      font-weight: 700;
+    }
+    .company,
+    .portfolio {
+      font-size: 14px;
+      color: #000;
+      line-height: 120%;
+      &[data-is-valid='true'] {
+        position: relative;
+        background-color: #eee;
+      }
+    }
+    .sticky {
+      position: sticky;
+      top: 120px;
+      left: 0;
+      height: 60px;
+      padding-inline: 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      word-break: keep-all;
+    }
   }
 `;
 
