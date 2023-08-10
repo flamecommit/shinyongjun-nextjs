@@ -9,7 +9,7 @@ import { visit } from 'unist-util-visit';
 import { Node, Parent } from 'unist';
 import { getExtensionOfFilename } from '@/utils/file';
 
-const BASE_PATH = '/posts';
+const BASE_PATH = '/contents/posts';
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
 
 interface PostMatter {
@@ -104,7 +104,7 @@ export const transformImgSrc = ({ slug }: { slug: string }) => {
       if (image === undefined) return;
 
       const fileName = image.url.replace('./', '');
-      const imageUrl = `./posts/${slug}/${fileName}`;
+      const imageUrl = `${POSTS_PATH}/${slug}/${fileName}`;
       const imageBuffer = fs.readFileSync(imageUrl);
       const base64String = imageBuffer.toString('base64');
       const extension = getExtensionOfFilename(fileName);

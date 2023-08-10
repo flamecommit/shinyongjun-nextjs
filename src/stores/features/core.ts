@@ -4,7 +4,7 @@ import type { PayloadAction } from '@reduxjs/toolkit';
 type LocaleType = 'ko' | 'en';
 
 export interface CoreState {
-  locale: 'ko' | 'en';
+  locale: LocaleType;
 }
 
 const initialState: CoreState = {
@@ -15,8 +15,9 @@ export const coreSlice = createSlice({
   name: 'core',
   initialState,
   reducers: {
+    // 동기적인 작업
     changeLocale: (state, action: PayloadAction<LocaleType>) => {
-      state.locale = action.payload;
+      return { ...state, locale: action.payload };
     },
   },
 });
