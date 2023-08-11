@@ -8,6 +8,7 @@ import type {
   HistoryType,
   PortfolioType,
 } from '@/constants/history';
+import { device, ellipsis } from '@/styles/mixin';
 
 function HistoryWrapper() {
   const [histories, setHistories] = useState<HistoryType[]>([]);
@@ -98,7 +99,9 @@ function HistoryWrapper() {
                   gridRowEnd: history.index + (history.company?.size ?? 0),
                 }}
               >
-                <div className="sticky">{history.company?.name}</div>
+                <div className="sticky">
+                  <div className="ellipsis">{history.company?.name}</div>
+                </div>
               </div>
               <div
                 className="portfolio"
@@ -110,7 +113,9 @@ function HistoryWrapper() {
                   gridRowEnd: history.index + (history.portfolio?.size ?? 0),
                 }}
               >
-                <div className="sticky">{history.portfolio?.name}</div>
+                <div className="sticky">
+                  <div className="ellipsis">{history.portfolio?.name}</div>
+                </div>
               </div>
             </Fragment>
           );
@@ -146,9 +151,9 @@ const StyledHistoryWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 12px;
-    row-gap: 12px;
-    column-gap: 12px;
+    gap: 12px;
     margin-inline: -24px;
+    font-size: 14px;
     > div {
       width: 100%;
       flex-grow: 1;
@@ -165,7 +170,6 @@ const StyledHistoryWrapper = styled.div`
     }
     .company,
     .portfolio {
-      font-size: 14px;
       color: #000;
       line-height: 120%;
       &[data-value='true'] {
@@ -184,6 +188,28 @@ const StyledHistoryWrapper = styled.div`
       align-items: center;
       text-align: center;
       word-break: break-all;
+    }
+    .ellipsis {
+      ${ellipsis(2)};
+    }
+  }
+  @media ${device.mobile} {
+    .history-head {
+      margin-inline: -12px;
+      padding-inline: 0;
+      font-size: 12px;
+      > div {
+        height: 36px;
+      }
+    }
+    .history-body {
+      margin-inline: -12px;
+      margin-top: 6px;
+      gap: 6px;
+      font-size: 12px;
+      .sticky {
+        height: 36px;
+      }
     }
   }
 `;

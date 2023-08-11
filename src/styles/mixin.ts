@@ -14,3 +14,15 @@ export const reset = css`
   background-repeat: no-repeat;
   mask-repeat: no-repeat;
 `;
+
+export const ellipsis = (line: number) => css`
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: ${line};
+`;
+
+export const device = {
+  mobile: `(max-width: 768px)`,
+};

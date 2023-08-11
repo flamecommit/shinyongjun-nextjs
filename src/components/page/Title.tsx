@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import { device } from '@/styles/mixin';
 
 type Props = {
   children: React.ReactNode;
@@ -14,7 +15,11 @@ const StyledPageTitle = styled.h2`
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 30px;
-  margin-bottom: 24px;
+  margin-bottom: 30px;
+  @media ${device.mobile} {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
 `;
 
 export default PageTitle;
