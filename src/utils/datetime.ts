@@ -21,7 +21,7 @@ export const getFormatDatetime = (datetime: Date, format: string) => {
 };
 
 export const getMonthArray = (year: number, month: number) => {
-  const daysInMonth = new Date(year, month, 0).getDate();
+  const daysInMonth = new Date(year, month, 0, 9, 0, 0).getDate();
   const monthArray = [];
 
   for (let day = 1; day <= daysInMonth; day++) {

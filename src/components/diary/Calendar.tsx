@@ -2,18 +2,18 @@
 
 import styled from 'styled-components';
 import { useState, useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { FiChevronLeft } from '@react-icons/all-files/fi/FiChevronLeft';
 import { FiChevronRight } from '@react-icons/all-files/fi/FiChevronRight';
-import type { RootState } from '@/stores/store';
 import { getFormatDatetime, getMonthArray } from '@/utils/datetime';
 import { diaryActions } from '@/stores/features/diary';
 
 function DiaryCalendar() {
-  const today = new Date();
-  const todayDate = getFormatDatetime(today, 'YYYY-MM-DD');
-  const [year, setYear] = useState(today.getFullYear());
-  const [month, setMonth] = useState(today.getMonth() + 1);
+  const now = new Date();
+  const koreaTime = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+  const todayDate = getFormatDatetime(koreaTime, 'YYYY-MM-DD');
+  const [year, setYear] = useState(koreaTime.getFullYear());
+  const [month, setMonth] = useState(koreaTime.getMonth() + 1);
   const [localCurrentDate, setLocalCurrentDate] = useState(todayDate);
   const dispatch = useDispatch();
   const [monthArray, setMonthArray] = useState(getMonthArray(year, month));
