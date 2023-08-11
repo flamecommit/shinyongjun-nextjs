@@ -8,7 +8,7 @@ const RootPage = async () => {
   return (
     <>
       <AuthorProfile />
-      <PostList postList={posts} />
+      {posts.length ? <PostList postList={posts} /> : <div>no</div>}
     </>
   );
 };

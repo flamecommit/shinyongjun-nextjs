@@ -75,7 +75,7 @@ const StyledPostViewer = styled.article`
     margin-bottom: 60px;
     .post-title {
       font-weight: 700;
-      font-size: 48px;
+      font-size: 30px;
       margin-bottom: 12px;
     }
     .post-date {
