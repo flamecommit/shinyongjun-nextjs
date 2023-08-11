@@ -13,7 +13,7 @@ function BaseHeader() {
 
 const StyledBaseHeader = styled.header`
   backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(5px);
   display: flex;
   align-items: center;
   height: 60px;
