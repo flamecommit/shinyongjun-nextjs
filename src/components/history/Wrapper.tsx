@@ -14,9 +14,10 @@ function HistoryWrapper() {
   const [histories, setHistories] = useState<HistoryType[]>([]);
 
   useEffect(() => {
-    const today = new Date();
-    const todayYear = today.getFullYear();
-    const todayMonth = today.getMonth() + 1;
+    const now = new Date();
+    const koreaTime = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+    const todayYear = koreaTime.getFullYear();
+    const todayMonth = koreaTime.getMonth() + 1;
     const historyStart = [2013, 9];
     const temp = [];
     let rowIndex = 0;
@@ -52,7 +53,6 @@ function HistoryWrapper() {
               portfolio.started[1] +
               1,
           },
-          // ...(company && company),
         });
       }
     }
