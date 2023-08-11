@@ -13,7 +13,7 @@ function DiaryCalendar() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    document.title = `Diary - ${date}`;
+    document.title = `shinyongjun | Diary - ${date}`;
     dispatch(coreActions.changeTitle(date));
   }, [date, dispatch]);
 

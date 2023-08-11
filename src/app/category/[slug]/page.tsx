@@ -18,7 +18,7 @@ export async function generateMetadata(
   // const parentTitle = (await parent).title?.absolute;
 
   return {
-    title: `Category - ${slug}`,
+    title: `shinyongjun | Category - ${slug}`,
   };
 }
 
