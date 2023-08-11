@@ -21,7 +21,7 @@ function DiaryGiscus() {
     scriptElem.setAttribute('data-category', 'General');
     scriptElem.setAttribute('data-category-id', 'DIC_kwDOKAn1Ts4CYhyN');
     scriptElem.setAttribute('data-mapping', 'title');
-    scriptElem.setAttribute('data-strict', '0');
+    scriptElem.setAttribute('data-strict', '1');
     scriptElem.setAttribute('data-reactions-enabled', '0');
     scriptElem.setAttribute('data-emit-metadata', '0');
     scriptElem.setAttribute('data-input-position', 'bottom');
