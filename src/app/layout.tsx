@@ -8,7 +8,7 @@ type Props = {
 };
 
 export const metadata: Metadata = {
-  title: 'SHIN YONG JUN',
+  title: 'shinyongjun | Home',
   description: 'Welcome to Shinyongjun.com',
 };
 

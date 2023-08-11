@@ -25,7 +25,7 @@ function DiaryGiscus() {
     scriptElem.setAttribute('data-reactions-enabled', '0');
     scriptElem.setAttribute('data-emit-metadata', '0');
     scriptElem.setAttribute('data-input-position', 'bottom');
-    scriptElem.setAttribute('data-theme', 'preferred_color_scheme');
+    scriptElem.setAttribute('data-theme', 'light');
     scriptElem.setAttribute('data-lang', 'en');
 
     ref.current.appendChild(scriptElem);
