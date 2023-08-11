@@ -18,6 +18,7 @@ export const ResetStyle = createGlobalStyle`
     color: #000;
     background: #fff;
     -webkit-text-size-adjust: 100%;
+    min-width: 320px;
     &.is-mobile {
       font-size: 12px;
     }

@@ -23,6 +23,7 @@ import Css from '@/assets/icons/css.svg';
 import Html from '@/assets/icons/html.svg';
 import Javascript from '@/assets/icons/javascript.svg';
 import Zeplin from '@/assets/icons/zeplin.svg';
+import { device } from '@/styles/mixin';
 
 function AuthorDetails() {
   return (
@@ -138,28 +139,33 @@ const StyledAuthorDetails = styled.div`
   > section {
     margin-top: 60px;
     font-family: 'Roboto';
-    .section-title {
-      font-size: 22px;
-      font-weight: 700;
-      margin-bottom: 12px;
-    }
-    .item-list {
+  }
+  .section-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 18px;
+    max-width: 600px;
+    .item {
       display: flex;
-      flex-wrap: wrap;
-      column-gap: 24px;
-      row-gap: 18px;
-      max-width: 600px;
-      .item {
-        display: flex;
-        align-items: center;
-        column-gap: 4px;
-        font-size: 14px;
-        img,
-        svg {
-          min-width: 18px;
-          height: 18px;
-        }
+      align-items: center;
+      column-gap: 4px;
+      font-size: 14px;
+      img,
+      svg {
+        min-width: 18px;
+        height: 18px;
       }
+    }
+  }
+  @media ${device.mobile} {
+    .section-title {
+      font-size: 18px;
     }
   }
 `;

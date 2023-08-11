@@ -78,6 +78,7 @@ function DiaryCalendar() {
                 key={item.date}
                 data-day={item.day}
                 onClick={(e) => actionCurrentDate(e, item.ISO)}
+                title={item.ISO}
               >
                 {item.date}
               </button>

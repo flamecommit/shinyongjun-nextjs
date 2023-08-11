@@ -58,8 +58,10 @@ const StyledAuthorProfile = styled.div`
       letter-spacing: -0.02em;
     }
     .links {
+      display: flex;
       margin-top: 6px;
       a {
+        display: block;
         font-size: 20px;
         line-height: 1;
       }

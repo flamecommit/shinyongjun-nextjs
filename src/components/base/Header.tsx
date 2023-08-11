@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import BaseGnb from '@/components/base/Gnb';
+import { device } from '@/styles/mixin';
 
 function BaseHeader() {
   return (
@@ -26,6 +27,9 @@ const StyledBaseHeader = styled.header`
   z-index: 100;
   background-color: rgba(255, 255, 255, 0.7);
   overflow-x: auto;
+  @media ${device.mobile} {
+    height: 48px;
+  }
 `;
 
 export default BaseHeader;

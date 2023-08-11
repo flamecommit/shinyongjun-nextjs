@@ -154,6 +154,7 @@ const StyledHistoryWrapper = styled.div`
     gap: 12px;
     margin-inline: -24px;
     font-size: 14px;
+    line-height: 140%;
     > div {
       width: 100%;
       flex-grow: 1;
@@ -171,7 +172,6 @@ const StyledHistoryWrapper = styled.div`
     .company,
     .portfolio {
       color: #000;
-      line-height: 120%;
       &[data-value='true'] {
         position: relative;
         background-color: rgba(0, 0, 0, 0.05);
@@ -198,6 +198,7 @@ const StyledHistoryWrapper = styled.div`
       margin-inline: -12px;
       padding-inline: 0;
       font-size: 12px;
+      top: 48px;
       > div {
         height: 36px;
       }
@@ -208,6 +209,7 @@ const StyledHistoryWrapper = styled.div`
       gap: 6px;
       font-size: 12px;
       .sticky {
+        top: calc(48px + 36px + 6px);
         height: 36px;
       }
     }
