@@ -1,0 +1,66 @@
+---
+title: styled-component 재사용 코드 예제 (mixin)
+date: 2023-08-12
+categories: ['css', 'styled-component']
+---
+
+`styled-component`는 `react` 환경에서 가장 많이 사용되는 styling 모듈이다.
+문법을 훼손시키지 않고 `css` 와 `javascript` 를 병합해주는 역할을 한다.
+
+아래는 `styled-component` 를 사용한 스타일 재사용 예제 코드이다.
+
+**`mixin.ts`**
+
+```ts
+import { css } from 'styled-components';
+
+export const reset = css`
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  vertical-align: top;
+  text-underline-position: under;
+  background-repeat: no-repeat;
+  mask-repeat: no-repeat;
+`;
+
+export const ellipsis = (line: number) => css`
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: ${line};
+`;
+
+export const device = {
+  mobile: `(max-width: 768px)`,
+};
+```
+
+사용 방법은 다음과 같다.
+
+**`reset.ts`**
+
+```ts
+import { createGlobalStyle } from 'styled-components';
+import { reset } from '@/styles/mixin';
+
+export const ResetStyle = createGlobalStyle`
+  *,
+  :before,
+  :after {
+    ${reset};
+  }
+  .ellipsis {
+    ${ellipsis(2)};
+  }
+  @media ${device.mobile} {
+    min-width: 320px;
+  }
+`;
+```
