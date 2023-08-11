@@ -7,6 +7,7 @@ import { Post } from '@/services/post';
 import { getFormatDatetime } from '@/utils/datetime';
 import { prism } from '@/styles/prism';
 import { markdown } from '@/styles/markdown';
+import { device } from '@/styles/mixin';
 import PostGallery from './Gallery';
 import CategoryItem from '../category/Item';
 
@@ -84,6 +85,11 @@ const StyledPostViewer = styled.article`
       font-size: 30px;
       margin-bottom: 12px;
     }
+    .post-categories {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+    }
     .post-date {
       margin-top: 6px;
       color: #666;
@@ -94,6 +100,19 @@ const StyledPostViewer = styled.article`
     ${prism}
     img {
       cursor: pointer;
+    }
+  }
+  @media ${device.mobile} {
+    .post-header {
+      .post-title {
+        font-size: 24px;
+      }
+      .post-date {
+        font-size: 12px;
+      }
+    }
+    .post-content {
+      font-size: 14px;
     }
   }
 `;
