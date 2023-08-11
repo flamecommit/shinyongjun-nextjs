@@ -1,14 +1,14 @@
-0:["1YjDcS6np5iQYG8nhv38d",[[["",{"children":["category",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["1YjDcS6np5iQYG8nhv38d",[[["",{"children":["category",{"children":[["slug","styled-component","d"],{"children":["__PAGE__?{\"slug\":\"styled-component\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":8162,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","815:static/chunks/815-add3bb04c7929bca.js","185:static/chunks/app/layout-4fecf933a32deb5b.js"],"name":"","async":false}
 4:I{"id":9727,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","815:static/chunks/815-add3bb04c7929bca.js","185:static/chunks/app/layout-4fecf933a32deb5b.js"],"name":"","async":false}
 5:I{"id":7773,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","815:static/chunks/815-add3bb04c7929bca.js","185:static/chunks/app/layout-4fecf933a32deb5b.js"],"name":"","async":false}
 6:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 7:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
-1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","category","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L8",null],"segment":"__PAGE__"},"styles":[]}],"segment":"category"},"styles":[]}]}]}]}]}]]}],null]
-2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Category"}],["$","meta","2",{"name":"description","content":"Welcome to Shinyongjun.com"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-9:I{"id":6680,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","572:static/chunks/app/category/page-31c3cf8736c54482.js"],"name":"","async":false}
-a:I{"id":6529,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","572:static/chunks/app/category/page-31c3cf8736c54482.js"],"name":"","async":false}
-b:I{"id":7493,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","572:static/chunks/app/category/page-31c3cf8736c54482.js"],"name":"","async":false}
+1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","category","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","category","children",["slug","styled-component","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L8",null],"segment":"__PAGE__?{\"slug\":\"styled-component\"}"},"styles":[]}],"segment":["slug","styled-component","d"]},"styles":[]}],"segment":"category"},"styles":[]}]}]}]}]}]]}],null]
+2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Category - styled-component"}],["$","meta","2",{"name":"description","content":"Welcome to Shinyongjun.com"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:I{"id":6680,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-adf97f20bbd1f86c.js"],"name":"","async":false}
+a:I{"id":6529,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-adf97f20bbd1f86c.js"],"name":"","async":false}
+b:I{"id":7493,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-adf97f20bbd1f86c.js"],"name":"","async":false}
 c:T1fda,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
@@ -218,57 +218,4 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-d:Ta71,/*@jsxRuntime automatic @jsxImportSource react*/
-const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
-const {useMDXComponents: _provideComponents} = arguments[0];
-function _createMdxContent(props) {
-  const _components = Object.assign({
-    p: "p",
-    code: "code"
-  }, _provideComponents(), props.components);
-  return _jsxs(_Fragment, {
-    children: [_jsxs(_components.p, {
-      children: [_jsx(_components.code, {
-        children: "vue.js"
-      }), " 를 사용하던 회사에서 ", _jsx(_components.code, {
-        children: "react"
-      }), " 로의 스택변화가 있어 공부 목적으로 블로그를 리뉴얼 하였습니다.\n리뉴얼은 ", _jsx(_components.code, {
-        children: "next.js"
-      }), " 라는 react 기반의 SSR 프레임워크를 사용했으며 제일 최신버전인 13버전을 채택했습니다."]
-    }), "\n", _jsxs(_components.p, {
-      children: [_jsx(_components.code, {
-        children: "next.js"
-      }), " 프레임워크는 SSR 빌드와 SSG 빌드를 모두 제공하는데, 이 블로그처럼 github pages를 사용하기 위해선 SSG 방식의 빌드 결과물이 필요합니다."]
-    }), "\n", _jsxs(_components.p, {
-      children: ["블로그 포스팅은 ", _jsx(_components.code, {
-        children: "mdx"
-      }), " 파일확장을 사용했습니다. ", _jsx(_components.code, {
-        children: "mdx"
-      }), "란 마크다운 파일에서 직접 ", _jsx(_components.code, {
-        children: "jsx"
-      }), "를 작성할 수 있는 마크다운의 상위 집합입니다.\n", _jsx(_components.code, {
-        children: "mdx"
-      }), " 파일 렌더링은 ", _jsx(_components.code, {
-        children: "react-mdx-remote"
-      }), " 모듈을 사용했습니다."]
-    }), "\n", _jsxs(_components.p, {
-      children: [_jsx(_components.code, {
-        children: "nuxt.js"
-      }), " 를 사용하여 블로그를 만들땐 이미 지어진 공장에서 제품만 찍어낸다는 느낌이었는데\n", _jsx(_components.code, {
-        children: "next.js"
-      }), " 는 공장 설비부터 직접 개발하는 느낌이 들어 좀더 재미를 느낄수 있었습니다."]
-    }), "\n", _jsx(_components.p, {
-      children: "앞으로 이 블로그를 통하여 블로그에 적용한 기술이나 공부한 내용들을 포스팅 할 계획입니다."
-    })]
-  });
-}
-function MDXContent(props = {}) {
-  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
-  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
-    children: _jsx(_createMdxContent, props)
-  })) : _createMdxContent(props);
-}
-return {
-  default: MDXContent
-};
-8:[["$","$L9",null,{"children":"Category"}],["$","$La",null,{"categories":["css","styled-component","next.js"]}],["$","$Lb",null,{"postList":[{"title":"styled-component 재사용 코드 예제 (mixin)","date":"$D2023-08-12T00:00:00.000Z","categories":["css","styled-component"],"slug":"2","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}},{"title":"블로그 리뉴얼 (by Next.js 13)","date":"$D2023-08-11T00:00:00.000Z","categories":["next.js"],"slug":"1","mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}}]}]]
+8:[["$","$L9",null,{"children":["Category - ","styled-component"]}],["$","$La",null,{"categories":["css","styled-component","next.js"]}],["$","$Lb",null,{"postList":[{"title":"styled-component 재사용 코드 예제 (mixin)","date":"$D2023-08-12T00:00:00.000Z","categories":["css","styled-component"],"slug":"2","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}}]}]]

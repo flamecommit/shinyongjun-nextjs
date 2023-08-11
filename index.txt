@@ -1,4 +1,4 @@
-0:["XJdVaxxomF75FVXfRuPjV",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["1YjDcS6np5iQYG8nhv38d",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":8162,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","815:static/chunks/815-add3bb04c7929bca.js","185:static/chunks/app/layout-4fecf933a32deb5b.js"],"name":"","async":false}
 4:I{"id":9727,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","815:static/chunks/815-add3bb04c7929bca.js","185:static/chunks/app/layout-4fecf933a32deb5b.js"],"name":"","async":false}
 5:I{"id":7773,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","815:static/chunks/815-add3bb04c7929bca.js","185:static/chunks/app/layout-4fecf933a32deb5b.js"],"name":"","async":false}
@@ -6,9 +6,218 @@
 7:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L8",null],"segment":"__PAGE__"},"styles":[]}]}]}]}]}]]}],null]
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Home"}],["$","meta","2",{"name":"description","content":"Welcome to Shinyongjun.com"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-9:I{"id":7137,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","931:static/chunks/app/page-7c41eefd717ae4cf.js"],"name":"","async":false}
-a:I{"id":7493,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","931:static/chunks/app/page-7c41eefd717ae4cf.js"],"name":"","async":false}
-b:Ta71,/*@jsxRuntime automatic @jsxImportSource react*/
+9:I{"id":7137,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","931:static/chunks/app/page-f8931d08051ee3a8.js"],"name":"","async":false}
+a:I{"id":7493,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","931:static/chunks/app/page-f8931d08051ee3a8.js"],"name":"","async":false}
+b:T1fda,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    p: "p",
+    code: "code",
+    strong: "strong",
+    pre: "pre",
+    span: "span"
+  }, _provideComponents(), props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsxs(_components.p, {
+      children: [_jsx(_components.code, {
+        children: "styled-component"
+      }), "는 ", _jsx(_components.code, {
+        children: "react"
+      }), " 환경에서 가장 많이 사용되는 styling 모듈입니다.\n문법을 훼손시키지 않고 ", _jsx(_components.code, {
+        children: "css"
+      }), " 와 ", _jsx(_components.code, {
+        children: "javascript"
+      }), " 를 병합해주는 역할을 합니다."]
+    }), "\n", _jsxs(_components.p, {
+      children: ["아래는 ", _jsx(_components.code, {
+        children: "styled-component"
+      }), " 를 사용한 스타일 재사용 예제 코드입니다."]
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: _jsx(_components.code, {
+          children: "mixin.ts"
+        })
+      })
+    }), "\n", _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-ts",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { css } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'styled-components'"
+        }), ";\n\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " reset = css`", _jsxs(_components.span, {
+          className: "css",
+          children: ["\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "box-sizing"
+          }), ": border-box;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "margin"
+          }), ": ", _jsx(_components.span, {
+            className: "hljs-number",
+            children: "0"
+          }), ";\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "padding"
+          }), ": ", _jsx(_components.span, {
+            className: "hljs-number",
+            children: "0"
+          }), ";\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "font-family"
+          }), ": inherit;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "font-weight"
+          }), ": inherit;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "font-size"
+          }), ": inherit;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "line-height"
+          }), ": inherit;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "color"
+          }), ": inherit;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "vertical-align"
+          }), ": top;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "text-underline-position"
+          }), ": under;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "background-repeat"
+          }), ": no-repeat;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "mask-repeat"
+          }), ": no-repeat;\n`"]
+        }), ";\n\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "ellipsis"
+        }), " = (", _jsxs(_components.span, {
+          className: "hljs-params",
+          children: ["line: ", _jsx(_components.span, {
+            className: "hljs-built_in",
+            children: "number"
+          })]
+        }), ") => css`", _jsxs(_components.span, {
+          className: "css",
+          children: ["\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "overflow"
+          }), ": hidden;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "text-overflow"
+          }), ": ellipsis;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "display"
+          }), ": -webkit-box;\n  -webkit-box-orient: vertical;\n  -webkit-line-clamp: "]
+        }), _jsx(_components.span, {
+          className: "hljs-subst",
+          children: "${line}"
+        }), _jsx(_components.span, {
+          className: "css",
+          children: ";\n`"
+        }), ";\n\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " device = {\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "mobile"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "`(max-width: 768px)`"
+        }), ",\n};\n"]
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "사용 방법은 다음과 같습니다."
+    }), "\n", _jsx(_components.p, {
+      children: _jsx(_components.strong, {
+        children: _jsx(_components.code, {
+          children: "reset.ts"
+        })
+      })
+    }), "\n", _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-ts",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { createGlobalStyle } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'styled-components'"
+        }), ";\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { reset } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'@/styles/mixin'"
+        }), ";\n\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "ResetStyle"
+        }), " = createGlobalStyle", _jsxs(_components.span, {
+          className: "hljs-string",
+          children: ["`\n  *,\n  :before,\n  :after {\n    ", _jsx(_components.span, {
+            className: "hljs-subst",
+            children: "${reset}"
+          }), ";\n  }\n  .ellipsis {\n    ", _jsxs(_components.span, {
+            className: "hljs-subst",
+            children: ["${ellipsis(", _jsx(_components.span, {
+              className: "hljs-number",
+              children: "2"
+            }), ")}"]
+          }), ";\n  }\n  @media ", _jsx(_components.span, {
+            className: "hljs-subst",
+            children: "${device.mobile}"
+          }), " {\n    min-width: 320px;\n  }\n`"]
+        }), ";\n"]
+      })
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+c:Ta71,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -61,4 +270,4 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-8:[["$","$L9",null,{}],["$","$La",null,{"postList":[{"title":"블로그 리뉴얼 (by Next.js 13)","date":"$D2023-08-11T00:00:00.000Z","categories":["next.js"],"slug":"1","mdx":{"compiledSource":"$b","frontmatter":{},"scope":{}}}]}]]
+8:[["$","$L9",null,{}],["$","$La",null,{"postList":[{"title":"styled-component 재사용 코드 예제 (mixin)","date":"$D2023-08-12T00:00:00.000Z","categories":["css","styled-component"],"slug":"2","mdx":{"compiledSource":"$b","frontmatter":{},"scope":{}}},{"title":"블로그 리뉴얼 (by Next.js 13)","date":"$D2023-08-11T00:00:00.000Z","categories":["next.js"],"slug":"1","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}}]}]]
