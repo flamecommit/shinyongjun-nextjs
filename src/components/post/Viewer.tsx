@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { MDXRemote } from 'next-mdx-remote';
 import { useEffect, useRef, useState } from 'react';
 import { Post } from '@/services/post';
-import { getFormatDatetime } from '@/utils/time';
+import { getFormatDatetime } from '@/utils/datetime';
 import { prism } from '@/styles/prism';
 import { markdown } from '@/styles/markdown';
 import PostGallery from './Gallery';

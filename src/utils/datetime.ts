@@ -19,3 +19,23 @@ export const getFormatDatetime = (datetime: Date, format: string) => {
 
   return result;
 };
+
+export const getMonthArray = (year: number, month: number) => {
+  const daysInMonth = new Date(year, month, 0).getDate();
+  const monthArray = [];
+
+  for (let day = 1; day <= daysInMonth; day++) {
+    const date = new Date(year, month - 1, day, 12, 0, 0);
+    const formattedDate = getFormatDatetime(date, 'YYYY-MM-DD');
+    const dayValue = date.getDate();
+    const dayOfWeek = date.getDay();
+
+    monthArray.push({
+      ISO: formattedDate,
+      date: dayValue,
+      day: dayOfWeek,
+    });
+  }
+
+  return monthArray;
+};

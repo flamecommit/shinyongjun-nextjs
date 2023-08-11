@@ -6,10 +6,10 @@ import type { RootState } from '@/stores/store';
 
 function DiaryGiscus() {
   const ref = useRef<HTMLDivElement>(null);
-  const { title } = useSelector((state: RootState) => state.core);
+  const { currentDate } = useSelector((state: RootState) => state.diary);
 
   useEffect(() => {
-    if (!ref.current || ref.current.hasChildNodes()) return;
+    if (!ref.current || !currentDate || ref.current.hasChildNodes()) return;
 
     const scriptElem = document.createElement('script');
     scriptElem.src = 'https://giscus.app/client.js';
@@ -26,20 +26,22 @@ function DiaryGiscus() {
     scriptElem.setAttribute('data-emit-metadata', '0');
     scriptElem.setAttribute('data-input-position', 'bottom');
     scriptElem.setAttribute('data-theme', 'light');
-    scriptElem.setAttribute('data-lang', 'en');
+    scriptElem.setAttribute('data-lang', 'ko');
 
     ref.current.appendChild(scriptElem);
-  }, []);
+  }, [currentDate]);
 
   useEffect(() => {
     const iframe = document.querySelector<HTMLIFrameElement>(
       'iframe.giscus-frame',
     );
     iframe?.contentWindow?.postMessage(
-      { giscus: { setConfig: { term: title } } },
+      {
+        giscus: { setConfig: { term: `shinyongjun | Diary - ${currentDate}` } },
+      },
       'https://giscus.app',
     );
-  }, [title]);
+  }, [currentDate]);
 
   return <section ref={ref} />;
 }

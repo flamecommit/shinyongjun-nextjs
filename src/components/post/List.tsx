@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 import { Post } from '@/services/post';
-import { getFormatDatetime } from '@/utils/time';
+import { getFormatDatetime } from '@/utils/datetime';
 import CategoryItem from '../category/Item';
 
 type Props = {

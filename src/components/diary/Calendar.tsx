@@ -2,45 +2,130 @@
 
 import styled from 'styled-components';
 import { useState, useEffect } from 'react';
-import { useDispatch } from 'react-redux';
-import { getFormatDatetime } from '@/utils/time';
-import { coreActions } from '@/stores/features/core';
+import { useDispatch, useSelector } from 'react-redux';
+import { FiChevronLeft } from '@react-icons/all-files/fi/FiChevronLeft';
+import { FiChevronRight } from '@react-icons/all-files/fi/FiChevronRight';
+import type { RootState } from '@/stores/store';
+import { getFormatDatetime, getMonthArray } from '@/utils/datetime';
+import { diaryActions } from '@/stores/features/diary';
 
 function DiaryCalendar() {
   const today = new Date();
-  const yyyymmdd = getFormatDatetime(today, 'YYYY-MM-DD');
-  const [date, setDate] = useState(yyyymmdd);
+  const todayDate = getFormatDatetime(today, 'YYYY-MM-DD');
+  const [year, setYear] = useState(today.getFullYear());
+  const [month, setMonth] = useState(today.getMonth() + 1);
+  const [localCurrentDate, setLocalCurrentDate] = useState(todayDate);
   const dispatch = useDispatch();
+  const [monthArray, setMonthArray] = useState(getMonthArray(year, month));
+
+  const setCurrentMonth = (move: number) => {
+    if (month + move > 12) {
+      setYear(year + 1);
+      return setMonth(1);
+    }
+    if (month + move < 1) {
+      setYear(year - 1);
+      return setMonth(12);
+    }
+    return setMonth(month + move);
+  };
+
+  const actionCurrentDate = (e: React.MouseEvent, date: string) => {
+    setLocalCurrentDate(date);
+  };
 
   useEffect(() => {
-    document.title = `shinyongjun | Diary - ${date}`;
-    dispatch(coreActions.changeTitle(date));
-  }, [date, dispatch]);
+    setMonthArray(getMonthArray(year, month));
+  }, [year, month]);
+
+  useEffect(() => {
+    document.title = `shinyongjun | Diary - ${localCurrentDate}`;
+    dispatch(diaryActions.setCurrentDate(localCurrentDate));
+
+    return () => {
+      dispatch(diaryActions.setCurrentDate(''));
+    };
+  }, [localCurrentDate, dispatch]);
 
   return (
     <>
       <StyledDiaryCalendar>
-        <button type="button" onClick={() => setDate('2023-08-11')}>
-          1
-        </button>
-        <button type="button" onClick={() => setDate('2023-08-12')}>
-          2
-        </button>
-        <button type="button" onClick={() => setDate('2023-08-13')}>
-          3
-        </button>
-        <button type="button">4</button>
-        <button type="button">5</button>
+        <div className="calendar-header">
+          <button
+            type="button"
+            className="btn-prev"
+            onClick={() => setCurrentMonth(-1)}
+          >
+            <FiChevronLeft />
+          </button>
+          <div className="current-year-month">
+            {year}. {month}.
+          </div>
+          <button
+            type="button"
+            className="btn-next"
+            onClick={() => setCurrentMonth(1)}
+          >
+            <FiChevronRight />
+          </button>
+        </div>
+        <div className="calendar-container">
+          {monthArray.map((item) => {
+            return (
+              <button
+                type="button"
+                className={`${localCurrentDate === item.ISO && 'active'}`}
+                key={item.date}
+                data-day={item.day}
+                onClick={(e) => actionCurrentDate(e, item.ISO)}
+              >
+                {item.date}
+              </button>
+            );
+          })}
+        </div>
       </StyledDiaryCalendar>
     </>
   );
 }
 
 const StyledDiaryCalendar = styled.div`
-  button {
-    width: 30px;
-    height: 30px;
-    background-color: #f7f7f7;
+  .calendar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 18px;
+    margin-bottom: 18px;
+    button {
+      line-height: 100%;
+      svg {
+        font-size: 24px;
+      }
+    }
+    .current-year-month {
+      font-weight: 700;
+      font-size: 20px;
+    }
+  }
+  .calendar-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin-bottom: 60px;
+    button {
+      width: 30px;
+      height: 30px;
+      background-color: #f7f7f7;
+      &.active {
+        background-color: #333;
+        color: #fff;
+      }
+      &[data-day='6'],
+      &[data-day='0'] {
+        color: #f00;
+      }
+    }
   }
 `;
 
