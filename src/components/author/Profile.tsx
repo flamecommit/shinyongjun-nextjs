@@ -11,7 +11,7 @@ function AuthorProfile() {
       </div>
       <div className="names-container">
         <div className="name">신용준</div>
-        <div className="bio">Simplicity rules the world</div>
+        <div className="bio">단순함이 세상을 지배한다</div>
         <div className="links">
           <a
             href="https://github.com/shinyj1991"
