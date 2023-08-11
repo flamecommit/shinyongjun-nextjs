@@ -3,9 +3,13 @@
 import styled from 'styled-components';
 import { SiGithub } from '@react-icons/all-files/si/SiGithub';
 
-function AuthorProfile() {
+interface Props {
+  postDetail?: boolean;
+}
+
+function AuthorProfile({ postDetail }: Props) {
   return (
-    <StyledAuthorProfile>
+    <StyledAuthorProfile data-is-detail={postDetail}>
       <div className="avatar">
         <img src="/images/author-avatar.jpg" alt="" />
       </div>
@@ -31,6 +35,11 @@ const StyledAuthorProfile = styled.div`
   display: flex;
   align-items: center;
   column-gap: 30px;
+  &[data-is-detail='true'] {
+    margin-top: 120px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #ddd;
+  }
   .avatar {
     img {
       width: 128px;

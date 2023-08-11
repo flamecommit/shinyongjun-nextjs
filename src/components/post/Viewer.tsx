@@ -8,6 +8,7 @@ import { getFormatDatetime } from '@/utils/datetime';
 import { prism } from '@/styles/prism';
 import { markdown } from '@/styles/markdown';
 import PostGallery from './Gallery';
+import CategoryItem from '../category/Item';
 
 interface Props {
   postData: Post;
@@ -50,6 +51,11 @@ function PostViewer({ postData }: Props) {
       <StyledPostViewer>
         <header className="post-header">
           <h1 className="post-title">{postData.title}</h1>
+          <div className="post-categories">
+            {postData.categories.map((category) => {
+              return <CategoryItem key={category} category={category} />;
+            })}
+          </div>
           <div className="post-date">
             {getFormatDatetime(postData.date, 'YYYY-MM-DD')}
           </div>

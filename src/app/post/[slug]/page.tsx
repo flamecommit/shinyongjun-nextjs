@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
 import { getPost, getPosts } from '@/services/post';
 import PostViewer from '@/components/post/Viewer';
+import PostGiscus from '@/components/post/Giscus';
+import AuthorProfile from '@/components/author/Profile';
 
 type Props = {
   params: {
@@ -13,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = await getPost(slug);
 
   return {
-    title: post.title,
+    title: `shinyongjun | Post - ${post.title}`,
   };
 }
 
@@ -32,6 +34,8 @@ const PostViewPage = async ({ params }: Props) => {
   return (
     <>
       <PostViewer postData={post} />
+      <AuthorProfile postDetail />
+      <PostGiscus />
     </>
   );
 };
