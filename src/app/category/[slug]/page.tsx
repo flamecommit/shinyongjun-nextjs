@@ -12,13 +12,13 @@ type Props = {
 
 export async function generateMetadata(
   { params }: Props,
-  parent: ResolvingMetadata,
+  // parent: ResolvingMetadata,
 ): Promise<Metadata> {
   const { slug } = params;
-  const parentTitle = (await parent).title?.absolute;
+  // const parentTitle = (await parent).title?.absolute;
 
   return {
-    title: `${parentTitle} | category - ${slug}`,
+    title: `Category - ${slug}`,
   };
 }
 

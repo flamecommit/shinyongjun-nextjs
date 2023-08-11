@@ -10,6 +10,7 @@ function BaseGnb() {
       <Link href="/category">Category</Link>
       <Link href="/about">About</Link>
       <Link href="/history">History</Link>
+      <Link href="/diary">Diary</Link>
     </StyledBaseGnb>
   );
 }
