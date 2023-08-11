@@ -1,4 +1,4 @@
-import HistoryWrapper from '@/components/history/wrapper';
+import HistoryWrapper from '@/components/history/Wrapper';
 import PageTitle from '@/components/page/Title';
 
 const HistoryPage = async () => {
