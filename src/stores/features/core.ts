@@ -1,28 +1,20 @@
 import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
 
-type LocaleType = 'ko' | 'en';
-
 export interface CoreState {
-  locale: LocaleType;
-  title: string;
+  categoryName: string;
 }
 
 const initialState: CoreState = {
-  locale: 'ko',
-  title: 'SHIN YONG JUN',
+  categoryName: '',
 };
 
 export const coreSlice = createSlice({
   name: 'core',
   initialState,
   reducers: {
-    // 동기적인 작업
-    changeLocale: (state, action: PayloadAction<LocaleType>) => {
-      return { ...state, locale: action.payload };
-    },
-    changeTitle: (state, action: PayloadAction<string>) => {
-      return { ...state, title: action.payload };
+    setCategoryName: (state, action: PayloadAction<string>) => {
+      return { ...state, categoryName: action.payload };
     },
   },
 });

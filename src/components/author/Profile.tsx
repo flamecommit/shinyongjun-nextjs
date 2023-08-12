@@ -2,19 +2,26 @@
 
 import styled from 'styled-components';
 import { SiGithub } from '@react-icons/all-files/si/SiGithub';
+import Link from 'next/link';
+import { useSelector } from 'react-redux';
+import { RootState } from '@/stores/store';
 
 interface Props {
   postDetail?: boolean;
 }
 
 function AuthorProfile({ postDetail }: Props) {
+  const { categoryName } = useSelector((state: RootState) => state.core);
+
   return (
     <StyledAuthorProfile data-is-detail={postDetail}>
       <div className="avatar">
         <img src="/images/author-avatar.jpg" alt="" />
       </div>
       <div className="names-container">
-        <div className="name">신용준</div>
+        <Link className="name" href="/about" data-category={categoryName}>
+          신용준
+        </Link>
         <div className="bio">단순함이 세상을 지배한다</div>
         <div className="links">
           <a
@@ -51,6 +58,12 @@ const StyledAuthorProfile = styled.div`
     .name {
       font-size: 20px;
       letter-spacing: -0.05em;
+      &:hover {
+        color: #1f883d;
+      }
+      &[data-category='about'] {
+        pointer-events: none;
+      }
     }
     .bio {
       color: #666;

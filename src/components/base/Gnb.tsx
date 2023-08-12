@@ -3,15 +3,19 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 import { usePathname } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import type { RootState } from '@/stores/store';
+import { coreActions } from '@/stores/features/core';
 
 function BaseGnb() {
+  const { categoryName } = useSelector((state: RootState) => state.core);
+  const dispatch = useDispatch();
   const pathname = usePathname();
-  const [categoryName, setCategoryName] = useState('');
 
   useEffect(() => {
-    setCategoryName(pathname.split('/')[1]);
-  }, [pathname]);
+    dispatch(coreActions.setCategoryName(pathname.split('/')[1]));
+  }, [pathname, dispatch]);
 
   return (
     <StyledBaseGnb>
