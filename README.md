@@ -23,4 +23,4 @@
 
 ## dependencies 설명
 
-- rehype-code-titles : mdx 파일을 컴파일 할 때 codeblock의 title을 추가하는 플러그인
+- rehype-code-titles : mdx 컴파일 시 codeblock의 title(filename)을 지원해주는 플러그인
