@@ -5,7 +5,7 @@ export interface CompanyType {
   size?: number;
 }
 
-export interface PortfolioType {
+export interface ProjectType {
   name: string;
   started: [number, number];
   ended: [number, number];
@@ -19,7 +19,7 @@ export interface HistoryType {
   yearSize: number;
   month: number;
   company?: CompanyType | undefined;
-  portfolio?: PortfolioType | undefined;
+  project?: ProjectType | undefined;
 }
 
 const today = new Date();
@@ -34,7 +34,7 @@ export const companies: CompanyType[] = [
   { name: 'Wemade', join: [2022, 3], leave: [todayYear, todayMonth] },
 ];
 
-export const portfolios: PortfolioType[] = [
+export const projects: ProjectType[] = [
   { name: '에이스카운터', started: [2014, 6], ended: [2014, 6] },
   { name: '올라운드', started: [2020, 10], ended: [2021, 5] },
   { name: '알파스캔', started: [2014, 8], ended: [2014, 9] },

@@ -2,11 +2,11 @@
 
 import { Fragment, useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { companies, portfolios } from '@/constants/history';
+import { companies, projects } from '@/constants/history';
 import type {
   CompanyType,
   HistoryType,
-  PortfolioType,
+  ProjectType,
 } from '@/constants/history';
 import { device, ellipsis } from '@/styles/mixin';
 
@@ -31,7 +31,7 @@ function HistoryWrapper() {
           (item) => item.leave[0] === year && item.leave[1] === month,
         );
 
-        const portfolio: PortfolioType | undefined = portfolios.find(
+        const project: ProjectType | undefined = projects.find(
           (item) => item.ended[0] === year && item.ended[1] === month,
         );
 
@@ -45,13 +45,10 @@ function HistoryWrapper() {
             ...company,
             size: (year - company.join[0]) * 12 + month - company.join[1] + 1,
           },
-          portfolio: portfolio && {
-            ...portfolio,
+          project: project && {
+            ...project,
             size:
-              (year - portfolio.started[0]) * 12 +
-              month -
-              portfolio.started[1] +
-              1,
+              (year - project.started[0]) * 12 + month - project.started[1] + 1,
           },
         });
       }
@@ -104,17 +101,17 @@ function HistoryWrapper() {
                 </div>
               </div>
               <div
-                className="portfolio"
-                data-value={!!history.portfolio?.size}
+                className="project"
+                data-value={!!history.project?.size}
                 style={{
                   gridColumnStart: 4,
                   gridColumnEnd: 4,
                   gridRowStart: history.index,
-                  gridRowEnd: history.index + (history.portfolio?.size ?? 0),
+                  gridRowEnd: history.index + (history.project?.size ?? 0),
                 }}
               >
                 <div className="sticky">
-                  <div className="ellipsis">{history.portfolio?.name}</div>
+                  <div className="ellipsis">{history.project?.name}</div>
                 </div>
               </div>
             </Fragment>
@@ -170,7 +167,7 @@ const StyledHistoryWrapper = styled.div`
       background-color: rgba(0, 0, 0, 0.05);
     }
     .company,
-    .portfolio {
+    .project {
       color: #000;
       &[data-value='true'] {
         position: relative;
