@@ -101,6 +101,12 @@ const StyledPostViewer = styled.article`
     img {
       cursor: pointer;
     }
+    code {
+      display: inline-block;
+      font-size: 14px;
+      line-height: 24px;
+      padding-block: 0;
+    }
     .rehype-code-title {
       text-align: right;
       font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
@@ -124,6 +130,10 @@ const StyledPostViewer = styled.article`
     }
     .post-content {
       font-size: 14px;
+      code {
+        font-size: 12px;
+        line-height: 21px;
+      }
     }
   }
 `;
