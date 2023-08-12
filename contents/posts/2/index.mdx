@@ -9,9 +9,7 @@ categories: ['css', 'styled-component']
 
 아래는 `styled-component` 를 사용한 스타일 재사용 예제 코드입니다.
 
-**`mixin.ts`**
-
-```ts
+```ts:src/styles/mixin.ts
 import { css } from 'styled-components';
 
 export const reset = css`
@@ -44,9 +42,7 @@ export const device = {
 
 사용 방법은 다음과 같습니다.
 
-**`reset.ts`**
-
-```ts
+```ts:src/styles/reset.ts
 import { createGlobalStyle } from 'styled-components';
 import { reset } from '@/styles/mixin';
 

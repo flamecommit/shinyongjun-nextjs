@@ -7,6 +7,7 @@ import { serialize } from 'next-mdx-remote/serialize';
 import rehypeHighlight from 'rehype-highlight';
 import { visit } from 'unist-util-visit';
 import { Node, Parent } from 'unist';
+import rehypeCodeTitles from 'rehype-code-titles';
 import { getExtensionOfFilename } from '@/utils/file';
 
 const BASE_PATH = '/contents/posts';
@@ -38,7 +39,8 @@ const parsePost = async (postPath: string): Promise<Post> => {
   const mdx = await serialize(content, {
     mdxOptions: {
       remarkPlugins: [[transformImgSrc, { slug }]],
-      rehypePlugins: [rehypeHighlight],
+      rehypePlugins: [rehypeCodeTitles, rehypeHighlight],
+      format: 'mdx',
     },
   });
 

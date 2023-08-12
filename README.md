@@ -20,3 +20,7 @@
 - develop : 개발 단계
 - posting : 블로그 포스팅
 - release : 배포
+
+## dependencies 설명
+
+- rehype-code-titles : mdx 파일을 컴파일 할 때 codeblock의 title을 추가하는 플러그인
