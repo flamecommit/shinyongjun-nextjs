@@ -1,22 +1,22 @@
-0:["luodJ3KJbhUALttOKZWle",[[["",{"children":["post",{"children":[["slug","2","d"],{"children":["__PAGE__?{\"slug\":\"2\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
-3:I{"id":8162,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","815:static/chunks/815-add3bb04c7929bca.js","185:static/chunks/app/layout-bda89542764d0527.js"],"name":"","async":false}
-4:I{"id":9727,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","815:static/chunks/815-add3bb04c7929bca.js","185:static/chunks/app/layout-bda89542764d0527.js"],"name":"","async":false}
-5:I{"id":7773,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","815:static/chunks/815-add3bb04c7929bca.js","185:static/chunks/app/layout-bda89542764d0527.js"],"name":"","async":false}
+0:["AgQfVwqBFEYh7D6HsC601",[[["",{"children":["post",{"children":[["slug","2","d"],{"children":["__PAGE__?{\"slug\":\"2\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":8162,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","815:static/chunks/815-add3bb04c7929bca.js","185:static/chunks/app/layout-ef23d243b52c42d4.js"],"name":"","async":false}
+4:I{"id":9727,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","815:static/chunks/815-add3bb04c7929bca.js","185:static/chunks/app/layout-ef23d243b52c42d4.js"],"name":"","async":false}
+5:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","815:static/chunks/815-add3bb04c7929bca.js","185:static/chunks/app/layout-ef23d243b52c42d4.js"],"name":"","async":false}
 6:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 7:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","post","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","post","children",["slug","2","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L8",null],"segment":"__PAGE__?{\"slug\":\"2\"}"},"styles":[]}],"segment":["slug","2","d"]},"styles":[]}],"segment":"post"},"styles":[]}]}]}]}]}]]}],null]
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Post - styled-component 재사용 코드 예제 (mixin)"}],["$","meta","2",{"name":"description","content":"Welcome to Shinyongjun.com"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-9:I{"id":8330,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-deb288abf5b17332.js"],"name":"","async":false}
-b:I{"id":7137,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-deb288abf5b17332.js"],"name":"","async":false}
-c:I{"id":9507,"chunks":["576:static/chunks/576-610c73c2c960debe.js","396:static/chunks/396-7c70254e7292304b.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-deb288abf5b17332.js"],"name":"","async":false}
-a:T1fda,/*@jsxRuntime automatic @jsxImportSource react*/
+9:I{"id":8330,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-68ef3c42e1ca67ea.js"],"name":"","async":false}
+b:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-68ef3c42e1ca67ea.js"],"name":"","async":false}
+c:I{"id":9507,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-68ef3c42e1ca67ea.js"],"name":"","async":false}
+a:T1f82,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
   const _components = Object.assign({
     p: "p",
     code: "code",
-    strong: "strong",
+    div: "div",
     pre: "pre",
     span: "span"
   }, _provideComponents(), props.components);
@@ -26,22 +26,17 @@ function _createMdxContent(props) {
         children: "styled-component"
       }), "는 ", _jsx(_components.code, {
         children: "react"
-      }), " 환경에서 가장 많이 사용되는 styling 모듈입니다.\n문법을 훼손시키지 않고 ", _jsx(_components.code, {
-        children: "css"
-      }), " 와 ", _jsx(_components.code, {
-        children: "javascript"
-      }), " 를 병합해주는 역할을 합니다."]
+      }), " 생태계에서 가장 많이 사용되는 style 라이브러리 중 하나입니다.\n자바스크립트 파일 내에서 CSS를 사용할 수 있게 해주는 대표적인 CSS-in-JS 라이브러리이며 ", _jsx(_components.code, {
+        children: "SASS"
+      }), "처럼 스타일 코드의 재사용도 가능합니다."]
     }), "\n", _jsxs(_components.p, {
       children: ["아래는 ", _jsx(_components.code, {
         children: "styled-component"
       }), " 를 사용한 스타일 재사용 예제 코드입니다."]
-    }), "\n", _jsx(_components.p, {
-      children: _jsx(_components.strong, {
-        children: _jsx(_components.code, {
-          children: "mixin.ts"
-        })
-      })
-    }), "\n", _jsx(_components.pre, {
+    }), "\n", _jsx(_components.div, {
+      className: "rehype-code-title",
+      children: "src/styles/mixin.ts"
+    }), _jsx(_components.pre, {
       children: _jsxs(_components.code, {
         className: "hljs language-ts",
         children: [_jsx(_components.span, {
@@ -153,13 +148,10 @@ function _createMdxContent(props) {
       })
     }), "\n", _jsx(_components.p, {
       children: "사용 방법은 다음과 같습니다."
-    }), "\n", _jsx(_components.p, {
-      children: _jsx(_components.strong, {
-        children: _jsx(_components.code, {
-          children: "reset.ts"
-        })
-      })
-    }), "\n", _jsx(_components.pre, {
+    }), "\n", _jsx(_components.div, {
+      className: "rehype-code-title",
+      children: "src/styles/reset.ts"
+    }), _jsx(_components.pre, {
       children: _jsxs(_components.code, {
         className: "hljs language-ts",
         children: [_jsx(_components.span, {

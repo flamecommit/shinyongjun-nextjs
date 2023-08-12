@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="ko"><head><meta charSet="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="preload" href="/_next/static/chunks/webpack-33e533793a2965ba.js" as="script"/><link rel="preload" href="/_next/static/chunks/fd9d1056-158bd2a597018d29.js" as="script"/><link rel="preload" href="/_next/static/chunks/596-eabdfb18d38341e5.js" as="script"/><link rel="preload" href="/_next/static/chunks/main-app-a65a8796fef50091.js" as="script"/><title>shinyongjun | Post - styled-component 재사용 코드 예제 (mixin)</title><meta name="description" content="Welcome to Shinyongjun.com"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/><style data-styled="" data-styled-version="6.0.6">*,:before,:after{box-sizing:border-box;margin:0;padding:0;font-family:inherit;font-weight:inherit;font-size:inherit;line-height:inherit;color:inherit;vertical-align:top;text-underline-position:under;background-repeat:no-repeat;mask-repeat:no-repeat;}/*!sc*/
+<!DOCTYPE html><html lang="ko"><head><meta charSet="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="preload" href="/_next/static/chunks/webpack-33e533793a2965ba.js" as="script"/><link rel="preload" href="/_next/static/chunks/fd9d1056-158bd2a597018d29.js" as="script"/><link rel="preload" href="/_next/static/chunks/596-eabdfb18d38341e5.js" as="script"/><link rel="preload" href="/_next/static/chunks/main-app-a65a8796fef50091.js" as="script"/><title>shinyongjun | Post - styled-component 재사용 코드 예제 (mixin)</title><meta name="description" content="Welcome to Shinyongjun.com"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/><style data-styled="" data-styled-version="6.0.7">*,:before,:after{box-sizing:border-box;margin:0;padding:0;font-family:inherit;font-weight:inherit;font-size:inherit;line-height:inherit;color:inherit;vertical-align:top;text-underline-position:under;background-repeat:no-repeat;mask-repeat:no-repeat;}/*!sc*/
 html{scroll-behavior:smooth;}/*!sc*/
 body{font-family:'Noto Sans KR',sans-serif;font-weight:400;font-size:16px;line-height:1.5;color:#000;background:#fff;-webkit-text-size-adjust:100%;min-width:320px;}/*!sc*/
 body.is-mobile{font-size:12px;}/*!sc*/
@@ -14,218 +14,218 @@ input:not([type])::placeholder,input[type='date']::placeholder,input[type='datet
 textarea{height:300px;padding:10px;line-height:1.5;}/*!sc*/
 input[type='number']::-webkit-outer-spin-button,input[type='number'] ::-webkit-inner-spin-button{appearance:none;}/*!sc*/
 data-styled.g1[id="sc-global-gPLwCU1"]{content:"sc-global-gPLwCU1,"}/*!sc*/
-.ghwvTR{max-width:768px;margin-inline:auto;padding:36px;margin-block:60px;background-color:#fff;}/*!sc*/
-@media (max-width: 768px){.ghwvTR{margin-block:0;padding:24px 12px 60px;}}/*!sc*/
-data-styled.g2[id="Container__StyledBaseContainer-sc-d797236e-0"]{content:"ghwvTR,"}/*!sc*/
-.btWgoV{display:flex;column-gap:30px;}/*!sc*/
-.btWgoV a{font-family:'Roboto';font-size:16px;}/*!sc*/
-.btWgoV a.active{font-weight:700;}/*!sc*/
-data-styled.g3[id="Gnb__StyledBaseGnb-sc-b025a873-0"]{content:"btWgoV,"}/*!sc*/
-.hrHxpW{backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);display:flex;align-items:center;height:60px;padding:0 24px;border-bottom:1px solid #000;position:fixed;top:0;left:0;right:0;z-index:100;background-color:rgba(255, 255, 255, 0.7);overflow-x:auto;}/*!sc*/
-@media (max-width: 768px){.hrHxpW{height:48px;}}/*!sc*/
-data-styled.g4[id="Header__StyledBaseHeader-sc-cfd77145-0"]{content:"hrHxpW,"}/*!sc*/
-.gzoHzi{position:absolute;right:0;left:0;bottom:0;height:60px;border-top:1px solid #000;background-color:#ddd;display:flex;align-items:center;justify-content:center;}/*!sc*/
-.gzoHzi .copyright{font-size:12px;color:#000;}/*!sc*/
-data-styled.g5[id="Footer__StyledBaseFooter-sc-6efd4e0e-0"]{content:"gzoHzi,"}/*!sc*/
-.dfrNqY{position:relative;min-height:100vh;padding-block:60px;background-color:#eee;}/*!sc*/
-@media (max-width: 768px){.dfrNqY{padding-top:48px;}}/*!sc*/
-data-styled.g6[id="Default__StyledDefaultTemplate-sc-52c4743e-0"]{content:"dfrNqY,"}/*!sc*/
-.bjZkeL{margin-bottom:36px;display:flex;align-items:center;column-gap:30px;}/*!sc*/
-.bjZkeL[data-is-detail='true']{margin-top:120px;padding-bottom:60px;border-bottom:1px solid #ddd;}/*!sc*/
-.bjZkeL .avatar img{width:128px;height:128px;border-radius:50%;}/*!sc*/
-.bjZkeL .names-container .name{font-size:20px;letter-spacing:-0.05em;}/*!sc*/
-.bjZkeL .names-container .bio{color:#666;font-size:14px;letter-spacing:-0.02em;}/*!sc*/
-.bjZkeL .names-container .links{display:flex;margin-top:6px;}/*!sc*/
-.bjZkeL .names-container .links a{display:block;font-size:20px;line-height:1;}/*!sc*/
-data-styled.g8[id="Profile__StyledAuthorProfile-sc-71e7aaf8-0"]{content:"bjZkeL,"}/*!sc*/
-.ckHHlC{padding:3px 12px;background-color:#ddd;color:#333;font-size:14px;}/*!sc*/
-.ckHHlC:hover{background-color:#333;color:#ddd;}/*!sc*/
-data-styled.g10[id="Item__StyledCategoryItem-sc-5e8e853a-0"]{content:"ckHHlC,"}/*!sc*/
-.liXLzr .post-header{text-align:center;margin-bottom:60px;}/*!sc*/
-.liXLzr .post-header .post-title{font-weight:700;font-size:30px;margin-bottom:12px;}/*!sc*/
-.liXLzr .post-header .post-categories{display:flex;justify-content:center;gap:12px;}/*!sc*/
-.liXLzr .post-header .post-date{margin-top:6px;color:#666;}/*!sc*/
-.liXLzr .post-content{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin:0;color:#24292f;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';font-size:16px;line-height:1.5;word-wrap:break-word;}/*!sc*/
-.liXLzr .post-content .octicon{display:inline-block;fill:currentColor;vertical-align:text-bottom;}/*!sc*/
-.liXLzr .post-content h1:hover .anchor .octicon-link:before,.liXLzr .post-content h2:hover .anchor .octicon-link:before,.liXLzr .post-content h3:hover .anchor .octicon-link:before,.liXLzr .post-content h4:hover .anchor .octicon-link:before,.liXLzr .post-content h5:hover .anchor .octicon-link:before,.liXLzr .post-content h6:hover .anchor .octicon-link:before{width:16px;height:16px;content:' ';display:inline-block;background-color:currentColor;-webkit-mask-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");mask-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");}/*!sc*/
-.liXLzr .post-content details,.liXLzr .post-content figcaption,.liXLzr .post-content figure{display:block;}/*!sc*/
-.liXLzr .post-content summary{display:list-item;}/*!sc*/
-.liXLzr .post-content a{background-color:transparent;color:#0969da;text-decoration:none;}/*!sc*/
-.liXLzr .post-content a:active,.liXLzr .post-content a:hover{outline-width:0;}/*!sc*/
-.liXLzr .post-content abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted;}/*!sc*/
-.liXLzr .post-content b,.liXLzr .post-content strong{font-weight:600;}/*!sc*/
-.liXLzr .post-content dfn{font-style:italic;}/*!sc*/
-.liXLzr .post-content h1{margin:0.67em 0;font-weight:600;padding-bottom:0.3em;font-size:2em;border-bottom:1px solid #dddddd;}/*!sc*/
-.liXLzr .post-content mark{background-color:#ff0;color:#24292f;}/*!sc*/
-.liXLzr .post-content small{font-size:90%;}/*!sc*/
-.liXLzr .post-content sub,.liXLzr .post-content sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}/*!sc*/
-.liXLzr .post-content sub{bottom:-0.25em;}/*!sc*/
-.liXLzr .post-content sup{top:-0.5em;}/*!sc*/
-.liXLzr .post-content img{border-style:none;max-width:100%;box-sizing:content-box;background-color:#ffffff;}/*!sc*/
-.liXLzr .post-content code,.liXLzr .post-content kbd,.liXLzr .post-content pre,.liXLzr .post-content samp{font-family:monospace,monospace;font-size:1em;}/*!sc*/
-.liXLzr .post-content figure{margin:1em 40px;}/*!sc*/
-.liXLzr .post-content hr{box-sizing:content-box;overflow:hidden;background:transparent;border-bottom:1px solid #dddddd;height:0.25em;padding:0;margin:24px 0;background-color:#d0d7de;border:0;}/*!sc*/
-.liXLzr .post-content html [type='button'],.liXLzr .post-content [type='reset'],.liXLzr .post-content [type='submit']{-webkit-appearance:button;}/*!sc*/
-.liXLzr .post-content [type='button']::-moz-focus-inner,.liXLzr .post-content [type='reset']::-moz-focus-inner,.liXLzr .post-content [type='submit']::-moz-focus-inner{border-style:none;padding:0;}/*!sc*/
-.liXLzr .post-content [type='button']:-moz-focusring,.liXLzr .post-content [type='reset']:-moz-focusring,.liXLzr .post-content [type='submit']:-moz-focusring{outline:1px dotted ButtonText;}/*!sc*/
-.liXLzr .post-content [type='checkbox'],.liXLzr .post-content [type='radio']{box-sizing:border-box;padding:0;}/*!sc*/
-.liXLzr .post-content [type='number']::-webkit-inner-spin-button,.liXLzr .post-content [type='number']::-webkit-outer-spin-button{height:auto;}/*!sc*/
-.liXLzr .post-content [type='search']{-webkit-appearance:textfield;outline-offset:-2px;}/*!sc*/
-.liXLzr .post-content [type='search']::-webkit-search-cancel-button,.liXLzr .post-content [type='search']::-webkit-search-decoration{-webkit-appearance:none;}/*!sc*/
-.liXLzr .post-content ::-webkit-input-placeholder{color:inherit;opacity:0.54;}/*!sc*/
-.liXLzr .post-content ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}/*!sc*/
-.liXLzr .post-content a:hover{text-decoration:underline;}/*!sc*/
-.liXLzr .post-content hr::before{display:table;content:'';}/*!sc*/
-.liXLzr .post-content hr::after{display:table;clear:both;content:'';}/*!sc*/
-.liXLzr .post-content table{border-spacing:0;border-collapse:collapse;display:block;width:max-content;max-width:100%;overflow:auto;}/*!sc*/
-.liXLzr .post-content td,.liXLzr .post-content th{padding:0;}/*!sc*/
-.liXLzr .post-content details summary{cursor:pointer;}/*!sc*/
-.liXLzr .post-content details:not([open])>*:not(summary){display:none!important;}/*!sc*/
-.liXLzr .post-content kbd{display:inline-block;padding:3px 5px;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;color:#24292f;vertical-align:middle;background-color:#f6f8fa;border:solid 1px rgba(175, 184, 193, 0.2);border-bottom-color:rgba(175, 184, 193, 0.2);border-radius:6px;box-shadow:inset 0 -1px 0 rgba(175, 184, 193, 0.2);}/*!sc*/
-.liXLzr .post-content h1,.liXLzr .post-content h2,.liXLzr .post-content h3,.liXLzr .post-content h4,.liXLzr .post-content h5,.liXLzr .post-content h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25;}/*!sc*/
-.liXLzr .post-content h2{font-weight:600;padding-bottom:0.3em;font-size:1.5em;border-bottom:1px solid #dddddd;}/*!sc*/
-.liXLzr .post-content h3{font-weight:600;font-size:1.25em;}/*!sc*/
-.liXLzr .post-content h4{font-weight:600;font-size:1em;}/*!sc*/
-.liXLzr .post-content h5{font-weight:600;font-size:0.875em;}/*!sc*/
-.liXLzr .post-content h6{font-weight:600;font-size:0.85em;color:#57606a;}/*!sc*/
-.liXLzr .post-content p{margin-top:0;margin-bottom:10px;}/*!sc*/
-.liXLzr .post-content blockquote{margin:0;padding:0 1em;color:#57606a;border-left:0.25em solid #d0d7de;}/*!sc*/
-.liXLzr .post-content ul,.liXLzr .post-content ol{margin-top:0;margin-bottom:0;padding-left:2em;}/*!sc*/
-.liXLzr .post-content ol ol,.liXLzr .post-content ul ol{list-style-type:lower-roman;}/*!sc*/
-.liXLzr .post-content ul ul ol,.liXLzr .post-content ul ol ol,.liXLzr .post-content ol ul ol,.liXLzr .post-content ol ol ol{list-style-type:lower-alpha;}/*!sc*/
-.liXLzr .post-content dd{margin-left:0;}/*!sc*/
-.liXLzr .post-content tt,.liXLzr .post-content code{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px;}/*!sc*/
-.liXLzr .post-content pre{margin-top:0;margin-bottom:0;font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px;word-wrap:normal;}/*!sc*/
-.liXLzr .post-content :-ms-input-placeholder{color:#6e7781;opacity:1;}/*!sc*/
-.liXLzr .post-content ::-ms-input-placeholder{color:#6e7781;opacity:1;}/*!sc*/
-.liXLzr .post-content ::placeholder{color:#6e7781;opacity:1;}/*!sc*/
-.liXLzr .post-content .pl-c{color:#6e7781;}/*!sc*/
-.liXLzr .post-content .pl-c1,.liXLzr .post-content .pl-s .pl-v{color:#0550ae;}/*!sc*/
-.liXLzr .post-content .pl-e,.liXLzr .post-content .pl-en{color:#8250df;}/*!sc*/
-.liXLzr .post-content .pl-smi,.liXLzr .post-content .pl-s .pl-s1{color:#24292f;}/*!sc*/
-.liXLzr .post-content .pl-ent{color:#116329;}/*!sc*/
-.liXLzr .post-content .pl-k{color:#cf222e;}/*!sc*/
-.liXLzr .post-content .pl-s,.liXLzr .post-content .pl-pds,.liXLzr .post-content .pl-s .pl-pse .pl-s1,.liXLzr .post-content .pl-sr,.liXLzr .post-content .pl-sr .pl-cce,.liXLzr .post-content .pl-sr .pl-sre,.liXLzr .post-content .pl-sr .pl-sra{color:#0a3069;}/*!sc*/
-.liXLzr .post-content .pl-v,.liXLzr .post-content .pl-smw{color:#953800;}/*!sc*/
-.liXLzr .post-content .pl-bu{color:#82071e;}/*!sc*/
-.liXLzr .post-content .pl-ii{color:#f6f8fa;background-color:#82071e;}/*!sc*/
-.liXLzr .post-content .pl-c2{color:#f6f8fa;background-color:#cf222e;}/*!sc*/
-.liXLzr .post-content .pl-sr .pl-cce{font-weight:bold;color:#116329;}/*!sc*/
-.liXLzr .post-content .pl-ml{color:#3b2300;}/*!sc*/
-.liXLzr .post-content .pl-mh,.liXLzr .post-content .pl-mh .pl-en,.liXLzr .post-content .pl-ms{font-weight:bold;color:#0550ae;}/*!sc*/
-.liXLzr .post-content .pl-mi{font-style:italic;color:#24292f;}/*!sc*/
-.liXLzr .post-content .pl-mb{font-weight:bold;color:#24292f;}/*!sc*/
-.liXLzr .post-content .pl-md{color:#82071e;background-color:#ffebe9;}/*!sc*/
-.liXLzr .post-content .pl-mi1{color:#116329;background-color:#dafbe1;}/*!sc*/
-.liXLzr .post-content .pl-mc{color:#953800;background-color:#ffd8b5;}/*!sc*/
-.liXLzr .post-content .pl-mi2{color:#eaeef2;background-color:#0550ae;}/*!sc*/
-.liXLzr .post-content .pl-mdr{font-weight:bold;color:#8250df;}/*!sc*/
-.liXLzr .post-content .pl-ba{color:#57606a;}/*!sc*/
-.liXLzr .post-content .pl-sg{color:#8c959f;}/*!sc*/
-.liXLzr .post-content .pl-corl{text-decoration:underline;color:#0a3069;}/*!sc*/
-.liXLzr .post-content [data-catalyst]{display:block;}/*!sc*/
-.liXLzr .post-content g-emoji{font-family:'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-0.075em;}/*!sc*/
-.liXLzr .post-content g-emoji img{width:1em;height:1em;}/*!sc*/
-.liXLzr .post-content .markdown-body::before{display:table;content:'';}/*!sc*/
-.liXLzr .post-content .markdown-body::after{display:table;clear:both;content:'';}/*!sc*/
-.liXLzr .post-content >*:first-child{margin-top:0!important;}/*!sc*/
-.liXLzr .post-content >*:last-child{margin-bottom:0!important;}/*!sc*/
-.liXLzr .post-content a:not([href]){color:inherit;text-decoration:none;}/*!sc*/
-.liXLzr .post-content .absent{color:#cf222e;}/*!sc*/
-.liXLzr .post-content .anchor{float:left;padding-right:4px;margin-left:-20px;line-height:1;}/*!sc*/
-.liXLzr .post-content .anchor:focus{outline:none;}/*!sc*/
-.liXLzr .post-content p,.liXLzr .post-content blockquote,.liXLzr .post-content ul,.liXLzr .post-content ol,.liXLzr .post-content dl,.liXLzr .post-content table,.liXLzr .post-content pre,.liXLzr .post-content details{margin-top:0;margin-bottom:16px;}/*!sc*/
-.liXLzr .post-content blockquote>:first-child{margin-top:0;}/*!sc*/
-.liXLzr .post-content blockquote>:last-child{margin-bottom:0;}/*!sc*/
-.liXLzr .post-content sup>a::before{content:'[';}/*!sc*/
-.liXLzr .post-content sup>a::after{content:']';}/*!sc*/
-.liXLzr .post-content h1 .octicon-link,.liXLzr .post-content h2 .octicon-link,.liXLzr .post-content h3 .octicon-link,.liXLzr .post-content h4 .octicon-link,.liXLzr .post-content h5 .octicon-link,.liXLzr .post-content h6 .octicon-link{color:#24292f;vertical-align:middle;visibility:hidden;}/*!sc*/
-.liXLzr .post-content h1:hover .anchor,.liXLzr .post-content h2:hover .anchor,.liXLzr .post-content h3:hover .anchor,.liXLzr .post-content h4:hover .anchor,.liXLzr .post-content h5:hover .anchor,.liXLzr .post-content h6:hover .anchor{text-decoration:none;}/*!sc*/
-.liXLzr .post-content h1:hover .anchor .octicon-link,.liXLzr .post-content h2:hover .anchor .octicon-link,.liXLzr .post-content h3:hover .anchor .octicon-link,.liXLzr .post-content h4:hover .anchor .octicon-link,.liXLzr .post-content h5:hover .anchor .octicon-link,.liXLzr .post-content h6:hover .anchor .octicon-link{visibility:visible;}/*!sc*/
-.liXLzr .post-content h1 tt,.liXLzr .post-content h1 code,.liXLzr .post-content h2 tt,.liXLzr .post-content h2 code,.liXLzr .post-content h3 tt,.liXLzr .post-content h3 code,.liXLzr .post-content h4 tt,.liXLzr .post-content h4 code,.liXLzr .post-content h5 tt,.liXLzr .post-content h5 code,.liXLzr .post-content h6 tt,.liXLzr .post-content h6 code{padding:0 0.2em;font-size:inherit;}/*!sc*/
-.liXLzr .post-content ul.no-list,.liXLzr .post-content ol.no-list{padding:0;list-style-type:none;}/*!sc*/
-.liXLzr .post-content ol[type='1']{list-style-type:decimal;}/*!sc*/
-.liXLzr .post-content ol[type='a']{list-style-type:lower-alpha;}/*!sc*/
-.liXLzr .post-content ol[type='i']{list-style-type:lower-roman;}/*!sc*/
-.liXLzr .post-content div>ol:not([type]){list-style-type:decimal;}/*!sc*/
-.liXLzr .post-content ul ul,.liXLzr .post-content ul ol,.liXLzr .post-content ol ol,.liXLzr .post-content ol ul{margin-top:0;margin-bottom:0;}/*!sc*/
-.liXLzr .post-content li>p{margin-top:16px;}/*!sc*/
-.liXLzr .post-content li+li{margin-top:0.25em;}/*!sc*/
-.liXLzr .post-content dl{padding:0;}/*!sc*/
-.liXLzr .post-content dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600;}/*!sc*/
-.liXLzr .post-content dl dd{padding:0 16px;margin-bottom:16px;}/*!sc*/
-.liXLzr .post-content table th{font-weight:600;}/*!sc*/
-.liXLzr .post-content table th,.liXLzr .post-content table td{padding:6px 13px;border:1px solid #d0d7de;}/*!sc*/
-.liXLzr .post-content table tr{background-color:#ffffff;border-top:1px solid #dddddd;}/*!sc*/
-.liXLzr .post-content table tr:nth-child(2n){background-color:#f6f8fa;}/*!sc*/
-.liXLzr .post-content table img{background-color:transparent;}/*!sc*/
-.liXLzr .post-content img[align='right']{padding-left:20px;}/*!sc*/
-.liXLzr .post-content img[align='left']{padding-right:20px;}/*!sc*/
-.liXLzr .post-content .emoji{max-width:none;vertical-align:text-top;background-color:transparent;}/*!sc*/
-.liXLzr .post-content span.frame{display:block;overflow:hidden;}/*!sc*/
-.liXLzr .post-content span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #d0d7de;}/*!sc*/
-.liXLzr .post-content span.frame span img{display:block;float:left;}/*!sc*/
-.liXLzr .post-content span.frame span span{display:block;padding:5px 0 0;clear:both;color:#24292f;}/*!sc*/
-.liXLzr .post-content span.align-center{display:block;overflow:hidden;clear:both;}/*!sc*/
-.liXLzr .post-content span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center;}/*!sc*/
-.liXLzr .post-content span.align-center span img{margin:0 auto;text-align:center;}/*!sc*/
-.liXLzr .post-content span.align-right{display:block;overflow:hidden;clear:both;}/*!sc*/
-.liXLzr .post-content span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right;}/*!sc*/
-.liXLzr .post-content span.align-right span img{margin:0;text-align:right;}/*!sc*/
-.liXLzr .post-content span.float-left{display:block;float:left;margin-right:13px;overflow:hidden;}/*!sc*/
-.liXLzr .post-content span.float-left span{margin:13px 0 0;}/*!sc*/
-.liXLzr .post-content span.float-right{display:block;float:right;margin-left:13px;overflow:hidden;}/*!sc*/
-.liXLzr .post-content span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right;}/*!sc*/
-.liXLzr .post-content code,.liXLzr .post-content tt{padding:0.2em 0.4em;margin:0;font-size:85%;background-color:rgba(175, 184, 193, 0.2);border-radius:6px;}/*!sc*/
-.liXLzr .post-content code br,.liXLzr .post-content tt br{display:none;}/*!sc*/
-.liXLzr .post-content del code{text-decoration:inherit;}/*!sc*/
-.liXLzr .post-content pre code{font-size:100%;}/*!sc*/
-.liXLzr .post-content pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:transparent;border:0;}/*!sc*/
-.liXLzr .post-content .highlight{margin-bottom:16px;}/*!sc*/
-.liXLzr .post-content .highlight pre{margin-bottom:0;word-break:normal;}/*!sc*/
-.liXLzr .post-content .highlight pre,.liXLzr .post-content pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f6f8fa;border-radius:6px;}/*!sc*/
-.liXLzr .post-content pre code,.liXLzr .post-content pre tt{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0;}/*!sc*/
-.liXLzr .post-content .csv-data td,.liXLzr .post-content .csv-data th{padding:5px;overflow:hidden;font-size:12px;line-height:1;text-align:left;white-space:nowrap;}/*!sc*/
-.liXLzr .post-content .csv-data .blob-num{padding:10px 8px 9px;text-align:right;background:#ffffff;border:0;}/*!sc*/
-.liXLzr .post-content .csv-data tr{border-top:0;}/*!sc*/
-.liXLzr .post-content .csv-data th{font-weight:600;background:#f6f8fa;border-top:0;}/*!sc*/
-.liXLzr .post-content .footnotes{font-size:12px;color:#57606a;border-top:1px solid #d0d7de;}/*!sc*/
-.liXLzr .post-content .footnotes ol{padding-left:16px;}/*!sc*/
-.liXLzr .post-content .footnotes li{position:relative;}/*!sc*/
-.liXLzr .post-content .footnotes li:target::before{position:absolute;top:-8px;right:-8px;bottom:-8px;left:-24px;pointer-events:none;content:'';border:2px solid #0969da;border-radius:6px;}/*!sc*/
-.liXLzr .post-content .footnotes li:target{color:#24292f;}/*!sc*/
-.liXLzr .post-content .footnotes .data-footnote-backref g-emoji{font-family:monospace;}/*!sc*/
-.liXLzr .post-content [hidden]{display:none!important;}/*!sc*/
-.liXLzr .post-content ::-webkit-calendar-picker-indicator{filter:invert(50%);}/*!sc*/
-.liXLzr .post-content code[class*='language-'],.liXLzr .post-content pre[class*='language-']{color:black;background:none;text-shadow:0 1px white;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;}/*!sc*/
-.liXLzr .post-content pre[class*='language-']::-moz-selection,.liXLzr .post-content pre[class*='language-'] ::-moz-selection,.liXLzr .post-content code[class*='language-']::-moz-selection,.liXLzr .post-content code[class*='language-'] ::-moz-selection{text-shadow:none;background:#b3d4fc;}/*!sc*/
-.liXLzr .post-content pre[class*='language-']::selection,.liXLzr .post-content pre[class*='language-'] ::selection,.liXLzr .post-content code[class*='language-']::selection,.liXLzr .post-content code[class*='language-'] ::selection{text-shadow:none;background:#b3d4fc;}/*!sc*/
-@media print{.liXLzr .post-content code[class*='language-'],.liXLzr .post-content pre[class*='language-']{text-shadow:none;}}/*!sc*/
-.liXLzr .post-content pre[class*='language-']{padding:1em;margin:0.5em 0;overflow:auto;}/*!sc*/
-.liXLzr .post-content :not(pre)>code[class*='language-'],.liXLzr .post-content pre[class*='language-']{background:#f5f2f0;}/*!sc*/
-.liXLzr .post-content :not(pre)>code[class*='language-']{padding:0.1em;border-radius:0.3em;white-space:normal;}/*!sc*/
-.liXLzr .post-content .hljs-comment,.liXLzr .post-content .hljs-prolog,.liXLzr .post-content .hljs-doctype,.liXLzr .post-content .hljs-cdata{color:slategray;}/*!sc*/
-.liXLzr .post-content .hljs-punctuation{color:#999;}/*!sc*/
-.liXLzr .post-content .hljs-namespace{opacity:0.7;}/*!sc*/
-.liXLzr .post-content .hljs-property,.liXLzr .post-content .hljs-tag,.liXLzr .post-content .hljs-boolean,.liXLzr .post-content .hljs-number,.liXLzr .post-content .hljs-constant,.liXLzr .post-content .hljs-symbol,.liXLzr .post-content .hljs-deleted{color:#905;}/*!sc*/
-.liXLzr .post-content .hljs-selector,.liXLzr .post-content .hljs-attr-name,.liXLzr .post-content .hljs-string,.liXLzr .post-content .hljs-char,.liXLzr .post-content .hljs-builtin,.liXLzr .post-content .hljs-inserted{color:#690;}/*!sc*/
-.liXLzr .post-content .hljs-operator,.liXLzr .post-content .hljs-entity,.liXLzr .post-content .hljs-url,.liXLzr .post-content .language-css .hljs-string,.liXLzr .post-content .style .hljs-string{color:#9a6e3a;background:hsla(0, 0%, 100%, 0.5);}/*!sc*/
-.liXLzr .post-content .hljs-atrule,.liXLzr .post-content .hljs-attr-value,.liXLzr .post-content .hljs-keyword{color:#07a;}/*!sc*/
-.liXLzr .post-content .hljs-function,.liXLzr .post-content .hljs-class-name{color:#dd4a68;}/*!sc*/
-.liXLzr .post-content .hljs-regex,.liXLzr .post-content .hljs-important,.liXLzr .post-content .hljs-variable{color:#e90;}/*!sc*/
-.liXLzr .post-content .hljs-important,.liXLzr .post-content .hljs-bold{font-weight:bold;}/*!sc*/
-.liXLzr .post-content .hljs-italic{font-style:italic;}/*!sc*/
-.liXLzr .post-content .hljs-entity{cursor:help;}/*!sc*/
-.liXLzr .post-content img{cursor:pointer;}/*!sc*/
-@media (max-width: 768px){.liXLzr .post-header .post-title{font-size:24px;}.liXLzr .post-header .post-date{font-size:12px;}.liXLzr .post-content{font-size:14px;}}/*!sc*/
-data-styled.g17[id="Viewer__StyledPostViewer-sc-2edb9e01-0"]{content:"liXLzr,"}/*!sc*/
-.jKnvoA{margin-top:60px;}/*!sc*/
-data-styled.g18[id="Giscus__StyledPostGiscus-sc-72197840-0"]{content:"jKnvoA,"}/*!sc*/
-</style><script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script></head><body><div class="Default__StyledDefaultTemplate-sc-52c4743e-0 dfrNqY"><header class="Header__StyledBaseHeader-sc-cfd77145-0 hrHxpW"><nav class="Gnb__StyledBaseGnb-sc-b025a873-0 btWgoV"><a class="active" href="/">Blog</a><a class="false" href="/category">Category</a><a class="false" href="/about">About</a><a class="false" href="/history">History</a><a class="false" href="/diary">Diary</a></nav></header><main class="Container__StyledBaseContainer-sc-d797236e-0 ghwvTR"><article class="Viewer__StyledPostViewer-sc-2edb9e01-0 liXLzr"><header class="post-header"><h1 class="post-title">styled-component 재사용 코드 예제 (mixin)</h1><div class="post-categories"><a class="Item__StyledCategoryItem-sc-5e8e853a-0 ckHHlC" href="/category/css">css</a><a class="Item__StyledCategoryItem-sc-5e8e853a-0 ckHHlC" href="/category/styled-component">styled-component</a></div><div class="post-date">2023-08-12</div></header><div class="post-content"><p><code>styled-component</code>는 <code>react</code> 환경에서 가장 많이 사용되는 styling 모듈입니다.
-문법을 훼손시키지 않고 <code>css</code> 와 <code>javascript</code> 를 병합해주는 역할을 합니다.</p>
+.eQwUmU{max-width:768px;margin-inline:auto;padding:36px;margin-block:60px;background-color:#fff;}/*!sc*/
+@media (max-width: 768px){.eQwUmU{margin-block:0;padding:24px 12px 60px;}}/*!sc*/
+data-styled.g2[id="Container__StyledBaseContainer-sc-d797236e-0"]{content:"eQwUmU,"}/*!sc*/
+.bZJKrh{display:flex;column-gap:30px;}/*!sc*/
+.bZJKrh a{font-family:'Roboto';font-size:16px;}/*!sc*/
+.bZJKrh a.active{font-weight:700;}/*!sc*/
+data-styled.g3[id="Gnb__StyledBaseGnb-sc-41e92608-0"]{content:"bZJKrh,"}/*!sc*/
+.ecYIin{backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);display:flex;align-items:center;height:60px;padding:0 24px;border-bottom:1px solid #000;position:fixed;top:0;left:0;right:0;z-index:100;background-color:rgba(255, 255, 255, 0.7);overflow-x:auto;}/*!sc*/
+@media (max-width: 768px){.ecYIin{height:48px;}}/*!sc*/
+data-styled.g4[id="Header__StyledBaseHeader-sc-cfd77145-0"]{content:"ecYIin,"}/*!sc*/
+.vNKxH{position:absolute;right:0;left:0;bottom:0;height:60px;border-top:1px solid #000;background-color:#ddd;display:flex;align-items:center;justify-content:center;}/*!sc*/
+.vNKxH .copyright{font-size:12px;color:#000;}/*!sc*/
+data-styled.g5[id="Footer__StyledBaseFooter-sc-6efd4e0e-0"]{content:"vNKxH,"}/*!sc*/
+.MWmGJ{position:relative;min-height:100vh;padding-block:60px;background-color:#eee;}/*!sc*/
+@media (max-width: 768px){.MWmGJ{padding-top:48px;}}/*!sc*/
+data-styled.g6[id="Default__StyledDefaultTemplate-sc-52c4743e-0"]{content:"MWmGJ,"}/*!sc*/
+.bBScPa{margin-bottom:36px;display:flex;align-items:center;column-gap:30px;}/*!sc*/
+.bBScPa[data-is-detail='true']{margin-top:120px;padding-bottom:60px;border-bottom:1px solid #ddd;}/*!sc*/
+.bBScPa .avatar img{width:128px;height:128px;border-radius:50%;}/*!sc*/
+.bBScPa .names-container .name{font-size:20px;letter-spacing:-0.05em;}/*!sc*/
+.bBScPa .names-container .bio{color:#666;font-size:14px;letter-spacing:-0.02em;}/*!sc*/
+.bBScPa .names-container .links{display:flex;margin-top:6px;}/*!sc*/
+.bBScPa .names-container .links a{display:block;font-size:20px;line-height:1;}/*!sc*/
+data-styled.g8[id="Profile__StyledAuthorProfile-sc-71e7aaf8-0"]{content:"bBScPa,"}/*!sc*/
+.dPzlcX{padding:3px 12px;background-color:#ddd;color:#333;font-size:14px;}/*!sc*/
+.dPzlcX:hover{background-color:#333;color:#ddd;}/*!sc*/
+data-styled.g10[id="Item__StyledCategoryItem-sc-5e8e853a-0"]{content:"dPzlcX,"}/*!sc*/
+.EoVuN .post-header{text-align:center;margin-bottom:60px;}/*!sc*/
+.EoVuN .post-header .post-title{font-weight:700;font-size:30px;margin-bottom:12px;}/*!sc*/
+.EoVuN .post-header .post-categories{display:flex;justify-content:center;gap:12px;}/*!sc*/
+.EoVuN .post-header .post-date{margin-top:6px;color:#666;}/*!sc*/
+.EoVuN .post-content{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin:0;color:#24292f;background-color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';font-size:16px;line-height:1.5;word-wrap:break-word;}/*!sc*/
+.EoVuN .post-content .octicon{display:inline-block;fill:currentColor;vertical-align:text-bottom;}/*!sc*/
+.EoVuN .post-content h1:hover .anchor .octicon-link:before,.EoVuN .post-content h2:hover .anchor .octicon-link:before,.EoVuN .post-content h3:hover .anchor .octicon-link:before,.EoVuN .post-content h4:hover .anchor .octicon-link:before,.EoVuN .post-content h5:hover .anchor .octicon-link:before,.EoVuN .post-content h6:hover .anchor .octicon-link:before{width:16px;height:16px;content:' ';display:inline-block;background-color:currentColor;-webkit-mask-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");mask-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");}/*!sc*/
+.EoVuN .post-content details,.EoVuN .post-content figcaption,.EoVuN .post-content figure{display:block;}/*!sc*/
+.EoVuN .post-content summary{display:list-item;}/*!sc*/
+.EoVuN .post-content a{background-color:transparent;color:#0969da;text-decoration:none;}/*!sc*/
+.EoVuN .post-content a:active,.EoVuN .post-content a:hover{outline-width:0;}/*!sc*/
+.EoVuN .post-content abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted;}/*!sc*/
+.EoVuN .post-content b,.EoVuN .post-content strong{font-weight:600;}/*!sc*/
+.EoVuN .post-content dfn{font-style:italic;}/*!sc*/
+.EoVuN .post-content h1{margin:0.67em 0;font-weight:600;padding-bottom:0.3em;font-size:2em;border-bottom:1px solid #dddddd;}/*!sc*/
+.EoVuN .post-content mark{background-color:#ff0;color:#24292f;}/*!sc*/
+.EoVuN .post-content small{font-size:90%;}/*!sc*/
+.EoVuN .post-content sub,.EoVuN .post-content sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}/*!sc*/
+.EoVuN .post-content sub{bottom:-0.25em;}/*!sc*/
+.EoVuN .post-content sup{top:-0.5em;}/*!sc*/
+.EoVuN .post-content img{border-style:none;max-width:100%;box-sizing:content-box;background-color:#ffffff;}/*!sc*/
+.EoVuN .post-content code,.EoVuN .post-content kbd,.EoVuN .post-content pre,.EoVuN .post-content samp{font-family:monospace,monospace;font-size:1em;}/*!sc*/
+.EoVuN .post-content figure{margin:1em 40px;}/*!sc*/
+.EoVuN .post-content hr{box-sizing:content-box;overflow:hidden;background:transparent;border-bottom:1px solid #dddddd;height:0.25em;padding:0;margin:24px 0;background-color:#d0d7de;border:0;}/*!sc*/
+.EoVuN .post-content html [type='button'],.EoVuN .post-content [type='reset'],.EoVuN .post-content [type='submit']{-webkit-appearance:button;}/*!sc*/
+.EoVuN .post-content [type='button']::-moz-focus-inner,.EoVuN .post-content [type='reset']::-moz-focus-inner,.EoVuN .post-content [type='submit']::-moz-focus-inner{border-style:none;padding:0;}/*!sc*/
+.EoVuN .post-content [type='button']:-moz-focusring,.EoVuN .post-content [type='reset']:-moz-focusring,.EoVuN .post-content [type='submit']:-moz-focusring{outline:1px dotted ButtonText;}/*!sc*/
+.EoVuN .post-content [type='checkbox'],.EoVuN .post-content [type='radio']{box-sizing:border-box;padding:0;}/*!sc*/
+.EoVuN .post-content [type='number']::-webkit-inner-spin-button,.EoVuN .post-content [type='number']::-webkit-outer-spin-button{height:auto;}/*!sc*/
+.EoVuN .post-content [type='search']{-webkit-appearance:textfield;outline-offset:-2px;}/*!sc*/
+.EoVuN .post-content [type='search']::-webkit-search-cancel-button,.EoVuN .post-content [type='search']::-webkit-search-decoration{-webkit-appearance:none;}/*!sc*/
+.EoVuN .post-content ::-webkit-input-placeholder{color:inherit;opacity:0.54;}/*!sc*/
+.EoVuN .post-content ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}/*!sc*/
+.EoVuN .post-content a:hover{text-decoration:underline;}/*!sc*/
+.EoVuN .post-content hr::before{display:table;content:'';}/*!sc*/
+.EoVuN .post-content hr::after{display:table;clear:both;content:'';}/*!sc*/
+.EoVuN .post-content table{border-spacing:0;border-collapse:collapse;display:block;width:max-content;max-width:100%;overflow:auto;}/*!sc*/
+.EoVuN .post-content td,.EoVuN .post-content th{padding:0;}/*!sc*/
+.EoVuN .post-content details summary{cursor:pointer;}/*!sc*/
+.EoVuN .post-content details:not([open])>*:not(summary){display:none!important;}/*!sc*/
+.EoVuN .post-content kbd{display:inline-block;padding:3px 5px;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;color:#24292f;vertical-align:middle;background-color:#f6f8fa;border:solid 1px rgba(175, 184, 193, 0.2);border-bottom-color:rgba(175, 184, 193, 0.2);border-radius:6px;box-shadow:inset 0 -1px 0 rgba(175, 184, 193, 0.2);}/*!sc*/
+.EoVuN .post-content h1,.EoVuN .post-content h2,.EoVuN .post-content h3,.EoVuN .post-content h4,.EoVuN .post-content h5,.EoVuN .post-content h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25;}/*!sc*/
+.EoVuN .post-content h2{font-weight:600;padding-bottom:0.3em;font-size:1.5em;border-bottom:1px solid #dddddd;}/*!sc*/
+.EoVuN .post-content h3{font-weight:600;font-size:1.25em;}/*!sc*/
+.EoVuN .post-content h4{font-weight:600;font-size:1em;}/*!sc*/
+.EoVuN .post-content h5{font-weight:600;font-size:0.875em;}/*!sc*/
+.EoVuN .post-content h6{font-weight:600;font-size:0.85em;color:#57606a;}/*!sc*/
+.EoVuN .post-content p{margin-top:0;margin-bottom:10px;}/*!sc*/
+.EoVuN .post-content blockquote{margin:0;padding:0 1em;color:#57606a;border-left:0.25em solid #d0d7de;}/*!sc*/
+.EoVuN .post-content ul,.EoVuN .post-content ol{margin-top:0;margin-bottom:0;padding-left:2em;}/*!sc*/
+.EoVuN .post-content ol ol,.EoVuN .post-content ul ol{list-style-type:lower-roman;}/*!sc*/
+.EoVuN .post-content ul ul ol,.EoVuN .post-content ul ol ol,.EoVuN .post-content ol ul ol,.EoVuN .post-content ol ol ol{list-style-type:lower-alpha;}/*!sc*/
+.EoVuN .post-content dd{margin-left:0;}/*!sc*/
+.EoVuN .post-content tt,.EoVuN .post-content code{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px;}/*!sc*/
+.EoVuN .post-content pre{margin-top:0;margin-bottom:0;font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px;word-wrap:normal;}/*!sc*/
+.EoVuN .post-content :-ms-input-placeholder{color:#6e7781;opacity:1;}/*!sc*/
+.EoVuN .post-content ::-ms-input-placeholder{color:#6e7781;opacity:1;}/*!sc*/
+.EoVuN .post-content ::placeholder{color:#6e7781;opacity:1;}/*!sc*/
+.EoVuN .post-content .pl-c{color:#6e7781;}/*!sc*/
+.EoVuN .post-content .pl-c1,.EoVuN .post-content .pl-s .pl-v{color:#0550ae;}/*!sc*/
+.EoVuN .post-content .pl-e,.EoVuN .post-content .pl-en{color:#8250df;}/*!sc*/
+.EoVuN .post-content .pl-smi,.EoVuN .post-content .pl-s .pl-s1{color:#24292f;}/*!sc*/
+.EoVuN .post-content .pl-ent{color:#116329;}/*!sc*/
+.EoVuN .post-content .pl-k{color:#cf222e;}/*!sc*/
+.EoVuN .post-content .pl-s,.EoVuN .post-content .pl-pds,.EoVuN .post-content .pl-s .pl-pse .pl-s1,.EoVuN .post-content .pl-sr,.EoVuN .post-content .pl-sr .pl-cce,.EoVuN .post-content .pl-sr .pl-sre,.EoVuN .post-content .pl-sr .pl-sra{color:#0a3069;}/*!sc*/
+.EoVuN .post-content .pl-v,.EoVuN .post-content .pl-smw{color:#953800;}/*!sc*/
+.EoVuN .post-content .pl-bu{color:#82071e;}/*!sc*/
+.EoVuN .post-content .pl-ii{color:#f6f8fa;background-color:#82071e;}/*!sc*/
+.EoVuN .post-content .pl-c2{color:#f6f8fa;background-color:#cf222e;}/*!sc*/
+.EoVuN .post-content .pl-sr .pl-cce{font-weight:bold;color:#116329;}/*!sc*/
+.EoVuN .post-content .pl-ml{color:#3b2300;}/*!sc*/
+.EoVuN .post-content .pl-mh,.EoVuN .post-content .pl-mh .pl-en,.EoVuN .post-content .pl-ms{font-weight:bold;color:#0550ae;}/*!sc*/
+.EoVuN .post-content .pl-mi{font-style:italic;color:#24292f;}/*!sc*/
+.EoVuN .post-content .pl-mb{font-weight:bold;color:#24292f;}/*!sc*/
+.EoVuN .post-content .pl-md{color:#82071e;background-color:#ffebe9;}/*!sc*/
+.EoVuN .post-content .pl-mi1{color:#116329;background-color:#dafbe1;}/*!sc*/
+.EoVuN .post-content .pl-mc{color:#953800;background-color:#ffd8b5;}/*!sc*/
+.EoVuN .post-content .pl-mi2{color:#eaeef2;background-color:#0550ae;}/*!sc*/
+.EoVuN .post-content .pl-mdr{font-weight:bold;color:#8250df;}/*!sc*/
+.EoVuN .post-content .pl-ba{color:#57606a;}/*!sc*/
+.EoVuN .post-content .pl-sg{color:#8c959f;}/*!sc*/
+.EoVuN .post-content .pl-corl{text-decoration:underline;color:#0a3069;}/*!sc*/
+.EoVuN .post-content [data-catalyst]{display:block;}/*!sc*/
+.EoVuN .post-content g-emoji{font-family:'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-0.075em;}/*!sc*/
+.EoVuN .post-content g-emoji img{width:1em;height:1em;}/*!sc*/
+.EoVuN .post-content .markdown-body::before{display:table;content:'';}/*!sc*/
+.EoVuN .post-content .markdown-body::after{display:table;clear:both;content:'';}/*!sc*/
+.EoVuN .post-content >*:first-child{margin-top:0!important;}/*!sc*/
+.EoVuN .post-content >*:last-child{margin-bottom:0!important;}/*!sc*/
+.EoVuN .post-content a:not([href]){color:inherit;text-decoration:none;}/*!sc*/
+.EoVuN .post-content .absent{color:#cf222e;}/*!sc*/
+.EoVuN .post-content .anchor{float:left;padding-right:4px;margin-left:-20px;line-height:1;}/*!sc*/
+.EoVuN .post-content .anchor:focus{outline:none;}/*!sc*/
+.EoVuN .post-content p,.EoVuN .post-content blockquote,.EoVuN .post-content ul,.EoVuN .post-content ol,.EoVuN .post-content dl,.EoVuN .post-content table,.EoVuN .post-content pre,.EoVuN .post-content details{margin-top:0;margin-bottom:16px;}/*!sc*/
+.EoVuN .post-content blockquote>:first-child{margin-top:0;}/*!sc*/
+.EoVuN .post-content blockquote>:last-child{margin-bottom:0;}/*!sc*/
+.EoVuN .post-content sup>a::before{content:'[';}/*!sc*/
+.EoVuN .post-content sup>a::after{content:']';}/*!sc*/
+.EoVuN .post-content h1 .octicon-link,.EoVuN .post-content h2 .octicon-link,.EoVuN .post-content h3 .octicon-link,.EoVuN .post-content h4 .octicon-link,.EoVuN .post-content h5 .octicon-link,.EoVuN .post-content h6 .octicon-link{color:#24292f;vertical-align:middle;visibility:hidden;}/*!sc*/
+.EoVuN .post-content h1:hover .anchor,.EoVuN .post-content h2:hover .anchor,.EoVuN .post-content h3:hover .anchor,.EoVuN .post-content h4:hover .anchor,.EoVuN .post-content h5:hover .anchor,.EoVuN .post-content h6:hover .anchor{text-decoration:none;}/*!sc*/
+.EoVuN .post-content h1:hover .anchor .octicon-link,.EoVuN .post-content h2:hover .anchor .octicon-link,.EoVuN .post-content h3:hover .anchor .octicon-link,.EoVuN .post-content h4:hover .anchor .octicon-link,.EoVuN .post-content h5:hover .anchor .octicon-link,.EoVuN .post-content h6:hover .anchor .octicon-link{visibility:visible;}/*!sc*/
+.EoVuN .post-content h1 tt,.EoVuN .post-content h1 code,.EoVuN .post-content h2 tt,.EoVuN .post-content h2 code,.EoVuN .post-content h3 tt,.EoVuN .post-content h3 code,.EoVuN .post-content h4 tt,.EoVuN .post-content h4 code,.EoVuN .post-content h5 tt,.EoVuN .post-content h5 code,.EoVuN .post-content h6 tt,.EoVuN .post-content h6 code{padding:0 0.2em;font-size:inherit;}/*!sc*/
+.EoVuN .post-content ul.no-list,.EoVuN .post-content ol.no-list{padding:0;list-style-type:none;}/*!sc*/
+.EoVuN .post-content ol[type='1']{list-style-type:decimal;}/*!sc*/
+.EoVuN .post-content ol[type='a']{list-style-type:lower-alpha;}/*!sc*/
+.EoVuN .post-content ol[type='i']{list-style-type:lower-roman;}/*!sc*/
+.EoVuN .post-content div>ol:not([type]){list-style-type:decimal;}/*!sc*/
+.EoVuN .post-content ul ul,.EoVuN .post-content ul ol,.EoVuN .post-content ol ol,.EoVuN .post-content ol ul{margin-top:0;margin-bottom:0;}/*!sc*/
+.EoVuN .post-content li>p{margin-top:16px;}/*!sc*/
+.EoVuN .post-content li+li{margin-top:0.25em;}/*!sc*/
+.EoVuN .post-content dl{padding:0;}/*!sc*/
+.EoVuN .post-content dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600;}/*!sc*/
+.EoVuN .post-content dl dd{padding:0 16px;margin-bottom:16px;}/*!sc*/
+.EoVuN .post-content table th{font-weight:600;}/*!sc*/
+.EoVuN .post-content table th,.EoVuN .post-content table td{padding:6px 13px;border:1px solid #d0d7de;}/*!sc*/
+.EoVuN .post-content table tr{background-color:#ffffff;border-top:1px solid #dddddd;}/*!sc*/
+.EoVuN .post-content table tr:nth-child(2n){background-color:#f6f8fa;}/*!sc*/
+.EoVuN .post-content table img{background-color:transparent;}/*!sc*/
+.EoVuN .post-content img[align='right']{padding-left:20px;}/*!sc*/
+.EoVuN .post-content img[align='left']{padding-right:20px;}/*!sc*/
+.EoVuN .post-content .emoji{max-width:none;vertical-align:text-top;background-color:transparent;}/*!sc*/
+.EoVuN .post-content span.frame{display:block;overflow:hidden;}/*!sc*/
+.EoVuN .post-content span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #d0d7de;}/*!sc*/
+.EoVuN .post-content span.frame span img{display:block;float:left;}/*!sc*/
+.EoVuN .post-content span.frame span span{display:block;padding:5px 0 0;clear:both;color:#24292f;}/*!sc*/
+.EoVuN .post-content span.align-center{display:block;overflow:hidden;clear:both;}/*!sc*/
+.EoVuN .post-content span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center;}/*!sc*/
+.EoVuN .post-content span.align-center span img{margin:0 auto;text-align:center;}/*!sc*/
+.EoVuN .post-content span.align-right{display:block;overflow:hidden;clear:both;}/*!sc*/
+.EoVuN .post-content span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right;}/*!sc*/
+.EoVuN .post-content span.align-right span img{margin:0;text-align:right;}/*!sc*/
+.EoVuN .post-content span.float-left{display:block;float:left;margin-right:13px;overflow:hidden;}/*!sc*/
+.EoVuN .post-content span.float-left span{margin:13px 0 0;}/*!sc*/
+.EoVuN .post-content span.float-right{display:block;float:right;margin-left:13px;overflow:hidden;}/*!sc*/
+.EoVuN .post-content span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right;}/*!sc*/
+.EoVuN .post-content code,.EoVuN .post-content tt{padding:0.2em 0.4em;margin:0;font-size:85%;background-color:rgba(175, 184, 193, 0.2);border-radius:6px;}/*!sc*/
+.EoVuN .post-content code br,.EoVuN .post-content tt br{display:none;}/*!sc*/
+.EoVuN .post-content del code{text-decoration:inherit;}/*!sc*/
+.EoVuN .post-content pre code{font-size:100%;}/*!sc*/
+.EoVuN .post-content pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:transparent;border:0;}/*!sc*/
+.EoVuN .post-content .highlight{margin-bottom:16px;}/*!sc*/
+.EoVuN .post-content .highlight pre{margin-bottom:0;word-break:normal;}/*!sc*/
+.EoVuN .post-content .highlight pre,.EoVuN .post-content pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f6f8fa;border-radius:6px;}/*!sc*/
+.EoVuN .post-content pre code,.EoVuN .post-content pre tt{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0;}/*!sc*/
+.EoVuN .post-content .csv-data td,.EoVuN .post-content .csv-data th{padding:5px;overflow:hidden;font-size:12px;line-height:1;text-align:left;white-space:nowrap;}/*!sc*/
+.EoVuN .post-content .csv-data .blob-num{padding:10px 8px 9px;text-align:right;background:#ffffff;border:0;}/*!sc*/
+.EoVuN .post-content .csv-data tr{border-top:0;}/*!sc*/
+.EoVuN .post-content .csv-data th{font-weight:600;background:#f6f8fa;border-top:0;}/*!sc*/
+.EoVuN .post-content .footnotes{font-size:12px;color:#57606a;border-top:1px solid #d0d7de;}/*!sc*/
+.EoVuN .post-content .footnotes ol{padding-left:16px;}/*!sc*/
+.EoVuN .post-content .footnotes li{position:relative;}/*!sc*/
+.EoVuN .post-content .footnotes li:target::before{position:absolute;top:-8px;right:-8px;bottom:-8px;left:-24px;pointer-events:none;content:'';border:2px solid #0969da;border-radius:6px;}/*!sc*/
+.EoVuN .post-content .footnotes li:target{color:#24292f;}/*!sc*/
+.EoVuN .post-content .footnotes .data-footnote-backref g-emoji{font-family:monospace;}/*!sc*/
+.EoVuN .post-content [hidden]{display:none!important;}/*!sc*/
+.EoVuN .post-content ::-webkit-calendar-picker-indicator{filter:invert(50%);}/*!sc*/
+.EoVuN .post-content code[class*='language-'],.EoVuN .post-content pre[class*='language-']{color:black;background:none;text-shadow:0 1px white;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;}/*!sc*/
+.EoVuN .post-content pre[class*='language-']::-moz-selection,.EoVuN .post-content pre[class*='language-'] ::-moz-selection,.EoVuN .post-content code[class*='language-']::-moz-selection,.EoVuN .post-content code[class*='language-'] ::-moz-selection{text-shadow:none;background:#b3d4fc;}/*!sc*/
+.EoVuN .post-content pre[class*='language-']::selection,.EoVuN .post-content pre[class*='language-'] ::selection,.EoVuN .post-content code[class*='language-']::selection,.EoVuN .post-content code[class*='language-'] ::selection{text-shadow:none;background:#b3d4fc;}/*!sc*/
+@media print{.EoVuN .post-content code[class*='language-'],.EoVuN .post-content pre[class*='language-']{text-shadow:none;}}/*!sc*/
+.EoVuN .post-content pre[class*='language-']{padding:1em;margin:0.5em 0;overflow:auto;}/*!sc*/
+.EoVuN .post-content :not(pre)>code[class*='language-'],.EoVuN .post-content pre[class*='language-']{background:#f5f2f0;}/*!sc*/
+.EoVuN .post-content :not(pre)>code[class*='language-']{padding:0.1em;border-radius:0.3em;white-space:normal;}/*!sc*/
+.EoVuN .post-content .hljs-comment,.EoVuN .post-content .hljs-prolog,.EoVuN .post-content .hljs-doctype,.EoVuN .post-content .hljs-cdata{color:slategray;}/*!sc*/
+.EoVuN .post-content .hljs-punctuation{color:#999;}/*!sc*/
+.EoVuN .post-content .hljs-namespace{opacity:0.7;}/*!sc*/
+.EoVuN .post-content .hljs-property,.EoVuN .post-content .hljs-tag,.EoVuN .post-content .hljs-boolean,.EoVuN .post-content .hljs-number,.EoVuN .post-content .hljs-constant,.EoVuN .post-content .hljs-symbol,.EoVuN .post-content .hljs-deleted{color:#905;}/*!sc*/
+.EoVuN .post-content .hljs-selector,.EoVuN .post-content .hljs-attr-name,.EoVuN .post-content .hljs-string,.EoVuN .post-content .hljs-char,.EoVuN .post-content .hljs-builtin,.EoVuN .post-content .hljs-inserted{color:#690;}/*!sc*/
+.EoVuN .post-content .hljs-operator,.EoVuN .post-content .hljs-entity,.EoVuN .post-content .hljs-url,.EoVuN .post-content .language-css .hljs-string,.EoVuN .post-content .style .hljs-string{color:#9a6e3a;background:hsla(0, 0%, 100%, 0.5);}/*!sc*/
+.EoVuN .post-content .hljs-atrule,.EoVuN .post-content .hljs-attr-value,.EoVuN .post-content .hljs-keyword{color:#07a;}/*!sc*/
+.EoVuN .post-content .hljs-function,.EoVuN .post-content .hljs-class-name{color:#dd4a68;}/*!sc*/
+.EoVuN .post-content .hljs-regex,.EoVuN .post-content .hljs-important,.EoVuN .post-content .hljs-variable{color:#e90;}/*!sc*/
+.EoVuN .post-content .hljs-important,.EoVuN .post-content .hljs-bold{font-weight:bold;}/*!sc*/
+.EoVuN .post-content .hljs-italic{font-style:italic;}/*!sc*/
+.EoVuN .post-content .hljs-entity{cursor:help;}/*!sc*/
+.EoVuN .post-content img{cursor:pointer;}/*!sc*/
+.EoVuN .post-content .rehype-code-title{text-align:right;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;font-size:14px;text-shadow:0 1px white;position:relative;background-color:#f6f8fa;border-radius:6px;padding:6px 16px;border-bottom:1px solid #ddd;}/*!sc*/
+@media (max-width: 768px){.EoVuN .post-header .post-title{font-size:24px;}.EoVuN .post-header .post-date{font-size:12px;}.EoVuN .post-content{font-size:14px;}}/*!sc*/
+data-styled.g17[id="Viewer__StyledPostViewer-sc-1ef3beea-0"]{content:"EoVuN,"}/*!sc*/
+.iFchUB{margin-top:60px;}/*!sc*/
+data-styled.g18[id="Giscus__StyledPostGiscus-sc-72197840-0"]{content:"iFchUB,"}/*!sc*/
+</style><script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script></head><body><div class="Default__StyledDefaultTemplate-sc-52c4743e-0 MWmGJ"><header class="Header__StyledBaseHeader-sc-cfd77145-0 ecYIin"><nav class="Gnb__StyledBaseGnb-sc-41e92608-0 bZJKrh"><a class="active" href="/">Blog</a><a class="false" href="/about">About</a><a class="false" href="/history">History</a><a class="false" href="/diary">Diary</a></nav></header><main class="Container__StyledBaseContainer-sc-d797236e-0 eQwUmU"><article class="Viewer__StyledPostViewer-sc-1ef3beea-0 EoVuN"><header class="post-header"><h1 class="post-title">styled-component 재사용 코드 예제 (mixin)</h1><div class="post-categories"><a class="Item__StyledCategoryItem-sc-5e8e853a-0 dPzlcX" href="/category/css">css</a><a class="Item__StyledCategoryItem-sc-5e8e853a-0 dPzlcX" href="/category/styled-component">styled-component</a></div><div class="post-date">2023-08-12</div></header><div class="post-content"><p><code>styled-component</code>는 <code>react</code> 생태계에서 가장 많이 사용되는 style 라이브러리 중 하나입니다.
+자바스크립트 파일 내에서 CSS를 사용할 수 있게 해주는 대표적인 CSS-in-JS 라이브러리이며 <code>SASS</code>처럼 스타일 코드의 재사용도 가능합니다.</p>
 <p>아래는 <code>styled-component</code> 를 사용한 스타일 재사용 예제 코드입니다.</p>
-<p><strong><code>mixin.ts</code></strong></p>
-<pre><code class="hljs language-ts"><span class="hljs-keyword">import</span> { css } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;styled-components&#x27;</span>;
+<div class="rehype-code-title">src/styles/mixin.ts</div><pre><code class="hljs language-ts"><span class="hljs-keyword">import</span> { css } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;styled-components&#x27;</span>;
 
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> reset = css`<span class="css">
   <span class="hljs-attribute">box-sizing</span>: border-box;
@@ -255,8 +255,7 @@ data-styled.g18[id="Giscus__StyledPostGiscus-sc-72197840-0"]{content:"jKnvoA,"}/
 };
 </code></pre>
 <p>사용 방법은 다음과 같습니다.</p>
-<p><strong><code>reset.ts</code></strong></p>
-<pre><code class="hljs language-ts"><span class="hljs-keyword">import</span> { createGlobalStyle } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;styled-components&#x27;</span>;
+<div class="rehype-code-title">src/styles/reset.ts</div><pre><code class="hljs language-ts"><span class="hljs-keyword">import</span> { createGlobalStyle } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;styled-components&#x27;</span>;
 <span class="hljs-keyword">import</span> { reset } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;@/styles/mixin&#x27;</span>;
 
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> <span class="hljs-title class_">ResetStyle</span> = createGlobalStyle<span class="hljs-string">`
@@ -272,4 +271,4 @@ data-styled.g18[id="Giscus__StyledPostGiscus-sc-72197840-0"]{content:"jKnvoA,"}/
     min-width: 320px;
   }
 `</span>;
-</code></pre></div></article><div data-is-detail="true" class="Profile__StyledAuthorProfile-sc-71e7aaf8-0 bjZkeL"><div class="avatar"><img src="/images/author-avatar.jpg" alt=""/></div><div class="names-container"><div class="name">신용준</div><div class="bio">단순함이 세상을 지배한다</div><div class="links"><a href="https://github.com/shinyj1991" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" style="color:#000000" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><title>Github</title><title></title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></a></div></div></div><div class="Giscus__StyledPostGiscus-sc-72197840-0 jKnvoA"><section></section></div></main><footer class="Footer__StyledBaseFooter-sc-6efd4e0e-0 gzoHzi"><p class="copyright">Copyright 2023. Shinyongjun All rights reserved.</p></footer></div><script src="/_next/static/chunks/webpack-33e533793a2965ba.js" async=""></script><script src="/_next/static/chunks/fd9d1056-158bd2a597018d29.js" async=""></script><script src="/_next/static/chunks/596-eabdfb18d38341e5.js" async=""></script><script src="/_next/static/chunks/main-app-a65a8796fef50091.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"0:\"$L1\"\n"])</script><script>self.__next_f.push([1,"2:I{\"id\":7948,\"chunks\":[\"272:static/chunks/webpack-33e533793a2965ba.js\",\"971:static/chunks/fd9d1056-158bd2a597018d29.js\",\"596:static/chunks/596-eabdfb18d38341e5.js\"],\"name\":\"default\",\"async\":false}\n4:I{\"id\":6628,\"chunks\":[\"272:static/chunks/webpack-33e533793a2965ba.js\",\"971:static/chunks/fd9d1056-158bd2a597018d29.js\",\"596:static/chunks/596-eabdfb18d38341e5.js\"],\"name\":\"GlobalError\",\"async\":false}\n5:I{\"id\":8162,\"chunks\":[\"576:static/chunks/576-610c73c2c960debe.js\",\"396:static/chunks/396-7c70254e7292304b.js\","])</script><script>self.__next_f.push([1,"\"815:static/chunks/815-add3bb04c7929bca.js\",\"185:static/chunks/app/layout-bda89542764d0527.js\"],\"name\":\"\",\"async\":false}\n6:I{\"id\":9727,\"chunks\":[\"576:static/chunks/576-610c73c2c960debe.js\",\"396:static/chunks/396-7c70254e7292304b.js\",\"815:static/chunks/815-add3bb04c7929bca.js\",\"185:static/chunks/app/layout-bda89542764d0527.js\"],\"name\":\"\",\"async\":false}\n7:I{\"id\":7773,\"chunks\":[\"576:static/chunks/576-610c73c2c960debe.js\",\"396:static/chunks/396-7c70254e7292304b.js\",\"815:static/chunks/815-add3bb04c7929bca.js\",\"1"])</script><script>self.__next_f.push([1,"85:static/chunks/app/layout-bda89542764d0527.js\"],\"name\":\"\",\"async\":false}\n8:I{\"id\":7767,\"chunks\":[\"272:static/chunks/webpack-33e533793a2965ba.js\",\"971:static/chunks/fd9d1056-158bd2a597018d29.js\",\"596:static/chunks/596-eabdfb18d38341e5.js\"],\"name\":\"default\",\"async\":false}\n9:I{\"id\":7920,\"chunks\":[\"272:static/chunks/webpack-33e533793a2965ba.js\",\"971:static/chunks/fd9d1056-158bd2a597018d29.js\",\"596:static/chunks/596-eabdfb18d38341e5.js\"],\"name\":\"default\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"1:[[],[\"$\",\"$L2\",null,{\"buildId\":\"luodJ3KJbhUALttOKZWle\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/post/2\",\"initialTree\":[\"\",{\"children\":[\"post\",{\"children\":[[\"slug\",\"2\",\"d\"],{\"children\":[\"__PAGE__?{\\\"slug\\\":\\\"2\\\"}\",{}]}]}]},\"$undefined\",\"$undefined\",true],\"initialHead\":\"$L3\",\"globalErrorComponent\":\"$4\",\"children\":[[\"$\",\"html\",null,{\"lang\":\"ko\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"rel\":\"preconnect\",\"href\":\"https://fonts.googleapis.com\"}],[\"$\",\"link\",null,{\"rel\":\"preconnect\",\"href\":\"https://fonts.gstatic.com\",\"crossOrigin\":\"anonymous\"}],[\"$\",\"link\",null,{\"href\":\"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700\u0026family=Roboto:wght@400;500;700\u0026display=swap\",\"rel\":\"stylesheet\"}]]}],[\"$\",\"body\",null,{\"children\":[\"$\",\"$L5\",null,{\"children\":[\"$\",\"$L6\",null,{\"children\":[\"$\",\"$L7\",null,{\"children\":[\"$\",\"$L8\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$\",\"$L8\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"post\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$\",\"$L8\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"post\",\"children\",[\"slug\",\"2\",\"d\"],\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$La\",null],\"segment\":\"__PAGE__?{\\\"slug\\\":\\\"2\\\"}\"},\"styles\":[]}],\"segment\":[\"slug\",\"2\",\"d\"]},\"styles\":[]}],\"segment\":\"post\"},\"styles\":[]}]}]}]}]}]]}],null]}]]\n"])</script><script>self.__next_f.push([1,"b:I{\"id\":8330,\"chunks\":[\"576:static/chunks/576-610c73c2c960debe.js\",\"396:static/chunks/396-7c70254e7292304b.js\",\"822:static/chunks/822-fedafad88b71ab15.js\",\"605:static/chunks/app/post/[slug]/page-deb288abf5b17332.js\"],\"name\":\"\",\"async\":false}\nd:I{\"id\":7137,\"chunks\":[\"576:static/chunks/576-610c73c2c960debe.js\",\"396:static/chunks/396-7c70254e7292304b.js\",\"822:static/chunks/822-fedafad88b71ab15.js\",\"605:static/chunks/app/post/[slug]/page-deb288abf5b17332.js\"],\"name\":\"\",\"async\":false}\ne:I{\"id\":9507,\"chunks\":[\"5"])</script><script>self.__next_f.push([1,"76:static/chunks/576-610c73c2c960debe.js\",\"396:static/chunks/396-7c70254e7292304b.js\",\"822:static/chunks/822-fedafad88b71ab15.js\",\"605:static/chunks/app/post/[slug]/page-deb288abf5b17332.js\"],\"name\":\"\",\"async\":false}\nc:T1fda,"])</script><script>self.__next_f.push([1,"/*@jsxRuntime automatic @jsxImportSource react*/\nconst {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];\nconst {useMDXComponents: _provideComponents} = arguments[0];\nfunction _createMdxContent(props) {\n  const _components = Object.assign({\n    p: \"p\",\n    code: \"code\",\n    strong: \"strong\",\n    pre: \"pre\",\n    span: \"span\"\n  }, _provideComponents(), props.components);\n  return _jsxs(_Fragment, {\n    children: [_jsxs(_components.p, {\n      children: [_jsx(_components.code, {\n        children: \"styled-component\"\n      }), \"는 \", _jsx(_components.code, {\n        children: \"react\"\n      }), \" 환경에서 가장 많이 사용되는 styling 모듈입니다.\\n문법을 훼손시키지 않고 \", _jsx(_components.code, {\n        children: \"css\"\n      }), \" 와 \", _jsx(_components.code, {\n        children: \"javascript\"\n      }), \" 를 병합해주는 역할을 합니다.\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"아래는 \", _jsx(_components.code, {\n        children: \"styled-component\"\n      }), \" 를 사용한 스타일 재사용 예제 코드입니다.\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: _jsx(_components.strong, {\n        children: _jsx(_components.code, {\n          children: \"mixin.ts\"\n        })\n      })\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsxs(_components.code, {\n        className: \"hljs language-ts\",\n        children: [_jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"import\"\n        }), \" { css } \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"from\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-string\",\n          children: \"'styled-components'\"\n        }), \";\\n\\n\", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"export\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"const\"\n        }), \" reset = css`\", _jsxs(_components.span, {\n          className: \"css\",\n          children: [\"\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"box-sizing\"\n          }), \": border-box;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"margin\"\n          }), \": \", _jsx(_components.span, {\n            className: \"hljs-number\",\n            children: \"0\"\n          }), \";\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"padding\"\n          }), \": \", _jsx(_components.span, {\n            className: \"hljs-number\",\n            children: \"0\"\n          }), \";\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"font-family\"\n          }), \": inherit;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"font-weight\"\n          }), \": inherit;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"font-size\"\n          }), \": inherit;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"line-height\"\n          }), \": inherit;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"color\"\n          }), \": inherit;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"vertical-align\"\n          }), \": top;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"text-underline-position\"\n          }), \": under;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"background-repeat\"\n          }), \": no-repeat;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"mask-repeat\"\n          }), \": no-repeat;\\n`\"]\n        }), \";\\n\\n\", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"export\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"const\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-title function_\",\n          children: \"ellipsis\"\n        }), \" = (\", _jsxs(_components.span, {\n          className: \"hljs-params\",\n          children: [\"line: \", _jsx(_components.span, {\n            className: \"hljs-built_in\",\n            children: \"number\"\n          })]\n        }), \") =\u003e css`\", _jsxs(_components.span, {\n          className: \"css\",\n          children: [\"\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"overflow\"\n          }), \": hidden;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"text-overflow\"\n          }), \": ellipsis;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"display\"\n          }), \": -webkit-box;\\n  -webkit-box-orient: vertical;\\n  -webkit-line-clamp: \"]\n        }), _jsx(_components.span, {\n          className: \"hljs-subst\",\n          children: \"${line}\"\n        }), _jsx(_components.span, {\n          className: \"css\",\n          children: \";\\n`\"\n        }), \";\\n\\n\", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"export\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"const\"\n        }), \" device = {\\n  \", _jsx(_components.span, {\n          className: \"hljs-attr\",\n          children: \"mobile\"\n        }), \": \", _jsx(_components.span, {\n          className: \"hljs-string\",\n          children: \"`(max-width: 768px)`\"\n        }), \",\\n};\\n\"]\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"사용 방법은 다음과 같습니다.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: _jsx(_components.strong, {\n        children: _jsx(_components.code, {\n          children: \"reset.ts\"\n        })\n      })\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsxs(_components.code, {\n        className: \"hljs language-ts\",\n        children: [_jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"import\"\n        }), \" { createGlobalStyle } \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"from\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-string\",\n          children: \"'styled-components'\"\n        }), \";\\n\", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"import\"\n        }), \" { reset } \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"from\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-string\",\n          children: \"'@/styles/mixin'\"\n        }), \";\\n\\n\", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"export\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"const\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-title class_\",\n          children: \"ResetStyle\"\n        }), \" = createGlobalStyle\", _jsxs(_components.span, {\n          className: \"hljs-string\",\n          children: [\"`\\n  *,\\n  :before,\\n  :after {\\n    \", _jsx(_components.span, {\n            className: \"hljs-subst\",\n            children: \"${reset}\"\n          }), \";\\n  }\\n  .ellipsis {\\n    \", _jsxs(_components.span, {\n            className: \"hljs-subst\",\n            children: [\"${ellipsis(\", _jsx(_components.span, {\n              className: \"hljs-number\",\n              children: \"2\"\n            }), \")}\"]\n          }), \";\\n  }\\n  @media \", _jsx(_components.span, {\n            className: \"hljs-subst\",\n            children: \"${device.mobile}\"\n          }), \" {\\n    min-width: 320px;\\n  }\\n`\"]\n        }), \";\\n\"]\n      })\n    })]\n  });\n}\nfunction MDXContent(props = {}) {\n  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);\n  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {\n    children: _jsx(_createMdxContent, props)\n  })) : _createMdxContent(props);\n}\nreturn {\n  default: MDXContent\n};\n"])</script><script>self.__next_f.push([1,"a:[[\"$\",\"$Lb\",null,{\"postData\":{\"title\":\"styled-component 재사용 코드 예제 (mixin)\",\"date\":\"$D2023-08-12T00:00:00.000Z\",\"categories\":[\"css\",\"styled-component\"],\"slug\":\"2\",\"mdx\":{\"compiledSource\":\"$c\",\"frontmatter\":{},\"scope\":{}}}}],[\"$\",\"$Ld\",null,{\"postDetail\":true}],[\"$\",\"$Le\",null,{}]]\n3:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"shinyongjun | Post - styled-component 재사용 코드 예제 (mixin)\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"Welcome to Shinyongjun."])</script><script>self.__next_f.push([1,"com\"}],[\"$\",\"meta\",\"3\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script></body></html><style data-styled="" data-styled-version="6.0.6"></style>
+</code></pre></div></article><div data-is-detail="true" class="Profile__StyledAuthorProfile-sc-71e7aaf8-0 bBScPa"><div class="avatar"><img src="/images/author-avatar.jpg" alt=""/></div><div class="names-container"><div class="name">신용준</div><div class="bio">단순함이 세상을 지배한다</div><div class="links"><a href="https://github.com/shinyj1991" target="_blank" rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" style="color:#000000" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><title>Github</title><title></title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></a></div></div></div><div class="Giscus__StyledPostGiscus-sc-72197840-0 iFchUB"><section></section></div></main><footer class="Footer__StyledBaseFooter-sc-6efd4e0e-0 vNKxH"><p class="copyright">Copyright 2023. Shinyongjun All rights reserved.</p></footer></div><script src="/_next/static/chunks/webpack-33e533793a2965ba.js" async=""></script><script src="/_next/static/chunks/fd9d1056-158bd2a597018d29.js" async=""></script><script src="/_next/static/chunks/596-eabdfb18d38341e5.js" async=""></script><script src="/_next/static/chunks/main-app-a65a8796fef50091.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"0:\"$L1\"\n"])</script><script>self.__next_f.push([1,"2:I{\"id\":7948,\"chunks\":[\"272:static/chunks/webpack-33e533793a2965ba.js\",\"971:static/chunks/fd9d1056-158bd2a597018d29.js\",\"596:static/chunks/596-eabdfb18d38341e5.js\"],\"name\":\"default\",\"async\":false}\n4:I{\"id\":6628,\"chunks\":[\"272:static/chunks/webpack-33e533793a2965ba.js\",\"971:static/chunks/fd9d1056-158bd2a597018d29.js\",\"596:static/chunks/596-eabdfb18d38341e5.js\"],\"name\":\"GlobalError\",\"async\":false}\n5:I{\"id\":8162,\"chunks\":[\"576:static/chunks/576-3a4a1c7f09f7f0ae.js\",\"396:static/chunks/396-7c70254e7292304b.js\","])</script><script>self.__next_f.push([1,"\"815:static/chunks/815-add3bb04c7929bca.js\",\"185:static/chunks/app/layout-ef23d243b52c42d4.js\"],\"name\":\"\",\"async\":false}\n6:I{\"id\":9727,\"chunks\":[\"576:static/chunks/576-3a4a1c7f09f7f0ae.js\",\"396:static/chunks/396-7c70254e7292304b.js\",\"815:static/chunks/815-add3bb04c7929bca.js\",\"185:static/chunks/app/layout-ef23d243b52c42d4.js\"],\"name\":\"\",\"async\":false}\n7:I{\"id\":7773,\"chunks\":[\"576:static/chunks/576-3a4a1c7f09f7f0ae.js\",\"396:static/chunks/396-7c70254e7292304b.js\",\"815:static/chunks/815-add3bb04c7929bca.js\",\"1"])</script><script>self.__next_f.push([1,"85:static/chunks/app/layout-ef23d243b52c42d4.js\"],\"name\":\"\",\"async\":false}\n8:I{\"id\":7767,\"chunks\":[\"272:static/chunks/webpack-33e533793a2965ba.js\",\"971:static/chunks/fd9d1056-158bd2a597018d29.js\",\"596:static/chunks/596-eabdfb18d38341e5.js\"],\"name\":\"default\",\"async\":false}\n9:I{\"id\":7920,\"chunks\":[\"272:static/chunks/webpack-33e533793a2965ba.js\",\"971:static/chunks/fd9d1056-158bd2a597018d29.js\",\"596:static/chunks/596-eabdfb18d38341e5.js\"],\"name\":\"default\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"1:[[],[\"$\",\"$L2\",null,{\"buildId\":\"AgQfVwqBFEYh7D6HsC601\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/post/2\",\"initialTree\":[\"\",{\"children\":[\"post\",{\"children\":[[\"slug\",\"2\",\"d\"],{\"children\":[\"__PAGE__?{\\\"slug\\\":\\\"2\\\"}\",{}]}]}]},\"$undefined\",\"$undefined\",true],\"initialHead\":\"$L3\",\"globalErrorComponent\":\"$4\",\"children\":[[\"$\",\"html\",null,{\"lang\":\"ko\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"rel\":\"preconnect\",\"href\":\"https://fonts.googleapis.com\"}],[\"$\",\"link\",null,{\"rel\":\"preconnect\",\"href\":\"https://fonts.gstatic.com\",\"crossOrigin\":\"anonymous\"}],[\"$\",\"link\",null,{\"href\":\"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700\u0026family=Roboto:wght@400;500;700\u0026display=swap\",\"rel\":\"stylesheet\"}]]}],[\"$\",\"body\",null,{\"children\":[\"$\",\"$L5\",null,{\"children\":[\"$\",\"$L6\",null,{\"children\":[\"$\",\"$L7\",null,{\"children\":[\"$\",\"$L8\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$\",\"$L8\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"post\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$\",\"$L8\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"post\",\"children\",[\"slug\",\"2\",\"d\"],\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$La\",null],\"segment\":\"__PAGE__?{\\\"slug\\\":\\\"2\\\"}\"},\"styles\":[]}],\"segment\":[\"slug\",\"2\",\"d\"]},\"styles\":[]}],\"segment\":\"post\"},\"styles\":[]}]}]}]}]}]]}],null]}]]\n"])</script><script>self.__next_f.push([1,"b:I{\"id\":8330,\"chunks\":[\"576:static/chunks/576-3a4a1c7f09f7f0ae.js\",\"396:static/chunks/396-7c70254e7292304b.js\",\"822:static/chunks/822-fedafad88b71ab15.js\",\"605:static/chunks/app/post/[slug]/page-68ef3c42e1ca67ea.js\"],\"name\":\"\",\"async\":false}\nd:I{\"id\":7137,\"chunks\":[\"576:static/chunks/576-3a4a1c7f09f7f0ae.js\",\"396:static/chunks/396-7c70254e7292304b.js\",\"822:static/chunks/822-fedafad88b71ab15.js\",\"605:static/chunks/app/post/[slug]/page-68ef3c42e1ca67ea.js\"],\"name\":\"\",\"async\":false}\ne:I{\"id\":9507,\"chunks\":[\"5"])</script><script>self.__next_f.push([1,"76:static/chunks/576-3a4a1c7f09f7f0ae.js\",\"396:static/chunks/396-7c70254e7292304b.js\",\"822:static/chunks/822-fedafad88b71ab15.js\",\"605:static/chunks/app/post/[slug]/page-68ef3c42e1ca67ea.js\"],\"name\":\"\",\"async\":false}\nc:T1f82,"])</script><script>self.__next_f.push([1,"/*@jsxRuntime automatic @jsxImportSource react*/\nconst {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];\nconst {useMDXComponents: _provideComponents} = arguments[0];\nfunction _createMdxContent(props) {\n  const _components = Object.assign({\n    p: \"p\",\n    code: \"code\",\n    div: \"div\",\n    pre: \"pre\",\n    span: \"span\"\n  }, _provideComponents(), props.components);\n  return _jsxs(_Fragment, {\n    children: [_jsxs(_components.p, {\n      children: [_jsx(_components.code, {\n        children: \"styled-component\"\n      }), \"는 \", _jsx(_components.code, {\n        children: \"react\"\n      }), \" 생태계에서 가장 많이 사용되는 style 라이브러리 중 하나입니다.\\n자바스크립트 파일 내에서 CSS를 사용할 수 있게 해주는 대표적인 CSS-in-JS 라이브러리이며 \", _jsx(_components.code, {\n        children: \"SASS\"\n      }), \"처럼 스타일 코드의 재사용도 가능합니다.\"]\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"아래는 \", _jsx(_components.code, {\n        children: \"styled-component\"\n      }), \" 를 사용한 스타일 재사용 예제 코드입니다.\"]\n    }), \"\\n\", _jsx(_components.div, {\n      className: \"rehype-code-title\",\n      children: \"src/styles/mixin.ts\"\n    }), _jsx(_components.pre, {\n      children: _jsxs(_components.code, {\n        className: \"hljs language-ts\",\n        children: [_jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"import\"\n        }), \" { css } \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"from\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-string\",\n          children: \"'styled-components'\"\n        }), \";\\n\\n\", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"export\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"const\"\n        }), \" reset = css`\", _jsxs(_components.span, {\n          className: \"css\",\n          children: [\"\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"box-sizing\"\n          }), \": border-box;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"margin\"\n          }), \": \", _jsx(_components.span, {\n            className: \"hljs-number\",\n            children: \"0\"\n          }), \";\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"padding\"\n          }), \": \", _jsx(_components.span, {\n            className: \"hljs-number\",\n            children: \"0\"\n          }), \";\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"font-family\"\n          }), \": inherit;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"font-weight\"\n          }), \": inherit;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"font-size\"\n          }), \": inherit;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"line-height\"\n          }), \": inherit;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"color\"\n          }), \": inherit;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"vertical-align\"\n          }), \": top;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"text-underline-position\"\n          }), \": under;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"background-repeat\"\n          }), \": no-repeat;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"mask-repeat\"\n          }), \": no-repeat;\\n`\"]\n        }), \";\\n\\n\", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"export\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"const\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-title function_\",\n          children: \"ellipsis\"\n        }), \" = (\", _jsxs(_components.span, {\n          className: \"hljs-params\",\n          children: [\"line: \", _jsx(_components.span, {\n            className: \"hljs-built_in\",\n            children: \"number\"\n          })]\n        }), \") =\u003e css`\", _jsxs(_components.span, {\n          className: \"css\",\n          children: [\"\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"overflow\"\n          }), \": hidden;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"text-overflow\"\n          }), \": ellipsis;\\n  \", _jsx(_components.span, {\n            className: \"hljs-attribute\",\n            children: \"display\"\n          }), \": -webkit-box;\\n  -webkit-box-orient: vertical;\\n  -webkit-line-clamp: \"]\n        }), _jsx(_components.span, {\n          className: \"hljs-subst\",\n          children: \"${line}\"\n        }), _jsx(_components.span, {\n          className: \"css\",\n          children: \";\\n`\"\n        }), \";\\n\\n\", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"export\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"const\"\n        }), \" device = {\\n  \", _jsx(_components.span, {\n          className: \"hljs-attr\",\n          children: \"mobile\"\n        }), \": \", _jsx(_components.span, {\n          className: \"hljs-string\",\n          children: \"`(max-width: 768px)`\"\n        }), \",\\n};\\n\"]\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"사용 방법은 다음과 같습니다.\"\n    }), \"\\n\", _jsx(_components.div, {\n      className: \"rehype-code-title\",\n      children: \"src/styles/reset.ts\"\n    }), _jsx(_components.pre, {\n      children: _jsxs(_components.code, {\n        className: \"hljs language-ts\",\n        children: [_jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"import\"\n        }), \" { createGlobalStyle } \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"from\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-string\",\n          children: \"'styled-components'\"\n        }), \";\\n\", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"import\"\n        }), \" { reset } \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"from\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-string\",\n          children: \"'@/styles/mixin'\"\n        }), \";\\n\\n\", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"export\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-keyword\",\n          children: \"const\"\n        }), \" \", _jsx(_components.span, {\n          className: \"hljs-title class_\",\n          children: \"ResetStyle\"\n        }), \" = createGlobalStyle\", _jsxs(_components.span, {\n          className: \"hljs-string\",\n          children: [\"`\\n  *,\\n  :before,\\n  :after {\\n    \", _jsx(_components.span, {\n            className: \"hljs-subst\",\n            children: \"${reset}\"\n          }), \";\\n  }\\n  .ellipsis {\\n    \", _jsxs(_components.span, {\n            className: \"hljs-subst\",\n            children: [\"${ellipsis(\", _jsx(_components.span, {\n              className: \"hljs-number\",\n              children: \"2\"\n            }), \")}\"]\n          }), \";\\n  }\\n  @media \", _jsx(_components.span, {\n            className: \"hljs-subst\",\n            children: \"${device.mobile}\"\n          }), \" {\\n    min-width: 320px;\\n  }\\n`\"]\n        }), \";\\n\"]\n      })\n    })]\n  });\n}\nfunction MDXContent(props = {}) {\n  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);\n  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {\n    children: _jsx(_createMdxContent, props)\n  })) : _createMdxContent(props);\n}\nreturn {\n  default: MDXContent\n};\n"])</script><script>self.__next_f.push([1,"a:[[\"$\",\"$Lb\",null,{\"postData\":{\"title\":\"styled-component 재사용 코드 예제 (mixin)\",\"date\":\"$D2023-08-12T00:00:00.000Z\",\"categories\":[\"css\",\"styled-component\"],\"slug\":\"2\",\"mdx\":{\"compiledSource\":\"$c\",\"frontmatter\":{},\"scope\":{}}}}],[\"$\",\"$Ld\",null,{\"postDetail\":true}],[\"$\",\"$Le\",null,{}]]\n3:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"shinyongjun | Post - styled-component 재사용 코드 예제 (mixin)\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"Welcome to Shinyongjun."])</script><script>self.__next_f.push([1,"com\"}],[\"$\",\"meta\",\"3\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script></body></html><style data-styled="" data-styled-version="6.0.7"></style>
