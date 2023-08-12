@@ -22,7 +22,7 @@ function AuthorProfile({ postDetail }: Props) {
             target="_blank"
             rel="noreferrer"
           >
-            <SiGithub style={{ color: '#000000' }} />
+            <SiGithub style={{ color: '#000000' }} title="Github" />
           </a>
         </div>
       </div>
