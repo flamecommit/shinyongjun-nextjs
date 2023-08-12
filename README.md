@@ -23,4 +23,5 @@
 
 ## dependencies 설명
 
-- rehype-code-titles : mdx 컴파일 시 codeblock의 title(filename)을 지원해주는 플러그인
+- rehype-code-titles : mdx 컴파일 시 codeblock의 title(filename) 지원
+- remark-breaks : mdx 파일 작성 시 줄바꿈 지원

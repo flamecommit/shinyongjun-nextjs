@@ -8,6 +8,7 @@ import rehypeHighlight from 'rehype-highlight';
 import { visit } from 'unist-util-visit';
 import { Node, Parent } from 'unist';
 import rehypeCodeTitles from 'rehype-code-titles';
+import remarkBreaks from 'remark-breaks';
 import { getExtensionOfFilename } from '@/utils/file';
 
 const BASE_PATH = '/contents/posts';
@@ -38,7 +39,7 @@ const parsePost = async (postPath: string): Promise<Post> => {
     .replace('/index.mdx', '');
   const mdx = await serialize(content, {
     mdxOptions: {
-      remarkPlugins: [[transformImgSrc, { slug }]],
+      remarkPlugins: [remarkBreaks, [transformImgSrc, { slug }]],
       rehypePlugins: [rehypeCodeTitles, rehypeHighlight],
       format: 'mdx',
     },
@@ -96,7 +97,7 @@ export const getPostsByCategory = async (category: string) => {
   });
 };
 
-export const transformImgSrc = ({ slug }: { slug: string }) => {
+const transformImgSrc = ({ slug }: { slug: string }) => {
   return (tree: Node) => {
     visit(tree, 'paragraph', (node: Parent) => {
       const image = node.children.find(
