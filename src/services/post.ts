@@ -26,7 +26,9 @@ export interface Post extends PostMatter {
 }
 
 type Image = {
+  type: string;
   url: string;
+  alt: string;
 };
 
 const parsePost = async (postPath: string): Promise<Post> => {
@@ -112,6 +114,24 @@ const transformImgSrc = ({ slug }: { slug: string }) => {
       const base64String = imageBuffer.toString('base64');
       const extension = getExtensionOfFilename(fileName);
       image.url = `data:image/${extension};base64,${base64String}`;
+
+      if (!image.alt) return;
+
+      const citeNode = {
+        type: 'mdxJsxFlowElement',
+        name: 'cite',
+        attributes: [
+          { type: 'mdxJsxAttribute', name: 'class', value: 'image-cite' },
+        ],
+        children: [
+          {
+            type: 'text',
+            value: image.alt,
+          },
+        ],
+      };
+
+      node.children.push(citeNode);
     });
   };
 };
