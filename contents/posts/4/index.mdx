@@ -174,7 +174,7 @@ const RootLayout = ({ children }: Props) => {
 export default RootLayout;
 ```
 
-끝으로 `/src/styles/registry.tsx` 파일에 위에서 만든 `global.ts` 스타일을 적용해줍니다.
+`/src/styles/registry.tsx` 파일에 위에서 만든 `global.ts` 스타일을 적용해줍니다.
 
 ```tsx:/src/styles/registry.tsx
 "use client";
@@ -206,6 +206,23 @@ export default function StyledComponentsRegistry({
     </StyleSheetManager>
   );
 }
+```
+
+편의를 위해 `next.config.js` 파일에 아래 옵션을 추가해 줍니다.
+
+```js:/next.config.js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  compiler: {
+    styledComponents: {
+      ssr: true,
+      displayName: true, // 클래스명에 컴포넌트 이름을 붙임
+      pure: true, // dead code elimination (사용되지 않는 속성 제거)
+    },
+  },
+};
+
+module.exports = nextConfig;
 ```
 
 여기까지 수정한 후 로컬서버를 실행시키면 DOM요소에 전역 스타일이 잘 반영된 것을 확인할 수 있습니다.
