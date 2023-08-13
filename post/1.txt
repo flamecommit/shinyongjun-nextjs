@@ -1,14 +1,15 @@
-0:["54izPn77aaW__Mrk76v15",[[["",{"children":["post",{"children":[["slug","1","d"],{"children":["__PAGE__?{\"slug\":\"1\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
-3:I{"id":8162,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-586073754008bfd8.js"],"name":"","async":false}
-4:I{"id":3882,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-586073754008bfd8.js"],"name":"","async":false}
-5:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-586073754008bfd8.js"],"name":"","async":false}
+0:["7DRTvmBa7TXurL-b5p0hX",[[["",{"children":["post",{"children":[["slug","1","d"],{"children":["__PAGE__?{\"slug\":\"1\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":8162,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-29c15a9bf1919237.js"],"name":"","async":false}
+4:I{"id":2827,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-29c15a9bf1919237.js"],"name":"","async":false}
+5:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-29c15a9bf1919237.js"],"name":"","async":false}
 6:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 7:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","post","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","post","children",["slug","1","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L8",null],"segment":"__PAGE__?{\"slug\":\"1\"}"},"styles":[]}],"segment":["slug","1","d"]},"styles":[]}],"segment":"post"},"styles":[]}]}]}]}]}]]}],null]
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Post - 블로그 리뉴얼 (by Next.js 13)"}],["$","meta","2",{"name":"description","content":"Welcome to Shinyongjun.com"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-9:I{"id":8330,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-05a933a2220c5291.js"],"name":"","async":false}
-b:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-05a933a2220c5291.js"],"name":"","async":false}
-c:I{"id":9507,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-05a933a2220c5291.js"],"name":"","async":false}
+9:I{"id":8330,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-9f3e85e4b4b0c8f2.js"],"name":"","async":false}
+b:I{"id":886,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-9f3e85e4b4b0c8f2.js"],"name":"","async":false}
+d:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-9f3e85e4b4b0c8f2.js"],"name":"","async":false}
+e:I{"id":9507,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","605:static/chunks/app/post/[slug]/page-9f3e85e4b4b0c8f2.js"],"name":"","async":false}
 a:Tadd,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
@@ -63,4 +64,206 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-8:[["$","$L9",null,{"postData":{"title":"블로그 리뉴얼 (by Next.js 13)","date":"$D2023-08-11T00:00:00.000Z","categories":["next.js"],"slug":"1","mdx":{"compiledSource":"$a","frontmatter":{},"scope":{}}}}],["$","$Lb",null,{"postDetail":true}],["$","$Lc",null,{}]]
+c:T1fb3,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    p: "p",
+    code: "code",
+    br: "br",
+    div: "div",
+    pre: "pre",
+    span: "span"
+  }, _provideComponents(), props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsxs(_components.p, {
+      children: [_jsx(_components.code, {
+        children: "styled-component"
+      }), "는 ", _jsx(_components.code, {
+        children: "react"
+      }), " 생태계에서 가장 많이 사용되는 style 라이브러리 중 하나입니다.", _jsx(_components.br, {}), "\n", "자바스크립트 파일 내에서 CSS를 사용할 수 있게 해주는 대표적인 CSS-in-JS 라이브러리이며 ", _jsx(_components.code, {
+        children: "SASS"
+      }), "처럼 스타일 코드의 재사용도 가능합니다."]
+    }), "\n", _jsxs(_components.p, {
+      children: ["아래는 ", _jsx(_components.code, {
+        children: "styled-component"
+      }), " 를 사용한 스타일 재사용 예제 코드입니다."]
+    }), "\n", _jsx(_components.div, {
+      className: "rehype-code-title",
+      children: "src/styles/mixin.ts"
+    }), _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-ts",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { css } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'styled-components'"
+        }), ";\n\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " reset = css`", _jsxs(_components.span, {
+          className: "css",
+          children: ["\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "box-sizing"
+          }), ": border-box;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "margin"
+          }), ": ", _jsx(_components.span, {
+            className: "hljs-number",
+            children: "0"
+          }), ";\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "padding"
+          }), ": ", _jsx(_components.span, {
+            className: "hljs-number",
+            children: "0"
+          }), ";\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "font-family"
+          }), ": inherit;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "font-weight"
+          }), ": inherit;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "font-size"
+          }), ": inherit;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "line-height"
+          }), ": inherit;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "color"
+          }), ": inherit;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "vertical-align"
+          }), ": top;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "text-underline-position"
+          }), ": under;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "background-repeat"
+          }), ": no-repeat;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "mask-repeat"
+          }), ": no-repeat;\n`"]
+        }), ";\n\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "ellipsis"
+        }), " = (", _jsxs(_components.span, {
+          className: "hljs-params",
+          children: ["line: ", _jsx(_components.span, {
+            className: "hljs-built_in",
+            children: "number"
+          })]
+        }), ") => css`", _jsxs(_components.span, {
+          className: "css",
+          children: ["\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "overflow"
+          }), ": hidden;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "text-overflow"
+          }), ": ellipsis;\n  ", _jsx(_components.span, {
+            className: "hljs-attribute",
+            children: "display"
+          }), ": -webkit-box;\n  -webkit-box-orient: vertical;\n  -webkit-line-clamp: "]
+        }), _jsx(_components.span, {
+          className: "hljs-subst",
+          children: "${line}"
+        }), _jsx(_components.span, {
+          className: "css",
+          children: ";\n`"
+        }), ";\n\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " device = {\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "mobile"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "`(max-width: 768px)`"
+        }), ",\n};\n"]
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "사용 방법은 다음과 같습니다."
+    }), "\n", _jsx(_components.div, {
+      className: "rehype-code-title",
+      children: "src/styles/reset.ts"
+    }), _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-ts",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { createGlobalStyle } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'styled-components'"
+        }), ";\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { reset } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'@/styles/mixin'"
+        }), ";\n\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "GlobalStyle"
+        }), " = createGlobalStyle", _jsxs(_components.span, {
+          className: "hljs-string",
+          children: ["`\n  *,\n  :before,\n  :after {\n    ", _jsx(_components.span, {
+            className: "hljs-subst",
+            children: "${reset}"
+          }), ";\n  }\n  .ellipsis {\n    ", _jsxs(_components.span, {
+            className: "hljs-subst",
+            children: ["${ellipsis(", _jsx(_components.span, {
+              className: "hljs-number",
+              children: "2"
+            }), ")}"]
+          }), ";\n  }\n  @media ", _jsx(_components.span, {
+            className: "hljs-subst",
+            children: "${device.mobile}"
+          }), " {\n    min-width: 320px;\n  }\n`"]
+        }), ";\n"]
+      })
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+8:[["$","$L9",null,{"postData":{"title":"블로그 리뉴얼 (by Next.js 13)","date":"$D2023-08-11T09:00:00.000Z","categories":["next.js"],"slug":"1","mdx":{"compiledSource":"$a","frontmatter":{},"scope":{}}}}],["$","$Lb",null,{"prevPost":"$undefined","nextPost":{"title":"styled-component 재사용 코드 예제 (mixin)","date":"$D2023-08-12T09:00:00.000Z","categories":["css","styled-component"],"slug":"2","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}}}],["$","$Ld",null,{"postDetail":true}],["$","$Le",null,{}]]
