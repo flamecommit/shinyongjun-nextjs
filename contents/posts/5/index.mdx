@@ -1,0 +1,59 @@
+---
+title: Next.js 로 Github Page 블로그 만들기 (3)
+date: 2023-08-13T18:00:00
+categories: ['next.js', 'github', 'blog', 'mdx']
+---
+
+## Github Page 배포 및 설정
+
+이 글은 Github에서 제공하는 CI/CD 툴인 `Github Actions` 를 사용하여 `next.js` 앱을 배포하는 일련의 과정을 설명합니다.
+
+### 빌드 와 배포
+
+방법을 설명하기 앞서 앱이 빌드되고 배포되는 과정을 간략히 설명해드리겠습니다.
+
+1. 대상 `branch`에 push가 이루어집니다.
+2. `Github Actions`이 push를 감지하여 일련의 배포 프로세스를 시작합니다.
+3. Github 가상 머신에서 우리가 만든 `next.js` 앱을 빌드합니다.
+4. 빌드된 결과물을 `Github Page` 에서 서비스 할 branch에 배포합니다. (default : gh-pages)
+
+위 프로세스가 이해되었다면 root 경로에 .github/workflows/nextjs.yml 파일을 생성한 후 아래 코드를 입력합니다.
+아래 yml코드는 `Github Actions` 가 push를 감지한 후 실행할 배포 프로세스 입니다.
+
+```yml:/.github/workflows/nextjs.yml
+name: GitHub Pages Deploy
+
+on:
+  push:
+    branches:
+      - main # push를 감지할 대상 branch 입니다.
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Install and Build 🔧
+        run: |
+          yarn install
+          yarn build && touch ./out/.nojekyll
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # github page를 서비스 할 branch 입니다.
+          folder: out
+```
+
+파일을 만들었으면 origin branch 에 push 해줍니다.
+
+push 후 Repository > Actions 탭에 들어가보면 `nextjs.yml` 파일에 작성한 배포 프로세스가 실행되고 있습니다.
+
+![](1.png)
+
+### 기본 도메인 연결하기
+
+`github page` 서비스는 유저마다 1개의 기본 도메인을 제공합니다.
+기본 도메인은 `[UserID].github.io` 이런 형식이며 서비스 할 블로그 Repository의 이름은 기본 도메인과 동일해야 합니다.

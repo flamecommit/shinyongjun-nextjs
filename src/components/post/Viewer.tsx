@@ -126,6 +126,9 @@ const StyledPostViewer = styled.article`
       padding: 6px 16px;
       border-bottom: 1px solid #ddd;
     }
+    ol {
+      list-style: decimal;
+    }
   }
   @media ${device.mobile} {
     .post-header {
