@@ -6,12 +6,14 @@ categories: ['next.js', 'github', 'blog', 'mdx']
 
 ## Blog Layout 구성
 
-이 글은 Layout을 구성할 component를 만들고 `styled-components` 를 사용하여 style 하는 법에 대해 설명합니다.
+이 글은 Blog의 Layout을 구성할 component를 만들고 `styled-components` 를 사용한 component styling 예제 코드가 포함되어 있습니다.
 
 ### base component 생성
 
 Layout을 구성할 base component를 생성합니다.
 `Header`, `Footer` 그리고 `Container` component를 만들어 주겠습니다.
+`styled-components` 코드는 component 파일 하단에 위치해주었습니다.
+code block 위 파일명을 잘 보시고 따라하시기 바랍니다.
 
 ```tsx:/src/components/base/Header.tsx
 "use client";
@@ -118,7 +120,7 @@ export default BaseContainer;
 
 ### template component 생성
 
-다음은 template component를 생성합니다.
+다음으로 template component를 생성해줍니다.
 
 ```tsx:/src/components/template/Default.tsx
 "use client";
