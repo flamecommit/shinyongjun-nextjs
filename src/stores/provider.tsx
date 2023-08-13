@@ -1,13 +1,13 @@
 'use client';
 
 import { Provider } from 'react-redux';
-import { ResetStyle } from '@/styles/reset';
+import { GlobalStyle } from '@/styles/global';
 import { store } from './store';
 
 function Providers({ children }: { children: React.ReactNode }) {
   return (
     <Provider store={store}>
-      <ResetStyle />
+      <GlobalStyle />
       {children}
     </Provider>
   );

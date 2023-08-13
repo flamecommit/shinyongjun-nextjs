@@ -16,7 +16,7 @@ function AuthorProfile({ postDetail }: Props) {
   return (
     <StyledAuthorProfile data-is-detail={postDetail}>
       <div className="avatar">
-        <img src="/images/author-avatar.jpg" alt="" />
+        <img src="/images/author-avatar.jpg" alt="숲길에서 찍은 사진" />
       </div>
       <div className="names-container">
         <Link className="name" href="/about" data-category={categoryName}>

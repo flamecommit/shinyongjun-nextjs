@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import { reset } from '@/styles/mixin';
 
-export const ResetStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
   *,
   :before,
   :after {
