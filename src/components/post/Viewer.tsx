@@ -145,6 +145,9 @@ const StyledPostViewer = styled.article`
         font-size: 12px;
         line-height: 21px;
       }
+      .rehype-code-title {
+        font-size: 12px;
+      }
     }
   }
 `;

@@ -18,7 +18,7 @@ const StyledPageTitle = styled.h2`
   margin-bottom: 30px;
   @media ${device.mobile} {
     font-size: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 18px;
   }
 `;
 

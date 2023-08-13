@@ -5,6 +5,7 @@ import { SiGithub } from '@react-icons/all-files/si/SiGithub';
 import Link from 'next/link';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/stores/store';
+import { device } from '@/styles/mixin';
 
 interface Props {
   postDetail?: boolean;
@@ -77,6 +78,23 @@ const StyledAuthorProfile = styled.div`
         display: block;
         font-size: 20px;
         line-height: 1;
+      }
+    }
+  }
+  @media ${device.mobile} {
+    column-gap: 24px;
+    .avatar {
+      img {
+        width: 96px;
+        height: 96px;
+      }
+    }
+    .names-container {
+      .name {
+        font-size: 16px;
+      }
+      .bio {
+        font-size: 12px;
       }
     }
   }

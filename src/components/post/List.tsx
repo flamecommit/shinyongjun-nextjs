@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import { Post } from '@/services/post';
 import { getFormatDatetime } from '@/utils/datetime';
+import { device } from '@/styles/mixin';
 import CategoryItem from '../category/Item';
 
 type Props = {
@@ -50,7 +51,7 @@ const StyledPostList = styled.div`
       }
     }
     .date {
-      font-size: 13px;
+      font-size: 14px;
       margin-top: 6px;
       color: #666;
     }
@@ -58,6 +59,21 @@ const StyledPostList = styled.div`
       display: flex;
       column-gap: 12px;
       margin-top: 6px;
+    }
+  }
+  @media ${device.mobile} {
+    .post-item {
+      .title {
+        font-size: 16px;
+      }
+      .date {
+        margin-top: 4px;
+        font-size: 12px;
+      }
+      .categories {
+        margin-top: 4px;
+        column-gap: 8px;
+      }
     }
   }
 `;

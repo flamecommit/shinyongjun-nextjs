@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import styled from 'styled-components';
+import { device } from '@/styles/mixin';
 
 type Props = {
   category: string;
@@ -23,6 +24,10 @@ const StyledCategoryItem = styled(Link)`
   &:hover {
     background-color: #333;
     color: #ddd;
+  }
+  @media ${device.mobile} {
+    padding: 2px 8px;
+    font-size: 12px;
   }
 `;
 

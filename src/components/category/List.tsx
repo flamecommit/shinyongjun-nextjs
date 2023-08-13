@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import { device } from '@/styles/mixin';
 import CategoryItem from './Item';
 
 type Props = {
@@ -19,9 +20,11 @@ function CategoryList({ categories }: Props) {
 
 const StyledCategoryList = styled.div`
   display: flex;
-  column-gap: 12px;
-  row-gap: 12px;
+  gap: 12px;
   margin-bottom: 36px;
+  @media ${device.mobile} {
+    gap: 8px;
+  }
 `;
 
 export default CategoryList;
