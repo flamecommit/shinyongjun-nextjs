@@ -43,7 +43,7 @@ const StyledAuthorProfile = styled.div`
   align-items: center;
   column-gap: 30px;
   &[data-is-detail='true'] {
-    margin-top: 120px;
+    margin-top: 60px;
     padding-bottom: 60px;
     border-bottom: 1px solid #ddd;
   }

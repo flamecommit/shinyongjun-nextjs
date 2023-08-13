@@ -74,8 +74,15 @@ export const getPosts = async (): Promise<Post[]> => {
 
 export const getPost = async (slug: string) => {
   const posts = await getPosts();
+  const postIndex = posts.findIndex((post) => post?.slug === slug);
+  const nextPost = posts[postIndex - 1];
+  const prevPost = posts[postIndex + 1];
 
-  return posts.find((post) => post?.slug === slug) as Post;
+  return {
+    post: posts[postIndex],
+    nextPost,
+    prevPost,
+  };
 };
 
 export const getCategories = async () => {
@@ -121,7 +128,7 @@ const transformImgSrc = ({ slug }: { slug: string }) => {
         type: 'mdxJsxFlowElement',
         name: 'cite',
         attributes: [
-          { type: 'mdxJsxAttribute', name: 'class', value: 'image-cite' },
+          { type: 'mdxJsxAttribute', name: 'className', value: 'image-cite' },
         ],
         children: [{ type: 'text', value: image.alt }],
       };

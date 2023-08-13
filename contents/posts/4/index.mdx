@@ -1,6 +1,6 @@
 ---
 title: Next.js 로 Github Page 블로그 만들기 (2)
-date: 2023-08-14
+date: 2023-08-13T16:47:00
 categories: ['next.js', 'github', 'blog', 'mdx']
 ---
 
@@ -10,7 +10,8 @@ categories: ['next.js', 'github', 'blog', 'mdx']
 
 ### styled-components
 
-`styled-components` 란 javascript (or typescript) 파일 내에서 CSS를 사용하게 해주는 CSS-in-JS 라이브러리로 React개발에서 주로 사용됩니다.
+`styled-components` 란 javascript (or typescript) 파일 내에서 CSS를 사용하게 해주는 CSS-in-JS 라이브러리로 React환경에서 주로 사용됩니다.
+우리가 사용하고 있는 `next.js` 도 React 기반이기 때문에 `styled-components`를 사용하도록 하겠습니다.
 터미널에서 아래 명령어를 입력하여 블로그에 `styled-components`를 추가해줍니다.
 
 ```
@@ -207,8 +208,10 @@ export default function StyledComponentsRegistry({
 }
 ```
 
-여기까지 수정한 후 로컬서버를 실행시키면 전역 스타일이 잘 반영된 것을 확인할 수 있습니다.
+여기까지 수정한 후 로컬서버를 실행시키면 DOM요소에 전역 스타일이 잘 반영된 것을 확인할 수 있습니다.
 
 ![결과화면](1.png)
 
 만약 오류가 발생한다면 코드에서 틀린부분이 없는지 혹은 라이브러리 버전이 크게 달라지지 않았는지 확인하시기 바랍니다.
+
+![프로젝트 구성 파일 캡쳐](2.png)

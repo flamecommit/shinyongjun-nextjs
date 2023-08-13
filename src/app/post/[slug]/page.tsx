@@ -3,6 +3,7 @@ import { getPost, getPosts } from '@/services/post';
 import PostViewer from '@/components/post/Viewer';
 import PostGiscus from '@/components/post/Giscus';
 import AuthorProfile from '@/components/author/Profile';
+import PostNavigation from '@/components/post/Navigation';
 
 type Props = {
   params: {
@@ -12,7 +13,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = params;
-  const post = await getPost(slug);
+  const { post } = await getPost(slug);
 
   return {
     title: `shinyongjun | Post - ${post.title}`,
@@ -29,11 +30,12 @@ export async function generateStaticParams() {
 
 const PostViewPage = async ({ params }: Props) => {
   const { slug } = params;
-  const post = await getPost(slug);
+  const { post, nextPost, prevPost } = await getPost(slug);
 
   return (
     <>
       <PostViewer postData={post} />
+      <PostNavigation prevPost={prevPost} nextPost={nextPost} />
       <AuthorProfile postDetail />
       <PostGiscus />
     </>
