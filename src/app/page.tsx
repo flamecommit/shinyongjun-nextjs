@@ -2,7 +2,7 @@ import AuthorProfile from '@/components/author/Profile';
 import PostList from '@/components/post/List';
 import { getPosts } from '@/services/post';
 
-const RootPage = async () => {
+async function RootPage() {
   const posts = await getPosts();
 
   return (
@@ -11,6 +11,6 @@ const RootPage = async () => {
       {posts.length ? <PostList postList={posts} /> : <div>no</div>}
     </>
   );
-};
+}
 
 export default RootPage;

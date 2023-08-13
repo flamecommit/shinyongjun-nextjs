@@ -99,7 +99,15 @@ const StyledPostViewer = styled.article`
     ${markdown}
     ${prism}
     img {
+      display: block;
       cursor: pointer;
+      margin-inline: auto;
+    }
+    .image-cite {
+      display: block;
+      text-align: center;
+      margin-top: 6px;
+      color: #666;
     }
     code {
       display: inline-block;

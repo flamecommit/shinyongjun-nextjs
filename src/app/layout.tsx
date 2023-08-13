@@ -3,9 +3,9 @@ import StyledComponentsRegistry from '@/styles/registry';
 import RootProvider from '@/stores/provider';
 import DefaultTemplate from '@/components/template/Default';
 
-type Props = {
+interface Props {
   children: React.ReactNode;
-};
+}
 
 export const metadata: Metadata = {
   title: 'shinyongjun | Home',
