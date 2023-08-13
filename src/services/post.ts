@@ -123,12 +123,7 @@ const transformImgSrc = ({ slug }: { slug: string }) => {
         attributes: [
           { type: 'mdxJsxAttribute', name: 'class', value: 'image-cite' },
         ],
-        children: [
-          {
-            type: 'text',
-            value: image.alt,
-          },
-        ],
+        children: [{ type: 'text', value: image.alt }],
       };
 
       node.children.push(citeNode);
