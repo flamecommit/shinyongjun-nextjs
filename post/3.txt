@@ -1,4 +1,4 @@
-0:["a2gIG1SPJtzJ7VBFyjNOZ",[[["",{"children":["post",{"children":[["slug","3","d"],{"children":["__PAGE__?{\"slug\":\"3\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["8bthyLjCbdBSww09vPzTo",[[["",{"children":["post",{"children":[["slug","3","d"],{"children":["__PAGE__?{\"slug\":\"3\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":8162,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-29c15a9bf1919237.js"],"name":"","async":false}
 4:I{"id":2827,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-29c15a9bf1919237.js"],"name":"","async":false}
 5:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-29c15a9bf1919237.js"],"name":"","async":false}
@@ -544,7 +544,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-d:T1ba17,/*@jsxRuntime automatic @jsxImportSource react*/
+d:T1c368,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1030,7 +1030,7 @@ function _createMdxContent(props) {
         }), ";\n"]
       })
     }), "\n", _jsxs(_components.p, {
-      children: ["끝으로 ", _jsx(_components.code, {
+      children: [_jsx(_components.code, {
         children: "/src/styles/registry.tsx"
       }), " 파일에 위에서 만든 ", _jsx(_components.code, {
         children: "global.ts"
@@ -1207,6 +1207,66 @@ function _createMdxContent(props) {
             }), ">"]
           })]
         }), "\n  );\n}\n"]
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["편의를 위해 ", _jsx(_components.code, {
+        children: "next.config.js"
+      }), " 파일에 아래 옵션을 추가해 줍니다."]
+    }), "\n", _jsx(_components.div, {
+      className: "rehype-code-title",
+      children: "/next.config.js"
+    }), _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-js",
+        children: [_jsxs(_components.span, {
+          className: "hljs-comment",
+          children: ["/** ", _jsx(_components.span, {
+            className: "hljs-doctag",
+            children: "@type"
+          }), " {", _jsx(_components.span, {
+            className: "hljs-type",
+            children: "import('next').NextConfig"
+          }), "} */"]
+        }), "\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " nextConfig = {\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "compiler"
+        }), ": {\n    ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "styledComponents"
+        }), ": {\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "ssr"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-literal",
+          children: "true"
+        }), ",\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "displayName"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-literal",
+          children: "true"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-comment",
+          children: "// 클래스명에 컴포넌트 이름을 붙임"
+        }), "\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "pure"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-literal",
+          children: "true"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-comment",
+          children: "// dead code elimination (사용되지 않는 속성 제거)"
+        }), "\n    },\n  },\n};\n\n", _jsx(_components.span, {
+          className: "hljs-variable language_",
+          children: "module"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-property",
+          children: "exports"
+        }), " = nextConfig;\n"]
       })
     }), "\n", _jsx(_components.p, {
       children: "여기까지 수정한 후 로컬서버를 실행시키면 DOM요소에 전역 스타일이 잘 반영된 것을 확인할 수 있습니다."
