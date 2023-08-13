@@ -3,7 +3,7 @@
 import styled from 'styled-components';
 import Link from 'next/link';
 import { Post } from '@/services/post';
-import { ellipsis } from '@/styles/mixin';
+import { device, ellipsis } from '@/styles/mixin';
 
 interface Props {
   prevPost: Post | undefined;
@@ -60,6 +60,15 @@ const StyledPostNavigation = styled.nav`
       text-align: right;
       .title {
         direction: rtl;
+      }
+    }
+  }
+  @media ${device.mobile} {
+    display: grid;
+    row-gap: 12px;
+    > div {
+      a {
+        padding: 12px 18px;
       }
     }
   }
