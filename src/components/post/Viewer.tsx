@@ -110,8 +110,9 @@ const StyledPostViewer = styled.article`
       gap: 12px;
     }
     .post-date {
-      margin-top: 6px;
+      margin-top: 12px;
       color: #666;
+      font-size: 14px;
     }
   }
   .post-content {
