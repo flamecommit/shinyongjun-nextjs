@@ -20,6 +20,7 @@ function CategoryList({ categories }: Props) {
 
 const StyledCategoryList = styled.div`
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 36px;
   @media ${device.mobile} {

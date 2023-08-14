@@ -25,6 +25,12 @@ function BaseGnb() {
       >
         Blog
       </Link>
+      <Link
+        className={`${categoryName === 'series' && 'active'}`}
+        href="/series"
+      >
+        Series
+      </Link>
       <Link className={`${categoryName === 'about' && 'active'}`} href="/about">
         About
       </Link>

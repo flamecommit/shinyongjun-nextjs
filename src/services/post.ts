@@ -18,6 +18,7 @@ interface PostMatter {
   title: string;
   date: Date;
   categories: string[];
+  series?: string;
 }
 
 export interface Post extends PostMatter {
@@ -85,6 +86,30 @@ export const getPost = async (slug: string) => {
   };
 };
 
+function removeDuplicatesByKey(arr: Array<any>, key: string) {
+  const seen = new Set();
+  return arr.filter((item) => {
+    const value = item[key];
+    if (value !== undefined && !seen.has(value)) {
+      seen.add(value);
+      return true;
+    }
+    return false;
+  });
+}
+
+export const getSeries = async () => {
+  const posts = await getPosts();
+  const uniqueSeries = removeDuplicatesByKey(posts, 'series');
+
+  return uniqueSeries.map((post, index) => {
+    return {
+      index: index + 1,
+      series: post.series,
+    };
+  });
+};
+
 export const getCategories = async () => {
   const result: string[] = [];
   const posts = await getPosts();
@@ -103,6 +128,14 @@ export const getPostsByCategory = async (category: string) => {
 
   return posts.filter((post) => {
     return post.categories.includes(category);
+  });
+};
+
+export const getPostsBySeries = async (series: string) => {
+  const posts = await getPosts();
+
+  return posts.filter((post) => {
+    return post.series === series;
   });
 };
 

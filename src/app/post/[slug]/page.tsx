@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getPost, getPosts } from '@/services/post';
+import { getPost, getPosts, getSeries } from '@/services/post';
 import PostViewer from '@/components/post/Viewer';
 import PostGiscus from '@/components/post/Giscus';
 import AuthorProfile from '@/components/author/Profile';
@@ -31,10 +31,17 @@ export async function generateStaticParams() {
 const PostViewPage = async ({ params }: Props) => {
   const { slug } = params;
   const { post, nextPost, prevPost } = await getPost(slug);
+  const series = await getSeries();
+  const seriesIndex = series.find((item) => item.series === post.series)?.index;
 
   return (
     <>
-      <PostViewer postData={post} />
+      <PostViewer
+        postData={{
+          ...post,
+          seriesIndex,
+        }}
+      />
       <PostNavigation prevPost={prevPost} nextPost={nextPost} />
       <AuthorProfile postDetail />
       <PostGiscus />

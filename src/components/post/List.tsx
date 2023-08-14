@@ -17,6 +17,7 @@ function PostList({ postList }: Props) {
       {postList.map((post) => {
         return (
           <div key={post.slug} className="post-item">
+            {post.series && <div className="series"># {post.series}</div>}
             <Link href={`/post/${post.slug}`} className="title">
               {post.title}
             </Link>
@@ -63,6 +64,9 @@ const StyledPostList = styled.div`
   }
   @media ${device.mobile} {
     .post-item {
+      .series {
+        font-size: 14px;
+      }
       .title {
         font-size: 16px;
       }

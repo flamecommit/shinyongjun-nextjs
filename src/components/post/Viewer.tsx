@@ -3,6 +3,7 @@
 import styled from 'styled-components';
 import { MDXRemote } from 'next-mdx-remote';
 import { useEffect, useRef, useState } from 'react';
+import Link from 'next/link';
 import { Post } from '@/services/post';
 import { getFormatDatetime } from '@/utils/datetime';
 import { prism } from '@/styles/prism';
@@ -12,7 +13,9 @@ import PostGallery from './Gallery';
 import CategoryItem from '../category/Item';
 
 interface Props {
-  postData: Post;
+  postData: {
+    seriesIndex: number | undefined;
+  } & Post;
 }
 
 interface GalleryType {
@@ -51,6 +54,14 @@ function PostViewer({ postData }: Props) {
     <>
       <StyledPostViewer>
         <header className="post-header">
+          {postData.seriesIndex && (
+            <div className="post-series">
+              <Link href={`/series/${postData.seriesIndex}`}>
+                # {postData.series}
+              </Link>
+            </div>
+          )}
+
           <h1 className="post-title">{postData.title}</h1>
           <div className="post-categories">
             {postData.categories.map((category) => {
@@ -80,6 +91,13 @@ const StyledPostViewer = styled.article`
   .post-header {
     text-align: center;
     margin-bottom: 60px;
+    .post-series {
+      a {
+        &:hover {
+          color: #1f883d;
+        }
+      }
+    }
     .post-title {
       font-weight: 700;
       font-size: 30px;
@@ -87,6 +105,7 @@ const StyledPostViewer = styled.article`
     }
     .post-categories {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       gap: 12px;
     }
@@ -137,6 +156,9 @@ const StyledPostViewer = styled.article`
       }
       .post-date {
         font-size: 12px;
+      }
+      .post-categories {
+        gap: 8px;
       }
     }
     .post-content {
