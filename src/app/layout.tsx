@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'shinyongjun | Home',
   description: 'Welcome to Shinyongjun.com',
   openGraph: {
-    images: '/og-image.png',
+    images: 'https://shinyongjun.com/og-image.png',
   },
 };
 
