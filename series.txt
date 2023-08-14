@@ -1,4 +1,4 @@
-0:["4GZke1sXBgu7V_mWwNhq3",[[["",{"children":["series",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["kMIIGGF6D-8tJIpotV2sR",[[["",{"children":["series",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":8162,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d951f849686d45b4.js"],"name":"","async":false}
 4:I{"id":2827,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d951f849686d45b4.js"],"name":"","async":false}
 5:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d951f849686d45b4.js"],"name":"","async":false}
@@ -8,4 +8,4 @@
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Home"}],["$","meta","2",{"name":"description","content":"Welcome to Shinyongjun.com"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 9:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","921:static/chunks/app/series/page-1ccad3711bf35ae0.js"],"name":"","async":false}
 a:I{"id":1539,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","921:static/chunks/app/series/page-1ccad3711bf35ae0.js"],"name":"","async":false}
-8:[["$","$L9",null,{"children":"Series"}],["$","$La",null,{"series":[{"index":1,"series":"Next.js 로 Github Page 블로그 만들기","count":4}]}]]
+8:[["$","$L9",null,{"children":"Series"}],["$","$La",null,{"series":[{"index":1,"series":"Next.js 로 Github Page 블로그 만들기","count":5}]}]]

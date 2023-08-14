@@ -1,4 +1,4 @@
-0:["4GZke1sXBgu7V_mWwNhq3",[[["",{"children":["category",{"children":[["slug","css","d"],{"children":["__PAGE__?{\"slug\":\"css\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["kMIIGGF6D-8tJIpotV2sR",[[["",{"children":["category",{"children":[["slug","css","d"],{"children":["__PAGE__?{\"slug\":\"css\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":8162,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d951f849686d45b4.js"],"name":"","async":false}
 4:I{"id":2827,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d951f849686d45b4.js"],"name":"","async":false}
 5:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d951f849686d45b4.js"],"name":"","async":false}
@@ -211,4 +211,4 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-8:[["$","$L9",null,{"children":["Category - ","css"]}],["$","$La",null,{"categories":["next.js","github","deploy","styled-components","blog","mdx","css"]}],["$","$Lb",null,{"postList":[{"title":"styled-component 재사용 코드 예제 (mixin)","date":"$D2023-08-12T09:00:00.000Z","categories":["css","styled-components"],"slug":"2","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}}]}]]
+8:[["$","$L9",null,{"children":["Category - ","css"]}],["$","$La",null,{"categories":["next.js","mdx","blog","github","deploy","styled-components","css"]}],["$","$Lb",null,{"postList":[{"title":"styled-component 재사용 코드 예제 (mixin)","date":"$D2023-08-12T09:00:00.000Z","categories":["css","styled-components"],"slug":"2","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}}]}]]
