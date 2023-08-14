@@ -13,16 +13,6 @@ import { SiJira } from '@react-icons/all-files/si/SiJira';
 import { SiConfluence } from '@react-icons/all-files/si/SiConfluence';
 import { SiAzuredevops } from '@react-icons/all-files/si/SiAzuredevops';
 import { SiRedux } from '@react-icons/all-files/si/SiRedux';
-import Figma from '@/assets/icons/figma.svg';
-import VSCode from '@/assets/icons/vscode.svg';
-import Gmail from '@/assets/icons/gmail.svg';
-import Photoshop from '@/assets/icons/photoshop.svg';
-import Vue from '@/assets/icons/vue.svg';
-import Nuxt from '@/assets/icons/nuxt.svg';
-import Css from '@/assets/icons/css.svg';
-import Html from '@/assets/icons/html.svg';
-import Javascript from '@/assets/icons/javascript.svg';
-import Zeplin from '@/assets/icons/zeplin.svg';
 import { device } from '@/styles/mixin';
 
 function AuthorDetails() {
@@ -32,11 +22,11 @@ function AuthorDetails() {
         <h3 className="section-title">Stacks</h3>
         <div className="item-list">
           <div className="item">
-            <img src={Html.src} alt="" />
+            <img src="/icons/html.svg" alt="" />
             HTML
           </div>
           <div className="item">
-            <img src={Css.src} alt="" />
+            <img src="/icons/css.svg" alt="" />
             CSS
           </div>
           <div className="item">
@@ -44,7 +34,7 @@ function AuthorDetails() {
             SASS
           </div>
           <div className="item">
-            <img src={Javascript.src} alt="" />
+            <img src="/icons/javascript.svg" alt="" />
             Javascript
           </div>
           <div className="item">
@@ -72,11 +62,11 @@ function AuthorDetails() {
             Next.js
           </div>
           <div className="item">
-            <img src={Vue.src} alt="" />
+            <img src="/icons/vue.svg" alt="" />
             Vue.js
           </div>
           <div className="item">
-            <img src={Nuxt.src} alt="" />
+            <img src="/icons/nuxt.svg" alt="" />
             Nuxt.js
           </div>
           <div className="item">
@@ -89,19 +79,19 @@ function AuthorDetails() {
         <h3 className="section-title">Tools</h3>
         <div className="item-list">
           <div className="item">
-            <img src={VSCode.src} alt="" />
+            <img src="/icons/vscode.svg" alt="" />
             VSCode
           </div>
           <div className="item">
-            <img src={Figma.src} alt="" />
+            <img src="/icons/figma.svg" alt="" />
             Figma
           </div>
           <div className="item">
-            <img src={Photoshop.src} alt="" />
+            <img src="/icons/photoshop.svg" alt="" />
             Photoshop
           </div>
           <div className="item">
-            <img src={Zeplin.src} alt="" />
+            <img src="/icons/zeplin.svg" alt="" />
             Zeplin
           </div>
           <div className="item">
@@ -126,7 +116,7 @@ function AuthorDetails() {
         <h3 className="section-title">Contact</h3>
         <div className="item-list">
           <div className="item">
-            <img src={Gmail.src} alt="" />
+            <img src="/icons/gmail.svg" alt="" />
             <a href="mailto:shinyj1991@gmail.com">shinyj1991@gmail.com</a>
           </div>
         </div>
