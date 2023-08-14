@@ -10,6 +10,9 @@ interface Props {
 export const metadata: Metadata = {
   title: 'shinyongjun | Home',
   description: 'Welcome to Shinyongjun.com',
+  openGraph: {
+    images: '/og-image.png',
+  },
 };
 
 function RootLayout({ children }: Props) {
