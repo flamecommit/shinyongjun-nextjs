@@ -38,8 +38,10 @@ const StyledSeriesList = styled.div`
     }
   }
   @media ${device.mobile} {
-    a {
-      font-size: 16px;
+    .series-item {
+      a {
+        font-size: 16px;
+      }
     }
   }
 `;
