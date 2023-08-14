@@ -26,6 +26,11 @@ export interface Post extends PostMatter {
   mdx: MDXRemoteSerializeResult;
 }
 
+export interface SeriesType {
+  index: number;
+  series: string | undefined;
+}
+
 type Image = {
   type: string;
   url: string;

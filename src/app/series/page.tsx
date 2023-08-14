@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import PageTitle from '@/components/page/Title';
 import { getSeries } from '@/services/post';
+import SeriesList from '@/components/series/List';
 
 async function SeriesPage() {
   const series = await getSeries();
@@ -8,13 +9,7 @@ async function SeriesPage() {
   return (
     <>
       <PageTitle>Series</PageTitle>
-      {series.map((item) => {
-        return (
-          <div>
-            <Link href={`/series/${item.index}`}>{item.series}</Link>
-          </div>
-        );
-      })}
+      <SeriesList series={series} />
     </>
   );
 }
