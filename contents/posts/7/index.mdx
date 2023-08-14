@@ -5,7 +5,7 @@ categories: ['next.js', 'mdx', 'blog']
 series: Next.js 로 Github Page 블로그 만들기
 ---
 
-이 글은 `mdx` 파일을 탐색하여 블로그 포스팅 목록 페이지를 구성하는 방법을 설명합니다.
+이 글에서는 `mdx` 파일을 탐색하여 블로그 포스팅 목록 페이지를 구성하고 스타일까지 입혀보도록 하겠습니다.
 
 ### mdx란?
 
@@ -152,6 +152,96 @@ export default RootPage;
 
 ![결과 화면](1.png)
 
-폴더 및 파일 구성은 캡쳐 이미지를 참고하세요.
+이제 가져온 포스팅 목록에 스타일을 입혀보겠습니다.
+`PostList` component를 만들어줍니다.
 
-![](2.png)
+```tsx:/src/components/post/List.tsx
+"use client";
+
+import Link from "next/link";
+import styled from "styled-components";
+import { Post } from "@/services/post";
+
+type Props = {
+  postList: Post[];
+};
+
+function PostList({ postList }: Props) {
+  return (
+    <StyledPostList>
+      {postList.map((post) => {
+        return (
+          <div key={post.slug} className="post-item">
+            <Link href={`/post/${post.slug}`} className="title">
+              {post.title}
+            </Link>
+            <div className="date">{post.date.toISOString()}</div>
+            <div className="categories">
+              {post.categories.map((category) => {
+                return <div key={category}>{category}</div>;
+              })}
+            </div>
+          </div>
+        );
+      })}
+    </StyledPostList>
+  );
+}
+
+const StyledPostList = styled.div`
+  display: grid;
+  .post-item {
+    padding: 30px 0;
+    border-bottom: 1px solid #dddddd;
+    &:first-child {
+      border-top: 1px solid #dddddd;
+    }
+    .title {
+      font-weight: 500;
+      font-size: 20px;
+      &:hover {
+        color: #1f883d;
+      }
+    }
+    .date {
+      font-size: 14px;
+      margin-top: 6px;
+      color: #666;
+    }
+    .categories {
+      display: flex;
+      column-gap: 12px;
+      margin-top: 6px;
+    }
+  }
+`;
+
+export default PostList;
+```
+
+그런다음 `/src/app/page.tsx` 파일에 PostList를 불러와 포스팅 목록을 props로 내려줍니다.
+
+```tsx:/src/app/page.tsx
+import PostList from "@/components/post/List";
+import { getPosts } from "@/services/post";
+
+async function RootPage() {
+  const posts = await getPosts();
+
+  return (
+    <>
+      <PostList postList={posts} />
+    </>
+  );
+}
+
+export default RootPage;
+```
+
+정상적으로 스타일이 입혀졌습니다.
+
+![결과 화면2](2.png)
+
+지금까지의 폴더구조는 아래 캡쳐이미지를 참고해주세요.
+
+![폴더 구조](3.png)
