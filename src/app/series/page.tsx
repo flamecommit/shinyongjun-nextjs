@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import PageTitle from '@/components/page/Title';
 import { getSeries } from '@/services/post';
 import SeriesList from '@/components/series/List';

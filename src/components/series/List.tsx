@@ -14,8 +14,10 @@ function SeriesList({ series }: Props) {
     <StyledSeriesList>
       {series.map((item) => {
         return (
-          <div className="series-item">
-            <Link href={`/series/${item.index}`}># {item.series}</Link>
+          <div key={item.index} className="series-item">
+            <Link href={`/series/${item.index}`}>
+              # {item.series} ({item.count})
+            </Link>
           </div>
         );
       })}

@@ -29,6 +29,7 @@ export interface Post extends PostMatter {
 export interface SeriesType {
   index: number;
   series: string | undefined;
+  count: number;
 }
 
 type Image = {
@@ -111,6 +112,7 @@ export const getSeries = async () => {
     return {
       index: index + 1,
       series: post.series,
+      count: posts.filter((item) => item.series === post.series).length,
     };
   });
 };
