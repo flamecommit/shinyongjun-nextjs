@@ -149,6 +149,9 @@ const StyledPostViewer = styled.article`
     ol {
       list-style: decimal;
     }
+    li {
+      list-style: disc;
+    }
   }
   @media ${device.mobile} {
     .post-header {
