@@ -18,6 +18,9 @@ function ChordChart({ chordName, closeChord }: Props) {
   const [startX, setStartX] = useState(0);
   const [moveX, setMoveX] = useState(0);
   const chord = chordList.find((item) => item.name === chordName);
+  const chordNameStr = chordName
+    .replace('♭', '<span class="sign">♭</span>')
+    .replace('♯', '<span class="sign">♯</span>');
 
   const chartCount = chord?.chart.length || 0;
   const [activeIndex, setActiveIndex] = useState(0);
@@ -58,7 +61,10 @@ function ChordChart({ chordName, closeChord }: Props) {
     return (
       <StyledChordChart onClick={clickBackground}>
         <div className="chord-layer">
-          <div className="chord-name">{chordName}</div>
+          <div
+            className="chord-name"
+            dangerouslySetInnerHTML={{ __html: chordNameStr }}
+          />
           <div className="chord-null">제작중입니다.</div>
         </div>
       </StyledChordChart>
@@ -68,7 +74,10 @@ function ChordChart({ chordName, closeChord }: Props) {
   return (
     <StyledChordChart onClick={clickBackground}>
       <div className="chord-layer">
-        <div className="chord-name">{chordName}</div>
+        <div
+          className="chord-name"
+          dangerouslySetInnerHTML={{ __html: chordNameStr }}
+        />
         <div
           className="chart-area"
           onTouchStart={actionTouchStart}
@@ -183,10 +192,17 @@ const StyledChordChart = styled.div`
     width: 440px;
     padding: 20px 20px 50px 20px;
     .chord-name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin-bottom: 20px;
       font-weight: 700;
       font-size: 24px;
       text-align: center;
+      .sign {
+        font-size: 0.8em;
+        margin-inline: -0.2em;
+      }
     }
     .chord-null {
       text-align: center;
@@ -209,7 +225,7 @@ const StyledChordChart = styled.div`
             &[data-position='-1'] {
               svg {
                 path {
-                  stroke: #999;
+                  stroke: #aaa;
                 }
               }
             }
@@ -262,9 +278,9 @@ const StyledChordChart = styled.div`
             font-size: 14px;
             line-height: 100%;
             margin-top: -7px;
-            letter-spacing: -0.05em;
+            letter-spacing: -0.15em;
             &[data-position='-1'] {
-              color: #999;
+              color: #aaa;
             }
           }
         }

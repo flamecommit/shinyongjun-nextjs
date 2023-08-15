@@ -17,13 +17,17 @@ function ChordList() {
     <>
       <StyledChordList>
         {chordList.map((chord) => {
+          const chordNameStr = chord.name
+            .replace('♭', '<span class="sign">♭</span>')
+            .replace('♯', '<span class="sign">♯</span>');
+
           return (
             <button
               type="button"
               key={chord.name}
               onClick={() => setCurrentChord(chord.name)}
             >
-              {chord.name}
+              <div dangerouslySetInnerHTML={{ __html: chordNameStr }} />
             </button>
           );
         })}
@@ -46,12 +50,21 @@ const StyledChordList = styled.div`
       background-color: #333;
       color: #fff;
     }
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .sign {
+      font-size: 0.8em;
+      margin-inline: -0.2em;
+    }
   }
   @media ${device.mobile} {
     gap: 6px;
     button {
       height: 36px;
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 `;
