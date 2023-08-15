@@ -1,4 +1,4 @@
-0:["j6_G56Q9M_Fqb69VtXNjo",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["szNdO8VwcGsX0jhca8fUU",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":8162,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-bda20f7f51140773.js"],"name":"","async":false}
 4:I{"id":2827,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-bda20f7f51140773.js"],"name":"","async":false}
 5:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-bda20f7f51140773.js"],"name":"","async":false}
@@ -8,7 +8,408 @@
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Home"}],["$","meta","2",{"name":"description","content":"Welcome to Shinyongjun.com"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","4",{"property":"og:image","content":"https://shinyongjun.com/og-image.png"}],["$","meta","5",{"name":"twitter:card","content":"summary"}],["$","meta","6",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.png"}]]
 9:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-e21a747b93e656e9.js"],"name":"","async":false}
 a:I{"id":3659,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-e21a747b93e656e9.js"],"name":"","async":false}
-b:T279d,/*@jsxRuntime automatic @jsxImportSource react*/
+b:T225f,/*@jsxRuntime automatic @jsxImportSource react*/
+const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const {ScoreWrapper, ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
+  if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
+  if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
+  return _jsxs(ScoreWrapper, {
+    children: [_jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'Cadd9',
+          position: 0
+        }, {
+          name: 'Gadd9/B',
+          position: 2
+        }, {
+          name: 'A7',
+          position: 4
+        }, {
+          name: 'D7',
+          position: 6
+        }, {
+          name: 'G',
+          position: 8
+        }, {
+          name: 'GM7',
+          position: 16
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'Bm7',
+          position: 0
+        }, {
+          name: 'E7♭9',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 8
+        }, {
+          name: 'D7sus4',
+          position: 12
+        }, {
+          name: 'G',
+          position: 16
+        }, {
+          name: 'Gsus4',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 보일 듯 말 듯 가물거리는',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Am7',
+          position: 6
+        }, {
+          name: 'G/B',
+          position: 11
+        }, {
+          name: 'B7',
+          position: 15
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 안개속에 쌓인 길',
+        chordList: [{
+          name: 'Em7',
+          position: 0
+        }, {
+          name: 'D',
+          position: 3
+        }, {
+          name: 'Am7',
+          position: 7
+        }, {
+          name: 'D7',
+          position: 9
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 잡힐 듯 말 듯 멀어져 가는',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Am7',
+          position: 6
+        }, {
+          name: 'G/B',
+          position: 11
+        }, {
+          name: 'B7',
+          position: 16
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 무지개와 같은 길',
+        chordList: [{
+          name: 'Em7',
+          position: 0
+        }, {
+          name: 'D',
+          position: 3
+        }, {
+          name: 'Am7',
+          position: 7
+        }, {
+          name: 'D7',
+          position: 9
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그 어디에서 날 기다리는지',
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'G/B',
+          position: 6
+        }, {
+          name: 'Am7',
+          position: 9
+        }, {
+          name: 'G',
+          position: 13
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '둘러 보아도 찾을 수 없네',
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'G/B',
+          position: 6
+        }, {
+          name: 'Am7',
+          position: 8
+        }, {
+          name: 'D7',
+          position: 12
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그대여 힘이 돼 주 - 오 - ',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Em7',
+          position: 9
+        }, {
+          name: 'E7',
+          position: 13
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '나에게 주어진 길 찾을 수 있도록',
+        chordList: [{
+          name: 'Am7',
+          position: 0
+        }, {
+          name: 'D7',
+          position: 10
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그대여 길을 터 주 - 오 - ',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Em7',
+          position: 9
+        }, {
+          name: 'E7',
+          position: 13
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '가리워진 나의 길',
+        chordList: [{
+          name: 'Am7',
+          position: 0
+        }, {
+          name: 'D7',
+          position: 5
+        }, {
+          name: 'C',
+          position: 8
+        }, {
+          name: 'Gadd9/B',
+          position: 10
+        }, {
+          name: 'A7',
+          position: 12
+        }, {
+          name: 'D7',
+          position: 14
+        }, {
+          name: 'G',
+          position: 16
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 이리로 가나 저리로 갈까',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Am7',
+          position: 5
+        }, {
+          name: 'G/B',
+          position: 9
+        }, {
+          name: 'B7',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 아득하기만 한 데',
+        chordList: [{
+          name: 'Em7',
+          position: 0
+        }, {
+          name: 'D',
+          position: 3
+        }, {
+          name: 'Am7',
+          position: 7
+        }, {
+          name: 'D7',
+          position: 9
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 이끌려 가듯 떠나는 이는',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Am7',
+          position: 5
+        }, {
+          name: 'G/B',
+          position: 9
+        }, {
+          name: 'B7',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 제 갈 길을 찾았 나',
+        chordList: [{
+          name: 'Em7',
+          position: 0
+        }, {
+          name: 'D',
+          position: 5
+        }, {
+          name: 'Am7',
+          position: 9
+        }, {
+          name: 'D7',
+          position: 11
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '손을 흔들며 떠나보낸 뒤',
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'G/B',
+          position: 5
+        }, {
+          name: 'Am7',
+          position: 7
+        }, {
+          name: 'G',
+          position: 12
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '외로움만이 나를 감쌀 때',
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'G/B',
+          position: 5
+        }, {
+          name: 'Am7',
+          position: 7
+        }, {
+          name: 'D7',
+          position: 10
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그대여 힘이 돼 주 - 오 - ',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Em7',
+          position: 9
+        }, {
+          name: 'E7',
+          position: 13
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '나에게 주어진 길 찾을 수 있도록',
+        chordList: [{
+          name: 'Am7',
+          position: 0
+        }, {
+          name: 'D7',
+          position: 10
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그대여 길을 터 주 - 오 - ',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Em7',
+          position: 9
+        }, {
+          name: 'E7',
+          position: 13
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '가리워진 나의 길',
+        chordList: [{
+          name: 'Am7',
+          position: 0
+        }, {
+          name: 'D7',
+          position: 5
+        }, {
+          name: 'C',
+          position: 8
+        }, {
+          name: 'Gadd9/B',
+          position: 10
+        }, {
+          name: 'A7',
+          position: 12
+        }, {
+          name: 'D7',
+          position: 14
+        }, {
+          name: 'G',
+          position: 16
+        }]
+      }
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+c:T279d,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -462,4 +863,4 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-8:[["$","$L9",null,{"children":"Score"}],["$","$La",null,{"scoreList":[{"title":"너를 보내고","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"1","mdx":{"compiledSource":"$b","frontmatter":{},"scope":{}}}]}]]
+8:[["$","$L9",null,{"children":"Score"}],["$","$La",null,{"scoreList":[{"title":"가리워진 길","artist":"유재하","releaseYear":1986,"capo":0,"slug":"2","mdx":{"compiledSource":"$b","frontmatter":{},"scope":{}}},{"title":"너를 보내고","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"1","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}}]}]]
