@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { post } = await getPost(slug);
 
   return {
-    title: `shinyongjun | Post - ${post.title}`,
+    title: `shinyongjun - Post | ${post.title}`,
   };
 }
 

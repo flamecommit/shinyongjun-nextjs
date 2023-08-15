@@ -6,7 +6,7 @@ import PostList from '@/components/post/List';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: `shinyongjun | Category`,
+    title: `shinyongjun - Category`,
   };
 }
 

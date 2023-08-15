@@ -4,7 +4,7 @@ import DiaryGiscus from '@/components/diary/Giscus';
 import DiaryCalendar from '@/components/diary/Calendar';
 
 export const metadata: Metadata = {
-  title: 'shinyongjun | Diary',
+  title: 'shinyongjun - Diary',
 };
 
 const DiaryPage = async () => {
