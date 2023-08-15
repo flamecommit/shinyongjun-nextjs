@@ -2,14 +2,14 @@
 
 import styled from 'styled-components';
 import { useState } from 'react';
+import getConfig from 'next/config';
 import { device } from '@/styles/mixin';
-import { ChordType } from '@/constants/chord';
 import ChordChart from '../chord/Chart';
 
 type Props = {
   phrase: {
     lyrics: string | undefined;
-    chord: [{ name: string; position: number }];
+    chordList: [{ name: string; position: number }];
   };
 };
 
@@ -24,33 +24,45 @@ function ScorePhrase({ phrase }: Props) {
     setCurrentChord('');
   };
 
+  const phraseArray = [];
+  const lyricsArray = phrase.lyrics?.split('') || [];
+  const lyricsCount = lyricsArray.length;
+  const chordPosMax = Math.max(
+    ...phrase.chordList.map((chord) => chord.position),
+  );
+
+  for (let i = 0; i < Math.max(lyricsCount, chordPosMax + 1); i++) {
+    phraseArray.push({
+      lyricsLetter: lyricsArray[i],
+      chordName:
+        phrase.chordList.find((chord) => chord.position === i)?.name || '',
+    });
+  }
+
   return (
     <>
-      <StyledScorePhrase data-lyrics={!!phrase.lyrics}>
-        <div className="chordList">
-          {phrase.chord.map((chord, i) => {
-            return (
-              <button
-                type="button"
-                key={i}
-                className="chord"
-                style={{ left: `${chord.position}em` }}
-                onClick={() => setCurrentChord(chord.name)}
-              >
-                {chord.name}
-              </button>
-            );
-          })}
-        </div>
-        <div className="lyrics">
-          {phrase.lyrics?.split('').map((letter, i) => {
-            return (
-              <div key={i} className="letter">
-                {letter}
+      <StyledScorePhrase>
+        {phraseArray.map((item, i) => {
+          return (
+            <div key={i} className="letter" data-letter-index={i}>
+              <div className="chord">
+                {item.chordName && (
+                  <button
+                    type="button"
+                    key={i}
+                    onClick={() => setCurrentChord(item.chordName)}
+                  >
+                    {item.chordName}
+                  </button>
+                )}
               </div>
-            );
-          })}
-        </div>
+              <div className="lyrics">{item.lyricsLetter}</div>
+              {process.env.MODE === 'development' && (
+                <div className="index">{i}</div>
+              )}
+            </div>
+          );
+        })}
       </StyledScorePhrase>
       {currentChord && (
         <ChordChart chordName={currentChord} closeChord={closeChord} />
@@ -60,23 +72,34 @@ function ScorePhrase({ phrase }: Props) {
 }
 
 const StyledScorePhrase = styled.div`
-  position: relative;
-  padding-top: 1.5em;
-  .chordList {
-    .chord {
-      position: absolute;
-      top: 0;
-    }
-  }
-  .lyrics {
-    position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  .letter {
     display: flex;
-    .letter {
-      width: 1em;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* flex-basis: 1em; */
+    width: 1em;
+    .chord {
+      height: 1.5em;
+      white-space: nowrap;
+      font-size: 14px;
+      button {
+        width: 100%;
+        &:hover {
+          background-color: #f7f7f7;
+        }
+      }
     }
-  }
-  &[data-lyrics='false'] {
-    // 가사 없을때
+    .lyrics {
+      height: 1.5em;
+    }
+    .index {
+      height: 1.5em;
+      white-space: nowrap;
+      font-size: 10px;
+      text-align: center;
+    }
   }
 `;
 

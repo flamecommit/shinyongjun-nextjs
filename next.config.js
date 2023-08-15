@@ -18,6 +18,9 @@ const nextConfig = {
       pure: true, // dead code elimination (사용되지 않는 속성 제거)
     },
   },
+  env: {
+    MODE: process.env.MODE,
+  },
 };
 
 module.exports = nextConfig;

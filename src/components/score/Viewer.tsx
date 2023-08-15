@@ -7,6 +7,7 @@ import { prism } from '@/styles/prism';
 import { markdown } from '@/styles/markdown';
 import { device } from '@/styles/mixin';
 import ScorePhrase from './Phrase';
+import ScoreWrapper from './Wrapper';
 
 interface Props {
   scoreData: Score;
@@ -25,14 +26,17 @@ function ScoreViewer({ scoreData }: Props) {
           </div>
         </header>
         <div className="score-content">
-          <MDXRemote {...scoreData.mdx} components={{ ScorePhrase }} />
+          <MDXRemote
+            {...scoreData.mdx}
+            components={{ ScoreWrapper, ScorePhrase }}
+          />
         </div>
       </StyledScoreViewer>
     </>
   );
 }
 
-const StyledScoreViewer = styled.article`
+const StyledScoreViewer = styled.div`
   .score-header {
     text-align: center;
     margin-bottom: 60px;
@@ -56,6 +60,7 @@ const StyledScoreViewer = styled.article`
       margin-top: 30px;
       display: flex;
       justify-content: space-between;
+      font-size: 14px;
     }
   }
   .score-content {

@@ -28,8 +28,8 @@ const parseScore = async (scorePath: string): Promise<Score> => {
   const { data, content } = matter(file);
   const grayMatter = data as ScoreMatter;
   const slug = scorePath
-    .slice(scorePath.indexOf(SCORE_PATH))
-    .replace(`${SCORE_PATH}/`, '')
+    .slice(scorePath.indexOf(BASE_PATH))
+    .replace(`${BASE_PATH}/`, '')
     .replace('/index.mdx', '');
   const mdx = await serialize(content, {
     mdxOptions: {

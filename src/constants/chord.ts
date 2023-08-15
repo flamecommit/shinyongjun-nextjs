@@ -3,6 +3,8 @@ export interface ChordType {
   chart: number[][];
 }
 
+// ♭ ♯
+
 export const chordList: ChordType[] = [
   {
     name: 'C',
@@ -17,8 +19,16 @@ export const chordList: ChordType[] = [
     chart: [[2, 3, 2, 0, -1, -1]],
   },
   {
+    name: 'Dm',
+    chart: [[1, 3, 2, 0, -1, -1]],
+  },
+  {
     name: 'E',
     chart: [[0, 0, 1, 2, 2, 0]],
+  },
+  {
+    name: 'F',
+    chart: [[1, 1, 2, 3, 3, 1]],
   },
   {
     name: 'G',
@@ -40,5 +50,16 @@ export const chordList: ChordType[] = [
       [0, 1, 2, 2, 0, -1],
       [5, 5, 5, 7, 7, 5],
     ],
+  },
+  {
+    name: 'Am7',
+    chart: [
+      [0, 1, 0, 2, 0, -1],
+      [5, 5, 6, 5, 7, 5],
+    ],
+  },
+  {
+    name: 'B♭',
+    chart: [[1, 2, 2, 2, 1, 1]],
   },
 ];
