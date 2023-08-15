@@ -80,7 +80,7 @@ function ChordChart({ chordName, closeChord }: Props) {
             const maxFret = Math.max(...chart.filter((fret) => fret >= 0));
             const minFret = Math.min(...chart.filter((fret) => fret >= 0));
             const startFret = maxFret <= 4 ? 1 : minFret;
-            const endFret = maxFret - minFret < 3 ? startFret + 3 : maxFret + 1;
+            const endFret = maxFret <= 3 ? 4 : maxFret + 1;
 
             for (let j = startFret; j < endFret; j++) {
               const temp = [];

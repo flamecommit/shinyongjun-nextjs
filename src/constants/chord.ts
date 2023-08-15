@@ -118,6 +118,25 @@ export const chordList: ChordType[] = [
     ],
   },
   {
+    name: 'B',
+    chart: [[2, 4, 4, 4, 2, 2]],
+  },
+  {
+    name: 'B7',
+    chart: [
+      [2, 0, 2, 1, 2, -1],
+      [2, 4, 2, 4, 2, 2],
+    ],
+  },
+  {
+    name: 'Bm7',
+    chart: [[2, 3, 2, 4, 2, 2]],
+  },
+  {
+    name: 'Bm',
+    chart: [[2, 3, 4, 4, 2, 2]],
+  },
+  {
     name: 'B♭',
     chart: [[1, 2, 2, 2, 1, 1]],
   },
