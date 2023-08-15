@@ -96,7 +96,7 @@ function ChordChart({ chordName, closeChord }: Props) {
             return (
               <Fragment key={i}>
                 {activeIndex === i && (
-                  <div className="chart" data-start-fret={startFret}>
+                  <div className="chart">
                     <div className="position">
                       {chart.map((position, j) => {
                         return (
@@ -107,20 +107,22 @@ function ChordChart({ chordName, closeChord }: Props) {
                         );
                       })}
                     </div>
-                    {result.map((fret, j) => {
-                      return (
-                        <div key={j} className="fret">
-                          <div className="number">{fret.number}</div>
-                          {fret.strings.map((string, k) => {
-                            return (
-                              <div key={k} className="string">
-                                {string && <div className="finger" />}
-                              </div>
-                            );
-                          })}
-                        </div>
-                      );
-                    })}
+                    <div className="fret-area" data-start-fret={startFret}>
+                      {result.map((fret, j) => {
+                        return (
+                          <div key={j} className="fret">
+                            <div className="number">{fret.number}</div>
+                            {fret.strings.map((string, k) => {
+                              return (
+                                <div key={k} className="string">
+                                  {string && <div className="finger" />}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        );
+                      })}
+                    </div>
                     <div className="pitch">
                       {chart.map((position, j) => {
                         return (
@@ -175,7 +177,7 @@ const StyledChordChart = styled.div`
     background-color: #fff;
     max-width: 100%;
     width: 440px;
-    padding: 20px 60px 50px;
+    padding: 20px 20px 50px 20px;
     .chord-name {
       margin-bottom: 20px;
       font-weight: 700;
@@ -184,17 +186,9 @@ const StyledChordChart = styled.div`
     }
     .chart-area {
       .chart {
-        position: relative;
         display: flex;
-        border-left: 1px solid #000;
-        &[data-start-fret='1'] {
-          border-left-width: 3px;
-        }
+        column-gap: 10px;
         .position {
-          position: absolute;
-          top: 0;
-          left: -26px;
-          bottom: 0;
           display: grid;
           width: 20px;
           row-gap: 20px;
@@ -207,40 +201,45 @@ const StyledChordChart = styled.div`
             }
           }
         }
-        .fret {
+        .fret-area {
+          width: 100%;
           position: relative;
-          flex-grow: 1;
-          display: grid;
-          row-gap: 20px;
-          border-right: 1px solid #000;
-          .number {
-            position: absolute;
-            bottom: -2.4em;
-            width: 100%;
-            text-align: center;
-            font-size: 14px;
+          display: flex;
+          border-left: 1px solid #000;
+          &[data-start-fret='1'] {
+            border-left-width: 3px;
           }
-          .string {
+          .fret {
             position: relative;
-            width: 100%;
-            height: 1px;
-            background-color: #000;
-            .finger {
-              width: 16px;
-              height: 16px;
-              border-radius: 50%;
-              background-color: #000;
+            flex-grow: 1;
+            display: grid;
+            row-gap: 20px;
+            border-right: 1px solid #000;
+            .number {
               position: absolute;
-              top: calc(50% - 8px);
-              left: calc(50% - 8px);
+              bottom: -2.4em;
+              width: 100%;
+              text-align: center;
+              font-size: 14px;
+            }
+            .string {
+              position: relative;
+              width: 100%;
+              height: 1px;
+              background-color: #000;
+              .finger {
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background-color: #000;
+                position: absolute;
+                top: calc(50% - 8px);
+                left: calc(50% - 8px);
+              }
             }
           }
         }
         .pitch {
-          position: absolute;
-          top: 0;
-          right: -32px;
-          bottom: 0;
           display: grid;
           width: 20px;
           row-gap: 20px;
@@ -249,6 +248,7 @@ const StyledChordChart = styled.div`
             font-size: 14px;
             line-height: 100%;
             margin-top: -7px;
+            letter-spacing: -0.05em;
           }
         }
       }
