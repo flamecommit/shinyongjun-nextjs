@@ -1,4 +1,4 @@
-0:["-AO2NiRoLqyKGhpoDMcKq",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["MaVNkeXH90z-45VFHNzx1",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":8162,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-bda20f7f51140773.js"],"name":"","async":false}
 4:I{"id":2827,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-bda20f7f51140773.js"],"name":"","async":false}
 5:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-bda20f7f51140773.js"],"name":"","async":false}
@@ -8,7 +8,490 @@
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Home"}],["$","meta","2",{"name":"description","content":"Welcome to Shinyongjun.com"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","4",{"property":"og:image","content":"https://shinyongjun.com/og-image.png"}],["$","meta","5",{"name":"twitter:card","content":"summary"}],["$","meta","6",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.png"}]]
 9:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-e21a747b93e656e9.js"],"name":"","async":false}
 a:I{"id":3659,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-e21a747b93e656e9.js"],"name":"","async":false}
-b:T225f,/*@jsxRuntime automatic @jsxImportSource react*/
+b:T2aff,/*@jsxRuntime automatic @jsxImportSource react*/
+const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const {ScoreWrapper, ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
+  if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
+  if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
+  return _jsxs(ScoreWrapper, {
+    children: [_jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 중2때까진 늘 첫째 줄에 겨우 160이 됐을 무렵',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 10
+        }, {
+          name: 'C',
+          position: 14
+        }, {
+          name: 'G',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 쓸만한 녀석들은 모두 다 이미 첫사랑 진행 중',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 10
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'G',
+          position: 26
+        }, {
+          name: 'D',
+          position: 30
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 정말 듣고 싶었던 말이야 물론 2년전 일이지만',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 11
+        }, {
+          name: 'C',
+          position: 18
+        }, {
+          name: 'G',
+          position: 26
+        }, {
+          name: 'D',
+          position: 30
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 기뻐야하는 게 당연한데 내 기분은 그게 아냐',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 10
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'Cm',
+          position: 21
+        }, {
+          name: 'G',
+          position: 25
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '하지만 미안해 네 넓은 가슴에 묻혀 다른 누구를 생각했었어',
+        chordList: [{
+          name: 'G',
+          position: 4
+        }, {
+          name: 'A7',
+          position: 15
+        }, {
+          name: 'C',
+          position: 23
+        }, {
+          name: 'G',
+          position: 29
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '미안해 너의 손을 잡고 걸을 때에도 떠올렸었어 그 사람을',
+        chordList: [{
+          name: 'G',
+          position: 4
+        }, {
+          name: 'A7',
+          position: 16
+        }, {
+          name: 'C',
+          position: 22
+        }, {
+          name: 'G',
+          position: 30
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 널 좋아하면 좋아할수록 상처 입은 날들이 더 많아',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 10
+        }, {
+          name: 'C',
+          position: 13
+        }, {
+          name: 'G',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 모두가 즐거운 한 때에도 나는 늘 그곳에 없어',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 11
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'G',
+          position: 26
+        }, {
+          name: 'D',
+          position: 30
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 정말 미안한 일을 한걸까 나쁘진 않았었지만',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 11
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'G',
+          position: 25
+        }, {
+          name: 'D',
+          position: 29
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 친구인 채였다면 오히려 즐거웠을 것만 같아',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 10
+        }, {
+          name: 'C',
+          position: 15
+        }, {
+          name: 'Cm',
+          position: 20
+        }, {
+          name: 'G',
+          position: 26
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '하지만 미안해 네 넓은 가슴에 묻혀 다른 누구를 생각했었어',
+        chordList: [{
+          name: 'G',
+          position: 4
+        }, {
+          name: 'A7',
+          position: 15
+        }, {
+          name: 'C',
+          position: 23
+        }, {
+          name: 'G',
+          position: 29
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '미안해 너의 손을 잡고 걸을 때에도 떠올랐었어 그 사람이',
+        chordList: [{
+          name: 'G',
+          position: 4
+        }, {
+          name: 'A7',
+          position: 16
+        }, {
+          name: 'C',
+          position: 22
+        }, {
+          name: 'G',
+          position: 30
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 8
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'G',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 8
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'G',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 정말 듣고 싶었던 말이야 물론 2년전 일이지만',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 11
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'G',
+          position: 25
+        }, {
+          name: 'D',
+          position: 29
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 기뻐야하는 게 당연한데 내 기분은 그게 아냐',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 10
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'Cm',
+          position: 21
+        }, {
+          name: 'G',
+          position: 25
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '하지만 미안해 네 넓은 가슴에 묻혀 다른 누구를 생각했었어',
+        chordList: [{
+          name: 'G',
+          position: 4
+        }, {
+          name: 'A7',
+          position: 15
+        }, {
+          name: 'C',
+          position: 23
+        }, {
+          name: 'G',
+          position: 29
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '미안해 너의 손을 잡고 걸을 때에도 떠올렸었어 그 사람을',
+        chordList: [{
+          name: 'G',
+          position: 4
+        }, {
+          name: 'A7',
+          position: 16
+        }, {
+          name: 'C',
+          position: 22
+        }, {
+          name: 'G',
+          position: 30
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 8
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'G',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 8
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'G',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 8
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'G',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 8
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'G',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '하지만 미안해 네 넓은 가슴에 묻혀 다른 누구를 생각했었어',
+        chordList: [{
+          name: 'G',
+          position: 4
+        }, {
+          name: 'A7',
+          position: 15
+        }, {
+          name: 'C',
+          position: 23
+        }, {
+          name: 'G',
+          position: 29
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '미안해 너의 손을 잡고 걸을 때에도 떠올랐었어 그 사람이',
+        chordList: [{
+          name: 'G',
+          position: 4
+        }, {
+          name: 'A7',
+          position: 16
+        }, {
+          name: 'C',
+          position: 22
+        }, {
+          name: 'G',
+          position: 30
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '라라라라라라라라, 라라라, 라라 라라라, 라라 라라라',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 10
+        }, {
+          name: 'C',
+          position: 18
+        }, {
+          name: 'G',
+          position: 26
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '라라라라라라라라, 라라라, 라라 라라라',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'A7',
+          position: 10
+        }, {
+          name: 'C',
+          position: 18
+        }, {
+          name: 'G',
+          position: 26
+        }]
+      }
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+c:T225f,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -409,7 +892,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-c:T279d,/*@jsxRuntime automatic @jsxImportSource react*/
+d:T279d,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -863,4 +1346,4 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-8:[["$","$L9",null,{"children":"Score"}],["$","$La",null,{"scoreList":[{"title":"가리워진 길","artist":"유재하","releaseYear":1986,"capo":0,"slug":"2","mdx":{"compiledSource":"$b","frontmatter":{},"scope":{}}},{"title":"너를 보내고","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"1","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}}]}]]
+8:[["$","$L9",null,{"children":"Score"}],["$","$La",null,{"scoreList":[{"title":"고백","artist":"델리스파이스","releaseYear":2003,"capo":4,"slug":"3","mdx":{"compiledSource":"$b","frontmatter":{},"scope":{}}},{"title":"가리워진 길","artist":"유재하","releaseYear":1986,"capo":0,"slug":"2","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}},{"title":"너를 보내고","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"1","mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}}]}]]
