@@ -1,32 +1,175 @@
-0:["43GDNNmRokCqbh7lxNG1t",[[["",{"children":["score",{"children":[["slug","1","d"],{"children":["__PAGE__?{\"slug\":\"1\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
-3:I{"id":8162,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-ffec3900c835b0da.js"],"name":"","async":false}
-4:I{"id":2827,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-ffec3900c835b0da.js"],"name":"","async":false}
-5:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-ffec3900c835b0da.js"],"name":"","async":false}
+0:["iq5xrBrRy5zn2RXu6UahY",[[["",{"children":["score",{"children":[["slug","1","d"],{"children":["__PAGE__?{\"slug\":\"1\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":8162,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-bda20f7f51140773.js"],"name":"","async":false}
+4:I{"id":2827,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-bda20f7f51140773.js"],"name":"","async":false}
+5:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-bda20f7f51140773.js"],"name":"","async":false}
 6:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 7:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","score","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","score","children",["slug","1","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L7",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L8",null],"segment":"__PAGE__?{\"slug\":\"1\"}"},"styles":[]}],"segment":["slug","1","d"]},"styles":[]}],"segment":"score"},"styles":[]}]}]}]}]}]]}],null]
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun - Score | 윤도현 밴드 - 너를 보내고"}],["$","meta","2",{"name":"description","content":"Welcome to Shinyongjun.com"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","4",{"property":"og:image","content":"https://shinyongjun.com/og-image.png"}],["$","meta","5",{"name":"twitter:card","content":"summary"}],["$","meta","6",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.png"}]]
-9:I{"id":8507,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","422:static/chunks/422-174eac7f9fb8530b.js","589:static/chunks/app/score/[slug]/page-438adeda8292f192.js"],"name":"","async":false}
-a:T45f,/*@jsxRuntime automatic @jsxImportSource react*/
-const {jsx: _jsx} = arguments[0];
+9:I{"id":1179,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","422:static/chunks/422-f11e627bc64bd640.js","589:static/chunks/app/score/[slug]/page-68621c5d42977509.js"],"name":"","async":false}
+a:T10cf,/*@jsxRuntime automatic @jsxImportSource react*/
+const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
-  const {ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
+  const {ScoreWrapper, ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
   if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
-  return _jsx(ScorePhrase, {
-    phrase: {
-      lyrics: '구름낀 하늘은 왠지 니가 살고 있는',
-      chord: [{
-        name: 'C',
-        position: 0
-      }, {
-        name: 'G',
-        position: 6
-      }, {
-        name: 'F',
-        position: 11
-      }]
-    }
+  if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
+  return _jsxs(ScoreWrapper, {
+    children: [_jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '구름낀 하늘은 왠지 네가 살고 있는 나라일 것 같아서',
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'G',
+          position: 6
+        }, {
+          name: 'F',
+          position: 11
+        }, {
+          name: 'C',
+          position: 18
+        }, {
+          name: 'F',
+          position: 20
+        }, {
+          name: 'Am7',
+          position: 24
+        }, {
+          name: 'G',
+          position: 26
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '창문들마저도 닫지 못하고 하루종일 서성이고 있었지',
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'G',
+          position: 5
+        }, {
+          name: 'F',
+          position: 7
+        }, {
+          name: 'C',
+          position: 13
+        }, {
+          name: 'F',
+          position: 17
+        }, {
+          name: 'Am7',
+          position: 22
+        }, {
+          name: 'G',
+          position: 26
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '삶의 작은 문턱조차 쉽사리 넘지 못했던',
+        chordList: [{
+          name: 'F',
+          position: 0
+        }, {
+          name: 'G',
+          position: 6
+        }, {
+          name: 'Am',
+          position: 11
+        }, {
+          name: 'Em',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '너에게 나는 무슨말이 하고 파서 였을까',
+        chordList: [{
+          name: 'F',
+          position: 0
+        }, {
+          name: 'C',
+          position: 4
+        }, {
+          name: 'B♭',
+          position: 9
+        }, {
+          name: 'Dm',
+          position: 16
+        }, {
+          name: 'G',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '먼산 언저리마다 너를 남기고 돌아서는',
+        chordList: [{
+          name: 'C',
+          position: 1
+        }, {
+          name: 'E',
+          position: 5
+        }, {
+          name: 'Am',
+          position: 12
+        }, {
+          name: 'C',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '내게 시간은 그만 놓아주라는데',
+        chordList: [{
+          name: 'F',
+          position: 3
+        }, {
+          name: 'C',
+          position: 9
+        }, {
+          name: 'Dm7',
+          position: 16
+        }, {
+          name: 'G',
+          position: 21
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '난 왜 너 닮은 목소리마저 가슴에 품고도',
+        chordList: [{
+          name: 'C',
+          position: 2
+        }, {
+          name: 'E',
+          position: 6
+        }, {
+          name: 'Am',
+          position: 12
+        }, {
+          name: 'C',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 같이가자 하지 못했나',
+        chordList: [{
+          name: 'F',
+          position: 0
+        }, {
+          name: 'G',
+          position: 6
+        }, {
+          name: 'Am',
+          position: 11
+        }]
+      }
+    })]
   });
 }
 function MDXContent(props = {}) {
