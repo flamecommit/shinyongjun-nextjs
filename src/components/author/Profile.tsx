@@ -23,7 +23,7 @@ function AuthorProfile({ postDetail }: Props) {
         <Link className="name" href="/about" data-category={categoryName}>
           신용준
         </Link>
-        <div className="bio">단순함이 세상을 지배한다</div>
+        <div className="bio">기타치는 개발자</div>
         <div className="links">
           <a
             href="https://github.com/shinyj1991"
