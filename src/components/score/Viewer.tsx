@@ -112,6 +112,9 @@ const StyledScoreViewer = styled.div`
       .score-categories {
         gap: 8px;
       }
+      .score-meta {
+        font-size: 12px;
+      }
     }
     .score-content {
       font-size: 14px;

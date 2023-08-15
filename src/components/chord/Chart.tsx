@@ -6,7 +6,7 @@ import { FiChevronLeft } from '@react-icons/all-files/fi/FiChevronLeft';
 import { FiChevronRight } from '@react-icons/all-files/fi/FiChevronRight';
 import { GrClose } from '@react-icons/all-files/gr/GrClose';
 import { GrRadial } from '@react-icons/all-files/gr/GrRadial';
-import { ChordType, chordList } from '@/constants/chord';
+import { scaleArray, chordList } from '@/constants/chord';
 import { device } from '@/styles/mixin';
 
 interface Props {
@@ -68,7 +68,7 @@ function ChordChart({ chordName, closeChord }: Props) {
   return (
     <StyledChordChart onClick={clickBackground}>
       <div className="chord-layer">
-        <div className="name">{chordName}</div>
+        <div className="chord-name">{chordName}</div>
         <div
           className="chart-area"
           onTouchStart={actionTouchStart}
@@ -121,6 +121,15 @@ function ChordChart({ chordName, closeChord }: Props) {
                         </div>
                       );
                     })}
+                    <div className="pitch">
+                      {chart.map((position, j) => {
+                        return (
+                          <div key={j} className="name">
+                            {position < 0 ? 'X' : scaleArray[j][position]}
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
                 )}
               </Fragment>
@@ -165,9 +174,9 @@ const StyledChordChart = styled.div`
   .chord-layer {
     background-color: #fff;
     max-width: 100%;
-    width: 400px;
-    padding: 20px 20px 50px 50px;
-    .name {
+    width: 440px;
+    padding: 20px 60px 50px;
+    .chord-name {
       margin-bottom: 20px;
       font-weight: 700;
       font-size: 24px;
@@ -227,6 +236,21 @@ const StyledChordChart = styled.div`
             }
           }
         }
+        .pitch {
+          position: absolute;
+          top: 0;
+          right: -32px;
+          bottom: 0;
+          display: grid;
+          width: 20px;
+          row-gap: 20px;
+          > div {
+            height: 1px;
+            font-size: 14px;
+            line-height: 100%;
+            margin-top: -7px;
+          }
+        }
       }
     }
     .chart-navigation {
@@ -243,7 +267,7 @@ const StyledChordChart = styled.div`
   }
   @media ${device.mobile} {
     .chord-layer {
-      .name {
+      .chord-name {
         // font-size: 20px;
       }
     }

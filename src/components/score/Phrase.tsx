@@ -80,6 +80,7 @@ const StyledScorePhrase = styled.div`
     justify-content: flex-end;
     /* flex-basis: 1em; */
     width: 1em;
+    text-align: center;
     .chord {
       height: 1.5em;
       white-space: nowrap;
