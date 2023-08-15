@@ -58,8 +58,8 @@ function ChordChart({ chordName, closeChord }: Props) {
     return (
       <StyledChordChart onClick={clickBackground}>
         <div className="chord-layer">
-          <div className="name">{chordName}</div>
-          <div>제작중입니다.</div>
+          <div className="chord-name">{chordName}</div>
+          <div className="chord-null">제작중입니다.</div>
         </div>
       </StyledChordChart>
     );
@@ -126,7 +126,11 @@ function ChordChart({ chordName, closeChord }: Props) {
                     <div className="pitch">
                       {chart.map((position, j) => {
                         return (
-                          <div key={j} className="name">
+                          <div
+                            key={j}
+                            className="name"
+                            data-position={position}
+                          >
                             {position < 0 ? 'X' : scaleArray[j][position]}
                           </div>
                         );
@@ -184,6 +188,9 @@ const StyledChordChart = styled.div`
       font-size: 24px;
       text-align: center;
     }
+    .chord-null {
+      text-align: center;
+    }
     .chart-area {
       .chart {
         display: flex;
@@ -198,6 +205,13 @@ const StyledChordChart = styled.div`
             line-height: 100%;
             svg {
               margin-top: -8px;
+            }
+            &[data-position='-1'] {
+              svg {
+                path {
+                  stroke: #999;
+                }
+              }
             }
           }
         }
@@ -249,6 +263,9 @@ const StyledChordChart = styled.div`
             line-height: 100%;
             margin-top: -7px;
             letter-spacing: -0.05em;
+            &[data-position='-1'] {
+              color: #999;
+            }
           }
         }
       }
