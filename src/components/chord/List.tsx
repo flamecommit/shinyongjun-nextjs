@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 import { chordList } from '@/constants/chord';
+import { device } from '@/styles/mixin';
 import ChordChart from './Chart';
 
 function ChordList() {
@@ -44,6 +45,13 @@ const StyledChordList = styled.div`
     &:hover {
       background-color: #333;
       color: #fff;
+    }
+  }
+  @media ${device.mobile} {
+    gap: 6px;
+    button {
+      height: 36px;
+      font-size: 14px;
     }
   }
 `;

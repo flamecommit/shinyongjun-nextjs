@@ -7,6 +7,7 @@ import { FiChevronRight } from '@react-icons/all-files/fi/FiChevronRight';
 import { GrClose } from '@react-icons/all-files/gr/GrClose';
 import { GrRadial } from '@react-icons/all-files/gr/GrRadial';
 import { ChordType, chordList } from '@/constants/chord';
+import { device } from '@/styles/mixin';
 
 interface Props {
   chordName: string;
@@ -14,6 +15,8 @@ interface Props {
 }
 
 function ChordChart({ chordName, closeChord }: Props) {
+  const [startX, setStartX] = useState(0);
+  const [moveX, setMoveX] = useState(0);
   const chord = chordList.find((item) => item.name === chordName);
 
   const chartCount = chord?.chart.length || 0;
@@ -28,6 +31,27 @@ function ChordChart({ chordName, closeChord }: Props) {
     if (index > chartCount - 1) return setActiveIndex(0);
     if (index < 0) return setActiveIndex(chartCount - 1);
     return setActiveIndex(index);
+  };
+
+  const actionTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+    setStartX(e.touches[0].clientX);
+  };
+
+  const actionTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
+    const x = e.touches[0].clientX - startX;
+    setMoveX(x);
+  };
+
+  const actionTouchEnd = () => {
+    if (Math.abs(moveX) > 50) {
+      if (moveX < 0) {
+        moveToActiveIndex(activeIndex + 1);
+      }
+      if (moveX > 0) {
+        moveToActiveIndex(activeIndex - 1);
+      }
+    }
+    setMoveX(0);
   };
 
   if (!chord) {
@@ -45,7 +69,12 @@ function ChordChart({ chordName, closeChord }: Props) {
     <StyledChordChart onClick={clickBackground}>
       <div className="chord-layer">
         <div className="name">{chordName}</div>
-        <div className="chart-area">
+        <div
+          className="chart-area"
+          onTouchStart={actionTouchStart}
+          onTouchMove={actionTouchMove}
+          onTouchEnd={actionTouchEnd}
+        >
           {chord.chart.map((chart, i) => {
             const result = [];
             const maxFret = Math.max(...chart.filter((fret) => fret >= 0));
@@ -209,6 +238,13 @@ const StyledChordChart = styled.div`
       button {
         font-size: 24px;
         line-height: 100%;
+      }
+    }
+  }
+  @media ${device.mobile} {
+    .chord-layer {
+      .name {
+        // font-size: 20px;
       }
     }
   }

@@ -85,7 +85,8 @@ const StyledScorePhrase = styled.div`
       white-space: nowrap;
       font-size: 14px;
       button {
-        width: 100%;
+        position: relative;
+        min-width: 100%;
         &:hover {
           background-color: #f7f7f7;
         }
