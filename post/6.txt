@@ -1,4 +1,4 @@
-0:["9I3YMNag24x9CkhGwK2bA",[[["",{"children":["post",{"children":[["slug","6","d"],{"children":["__PAGE__?{\"slug\":\"6\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["bk1o1TVTPdawTpoyJT-qg",[[["",{"children":["post",{"children":[["slug","6","d"],{"children":["__PAGE__?{\"slug\":\"6\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-cbc2254d68e28ba4.js"],"name":"","async":false}
 4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-cbc2254d68e28ba4.js"],"name":"","async":false}
 5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-cbc2254d68e28ba4.js"],"name":"","async":false}
@@ -1006,7 +1006,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-e:T1aab9,/*@jsxRuntime automatic @jsxImportSource react*/
+e:T1aae0,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1079,7 +1079,7 @@ function _createMdxContent(props) {
       children: ["이제 ", _jsx(_components.code, {
         children: "mdx"
       }), " 파일을 탐색하여 가져오는 ", _jsx(_components.code, {
-        children: "getPosts"
+        children: "getPostList"
       }), " 함수를 만들어야합니다.", _jsx(_components.br, {}), "\n", "함수를 만들기 앞서 터미널에 아래 명령어를 입력하여 몇가지 패키지를 설치해줍니다."]
     }), "\n", _jsx(_components.pre, {
       children: _jsx(_components.code, {
@@ -1101,7 +1101,7 @@ function _createMdxContent(props) {
         }), " - 문서의 front matter 정보를 읽어옵니다."]
       }), "\n"]
     }), "\n", _jsx(_components.p, {
-      children: "패키지 설치가 끝나면 getPosts 함수를 만들겠습니다."
+      children: "패키지 설치가 끝나면 getPostList 함수를 만들겠습니다."
     }), "\n", _jsx(_components.div, {
       className: "rehype-code-title",
       children: "/src/services/post.ts"
@@ -1354,7 +1354,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
-        }), " getPosts = ", _jsx(_components.span, {
+        }), " getPostList = ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "async"
         }), " (): ", _jsx(_components.span, {
@@ -1465,7 +1465,7 @@ function _createMdxContent(props) {
       children: "포스팅 목록 그리기"
     }), "\n", _jsxs(_components.p, {
       children: ["이제 ", _jsx(_components.code, {
-        children: "getPosts"
+        children: "getPostList"
       }), " 함수로 가져온 포스팅 목록을 그리겠습니다."]
     }), "\n", _jsx(_components.div, {
       className: "rehype-code-title",
@@ -1476,7 +1476,7 @@ function _createMdxContent(props) {
         children: [_jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
-        }), " { getPosts } ", _jsx(_components.span, {
+        }), " { getPostList } ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "from"
         }), " ", _jsx(_components.span, {
@@ -1496,12 +1496,12 @@ function _createMdxContent(props) {
         }), ") {\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
-        }), " posts = ", _jsx(_components.span, {
+        }), " postList = ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "await"
         }), " ", _jsx(_components.span, {
           className: "hljs-title function_",
-          children: "getPosts"
+          children: "getPostList"
         }), "();\n\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "return"
@@ -1510,7 +1510,7 @@ function _createMdxContent(props) {
           children: [_jsx(_components.span, {
             className: "hljs-tag",
             children: "<>"
-          }), "\n      {posts.length &&\n        posts.map((post) => {\n          return ", _jsxs(_components.span, {
+          }), "\n      {postList.length &&\n        postList.map((post) => {\n          return ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["<", _jsx(_components.span, {
               className: "hljs-name",
@@ -1794,7 +1794,7 @@ function _createMdxContent(props) {
         }), ";\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
-        }), " { getPosts } ", _jsx(_components.span, {
+        }), " { getPostList } ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "from"
         }), " ", _jsx(_components.span, {
@@ -1814,12 +1814,12 @@ function _createMdxContent(props) {
         }), ") {\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
-        }), " posts = ", _jsx(_components.span, {
+        }), " postList = ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "await"
         }), " ", _jsx(_components.span, {
           className: "hljs-title function_",
-          children: "getPosts"
+          children: "getPostList"
         }), "();\n\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "return"
@@ -1838,7 +1838,7 @@ function _createMdxContent(props) {
               children: "postList"
             }), "=", _jsx(_components.span, {
               className: "hljs-string",
-              children: "{posts}"
+              children: "{postList}"
             }), " />"]
           }), "\n    ", _jsx(_components.span, {
             className: "hljs-tag",
