@@ -10,7 +10,7 @@ import ChordSymbol from './ChordSymbol';
 type Props = {
   phrase: {
     lyrics: string | undefined;
-    chordList: [{ name: string; position: number }];
+    chordList?: [{ name: string; position: number }];
   };
 };
 
@@ -19,6 +19,7 @@ type Props = {
 // 8마디 = 큰악절 = period, sentence
 
 function ScorePhrase({ phrase }: Props) {
+  const chordList = phrase.chordList || [];
   const [currentChord, setCurrentChord] = useState<string>('');
 
   const closeChord = () => {
@@ -28,15 +29,12 @@ function ScorePhrase({ phrase }: Props) {
   const phraseArray = [];
   const lyricsArray = phrase.lyrics?.split('') || [];
   const lyricsCount = lyricsArray.length;
-  const chordPosMax = Math.max(
-    ...phrase.chordList.map((chord) => chord.position),
-  );
+  const chordPosMax = Math.max(...chordList.map((chord) => chord.position));
 
   for (let i = 0; i < Math.max(lyricsCount, chordPosMax + 1); i++) {
     phraseArray.push({
       lyricsLetter: lyricsArray[i],
-      chordName:
-        phrase.chordList.find((chord) => chord.position === i)?.name || '',
+      chordName: chordList.find((chord) => chord.position === i)?.name || '',
     });
   }
 
