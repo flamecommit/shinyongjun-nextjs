@@ -1,0 +1,345 @@
+0:["wkedna3S-hwDkkbP-CWO_",[[["",{"children":["score",{"children":[["slug","4","d"],{"children":["__PAGE__?{\"slug\":\"4\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":7984,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d63d4fdddc114f53.js"],"name":"","async":false}
+4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d63d4fdddc114f53.js"],"name":"","async":false}
+5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d63d4fdddc114f53.js"],"name":"","async":false}
+6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d63d4fdddc114f53.js"],"name":"","async":false}
+7:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
+8:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
+1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","$L3",null,{"GA_TRACKING_ID":"G-LSSNKXXZKX"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","score","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","score","children",["slug","4","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9",null],"segment":"__PAGE__?{\"slug\":\"4\"}"},"styles":[]}],"segment":["slug","4","d"]},"styles":[]}],"segment":"score"},"styles":[]}]}]}]}]}]]}],null]
+2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun - Score | 김현식 - 내사랑 내곁에"}],["$","meta","2",{"name":"description","content":"김현식의 내사랑 내곁에 코드 악보 입니다."}],["$","meta","3",{"name":"keywords","content":"김현식,내사랑 내곁에,악보,코드"}],["$","meta","4",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","5",{"property":"og:image","content":"https://shinyongjun.com/og-image.png"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.png"}]]
+a:I{"id":1179,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","71:static/chunks/71-b439cf8fdc1a19ec.js","538:static/chunks/538-abd296eb1d0d9818.js","431:static/chunks/431-cf66ac4676ba0e9f.js","589:static/chunks/app/score/[slug]/page-39fea71c9d1371e6.js"],"name":"","async":false}
+b:T1d02,/*@jsxRuntime automatic @jsxImportSource react*/
+const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const {ScoreWrapper, ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
+  if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
+  if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
+  return _jsxs(ScoreWrapper, {
+    children: [_jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Bm',
+          position: 4
+        }, {
+          name: 'C',
+          position: 8
+        }, {
+          name: 'G',
+          position: 12
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'C',
+          position: 8
+        }, {
+          name: 'D',
+          position: 12
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Bm',
+          position: 4
+        }, {
+          name: 'C',
+          position: 8
+        }, {
+          name: 'G',
+          position: 12
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'Am',
+          position: 4
+        }, {
+          name: 'C',
+          position: 8
+        }, {
+          name: 'D',
+          position: 12
+        }, {
+          name: 'G',
+          position: 16
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '나의 모든 사랑이 떠나가는 날이',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Bm',
+          position: 6
+        }, {
+          name: 'C',
+          position: 11
+        }, {
+          name: 'G',
+          position: 17
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '당신의 그 웃음 뒤에서 함께 하는데',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'C',
+          position: 13
+        }, {
+          name: 'D',
+          position: 19
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '철이 없는 욕심에 그 많은 미련에',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Bm',
+          position: 6
+        }, {
+          name: 'C',
+          position: 12
+        }, {
+          name: 'G',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '당신이 있는 건 아닌지 아니겠지요',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'Am',
+          position: 9
+        }, {
+          name: 'C',
+          position: 12
+        }, {
+          name: 'D',
+          position: 15
+        }, {
+          name: 'G',
+          position: 17
+        }, {
+          name: 'D7',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '시간은 멀어 집으로 향해 가는데',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Bm',
+          position: 5
+        }, {
+          name: 'C',
+          position: 11
+        }, {
+          name: 'G',
+          position: 17
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '약속했던 그대만은 올 줄을 모르고',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'C',
+          position: 12
+        }, {
+          name: 'D',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '애써 웃음 지으며 돌아오는 길은',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Bm',
+          position: 6
+        }, {
+          name: 'C',
+          position: 11
+        }, {
+          name: 'G',
+          position: 17
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '왜 그리도 낯설고 멀기만 한지',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'Am',
+          position: 6
+        }, {
+          name: 'C',
+          position: 9
+        }, {
+          name: 'D',
+          position: 11
+        }, {
+          name: 'G',
+          position: 15
+        }, {
+          name: 'G7',
+          position: 17
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '저 여린 가지 사이로 혼자인 날 느낄 때',
+        chordList: [{
+          name: 'C',
+          position: 2
+        }, {
+          name: 'D7',
+          position: 8
+        }, {
+          name: 'G',
+          position: 13
+        }, {
+          name: 'D7',
+          position: 16
+        }, {
+          name: 'Em',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '이렇게 아픈 그대 기억이 날까',
+        chordList: [{
+          name: 'Am',
+          position: 2
+        }, {
+          name: 'A7',
+          position: 10
+        }, {
+          name: 'D7',
+          position: 16
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '내 사랑 그대 내 곁에 있어 줘',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'D',
+          position: 7
+        }, {
+          name: 'Em',
+          position: 10
+        }, {
+          name: 'Bm',
+          position: 17
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '이 세상 하나뿐인 오직 그대만이',
+        chordList: [{
+          name: 'C',
+          position: 2
+        }, {
+          name: 'G',
+          position: 7
+        }, {
+          name: 'Am',
+          position: 11
+        }, {
+          name: 'D',
+          position: 17
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '힘겨운 날에 너 마저 떠나면',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'D',
+          position: 6
+        }, {
+          name: 'Em',
+          position: 9
+        }, {
+          name: 'Bm',
+          position: 15
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '비틀거릴 내가 안길 곳은 어디에',
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'G',
+          position: 6
+        }, {
+          name: 'Am',
+          position: 11
+        }, {
+          name: 'D',
+          position: 14
+        }, {
+          name: 'G',
+          position: 16
+        }]
+      }
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+9:["$","$La",null,{"scoreData":{"title":"내사랑 내곁에","artist":"김현식","releaseYear":1991,"capo":0,"slug":"4","mdx":{"compiledSource":"$b","frontmatter":{},"scope":{}}}}]
