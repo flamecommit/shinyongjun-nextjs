@@ -8,6 +8,7 @@ import { GrClose } from '@react-icons/all-files/gr/GrClose';
 import { GrRadial } from '@react-icons/all-files/gr/GrRadial';
 import { scaleArray, chordList } from '@/constants/chord';
 import { device } from '@/styles/mixin';
+import { getComposition } from '@/services/chord';
 import ChordSymbol from '../score/ChordSymbol';
 
 interface Props {
@@ -16,6 +17,8 @@ interface Props {
 }
 
 function ChordChart({ chordName, closeChord }: Props) {
+  console.log(getComposition(chordName));
+
   const [startX, setStartX] = useState(0);
   const [moveX, setMoveX] = useState(0);
   const chord = chordList.find((item) => item.name === chordName);

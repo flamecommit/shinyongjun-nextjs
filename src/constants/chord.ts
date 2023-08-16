@@ -6,6 +6,14 @@ export interface ChordType {
 // [ => ♭
 // ] => ♯
 
+// major
+// minor
+// dominant
+// suspended
+// add
+// augmented
+// diminished
+
 export const chordList: ChordType[] = [
   {
     name: 'C',
