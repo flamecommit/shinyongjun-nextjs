@@ -20,7 +20,7 @@ function RootLayout({ children }: Props) {
   return (
     <html lang="ko">
       <head>
-        <GoogleAnalytics GA_TRACKING_ID="G-LF688KS2VH" />
+        <GoogleAnalytics GA_TRACKING_ID="G-LSSNKXXZKX" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
