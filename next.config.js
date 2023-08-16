@@ -20,6 +20,8 @@ const nextConfig = {
   },
   env: {
     MODE: process.env.MODE,
+    OG_IMAGE: 'https://shinyongjun.com/og-image.png',
+    BIO: 'code도 치고 chord도 칩니다',
   },
 };
 

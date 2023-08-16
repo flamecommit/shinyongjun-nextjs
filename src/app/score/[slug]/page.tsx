@@ -17,11 +17,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `shinyongjun - Score | ${score.artist} - ${score.title}`,
     description: `${score.artist}의 ${score.title} 코드 악보 입니다.`,
-    keywords: [score.artist, score.title, '악보', '코드', '가사'],
     openGraph: {
       title: `shinyongjun - Score | ${score.artist} - ${score.title}`,
       description: `${score.artist}의 ${score.title} 코드 악보 입니다.`,
-      images: 'https://shinyongjun.com/og-image.png',
+      images: process.env.OG_IMAGE,
     },
   };
 }

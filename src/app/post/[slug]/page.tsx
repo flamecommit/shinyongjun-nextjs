@@ -14,14 +14,19 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = params;
   const { post } = await getPost(slug);
+  let description = post.title;
+
+  if (post.series) {
+    description = `${post.series} - ${description}`;
+  }
 
   return {
     title: `shinyongjun - Post | ${post.title}`,
-    description: `shinyongjun - Post`,
+    description,
     openGraph: {
       title: post.title,
-      description: `shinyongjun - Post`,
-      images: 'https://shinyongjun.com/og-image.png',
+      description,
+      images: process.env.OG_IMAGE,
     },
   };
 }

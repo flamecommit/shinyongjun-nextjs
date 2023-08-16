@@ -10,13 +10,15 @@ interface Props {
 
 export const metadata: Metadata = {
   title: 'shinyongjun | Home',
-  description: 'code도 치고 chord도 칩니다',
+  description: process.env.BIO,
+  viewport:
+    'width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0',
   openGraph: {
     type: 'website',
     title: 'shinyongjun.com',
     siteName: 'shinyongjun.com',
-    description: 'code도 치고 chord도 칩니다',
-    images: 'https://shinyongjun.com/og-image.png',
+    description: process.env.BIO,
+    images: process.env.OG_IMAGE,
   },
 };
 
