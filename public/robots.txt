@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://shinyongjun.com
-
-# Sitemaps
-Sitemap: https://shinyongjun.com/sitemap.xml
