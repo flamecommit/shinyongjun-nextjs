@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   title: 'shinyongjun | Home',
   description: 'Code도 치고 Chord도 칩니다',
   openGraph: {
+    type: 'website',
+    title: 'shinyongjun.com',
+    siteName: 'shinyongjun.com',
+    description: 'Code도 치고 Chord도 칩니다',
     images: 'https://shinyongjun.com/og-image.png',
   },
 };

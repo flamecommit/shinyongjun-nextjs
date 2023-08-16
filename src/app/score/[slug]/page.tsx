@@ -16,6 +16,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `shinyongjun - Score | ${score.artist} - ${score.title}`,
     description: `${score.artist}의 ${score.title} 코드 악보 입니다.`,
     keywords: [score.artist, score.title, '악보', '코드', '가사'],
+    openGraph: {
+      title: `shinyongjun - Score | ${score.artist} - ${score.title}`,
+      description: `${score.artist}의 ${score.title} 코드 악보 입니다.`,
+    },
   };
 }
 
