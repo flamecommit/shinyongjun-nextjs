@@ -17,6 +17,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `shinyongjun - Post | ${post.title}`,
+    description: `shinyongjun - Post`,
+    openGraph: {
+      title: post.title,
+      description: `shinyongjun - Post`,
+      images: 'https://shinyongjun.com/og-image.png',
+    },
   };
 }
 

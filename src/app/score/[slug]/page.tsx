@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `shinyongjun - Score | ${score.artist} - ${score.title}`,
       description: `${score.artist}의 ${score.title} 코드 악보 입니다.`,
+      images: 'https://shinyongjun.com/og-image.png',
     },
   };
 }
