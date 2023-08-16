@@ -13,6 +13,7 @@ import { SiJira } from '@react-icons/all-files/si/SiJira';
 import { SiConfluence } from '@react-icons/all-files/si/SiConfluence';
 import { SiAzuredevops } from '@react-icons/all-files/si/SiAzuredevops';
 import { SiRedux } from '@react-icons/all-files/si/SiRedux';
+import Link from 'next/link';
 import { device } from '@/styles/mixin';
 
 function AuthorDetails() {
@@ -121,6 +122,14 @@ function AuthorDetails() {
           </div>
         </div>
       </section>
+      <section>
+        <h3 className="section-title">History</h3>
+        <div className="item-list">
+          <Link href="/history" className="link">
+            Go to page
+          </Link>
+        </div>
+      </section>
     </StyledAuthorDetails>
   );
 }
@@ -150,6 +159,11 @@ const StyledAuthorDetails = styled.div`
       svg {
         min-width: 18px;
         height: 18px;
+      }
+    }
+    .link {
+      &:hover {
+        color: #1f883d;
       }
     }
   }

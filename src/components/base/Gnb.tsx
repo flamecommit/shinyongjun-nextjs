@@ -31,23 +31,23 @@ function BaseGnb() {
       >
         Series
       </Link>
-      <Link className={`${categoryName === 'about' && 'active'}`} href="/about">
-        About
-      </Link>
-      <Link
-        className={`${categoryName === 'history' && 'active'}`}
-        href="/history"
-      >
-        History
+      <Link className={`${categoryName === 'chord' && 'active'}`} href="/chord">
+        Chord
       </Link>
       <Link className={`${categoryName === 'score' && 'active'}`} href="/score">
         Score
       </Link>
-      <Link className={`${categoryName === 'chord' && 'active'}`} href="/chord">
-        Chord
-      </Link>
       {/* <Link className={`${categoryName === 'diary' && 'active'}`} href="/diary">
         Diary
+      </Link> */}
+      <Link className={`${categoryName === 'about' && 'active'}`} href="/about">
+        About
+      </Link>
+      {/* <Link
+        className={`${categoryName === 'history' && 'active'}`}
+        href="/history"
+      >
+        History
       </Link> */}
     </StyledBaseGnb>
   );
