@@ -93,6 +93,10 @@ export const chordList: ChordType[] = [
     ],
   },
   {
+    name: 'D7sus2',
+    chart: [[0, 1, 2, 0, -1, -1]],
+  },
+  {
     name: 'D7sus4',
     chart: [
       [3, 1, 2, 0, -1, -1],
@@ -180,6 +184,10 @@ export const chordList: ChordType[] = [
       [0, 1, 0, 2, 0, -1],
       [5, 5, 6, 5, 7, 5],
     ],
+  },
+  {
+    name: 'AmM7',
+    chart: [[0, 1, 1, 2, 0, -1]],
   },
   {
     name: 'B[',
