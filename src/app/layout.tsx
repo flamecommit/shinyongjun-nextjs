@@ -10,7 +10,7 @@ interface Props {
 
 export const metadata: Metadata = {
   title: 'shinyongjun | Home',
-  description: 'Welcome to Shinyongjun.com',
+  description: 'Code도 치고 Chord도 칩니다',
   openGraph: {
     images: 'https://shinyongjun.com/og-image.png',
   },
