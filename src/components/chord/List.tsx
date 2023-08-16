@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { chordList } from '@/constants/chord';
 import { device } from '@/styles/mixin';
 import ChordChart from './Chart';
+import ChordSymbol from '../score/ChordSymbol';
 
 function ChordList() {
   const [currentChord, setCurrentChord] = useState<string>('');
@@ -17,17 +18,13 @@ function ChordList() {
     <>
       <StyledChordList>
         {chordList.map((chord) => {
-          const chordNameStr = chord.name
-            .replace('♭', '<span class="sign">♭</span>')
-            .replace('♯', '<span class="sign">♯</span>');
-
           return (
             <button
               type="button"
               key={chord.name}
               onClick={() => setCurrentChord(chord.name)}
             >
-              <div dangerouslySetInnerHTML={{ __html: chordNameStr }} />
+              <ChordSymbol chordName={chord.name} />
             </button>
           );
         })}
@@ -54,10 +51,6 @@ const StyledChordList = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-    }
-    .sign {
-      font-size: 0.8em;
-      margin-inline: -0.2em;
     }
   }
   @media ${device.mobile} {

@@ -8,6 +8,7 @@ import { GrClose } from '@react-icons/all-files/gr/GrClose';
 import { GrRadial } from '@react-icons/all-files/gr/GrRadial';
 import { scaleArray, chordList } from '@/constants/chord';
 import { device } from '@/styles/mixin';
+import ChordSymbol from '../score/ChordSymbol';
 
 interface Props {
   chordName: string;
@@ -18,9 +19,6 @@ function ChordChart({ chordName, closeChord }: Props) {
   const [startX, setStartX] = useState(0);
   const [moveX, setMoveX] = useState(0);
   const chord = chordList.find((item) => item.name === chordName);
-  const chordNameStr = chordName
-    .replace('♭', '<span class="sign">♭</span>')
-    .replace('♯', '<span class="sign">♯</span>');
 
   const chartCount = chord?.chart.length || 0;
   const [activeIndex, setActiveIndex] = useState(0);
@@ -61,10 +59,9 @@ function ChordChart({ chordName, closeChord }: Props) {
     return (
       <StyledChordChart onClick={clickBackground}>
         <div className="chord-layer">
-          <div
-            className="chord-name"
-            dangerouslySetInnerHTML={{ __html: chordNameStr }}
-          />
+          <div className="chord-name">
+            <ChordSymbol chordName={chordName} />
+          </div>
           <div className="chord-null">제작중입니다.</div>
         </div>
       </StyledChordChart>
@@ -74,10 +71,9 @@ function ChordChart({ chordName, closeChord }: Props) {
   return (
     <StyledChordChart onClick={clickBackground}>
       <div className="chord-layer">
-        <div
-          className="chord-name"
-          dangerouslySetInnerHTML={{ __html: chordNameStr }}
-        />
+        <div className="chord-name">
+          <ChordSymbol chordName={chordName} />
+        </div>
         <div
           className="chart-area"
           onTouchStart={actionTouchStart}
@@ -123,7 +119,11 @@ function ChordChart({ chordName, closeChord }: Props) {
                             <div className="number">{fret.number}</div>
                             {fret.strings.map((string, k) => {
                               return (
-                                <div key={k} className="string">
+                                <div
+                                  key={k}
+                                  className="string"
+                                  data-position={chart[k]}
+                                >
                                   {string && <div className="finger" />}
                                 </div>
                               );
@@ -140,7 +140,9 @@ function ChordChart({ chordName, closeChord }: Props) {
                             className="name"
                             data-position={position}
                           >
-                            {position < 0 ? 'X' : scaleArray[j][position]}
+                            <ChordSymbol
+                              chordName={scaleArray[j][position] || ''}
+                            />
                           </div>
                         );
                       })}
@@ -196,13 +198,8 @@ const StyledChordChart = styled.div`
       justify-content: center;
       align-items: center;
       margin-bottom: 20px;
-      font-weight: 700;
       font-size: 24px;
       text-align: center;
-      .sign {
-        font-size: 0.8em;
-        margin-inline: -0.2em;
-      }
     }
     .chord-null {
       text-align: center;
@@ -275,13 +272,9 @@ const StyledChordChart = styled.div`
           row-gap: 20px;
           > div {
             height: 1px;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 100%;
-            margin-top: -7px;
-            letter-spacing: -0.15em;
-            &[data-position='-1'] {
-              color: #aaa;
-            }
+            margin-top: -8px;
           }
         }
       }

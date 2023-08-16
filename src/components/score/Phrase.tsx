@@ -5,6 +5,7 @@ import { useState } from 'react';
 import getConfig from 'next/config';
 import { device } from '@/styles/mixin';
 import ChordChart from '../chord/Chart';
+import ChordSymbol from './ChordSymbol';
 
 type Props = {
   phrase: {
@@ -52,7 +53,7 @@ function ScorePhrase({ phrase }: Props) {
                     key={i}
                     onClick={() => setCurrentChord(item.chordName)}
                   >
-                    {item.chordName}
+                    <ChordSymbol chordName={item.chordName} />
                   </button>
                 )}
               </div>

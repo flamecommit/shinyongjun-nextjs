@@ -3,7 +3,8 @@ export interface ChordType {
   chart: number[][];
 }
 
-// ♭ ♯
+// [ => ♭
+// ] => ♯
 
 export const chordList: ChordType[] = [
   {
@@ -20,11 +21,15 @@ export const chordList: ChordType[] = [
     chart: [
       [0, 1, 3, 2, 3, -1],
       [3, 5, 3, 5, 3, -1],
+      [8, 8, 9, 8, 10, 8],
     ],
   },
   {
     name: 'Cm',
-    chart: [[3, 4, 5, 5, 3, -1]],
+    chart: [
+      [3, 4, 5, 5, 3, -1],
+      [8, 8, 8, 10, 10, 8],
+    ],
   },
   {
     name: 'Cm7',
@@ -39,17 +44,24 @@ export const chordList: ChordType[] = [
     chart: [[0, 3, 0, 2, 3, -1]],
   },
   {
-    name: 'C♯',
+    name: 'C]',
     chart: [
       [4, 6, 6, 6, 4, -1],
       [9, 9, 10, 11, 11, 9],
     ],
   },
   {
-    name: 'C♯m',
+    name: 'C]m',
     chart: [
       [4, 5, 6, 6, 4, -1],
       [9, 9, 9, 11, 11, 9],
+    ],
+  },
+  {
+    name: 'C]m7',
+    chart: [
+      [4, 5, 4, 6, 4, -1],
+      [9, 9, 10, 9, 11, 9],
     ],
   },
   {
@@ -103,12 +115,16 @@ export const chordList: ChordType[] = [
     chart: [[0, 0, 0, 0, 2, 0]],
   },
   {
-    name: 'E7♭9',
+    name: 'E7[9',
     chart: [[1, 0, 1, 0, 2, 0]],
   },
   {
     name: 'F',
     chart: [[1, 1, 2, 3, 3, 1]],
+  },
+  {
+    name: 'F]',
+    chart: [[2, 2, 3, 4, 4, 2]],
   },
   {
     name: 'FM7',
@@ -166,11 +182,11 @@ export const chordList: ChordType[] = [
     ],
   },
   {
-    name: 'B♭',
+    name: 'B[',
     chart: [[1, 3, 3, 3, 1, -1]],
   },
   {
-    name: 'B♭m',
+    name: 'B[m',
     chart: [[1, 2, 3, 3, 1, -1]],
   },
   {
@@ -198,10 +214,10 @@ export const chordList: ChordType[] = [
 ];
 
 export const scaleArray = [
-  ['E', 'F', 'F♯', 'G', 'G♯', 'A', 'B♭', 'B', 'C', 'C♯', 'D', 'E♭', 'E'],
-  ['B', 'C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'G♯', 'A', 'B♭', 'B'],
-  ['G', 'G♯', 'A', 'B♭', 'B', 'C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G'],
-  ['D', 'E♭', 'E', 'F', 'F♯', 'G', 'G♯', 'A', 'B♭', 'B', 'C', 'C♯', 'D'],
-  ['A', 'B♭', 'B', 'C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'G♯', 'A'],
-  ['E', 'F', 'F♯', 'G', 'G♯', 'A', 'B♭', 'B', 'C', 'C♯', 'D', 'E♭', 'E'],
+  ['E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E'],
+  ['B', 'C', 'C]', 'D', 'E[', 'E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B'],
+  ['G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E', 'F', 'F]', 'G'],
+  ['D', 'E[', 'E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D'],
+  ['A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E', 'F', 'F]', 'G', 'G]', 'A'],
+  ['E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E'],
 ];
