@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import Link from 'next/link';
+import { HiOutlineHashtag } from '@react-icons/all-files/hi/HiOutlineHashtag';
 import { SeriesType } from '@/services/post';
 import { device } from '@/styles/mixin';
 
@@ -15,8 +16,9 @@ function SeriesList({ series }: Props) {
       {series.map((item) => {
         return (
           <div key={item.index} className="series-item">
-            <Link href={`/series/${item.index}`}>
-              # {item.series} ({item.count})
+            <Link href={`/series/${item.index}`} className="title">
+              <HiOutlineHashtag />
+              {item.series} ({item.count})
             </Link>
           </div>
         );
@@ -27,9 +29,12 @@ function SeriesList({ series }: Props) {
 
 const StyledSeriesList = styled.div`
   display: grid;
-  row-gap: 12px;
+  row-gap: 24px;
   .series-item {
     a {
+      display: flex;
+      align-items: center;
+      column-gap: 6px;
       font-weight: 500;
       font-size: 20px;
       &:hover {
