@@ -2,18 +2,47 @@
 
 import styled from 'styled-components';
 import { MDXRemote } from 'next-mdx-remote';
+import { useEffect, useState, useRef } from 'react';
 import { Score } from '@/services/score';
 import { prism } from '@/styles/prism';
 import { markdown } from '@/styles/markdown';
 import { device } from '@/styles/mixin';
+import GalleryWrapper from '@/components/gallery/Wrapper';
 import ScorePhrase from './Phrase';
 import ScoreWrapper from './Wrapper';
+import { GalleryType } from '../types/gallery';
 
 interface Props {
   scoreData: Score;
 }
 
 function ScoreViewer({ scoreData }: Props) {
+  const [images, setImages] = useState<GalleryType[]>([]);
+  const [isGallery, setIsGallery] = useState(false);
+  const [initActiveIndex, setInitActiveIndex] = useState(0);
+  const contents = useRef<HTMLDivElement>(null);
+
+  const closeGallery = () => {
+    setIsGallery(false);
+  };
+
+  useEffect(() => {
+    const mdxImages = contents.current?.getElementsByTagName('img');
+    const mdxImageArray = Array.from(mdxImages || []);
+    const result = mdxImageArray.map((image, index) => {
+      image.addEventListener('click', () => {
+        setInitActiveIndex(index);
+        setIsGallery(true);
+      });
+      return {
+        key: index,
+        src: image.src,
+      };
+    });
+
+    setImages(result);
+  }, []);
+
   return (
     <>
       <StyledScoreViewer>
@@ -25,13 +54,20 @@ function ScoreViewer({ scoreData }: Props) {
             <div className="score-artist">{scoreData.artist}</div>
           </div>
         </header>
-        <div className="score-content">
+        <div className="score-content" ref={contents}>
           <MDXRemote
             {...scoreData.mdx}
             components={{ ScoreWrapper, ScorePhrase }}
           />
         </div>
       </StyledScoreViewer>
+      {isGallery && (
+        <GalleryWrapper
+          images={images}
+          initActiveIndex={initActiveIndex}
+          closeGallery={closeGallery}
+        />
+      )}
     </>
   );
 }

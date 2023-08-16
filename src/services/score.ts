@@ -7,6 +7,7 @@ import { serialize } from 'next-mdx-remote/serialize';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeCodeTitles from 'rehype-code-titles';
 import remarkBreaks from 'remark-breaks';
+import { transformImgSrc } from './mdx';
 
 const BASE_PATH = '/contents/score';
 const SCORE_PATH = path.join(process.cwd(), BASE_PATH);
@@ -33,7 +34,10 @@ const parseScore = async (scorePath: string): Promise<Score> => {
     .replace('/index.mdx', '');
   const mdx = await serialize(content, {
     mdxOptions: {
-      remarkPlugins: [remarkBreaks],
+      remarkPlugins: [
+        remarkBreaks,
+        [transformImgSrc, { slug, path: SCORE_PATH }],
+      ],
       rehypePlugins: [rehypeCodeTitles, rehypeHighlight],
       format: 'mdx',
     },

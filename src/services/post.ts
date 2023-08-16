@@ -5,11 +5,9 @@ import matter from 'gray-matter';
 import { MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { serialize } from 'next-mdx-remote/serialize';
 import rehypeHighlight from 'rehype-highlight';
-import { visit } from 'unist-util-visit';
-import { Node, Parent } from 'unist';
 import rehypeCodeTitles from 'rehype-code-titles';
 import remarkBreaks from 'remark-breaks';
-import { getExtensionOfFilename } from '@/utils/file';
+import { transformImgSrc } from './mdx';
 
 const BASE_PATH = '/contents/posts';
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
@@ -32,12 +30,6 @@ export interface SeriesType {
   count: number;
 }
 
-type Image = {
-  type: string;
-  url: string;
-  alt: string;
-};
-
 const parsePost = async (postPath: string): Promise<Post> => {
   const file = fs.readFileSync(postPath, 'utf8');
   const { data, content } = matter(file);
@@ -48,7 +40,10 @@ const parsePost = async (postPath: string): Promise<Post> => {
     .replace('/index.mdx', '');
   const mdx = await serialize(content, {
     mdxOptions: {
-      remarkPlugins: [remarkBreaks, [transformImgSrc, { slug }]],
+      remarkPlugins: [
+        remarkBreaks,
+        [transformImgSrc, { slug, path: POSTS_PATH }],
+      ],
       rehypePlugins: [rehypeCodeTitles, rehypeHighlight],
       format: 'mdx',
     },
@@ -144,36 +139,4 @@ export const getPostsBySeries = async (series: string) => {
   return posts.filter((post) => {
     return post.series === series;
   });
-};
-
-const transformImgSrc = ({ slug }: { slug: string }) => {
-  return (tree: Node) => {
-    visit(tree, 'paragraph', (node: Parent) => {
-      const image = node.children.find(
-        (child: { type: string }) => child.type === 'image',
-      ) as Image | undefined;
-
-      if (image === undefined) return;
-
-      const fileName = image.url.replace('./', '');
-      const imageUrl = `${POSTS_PATH}/${slug}/${fileName}`;
-      const imageBuffer = fs.readFileSync(imageUrl);
-      const base64String = imageBuffer.toString('base64');
-      const extension = getExtensionOfFilename(fileName);
-      image.url = `data:image/${extension};base64,${base64String}`;
-
-      if (!image.alt) return;
-
-      const citeNode = {
-        type: 'mdxJsxFlowElement',
-        name: 'cite',
-        attributes: [
-          { type: 'mdxJsxAttribute', name: 'className', value: 'image-cite' },
-        ],
-        children: [{ type: 'text', value: image.alt }],
-      };
-
-      node.children.push(citeNode);
-    });
-  };
 };

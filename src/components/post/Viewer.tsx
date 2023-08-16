@@ -9,8 +9,9 @@ import { getFormatDatetime } from '@/utils/datetime';
 import { prism } from '@/styles/prism';
 import { markdown } from '@/styles/markdown';
 import { device } from '@/styles/mixin';
-import PostGallery from './Gallery';
+import GalleryWrapper from '@/components/gallery/Wrapper';
 import CategoryItem from '../category/Item';
+import { GalleryType } from '../types/gallery';
 
 interface Props {
   postData: {
@@ -18,23 +19,18 @@ interface Props {
   } & Post;
 }
 
-interface GalleryType {
-  key: number;
-  src: string;
-}
-
 function PostViewer({ postData }: Props) {
   const [images, setImages] = useState<GalleryType[]>([]);
   const [isGallery, setIsGallery] = useState(false);
   const [initActiveIndex, setInitActiveIndex] = useState(0);
-  const postContents = useRef<HTMLDivElement>(null);
+  const contents = useRef<HTMLDivElement>(null);
 
   const closeGallery = () => {
     setIsGallery(false);
   };
 
   useEffect(() => {
-    const mdxImages = postContents.current?.getElementsByTagName('img');
+    const mdxImages = contents.current?.getElementsByTagName('img');
     const mdxImageArray = Array.from(mdxImages || []);
     const result = mdxImageArray.map((image, index) => {
       image.addEventListener('click', () => {
@@ -72,12 +68,12 @@ function PostViewer({ postData }: Props) {
             {getFormatDatetime(postData.date, 'YYYY-MM-DD')}
           </div>
         </header>
-        <div className="post-content" ref={postContents}>
+        <div className="post-content" ref={contents}>
           <MDXRemote {...postData.mdx} />
         </div>
       </StyledPostViewer>
       {isGallery && (
-        <PostGallery
+        <GalleryWrapper
           images={images}
           initActiveIndex={initActiveIndex}
           closeGallery={closeGallery}
