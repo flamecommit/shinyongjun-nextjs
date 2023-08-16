@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import StyledComponentsRegistry from '@/styles/registry';
 import RootProvider from '@/stores/provider';
 import DefaultTemplate from '@/components/template/Default';
-import GoogleAnalytics from '@/components/base/GooglaAnalytics';
+import GoogleAnalytics from '@/components/config/GooglaAnalytics';
 
 interface Props {
   children: React.ReactNode;

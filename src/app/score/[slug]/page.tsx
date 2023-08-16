@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
 import { getScoreList, getScore } from '@/services/score';
 import ScoreViewer from '@/components/score/Viewer';
+import Giscus from '@/components/common/Giscus';
+import AuthorProfile from '@/components/author/Profile';
 
 type Props = {
   params: {
@@ -39,6 +41,8 @@ const ScoreViewPage = async ({ params }: Props) => {
   return (
     <>
       <ScoreViewer scoreData={score} />
+      <AuthorProfile postDetail />
+      <Giscus />
     </>
   );
 };

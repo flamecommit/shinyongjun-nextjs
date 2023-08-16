@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { getPost, getPosts, getSeries } from '@/services/post';
 import PostViewer from '@/components/post/Viewer';
-import PostGiscus from '@/components/post/Giscus';
+import Giscus from '@/components/common/Giscus';
 import AuthorProfile from '@/components/author/Profile';
 import PostNavigation from '@/components/post/Navigation';
 
@@ -50,7 +50,7 @@ const PostViewPage = async ({ params }: Props) => {
       />
       <PostNavigation prevPost={prevPost} nextPost={nextPost} />
       <AuthorProfile postDetail />
-      <PostGiscus />
+      <Giscus />
     </>
   );
 };

@@ -3,7 +3,7 @@
 import styled from 'styled-components';
 import { useEffect, useRef } from 'react';
 
-function PostGiscus() {
+function Giscus() {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -30,14 +30,14 @@ function PostGiscus() {
   }, []);
 
   return (
-    <StyledPostGiscus>
+    <StyledGiscus>
       <section ref={ref} />
-    </StyledPostGiscus>
+    </StyledGiscus>
   );
 }
 
-const StyledPostGiscus = styled.div`
+const StyledGiscus = styled.div`
   margin-top: 60px;
 `;
 
-export default PostGiscus;
+export default Giscus;
