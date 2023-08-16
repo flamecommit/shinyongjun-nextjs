@@ -1,0 +1,437 @@
+0:["nYzbQD3UbH7sUKwGgE1EN",[[["",{"children":["score",{"children":[["slug","5","d"],{"children":["__PAGE__?{\"slug\":\"5\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":7984,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d63d4fdddc114f53.js"],"name":"","async":false}
+4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d63d4fdddc114f53.js"],"name":"","async":false}
+5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d63d4fdddc114f53.js"],"name":"","async":false}
+6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-d63d4fdddc114f53.js"],"name":"","async":false}
+7:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
+8:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
+1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","$L3",null,{"GA_TRACKING_ID":"G-LSSNKXXZKX"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","score","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","score","children",["slug","5","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9",null],"segment":"__PAGE__?{\"slug\":\"5\"}"},"styles":[]}],"segment":["slug","5","d"]},"styles":[]}],"segment":"score"},"styles":[]}]}]}]}]}]]}],null]
+2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun - Score | 너드커넥션 - 좋은 밤 좋은 꿈"}],["$","meta","2",{"name":"description","content":"너드커넥션의 좋은 밤 좋은 꿈 코드 악보 입니다."}],["$","meta","3",{"name":"keywords","content":"너드커넥션,좋은 밤 좋은 꿈,악보,코드"}],["$","meta","4",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","5",{"property":"og:image","content":"https://shinyongjun.com/og-image.png"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.png"}]]
+a:I{"id":1179,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","71:static/chunks/71-b439cf8fdc1a19ec.js","538:static/chunks/538-abd296eb1d0d9818.js","431:static/chunks/431-2e38a2ab354793af.js","589:static/chunks/app/score/[slug]/page-484fd1c12c0ed77f.js"],"name":"","async":false}
+b:T24d1,/*@jsxRuntime automatic @jsxImportSource react*/
+const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const {ScoreWrapper, ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
+  if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
+  if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
+  return _jsxs(ScoreWrapper, {
+    children: [_jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '저 많은 별을 다 세어 보아도 그대 마음은 헤아릴 수 없어요',
+        chordList: [{
+          name: 'C',
+          position: 2
+        }, {
+          name: 'E',
+          position: 6
+        }, {
+          name: 'Am',
+          position: 10
+        }, {
+          name: 'F',
+          position: 20
+        }, {
+          name: 'Fm',
+          position: 26
+        }, {
+          name: 'C',
+          position: 32
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그대의 부서진 마음 조각들이 차갑게 흩어져 있는 탓에',
+        chordList: [{
+          name: 'C',
+          position: 1
+        }, {
+          name: 'E',
+          position: 5
+        }, {
+          name: 'Am',
+          position: 9
+        }, {
+          name: 'F',
+          position: 18
+        }, {
+          name: 'Fm',
+          position: 24
+        }, {
+          name: 'C',
+          position: 28
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그댄 나의 어떤 모습들을 그리도 깊게 사랑했나요',
+        chordList: [{
+          name: 'C',
+          position: 1
+        }, {
+          name: 'E',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 7
+        }, {
+          name: 'F',
+          position: 16
+        }, {
+          name: 'Fm',
+          position: 22
+        }, {
+          name: 'C',
+          position: 25
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '이제 내가 해줄 수 있는 건 좋은 밤 좋은 꿈 안녕',
+        chordList: [{
+          name: 'C',
+          position: 1
+        }, {
+          name: 'E',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 7
+        }, {
+          name: 'F',
+          position: 19
+        }, {
+          name: 'Fm',
+          position: 24
+        }, {
+          name: 'C',
+          position: 27
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '좋은 밤 좋은 꿈 안녕',
+        chordList: [{
+          name: 'F',
+          position: 3
+        }, {
+          name: 'Fm',
+          position: 8
+        }, {
+          name: 'C',
+          position: 11
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'E',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 8
+        }, {
+          name: 'F',
+          position: 16
+        }, {
+          name: 'Fm',
+          position: 20
+        }, {
+          name: 'C',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '시월의 서늘한 공기 속에도 장미향을 난 느낄 수가 있죠',
+        chordList: [{
+          name: 'C',
+          position: 1
+        }, {
+          name: 'E',
+          position: 6
+        }, {
+          name: 'Am',
+          position: 9
+        }, {
+          name: 'F',
+          position: 17
+        }, {
+          name: 'Fm',
+          position: 25
+        }, {
+          name: 'C',
+          position: 29
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '오월 어느 날에 피었던 빨갛던 밤을 기억하거든요',
+        chordList: [{
+          name: 'C',
+          position: 1
+        }, {
+          name: 'E',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 10
+        }, {
+          name: 'F',
+          position: 15
+        }, {
+          name: 'Fm',
+          position: 22
+        }, {
+          name: 'C',
+          position: 25
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그댄 나의 어떤 모습들을 그리도 깊게 사랑했나요',
+        chordList: [{
+          name: 'C',
+          position: 1
+        }, {
+          name: 'E',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 7
+        }, {
+          name: 'F',
+          position: 16
+        }, {
+          name: 'Fm',
+          position: 22
+        }, {
+          name: 'C',
+          position: 25
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '이제 내가 해줄 수 있는 건 좋은 밤 좋은 꿈 안녕',
+        chordList: [{
+          name: 'C',
+          position: 1
+        }, {
+          name: 'E',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 7
+        }, {
+          name: 'F',
+          position: 19
+        }, {
+          name: 'Fm',
+          position: 24
+        }, {
+          name: 'C',
+          position: 27
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '까만 밤이 다 지나고 나면 이야기는 사라질 테지만',
+        chordList: [{
+          name: 'Am',
+          position: 1
+        }, {
+          name: 'AmM7',
+          position: 4
+        }, {
+          name: 'Am7',
+          position: 8
+        }, {
+          name: 'D7sus2',
+          position: 14
+        }, {
+          name: 'F',
+          position: 17
+        }, {
+          name: 'Fm',
+          position: 22
+        }, {
+          name: 'Em',
+          position: 26
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '이름 모를 어떤 꽃말처럼 그대 곁에 남아 있을게요',
+        chordList: [{
+          name: 'Am',
+          position: 1
+        }, {
+          name: 'AmM7',
+          position: 4
+        }, {
+          name: 'Am7',
+          position: 8
+        }, {
+          name: 'D7sus2',
+          position: 12
+        }, {
+          name: 'F',
+          position: 17
+        }, {
+          name: 'Fm',
+          position: 23
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'E',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 8
+        }, {
+          name: 'F',
+          position: 16
+        }, {
+          name: 'Fm',
+          position: 20
+        }, {
+          name: 'C',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'E',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 8
+        }, {
+          name: 'F',
+          position: 16
+        }, {
+          name: 'Fm',
+          position: 20
+        }, {
+          name: 'C',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '나는 그대 어떤 모습들을 그리도 깊게 사랑했었나',
+        chordList: [{
+          name: 'C',
+          position: 1
+        }, {
+          name: 'E',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 7
+        }, {
+          name: 'F',
+          position: 16
+        }, {
+          name: 'Fm',
+          position: 22
+        }, {
+          name: 'C',
+          position: 26
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '이제 내가 해줄 수 있는 건 좋은 밤 좋은 꿈 안녕',
+        chordList: [{
+          name: 'C',
+          position: 1
+        }, {
+          name: 'E',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 7
+        }, {
+          name: 'F',
+          position: 19
+        }, {
+          name: 'Fm',
+          position: 24
+        }, {
+          name: 'C',
+          position: 27
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'E',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 8
+        }, {
+          name: 'F',
+          position: 16
+        }, {
+          name: 'Fm',
+          position: 20
+        }, {
+          name: 'C',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'E',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 8
+        }, {
+          name: 'F',
+          position: 16
+        }, {
+          name: 'Fm',
+          position: 20
+        }, {
+          name: 'C',
+          position: 24
+        }]
+      }
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+9:["$","$La",null,{"scoreData":{"title":"좋은 밤 좋은 꿈","artist":"너드커넥션","releaseYear":2020,"capo":2,"slug":"5","mdx":{"compiledSource":"$b","frontmatter":{},"scope":{}}}}]
