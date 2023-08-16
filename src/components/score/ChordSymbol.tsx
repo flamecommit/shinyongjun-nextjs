@@ -7,7 +7,7 @@ interface Props {
 }
 
 function ChordSymbol({ chordName }: Props) {
-  const chordSymbole = chordName.replace('[', '♭').replace(']', '♯');
+  const chordSymbole = chordName.replaceAll('[', '♭').replaceAll(']', '♯');
 
   return <StyledChordSymbol>{chordSymbole}</StyledChordSymbol>;
 }
