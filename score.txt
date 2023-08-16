@@ -1,4 +1,4 @@
-0:["6SBA_4SDtNRlP_tRRYPCh",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["_Qb4ECXrFOMyalPo2cpqO",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
 4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
 5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
@@ -9,7 +9,107 @@
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Home"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun.com"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.png"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"shinyongjun.com"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.png"}]]
 a:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-6f8a32e2394384b5.js"],"name":"","async":false}
 b:I{"id":3659,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-6f8a32e2394384b5.js"],"name":"","async":false}
-c:T24d1,/*@jsxRuntime automatic @jsxImportSource react*/
+c:Td72,/*@jsxRuntime automatic @jsxImportSource react*/
+const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const {ScoreWrapper, ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
+  if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
+  if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
+  return _jsxs(ScoreWrapper, {
+    children: [_jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '여수 밤바다 이 조명에 담긴 아름다운 얘기가 있어 네게 들려주고파',
+        chordList: [{
+          name: 'Eadd2',
+          position: 5
+        }, {
+          name: 'G]m7]5',
+          position: 14
+        }, {
+          name: 'Asus2',
+          position: 21
+        }, {
+          name: 'Bsus4',
+          position: 31
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '전활 걸어 뭐하고 있냐고 나는 지금 여수 밤바다 여수 밤바다'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '아 - 아 - 아 - 　　　　　 아 - 아 - 어 - 워 -'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '너와 함께 걷고 싶다 이 바다를 너와 함께 걷고 싶어'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '이 거리를 너와 함께 걷고 싶다 이 바다를 너와 함께 걷고 싶어'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '여수 밤바다'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '여수 밤바다 이 바람에 걸린 알 수 없는 향기가 있어 네게 전해주고파'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '전활 걸어 뭐하고 있냐고 나는 지금 여수 밤바다 여수 밤바다'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '아 - 아 - 아 - 　　　　　 아 - 아 - 어 - 워 -'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '너와 함께 걷고 싶다 이 바다를 너와 함께 걷고 싶어'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '이 거리를 너와 함께 걷고 싶다 이 바다를 너와 함께 너와 함께 오'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '바다 이 조명에 담긴 아름다운 얘기가 있어 네게 들려주고파'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '전활 걸어 뭐하고 있냐고 나는 지금 여수 밤바다 여수 밤바다'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '아 바다 아아아아 하아아아 허어어어'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '허 어어어 허 어'
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '뭐하고 있냐고 나는 지금 여수 밤바다'
+      }
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+d:T24d1,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -435,7 +535,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-d:T1d02,/*@jsxRuntime automatic @jsxImportSource react*/
+e:T1d02,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -769,7 +869,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-e:T2aff,/*@jsxRuntime automatic @jsxImportSource react*/
+f:T2aff,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1252,7 +1352,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-f:T225d,/*@jsxRuntime automatic @jsxImportSource react*/
+10:T225d,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1653,7 +1753,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-10:T2793,/*@jsxRuntime automatic @jsxImportSource react*/
+11:T2793,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -2107,4 +2207,4 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-9:[["$","$La",null,{"children":"Score"}],["$","$Lb",null,{"scoreList":[{"title":"좋은 밤 좋은 꿈","artist":"너드커넥션","releaseYear":2020,"capo":2,"slug":"5","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}},{"title":"내사랑 내곁에","artist":"김현식","releaseYear":1991,"capo":0,"slug":"4","mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}},{"title":"고백","artist":"델리스파이스","releaseYear":2003,"capo":4,"slug":"3","mdx":{"compiledSource":"$e","frontmatter":{},"scope":{}}},{"title":"가리워진 길","artist":"유재하","releaseYear":1986,"capo":0,"slug":"2","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"너를 보내고","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"1","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}}]}]]
+9:[["$","$La",null,{"children":"Score"}],["$","$Lb",null,{"scoreList":[{"title":"여수 밤바다","artist":"버스커 버스커","releaseYear":2012,"capo":0,"slug":"6","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}},{"title":"좋은 밤 좋은 꿈","artist":"너드커넥션","releaseYear":2020,"capo":2,"slug":"5","mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}},{"title":"내사랑 내곁에","artist":"김현식","releaseYear":1991,"capo":0,"slug":"4","mdx":{"compiledSource":"$e","frontmatter":{},"scope":{}}},{"title":"고백","artist":"델리스파이스","releaseYear":2003,"capo":4,"slug":"3","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"가리워진 길","artist":"유재하","releaseYear":1986,"capo":0,"slug":"2","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}},{"title":"너를 보내고","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"1","mdx":{"compiledSource":"$11","frontmatter":{},"scope":{}}}]}]]
