@@ -1,4 +1,4 @@
-0:["_Qb4ECXrFOMyalPo2cpqO",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["eCNqXQOdV2KXb4cOO5JKd",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
 4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
 5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
@@ -9,7 +9,7 @@
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Home"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun.com"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.png"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"shinyongjun.com"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.png"}]]
 a:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-6f8a32e2394384b5.js"],"name":"","async":false}
 b:I{"id":3659,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-6f8a32e2394384b5.js"],"name":"","async":false}
-c:Td72,/*@jsxRuntime automatic @jsxImportSource react*/
+c:Td82,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -40,7 +40,7 @@ function _createMdxContent(props) {
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '아 - 아 - 아 - 　　　　　 아 - 아 - 어 - 워 -'
+        lyrics: '아 - 아 - 아 -        아 - 아 - 어 - 워 -'
       }
     }), _jsx(ScorePhrase, {
       phrase: {
@@ -64,7 +64,7 @@ function _createMdxContent(props) {
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '아 - 아 - 아 - 　　　　　 아 - 아 - 어 - 워 -'
+        lyrics: '아 - 아 - 아 -        아 - 아 - 어 - 워 -'
       }
     }), _jsx(ScorePhrase, {
       phrase: {
@@ -84,11 +84,11 @@ function _createMdxContent(props) {
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '아 바다 아아아아 하아아아 허어어어'
+        lyrics: '아 바다 아 아 아 아     하 아 아 아     허 어 어 어 '
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '허 어어어 허 어'
+        lyrics: '허        어 어 어 허        어'
       }
     }), _jsx(ScorePhrase, {
       phrase: {
