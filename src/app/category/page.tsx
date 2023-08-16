@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getCategories, getPosts } from '@/services/post';
+import { getCategories, getPostList } from '@/services/post';
 import PageTitle from '@/components/page/Title';
 import CategoryList from '@/components/category/List';
 import PostList from '@/components/post/List';
@@ -12,13 +12,13 @@ export async function generateMetadata(): Promise<Metadata> {
 
 const CategoryListPage = async () => {
   const categories = await getCategories();
-  const posts = await getPosts();
+  const postList = await getPostList();
 
   return (
     <>
       <PageTitle>Category</PageTitle>
       <CategoryList categories={categories} />
-      <PostList postList={posts} />
+      <PostList postList={postList} />
     </>
   );
 };

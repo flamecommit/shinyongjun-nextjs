@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getPost, getPosts, getSeries } from '@/services/post';
+import { getPost, getPostList, getSeries } from '@/services/post';
 import PostViewer from '@/components/post/Viewer';
 import Giscus from '@/components/common/Giscus';
 import AuthorProfile from '@/components/author/Profile';
@@ -32,9 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export async function generateStaticParams() {
-  const posts = await getPosts();
+  const postList = await getPostList();
 
-  return posts.map((post) => ({
+  return postList.map((post) => ({
     slug: post.slug,
   }));
 }

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import PageTitle from '@/components/page/Title';
 import PostList from '@/components/post/List';
-import { getPostsBySeries, getSeries } from '@/services/post';
+import { getPostListBySeries, getSeries } from '@/services/post';
 
 type Props = {
   params: {
@@ -29,12 +29,12 @@ const PostListByCategoryPage = async ({ params }: Props) => {
   const { slug } = params;
   const series = await getSeries();
   const seriesText = series.find((item) => String(item.index) === slug)?.series;
-  const posts = await getPostsBySeries(seriesText);
+  const postList = await getPostListBySeries(seriesText);
 
   return (
     <>
       <PageTitle>Series - {seriesText}</PageTitle>
-      <PostList postList={posts} />
+      <PostList postList={postList} />
     </>
   );
 };

@@ -1,14 +1,14 @@
 import AuthorProfile from '@/components/author/Profile';
 import PostList from '@/components/post/List';
-import { getPosts } from '@/services/post';
+import { getPostList } from '@/services/post';
 
 async function RootPage() {
-  const posts = await getPosts();
+  const postList = await getPostList();
 
   return (
     <>
       <AuthorProfile />
-      {posts.length ? <PostList postList={posts} /> : <div>no</div>}
+      {postList.length ? <PostList postList={postList} /> : <div>no</div>}
     </>
   );
 }

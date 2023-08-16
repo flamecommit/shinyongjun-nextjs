@@ -56,7 +56,7 @@ const parsePost = async (postPath: string): Promise<Post> => {
   };
 };
 
-export const getPosts = async (): Promise<Post[]> => {
+export const getPostList = async (): Promise<Post[]> => {
   const postPaths: string[] = sync(`${POSTS_PATH}/**/*.mdx`);
   const result = await Promise.all(
     postPaths.map((postPath) => {
@@ -75,13 +75,13 @@ export const getPosts = async (): Promise<Post[]> => {
 };
 
 export const getPost = async (slug: string) => {
-  const posts = await getPosts();
-  const postIndex = posts.findIndex((post) => post?.slug === slug);
-  const nextPost = posts[postIndex - 1];
-  const prevPost = posts[postIndex + 1];
+  const postList = await getPostList();
+  const postIndex = postList.findIndex((post) => post?.slug === slug);
+  const nextPost = postList[postIndex - 1];
+  const prevPost = postList[postIndex + 1];
 
   return {
-    post: posts[postIndex],
+    post: postList[postIndex],
     nextPost,
     prevPost,
   };
@@ -100,22 +100,22 @@ function removeDuplicatesByKey(arr: Array<any>, key: string) {
 }
 
 export const getSeries = async () => {
-  const posts = await getPosts();
-  const uniqueSeries = removeDuplicatesByKey(posts, 'series');
+  const postList = await getPostList();
+  const uniqueSeries = removeDuplicatesByKey(postList, 'series');
 
   return uniqueSeries.map((post, index) => {
     return {
       index: index + 1,
       series: post.series,
-      count: posts.filter((item) => item.series === post.series).length,
+      count: postList.filter((item) => item.series === post.series).length,
     };
   });
 };
 
 export const getCategories = async () => {
   const result: string[] = [];
-  const posts = await getPosts();
-  const flattenedCategories = posts.flatMap((post) => post.categories);
+  const postList = await getPostList();
+  const flattenedCategories = postList.flatMap((post) => post.categories);
   const uniqueCategories = new Set(flattenedCategories);
 
   uniqueCategories.forEach((category) => {
@@ -125,18 +125,18 @@ export const getCategories = async () => {
   return result;
 };
 
-export const getPostsByCategory = async (category: string) => {
-  const posts = await getPosts();
+export const getPostListByCategory = async (category: string) => {
+  const postList = await getPostList();
 
-  return posts.filter((post) => {
+  return postList.filter((post) => {
     return post.categories.includes(category);
   });
 };
 
-export const getPostsBySeries = async (series: string) => {
-  const posts = await getPosts();
+export const getPostListBySeries = async (series: string) => {
+  const postList = await getPostList();
 
-  return posts.filter((post) => {
+  return postList.filter((post) => {
     return post.series === series;
   });
 };

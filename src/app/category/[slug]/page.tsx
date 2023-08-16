@@ -1,7 +1,7 @@
 import { Metadata, ResolvingMetadata } from 'next';
 import PageTitle from '@/components/page/Title';
 import PostList from '@/components/post/List';
-import { getPostsByCategory, getCategories } from '@/services/post';
+import { getPostListByCategory, getCategories } from '@/services/post';
 import CategoryList from '@/components/category/List';
 
 type Props = {
@@ -33,13 +33,13 @@ export async function generateStaticParams() {
 const PostListByCategoryPage = async ({ params }: Props) => {
   const { slug } = params;
   const categories = await getCategories();
-  const posts = await getPostsByCategory(slug);
+  const postList = await getPostListByCategory(slug);
 
   return (
     <>
       <PageTitle>Category - {slug}</PageTitle>
       <CategoryList categories={categories} />
-      <PostList postList={posts} />
+      <PostList postList={postList} />
     </>
   );
 };

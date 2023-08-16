@@ -79,15 +79,15 @@ export default PostViewer;
 
 ### getPost 함수 생성
 
-이제 `getPosts` 가져온 포스팅 목록 중에서 `slug` 가 일치하는 포스팅만 추출하는 `getPost` 함수를 만들겠습니다.
+이제 `getPostList` 가져온 포스팅 목록 중에서 `slug` 가 일치하는 포스팅만 추출하는 `getPost` 함수를 만들겠습니다.
 
 ```ts:/src/services/post.ts
 export const getPost = async (slug: string) => {
-  const posts = await getPosts();
-  const postIndex = posts.findIndex((post) => post?.slug === slug);
+  const postList = await getPostList();
+  const postIndex = postList.findIndex((post) => post?.slug === slug);
 
   return {
-    post: posts[postIndex],
+    post: postList[postIndex],
   };
 };
 ```
@@ -139,7 +139,7 @@ const parsePost = async (postPath: string): Promise<Post> => {
   };
 };
 
-export const getPosts = async (): Promise<Post[]> => {
+export const getPostList = async (): Promise<Post[]> => {
   const postPaths: string[] = sync(`${POSTS_PATH}/**/*.mdx`);
   const result = await Promise.all(
     postPaths.map((postPath) => {
@@ -158,11 +158,11 @@ export const getPosts = async (): Promise<Post[]> => {
 };
 
 export const getPost = async (slug: string) => {
-  const posts = await getPosts();
-  const postIndex = posts.findIndex((post) => post?.slug === slug);
+  const postList = await getPostList();
+  const postIndex = postList.findIndex((post) => post?.slug === slug);
 
   return {
-    post: posts[postIndex],
+    post: postList[postIndex],
   };
 };
 ```
@@ -173,7 +173,7 @@ export const getPost = async (slug: string) => {
 `Next.js` 에서 동적 라우팅 컴포넌트를 만드려면 폴더명을 `[]` 대괄호로 감싸줍니다.
 
 ```tsx:/src/app/post/[slug]/page.tsx
-import { getPost, getPosts } from "@/services/post";
+import { getPost, getPostList } from "@/services/post";
 import PostViewer from "@/components/post/Viewer";
 
 type Props = {
@@ -183,9 +183,9 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  const posts = await getPosts();
+  const postList = await getPostList();
 
-  return posts.map((post) => ({
+  return postList.map((post) => ({
     slug: post.slug,
   }));
 }
