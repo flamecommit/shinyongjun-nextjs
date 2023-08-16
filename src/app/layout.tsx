@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import StyledComponentsRegistry from '@/styles/registry';
 import RootProvider from '@/stores/provider';
 import DefaultTemplate from '@/components/template/Default';
+import GoogleAnalytics from '@/components/base/GooglaAnalytics';
 
 interface Props {
   children: React.ReactNode;
@@ -19,6 +20,7 @@ function RootLayout({ children }: Props) {
   return (
     <html lang="ko">
       <head>
+        <GoogleAnalytics GA_TRACKING_ID="G-LF688KS2VH" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -31,11 +33,11 @@ function RootLayout({ children }: Props) {
         />
       </head>
       <body>
-        <StyledComponentsRegistry>
-          <RootProvider>
+        <RootProvider>
+          <StyledComponentsRegistry>
             <DefaultTemplate>{children}</DefaultTemplate>
-          </RootProvider>
-        </StyledComponentsRegistry>
+          </StyledComponentsRegistry>
+        </RootProvider>
       </body>
     </html>
   );
