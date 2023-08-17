@@ -9,29 +9,37 @@ import ChordSymbol from './Symbol';
 
 function ChordGenerator() {
   const startPitch = [28, 23, 19, 14, 9, 4];
-  const [pitch, setPitch] = useState<number[]>([]);
+  const [pitch, setPitch] = useState<Array<number>>([]);
   const [composition, setComposition] = useState<string[]>([]);
   const [resultChord, setResultChord] = useState<string>('');
 
   const checkHandler = (
     e: React.ChangeEvent<HTMLInputElement>,
     value: number,
+    index: number,
   ) => {
-    if (e.target.checked) {
+    const temp: Array<number> = [...pitch];
+    temp[index] = value;
+    setPitch(temp);
+    /* if (e.target.checked) {
       setPitch([...pitch, value]);
       setComposition([...composition, getPitch('C', value)]);
-    }
-    if (!e.target.checked) {
+    } */
+    /* if (!e.target.checked) {
       setPitch(pitch.filter((v) => v !== value));
       setComposition(composition.filter((v) => v !== getPitch('C', value)));
-    }
+    } */
   };
 
   useEffect(() => {
+    const pitchClone = [...pitch].filter((v) => v > 0).sort((a, b) => a - b);
     const temp: string[] = [];
-    const sortPitch = removeDuplicates(pitch.sort((a, b) => a - b));
+    const sortPitch = removeDuplicates(pitchClone);
+
     sortPitch.forEach((p) => {
-      temp.push(getPitch('C', p));
+      if (p) {
+        temp.push(getPitch('C', p));
+      }
     });
     setComposition(temp);
   }, [pitch]);
@@ -57,6 +65,15 @@ function ChordGenerator() {
             {scaleArray.map((string, i) => {
               return (
                 <div key={i} className="guitar-string">
+                  <label htmlFor={`${i}-m`} className="guitar-fret">
+                    <input
+                      name={`string-${i}`}
+                      id={`${i}-m`}
+                      type="radio"
+                      onChange={(e) => checkHandler(e, 0, i)}
+                    />
+                    <div className="mute">M</div>
+                  </label>
                   {string.map((fret, j) => {
                     const p = startPitch[i] + j;
                     return (
@@ -66,10 +83,11 @@ function ChordGenerator() {
                         className="guitar-fret"
                       >
                         <input
+                          name={`string-${i}`}
                           id={`${i}-${j}`}
-                          type="checkbox"
+                          type="radio"
                           data-pitch={p}
-                          onChange={(e) => checkHandler(e, p)}
+                          onChange={(e) => checkHandler(e, p, i)}
                         />
                         <ChordSymbol chordName={fret} />
                       </label>
@@ -80,8 +98,13 @@ function ChordGenerator() {
             })}
           </div>
         </div>
-        <div>selected : {composition.join(', ')}</div>
-        <div>chord : {resultChord}</div>
+        <div className="result-area">
+          {resultChord ? (
+            <ChordSymbol chordName={resultChord} />
+          ) : (
+            <div>Not Found</div>
+          )}
+        </div>
       </StyledChordGenerator>
     </>
   );
@@ -104,7 +127,7 @@ const StyledChordGenerator = styled.div`
           height: 1px;
           position: absolute;
           top: 0;
-          left: 7.6923%;
+          left: 14.2857%;
           right: 0;
           background-color: #000;
         }
@@ -116,7 +139,7 @@ const StyledChordGenerator = styled.div`
           flex-basis: 100%;
           flex-grow: 1;
           cursor: pointer;
-          input[type='checkbox'] {
+          input[type='radio'] {
             position: absolute;
             top: 0;
             left: 0;
@@ -138,19 +161,36 @@ const StyledChordGenerator = styled.div`
             width: 1px;
             background-color: #000;
           }
-          &:nth-child(1)::after {
+          &:nth-child(1) {
+            flex-grow: 0.5;
+            &::after {
+              width: 0;
+            }
+          }
+          &:nth-child(2)::after {
             width: 3px;
           }
           div {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             background-color: rgba(255, 255, 255, 1);
             width: 24px;
             height: 24px;
             border-radius: 50%;
+            font-family: 'Roboto';
+            font-size: 14px;
           }
         }
       }
     }
+  }
+  .result-area {
+    font-family: 'Roboto';
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
   }
 `;
 
