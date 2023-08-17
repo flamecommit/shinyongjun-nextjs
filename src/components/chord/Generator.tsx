@@ -66,6 +66,15 @@ function ChordGenerator() {
   return (
     <>
       <StyledChordGenerator>
+        <div className="result-area">
+          {resultChord ? (
+            <button type="button" onClick={() => setCurrentChord(resultChord)}>
+              <ChordSymbol chordName={resultChord} />
+            </button>
+          ) : (
+            <div>Not Found</div>
+          )}
+        </div>
         <div className="guitar-area">
           <div className="guitar-neck">
             {scaleArray.map((string, i) => {
@@ -104,15 +113,6 @@ function ChordGenerator() {
             })}
           </div>
         </div>
-        <div className="result-area">
-          {resultChord ? (
-            <button type="button" onClick={() => setCurrentChord(resultChord)}>
-              <ChordSymbol chordName={resultChord} />
-            </button>
-          ) : (
-            <div>Not Found</div>
-          )}
-        </div>
         {currentChord && (
           <ChordChart chordName={currentChord} closeChord={closeChord} />
         )}
@@ -122,34 +122,39 @@ function ChordGenerator() {
 }
 
 const StyledChordGenerator = styled.div`
+  .result-area {
+    font-family: 'Roboto';
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+  }
   .guitar-area {
-    margin-bottom: 30px;
     .guitar-neck {
-      display: grid;
-      row-gap: 24px;
+      display: flex;
+      flex-direction: row-reverse;
+      background-position-x: center;
+      background-size: 360px auto;
+      width: 220px;
+      margin-inline: auto;
+      background-position-y: 50px;
+      border: 1px solid #000;
       .guitar-string {
         position: relative;
-        display: flex;
+        display: grid;
         width: 100%;
-        height: 1px;
-        &::before {
-          display: block;
-          content: '';
-          height: 1px;
-          position: absolute;
-          top: 0;
-          left: 14.2857%;
-          right: 0;
-          background-color: #000;
-        }
         .guitar-fret {
-          height: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 80px;
+          border: 1px solid #000;
           text-align: center;
           position: relative;
-          top: -12px;
-          flex-basis: 100%;
-          flex-grow: 1;
           cursor: pointer;
+          &:hover {
+            background-color: #ddd;
+          }
           input[type='radio'] {
             position: absolute;
             top: 0;
@@ -162,30 +167,26 @@ const StyledChordGenerator = styled.div`
               color: #fff;
             }
           }
-          &::after {
-            display: block;
-            content: '';
-            position: absolute;
-            top: 5px;
-            right: 0;
-            bottom: 5px;
-            width: 1px;
-            background-color: #000;
-          }
           &:nth-child(1) {
-            flex-grow: 0.5;
+            height: 40px;
             &::after {
-              width: 0;
+              display: block;
+              position: absolute;
+              top: -30px;
+              left: 0;
+              font-size: 14px;
+              line-height: 20px;
+              width: 100%;
+              text-align: center;
             }
           }
-          &:nth-child(2)::after {
-            width: 3px;
+          &:nth-child(2) {
+            height: 50px;
           }
           div {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            background-color: rgba(255, 255, 255, 1);
             width: 24px;
             height: 24px;
             border-radius: 50%;
@@ -193,15 +194,95 @@ const StyledChordGenerator = styled.div`
             font-size: 14px;
           }
         }
+        &:nth-child(1) {
+          .guitar-fret:nth-child(1)::after {
+            content: '1';
+          }
+        }
+        &:nth-child(2) {
+          .guitar-fret:nth-child(1)::after {
+            content: '2';
+          }
+        }
+        &:nth-child(3) {
+          .guitar-fret:nth-child(1)::after {
+            content: '3';
+          }
+        }
+        &:nth-child(4) {
+          .guitar-fret:nth-child(1)::after {
+            content: '4';
+          }
+        }
+        &:nth-child(5) {
+          .guitar-fret:nth-child(1)::after {
+            content: '5';
+          }
+        }
+        &:nth-child(6) {
+          .guitar-fret:nth-child(1)::after {
+            content: '6';
+          }
+        }
+        &:last-child {
+          .guitar-fret {
+            &::before {
+              display: block;
+              content: 'test';
+              position: absolute;
+              top: calc(50% - 10px);
+              left: -120px;
+              font-size: 14px;
+              line-height: 20px;
+              width: 120px;
+              text-align: center;
+            }
+            &:nth-child(1)::before {
+              content: 'Mute';
+            }
+            &:nth-child(2)::before {
+              content: '개방현';
+            }
+            &:nth-child(3)::before {
+              content: '1';
+            }
+            &:nth-child(4)::before {
+              content: '2';
+            }
+            &:nth-child(5)::before {
+              content: '3';
+            }
+            &:nth-child(6)::before {
+              content: '4';
+            }
+            &:nth-child(7)::before {
+              content: '5';
+            }
+            &:nth-child(8)::before {
+              content: '6';
+            }
+            &:nth-child(9)::before {
+              content: '7';
+            }
+            &:nth-child(10)::before {
+              content: '8';
+            }
+            &:nth-child(11)::before {
+              content: '9';
+            }
+            &:nth-child(12)::before {
+              content: '10';
+            }
+            &:nth-child(13)::before {
+              content: '11';
+            }
+            &:nth-child(14)::before {
+              content: '12';
+            }
+          }
+        }
       }
     }
-  }
-  .result-area {
-    font-family: 'Roboto';
-    margin-top: 30px;
-    text-align: center;
-    font-weight: 700;
-    font-size: 20px;
   }
 `;
 
