@@ -145,7 +145,7 @@ const StyledPostViewer = styled.article`
     ol {
       list-style: decimal;
     }
-    li {
+    ul {
       list-style: disc;
     }
   }

@@ -1,13 +1,14 @@
 'use client';
 
 import styled from 'styled-components';
+import { transChordSymbol } from '@/services/chord';
 
 interface Props {
   chordName: string;
 }
 
 function ChordSymbol({ chordName }: Props) {
-  const chordSymbole = chordName.replaceAll('[', '♭').replaceAll(']', '♯');
+  const chordSymbole = transChordSymbol(chordName);
 
   return <StyledChordSymbol>{chordSymbole}</StyledChordSymbol>;
 }

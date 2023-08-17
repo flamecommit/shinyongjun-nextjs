@@ -6,14 +6,6 @@ export interface ChordType {
 // [ => ♭
 // ] => ♯
 
-// major
-// minor
-// dominant
-// suspended
-// add
-// augmented
-// diminished
-
 export const chordList: ChordType[] = [
   {
     name: 'C',
@@ -23,6 +15,10 @@ export const chordList: ChordType[] = [
       [3, 5, 5, 5, 3, -1],
       [8, 8, 9, 10, 10, 8],
     ],
+  },
+  {
+    name: 'Csus4',
+    chart: [[1, 1, 0, 3, 3, -1]],
   },
   {
     name: 'C7',
@@ -131,7 +127,7 @@ export const chordList: ChordType[] = [
     chart: [[1, 0, 1, 0, 2, 0]],
   },
   {
-    name: 'Eadd2',
+    name: 'Eadd9',
     chart: [[0, 0, 1, 4, 2, 0]],
   },
   {
@@ -156,6 +152,13 @@ export const chordList: ChordType[] = [
   {
     name: 'GM7',
     chart: [[2, 0, 0, 0, 2, 3]],
+  },
+  {
+    name: 'Gadd9',
+    chart: [
+      [-1, -1, 2, 0, 2, 3],
+      [3, 0, 2, 0, -1, 3],
+    ],
   },
   {
     name: 'G/B',

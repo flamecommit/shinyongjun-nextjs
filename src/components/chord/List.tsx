@@ -4,8 +4,8 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import { chordList } from '@/constants/chord';
 import { device } from '@/styles/mixin';
+import ChordSymbol from '@/components/chord/Symbol';
 import ChordChart from './Chart';
-import ChordSymbol from '../score/ChordSymbol';
 
 function ChordList() {
   const [currentChord, setCurrentChord] = useState<string>('');

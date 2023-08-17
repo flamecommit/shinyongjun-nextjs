@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import { useState } from 'react';
 import getConfig from 'next/config';
 import { device } from '@/styles/mixin';
+import ChordSymbol from '@/components/chord/Symbol';
 import ChordChart from '../chord/Chart';
-import ChordSymbol from './ChordSymbol';
 
 type Props = {
   phrase: {

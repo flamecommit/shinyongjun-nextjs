@@ -8,8 +8,8 @@ import { GrClose } from '@react-icons/all-files/gr/GrClose';
 import { GrRadial } from '@react-icons/all-files/gr/GrRadial';
 import { scaleArray, chordList } from '@/constants/chord';
 import { device } from '@/styles/mixin';
-import { getComposition } from '@/services/chord';
-import ChordSymbol from '../score/ChordSymbol';
+import { getComposition, transChordSymbol } from '@/services/chord';
+import ChordSymbol from '@/components/chord/Symbol';
 
 interface Props {
   chordName: string;
@@ -17,11 +17,10 @@ interface Props {
 }
 
 function ChordChart({ chordName, closeChord }: Props) {
-  console.log(getComposition(chordName));
-
   const [startX, setStartX] = useState(0);
   const [moveX, setMoveX] = useState(0);
   const chord = chordList.find((item) => item.name === chordName);
+  const constituent = getComposition(chordName);
 
   const chartCount = chord?.chart.length || 0;
   const [activeIndex, setActiveIndex] = useState(0);
@@ -74,8 +73,19 @@ function ChordChart({ chordName, closeChord }: Props) {
   return (
     <StyledChordChart onClick={clickBackground}>
       <div className="chord-layer">
-        <div className="chord-name">
-          <ChordSymbol chordName={chordName} />
+        <div className="chord-header">
+          <div className="name">
+            <ChordSymbol chordName={chordName} />
+          </div>
+          {constituent.length > 0 && (
+            <div className="constituent">
+              [
+              {constituent.map((c) => {
+                return <div key={c}>{transChordSymbol(c)}</div>;
+              })}
+              ]
+            </div>
+          )}
         </div>
         <div
           className="chart-area"
@@ -196,13 +206,27 @@ const StyledChordChart = styled.div`
     max-width: 100%;
     width: 440px;
     padding: 20px 20px 50px 20px;
-    .chord-name {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px;
-      font-size: 24px;
-      text-align: center;
+    .chord-header {
+      margin-bottom: 30px;
+      line-height: 1.2;
+      .name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        text-align: center;
+      }
+      .constituent {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Roboto';
+        position: relative;
+        bottom: 3px;
+        column-gap: 6px;
+        font-size: 14px;
+        color: #666;
+      }
     }
     .chord-null {
       text-align: center;
