@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import styled from 'styled-components';
+import Link from 'next/link';
 import { kindOfChord, chordSymbolList } from '@/constants/chord';
 import { device } from '@/styles/mixin';
 import ChordSymbol from '@/components/chord/Symbol';
@@ -39,6 +40,8 @@ function ChordList() {
             </div>
           );
         })}
+
+        <Link href="/chord/generator">Go to Chord Generator</Link>
       </StyledChordList>
       {currentChord && (
         <ChordChart chordName={currentChord} closeChord={closeChord} />
@@ -77,6 +80,22 @@ const StyledChordList = styled.div`
     }
   }
   @media ${device.mobile} {
+    .root-area {
+      .root-head {
+        font-size: 16px;
+        margin-bottom: 6px;
+      }
+      .chord-area {
+        gap: 6px;
+      }
+      button {
+        height: 36px;
+        padding: 0 24px;
+        div {
+          font-size: 14px;
+        }
+      }
+    }
   }
 `;
 

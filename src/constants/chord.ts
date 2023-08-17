@@ -14,6 +14,7 @@ export const kindOfChord = [
   '7',
   '9',
   'M7',
+  'sus2',
   'sus4',
   '7sus4',
   'dim',
@@ -53,6 +54,15 @@ export const pitchList = [
   'B',
 ];
 
+export const scaleArray = [
+  ['E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E'],
+  ['B', 'C', 'C]', 'D', 'E[', 'E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B'],
+  ['G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E', 'F', 'F]', 'G'],
+  ['D', 'E[', 'E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D'],
+  ['A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E', 'F', 'F]', 'G', 'G]', 'A'],
+  ['E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E'],
+];
+
 export const newChordList: ChordType = {
   C: {
     composition: ['C', 'E', 'G'],
@@ -82,6 +92,10 @@ export const newChordList: ChordType = {
   CM7: {
     composition: ['C', 'E', 'G', 'B'],
     chartList: [[0, 0, 0, 2, 3, -1]],
+  },
+  Csus2: {
+    composition: ['C', 'D', 'G'],
+    chartList: [],
   },
   Csus4: {
     composition: ['C', 'F', 'G'],
@@ -557,6 +571,10 @@ export const newChordList: ChordType = {
     composition: ['A', 'C]', 'E', 'G]'],
     chartList: [],
   },
+  Asus2: {
+    composition: ['A', 'B', 'E'],
+    chartList: [],
+  },
   Asus4: {
     composition: ['A', 'D', 'E'],
     chartList: [],
@@ -694,12 +712,3 @@ export const newChordList: ChordType = {
     chartList: [],
   },
 };
-
-export const scaleArray = [
-  ['E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E'],
-  ['B', 'C', 'C]', 'D', 'E[', 'E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B'],
-  ['G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E', 'F', 'F]', 'G'],
-  ['D', 'E[', 'E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D'],
-  ['A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E', 'F', 'F]', 'G', 'G]', 'A'],
-  ['E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E'],
-];

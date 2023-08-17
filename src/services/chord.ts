@@ -23,7 +23,7 @@ const getPitchIndex = (root: string) => {
   });
 };
 
-const getPitch = (root: string, step: number) => {
+export const getPitch = (root: string, step: number) => {
   // step 4 : Major 3rd, 장 3도
   // step 7 : Perfect 5th, 완전 5도
   const index = getPitchIndex(root);
@@ -75,6 +75,11 @@ const getMajor7thChord = (root: string) => {
   return [root, getPitch(root, 4), getPitch(root, 7), getPitch(root, 11)];
 };
 
+/** suspended 2th */
+const getSuspended2thChord = (root: string) => {
+  return [root, getPitch(root, 2), getPitch(root, 7)];
+};
+
 /** suspended 4th */
 const getSuspended4thChord = (root: string) => {
   return [root, getPitch(root, 5), getPitch(root, 7)];
@@ -124,6 +129,7 @@ export const getComposition = (chord: string) => {
   if (chord === `${root}7`) return get7thChord(root);
   if (chord === `${root}9`) return get9thChord(root);
   if (chord === `${root}M7`) return getMajor7thChord(root);
+  if (chord === `${root}sus2`) return getSuspended2thChord(root);
   if (chord === `${root}sus4`) return getSuspended4thChord(root);
   if (chord === `${root}7sus4`) return get7thSuspended4thChord(root);
   if (chord === `${root}dim`) return getDiminishedChord(root);
