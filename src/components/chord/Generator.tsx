@@ -6,12 +6,18 @@ import { scaleArray, newChordList } from '@/constants/chord';
 import { getPitch } from '@/services/chord';
 import { removeDuplicates, arraysHaveSameElements } from '@/utils/array';
 import ChordSymbol from './Symbol';
+import ChordChart from './Chart';
 
 function ChordGenerator() {
   const startPitch = [28, 23, 19, 14, 9, 4];
   const [pitch, setPitch] = useState<Array<number>>([]);
   const [composition, setComposition] = useState<string[]>([]);
   const [resultChord, setResultChord] = useState<string>('');
+  const [currentChord, setCurrentChord] = useState<string>('');
+
+  const closeChord = () => {
+    setCurrentChord('');
+  };
 
   const checkHandler = (
     e: React.ChangeEvent<HTMLInputElement>,
@@ -100,11 +106,16 @@ function ChordGenerator() {
         </div>
         <div className="result-area">
           {resultChord ? (
-            <ChordSymbol chordName={resultChord} />
+            <button type="button" onClick={() => setCurrentChord(resultChord)}>
+              <ChordSymbol chordName={resultChord} />
+            </button>
           ) : (
             <div>Not Found</div>
           )}
         </div>
+        {currentChord && (
+          <ChordChart chordName={currentChord} closeChord={closeChord} />
+        )}
       </StyledChordGenerator>
     </>
   );

@@ -110,6 +110,16 @@ const getMinor7thChord = (root: string) => {
   return [root, getPitch(root, 3), getPitch(root, 7), getPitch(root, 10)];
 };
 
+/** Minor 7th Fret5 */
+const getMinor7thFret5Chord = (root: string) => {
+  return [root, getPitch(root, 3), getPitch(root, 6), getPitch(root, 10)];
+};
+
+/** Minor 7th Sharp5 */
+const getMinor7thSharp5Chord = (root: string) => {
+  return [root, getPitch(root, 3), getPitch(root, 8), getPitch(root, 10)];
+};
+
 /** add9 (add9 는 add2와 동일하다) */
 const getAdd9Chord = (root: string) => {
   return [root, getPitch(root, 4), getPitch(root, 7), getPitch(root, 14)];
@@ -136,6 +146,8 @@ export const getComposition = (chord: string) => {
   if (chord === `${root}m`) return getMinorChord(root);
   if (chord === `${root}m6`) return getMinor6thChord(root);
   if (chord === `${root}m7`) return getMinor7thChord(root);
+  if (chord === `${root}m7[5`) return getMinor7thFret5Chord(root);
+  if (chord === `${root}m7]5`) return getMinor7thSharp5Chord(root);
   if (chord === `${root}add9`) return getAdd9Chord(root);
   return [];
 };

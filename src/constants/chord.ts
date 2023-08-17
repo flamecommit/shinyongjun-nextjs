@@ -21,6 +21,8 @@ export const kindOfChord = [
   'm',
   'm6',
   'm7',
+  'm7[5',
+  'm7]5',
   'add9',
 ];
 
@@ -539,6 +541,14 @@ export const newChordList: ChordType = {
   },
   'G]m7': {
     composition: ['G]', 'B', 'E[', 'F]'],
+    chartList: [],
+  },
+  'G]m7[5': {
+    composition: ['G]', 'B', 'D', 'F]'],
+    chartList: [],
+  },
+  'G]m7]5': {
+    composition: ['G]', 'B', 'E', 'F]'],
     chartList: [],
   },
   'G]add9': {
