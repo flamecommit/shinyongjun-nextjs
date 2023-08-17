@@ -1,3 +1,4 @@
+import { pitchList } from '@/constants/chord';
 // 근음 = 으뜸음 = Root = 뿌리
 // 음이름 = pitch names = 음의 고정 위치
 // 계이름 = syllable names = 음의 상대 위치
@@ -12,45 +13,6 @@
 // diminished
 
 // eslint-disable-next-line prettier/prettier
-const pitchList = [
-  'C',
-  ['C]', 'D['],
-  'D',
-  ['D]', 'E['],
-  'E',
-  'F',
-  ['F]', 'G['],
-  'G',
-  ['G]', 'A['],
-  'A',
-  ['A]', 'B['],
-  'B',
-  'C',
-  ['C]', 'D['],
-  'D',
-  ['D]', 'E['],
-  'E',
-  'F',
-  ['F]', 'G['],
-  'G',
-  ['G]', 'A['],
-  'A',
-  ['A]', 'B['],
-  'B',
-  'C',
-  ['C]', 'D['],
-  'D',
-  ['D]', 'E['],
-  'E',
-  'F',
-  ['F]', 'G['],
-  'G',
-  ['G]', 'A['],
-  'A',
-  ['A]', 'B['],
-  'B',
-];
-const majorPitch = ['C', 'D', 'E', 'F', 'G', 'A', 'B'];
 
 const getPitchIndex = (root: string) => {
   return pitchList.findIndex((p) => {
@@ -65,7 +27,12 @@ const getPitch = (root: string, step: number) => {
   // step 4 : Major 3rd, 장 3도
   // step 7 : Perfect 5th, 완전 5도
   const index = getPitchIndex(root);
-  const pitch = pitchList[index + step];
+  const computedIndex =
+    pitchList.length > index + step
+      ? index + step
+      : (index + step) % pitchList.length;
+
+  const pitch = pitchList[computedIndex];
   const type0 = ['C', 'F', 'G'];
   // const type1 = ['B', 'E'];
 
@@ -82,24 +49,25 @@ const getMajorChord = (root: string) => {
   return [root, getPitch(root, 4), getPitch(root, 7)];
 };
 
-/** suspended 4th */
-const getSuspended4thChord = (root: string) => {
-  return [root, getPitch(root, 5), getPitch(root, 7)];
+/** 6 : 6th */
+const get6thChord = (root: string) => {
+  return [root, getPitch(root, 4), getPitch(root, 7), getPitch(root, 9)];
 };
 
-/** add9 (add9 는 add2와 동일하다) */
-const getAdd9Chord = (root: string) => {
-  return [root, getPitch(root, 4), getPitch(root, 7), getPitch(root, 14)];
-};
-
-/** 7th */
+/** 7 : 7th */
 const get7thChord = (root: string) => {
   return [root, getPitch(root, 4), getPitch(root, 7), getPitch(root, 10)];
 };
 
-/** 7th suspended 4th */
-const get7thSuspended4thChord = (root: string) => {
-  return [root, getPitch(root, 5), getPitch(root, 7), getPitch(root, 10)];
+/** 9 : 9th */
+const get9thChord = (root: string) => {
+  return [
+    root,
+    getPitch(root, 4),
+    getPitch(root, 7),
+    getPitch(root, 10),
+    getPitch(root, 14),
+  ];
 };
 
 /** Major 7th */
@@ -107,14 +75,39 @@ const getMajor7thChord = (root: string) => {
   return [root, getPitch(root, 4), getPitch(root, 7), getPitch(root, 11)];
 };
 
+/** suspended 4th */
+const getSuspended4thChord = (root: string) => {
+  return [root, getPitch(root, 5), getPitch(root, 7)];
+};
+
+/** 7th suspended 4th */
+const get7thSuspended4thChord = (root: string) => {
+  return [root, getPitch(root, 5), getPitch(root, 7), getPitch(root, 10)];
+};
+
+/** dim : Diminished */
+const getDiminishedChord = (root: string) => {
+  return [root, getPitch(root, 3), getPitch(root, 6), getPitch(root, 9)];
+};
+
 /** Minor */
 const getMinorChord = (root: string) => {
   return [root, getPitch(root, 3), getPitch(root, 7)];
 };
 
+/** Minor 6th */
+const getMinor6thChord = (root: string) => {
+  return [root, getPitch(root, 3), getPitch(root, 7), getPitch(root, 9)];
+};
+
 /** Minor 7th */
 const getMinor7thChord = (root: string) => {
   return [root, getPitch(root, 3), getPitch(root, 7), getPitch(root, 10)];
+};
+
+/** add9 (add9 는 add2와 동일하다) */
+const getAdd9Chord = (root: string) => {
+  return [root, getPitch(root, 4), getPitch(root, 7), getPitch(root, 14)];
 };
 
 export const getComposition = (chord: string) => {
@@ -127,12 +120,16 @@ export const getComposition = (chord: string) => {
   }
 
   if (chord === root) return getMajorChord(root);
+  if (chord === `${root}6`) return get6thChord(root);
   if (chord === `${root}7`) return get7thChord(root);
-  if (chord === `${root}m`) return getMinorChord(root);
-  if (chord === `${root}m7`) return getMinor7thChord(root);
+  if (chord === `${root}9`) return get9thChord(root);
   if (chord === `${root}M7`) return getMajor7thChord(root);
   if (chord === `${root}sus4`) return getSuspended4thChord(root);
   if (chord === `${root}7sus4`) return get7thSuspended4thChord(root);
+  if (chord === `${root}dim`) return getDiminishedChord(root);
+  if (chord === `${root}m`) return getMinorChord(root);
+  if (chord === `${root}m6`) return getMinor6thChord(root);
+  if (chord === `${root}m7`) return getMinor7thChord(root);
   if (chord === `${root}add9`) return getAdd9Chord(root);
   return [];
 };

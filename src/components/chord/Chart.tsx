@@ -6,7 +6,7 @@ import { FiChevronLeft } from '@react-icons/all-files/fi/FiChevronLeft';
 import { FiChevronRight } from '@react-icons/all-files/fi/FiChevronRight';
 import { GrClose } from '@react-icons/all-files/gr/GrClose';
 import { GrRadial } from '@react-icons/all-files/gr/GrRadial';
-import { scaleArray, chordList } from '@/constants/chord';
+import { scaleArray, newChordList } from '@/constants/chord';
 import { device } from '@/styles/mixin';
 import { getComposition, transChordSymbol } from '@/services/chord';
 import ChordSymbol from '@/components/chord/Symbol';
@@ -19,10 +19,10 @@ interface Props {
 function ChordChart({ chordName, closeChord }: Props) {
   const [startX, setStartX] = useState(0);
   const [moveX, setMoveX] = useState(0);
-  const chord = chordList.find((item) => item.name === chordName);
+  const chord = newChordList[chordName];
   const constituent = getComposition(chordName);
 
-  const chartCount = chord?.chart.length || 0;
+  const chartCount = chord?.chartList.length || 0;
   const [activeIndex, setActiveIndex] = useState(0);
   const clickBackground = (e: React.MouseEvent<HTMLDivElement>) => {
     if (e.target === e.currentTarget) {
@@ -57,19 +57,6 @@ function ChordChart({ chordName, closeChord }: Props) {
     setMoveX(0);
   };
 
-  if (!chord) {
-    return (
-      <StyledChordChart onClick={clickBackground}>
-        <div className="chord-layer">
-          <div className="chord-name">
-            <ChordSymbol chordName={chordName} />
-          </div>
-          <div className="chord-null">제작중입니다.</div>
-        </div>
-      </StyledChordChart>
-    );
-  }
-
   return (
     <StyledChordChart onClick={clickBackground}>
       <div className="chord-layer">
@@ -79,11 +66,9 @@ function ChordChart({ chordName, closeChord }: Props) {
           </div>
           {constituent.length > 0 && (
             <div className="constituent">
-              [
               {constituent.map((c) => {
                 return <div key={c}>{transChordSymbol(c)}</div>;
               })}
-              ]
             </div>
           )}
         </div>
@@ -93,78 +78,79 @@ function ChordChart({ chordName, closeChord }: Props) {
           onTouchMove={actionTouchMove}
           onTouchEnd={actionTouchEnd}
         >
-          {chord.chart.map((chart, i) => {
-            const result = [];
-            const maxFret = Math.max(...chart.filter((fret) => fret >= 0));
-            const minFret = Math.min(...chart.filter((fret) => fret >= 0));
-            const startFret = maxFret <= 4 ? 1 : minFret;
-            const endFret = maxFret <= 3 ? 4 : maxFret + 1;
+          {chord &&
+            chord.chartList.map((chart, i) => {
+              const result = [];
+              const maxFret = Math.max(...chart.filter((fret) => fret >= 0));
+              const minFret = Math.min(...chart.filter((fret) => fret >= 0));
+              const startFret = maxFret <= 4 ? 1 : minFret;
+              const endFret = maxFret <= 3 ? 4 : maxFret + 1;
 
-            for (let j = startFret; j < endFret; j++) {
-              const temp = [];
-              for (let k = 0; k <= 5; k++) {
-                temp.push(chart[k] === j);
+              for (let j = startFret; j < endFret; j++) {
+                const temp = [];
+                for (let k = 0; k <= 5; k++) {
+                  temp.push(chart[k] === j);
+                }
+                result.push({
+                  number: j,
+                  strings: temp,
+                });
               }
-              result.push({
-                number: j,
-                strings: temp,
-              });
-            }
 
-            return (
-              <Fragment key={i}>
-                {activeIndex === i && (
-                  <div className="chart">
-                    <div className="position">
-                      {chart.map((position, j) => {
-                        return (
-                          <div key={j} data-position={position}>
-                            {position === 0 && <GrRadial />}
-                            {position === -1 && <GrClose />}
-                          </div>
-                        );
-                      })}
+              return (
+                <Fragment key={i}>
+                  {activeIndex === i && (
+                    <div className="chart">
+                      <div className="position">
+                        {chart.map((position, j) => {
+                          return (
+                            <div key={j} data-position={position}>
+                              {position === 0 && <GrRadial />}
+                              {position === -1 && <GrClose />}
+                            </div>
+                          );
+                        })}
+                      </div>
+                      <div className="fret-area" data-start-fret={startFret}>
+                        {result.map((fret, j) => {
+                          return (
+                            <div key={j} className="fret">
+                              <div className="number">{fret.number}</div>
+                              {fret.strings.map((string, k) => {
+                                return (
+                                  <div
+                                    key={k}
+                                    className="string"
+                                    data-position={chart[k]}
+                                  >
+                                    {string && <div className="finger" />}
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          );
+                        })}
+                      </div>
+                      <div className="pitch">
+                        {chart.map((position, j) => {
+                          return (
+                            <div
+                              key={j}
+                              className="name"
+                              data-position={position}
+                            >
+                              <ChordSymbol
+                                chordName={scaleArray[j][position] || ''}
+                              />
+                            </div>
+                          );
+                        })}
+                      </div>
                     </div>
-                    <div className="fret-area" data-start-fret={startFret}>
-                      {result.map((fret, j) => {
-                        return (
-                          <div key={j} className="fret">
-                            <div className="number">{fret.number}</div>
-                            {fret.strings.map((string, k) => {
-                              return (
-                                <div
-                                  key={k}
-                                  className="string"
-                                  data-position={chart[k]}
-                                >
-                                  {string && <div className="finger" />}
-                                </div>
-                              );
-                            })}
-                          </div>
-                        );
-                      })}
-                    </div>
-                    <div className="pitch">
-                      {chart.map((position, j) => {
-                        return (
-                          <div
-                            key={j}
-                            className="name"
-                            data-position={position}
-                          >
-                            <ChordSymbol
-                              chordName={scaleArray[j][position] || ''}
-                            />
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
-              </Fragment>
-            );
-          })}
+                  )}
+                </Fragment>
+              );
+            })}
         </div>
         {chartCount > 1 && (
           <div className="chart-navigation">

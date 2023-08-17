@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import styled from 'styled-components';
-import { chordList } from '@/constants/chord';
+import { kindOfChord, chordSymbolList } from '@/constants/chord';
 import { device } from '@/styles/mixin';
 import ChordSymbol from '@/components/chord/Symbol';
 import ChordChart from './Chart';
@@ -17,15 +17,26 @@ function ChordList() {
   return (
     <>
       <StyledChordList>
-        {chordList.map((chord) => {
+        {chordSymbolList.map((symbol) => {
           return (
-            <button
-              type="button"
-              key={chord.name}
-              onClick={() => setCurrentChord(chord.name)}
-            >
-              <ChordSymbol chordName={chord.name} />
-            </button>
+            <div key={symbol} className="root-area">
+              <h2 className="root-head">
+                <ChordSymbol chordName={symbol} />
+              </h2>
+              <div className="chord-area">
+                {kindOfChord.map((kind) => {
+                  return (
+                    <button
+                      type="button"
+                      key={`${symbol}${kind}`}
+                      onClick={() => setCurrentChord(`${symbol}${kind}`)}
+                    >
+                      <ChordSymbol chordName={`${symbol}${kind}`} />
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
           );
         })}
       </StyledChordList>
@@ -38,27 +49,34 @@ function ChordList() {
 
 const StyledChordList = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 12px;
-  button {
-    height: 60px;
-    background-color: rgba(0, 0, 0, 0.05);
-    &:hover {
-      background-color: #333;
-      color: #fff;
+  row-gap: 30px;
+  .root-area {
+    .root-head {
+      margin-bottom: 12px;
+      font-weight: 700;
+      font-size: 20px;
     }
-    div {
+    .chord-area {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    button {
+      padding: 0 30px;
+      height: 40px;
+      background-color: rgba(0, 0, 0, 0.05);
+      &:hover {
+        background-color: #333;
+        color: #fff;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
   @media ${device.mobile} {
-    gap: 6px;
-    button {
-      height: 36px;
-      font-size: 12px;
-    }
   }
 `;
 
