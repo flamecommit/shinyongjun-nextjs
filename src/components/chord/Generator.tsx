@@ -4,12 +4,17 @@ import styled from 'styled-components';
 import { useEffect, useState } from 'react';
 import { scaleArray, newChordList } from '@/constants/chord';
 import { getPitch } from '@/services/chord';
-import { removeDuplicates, arraysHaveSameElements } from '@/utils/array';
+import {
+  removeDuplicates,
+  arraysHaveElements,
+  arraysHaveSameElements,
+} from '@/utils/array';
 import ChordSymbol from './Symbol';
 import ChordChart from './Chart';
 
 function ChordGenerator() {
   const startPitch = [28, 23, 19, 14, 9, 4];
+  const [resultType, setResultType] = useState(0);
   const [pitch, setPitch] = useState<Array<number>>([]);
   const [composition, setComposition] = useState<string[]>([]);
   const [resultChord, setResultChord] = useState<string>('');
@@ -60,19 +65,57 @@ function ChordGenerator() {
       return isSameArray;
     });
 
-    setResultChord(findChord ? findChord[0] : '');
+    if (findChord) {
+      setResultType(1);
+      setResultChord(findChord[0]);
+    } else {
+      const similarChord = Object.entries(newChordList).find((chord) => {
+        const isSimilarArray = arraysHaveElements(
+          composition,
+          chord[1].composition,
+        );
+
+        return isSimilarArray;
+      });
+
+      if (similarChord) {
+        setResultType(2);
+        setResultChord(similarChord[0]);
+      } else {
+        setResultType(0);
+        setResultChord('');
+      }
+    }
   }, [composition]);
 
   return (
     <>
       <StyledChordGenerator>
         <div className="result-area">
-          {resultChord ? (
-            <button type="button" onClick={() => setCurrentChord(resultChord)}>
-              <ChordSymbol chordName={resultChord} />
-            </button>
-          ) : (
-            <div>Not Found</div>
+          {resultType === 0 && <div className="symbol">Not Found</div>}
+          {resultType === 1 && (
+            <>
+              <button
+                type="button"
+                className="symbol"
+                onClick={() => setCurrentChord(resultChord)}
+              >
+                <ChordSymbol chordName={resultChord} />
+              </button>
+              <div className="text">코드와 일치합니다.</div>
+            </>
+          )}
+          {resultType === 2 && (
+            <>
+              <button
+                type="button"
+                className="symbol"
+                onClick={() => setCurrentChord(resultChord)}
+              >
+                <ChordSymbol chordName={resultChord} />
+              </button>
+              <div className="text">코드와 유사합니다.</div>
+            </>
           )}
         </div>
         <div className="guitar-area">
@@ -127,9 +170,19 @@ const StyledChordGenerator = styled.div`
     font-family: 'Roboto';
     margin-bottom: 50px;
     text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-    color: #1f883d;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    column-gap: 12px;
+    .symbol {
+      font-weight: 700;
+      font-size: 30px;
+      color: #1f883d;
+    }
+    .text {
+      position: relative;
+      bottom: 5px;
+    }
   }
   .guitar-area {
     .guitar-neck {

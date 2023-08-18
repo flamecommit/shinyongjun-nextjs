@@ -26,3 +26,13 @@ export const arraysHaveSameElements = (arr1: any[], arr2: any[]) => {
 
   return JSON.stringify(uniqueArr1) === JSON.stringify(uniqueArr2);
 };
+
+export const arraysHaveElements = (arr1: any[], arr2: any[]) => {
+  if (arr1[0] !== arr2[0]) {
+    return false;
+  }
+  const uniqueArr1 = removeDuplicates(arr1).sort();
+  const uniqueArr2 = removeDuplicates(arr2).sort();
+
+  return uniqueArr1.every((item1) => uniqueArr2.includes(item1));
+};
