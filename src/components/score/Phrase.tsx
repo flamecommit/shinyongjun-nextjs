@@ -2,8 +2,6 @@
 
 import styled from 'styled-components';
 import { useState } from 'react';
-import getConfig from 'next/config';
-import { device } from '@/styles/mixin';
 import ChordSymbol from '@/components/chord/Symbol';
 import ChordChart from '../chord/Chart';
 
@@ -73,17 +71,18 @@ function ScorePhrase({ phrase }: Props) {
 const StyledScorePhrase = styled.div`
   display: flex;
   flex-wrap: wrap;
+  column-gap: 0.1em;
   .letter {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     flex-basis: 1em;
-    // width: 1em;
+    width: 1em;
     text-align: center;
+    font-size: 14px;
     .chord {
       height: 1.5em;
       white-space: nowrap;
-      font-size: 14px;
       button {
         position: relative;
         min-width: 100%;
