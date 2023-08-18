@@ -44,6 +44,12 @@ export const getPitch = (root: string, step: number) => {
   return typeof pitch === 'string' ? pitch : checkType(pitch);
 };
 
+/* export const setComposition = (root: string, steps: number[]) => {
+  return steps.map(step => {
+    return getPitch()
+  })
+} */
+
 /** Major */
 const getMajorChord = (root: string) => {
   return [root, getPitch(root, 4), getPitch(root, 7)];
