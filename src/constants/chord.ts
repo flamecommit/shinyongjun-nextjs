@@ -171,6 +171,14 @@ const rootC: ChordType = {
     composition: ['C', 'E', 'G', 'D'],
     chartList: [[0, 3, 0, 2, 3, -1]],
   },
+  Cadd4: {
+    composition: ['C', 'E', 'G', 'F'],
+    chartList: [],
+  },
+  Cadd6: {
+    composition: ['C', 'E', 'G', 'A'],
+    chartList: [],
+  },
 };
 
 const rootCsharp: ChordType = {
@@ -265,6 +273,14 @@ const rootCsharp: ChordType = {
   },
   'C]add2': {
     composition: ['C]', 'F', 'G]', 'E['],
+    chartList: [],
+  },
+  'C]add4': {
+    composition: ['C]', 'F', 'G]', 'F]'],
+    chartList: [],
+  },
+  'C]add6': {
+    composition: ['C]', 'F', 'G]', 'B['],
     chartList: [],
   },
 };
@@ -369,6 +385,14 @@ const rootD: ChordType = {
     composition: ['D', 'F]', 'A', 'E'],
     chartList: [],
   },
+  Dadd4: {
+    composition: ['D', 'F]', 'A', 'G'],
+    chartList: [],
+  },
+  Dadd6: {
+    composition: ['D', 'F]', 'A', 'B'],
+    chartList: [],
+  },
 };
 
 const rootEfret: ChordType = {
@@ -454,6 +478,14 @@ const rootEfret: ChordType = {
   },
   'E[add2': {
     composition: ['E[', 'G', 'B[', 'F'],
+    chartList: [],
+  },
+  'E[add4': {
+    composition: ['E[', 'G', 'B[', 'G]'],
+    chartList: [],
+  },
+  'E[add6': {
+    composition: ['E[', 'G', 'B[', 'C'],
     chartList: [],
   },
 };
@@ -549,6 +581,14 @@ const rootE: ChordType = {
     composition: ['E', 'G]', 'B', 'F]'],
     chartList: [[0, 0, 1, 4, 2, 0]],
   },
+  Eadd4: {
+    composition: ['E', 'G]', 'B', 'A'],
+    chartList: [],
+  },
+  Eadd6: {
+    composition: ['E', 'G]', 'B', 'C]'],
+    chartList: [],
+  },
 };
 
 const rootF: ChordType = {
@@ -636,6 +676,14 @@ const rootF: ChordType = {
     composition: ['F', 'A', 'C', 'G'],
     chartList: [],
   },
+  Fadd4: {
+    composition: ['F', 'A', 'C', 'B['],
+    chartList: [],
+  },
+  Fadd6: {
+    composition: ['F', 'A', 'C', 'D'],
+    chartList: [],
+  },
 };
 
 const rootFsharp: ChordType = {
@@ -721,6 +769,14 @@ const rootFsharp: ChordType = {
   },
   'F]add2': {
     composition: ['F]', 'B[', 'C]', 'G]'],
+    chartList: [],
+  },
+  'F]add4': {
+    composition: ['F]', 'B[', 'C]', 'B'],
+    chartList: [],
+  },
+  'F]add6': {
+    composition: ['F]', 'B[', 'C]', 'E['],
     chartList: [],
   },
 };
@@ -816,6 +872,14 @@ const rootG: ChordType = {
       [3, 0, 2, 0, -1, 3],
     ],
   },
+  Gadd4: {
+    composition: ['G', 'B', 'D', 'C'],
+    chartList: [],
+  },
+  Gadd6: {
+    composition: ['G', 'B', 'D', 'E'],
+    chartList: [],
+  },
 };
 
 const rootGsharp: ChordType = {
@@ -901,6 +965,14 @@ const rootGsharp: ChordType = {
   },
   'G]add2': {
     composition: ['G]', 'C', 'E[', 'B['],
+    chartList: [],
+  },
+  'G]add4': {
+    composition: ['G]', 'C', 'E[', 'C]'],
+    chartList: [],
+  },
+  'G]add6': {
+    composition: ['G]', 'C', 'E[', 'F'],
     chartList: [],
   },
 };
@@ -1002,6 +1074,14 @@ const rootA: ChordType = {
     composition: ['A', 'C]', 'E', 'B'],
     chartList: [],
   },
+  Aadd4: {
+    composition: ['A', 'C]', 'E', 'D'],
+    chartList: [],
+  },
+  Aadd6: {
+    composition: ['A', 'C]', 'E', 'F]'],
+    chartList: [],
+  },
 };
 
 const rootBfret: ChordType = {
@@ -1087,6 +1167,14 @@ const rootBfret: ChordType = {
   },
   'B[add2': {
     composition: ['B[', 'D', 'F', 'C'],
+    chartList: [],
+  },
+  'B[add4': {
+    composition: ['B[', 'D', 'F', 'E['],
+    chartList: [],
+  },
+  'B[add6': {
+    composition: ['B[', 'D', 'F', 'G'],
     chartList: [],
   },
 };
@@ -1180,6 +1268,14 @@ const rootB: ChordType = {
   },
   Badd2: {
     composition: ['B', 'E[', 'F]', 'C]'],
+    chartList: [],
+  },
+  Badd4: {
+    composition: ['B', 'E[', 'F]', 'E'],
+    chartList: [],
+  },
+  Badd6: {
+    composition: ['B', 'E[', 'F]', 'G]'],
     chartList: [],
   },
 };
