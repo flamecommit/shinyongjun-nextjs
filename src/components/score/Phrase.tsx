@@ -51,7 +51,7 @@ function ScorePhrase({ phrase }: Props) {
                     key={i}
                     onClick={() => setCurrentChord(item.chordName)}
                   >
-                    <ChordSymbol chordName={item.chordName} />
+                    <ChordSymbol chordName={item.chordName} isAbbr />
                   </button>
                 )}
               </div>
