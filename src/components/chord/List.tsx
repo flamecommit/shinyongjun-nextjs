@@ -40,8 +40,9 @@ function ChordList() {
             </div>
           );
         })}
-
-        <Link href="/chord/generator">Go to Chord Generator</Link>
+        <div className="link-area">
+          <Link href="/chord/generator">Go to Chord Generator</Link>
+        </div>
       </StyledChordList>
       {currentChord && (
         <ChordChart chordName={currentChord} closeChord={closeChord} />
@@ -76,6 +77,13 @@ const StyledChordList = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+    }
+  }
+  .link-area {
+    a {
+      &:hover {
+        color: #1f883d;
       }
     }
   }

@@ -25,7 +25,7 @@ function ChordGenerator() {
     index: number,
   ) => {
     const temp: Array<number> = [...pitch];
-    temp[index] = value;
+    temp[index] = e.target.checked ? value : 0;
     setPitch(temp);
     /* if (e.target.checked) {
       setPitch([...pitch, value]);
@@ -80,7 +80,7 @@ function ChordGenerator() {
             {scaleArray.map((string, i) => {
               return (
                 <div key={i} className="guitar-string">
-                  <label htmlFor={`${i}-m`} className="guitar-fret">
+                  {/* <label htmlFor={`${i}-m`} className="guitar-fret">
                     <input
                       name={`string-${i}`}
                       id={`${i}-m`}
@@ -88,7 +88,7 @@ function ChordGenerator() {
                       onChange={(e) => checkHandler(e, 0, i)}
                     />
                     <div className="mute">M</div>
-                  </label>
+                  </label> */}
                   {string.map((fret, j) => {
                     const p = startPitch[i] + j;
                     return (
@@ -98,10 +98,11 @@ function ChordGenerator() {
                         className="guitar-fret"
                       >
                         <input
-                          name={`string-${i}`}
+                          // name={`string-${i}`}
                           id={`${i}-${j}`}
-                          type="radio"
+                          type="checkbox"
                           data-pitch={p}
+                          checked={pitch[i] === p}
                           onChange={(e) => checkHandler(e, p, i)}
                         />
                         <ChordSymbol chordName={fret} />
@@ -127,7 +128,8 @@ const StyledChordGenerator = styled.div`
     margin-bottom: 50px;
     text-align: center;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
+    color: #1f883d;
   }
   .guitar-area {
     .guitar-neck {
@@ -155,7 +157,7 @@ const StyledChordGenerator = styled.div`
           &:hover {
             background-color: #ddd;
           }
-          input[type='radio'] {
+          input[type='checkbox'] {
             position: absolute;
             top: 0;
             left: 0;
@@ -179,9 +181,6 @@ const StyledChordGenerator = styled.div`
               width: 100%;
               text-align: center;
             }
-          }
-          &:nth-child(2) {
-            height: 50px;
           }
           div {
             display: inline-flex;
@@ -231,52 +230,49 @@ const StyledChordGenerator = styled.div`
               content: 'test';
               position: absolute;
               top: calc(50% - 10px);
-              left: -120px;
+              left: -60px;
               font-size: 14px;
               line-height: 20px;
-              width: 120px;
+              width: 60px;
               text-align: center;
             }
             &:nth-child(1)::before {
-              content: 'Mute';
-            }
-            &:nth-child(2)::before {
               content: '개방현';
             }
-            &:nth-child(3)::before {
+            &:nth-child(2)::before {
               content: '1';
             }
-            &:nth-child(4)::before {
+            &:nth-child(3)::before {
               content: '2';
             }
-            &:nth-child(5)::before {
+            &:nth-child(4)::before {
               content: '3';
             }
-            &:nth-child(6)::before {
+            &:nth-child(5)::before {
               content: '4';
             }
-            &:nth-child(7)::before {
+            &:nth-child(6)::before {
               content: '5';
             }
-            &:nth-child(8)::before {
+            &:nth-child(7)::before {
               content: '6';
             }
-            &:nth-child(9)::before {
+            &:nth-child(8)::before {
               content: '7';
             }
-            &:nth-child(10)::before {
+            &:nth-child(9)::before {
               content: '8';
             }
-            &:nth-child(11)::before {
+            &:nth-child(10)::before {
               content: '9';
             }
-            &:nth-child(12)::before {
+            &:nth-child(11)::before {
               content: '10';
             }
-            &:nth-child(13)::before {
+            &:nth-child(12)::before {
               content: '11';
             }
-            &:nth-child(14)::before {
+            &:nth-child(13)::before {
               content: '12';
             }
           }
