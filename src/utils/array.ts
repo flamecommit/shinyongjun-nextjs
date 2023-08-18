@@ -29,6 +29,7 @@ export const arraysHaveElements = (arr1: any[], arr2: any[]) => {
   if (arr1[0] !== arr2[0]) {
     return false;
   }
+  console.log(arr1, arr2);
   const uniqueArr1 = removeDuplicates(arr1).sort();
   const uniqueArr2 = removeDuplicates(arr2).sort();
 

@@ -138,15 +138,17 @@ function ChordChart({ chordName, closeChord }: Props) {
                       </div>
                       <div className="pitch">
                         {chart.map((position, j) => {
+                          const pitch = scaleArray[j][position] || '';
                           return (
                             <div
                               key={j}
                               className="name"
                               data-position={position}
+                              data-invalid={
+                                pitch ? !constituent.includes(pitch) : false
+                              }
                             >
-                              <ChordSymbol
-                                chordName={scaleArray[j][position] || ''}
-                              />
+                              <ChordSymbol chordName={pitch} />
                             </div>
                           );
                         })}
@@ -295,6 +297,9 @@ const StyledChordChart = styled.div`
             line-height: 100%;
             margin-top: -8px;
             white-space: nowrap;
+            &[data-invalid='true'] {
+              color: #f00;
+            }
           }
         }
       }
