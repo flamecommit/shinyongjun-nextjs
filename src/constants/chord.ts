@@ -737,7 +737,7 @@ const rootFsharp: ChordType = {
   },
   'F]m': {
     composition: ['F]', 'A', 'C]'],
-    chartList: [],
+    chartList: [[2, 2, 2, 4, 4, 2]],
   },
   'F]m6': {
     composition: ['F]', 'A', 'C]', 'E['],
@@ -1236,7 +1236,7 @@ const rootB: ChordType = {
   },
   Bm: {
     composition: ['B', 'D', 'F]'],
-    chartList: [],
+    chartList: [[2, 3, 4, 4, 2, -1]],
   },
   Bm6: {
     composition: ['B', 'D', 'F]', 'G]'],
