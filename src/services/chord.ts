@@ -44,104 +44,61 @@ export const getPitch = (root: string, step: number) => {
   return typeof pitch === 'string' ? pitch : checkType(pitch);
 };
 
-/* export const setComposition = (root: string, steps: number[]) => {
-  return steps.map(step => {
-    return getPitch()
-  })
-} */
+export const setComposition = (root: string, steps: number[]) => {
+  return steps.map((step) => getPitch(root, step));
+};
 
 /** Major */
-const getMajorChord = (root: string) => {
-  return [root, getPitch(root, 4), getPitch(root, 7)];
-};
+const getMajorChord = (root: string) => setComposition(root, [0, 4, 7]);
 
 /** 6 : 6th */
-const get6thChord = (root: string) => {
-  return [root, getPitch(root, 4), getPitch(root, 7), getPitch(root, 9)];
-};
+const get6thChord = (root: string) => setComposition(root, [0, 4, 7, 9]);
 
 /** 7 : 7th */
-const get7thChord = (root: string) => {
-  return [root, getPitch(root, 4), getPitch(root, 7), getPitch(root, 10)];
-};
+const get7thChord = (root: string) => setComposition(root, [0, 4, 7, 10]);
 
 /** 9 : 9th */
-const get9thChord = (root: string) => {
-  return [
-    root,
-    getPitch(root, 4),
-    getPitch(root, 7),
-    getPitch(root, 10),
-    getPitch(root, 14),
-  ];
-};
+const get9thChord = (root: string) => setComposition(root, [0, 4, 7, 10, 14]);
 
 /** 11 : 11th */
-const get11thChord = (root: string) => {
-  return [
-    root,
-    getPitch(root, 4),
-    getPitch(root, 7),
-    getPitch(root, 10),
-    getPitch(root, 14),
-    getPitch(root, 17),
-  ];
-};
+const get11thChord = (root: string) =>
+  setComposition(root, [0, 4, 7, 10, 14, 17]);
 
 /** Major 7th */
-const getMajor7thChord = (root: string) => {
-  return [root, getPitch(root, 4), getPitch(root, 7), getPitch(root, 11)];
-};
+const getMajor7thChord = (root: string) => setComposition(root, [0, 4, 7, 11]);
 
 /** suspended 2th */
-const getSuspended2thChord = (root: string) => {
-  return [root, getPitch(root, 2), getPitch(root, 7)];
-};
+const getSuspended2thChord = (root: string) => setComposition(root, [0, 2, 7]);
 
 /** suspended 4th */
-const getSuspended4thChord = (root: string) => {
-  return [root, getPitch(root, 5), getPitch(root, 7)];
-};
+const getSuspended4thChord = (root: string) => setComposition(root, [0, 5, 7]);
 
 /** 7th suspended 4th */
-const get7thSuspended4thChord = (root: string) => {
-  return [root, getPitch(root, 5), getPitch(root, 7), getPitch(root, 10)];
-};
+const get7thSuspended4thChord = (root: string) =>
+  setComposition(root, [0, 5, 7, 10]);
 
 /** dim : Diminished */
-const getDiminishedChord = (root: string) => {
-  return [root, getPitch(root, 3), getPitch(root, 6), getPitch(root, 9)];
-};
+const getDiminishedChord = (root: string) => setComposition(root, [0, 3, 6, 9]);
 
 /** Minor */
-const getMinorChord = (root: string) => {
-  return [root, getPitch(root, 3), getPitch(root, 7)];
-};
+const getMinorChord = (root: string) => setComposition(root, [0, 3, 7]);
 
 /** Minor 6th */
-const getMinor6thChord = (root: string) => {
-  return [root, getPitch(root, 3), getPitch(root, 7), getPitch(root, 9)];
-};
+const getMinor6thChord = (root: string) => setComposition(root, [0, 3, 7, 9]);
 
 /** Minor 7th */
-const getMinor7thChord = (root: string) => {
-  return [root, getPitch(root, 3), getPitch(root, 7), getPitch(root, 10)];
-};
+const getMinor7thChord = (root: string) => setComposition(root, [0, 3, 7, 10]);
 
 /** Minor 7th Fret5 */
-const getMinor7thFret5Chord = (root: string) => {
-  return [root, getPitch(root, 3), getPitch(root, 6), getPitch(root, 10)];
-};
+const getMinor7thFret5Chord = (root: string) =>
+  setComposition(root, [0, 3, 6, 10]);
 
 /** Minor 7th Sharp5 */
-const getMinor7thSharp5Chord = (root: string) => {
-  return [root, getPitch(root, 3), getPitch(root, 8), getPitch(root, 10)];
-};
+const getMinor7thSharp5Chord = (root: string) =>
+  setComposition(root, [0, 3, 8, 10]);
 
 /** add9 (add9 는 add2와 동일하다) */
-const getAdd9Chord = (root: string) => {
-  return [root, getPitch(root, 4), getPitch(root, 7), getPitch(root, 14)];
-};
+const getAdd9Chord = (root: string) => setComposition(root, [0, 4, 7, 14]);
 
 export const getComposition = (chord: string) => {
   let root = '';
