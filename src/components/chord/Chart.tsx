@@ -196,9 +196,10 @@ const StyledChordChart = styled.div`
     background-color: #fff;
     max-width: 100%;
     width: 440px;
-    padding: 20px 20px 50px 20px;
+    padding: 20px 20px 60px 20px;
+    margin: 20px;
     .chord-header {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       line-height: 1.2;
       .name {
         display: flex;
