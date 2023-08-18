@@ -1,0 +1,282 @@
+0:["nHl0dGl-tRZyI_vCWPdL7",[[["",{"children":["score",{"children":[["slug","7","d"],{"children":["__PAGE__?{\"slug\":\"7\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
+4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
+5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
+6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
+7:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
+8:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
+1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","$L3",null,{"GA_TRACKING_ID":"G-LSSNKXXZKX"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","score","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","score","children",["slug","7","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9",null],"segment":"__PAGE__?{\"slug\":\"7\"}"},"styles":[]}],"segment":["slug","7","d"]},"styles":[]}],"segment":"score"},"styles":[]}]}]}]}]}]]}],null]
+2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun - Score | 스탠딩 에그 - 오래된 노래"}],["$","meta","2",{"name":"description","content":"스탠딩 에그의 오래된 노래 코드 악보 입니다."}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun - Score | 스탠딩 에그 - 오래된 노래"}],["$","meta","5",{"property":"og:description","content":"스탠딩 에그의 오래된 노래 코드 악보 입니다."}],["$","meta","6",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"shinyongjun - Score | 스탠딩 에그 - 오래된 노래"}],["$","meta","9",{"name":"twitter:description","content":"스탠딩 에그의 오래된 노래 코드 악보 입니다."}],["$","meta","10",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
+a:I{"id":1179,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","431:static/chunks/431-3810e9810d997408.js","498:static/chunks/498-cbd2f269ef843b40.js","589:static/chunks/app/score/[slug]/page-bbfba593258008e7.js"],"name":"","async":false}
+c:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","431:static/chunks/431-3810e9810d997408.js","498:static/chunks/498-cbd2f269ef843b40.js","589:static/chunks/app/score/[slug]/page-bbfba593258008e7.js"],"name":"","async":false}
+d:I{"id":5797,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","431:static/chunks/431-3810e9810d997408.js","498:static/chunks/498-cbd2f269ef843b40.js","589:static/chunks/app/score/[slug]/page-bbfba593258008e7.js"],"name":"","async":false}
+b:T1811,/*@jsxRuntime automatic @jsxImportSource react*/
+const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const {ScoreWrapper, ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
+  if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
+  if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
+  return _jsxs(ScoreWrapper, {
+    children: [_jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '오래전에 함께 듣던 노래가',
+        chordList: [{
+          name: 'F',
+          position: 0
+        }, {
+          name: 'C/E',
+          position: 4
+        }, {
+          name: 'B[',
+          position: 8
+        }, {
+          name: 'F',
+          position: 14
+        }, {
+          name: 'C/E',
+          position: 17
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '발걸음을 다시 멈춰서게 해',
+        chordList: [{
+          name: 'Dm7',
+          position: 0
+        }, {
+          name: 'Am7',
+          position: 4
+        }, {
+          name: 'B[',
+          position: 8
+        }, {
+          name: 'C7sus4',
+          position: 14
+        }, {
+          name: 'C7',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '이 거리에서 너를 느낄 수 있어',
+        chordList: [{
+          name: 'F',
+          position: 0
+        }, {
+          name: 'C/E',
+          position: 6
+        }, {
+          name: 'B[',
+          position: 10
+        }, {
+          name: 'F',
+          position: 16
+        }, {
+          name: 'C/E',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '널 이곳에서 꼭 다시 만날 것 같아',
+        chordList: [{
+          name: 'Dm7',
+          position: 0
+        }, {
+          name: 'Am7',
+          position: 6
+        }, {
+          name: 'Gm7',
+          position: 12
+        }, {
+          name: 'C7sus4',
+          position: 15
+        }, {
+          name: 'F',
+          position: 19
+        }, {
+          name: 'B[/D',
+          position: 22
+        }, {
+          name: 'C/E',
+          position: 26
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '너일까 봐 한 번 더 바라보고',
+        chordList: [{
+          name: 'F',
+          position: 0
+        }, {
+          name: 'C/E',
+          position: 4
+        }, {
+          name: 'B[',
+          position: 8
+        }, {
+          name: 'F',
+          position: 14
+        }, {
+          name: 'C/E',
+          position: 17
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '너일까 봐 자꾸 돌아보게 돼',
+        chordList: [{
+          name: 'Dm7',
+          position: 0
+        }, {
+          name: 'Am7',
+          position: 4
+        }, {
+          name: 'B[',
+          position: 9
+        }, {
+          name: 'C7sus4',
+          position: 14
+        }, {
+          name: 'C7',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '어디선가 같은 노래를 듣고',
+        chordList: [{
+          name: 'F',
+          position: 0
+        }, {
+          name: 'C/E',
+          position: 4
+        }, {
+          name: 'B[',
+          position: 8
+        }, {
+          name: 'F',
+          position: 14
+        }, {
+          name: 'C/E',
+          position: 17
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '날 생각하며 너 역시 멈춰있을까',
+        chordList: [{
+          name: 'Dm7',
+          position: 0
+        }, {
+          name: 'Am7',
+          position: 6
+        }, {
+          name: 'Gm7',
+          position: 12
+        }, {
+          name: 'C7sus4',
+          position: 15
+        }, {
+          name: 'F',
+          position: 19
+        }, {
+          name: 'C/E',
+          position: 22
+        }, {
+          name: 'D7/F]',
+          position: 26
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '오래전에 함께 듣던 노래가',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'D/F]',
+          position: 4
+        }, {
+          name: 'Em',
+          position: 8
+        }, {
+          name: 'Bm7',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '거리에서 내게 우연히 들려온 것처럼',
+        chordList: [{
+          name: 'C',
+          position: 2
+        }, {
+          name: 'G/B',
+          position: 8
+        }, {
+          name: 'A7',
+          position: 13
+        }, {
+          name: 'D7',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '살아가다 한 번쯤 우연히 만날 것 같아',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'D/F]',
+          position: 4
+        }, {
+          name: 'Em',
+          position: 8
+        }, {
+          name: 'B7',
+          position: 14
+        }, {
+          name: 'C',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '사랑했던 그 모습 그대로',
+        chordList: [{
+          name: 'Bm7',
+          position: 1
+        }, {
+          name: 'Em',
+          position: 4
+        }, {
+          name: 'Am7',
+          position: 7
+        }, {
+          name: 'D7',
+          position: 10
+        }, {
+          name: 'G',
+          position: 13
+        }]
+      }
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+9:[["$","$La",null,{"scoreData":{"title":"오래된 노래","artist":"스탠딩 에그","releaseYear":2012,"capo":0,"slug":"7","mdx":{"compiledSource":"$b","frontmatter":{},"scope":{}}}}],["$","$Lc",null,{"postDetail":true}],["$","$Ld",null,{}]]
