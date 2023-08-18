@@ -13,6 +13,7 @@ export const kindOfChord = [
   '6',
   '7',
   '9',
+  '11',
   'M7',
   'sus2',
   'sus4',

@@ -70,6 +70,18 @@ const get9thChord = (root: string) => {
   ];
 };
 
+/** 11 : 11th */
+const get11thChord = (root: string) => {
+  return [
+    root,
+    getPitch(root, 4),
+    getPitch(root, 7),
+    getPitch(root, 10),
+    getPitch(root, 14),
+    getPitch(root, 17),
+  ];
+};
+
 /** Major 7th */
 const getMajor7thChord = (root: string) => {
   return [root, getPitch(root, 4), getPitch(root, 7), getPitch(root, 11)];
@@ -138,6 +150,7 @@ export const getComposition = (chord: string) => {
   if (chord === `${root}6`) return get6thChord(root);
   if (chord === `${root}7`) return get7thChord(root);
   if (chord === `${root}9`) return get9thChord(root);
+  if (chord === `${root}11`) return get11thChord(root);
   if (chord === `${root}M7`) return getMajor7thChord(root);
   if (chord === `${root}sus2`) return getSuspended2thChord(root);
   if (chord === `${root}sus4`) return getSuspended4thChord(root);
