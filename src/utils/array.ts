@@ -1,5 +1,3 @@
-import { getPitch } from '@/services/chord';
-
 // 중복 제거 함수
 export const removeDuplicates = (arr: any[]) => {
   const uniqueArray = [];

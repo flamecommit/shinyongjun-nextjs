@@ -92,12 +92,12 @@ function ChordGenerator() {
     <>
       <StyledChordGenerator>
         <div className="result-area">
-          {resultType === 0 && <div className="symbol">Not Found</div>}
+          {resultType === 0 && <div className="symbol notfound">Not Found</div>}
           {resultType === 1 && (
             <>
               <button
                 type="button"
-                className="symbol"
+                className="symbol found"
                 onClick={() => setCurrentChord(resultChord)}
               >
                 <ChordSymbol chordName={resultChord} />
@@ -109,7 +109,7 @@ function ChordGenerator() {
             <>
               <button
                 type="button"
-                className="symbol"
+                className="symbol similar"
                 onClick={() => setCurrentChord(resultChord)}
               >
                 <ChordSymbol chordName={resultChord} />
@@ -177,7 +177,12 @@ const StyledChordGenerator = styled.div`
     .symbol {
       font-weight: 700;
       font-size: 30px;
-      color: #1f883d;
+      &.similar {
+        color: #ff7f27;
+      }
+      &.found {
+        color: #1f883d;
+      }
     }
     .text {
       position: relative;
