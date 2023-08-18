@@ -20,6 +20,7 @@ export const kindOfChord = [
   '7sus2',
   '7sus4',
   'dim',
+  'dim7',
   'm',
   'm6',
   'm7',
