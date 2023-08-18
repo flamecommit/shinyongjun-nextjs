@@ -105,6 +105,10 @@ const getMinor7thFret5Chord = (root: string) =>
 const getMinor7thSharp5Chord = (root: string) =>
   setComposition(root, [0, 3, 8, 10]);
 
+/** Minor Major 7th */
+const getMinorMajor7thChord = (root: string) =>
+  setComposition(root, [0, 3, 7, 11]);
+
 /** Minor 9th */
 const getMinor9thChord = (root: string) =>
   setComposition(root, [0, 3, 7, 10, 14]);
@@ -149,6 +153,7 @@ export const getComposition = (chord: string) => {
   if (chord === `${root}m7`) return getMinor7thChord(root);
   if (chord === `${root}m7[5`) return getMinor7thFret5Chord(root);
   if (chord === `${root}m7]5`) return getMinor7thSharp5Chord(root);
+  if (chord === `${root}mM7`) return getMinorMajor7thChord(root);
   if (chord === `${root}m9`) return getMinor9thChord(root);
   if (chord === `${root}m11`) return getMinor11thChord(root);
   if (chord === `${root}add9` || chord === `${root}add2`)

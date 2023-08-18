@@ -26,6 +26,7 @@ export const kindOfChord = [
   'm7',
   'm7[5',
   'm7]5',
+  'mM7',
   'm9',
   'm11',
   'add2', // == add9
@@ -149,6 +150,10 @@ export const newChordList: ChordType = {
     composition: ['C', 'E[', 'G]', 'B['],
     chartList: [[3, 4, 3, 5, 3, -1]],
   },
+  CmM7: {
+    composition: ['C', 'E[', 'G', 'B'],
+    chartList: [],
+  },
   Cm9: {
     composition: ['C', 'E[', 'G', 'B[', 'D'],
     chartList: [],
@@ -232,6 +237,10 @@ export const newChordList: ChordType = {
   },
   'C]m7]5': {
     composition: ['C]', 'E', 'A', 'B'],
+    chartList: [],
+  },
+  'C]mM7': {
+    composition: ['C]', 'E', 'G]', 'C'],
     chartList: [],
   },
   'C]m9': {
@@ -333,6 +342,10 @@ export const newChordList: ChordType = {
     composition: ['D', 'F', 'B[', 'C'],
     chartList: [],
   },
+  DmM7: {
+    composition: ['D', 'F', 'A', 'C]'],
+    chartList: [],
+  },
   Dadd2: {
     composition: ['D', 'F]', 'A', 'E'],
     chartList: [],
@@ -399,6 +412,10 @@ export const newChordList: ChordType = {
   },
   'E[m7]5': {
     composition: ['E[', 'F]', 'B', 'C]'],
+    chartList: [],
+  },
+  'E[mM7': {
+    composition: ['E[', 'F]', 'B[', 'D'],
     chartList: [],
   },
   'E[m9': {
@@ -480,6 +497,10 @@ export const newChordList: ChordType = {
     composition: ['E', 'G', 'C', 'D'],
     chartList: [],
   },
+  EmM7: {
+    composition: ['E', 'G', 'B', 'E['],
+    chartList: [],
+  },
   Em9: {
     composition: ['E', 'G', 'B', 'D', 'F]'],
     chartList: [],
@@ -556,6 +577,10 @@ export const newChordList: ChordType = {
     composition: ['F', 'G]', 'C]', 'E['],
     chartList: [],
   },
+  FmM7: {
+    composition: ['F', 'G]', 'C', 'E'],
+    chartList: [],
+  },
   Fm9: {
     composition: ['F', 'G]', 'C', 'E[', 'G'],
     chartList: [],
@@ -630,6 +655,10 @@ export const newChordList: ChordType = {
   },
   'F]m7]5': {
     composition: ['F]', 'A', 'D', 'E'],
+    chartList: [],
+  },
+  'F]mM7': {
+    composition: ['F]', 'A', 'C]', 'F'],
     chartList: [],
   },
   'F]m9': {
@@ -711,6 +740,10 @@ export const newChordList: ChordType = {
     composition: ['G', 'B[', 'E[', 'F'],
     chartList: [],
   },
+  GmM7: {
+    composition: ['G', 'B[', 'D', 'F]'],
+    chartList: [],
+  },
   Gm9: {
     composition: ['G', 'B[', 'D', 'F', 'A'],
     chartList: [],
@@ -789,6 +822,10 @@ export const newChordList: ChordType = {
   'G]m7]5': {
     composition: ['G]', 'B', 'E', 'F]'],
     chartList: [[0, 0, 4, 4, -1, 4]],
+  },
+  'G]mM7': {
+    composition: ['G]', 'B', 'E[', 'G'],
+    chartList: [],
   },
   'G]m9': {
     composition: ['G]', 'B', 'E[', 'F]', 'B['],
@@ -878,6 +915,10 @@ export const newChordList: ChordType = {
     composition: ['A', 'C', 'F', 'G'],
     chartList: [],
   },
+  AmM7: {
+    composition: ['A', 'C', 'E', 'G]'],
+    chartList: [[0, 1, 1, 2, 0, -1]],
+  },
   Am9: {
     composition: ['A', 'C', 'E', 'G', 'B'],
     chartList: [],
@@ -952,6 +993,10 @@ export const newChordList: ChordType = {
   },
   'B[m7]5': {
     composition: ['B[', 'C]', 'F]', 'G]'],
+    chartList: [],
+  },
+  'B[mM7': {
+    composition: ['B[', 'C]', 'F', 'A'],
     chartList: [],
   },
   'B[m9': {
@@ -1035,6 +1080,10 @@ export const newChordList: ChordType = {
   'Bm7]5': {
     composition: ['B', 'D', 'G', 'A'],
     chartList: [[2, 3, 2, 4, 2, -1]],
+  },
+  BmM7: {
+    composition: ['B', 'D', 'F]', 'B['],
+    chartList: [],
   },
   Bm9: {
     composition: ['B', 'D', 'F]', 'A', 'C]'],
