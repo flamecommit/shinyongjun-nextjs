@@ -1,5 +1,5 @@
 // 중복 제거 함수
-export const removeDuplicates = (arr: any[]) => {
+export const removeDuplicates = (arr: Array<number | string>) => {
   const uniqueArray = [];
 
   for (let i = 0; i < arr.length; i++) {
@@ -11,7 +11,7 @@ export const removeDuplicates = (arr: any[]) => {
   return uniqueArray;
 };
 
-export const arraysHaveSameElements = (arr1: any[], arr2: any[]) => {
+export const arraysHaveSameElements = (arr1: string[], arr2: string[]) => {
   if (arr1[0] !== arr2[0]) {
     return false;
   }
@@ -25,11 +25,10 @@ export const arraysHaveSameElements = (arr1: any[], arr2: any[]) => {
   return JSON.stringify(uniqueArr1) === JSON.stringify(uniqueArr2);
 };
 
-export const arraysHaveElements = (arr1: any[], arr2: any[]) => {
+export const arraysHaveElements = (arr1: string[], arr2: string[]) => {
   if (arr1[0] !== arr2[0]) {
     return false;
   }
-  console.log(arr1, arr2);
   const uniqueArr1 = removeDuplicates(arr1).sort();
   const uniqueArr2 = removeDuplicates(arr2).sort();
 

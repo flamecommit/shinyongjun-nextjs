@@ -15,7 +15,7 @@ import ChordChart from './Chart';
 function ChordGenerator() {
   const startPitch = [28, 23, 19, 14, 9, 4];
   const [resultType, setResultType] = useState(0);
-  const [pitch, setPitch] = useState<Array<number>>([]);
+  const [pitch, setPitch] = useState<number[]>([0, 0, 0, 0, 0, 0]);
   const [composition, setComposition] = useState<string[]>([]);
   const [resultChord, setResultChord] = useState<string>('');
   const [currentChord, setCurrentChord] = useState<string>('');
@@ -32,20 +32,12 @@ function ChordGenerator() {
     const temp: Array<number> = [...pitch];
     temp[index] = e.target.checked ? value : 0;
     setPitch(temp);
-    /* if (e.target.checked) {
-      setPitch([...pitch, value]);
-      setComposition([...composition, getPitch('C', value)]);
-    } */
-    /* if (!e.target.checked) {
-      setPitch(pitch.filter((v) => v !== value));
-      setComposition(composition.filter((v) => v !== getPitch('C', value)));
-    } */
   };
 
   useEffect(() => {
     const pitchClone = [...pitch].filter((v) => v > 0).sort((a, b) => a - b);
     const temp: string[] = [];
-    const sortPitch = removeDuplicates(pitchClone);
+    const sortPitch = removeDuplicates(pitchClone) as number[];
 
     sortPitch.forEach((p) => {
       if (p) {
