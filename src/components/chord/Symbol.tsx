@@ -38,6 +38,7 @@ function ChordSymbol({ chordName, isAbbr = false }: Props) {
 }
 
 const StyledChordSymbol = styled.div`
+  white-space: nowrap;
   font-family: 'Roboto', 'Noto Sans KR';
   span {
     margin-inline: -0.18em;

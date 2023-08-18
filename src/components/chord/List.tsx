@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
-import { kindOfChord, chordSymbolList } from '@/constants/chord';
+import { kindOfChord, chordSymbolList, inversion } from '@/constants/chord';
 import { device } from '@/styles/mixin';
 import ChordSymbol from '@/components/chord/Symbol';
 import ChordChart from './Chart';
@@ -40,6 +40,22 @@ function ChordList() {
             </div>
           );
         })}
+        <div className="root-area">
+          <h2 className="root-head">Inversion</h2>
+          <div className="chord-area">
+            {Object.entries(inversion).map((chord) => {
+              return (
+                <button
+                  type="button"
+                  key={chord[0]}
+                  onClick={() => setCurrentChord(chord[0])}
+                >
+                  <ChordSymbol chordName={chord[0]} />
+                </button>
+              );
+            })}
+          </div>
+        </div>
         <div className="link-area">
           <Link href="/chord/generator">Go to Chord Generator</Link>
         </div>

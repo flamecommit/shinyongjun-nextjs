@@ -74,7 +74,7 @@ export const scaleArray = [
   ['E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E'],
 ];
 
-export const newChordList: ChordType = {
+const rootC: ChordType = {
   C: {
     composition: ['C', 'E', 'G'],
     chartList: [
@@ -122,7 +122,7 @@ export const newChordList: ChordType = {
   },
   C7sus4: {
     composition: ['C', 'F', 'G', 'B['],
-    chartList: [],
+    chartList: [[3, 6, 3, 5, 3, -1]],
   },
   Cdim: {
     composition: ['C', 'E[', 'F]'],
@@ -171,6 +171,9 @@ export const newChordList: ChordType = {
     composition: ['C', 'E', 'G', 'D'],
     chartList: [[0, 3, 0, 2, 3, -1]],
   },
+};
+
+const rootCsharp: ChordType = {
   'C]': {
     composition: ['C]', 'F', 'G]'],
     chartList: [
@@ -264,6 +267,9 @@ export const newChordList: ChordType = {
     composition: ['C]', 'F', 'G]', 'E['],
     chartList: [],
   },
+};
+
+const rootD: ChordType = {
   D: {
     composition: ['D', 'F]', 'A'],
     chartList: [
@@ -363,6 +369,9 @@ export const newChordList: ChordType = {
     composition: ['D', 'F]', 'A', 'E'],
     chartList: [],
   },
+};
+
+const rootEfret: ChordType = {
   'E[': {
     composition: ['E[', 'G', 'B['],
     chartList: [],
@@ -447,6 +456,9 @@ export const newChordList: ChordType = {
     composition: ['E[', 'G', 'B[', 'F'],
     chartList: [],
   },
+};
+
+const rootE: ChordType = {
   E: {
     composition: ['E', 'G]', 'B'],
     chartList: [
@@ -537,6 +549,9 @@ export const newChordList: ChordType = {
     composition: ['E', 'G]', 'B', 'F]'],
     chartList: [[0, 0, 1, 4, 2, 0]],
   },
+};
+
+const rootF: ChordType = {
   F: {
     composition: ['F', 'A', 'C'],
     chartList: [[1, 1, 2, 3, 3, 1]],
@@ -621,6 +636,9 @@ export const newChordList: ChordType = {
     composition: ['F', 'A', 'C', 'G'],
     chartList: [],
   },
+};
+
+const rootFsharp: ChordType = {
   'F]': {
     composition: ['F]', 'B[', 'C]'],
     chartList: [[2, 2, 3, 4, 4, 2]],
@@ -643,7 +661,7 @@ export const newChordList: ChordType = {
   },
   'F]M7': {
     composition: ['F]', 'B[', 'C]', 'F'],
-    chartList: [],
+    chartList: [[2, 2, 3, 3, 4, 2]],
   },
   'F]sus2': {
     composition: ['F]', 'G]', 'C]'],
@@ -705,6 +723,9 @@ export const newChordList: ChordType = {
     composition: ['F]', 'B[', 'C]', 'G]'],
     chartList: [],
   },
+};
+
+const rootG: ChordType = {
   G: {
     composition: ['G', 'B', 'D'],
     chartList: [
@@ -795,6 +816,9 @@ export const newChordList: ChordType = {
       [3, 0, 2, 0, -1, 3],
     ],
   },
+};
+
+const rootGsharp: ChordType = {
   'G]': {
     composition: ['G]', 'C', 'E['],
     chartList: [],
@@ -853,7 +877,7 @@ export const newChordList: ChordType = {
   },
   'G]m7': {
     composition: ['G]', 'B', 'E[', 'F]'],
-    chartList: [],
+    chartList: [[4, 4, 4, 4, 6, 4]],
   },
   'G]m7[5': {
     composition: ['G]', 'B', 'D', 'F]'],
@@ -879,6 +903,9 @@ export const newChordList: ChordType = {
     composition: ['G]', 'C', 'E[', 'B['],
     chartList: [],
   },
+};
+
+const rootA: ChordType = {
   A: {
     composition: ['A', 'C]', 'E'],
     chartList: [
@@ -975,6 +1002,9 @@ export const newChordList: ChordType = {
     composition: ['A', 'C]', 'E', 'B'],
     chartList: [],
   },
+};
+
+const rootBfret: ChordType = {
   'B[': {
     composition: ['B[', 'D', 'F'],
     chartList: [[1, 3, 3, 3, 1, -1]],
@@ -1059,6 +1089,9 @@ export const newChordList: ChordType = {
     composition: ['B[', 'D', 'F', 'C'],
     chartList: [],
   },
+};
+
+const rootB: ChordType = {
   B: {
     composition: ['B', 'E[', 'F]'],
     chartList: [
@@ -1087,7 +1120,7 @@ export const newChordList: ChordType = {
   },
   BM7: {
     composition: ['B', 'E[', 'F]', 'B['],
-    chartList: [],
+    chartList: [[2, 4, 3, 4, 2, -1]],
   },
   Bsus2: {
     composition: ['B', 'C]', 'F]'],
@@ -1149,4 +1182,43 @@ export const newChordList: ChordType = {
     composition: ['B', 'E[', 'F]', 'C]'],
     chartList: [],
   },
+};
+
+export const inversion: ChordType = {
+  'C/E': {
+    composition: [],
+    chartList: [[0, 1, 0, 2, 3, 0]],
+  },
+  'D/F]': {
+    composition: [],
+    chartList: [[2, 3, 2, 0, 0, 2]],
+  },
+  'D7/F]': {
+    composition: [],
+    chartList: [[2, 1, 2, 0, 0, 2]],
+  },
+  'G/B': {
+    composition: [],
+    chartList: [[3, 3, 0, 0, 2, -1]],
+  },
+  'B[/D': {
+    composition: [],
+    chartList: [[1, 3, 3, 0, -1, -1]],
+  },
+};
+
+export const newChordList: ChordType = {
+  ...rootC,
+  ...rootCsharp,
+  ...rootD,
+  ...rootEfret,
+  ...rootE,
+  ...rootF,
+  ...rootFsharp,
+  ...rootG,
+  ...rootGsharp,
+  ...rootA,
+  ...rootBfret,
+  ...rootB,
+  ...inversion,
 };

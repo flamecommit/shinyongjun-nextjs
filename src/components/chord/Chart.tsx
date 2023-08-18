@@ -145,7 +145,9 @@ function ChordChart({ chordName, closeChord }: Props) {
                               className="name"
                               data-position={position}
                               data-invalid={
-                                pitch ? !constituent.includes(pitch) : false
+                                constituent.length && pitch
+                                  ? !constituent.includes(pitch)
+                                  : false
                               }
                             >
                               <ChordSymbol chordName={pitch} />
