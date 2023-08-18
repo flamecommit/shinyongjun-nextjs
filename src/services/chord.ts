@@ -109,8 +109,15 @@ const getMinor9thChord = (root: string) =>
 const getMinor11thChord = (root: string) =>
   setComposition(root, [0, 3, 7, 10, 14, 17]);
 
-/** add9 (add9 는 add2와 동일하다) */
+/**
+ * 14 or 2 | add2 == add9
+ * 17 or 5 | add4 == add11
+ * 21 or 9 | add6 == add13
+ */
+
 const getAdd9Chord = (root: string) => setComposition(root, [0, 4, 7, 14]);
+const getAdd11Chord = (root: string) => setComposition(root, [0, 4, 7, 17]);
+const getAdd13Chord = (root: string) => setComposition(root, [0, 4, 7, 21]);
 
 export const getComposition = (chord: string) => {
   let root = '';
@@ -139,7 +146,12 @@ export const getComposition = (chord: string) => {
   if (chord === `${root}m7]5`) return getMinor7thSharp5Chord(root);
   if (chord === `${root}m9`) return getMinor9thChord(root);
   if (chord === `${root}m11`) return getMinor11thChord(root);
-  if (chord === `${root}add9`) return getAdd9Chord(root);
+  if (chord === `${root}add9` || chord === `${root}add2`)
+    return getAdd9Chord(root);
+  if (chord === `${root}add11` || chord === `${root}add4`)
+    return getAdd11Chord(root);
+  if (chord === `${root}add13` || chord === `${root}add6`)
+    return getAdd13Chord(root);
   return [];
 };
 
