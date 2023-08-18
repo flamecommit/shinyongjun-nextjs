@@ -32,11 +32,16 @@ function ChordSymbol({ chordName, isAbbr = false }: Props) {
     }
   }
 
-  return <StyledChordSymbol>{chordSymbole}</StyledChordSymbol>;
+  return (
+    <StyledChordSymbol dangerouslySetInnerHTML={{ __html: chordSymbole }} />
+  );
 }
 
 const StyledChordSymbol = styled.div`
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'Noto Sans KR';
+  span {
+    margin-inline: -0.18em;
+  }
 `;
 
 export default ChordSymbol;

@@ -67,7 +67,12 @@ function ChordChart({ chordName, closeChord }: Props) {
           {constituent.length > 0 && (
             <div className="constituent">
               {constituent.map((c) => {
-                return <div key={c}>{transChordSymbol(c)}</div>;
+                return (
+                  <div
+                    key={c}
+                    dangerouslySetInnerHTML={{ __html: transChordSymbol(c) }}
+                  />
+                );
               })}
             </div>
           )}
@@ -288,6 +293,7 @@ const StyledChordChart = styled.div`
             font-size: 16px;
             line-height: 100%;
             margin-top: -8px;
+            white-space: nowrap;
           }
         }
       }
