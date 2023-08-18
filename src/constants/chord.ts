@@ -17,6 +17,7 @@ export const kindOfChord = [
   'M7',
   'sus2',
   'sus4',
+  '7sus2',
   '7sus4',
   'dim',
   'm',
@@ -110,6 +111,10 @@ export const newChordList: ChordType = {
     composition: ['C', 'F', 'G'],
     chartList: [[1, 1, 0, 3, 3, -1]],
   },
+  C7sus2: {
+    composition: ['C', 'D', 'G', 'B['],
+    chartList: [],
+  },
   C7sus4: {
     composition: ['C', 'F', 'G', 'B['],
     chartList: [],
@@ -180,8 +185,16 @@ export const newChordList: ChordType = {
     composition: ['C]', 'F', 'G]', 'C'],
     chartList: [],
   },
+  'C]sus2': {
+    composition: ['C]', 'E[', 'G]'],
+    chartList: [],
+  },
   'C]sus4': {
     composition: ['C]', 'F]', 'G]'],
+    chartList: [],
+  },
+  'C]7sus2': {
+    composition: ['C]', 'E[', 'G]', 'B'],
     chartList: [],
   },
   'C]7sus4': {
@@ -260,8 +273,16 @@ export const newChordList: ChordType = {
     composition: ['D', 'F]', 'A', 'C]'],
     chartList: [],
   },
+  Dsus2: {
+    composition: ['D', 'E', 'A'],
+    chartList: [],
+  },
   Dsus4: {
     composition: ['D', 'G', 'A'],
+    chartList: [],
+  },
+  D7sus2: {
+    composition: ['D', 'E', 'A', 'C'],
     chartList: [],
   },
   D7sus4: {
@@ -337,8 +358,16 @@ export const newChordList: ChordType = {
     composition: ['E[', 'G', 'B[', 'D'],
     chartList: [],
   },
+  'E[sus2': {
+    composition: ['E[', 'F', 'B['],
+    chartList: [],
+  },
   'E[sus4': {
     composition: ['E[', 'G]', 'B['],
+    chartList: [],
+  },
+  'E[7sus2': {
+    composition: ['E[', 'F', 'B[', 'C]'],
     chartList: [],
   },
   'E[7sus4': {
@@ -408,8 +437,16 @@ export const newChordList: ChordType = {
     composition: ['E', 'G]', 'B', 'E['],
     chartList: [],
   },
+  Esus2: {
+    composition: ['E', 'F]', 'B'],
+    chartList: [],
+  },
   Esus4: {
     composition: ['E', 'A', 'B'],
+    chartList: [],
+  },
+  E7sus2: {
+    composition: ['E', 'F]', 'B', 'D'],
     chartList: [],
   },
   E7sus4: {
@@ -476,8 +513,16 @@ export const newChordList: ChordType = {
     composition: ['F', 'A', 'C', 'E'],
     chartList: [[0, 1, 2, 3, -1, -1]],
   },
+  Fsus2: {
+    composition: ['F', 'G', 'C'],
+    chartList: [],
+  },
   Fsus4: {
     composition: ['F', 'B[', 'C'],
+    chartList: [],
+  },
+  F7sus2: {
+    composition: ['F', 'G', 'C', 'E['],
     chartList: [],
   },
   F7sus4: {
@@ -544,8 +589,16 @@ export const newChordList: ChordType = {
     composition: ['F]', 'B[', 'C]', 'F'],
     chartList: [],
   },
+  'F]sus2': {
+    composition: ['F]', 'G]', 'C]'],
+    chartList: [],
+  },
   'F]sus4': {
     composition: ['F]', 'B', 'C]'],
+    chartList: [],
+  },
+  'F]7sus2': {
+    composition: ['F]', 'G]', 'C]', 'E'],
     chartList: [],
   },
   'F]7sus4': {
@@ -615,9 +668,17 @@ export const newChordList: ChordType = {
     composition: ['G', 'B', 'D', 'F]'],
     chartList: [[2, 0, 0, 0, 2, 3]],
   },
+  Gsus2: {
+    composition: ['G', 'A', 'D'],
+    chartList: [],
+  },
   Gsus4: {
     composition: ['G', 'C', 'D'],
     chartList: [[3, 1, 0, 0, 3, 3]],
+  },
+  G7sus2: {
+    composition: ['G', 'A', 'D', 'F'],
+    chartList: [],
   },
   G7sus4: {
     composition: ['G', 'C', 'D', 'F'],
@@ -686,8 +747,16 @@ export const newChordList: ChordType = {
     composition: ['G]', 'C', 'E[', 'G'],
     chartList: [],
   },
+  'G]sus2': {
+    composition: ['G]', 'B[', 'E['],
+    chartList: [],
+  },
   'G]sus4': {
     composition: ['G]', 'C]', 'E['],
+    chartList: [],
+  },
+  'G]7sus2': {
+    composition: ['G]', 'B[', 'E[', 'F]'],
     chartList: [],
   },
   'G]7sus4': {
@@ -768,6 +837,10 @@ export const newChordList: ChordType = {
     composition: ['A', 'D', 'E'],
     chartList: [],
   },
+  A7sus2: {
+    composition: ['A', 'B', 'E', 'G'],
+    chartList: [],
+  },
   A7sus4: {
     composition: ['A', 'D', 'E', 'G'],
     chartList: [],
@@ -838,8 +911,16 @@ export const newChordList: ChordType = {
     composition: ['B[', 'D', 'F', 'A'],
     chartList: [],
   },
+  'B[sus2': {
+    composition: ['B[', 'C', 'F'],
+    chartList: [],
+  },
   'B[sus4': {
     composition: ['B[', 'E[', 'F'],
+    chartList: [],
+  },
+  'B[7sus2': {
+    composition: ['B[', 'C', 'F', 'G]'],
     chartList: [],
   },
   'B[7sus4': {
@@ -912,9 +993,17 @@ export const newChordList: ChordType = {
     composition: ['B', 'E[', 'F]', 'B['],
     chartList: [],
   },
+  Bsus2: {
+    composition: ['B', 'C]', 'F]'],
+    chartList: [],
+  },
   Bsus4: {
     composition: ['B', 'E', 'F]'],
     chartList: [[0, 0, 4, 4, 2, -1]],
+  },
+  B7sus2: {
+    composition: ['B', 'C]', 'F]', 'A'],
+    chartList: [],
   },
   B7sus4: {
     composition: ['B', 'E', 'F]', 'A'],
