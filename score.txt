@@ -1,4 +1,4 @@
-0:["4hkAqv4GjDIdkp_aO2Iqz",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["gswLfws8a6l0xmT4D8Uew",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
 4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
 5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
@@ -9,7 +9,7 @@
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Home"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun.com"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"shinyongjun.com"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
 a:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-6f8a32e2394384b5.js"],"name":"","async":false}
 b:I{"id":3659,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-6f8a32e2394384b5.js"],"name":"","async":false}
-c:Td82,/*@jsxRuntime automatic @jsxImportSource react*/
+c:T2350,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -21,7 +21,7 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '여수 밤바다 이 조명에 담긴 아름다운 얘기가 있어 네게 들려주고파',
         chordList: [{
-          name: 'Eadd9',
+          name: 'Eadd2',
           position: 5
         }, {
           name: 'G]m7]5',
@@ -36,63 +36,338 @@ function _createMdxContent(props) {
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '전활 걸어 뭐하고 있냐고 나는 지금 여수 밤바다 여수 밤바다'
+        lyrics: '전활 걸어 뭐하고 있냐고 나는 지금 여수 밤바다 여수 밤바다',
+        chordList: [{
+          name: 'Eadd2',
+          position: 4
+        }, {
+          name: 'G]m7]5',
+          position: 12
+        }, {
+          name: 'Asus2',
+          position: 20
+        }, {
+          name: 'Bsus4',
+          position: 27
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '아 - 아 - 아 -        아 - 아 - 어 - 워 -'
+        lyrics: '아 - 아 - 아 -   아 - 아 - 어 - 워 -',
+        chordList: [{
+          name: 'Asus2',
+          position: 0
+        }, {
+          name: 'G]m7]5',
+          position: 4
+        }, {
+          name: 'F]m11',
+          position: 8
+        }, {
+          name: 'Asus2',
+          position: 14
+        }, {
+          name: 'G]m7]5',
+          position: 18
+        }, {
+          name: 'C]7sus4',
+          position: 22
+        }, {
+          name: 'C]7',
+          position: 26
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '너와 함께 걷고 싶다 이 바다를 너와 함께 걷고 싶어'
+        lyrics: '너와 함께 걷고 싶다 이 바다를 너와 함께 걷고 싶어',
+        chordList: [{
+          name: 'F]m11',
+          position: 0
+        }, {
+          name: 'G]m7]5',
+          position: 4
+        }, {
+          name: 'Asus2',
+          position: 10
+        }, {
+          name: 'F]m11',
+          position: 18
+        }, {
+          name: 'G]m7]5',
+          position: 22
+        }, {
+          name: 'Asus2',
+          position: 28
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '이 거리를 너와 함께 걷고 싶다 이 바다를 너와 함께 걷고 싶어'
+        lyrics: '이 거리를 너와 함께 걷고 싶다 이 바다를 너와 함께 걷고 싶어 -',
+        chordList: [{
+          name: 'F]m11',
+          position: 6
+        }, {
+          name: 'G]m7]5',
+          position: 10
+        }, {
+          name: 'Asus2',
+          position: 16
+        }, {
+          name: 'F]m11',
+          position: 24
+        }, {
+          name: 'G]m7]5',
+          position: 28
+        }, {
+          name: 'Asus2',
+          position: 34
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '여수 밤바다'
+        lyrics: '여수 밤바다 -'
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '여수 밤바다 이 바람에 걸린 알 수 없는 향기가 있어 네게 전해주고파'
+        lyrics: '(간주)',
+        chordList: [{
+          name: 'Eadd2',
+          position: 0
+        }, {
+          name: 'G]m7]5',
+          position: 8
+        }, {
+          name: 'Asus2',
+          position: 16
+        }, {
+          name: 'Bsus4',
+          position: 24
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '전활 걸어 뭐하고 있냐고 나는 지금 여수 밤바다 여수 밤바다'
+        lyrics: '여수 밤바다 이 바람에 걸린 알 수 없는 향기가 있어 네게 전해주고파',
+        chordList: [{
+          name: 'Eadd2',
+          position: 5
+        }, {
+          name: 'G]m7]5',
+          position: 14
+        }, {
+          name: 'Asus2',
+          position: 23
+        }, {
+          name: 'Bsus4',
+          position: 33
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '아 - 아 - 아 -        아 - 아 - 어 - 워 -'
+        lyrics: '전활 걸어 뭐하고 있냐고 나는 지금 여수 밤바다 여수 밤바다',
+        chordList: [{
+          name: 'Eadd2',
+          position: 4
+        }, {
+          name: 'G]m7]5',
+          position: 12
+        }, {
+          name: 'Asus2',
+          position: 20
+        }, {
+          name: 'Bsus4',
+          position: 27
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '너와 함께 걷고 싶다 이 바다를 너와 함께 걷고 싶어'
+        lyrics: '아 - 아 - 아 -   아 - 아 - 어 - 워 -',
+        chordList: [{
+          name: 'Asus2',
+          position: 0
+        }, {
+          name: 'G]m7]5',
+          position: 4
+        }, {
+          name: 'F]m11',
+          position: 8
+        }, {
+          name: 'Asus2',
+          position: 14
+        }, {
+          name: 'G]m7]5',
+          position: 18
+        }, {
+          name: 'C]7sus4',
+          position: 22
+        }, {
+          name: 'C]7',
+          position: 26
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '이 거리를 너와 함께 걷고 싶다 이 바다를 너와 함께 너와 함께 오'
+        lyrics: '너와 함께 걷고 싶다 이 바다를 너와 함께 걷고 싶어',
+        chordList: [{
+          name: 'F]m11',
+          position: 0
+        }, {
+          name: 'G]m7]5',
+          position: 4
+        }, {
+          name: 'Asus2',
+          position: 10
+        }, {
+          name: 'F]m11',
+          position: 18
+        }, {
+          name: 'G]m7]5',
+          position: 22
+        }, {
+          name: 'Asus2',
+          position: 28
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '바다 이 조명에 담긴 아름다운 얘기가 있어 네게 들려주고파'
+        lyrics: '이 거리를 너와 함께 걷고 싶다 이 바다를 너와 함께 너와 함께 - 오',
+        chordList: [{
+          name: 'F]m11',
+          position: 6
+        }, {
+          name: 'G]m7]5',
+          position: 10
+        }, {
+          name: 'Asus2',
+          position: 16
+        }, {
+          name: 'F]m11',
+          position: 24
+        }, {
+          name: 'G]m7]5',
+          position: 28
+        }, {
+          name: 'C]7sus4',
+          position: 34
+        }, {
+          name: 'C]7',
+          position: 38
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '전활 걸어 뭐하고 있냐고 나는 지금 여수 밤바다 여수 밤바다'
+        lyrics: '바다 이 조명에 담긴 아름다운 얘기가 있어 네게 들려주고파',
+        chordList: [{
+          name: 'Asus2',
+          position: 1
+        }, {
+          name: 'G]m7]5',
+          position: 10
+        }, {
+          name: 'F]m11',
+          position: 17
+        }, {
+          name: 'E',
+          position: 27
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '아 바다 아 아 아 아     하 아 아 아     허 어 어 어 '
+        lyrics: '전활 걸어 뭐하고 있냐고 나는 지금 여수 밤바다 여수 밤바다',
+        chordList: [{
+          name: 'Asus2',
+          position: 4
+        }, {
+          name: 'G]m7]5',
+          position: 12
+        }, {
+          name: 'F]m11',
+          position: 20
+        }, {
+          name: 'E',
+          position: 27
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '허        어 어 어 허        어'
+        lyrics: '아 바다 아 아 아 아     하 아 아 아     허 어 어 어',
+        chordList: [{
+          name: 'Asus2',
+          position: 3
+        }, {
+          name: 'G]m7]5',
+          position: 11
+        }, {
+          name: 'F]m11',
+          position: 23
+        }, {
+          name: 'E',
+          position: 35
+        }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: '뭐하고 있냐고 나는 지금 여수 밤바다'
+        lyrics: '허     어 어 어 허        하 어      어 어 어',
+        chordList: [{
+          name: 'Asus2',
+          position: 0
+        }, {
+          name: 'G]m7]5',
+          position: 12
+        }, {
+          name: 'F]m11',
+          position: 23
+        }, {
+          name: 'E',
+          position: 34
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '(간주)',
+        chordList: [{
+          name: 'Asus2',
+          position: 0
+        }, {
+          name: 'G]m7]5',
+          position: 8
+        }, {
+          name: 'F]m11',
+          position: 16
+        }, {
+          name: 'E',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '(간주)',
+        chordList: [{
+          name: 'Asus2',
+          position: 0
+        }, {
+          name: 'G]m7]5',
+          position: 8
+        }, {
+          name: 'F]m11',
+          position: 16
+        }, {
+          name: 'E',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '뭐하고 있냐고 나는 지금 여수 밤바다',
+        chordList: [{
+          name: 'G]m7]5',
+          position: 6
+        }, {
+          name: 'F]m11',
+          position: 14
+        }, {
+          name: 'Eadd2',
+          position: 22
+        }]
       }
     })]
   });
@@ -1352,7 +1627,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-10:T225d,/*@jsxRuntime automatic @jsxImportSource react*/
+10:T2260,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1363,23 +1638,23 @@ function _createMdxContent(props) {
     children: [_jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'Cadd9',
+          name: 'Cadd2',
           position: 0
         }, {
           name: 'Gadd9/B',
-          position: 2
+          position: 5
         }, {
           name: 'A7',
-          position: 4
+          position: 10
         }, {
           name: 'D7',
-          position: 6
+          position: 14
         }, {
           name: 'G',
-          position: 8
+          position: 18
         }, {
           name: 'GM7',
-          position: 16
+          position: 26
         }]
       }
     }), _jsx(ScorePhrase, {
@@ -1562,13 +1837,13 @@ function _createMdxContent(props) {
           position: 10
         }, {
           name: 'A7',
-          position: 12
+          position: 16
         }, {
           name: 'D7',
-          position: 14
+          position: 20
         }, {
           name: 'G',
-          position: 16
+          position: 24
         }]
       }
     }), _jsx(ScorePhrase, {
@@ -1729,13 +2004,13 @@ function _createMdxContent(props) {
           position: 10
         }, {
           name: 'A7',
-          position: 12
+          position: 16
         }, {
           name: 'D7',
-          position: 14
+          position: 20
         }, {
           name: 'G',
-          position: 16
+          position: 24
         }]
       }
     })]
