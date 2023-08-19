@@ -398,7 +398,7 @@ const rootD: ChordType = {
 const rootEfret: ChordType = {
   'E[': {
     composition: ['E[', 'G', 'B['],
-    chartList: [],
+    chartList: [[6, 8, 8, 8, 6, -1]],
   },
   'E[6': {
     composition: ['E[', 'G', 'B[', 'C'],
