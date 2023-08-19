@@ -322,7 +322,7 @@ const rootD: ChordType = {
   },
   Dsus4: {
     composition: ['D', 'G', 'A'],
-    chartList: [],
+    chartList: [[3, 3, 2, 0, -1, -1]],
   },
   D7sus2: {
     composition: ['D', 'E', 'A', 'C'],
@@ -745,7 +745,7 @@ const rootFsharp: ChordType = {
   },
   'F]m7': {
     composition: ['F]', 'A', 'C]', 'E'],
-    chartList: [],
+    chartList: [[2, 2, 2, 2, 4, 2]],
   },
   'F]m7[5': {
     composition: ['F]', 'A', 'C', 'E'],
@@ -843,7 +843,7 @@ const rootG: ChordType = {
   },
   Gm7: {
     composition: ['G', 'B[', 'D', 'F'],
-    chartList: [],
+    chartList: [[3, 3, 3, 3, 5, 3]],
   },
   'Gm7[5': {
     composition: ['G', 'B[', 'C]', 'F'],
@@ -1022,7 +1022,7 @@ const rootA: ChordType = {
   },
   A7sus4: {
     composition: ['A', 'D', 'E', 'G'],
-    chartList: [],
+    chartList: [[0, 3, 0, 2, 0, -1]],
   },
   Adim: {
     composition: ['A', 'C', 'E['],
@@ -1264,7 +1264,7 @@ const rootB: ChordType = {
   },
   Bm11: {
     composition: ['B', 'D', 'F]', 'A', 'C]', 'E'],
-    chartList: [],
+    chartList: [[0, 3, 2, 0, 2, -1]],
   },
   Badd2: {
     composition: ['B', 'E[', 'F]', 'C]'],
@@ -1281,13 +1281,21 @@ const rootB: ChordType = {
 };
 
 export const inversion: ChordType = {
+  'Em/D': {
+    composition: [],
+    chartList: [[0, 0, 0, 0, -1, -1]],
+  },
+  'B[/D': {
+    composition: [],
+    chartList: [[1, 3, 3, 0, -1, -1]],
+  },
   'C/E': {
     composition: [],
     chartList: [[0, 1, 0, 2, 3, 0]],
   },
   'D/F]': {
     composition: [],
-    chartList: [[2, 3, 2, 0, 0, 2]],
+    chartList: [[2, 3, 2, 0, -1, 2]],
   },
   'D7/F]': {
     composition: [],
@@ -1296,10 +1304,6 @@ export const inversion: ChordType = {
   'G/B': {
     composition: [],
     chartList: [[3, 3, 0, 0, 2, -1]],
-  },
-  'B[/D': {
-    composition: [],
-    chartList: [[1, 3, 3, 0, -1, -1]],
   },
 };
 
