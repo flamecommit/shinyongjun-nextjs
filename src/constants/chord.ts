@@ -885,7 +885,7 @@ const rootG: ChordType = {
 const rootGsharp: ChordType = {
   'G]': {
     composition: ['G]', 'C', 'E['],
-    chartList: [],
+    chartList: [[4, 4, 5, 6, 6, 4]],
   },
   'G]6': {
     composition: ['G]', 'C', 'E[', 'F'],
@@ -1041,7 +1041,7 @@ const rootA: ChordType = {
   },
   Am6: {
     composition: ['A', 'C', 'E', 'F]'],
-    chartList: [],
+    chartList: [[2, 1, 2, 2, 0, -1]],
   },
   Am7: {
     composition: ['A', 'C', 'E', 'G'],
@@ -1072,7 +1072,7 @@ const rootA: ChordType = {
   },
   Aadd2: {
     composition: ['A', 'C]', 'E', 'B'],
-    chartList: [],
+    chartList: [[0, 2, 4, 2, 0, -1]],
   },
   Aadd4: {
     composition: ['A', 'C]', 'E', 'D'],
