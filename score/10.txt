@@ -1,4 +1,4 @@
-0:["PWta2qXKf1xQq9Tp6RLSf",[[["",{"children":["score",{"children":[["slug","10","d"],{"children":["__PAGE__?{\"slug\":\"10\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["yTKmePwnObQN9q4T5xHjE",[[["",{"children":["score",{"children":[["slug","10","d"],{"children":["__PAGE__?{\"slug\":\"10\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
 4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
 5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
@@ -10,7 +10,7 @@
 a:I{"id":1179,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","431:static/chunks/431-cfcc82f20f15296a.js","498:static/chunks/498-cbd2f269ef843b40.js","589:static/chunks/app/score/[slug]/page-8453947f19428d4e.js"],"name":"","async":false}
 c:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","431:static/chunks/431-cfcc82f20f15296a.js","498:static/chunks/498-cbd2f269ef843b40.js","589:static/chunks/app/score/[slug]/page-8453947f19428d4e.js"],"name":"","async":false}
 d:I{"id":5797,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","431:static/chunks/431-cfcc82f20f15296a.js","498:static/chunks/498-cbd2f269ef843b40.js","589:static/chunks/app/score/[slug]/page-8453947f19428d4e.js"],"name":"","async":false}
-b:T2c3e,/*@jsxRuntime automatic @jsxImportSource react*/
+b:T2c3d,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -29,48 +29,48 @@ function _createMdxContent(props) {
           position: 3
         }, {
           name: 'D/F]',
-          position: 7
+          position: 6
         }, {
           name: 'G',
-          position: 11
+          position: 9
         }, {
           name: 'Em',
-          position: 16
+          position: 15
         }, {
           name: 'A',
-          position: 22
+          position: 19
+        }, {
+          name: 'D',
+          position: 24
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: ' 설레는 마음에 몰래 그대 모습 바라보면서 내안에 담아요',
+        lyrics: '설레는 마음에 몰래 그대 모습 바라보면서 내안에 담아요',
         chordList: [{
-          name: 'D',
-          position: 0
-        }, {
           name: 'F]m7',
-          position: 2
+          position: 1
         }, {
           name: 'G',
-          position: 8
+          position: 7
         }, {
           name: 'Gm7',
-          position: 11
+          position: 10
         }, {
           name: 'F]m7',
-          position: 14
+          position: 13
         }, {
           name: 'B7',
-          position: 18
+          position: 17
         }, {
           name: 'Em',
-          position: 23
+          position: 22
         }, {
           name: 'Em/D',
-          position: 25
+          position: 24
         }, {
           name: 'A',
-          position: 31
+          position: 30
         }]
       }
     }), _jsx(ScorePhrase, {
@@ -219,13 +219,13 @@ function _createMdxContent(props) {
           position: 9
         }, {
           name: 'Em',
-          position: 15
+          position: 14
         }, {
           name: 'A7',
           position: 18
         }, {
           name: 'D',
-          position: 23
+          position: 22
         }]
       }
     }), _jsx(ScorePhrase, {
