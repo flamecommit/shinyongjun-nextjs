@@ -1,15 +1,16 @@
-0:["yTKmePwnObQN9q4T5xHjE",[[["",{"children":["series",{"children":[["slug","1","d"],{"children":["__PAGE__?{\"slug\":\"1\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
-3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
-4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
-5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
-6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
+0:["_PWL0xTmmiJlXkkShnkJQ",[[["",{"children":["series",{"children":[["slug","1","d"],{"children":["__PAGE__?{\"slug\":\"1\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-5f9d0613aaae69c5.js"],"name":"","async":false}
+4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-5f9d0613aaae69c5.js"],"name":"","async":false}
+5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-5f9d0613aaae69c5.js"],"name":"","async":false}
+6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-5f9d0613aaae69c5.js"],"name":"","async":false}
 7:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 8:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","$L3",null,{"GA_TRACKING_ID":"G-LSSNKXXZKX"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","series","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","series","children",["slug","1","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9",null],"segment":"__PAGE__?{\"slug\":\"1\"}"},"styles":[]}],"segment":["slug","1","d"]},"styles":[]}],"segment":"series"},"styles":[]}]}]}]}]}]]}],null]
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Series - 1"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun.com"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"shinyongjun.com"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
-a:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","743:static/chunks/app/series/[slug]/page-36012bf390228d47.js"],"name":"","async":false}
-b:I{"id":7493,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","743:static/chunks/app/series/[slug]/page-36012bf390228d47.js"],"name":"","async":false}
-c:T171ac,/*@jsxRuntime automatic @jsxImportSource react*/
+a:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","743:static/chunks/app/series/[slug]/page-329e3d720ef94b61.js"],"name":"","async":false}
+b:I{"id":5416,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","743:static/chunks/app/series/[slug]/page-329e3d720ef94b61.js"],"name":"","async":false}
+c:I{"id":7493,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","743:static/chunks/app/series/[slug]/page-329e3d720ef94b61.js"],"name":"","async":false}
+d:T171ac,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -562,7 +563,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-d:Tc9aab,/*@jsxRuntime automatic @jsxImportSource react*/
+e:Tc9aab,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1501,7 +1502,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-e:T1aae0,/*@jsxRuntime automatic @jsxImportSource react*/
+f:T1aae0,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -2382,7 +2383,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-f:T11a10,/*@jsxRuntime automatic @jsxImportSource react*/
+10:T11a10,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -3055,7 +3056,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-10:T6e28e,/*@jsxRuntime automatic @jsxImportSource react*/
+11:T6e28e,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -3377,7 +3378,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-11:T1c368,/*@jsxRuntime automatic @jsxImportSource react*/
+12:T1c368,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -4133,7 +4134,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-12:T3ed12,/*@jsxRuntime automatic @jsxImportSource react*/
+13:T3ed12,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -4465,4 +4466,4 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-9:[["$","$La",null,{"children":["Series - ","Next.js 로 Github Page 블로그 만들기"]}],["$","$Lb",null,{"postList":[{"title":"7. Next.js 블로그 상세페이지에 상대경로 이미지 넣기","date":"$D2023-08-17T11:31:00.000Z","categories":["next.js","mdx","blog"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"9","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}},{"title":"6. Next.js 블로그 포스팅 상세페이지 만들기","date":"$D2023-08-15T05:09:00.000Z","categories":["next.js","mdx","blog"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"8","mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}},{"title":"5. Next.js 블로그 포스팅 목록 만들기","date":"$D2023-08-14T15:16:00.000Z","categories":["next.js","mdx","blog"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"7","mdx":{"compiledSource":"$e","frontmatter":{},"scope":{}}},{"title":"4. Layout 구성요소 생성 및 적용하기","date":"$D2023-08-14T07:03:00.000Z","categories":["next.js"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"6","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"3. Github Actions 를 사용하여 Next.js 앱 배포하기 (feat. Github Pages)","date":"$D2023-08-13T18:00:00.000Z","categories":["next.js","github","deploy"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"5","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}},{"title":"2. Next.js 앱에 styled-components 적용하기","date":"$D2023-08-13T16:47:00.000Z","categories":["next.js","styled-components"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"4","mdx":{"compiledSource":"$11","frontmatter":{},"scope":{}}},{"title":"1. Next.js 앱, Github Repository 생성","date":"$D2023-08-13T09:00:00.000Z","categories":["next.js","github","blog","mdx"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"3","mdx":{"compiledSource":"$12","frontmatter":{},"scope":{}}}]}]]
+9:[["$","$La",null,{"children":["Series - ","Next.js 로 Github Page 블로그 만들기"]}],["$","$Lb",null,{"href":"/series","children":"Go to Series List"}],["$","$Lc",null,{"postList":[{"title":"7. Next.js 블로그 상세페이지에 상대경로 이미지 넣기","date":"$D2023-08-17T11:31:00.000Z","categories":["next.js","mdx","blog"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"9","mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}},{"title":"6. Next.js 블로그 포스팅 상세페이지 만들기","date":"$D2023-08-15T05:09:00.000Z","categories":["next.js","mdx","blog"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"8","mdx":{"compiledSource":"$e","frontmatter":{},"scope":{}}},{"title":"5. Next.js 블로그 포스팅 목록 만들기","date":"$D2023-08-14T15:16:00.000Z","categories":["next.js","mdx","blog"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"7","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"4. Layout 구성요소 생성 및 적용하기","date":"$D2023-08-14T07:03:00.000Z","categories":["next.js"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"6","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}},{"title":"3. Github Actions 를 사용하여 Next.js 앱 배포하기 (feat. Github Pages)","date":"$D2023-08-13T18:00:00.000Z","categories":["next.js","github","deploy"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"5","mdx":{"compiledSource":"$11","frontmatter":{},"scope":{}}},{"title":"2. Next.js 앱에 styled-components 적용하기","date":"$D2023-08-13T16:47:00.000Z","categories":["next.js","styled-components"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"4","mdx":{"compiledSource":"$12","frontmatter":{},"scope":{}}},{"title":"1. Next.js 앱, Github Repository 생성","date":"$D2023-08-13T09:00:00.000Z","categories":["next.js","github","blog","mdx"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"3","mdx":{"compiledSource":"$13","frontmatter":{},"scope":{}}}]}]]
