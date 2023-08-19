@@ -59,8 +59,8 @@ export const getScoreList = async (): Promise<Score[]> => {
   );
 
   return result.sort((a: Score, b: Score) => {
-    const slugA = a.slug;
-    const slugB = b.slug;
+    const slugA = Number(a.slug);
+    const slugB = Number(b.slug);
 
     if (slugA > slugB) return -1;
     if (slugA < slugB) return 1;
