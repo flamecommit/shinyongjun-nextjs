@@ -1,0 +1,288 @@
+0:["ROkYot2WXjARIxe1rWmeC",[[["",{"children":["score",{"children":[["slug","12","d"],{"children":["__PAGE__?{\"slug\":\"12\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
+4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
+5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
+6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
+7:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
+8:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
+1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","$L3",null,{"GA_TRACKING_ID":"G-LSSNKXXZKX"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","score","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","score","children",["slug","12","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9",null],"segment":"__PAGE__?{\"slug\":\"12\"}"},"styles":[]}],"segment":["slug","12","d"]},"styles":[]}],"segment":"score"},"styles":[]}]}]}]}]}]]}],null]
+2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun - Score | 데이먼스 이어 - Yours"}],["$","meta","2",{"name":"description","content":"데이먼스 이어의 Yours 코드 악보 입니다."}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun - Score | 데이먼스 이어 - Yours"}],["$","meta","5",{"property":"og:description","content":"데이먼스 이어의 Yours 코드 악보 입니다."}],["$","meta","6",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"shinyongjun - Score | 데이먼스 이어 - Yours"}],["$","meta","9",{"name":"twitter:description","content":"데이먼스 이어의 Yours 코드 악보 입니다."}],["$","meta","10",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
+a:I{"id":1179,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","431:static/chunks/431-aa803b000f2a4989.js","498:static/chunks/498-cbd2f269ef843b40.js","589:static/chunks/app/score/[slug]/page-8453947f19428d4e.js"],"name":"","async":false}
+c:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","431:static/chunks/431-aa803b000f2a4989.js","498:static/chunks/498-cbd2f269ef843b40.js","589:static/chunks/app/score/[slug]/page-8453947f19428d4e.js"],"name":"","async":false}
+d:I{"id":5797,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","431:static/chunks/431-aa803b000f2a4989.js","498:static/chunks/498-cbd2f269ef843b40.js","589:static/chunks/app/score/[slug]/page-8453947f19428d4e.js"],"name":"","async":false}
+b:T1858,/*@jsxRuntime automatic @jsxImportSource react*/
+const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const {ScoreWrapper, ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
+  if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
+  if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
+  return _jsxs(ScoreWrapper, {
+    children: [_jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '(전주)',
+        chordList: [{
+          name: 'E',
+          position: 0
+        }, {
+          name: 'F]',
+          position: 4
+        }, {
+          name: 'B',
+          position: 8
+        }, {
+          name: 'G]m',
+          position: 12
+        }, {
+          name: 'E',
+          position: 16
+        }, {
+          name: 'F]',
+          position: 20
+        }, {
+          name: 'B',
+          position: 24
+        }, {
+          name: 'G]m',
+          position: 28
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'E',
+          position: 0
+        }, {
+          name: 'F]',
+          position: 4
+        }, {
+          name: 'B',
+          position: 8
+        }, {
+          name: 'G]m',
+          position: 12
+        }, {
+          name: 'E',
+          position: 16
+        }, {
+          name: 'F]',
+          position: 20
+        }, {
+          name: 'B',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '내가 손을 잡을게, 너는 힘을 빼도 돼',
+        chordList: [{
+          name: 'E',
+          position: 2
+        }, {
+          name: 'F]',
+          position: 8
+        }, {
+          name: 'B',
+          position: 14
+        }, {
+          name: 'G]m',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그저 복사꽃 핀 거릴 걷자',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'F]',
+          position: 9
+        }, {
+          name: 'B',
+          position: 14
+        }, {
+          name: 'G]m',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '너의 마음이 녹아 우리 밤을 합치면',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'F]',
+          position: 8
+        }, {
+          name: 'B',
+          position: 13
+        }, {
+          name: 'G]m',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '무너진 달을 세워놓자',
+        chordList: [{
+          name: 'E',
+          position: 1
+        }, {
+          name: 'F]',
+          position: 7
+        }, {
+          name: 'B',
+          position: 11
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '가끔 너의 모습은 봄날의 낮과 밤 같아',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'F]',
+          position: 8
+        }, {
+          name: 'B',
+          position: 14
+        }, {
+          name: 'G]m',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '따스하다가도 차갑곤 해',
+        chordList: [{
+          name: 'E',
+          position: 2
+        }, {
+          name: 'F]',
+          position: 7
+        }, {
+          name: 'B',
+          position: 13
+        }, {
+          name: 'G]m',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '또 넌 맑은 하늘에 내리는 소나기 같아',
+        chordList: [{
+          name: 'E',
+          position: 4
+        }, {
+          name: 'F]',
+          position: 9
+        }, {
+          name: 'B',
+          position: 15
+        }, {
+          name: 'G]m',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '넌 대체 내게 뭐를 원해?',
+        chordList: [{
+          name: 'E',
+          position: 2
+        }, {
+          name: 'F]',
+          position: 8
+        }, {
+          name: 'B',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그대여 난 솔직히 좀 싫어',
+        chordList: [{
+          name: 'E',
+          position: 4
+        }, {
+          name: 'F]',
+          position: 5
+        }, {
+          name: 'B',
+          position: 10
+        }, {
+          name: 'G]m',
+          position: 13
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그대는 내가 없더라도 아무렇지 않은 게',
+        chordList: [{
+          name: 'E',
+          position: 4
+        }, {
+          name: 'F]',
+          position: 9
+        }, {
+          name: 'B',
+          position: 14
+        }, {
+          name: 'G]m',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '넌 - 나의 모든 하루를 바꿔',
+        chordList: [{
+          name: 'E',
+          position: 0
+        }, {
+          name: 'F]',
+          position: 3
+        }, {
+          name: 'B',
+          position: 8
+        }, {
+          name: 'F]',
+          position: 11
+        }, {
+          name: 'G]m',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '난 그렇게 또 두 눈을 감고 마네',
+        chordList: [{
+          name: 'E',
+          position: 2
+        }, {
+          name: 'F]',
+          position: 10
+        }, {
+          name: 'B',
+          position: 16
+        }]
+      }
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+9:[["$","$La",null,{"scoreData":{"title":"Yours","artist":"데이먼스 이어","releaseYear":2019,"capo":0,"slug":"12","mdx":{"compiledSource":"$b","frontmatter":{},"scope":{}}}}],["$","$Lc",null,{"postDetail":true}],["$","$Ld",null,{}]]
