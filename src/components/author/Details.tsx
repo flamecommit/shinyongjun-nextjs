@@ -15,6 +15,7 @@ import { SiAzuredevops } from '@react-icons/all-files/si/SiAzuredevops';
 import { SiRedux } from '@react-icons/all-files/si/SiRedux';
 import Link from 'next/link';
 import { device } from '@/styles/mixin';
+import PageLink from '../page/Link';
 
 function AuthorDetails() {
   return (
@@ -124,11 +125,7 @@ function AuthorDetails() {
       </section>
       <section>
         <h3 className="section-title">History</h3>
-        <div className="item-list">
-          <Link href="/history" className="link">
-            Go to page
-          </Link>
-        </div>
+        <PageLink href="/history">Go to History</PageLink>
       </section>
     </StyledAuthorDetails>
   );
@@ -166,6 +163,9 @@ const StyledAuthorDetails = styled.div`
         color: #1f883d;
       }
     }
+  }
+  .page-link {
+    margin: 0;
   }
   @media ${device.mobile} {
     .section-title {

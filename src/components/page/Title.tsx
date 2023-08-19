@@ -15,6 +15,7 @@ const StyledPageTitle = styled.h2`
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 30px;
+  line-height: 120%;
   margin-bottom: 30px;
   @media ${device.mobile} {
     font-size: 24px;

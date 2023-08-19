@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import styled from 'styled-components';
-import Link from 'next/link';
 import { kindOfChord, chordSymbolList, inversion } from '@/constants/chord';
 import { device } from '@/styles/mixin';
 import ChordSymbol from '@/components/chord/Symbol';
@@ -55,9 +54,6 @@ function ChordList() {
               );
             })}
           </div>
-        </div>
-        <div className="link-area">
-          <Link href="/chord/generator">Go to Chord Generator</Link>
         </div>
       </StyledChordList>
       {currentChord && (

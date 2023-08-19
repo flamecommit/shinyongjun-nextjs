@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import PageTitle from '@/components/page/Title';
 import PostList from '@/components/post/List';
 import { getPostListBySeries, getSeries } from '@/services/post';
+import PageLink from '@/components/page/Link';
 
 type Props = {
   params: {
@@ -34,6 +35,7 @@ const PostListByCategoryPage = async ({ params }: Props) => {
   return (
     <>
       <PageTitle>Series - {seriesText}</PageTitle>
+      <PageLink href="/series">Go to Series List</PageLink>
       <PostList postList={postList} />
     </>
   );

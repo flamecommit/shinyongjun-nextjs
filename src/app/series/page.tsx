@@ -7,7 +7,7 @@ async function SeriesPage() {
 
   return (
     <>
-      <PageTitle>Series</PageTitle>
+      <PageTitle>Series List</PageTitle>
       <SeriesList series={series} />
     </>
   );

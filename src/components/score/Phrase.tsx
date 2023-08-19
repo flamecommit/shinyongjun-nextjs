@@ -79,7 +79,6 @@ const StyledScorePhrase = styled.div`
     flex-basis: 1em;
     width: 1em;
     text-align: center;
-    font-size: 14px;
     .chord {
       height: 1.5em;
       white-space: nowrap;
