@@ -1,4 +1,4 @@
-0:["PyJHLNsj2pYpkieTjDCW3",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["FN8ne5-09JFVkmCFEeb2Z",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
 4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
 5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c2a0e2f9ccbb0a64.js"],"name":"","async":false}
@@ -2890,7 +2890,332 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-14:T1341,/*@jsxRuntime automatic @jsxImportSource react*/
+14:T1c75,/*@jsxRuntime automatic @jsxImportSource react*/
+const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const {ScoreWrapper, ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
+  if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
+  if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
+  return _jsxs(ScoreWrapper, {
+    children: [_jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '(전주)',
+        chordList: [{
+          name: 'E',
+          position: 0
+        }, {
+          name: 'Am6',
+          position: 4
+        }, {
+          name: 'AM7',
+          position: 8
+        }, {
+          name: 'Am6',
+          position: 12
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 새벽4시 잠들지 않아',
+        chordList: [{
+          name: 'E',
+          position: 0
+        }, {
+          name: 'G]',
+          position: 4
+        }, {
+          name: 'C]m',
+          position: 8
+        }, {
+          name: 'F]',
+          position: 12
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '돌아갈 수 없는 시간들을 생각하곤 해',
+        chordList: [{
+          name: 'F]m7',
+          position: 0
+        }, {
+          name: 'B7',
+          position: 11
+        }, {
+          name: 'E',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 습관처럼 마음이 아려와',
+        chordList: [{
+          name: 'E',
+          position: 0
+        }, {
+          name: 'G]',
+          position: 4
+        }, {
+          name: 'C]m',
+          position: 10
+        }, {
+          name: 'F]',
+          position: 13
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '집으로 가는 길은 자꾸만 멀어지는데',
+        chordList: [{
+          name: 'F]m7',
+          position: 0
+        }, {
+          name: 'B7',
+          position: 11
+        }, {
+          name: 'E',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 저만치 멀^ 어지는',
+        chordList: [{
+          name: 'E',
+          position: 0
+        }, {
+          name: 'G]',
+          position: 3
+        }, {
+          name: 'C]m',
+          position: 5
+        }, {
+          name: 'B',
+          position: 8
+        }, {
+          name: 'A',
+          position: 11
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '찾을 수 없는 잡을 수 없는',
+        chordList: [{
+          name: 'F]m',
+          position: 3
+        }, {
+          name: 'Am',
+          position: 11
+        }, {
+          name: 'Am6',
+          position: 16
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: 'Take it easy -',
+        chordList: [{
+          name: 'E',
+          position: 8
+        }, {
+          name: 'G]',
+          position: 12
+        }, {
+          name: 'C]m',
+          position: 16
+        }, {
+          name: 'F]',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '나만 왜 이렇게 힘든 건가요',
+        chordList: [{
+          name: 'F]m7',
+          position: 1
+        }, {
+          name: 'B7',
+          position: 8
+        }, {
+          name: 'E',
+          position: 15
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '오늘 밤이',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'G]',
+          position: 7
+        }, {
+          name: 'C]m',
+          position: 11
+        }, {
+          name: 'F]',
+          position: 15
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '왜 오늘의 나를 괴롭히죠',
+        chordList: [{
+          name: 'F]m7',
+          position: 2
+        }, {
+          name: 'B7',
+          position: 7
+        }, {
+          name: 'E',
+          position: 13
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 아무것도 한 게 없는 하루인데',
+        chordList: [{
+          name: 'C]m',
+          position: 0
+        }, {
+          name: 'B',
+          position: 6
+        }, {
+          name: 'A',
+          position: 13
+        }, {
+          name: 'E',
+          position: 17
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 나는 왜 이렇게 눈치만 보고 있는 건지',
+        chordList: [{
+          name: 'C]m',
+          position: 0
+        }, {
+          name: 'B',
+          position: 8
+        }, {
+          name: 'A',
+          position: 17
+        }, {
+          name: 'E',
+          position: 22
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 아쉬움은 나를 찾아 다가오네',
+        chordList: [{
+          name: 'C]m',
+          position: 0
+        }, {
+          name: 'B',
+          position: 6
+        }, {
+          name: 'A',
+          position: 12
+        }, {
+          name: 'E',
+          position: 16
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 창문 밖은 벌써 따뜻한데',
+        chordList: [{
+          name: 'F#m',
+          position: 4
+        }, {
+          name: 'Am',
+          position: 16
+        }, {
+          name: 'Am6',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: 'Take it easy -',
+        chordList: [{
+          name: 'E',
+          position: 8
+        }, {
+          name: 'G]',
+          position: 12
+        }, {
+          name: 'C]m',
+          position: 16
+        }, {
+          name: 'F]',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '나만 왜 이렇게 힘든 건가요',
+        chordList: [{
+          name: 'F]m7',
+          position: 1
+        }, {
+          name: 'B7',
+          position: 8
+        }, {
+          name: 'E',
+          position: 15
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '오늘 밤이',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'G]',
+          position: 7
+        }, {
+          name: 'C]m',
+          position: 11
+        }, {
+          name: 'F]',
+          position: 15
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '왜 오늘의 나를 괴롭히죠',
+        chordList: [{
+          name: 'F]m7',
+          position: 2
+        }, {
+          name: 'B7',
+          position: 7
+        }, {
+          name: 'E',
+          position: 13
+        }]
+      }
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+15:T1341,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -3097,7 +3422,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-15:T2793,/*@jsxRuntime automatic @jsxImportSource react*/
+16:T2793,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -3551,4 +3876,4 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-9:[["$","$La",null,{"children":"Score"}],["$","$Lb",null,{"scoreList":[{"title":"가을 우체국 앞에서","artist":"윤도현","releaseYear":1994,"capo":0,"slug":"9","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}},{"title":"사랑two","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"8","mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}},{"title":"오래된 노래","artist":"스탠딩 에그","releaseYear":2012,"capo":0,"slug":"7","mdx":{"compiledSource":"$e","frontmatter":{},"scope":{}}},{"title":"여수 밤바다","artist":"버스커 버스커","releaseYear":2012,"capo":0,"slug":"6","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"좋은 밤 좋은 꿈","artist":"너드커넥션","releaseYear":2020,"capo":2,"slug":"5","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}},{"title":"내사랑 내곁에","artist":"김현식","releaseYear":1991,"capo":0,"slug":"4","mdx":{"compiledSource":"$11","frontmatter":{},"scope":{}}},{"title":"고백","artist":"델리스파이스","releaseYear":2003,"capo":4,"slug":"3","mdx":{"compiledSource":"$12","frontmatter":{},"scope":{}}},{"title":"가리워진 길","artist":"유재하","releaseYear":1986,"capo":0,"slug":"2","mdx":{"compiledSource":"$13","frontmatter":{},"scope":{}}},{"title":"내게 오는 길","artist":"성시경","releaseYear":2001,"capo":1,"slug":"10","mdx":{"compiledSource":"$14","frontmatter":{},"scope":{}}},{"title":"너를 보내고","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"1","mdx":{"compiledSource":"$15","frontmatter":{},"scope":{}}}]}]]
+9:[["$","$La",null,{"children":"Score"}],["$","$Lb",null,{"scoreList":[{"title":"가을 우체국 앞에서","artist":"윤도현","releaseYear":1994,"capo":0,"slug":"9","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}},{"title":"사랑two","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"8","mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}},{"title":"오래된 노래","artist":"스탠딩 에그","releaseYear":2012,"capo":0,"slug":"7","mdx":{"compiledSource":"$e","frontmatter":{},"scope":{}}},{"title":"여수 밤바다","artist":"버스커 버스커","releaseYear":2012,"capo":0,"slug":"6","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"좋은 밤 좋은 꿈","artist":"너드커넥션","releaseYear":2020,"capo":2,"slug":"5","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}},{"title":"내사랑 내곁에","artist":"김현식","releaseYear":1991,"capo":0,"slug":"4","mdx":{"compiledSource":"$11","frontmatter":{},"scope":{}}},{"title":"고백","artist":"델리스파이스","releaseYear":2003,"capo":4,"slug":"3","mdx":{"compiledSource":"$12","frontmatter":{},"scope":{}}},{"title":"가리워진 길","artist":"유재하","releaseYear":1986,"capo":0,"slug":"2","mdx":{"compiledSource":"$13","frontmatter":{},"scope":{}}},{"title":"오늘","artist":"오왠","releaseYear":2016,"capo":0,"slug":"11","mdx":{"compiledSource":"$14","frontmatter":{},"scope":{}}},{"title":"내게 오는 길","artist":"성시경","releaseYear":2001,"capo":1,"slug":"10","mdx":{"compiledSource":"$15","frontmatter":{},"scope":{}}},{"title":"너를 보내고","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"1","mdx":{"compiledSource":"$16","frontmatter":{},"scope":{}}}]}]]
