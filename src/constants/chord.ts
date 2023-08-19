@@ -314,7 +314,7 @@ const rootD: ChordType = {
   },
   DM7: {
     composition: ['D', 'F]', 'A', 'C]'],
-    chartList: [],
+    chartList: [[2, 2, 2, 0, -1, -1]],
   },
   Dsus2: {
     composition: ['D', 'E', 'A'],
