@@ -1,16 +1,16 @@
-0:["VMYImWKzt4mQKsyHmxeeY",[[["",{"children":["category",{"children":[["slug","github","d"],{"children":["__PAGE__?{\"slug\":\"github\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
-3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-23d2409a13aea826.js"],"name":"","async":false}
-4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-23d2409a13aea826.js"],"name":"","async":false}
-5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-23d2409a13aea826.js"],"name":"","async":false}
-6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-23d2409a13aea826.js"],"name":"","async":false}
+0:["ZYryES6P85XOFfmtOkiRh",[[["",{"children":["category",{"children":[["slug","github","d"],{"children":["__PAGE__?{\"slug\":\"github\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-3e294459293c4970.js"],"name":"","async":false}
+4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-3e294459293c4970.js"],"name":"","async":false}
+5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-3e294459293c4970.js"],"name":"","async":false}
+6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-3e294459293c4970.js"],"name":"","async":false}
 7:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 8:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","$L3",null,{"GA_TRACKING_ID":"G-LSSNKXXZKX"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","category","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","category","children",["slug","github","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9",null],"segment":"__PAGE__?{\"slug\":\"github\"}"},"styles":[]}],"segment":["slug","github","d"]},"styles":[]}],"segment":"category"},"styles":[]}]}]}]}]}]]}],null]
-2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun - Category - github"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun.com"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"shinyongjun.com"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
-a:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-08329d831f0a1b34.js"],"name":"","async":false}
-b:I{"id":6529,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-08329d831f0a1b34.js"],"name":"","async":false}
-c:I{"id":7493,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-08329d831f0a1b34.js"],"name":"","async":false}
-d:T6e28e,/*@jsxRuntime automatic @jsxImportSource react*/
+2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun - Category - github"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun.com"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"shinyongjun.com"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
+a:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-ee14f203a66804d8.js"],"name":"","async":false}
+b:I{"id":6529,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-ee14f203a66804d8.js"],"name":"","async":false}
+c:I{"id":7493,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-ee14f203a66804d8.js"],"name":"","async":false}
+d:T6e590,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -93,16 +93,16 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "Deploy"
-        }), "\n\n", _jsx(_components.span, {
+        }), "\r\n\r\n", _jsx(_components.span, {
           className: "hljs-attr",
           children: "on:"
-        }), "\n  ", _jsx(_components.span, {
+        }), "\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "push:"
-        }), "\n    ", _jsx(_components.span, {
+        }), "\r\n    ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "branches:"
-        }), "\n      ", _jsx(_components.span, {
+        }), "\r\n      ", _jsx(_components.span, {
           className: "hljs-bullet",
           children: "-"
         }), " ", _jsx(_components.span, {
@@ -111,22 +111,22 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-comment",
           children: "# push를 감지할 대상 branch 입니다."
-        }), "\n\n", _jsx(_components.span, {
+        }), "\r\n\r\n", _jsx(_components.span, {
           className: "hljs-attr",
           children: "jobs:"
-        }), "\n  ", _jsx(_components.span, {
+        }), "\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "build-and-deploy:"
-        }), "\n    ", _jsx(_components.span, {
+        }), "\r\n    ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "runs-on:"
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "ubuntu-latest"
-        }), "\n    ", _jsx(_components.span, {
+        }), "\r\n    ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "steps:"
-        }), "\n      ", _jsx(_components.span, {
+        }), "\r\n      ", _jsx(_components.span, {
           className: "hljs-bullet",
           children: "-"
         }), " ", _jsx(_components.span, {
@@ -138,13 +138,13 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "🛎️"
-        }), "\n        ", _jsx(_components.span, {
+        }), "\r\n        ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "uses:"
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "actions/checkout@v3"
-        }), "\n\n      ", _jsx(_components.span, {
+        }), "\r\n\r\n      ", _jsx(_components.span, {
           className: "hljs-bullet",
           children: "-"
         }), " ", _jsx(_components.span, {
@@ -162,13 +162,34 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "🔧"
-        }), "\n        ", _jsx(_components.span, {
+        }), "\r\n        ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "run:"
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
-          children: "|\n          yarn install\n          yarn build && touch ./out/.nojekyll\n"
-        }), "\n      ", _jsx(_components.span, {
+          children: "|"
+        }), "\r\n          ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "yarn"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "install"
+        }), "\r\n          ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "yarn"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "build"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "&&"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "touch"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "./out/.nojekyll"
+        }), "\r\n\r\n      ", _jsx(_components.span, {
           className: "hljs-bullet",
           children: "-"
         }), " ", _jsx(_components.span, {
@@ -180,16 +201,16 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "🚀"
-        }), "\n        ", _jsx(_components.span, {
+        }), "\r\n        ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "uses:"
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "JamesIves/github-pages-deploy-action@v4"
-        }), "\n        ", _jsx(_components.span, {
+        }), "\r\n        ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "with:"
-        }), "\n          ", _jsx(_components.span, {
+        }), "\r\n          ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "branch:"
         }), " ", _jsx(_components.span, {
@@ -198,7 +219,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-comment",
           children: "# github page를 서비스 할 branch 입니다."
-        }), "\n          ", _jsx(_components.span, {
+        }), "\r\n          ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "folder:"
         }), " ", _jsx(_components.span, {
@@ -227,10 +248,10 @@ function _createMdxContent(props) {
             className: "hljs-type",
             children: "import('next').NextConfig"
           }), "} */"]
-        }), "\n", _jsx(_components.span, {
+        }), "\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
-        }), " nextConfig = {\n  ", _jsx(_components.span, {
+        }), " nextConfig = {\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "output"
         }), ": ", _jsx(_components.span, {
@@ -239,31 +260,31 @@ function _createMdxContent(props) {
         }), ", ", _jsx(_components.span, {
           className: "hljs-comment",
           children: "// '/out' 경로에 정적 html 파일을 생성합니다."
-        }), "\n  ", _jsx(_components.span, {
+        }), "\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "compiler"
-        }), ": {\n    ", _jsx(_components.span, {
+        }), ": {\r\n    ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "styledComponents"
-        }), ": {\n      ", _jsx(_components.span, {
+        }), ": {\r\n      ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "ssr"
         }), ": ", _jsx(_components.span, {
           className: "hljs-literal",
           children: "true"
-        }), ",\n      ", _jsx(_components.span, {
+        }), ",\r\n      ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "displayName"
         }), ": ", _jsx(_components.span, {
           className: "hljs-literal",
           children: "true"
-        }), ",\n      ", _jsx(_components.span, {
+        }), ",\r\n      ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "pure"
         }), ": ", _jsx(_components.span, {
           className: "hljs-literal",
           children: "true"
-        }), ",\n    },\n  },\n};\n\n", _jsx(_components.span, {
+        }), ",\r\n    },\r\n  },\r\n};\r\n\r\n", _jsx(_components.span, {
           className: "hljs-variable language_",
           children: "module"
         }), ".", _jsx(_components.span, {
@@ -332,7 +353,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-e:T3ed12,/*@jsxRuntime automatic @jsxImportSource react*/
+e:T3ed40,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -475,13 +496,13 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"next\""
-        }), ";\n\n", _jsx(_components.span, {
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "interface"
         }), " ", _jsx(_components.span, {
           className: "hljs-title class_",
           children: "Props"
-        }), " {\n  ", _jsx(_components.span, {
+        }), " {\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "children"
         }), ": ", _jsx(_components.span, {
@@ -490,7 +511,7 @@ function _createMdxContent(props) {
         }), ".", _jsx(_components.span, {
           className: "hljs-property",
           children: "ReactNode"
-        }), ";\n}\n\n", _jsx(_components.span, {
+        }), ";\r\n}\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -502,19 +523,19 @@ function _createMdxContent(props) {
         }), ": ", _jsx(_components.span, {
           className: "hljs-title class_",
           children: "Metadata"
-        }), " = {\n  ", _jsx(_components.span, {
+        }), " = {\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "title"
         }), ": ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"Create Next App\""
-        }), ",\n  ", _jsx(_components.span, {
+        }), ",\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "description"
         }), ": ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"Generated by create next app\""
-        }), ",\n};\n\n", _jsx(_components.span, {
+        }), ",\r\n};\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
         }), " ", _jsx(_components.span, {
@@ -523,10 +544,10 @@ function _createMdxContent(props) {
         }), " = (", _jsx(_components.span, {
           className: "hljs-params",
           children: "{ children }: Props"
-        }), ") => {\n  ", _jsx(_components.span, {
+        }), ") => {\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "return"
-        }), " (\n    ", _jsxs(_components.span, {
+        }), " (\r\n    ", _jsxs(_components.span, {
           className: "xml",
           children: [_jsxs(_components.span, {
             className: "hljs-tag",
@@ -540,7 +561,7 @@ function _createMdxContent(props) {
               className: "hljs-string",
               children: "\"ko\""
             }), ">"]
-          }), "\n      ", _jsxs(_components.span, {
+          }), "\r\n      ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["<", _jsx(_components.span, {
               className: "hljs-name",
@@ -552,14 +573,14 @@ function _createMdxContent(props) {
               className: "hljs-name",
               children: "body"
             }), ">"]
-          }), "\n    ", _jsxs(_components.span, {
+          }), "\r\n    ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["</", _jsx(_components.span, {
               className: "hljs-name",
               children: "html"
             }), ">"]
           })]
-        }), "\n  );\n};\n\n", _jsx(_components.span, {
+        }), "\r\n  );\r\n};\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -584,7 +605,7 @@ function _createMdxContent(props) {
           children: "RootPage"
         }), "(", _jsx(_components.span, {
           className: "hljs-params"
-        }), ") {\n  ", _jsx(_components.span, {
+        }), ") {\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "return"
         }), " ", _jsxs(_components.span, {
@@ -602,7 +623,7 @@ function _createMdxContent(props) {
               children: "div"
             }), ">"]
           })]
-        }), ";\n}\n\n", _jsx(_components.span, {
+        }), ";\r\n}\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {

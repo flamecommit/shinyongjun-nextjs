@@ -1,17 +1,17 @@
-0:["VMYImWKzt4mQKsyHmxeeY",[[["",{"children":["post",{"children":[["slug","4","d"],{"children":["__PAGE__?{\"slug\":\"4\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
-3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-23d2409a13aea826.js"],"name":"","async":false}
-4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-23d2409a13aea826.js"],"name":"","async":false}
-5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-23d2409a13aea826.js"],"name":"","async":false}
-6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-23d2409a13aea826.js"],"name":"","async":false}
+0:["ZYryES6P85XOFfmtOkiRh",[[["",{"children":["post",{"children":[["slug","4","d"],{"children":["__PAGE__?{\"slug\":\"4\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-3e294459293c4970.js"],"name":"","async":false}
+4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-3e294459293c4970.js"],"name":"","async":false}
+5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-3e294459293c4970.js"],"name":"","async":false}
+6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-3e294459293c4970.js"],"name":"","async":false}
 7:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 8:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","$L3",null,{"GA_TRACKING_ID":"G-LSSNKXXZKX"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","post","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","post","children",["slug","4","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9",null],"segment":"__PAGE__?{\"slug\":\"4\"}"},"styles":[]}],"segment":["slug","4","d"]},"styles":[]}],"segment":"post"},"styles":[]}]}]}]}]}]]}],null]
-2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun - Post | 2. Next.js 앱에 styled-components 적용하기"}],["$","meta","2",{"name":"description","content":"Next.js 로 Github Page 블로그 만들기 - 2. Next.js 앱에 styled-components 적용하기"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0"}],["$","meta","4",{"property":"og:title","content":"2. Next.js 앱에 styled-components 적용하기"}],["$","meta","5",{"property":"og:description","content":"Next.js 로 Github Page 블로그 만들기 - 2. Next.js 앱에 styled-components 적용하기"}],["$","meta","6",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"2. Next.js 앱에 styled-components 적용하기"}],["$","meta","9",{"name":"twitter:description","content":"Next.js 로 Github Page 블로그 만들기 - 2. Next.js 앱에 styled-components 적용하기"}],["$","meta","10",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
-a:I{"id":3020,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","498:static/chunks/498-cbd2f269ef843b40.js","605:static/chunks/app/post/[slug]/page-88281720bc835eb6.js"],"name":"","async":false}
-c:I{"id":886,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","498:static/chunks/498-cbd2f269ef843b40.js","605:static/chunks/app/post/[slug]/page-88281720bc835eb6.js"],"name":"","async":false}
-f:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","498:static/chunks/498-cbd2f269ef843b40.js","605:static/chunks/app/post/[slug]/page-88281720bc835eb6.js"],"name":"","async":false}
-10:I{"id":5797,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","498:static/chunks/498-cbd2f269ef843b40.js","605:static/chunks/app/post/[slug]/page-88281720bc835eb6.js"],"name":"","async":false}
-b:T1c368,/*@jsxRuntime automatic @jsxImportSource react*/
+2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun - Post | 2. Next.js 앱에 styled-components 적용하기"}],["$","meta","2",{"name":"description","content":"Next.js 로 Github Page 블로그 만들기 - 2. Next.js 앱에 styled-components 적용하기"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"2. Next.js 앱에 styled-components 적용하기"}],["$","meta","5",{"property":"og:description","content":"Next.js 로 Github Page 블로그 만들기 - 2. Next.js 앱에 styled-components 적용하기"}],["$","meta","6",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"2. Next.js 앱에 styled-components 적용하기"}],["$","meta","9",{"name":"twitter:description","content":"Next.js 로 Github Page 블로그 만들기 - 2. Next.js 앱에 styled-components 적용하기"}],["$","meta","10",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
+a:I{"id":3020,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","498:static/chunks/498-072783dbb62466a7.js","605:static/chunks/app/post/[slug]/page-29b6bf4866cb44ac.js"],"name":"","async":false}
+c:I{"id":886,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","498:static/chunks/498-072783dbb62466a7.js","605:static/chunks/app/post/[slug]/page-29b6bf4866cb44ac.js"],"name":"","async":false}
+f:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","498:static/chunks/498-072783dbb62466a7.js","605:static/chunks/app/post/[slug]/page-29b6bf4866cb44ac.js"],"name":"","async":false}
+10:I{"id":5797,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","822:static/chunks/822-fedafad88b71ab15.js","498:static/chunks/498-072783dbb62466a7.js","605:static/chunks/app/post/[slug]/page-29b6bf4866cb44ac.js"],"name":"","async":false}
+b:T1c49c,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -83,7 +83,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "'styled-components'"
-        }), ";\n\n", _jsx(_components.span, {
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -91,49 +91,49 @@ function _createMdxContent(props) {
           children: "const"
         }), " reset = css`", _jsxs(_components.span, {
           className: "css",
-          children: ["\n  ", _jsx(_components.span, {
+          children: ["\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "box-sizing"
-          }), ": border-box;\n  ", _jsx(_components.span, {
+          }), ": border-box;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "margin"
           }), ": ", _jsx(_components.span, {
             className: "hljs-number",
             children: "0"
-          }), ";\n  ", _jsx(_components.span, {
+          }), ";\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "padding"
           }), ": ", _jsx(_components.span, {
             className: "hljs-number",
             children: "0"
-          }), ";\n  ", _jsx(_components.span, {
+          }), ";\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "font-family"
-          }), ": inherit;\n  ", _jsx(_components.span, {
+          }), ": inherit;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "font-weight"
-          }), ": inherit;\n  ", _jsx(_components.span, {
+          }), ": inherit;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "font-size"
-          }), ": inherit;\n  ", _jsx(_components.span, {
+          }), ": inherit;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "line-height"
-          }), ": inherit;\n  ", _jsx(_components.span, {
+          }), ": inherit;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "color"
-          }), ": inherit;\n  ", _jsx(_components.span, {
+          }), ": inherit;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "vertical-align"
-          }), ": top;\n  ", _jsx(_components.span, {
+          }), ": top;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "text-underline-position"
-          }), ": under;\n  ", _jsx(_components.span, {
+          }), ": under;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "background-repeat"
-          }), ": no-repeat;\n  ", _jsx(_components.span, {
+          }), ": no-repeat;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "mask-repeat"
-          }), ": no-repeat;\n`"]
+          }), ": no-repeat;\r\n`"]
         }), ";\n"]
       })
     }), "\n", _jsx(_components.h3, {
@@ -157,7 +157,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "'styled-components'"
-        }), ";\n", _jsx(_components.span, {
+        }), ";\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
         }), " { reset } ", _jsx(_components.span, {
@@ -166,7 +166,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "'@/styles/mixin'"
-        }), ";\n\n", _jsx(_components.span, {
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -177,10 +177,10 @@ function _createMdxContent(props) {
           children: "GlobalStyle"
         }), " = createGlobalStyle", _jsxs(_components.span, {
           className: "hljs-string",
-          children: ["`\n  *,\n  :before,\n  :after {\n    ", _jsx(_components.span, {
+          children: ["`\r\n  *,\r\n  :before,\r\n  :after {\r\n    ", _jsx(_components.span, {
             className: "hljs-subst",
             children: "${reset}"
-          }), ";\n  }\n  html {\n    scroll-behavior: smooth;\n  }\n  body {\n    font-family: 'Noto Sans KR', sans-serif;\n    font-weight: 400;\n    font-size: 16px;\n    line-height: 1.5;\n    color: #000;\n    background: #fff;\n    -webkit-text-size-adjust: 100%;\n    min-width: 320px;\n    &.is-mobile {\n      font-size: 12px;\n    }\n    &.is-scroll-lock {\n      overflow: hidden;\n    }\n  }\n  ol,\n  ul {\n    list-style: none;\n  }\n  table {\n    width: 100%;\n    border-spacing: 0;\n    table-layout: fixed;\n  }\n  th,\n  td {\n    text-align: center;\n    vertical-align: middle;\n  }\n  a {\n    text-decoration: none;\n  }\n  button {\n    border: none;\n    border-radius: 0;\n    background: none;\n    appearance: none;\n    cursor: pointer;\n  }\n`"]
+          }), ";\r\n  }\r\n  html {\r\n    scroll-behavior: smooth;\r\n  }\r\n  body {\r\n    font-family: 'Noto Sans KR', sans-serif;\r\n    font-weight: 400;\r\n    font-size: 16px;\r\n    line-height: 1.5;\r\n    color: #000;\r\n    background: #fff;\r\n    -webkit-text-size-adjust: 100%;\r\n    min-width: 320px;\r\n    &.is-mobile {\r\n      font-size: 12px;\r\n    }\r\n    &.is-scroll-lock {\r\n      overflow: hidden;\r\n    }\r\n  }\r\n  ol,\r\n  ul {\r\n    list-style: none;\r\n  }\r\n  table {\r\n    width: 100%;\r\n    border-spacing: 0;\r\n    table-layout: fixed;\r\n  }\r\n  th,\r\n  td {\r\n    text-align: center;\r\n    vertical-align: middle;\r\n  }\r\n  a {\r\n    text-decoration: none;\r\n  }\r\n  button {\r\n    border: none;\r\n    border-radius: 0;\r\n    background: none;\r\n    appearance: none;\r\n    cursor: pointer;\r\n  }\r\n`"]
         }), ";\n"]
       })
     }), "\n", _jsx(_components.h3, {
@@ -206,7 +206,7 @@ function _createMdxContent(props) {
         children: [_jsx(_components.span, {
           className: "hljs-string",
           children: "'use client'"
-        }), ";\n\n", _jsx(_components.span, {
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
         }), " ", _jsx(_components.span, {
@@ -218,7 +218,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "'react'"
-        }), ";\n", _jsx(_components.span, {
+        }), ";\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
         }), " { useServerInsertedHTML } ", _jsx(_components.span, {
@@ -227,7 +227,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "'next/navigation'"
-        }), ";\n", _jsx(_components.span, {
+        }), ";\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
         }), " { ", _jsx(_components.span, {
@@ -242,7 +242,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "'styled-components'"
-        }), ";\n\n", _jsx(_components.span, {
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -256,8 +256,8 @@ function _createMdxContent(props) {
           children: "StyledComponentsRegistry"
         }), "(", _jsx(_components.span, {
           className: "hljs-params",
-          children: "{\n  children,\n}: {\n  children: React.ReactNode;\n}"
-        }), ") {\n  ", _jsx(_components.span, {
+          children: "{\r\n  children,\r\n}: {\r\n  children: React.ReactNode;\r\n}"
+        }), ") {\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
         }), " [styledComponentsStyleSheet] = ", _jsx(_components.span, {
@@ -272,25 +272,25 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-title class_",
           children: "ServerStyleSheet"
-        }), "());\n\n  ", _jsx(_components.span, {
+        }), "());\r\n\r\n  ", _jsx(_components.span, {
           className: "hljs-title function_",
           children: "useServerInsertedHTML"
         }), "(", _jsx(_components.span, {
           className: "hljs-function",
           children: "() =>"
-        }), " {\n    ", _jsx(_components.span, {
+        }), " {\r\n    ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
         }), " styles = styledComponentsStyleSheet.", _jsx(_components.span, {
           className: "hljs-title function_",
           children: "getStyleElement"
-        }), "();\n    styledComponentsStyleSheet.", _jsx(_components.span, {
+        }), "();\r\n    styledComponentsStyleSheet.", _jsx(_components.span, {
           className: "hljs-property",
           children: "instance"
         }), ".", _jsx(_components.span, {
           className: "hljs-title function_",
           children: "clearTag"
-        }), "();\n    ", _jsx(_components.span, {
+        }), "();\r\n    ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "return"
         }), " ", _jsxs(_components.span, {
@@ -302,7 +302,7 @@ function _createMdxContent(props) {
             className: "hljs-tag",
             children: "</>"
           })]
-        }), ";\n  });\n\n  ", _jsx(_components.span, {
+        }), ";\r\n  });\r\n\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "if"
         }), " (", _jsx(_components.span, {
@@ -326,10 +326,10 @@ function _createMdxContent(props) {
             className: "hljs-tag",
             children: "</>"
           })]
-        }), ";\n\n  ", _jsx(_components.span, {
+        }), ";\r\n\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "return"
-        }), " (\n    ", _jsxs(_components.span, {
+        }), " (\r\n    ", _jsxs(_components.span, {
           className: "xml",
           children: [_jsxs(_components.span, {
             className: "hljs-tag",
@@ -343,14 +343,14 @@ function _createMdxContent(props) {
               className: "hljs-string",
               children: "{styledComponentsStyleSheet.instance}"
             }), ">"]
-          }), "\n      {children}\n    ", _jsxs(_components.span, {
+          }), "\r\n      {children}\r\n    ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["</", _jsx(_components.span, {
               className: "hljs-name",
               children: "StyleSheetManager"
             }), ">"]
           })]
-        }), "\n  );\n}\n"]
+        }), "\r\n  );\r\n}\n"]
       })
     }), "\n", _jsxs(_components.p, {
       children: ["그리고 ", _jsx(_components.code, {
@@ -377,7 +377,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"next\""
-        }), ";\n", _jsx(_components.span, {
+        }), ";\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
         }), " ", _jsx(_components.span, {
@@ -389,13 +389,13 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"@/styles/registry\""
-        }), ";\n\n", _jsx(_components.span, {
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "interface"
         }), " ", _jsx(_components.span, {
           className: "hljs-title class_",
           children: "Props"
-        }), " {\n  ", _jsx(_components.span, {
+        }), " {\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "children"
         }), ": ", _jsx(_components.span, {
@@ -404,7 +404,7 @@ function _createMdxContent(props) {
         }), ".", _jsx(_components.span, {
           className: "hljs-property",
           children: "ReactNode"
-        }), ";\n}\n\n", _jsx(_components.span, {
+        }), ";\r\n}\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -416,19 +416,19 @@ function _createMdxContent(props) {
         }), ": ", _jsx(_components.span, {
           className: "hljs-title class_",
           children: "Metadata"
-        }), " = {\n  ", _jsx(_components.span, {
+        }), " = {\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "title"
         }), ": ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"Create Next App\""
-        }), ",\n  ", _jsx(_components.span, {
+        }), ",\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "description"
         }), ": ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"Generated by create next app\""
-        }), ",\n};\n\n", _jsx(_components.span, {
+        }), ",\r\n};\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
         }), " ", _jsx(_components.span, {
@@ -437,10 +437,10 @@ function _createMdxContent(props) {
         }), " = (", _jsx(_components.span, {
           className: "hljs-params",
           children: "{ children }: Props"
-        }), ") => {\n  ", _jsx(_components.span, {
+        }), ") => {\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "return"
-        }), " (\n    ", _jsxs(_components.span, {
+        }), " (\r\n    ", _jsxs(_components.span, {
           className: "xml",
           children: [_jsxs(_components.span, {
             className: "hljs-tag",
@@ -454,13 +454,13 @@ function _createMdxContent(props) {
               className: "hljs-string",
               children: "\"ko\""
             }), ">"]
-          }), "\n      ", _jsxs(_components.span, {
+          }), "\r\n      ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["<", _jsx(_components.span, {
               className: "hljs-name",
               children: "body"
             }), ">"]
-          }), "\n        ", _jsxs(_components.span, {
+          }), "\r\n        ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["<", _jsx(_components.span, {
               className: "hljs-name",
@@ -472,20 +472,20 @@ function _createMdxContent(props) {
               className: "hljs-name",
               children: "StyledComponentsRegistry"
             }), ">"]
-          }), "\n      ", _jsxs(_components.span, {
+          }), "\r\n      ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["</", _jsx(_components.span, {
               className: "hljs-name",
               children: "body"
             }), ">"]
-          }), "\n    ", _jsxs(_components.span, {
+          }), "\r\n    ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["</", _jsx(_components.span, {
               className: "hljs-name",
               children: "html"
             }), ">"]
           })]
-        }), "\n  );\n};\n\n", _jsx(_components.span, {
+        }), "\r\n  );\r\n};\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -511,7 +511,7 @@ function _createMdxContent(props) {
         children: [_jsx(_components.span, {
           className: "hljs-string",
           children: "\"use client\""
-        }), ";\n\n", _jsx(_components.span, {
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
         }), " ", _jsx(_components.span, {
@@ -523,7 +523,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"react\""
-        }), ";\n", _jsx(_components.span, {
+        }), ";\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
         }), " { useServerInsertedHTML } ", _jsx(_components.span, {
@@ -532,7 +532,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"next/navigation\""
-        }), ";\n", _jsx(_components.span, {
+        }), ";\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
         }), " { ", _jsx(_components.span, {
@@ -547,7 +547,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"styled-components\""
-        }), ";\n", _jsx(_components.span, {
+        }), ";\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
         }), " { ", _jsx(_components.span, {
@@ -559,7 +559,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"@/styles/global\""
-        }), ";\n\n", _jsx(_components.span, {
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -573,8 +573,8 @@ function _createMdxContent(props) {
           children: "StyledComponentsRegistry"
         }), "(", _jsx(_components.span, {
           className: "hljs-params",
-          children: "{\n  children,\n}: {\n  children: React.ReactNode;\n}"
-        }), ") {\n  ", _jsx(_components.span, {
+          children: "{\r\n  children,\r\n}: {\r\n  children: React.ReactNode;\r\n}"
+        }), ") {\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
         }), " [styledComponentsStyleSheet] = ", _jsx(_components.span, {
@@ -589,25 +589,25 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-title class_",
           children: "ServerStyleSheet"
-        }), "());\n\n  ", _jsx(_components.span, {
+        }), "());\r\n\r\n  ", _jsx(_components.span, {
           className: "hljs-title function_",
           children: "useServerInsertedHTML"
         }), "(", _jsx(_components.span, {
           className: "hljs-function",
           children: "() =>"
-        }), " {\n    ", _jsx(_components.span, {
+        }), " {\r\n    ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
         }), " styles = styledComponentsStyleSheet.", _jsx(_components.span, {
           className: "hljs-title function_",
           children: "getStyleElement"
-        }), "();\n    styledComponentsStyleSheet.", _jsx(_components.span, {
+        }), "();\r\n    styledComponentsStyleSheet.", _jsx(_components.span, {
           className: "hljs-property",
           children: "instance"
         }), ".", _jsx(_components.span, {
           className: "hljs-title function_",
           children: "clearTag"
-        }), "();\n    ", _jsx(_components.span, {
+        }), "();\r\n    ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "return"
         }), " ", _jsxs(_components.span, {
@@ -619,7 +619,7 @@ function _createMdxContent(props) {
             className: "hljs-tag",
             children: "</>"
           })]
-        }), ";\n  });\n\n  ", _jsx(_components.span, {
+        }), ";\r\n  });\r\n\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "if"
         }), " (", _jsx(_components.span, {
@@ -643,10 +643,10 @@ function _createMdxContent(props) {
             className: "hljs-tag",
             children: "</>"
           })]
-        }), ";\n\n  ", _jsx(_components.span, {
+        }), ";\r\n\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "return"
-        }), " (\n    ", _jsxs(_components.span, {
+        }), " (\r\n    ", _jsxs(_components.span, {
           className: "xml",
           children: [_jsxs(_components.span, {
             className: "hljs-tag",
@@ -660,20 +660,20 @@ function _createMdxContent(props) {
               className: "hljs-string",
               children: "{styledComponentsStyleSheet.instance}"
             }), ">"]
-          }), "\n      ", _jsxs(_components.span, {
+          }), "\r\n      ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["<", _jsx(_components.span, {
               className: "hljs-name",
               children: "GlobalStyle"
             }), " />"]
-          }), "\n      {children}\n    ", _jsxs(_components.span, {
+          }), "\r\n      {children}\r\n    ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["</", _jsx(_components.span, {
               className: "hljs-name",
               children: "StyleSheetManager"
             }), ">"]
           })]
-        }), "\n  );\n}\n"]
+        }), "\r\n  );\r\n}\n"]
       })
     }), "\n", _jsxs(_components.p, {
       children: ["편의를 위해 ", _jsx(_components.code, {
@@ -694,22 +694,22 @@ function _createMdxContent(props) {
             className: "hljs-type",
             children: "import('next').NextConfig"
           }), "} */"]
-        }), "\n", _jsx(_components.span, {
+        }), "\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
-        }), " nextConfig = {\n  ", _jsx(_components.span, {
+        }), " nextConfig = {\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "compiler"
-        }), ": {\n    ", _jsx(_components.span, {
+        }), ": {\r\n    ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "styledComponents"
-        }), ": {\n      ", _jsx(_components.span, {
+        }), ": {\r\n      ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "ssr"
         }), ": ", _jsx(_components.span, {
           className: "hljs-literal",
           children: "true"
-        }), ",\n      ", _jsx(_components.span, {
+        }), ",\r\n      ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "displayName"
         }), ": ", _jsx(_components.span, {
@@ -718,7 +718,7 @@ function _createMdxContent(props) {
         }), ", ", _jsx(_components.span, {
           className: "hljs-comment",
           children: "// 클래스명에 컴포넌트 이름을 붙임"
-        }), "\n      ", _jsx(_components.span, {
+        }), "\r\n      ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "pure"
         }), ": ", _jsx(_components.span, {
@@ -727,7 +727,7 @@ function _createMdxContent(props) {
         }), ", ", _jsx(_components.span, {
           className: "hljs-comment",
           children: "// dead code elimination (사용되지 않는 속성 제거)"
-        }), "\n    },\n  },\n};\n\n", _jsx(_components.span, {
+        }), "\r\n    },\r\n  },\r\n};\r\n\r\n", _jsx(_components.span, {
           className: "hljs-variable language_",
           children: "module"
         }), ".", _jsx(_components.span, {
@@ -767,7 +767,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-d:T3ed12,/*@jsxRuntime automatic @jsxImportSource react*/
+d:T3ed40,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -910,13 +910,13 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"next\""
-        }), ";\n\n", _jsx(_components.span, {
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "interface"
         }), " ", _jsx(_components.span, {
           className: "hljs-title class_",
           children: "Props"
-        }), " {\n  ", _jsx(_components.span, {
+        }), " {\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "children"
         }), ": ", _jsx(_components.span, {
@@ -925,7 +925,7 @@ function _createMdxContent(props) {
         }), ".", _jsx(_components.span, {
           className: "hljs-property",
           children: "ReactNode"
-        }), ";\n}\n\n", _jsx(_components.span, {
+        }), ";\r\n}\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -937,19 +937,19 @@ function _createMdxContent(props) {
         }), ": ", _jsx(_components.span, {
           className: "hljs-title class_",
           children: "Metadata"
-        }), " = {\n  ", _jsx(_components.span, {
+        }), " = {\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "title"
         }), ": ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"Create Next App\""
-        }), ",\n  ", _jsx(_components.span, {
+        }), ",\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "description"
         }), ": ", _jsx(_components.span, {
           className: "hljs-string",
           children: "\"Generated by create next app\""
-        }), ",\n};\n\n", _jsx(_components.span, {
+        }), ",\r\n};\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
         }), " ", _jsx(_components.span, {
@@ -958,10 +958,10 @@ function _createMdxContent(props) {
         }), " = (", _jsx(_components.span, {
           className: "hljs-params",
           children: "{ children }: Props"
-        }), ") => {\n  ", _jsx(_components.span, {
+        }), ") => {\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "return"
-        }), " (\n    ", _jsxs(_components.span, {
+        }), " (\r\n    ", _jsxs(_components.span, {
           className: "xml",
           children: [_jsxs(_components.span, {
             className: "hljs-tag",
@@ -975,7 +975,7 @@ function _createMdxContent(props) {
               className: "hljs-string",
               children: "\"ko\""
             }), ">"]
-          }), "\n      ", _jsxs(_components.span, {
+          }), "\r\n      ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["<", _jsx(_components.span, {
               className: "hljs-name",
@@ -987,14 +987,14 @@ function _createMdxContent(props) {
               className: "hljs-name",
               children: "body"
             }), ">"]
-          }), "\n    ", _jsxs(_components.span, {
+          }), "\r\n    ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["</", _jsx(_components.span, {
               className: "hljs-name",
               children: "html"
             }), ">"]
           })]
-        }), "\n  );\n};\n\n", _jsx(_components.span, {
+        }), "\r\n  );\r\n};\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -1019,7 +1019,7 @@ function _createMdxContent(props) {
           children: "RootPage"
         }), "(", _jsx(_components.span, {
           className: "hljs-params"
-        }), ") {\n  ", _jsx(_components.span, {
+        }), ") {\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "return"
         }), " ", _jsxs(_components.span, {
@@ -1037,7 +1037,7 @@ function _createMdxContent(props) {
               children: "div"
             }), ">"]
           })]
-        }), ";\n}\n\n", _jsx(_components.span, {
+        }), ";\r\n}\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -1099,7 +1099,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-e:T6e28e,/*@jsxRuntime automatic @jsxImportSource react*/
+e:T6e590,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1182,16 +1182,16 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "Deploy"
-        }), "\n\n", _jsx(_components.span, {
+        }), "\r\n\r\n", _jsx(_components.span, {
           className: "hljs-attr",
           children: "on:"
-        }), "\n  ", _jsx(_components.span, {
+        }), "\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "push:"
-        }), "\n    ", _jsx(_components.span, {
+        }), "\r\n    ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "branches:"
-        }), "\n      ", _jsx(_components.span, {
+        }), "\r\n      ", _jsx(_components.span, {
           className: "hljs-bullet",
           children: "-"
         }), " ", _jsx(_components.span, {
@@ -1200,22 +1200,22 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-comment",
           children: "# push를 감지할 대상 branch 입니다."
-        }), "\n\n", _jsx(_components.span, {
+        }), "\r\n\r\n", _jsx(_components.span, {
           className: "hljs-attr",
           children: "jobs:"
-        }), "\n  ", _jsx(_components.span, {
+        }), "\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "build-and-deploy:"
-        }), "\n    ", _jsx(_components.span, {
+        }), "\r\n    ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "runs-on:"
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "ubuntu-latest"
-        }), "\n    ", _jsx(_components.span, {
+        }), "\r\n    ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "steps:"
-        }), "\n      ", _jsx(_components.span, {
+        }), "\r\n      ", _jsx(_components.span, {
           className: "hljs-bullet",
           children: "-"
         }), " ", _jsx(_components.span, {
@@ -1227,13 +1227,13 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "🛎️"
-        }), "\n        ", _jsx(_components.span, {
+        }), "\r\n        ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "uses:"
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "actions/checkout@v3"
-        }), "\n\n      ", _jsx(_components.span, {
+        }), "\r\n\r\n      ", _jsx(_components.span, {
           className: "hljs-bullet",
           children: "-"
         }), " ", _jsx(_components.span, {
@@ -1251,13 +1251,34 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "🔧"
-        }), "\n        ", _jsx(_components.span, {
+        }), "\r\n        ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "run:"
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
-          children: "|\n          yarn install\n          yarn build && touch ./out/.nojekyll\n"
-        }), "\n      ", _jsx(_components.span, {
+          children: "|"
+        }), "\r\n          ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "yarn"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "install"
+        }), "\r\n          ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "yarn"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "build"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "&&"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "touch"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "./out/.nojekyll"
+        }), "\r\n\r\n      ", _jsx(_components.span, {
           className: "hljs-bullet",
           children: "-"
         }), " ", _jsx(_components.span, {
@@ -1269,16 +1290,16 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "🚀"
-        }), "\n        ", _jsx(_components.span, {
+        }), "\r\n        ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "uses:"
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "JamesIves/github-pages-deploy-action@v4"
-        }), "\n        ", _jsx(_components.span, {
+        }), "\r\n        ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "with:"
-        }), "\n          ", _jsx(_components.span, {
+        }), "\r\n          ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "branch:"
         }), " ", _jsx(_components.span, {
@@ -1287,7 +1308,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-comment",
           children: "# github page를 서비스 할 branch 입니다."
-        }), "\n          ", _jsx(_components.span, {
+        }), "\r\n          ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "folder:"
         }), " ", _jsx(_components.span, {
@@ -1316,10 +1337,10 @@ function _createMdxContent(props) {
             className: "hljs-type",
             children: "import('next').NextConfig"
           }), "} */"]
-        }), "\n", _jsx(_components.span, {
+        }), "\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
-        }), " nextConfig = {\n  ", _jsx(_components.span, {
+        }), " nextConfig = {\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "output"
         }), ": ", _jsx(_components.span, {
@@ -1328,31 +1349,31 @@ function _createMdxContent(props) {
         }), ", ", _jsx(_components.span, {
           className: "hljs-comment",
           children: "// '/out' 경로에 정적 html 파일을 생성합니다."
-        }), "\n  ", _jsx(_components.span, {
+        }), "\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "compiler"
-        }), ": {\n    ", _jsx(_components.span, {
+        }), ": {\r\n    ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "styledComponents"
-        }), ": {\n      ", _jsx(_components.span, {
+        }), ": {\r\n      ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "ssr"
         }), ": ", _jsx(_components.span, {
           className: "hljs-literal",
           children: "true"
-        }), ",\n      ", _jsx(_components.span, {
+        }), ",\r\n      ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "displayName"
         }), ": ", _jsx(_components.span, {
           className: "hljs-literal",
           children: "true"
-        }), ",\n      ", _jsx(_components.span, {
+        }), ",\r\n      ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "pure"
         }), ": ", _jsx(_components.span, {
           className: "hljs-literal",
           children: "true"
-        }), ",\n    },\n  },\n};\n\n", _jsx(_components.span, {
+        }), ",\r\n    },\r\n  },\r\n};\r\n\r\n", _jsx(_components.span, {
           className: "hljs-variable language_",
           children: "module"
         }), ".", _jsx(_components.span, {
