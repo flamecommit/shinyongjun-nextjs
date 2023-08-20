@@ -11,13 +11,20 @@ type Props = {
 function CommonSearch({ setSearchKeyword }: Props) {
   const [value, setValue] = useState('');
 
+  const submitKeyword = () => {
+    setSearchKeyword(value.trim());
+    window.scrollTo({
+      top: 0,
+    });
+  };
+
   const handleOnChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setValue(e.target.value);
   };
 
   const handleOnKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
-      setSearchKeyword(value.trim());
+      submitKeyword();
     }
   };
 
@@ -29,7 +36,7 @@ function CommonSearch({ setSearchKeyword }: Props) {
         onChange={handleOnChange}
         onKeyDown={handleOnKeyDown}
       />
-      <button type="button" onClick={() => setSearchKeyword(value.trim())}>
+      <button type="button" onClick={submitKeyword}>
         Search
       </button>
     </StyledCommonSearch>

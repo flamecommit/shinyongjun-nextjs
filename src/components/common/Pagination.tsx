@@ -39,6 +39,9 @@ function CommonPagination({ currentPage, totalCount, setCurrentPage }: Props) {
 
   useEffect(() => {
     setCurrentGroupIndex(Math.floor((currentPage - 1) / PAGE_PER_GROUP));
+    window.scrollTo({
+      top: 0,
+    });
   }, [currentPage]);
 
   return (
@@ -100,7 +103,6 @@ const StyledCommonPagination = styled.div`
     justify-content: center;
     width: 30px;
     height: 30px;
-    border: 1px solid #ddd;
     &.active {
       background-color: #333;
       color: #fff;

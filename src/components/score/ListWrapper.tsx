@@ -27,10 +27,8 @@ function ScoreListWrapper({ scoreList }: Props) {
     // Keyword 검색 시 Origin List 에서 검색 후 결과 개수 상관없이 전부 노출.
     if (searchKeyword) {
       const searchResult = scoreList.filter((score) => {
-        return (
-          score.artist.includes(searchKeyword) ||
-          score.title.includes(searchKeyword)
-        );
+        const displayTitle = `${score.artist} - ${score.title}`;
+        return displayTitle.includes(searchKeyword);
       });
       setDisplayList(searchResult);
     } else {
@@ -39,7 +37,7 @@ function ScoreListWrapper({ scoreList }: Props) {
       const searchResult = scoreList.slice(startIndex, endIndex);
       setDisplayList(searchResult);
     }
-  }, [searchKeyword, scoreList, currentPage]);
+  }, [scoreList, searchKeyword, currentPage]);
 
   return (
     <StyledScoreListWrapper>

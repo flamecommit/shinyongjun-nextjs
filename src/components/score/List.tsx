@@ -6,6 +6,7 @@ import { IoIosMusicalNotes } from '@react-icons/all-files/io/IoIosMusicalNotes';
 import { useState } from 'react';
 import { Score } from '@/services/score';
 import { device } from '@/styles/mixin';
+import CommonEmpty from '../common/Empty';
 
 type Props = {
   scoreList: Score[];
@@ -18,16 +19,20 @@ type Props = {
 function ScoreList({ scoreList }: Props) {
   return (
     <StyledScoreList>
-      {scoreList.map((score) => {
-        return (
-          <div key={score.slug} className="score-item">
-            <Link href={`/score/${score.slug}`} className="title">
-              <IoIosMusicalNotes />
-              {score.artist} - {score.title}
-            </Link>
-          </div>
-        );
-      })}
+      {scoreList.length ? (
+        scoreList.map((score) => {
+          return (
+            <div key={score.slug} className="score-item">
+              <Link href={`/score/${score.slug}`} className="title">
+                <IoIosMusicalNotes />
+                {score.artist} - {score.title}
+              </Link>
+            </div>
+          );
+        })
+      ) : (
+        <CommonEmpty>검색 결과가 없습니다.</CommonEmpty>
+      )}
     </StyledScoreList>
   );
 }
