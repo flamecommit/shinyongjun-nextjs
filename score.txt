@@ -1,4 +1,4 @@
-0:["cJyQYOCBsOzcIYq_R8wzp",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+0:["6EBXpUgS9BOUGbZCHGj1v",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
 3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-dfee70d58999aeeb.js"],"name":"","async":false}
 4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-dfee70d58999aeeb.js"],"name":"","async":false}
 5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-dfee70d58999aeeb.js"],"name":"","async":false}
@@ -9,442 +9,436 @@
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Home"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun.com"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"shinyongjun.com"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
 a:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-b7878e63a24faaf4.js"],"name":"","async":false}
 b:I{"id":6556,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-b7878e63a24faaf4.js"],"name":"","async":false}
-c:T2b4f,/*@jsxRuntime automatic @jsxImportSource react*/
-const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+c:T2761,/*@jsxRuntime automatic @jsxImportSource react*/
+const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
-  const _components = Object.assign({
-    p: "p"
-  }, _provideComponents(), props.components), {ScoreWrapper, ScorePhrase} = _components;
+  const {ScoreWrapper, ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
   if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
   if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
-  return _jsxs(_Fragment, {
-    children: [_jsx(_components.p, {
-      children: "G"
-    }), "\n", _jsxs(ScoreWrapper, {
-      children: [_jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '나는 읽기 쉬운 마음이야 당신도 쓱 훑고 가셔요',
-          chordList: [{
-            name: 'G',
-            position: 1
-          }, {
-            name: 'Bm',
-            position: 9
-          }, {
-            name: 'C',
-            position: 16
-          }, {
-            name: 'Cm',
-            position: 20
-          }, {
-            name: 'G',
-            position: 25
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '달랠 길 없는 외로운 마음 있지 머물다 가셔요 - 음',
-          chordList: [{
-            name: 'Cm',
-            position: 0
-          }, {
-            name: 'Bm',
-            position: 10
-          }, {
-            name: 'E',
-            position: 16
-          }, {
-            name: 'Am',
-            position: 22
-          }, {
-            name: 'D',
-            position: 28
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '내게 긴 여운을 남겨줘요 사랑을, 사랑을 해줘요',
-          chordList: [{
-            name: 'G',
-            position: 1
-          }, {
-            name: 'Bm',
-            position: 10
-          }, {
-            name: 'C',
-            position: 16
-          }, {
-            name: 'Cm',
-            position: 20
-          }, {
-            name: 'G',
-            position: 25
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '할 수 있다면 그럴 수만 있다면 새하얀 빛으로 그댈 비춰 줄게요',
-          chordList: [{
-            name: 'Cm',
-            position: 0
-          }, {
-            name: 'Bm',
-            position: 11
-          }, {
-            name: 'E',
-            position: 16
-          }, {
-            name: 'Am',
-            position: 22
-          }, {
-            name: 'D',
-            position: 32
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '그러다 밤이 찾아오면 우리 둘만의 비밀을 새겨요',
-          chordList: [{
-            name: 'G',
-            position: 2
-          }, {
-            name: 'B7',
-            position: 4
-          }, {
-            name: 'Em',
-            position: 9
-          }, {
-            name: 'C',
-            position: 15
-          }, {
-            name: 'Cm',
-            position: 20
-          }, {
-            name: 'G',
-            position: 25
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '추억할 그 밤 위에 갈피를 꽂고선 남몰래 펼쳐보아요',
-          chordList: [{
-            name: 'Cm',
-            position: 1
-          }, {
-            name: 'F]',
-            position: 8
-          }, {
-            name: 'Bm',
-            position: 12
-          }, {
-            name: 'Em',
-            position: 17
-          }, {
-            name: 'C',
-            position: 20
-          }, {
-            name: 'D',
-            position: 23
-          }, {
-            name: 'G',
-            position: 27
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '(간주)',
-          chordList: [{
-            name: 'C',
-            position: 0
-          }, {
-            name: 'F]m',
-            position: 4
-          }, {
-            name: 'Bm',
-            position: 8
-          }, {
-            name: 'Em',
-            position: 12
-          }, {
-            name: 'C',
-            position: 16
-          }, {
-            name: 'D',
-            position: 20
-          }, {
-            name: 'G',
-            position: 24
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '나의 자라나는 마음을 못 본채 꺾어 버릴 순 없네',
-          chordList: [{
-            name: 'G',
-            position: 1
-          }, {
-            name: 'Bm',
-            position: 8
-          }, {
-            name: 'C',
-            position: 15
-          }, {
-            name: 'Cm',
-            position: 20
-          }, {
-            name: 'G',
-            position: 26
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '미련 남길 바엔 그리워 아픈 게 나아 서둘러 안겨본 그 품은 따스할 테니',
-          chordList: [{
-            name: 'Cm',
-            position: 1
-          }, {
-            name: 'Bm',
-            position: 11
-          }, {
-            name: 'E',
-            position: 18
-          }, {
-            name: 'Am',
-            position: 25
-          }, {
-            name: 'D',
-            position: 36
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '그러다 밤이 찾아오면 우리 둘만의 비밀을 새겨요',
-          chordList: [{
-            name: 'G',
-            position: 2
-          }, {
-            name: 'B7',
-            position: 4
-          }, {
-            name: 'Em',
-            position: 9
-          }, {
-            name: 'C',
-            position: 15
-          }, {
-            name: 'Cm',
-            position: 20
-          }, {
-            name: 'G',
-            position: 25
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '추억할 그 밤 위에 갈피를 꽂고선 남몰래 펼쳐보아요',
-          chordList: [{
-            name: 'Cm',
-            position: 1
-          }, {
-            name: 'F]',
-            position: 8
-          }, {
-            name: 'Bm',
-            position: 12
-          }, {
-            name: 'Em',
-            position: 17
-          }, {
-            name: 'C',
-            position: 20
-          }, {
-            name: 'A',
-            position: 23
-          }, {
-            name: 'D',
-            position: 27
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '언젠가 또 그날이 온대도 우린 서둘러 뒤돌지 말아요',
-          chordList: [{
-            name: 'G',
-            position: 2
-          }, {
-            name: 'B7',
-            position: 6
-          }, {
-            name: 'Em',
-            position: 11
-          }, {
-            name: 'C',
-            position: 17
-          }, {
-            name: 'Cm',
-            position: 22
-          }, {
-            name: 'G',
-            position: 27
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '마주 보던 그대로 뒷걸음치면서 서로의 안녕을 보아요',
-          chordList: [{
-            name: 'C',
-            position: 1
-          }, {
-            name: 'F]',
-            position: 7
-          }, {
-            name: 'Bm',
-            position: 11
-          }, {
-            name: 'Em',
-            position: 15
-          }, {
-            name: 'Am',
-            position: 18
-          }, {
-            name: 'D',
-            position: 22
-          }, {
-            name: 'G',
-            position: 27
-          }, {
-            name: 'Bm',
-            position: 30
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '(간주)',
-          chordList: [{
-            name: 'Em',
-            position: 0
-          }, {
-            name: 'C',
-            position: 4
-          }, {
-            name: 'D',
-            position: 8
-          }, {
-            name: 'G',
-            position: 12
-          }, {
-            name: 'Em',
-            position: 16
-          }, {
-            name: 'C',
-            position: 20
-          }, {
-            name: 'D',
-            position: 24
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '피고 지는   마음을 알아요 다시 돌아온 계절 - 도',
-          chordList: [{
-            name: 'G',
-            position: 0
-          }, {
-            name: 'Bm',
-            position: 4
-          }, {
-            name: 'Em',
-            position: 7
-          }, {
-            name: 'C',
-            position: 17
-          }, {
-            name: 'D',
-            position: 24
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '난 한동안   새 활짝 피었다 질래 또 한 번 영원히',
-          chordList: [{
-            name: 'G',
-            position: 0
-          }, {
-            name: 'Bm',
-            position: 4
-          }, {
-            name: 'Em',
-            position: 7
-          }, {
-            name: 'C',
-            position: 18
-          }, {
-            name: 'D',
-            position: 27
-          }, {
-            name: 'G',
-            position: 30
-          }, {
-            name: 'Bm',
-            position: 33
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: ' 그럼에도 내 사랑은 또 같은 꿈을 꾸고',
-          chordList: [{
-            name: 'Em',
-            position: 0
-          }, {
-            name: 'C',
-            position: 10
-          }, {
-            name: 'D',
-            position: 20
-          }, {
-            name: 'G',
-            position: 25
-          }, {
-            name: 'Bm',
-            position: 30
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: ' 그럼에도 꾸던 꿈을 난 또 미루진 않을 거야',
-          chordList: [{
-            name: 'Em',
-            position: 0
-          }, {
-            name: 'C',
-            position: 10
-          }, {
-            name: 'D',
-            position: 23
-          }, {
-            name: 'G',
-            position: 28
-          }, {
-            name: 'Bm',
-            position: 33
-          }]
-        }
-      }), _jsx(ScorePhrase, {
-        phrase: {
-          lyrics: '(후주 fadeout)',
-          chordList: [{
-            name: 'Em',
-            position: 0
-          }, {
-            name: 'C',
-            position: 4
-          }, {
-            name: 'D',
-            position: 8
-          }]
-        }
-      })]
+  return _jsxs(ScoreWrapper, {
+    children: [_jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '나는 읽기 쉬운 마음이야 당신도 쓱 훑고 가셔요',
+        chordList: [{
+          name: 'G',
+          position: 1
+        }, {
+          name: 'Bm',
+          position: 9
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'Cm',
+          position: 20
+        }, {
+          name: 'G',
+          position: 25
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '달랠 길 없는 외로운 마음 있지 머물다 가셔요 - 음',
+        chordList: [{
+          name: 'Cm',
+          position: 0
+        }, {
+          name: 'Bm',
+          position: 10
+        }, {
+          name: 'E',
+          position: 16
+        }, {
+          name: 'Am',
+          position: 22
+        }, {
+          name: 'D',
+          position: 28
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '내게 긴 여운을 남겨줘요 사랑을, 사랑을 해줘요',
+        chordList: [{
+          name: 'G',
+          position: 1
+        }, {
+          name: 'Bm',
+          position: 10
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'Cm',
+          position: 20
+        }, {
+          name: 'G',
+          position: 25
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '할 수 있다면 그럴 수만 있다면 새하얀 빛으로 그댈 비춰 줄게요',
+        chordList: [{
+          name: 'Cm',
+          position: 0
+        }, {
+          name: 'Bm',
+          position: 11
+        }, {
+          name: 'E',
+          position: 16
+        }, {
+          name: 'Am',
+          position: 22
+        }, {
+          name: 'D',
+          position: 32
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그러다 밤이 찾아오면 우리 둘만의 비밀을 새겨요',
+        chordList: [{
+          name: 'G',
+          position: 2
+        }, {
+          name: 'B7',
+          position: 4
+        }, {
+          name: 'Em',
+          position: 9
+        }, {
+          name: 'C',
+          position: 15
+        }, {
+          name: 'Cm',
+          position: 20
+        }, {
+          name: 'G',
+          position: 25
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '추억할 그 밤 위에 갈피를 꽂고선 남몰래 펼쳐보아요',
+        chordList: [{
+          name: 'Cm',
+          position: 1
+        }, {
+          name: 'F]',
+          position: 8
+        }, {
+          name: 'Bm',
+          position: 12
+        }, {
+          name: 'Em',
+          position: 17
+        }, {
+          name: 'C',
+          position: 20
+        }, {
+          name: 'D',
+          position: 23
+        }, {
+          name: 'G',
+          position: 27
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '(간주)',
+        chordList: [{
+          name: 'C',
+          position: 0
+        }, {
+          name: 'F]m',
+          position: 4
+        }, {
+          name: 'Bm',
+          position: 8
+        }, {
+          name: 'Em',
+          position: 12
+        }, {
+          name: 'C',
+          position: 16
+        }, {
+          name: 'D',
+          position: 20
+        }, {
+          name: 'G',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '나의 자라나는 마음을 못 본채 꺾어 버릴 순 없네',
+        chordList: [{
+          name: 'G',
+          position: 1
+        }, {
+          name: 'Bm',
+          position: 8
+        }, {
+          name: 'C',
+          position: 15
+        }, {
+          name: 'Cm',
+          position: 20
+        }, {
+          name: 'G',
+          position: 26
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '미련 남길 바엔 그리워 아픈 게 나아 서둘러 안겨본 그 품은 따스할 테니',
+        chordList: [{
+          name: 'Cm',
+          position: 1
+        }, {
+          name: 'Bm',
+          position: 11
+        }, {
+          name: 'E',
+          position: 18
+        }, {
+          name: 'Am',
+          position: 25
+        }, {
+          name: 'D',
+          position: 36
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그러다 밤이 찾아오면 우리 둘만의 비밀을 새겨요',
+        chordList: [{
+          name: 'G',
+          position: 2
+        }, {
+          name: 'B7',
+          position: 4
+        }, {
+          name: 'Em',
+          position: 9
+        }, {
+          name: 'C',
+          position: 15
+        }, {
+          name: 'Cm',
+          position: 20
+        }, {
+          name: 'G',
+          position: 25
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '추억할 그 밤 위에 갈피를 꽂고선 남몰래 펼쳐보아요',
+        chordList: [{
+          name: 'Cm',
+          position: 1
+        }, {
+          name: 'F]',
+          position: 8
+        }, {
+          name: 'Bm',
+          position: 12
+        }, {
+          name: 'Em',
+          position: 17
+        }, {
+          name: 'C',
+          position: 20
+        }, {
+          name: 'A',
+          position: 23
+        }, {
+          name: 'D',
+          position: 27
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '언젠가 또 그날이 온대도 우린 서둘러 뒤돌지 말아요',
+        chordList: [{
+          name: 'G',
+          position: 2
+        }, {
+          name: 'B7',
+          position: 6
+        }, {
+          name: 'Em',
+          position: 11
+        }, {
+          name: 'C',
+          position: 17
+        }, {
+          name: 'Cm',
+          position: 22
+        }, {
+          name: 'G',
+          position: 27
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '마주 보던 그대로 뒷걸음치면서 서로의 안녕을 보아요',
+        chordList: [{
+          name: 'C',
+          position: 1
+        }, {
+          name: 'F]',
+          position: 7
+        }, {
+          name: 'Bm',
+          position: 11
+        }, {
+          name: 'Em',
+          position: 15
+        }, {
+          name: 'Am',
+          position: 18
+        }, {
+          name: 'D',
+          position: 22
+        }, {
+          name: 'G',
+          position: 27
+        }, {
+          name: 'Bm',
+          position: 30
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '(간주)',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'C',
+          position: 4
+        }, {
+          name: 'D',
+          position: 8
+        }, {
+          name: 'G',
+          position: 12
+        }, {
+          name: 'Em',
+          position: 16
+        }, {
+          name: 'C',
+          position: 20
+        }, {
+          name: 'D',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '피고 지는   마음을 알아요 다시 돌아온 계절 - 도',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Bm',
+          position: 4
+        }, {
+          name: 'Em',
+          position: 7
+        }, {
+          name: 'C',
+          position: 17
+        }, {
+          name: 'D',
+          position: 24
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '난 한동안   새 활짝 피었다 질래 또 한 번 영원히',
+        chordList: [{
+          name: 'G',
+          position: 0
+        }, {
+          name: 'Bm',
+          position: 4
+        }, {
+          name: 'Em',
+          position: 7
+        }, {
+          name: 'C',
+          position: 18
+        }, {
+          name: 'D',
+          position: 27
+        }, {
+          name: 'G',
+          position: 30
+        }, {
+          name: 'Bm',
+          position: 33
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 그럼에도 내 사랑은 또 같은 꿈을 꾸고',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'C',
+          position: 10
+        }, {
+          name: 'D',
+          position: 20
+        }, {
+          name: 'G',
+          position: 25
+        }, {
+          name: 'Bm',
+          position: 30
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 그럼에도 꾸던 꿈을 난 또 미루진 않을 거야',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'C',
+          position: 10
+        }, {
+          name: 'D',
+          position: 23
+        }, {
+          name: 'G',
+          position: 28
+        }, {
+          name: 'Bm',
+          position: 33
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '(후주 fadeout)',
+        chordList: [{
+          name: 'Em',
+          position: 0
+        }, {
+          name: 'C',
+          position: 4
+        }, {
+          name: 'D',
+          position: 8
+        }]
+      }
     })]
   });
 }
