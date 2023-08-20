@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 import { IoIosMusicalNotes } from '@react-icons/all-files/io/IoIosMusicalNotes';
-import { useState } from 'react';
 import { Score } from '@/services/score';
 import { device } from '@/styles/mixin';
 import CommonEmpty from '../common/Empty';
