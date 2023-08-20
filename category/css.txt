@@ -1,16 +1,16 @@
-0:["v4xxEt3VSka8-g8QhFpvH",[[["",{"children":["category",{"children":[["slug","css","d"],{"children":["__PAGE__?{\"slug\":\"css\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
-3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-dfee70d58999aeeb.js"],"name":"","async":false}
-4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-dfee70d58999aeeb.js"],"name":"","async":false}
-5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-dfee70d58999aeeb.js"],"name":"","async":false}
-6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-dfee70d58999aeeb.js"],"name":"","async":false}
+0:["UilkMV7dzuyfHrblF-uF2",[[["",{"children":["category",{"children":[["slug","css","d"],{"children":["__PAGE__?{\"slug\":\"css\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-1abfb03c6dd48e3c.js"],"name":"","async":false}
+4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-1abfb03c6dd48e3c.js"],"name":"","async":false}
+5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-1abfb03c6dd48e3c.js"],"name":"","async":false}
+6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-1abfb03c6dd48e3c.js"],"name":"","async":false}
 7:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 8:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","$L3",null,{"GA_TRACKING_ID":"G-LSSNKXXZKX"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","category","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","category","children",["slug","css","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9",null],"segment":"__PAGE__?{\"slug\":\"css\"}"},"styles":[]}],"segment":["slug","css","d"]},"styles":[]}],"segment":"category"},"styles":[]}]}]}]}]}]]}],null]
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun - Category - css"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun.com"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"shinyongjun.com"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
-a:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-08329d831f0a1b34.js"],"name":"","async":false}
-b:I{"id":6529,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-08329d831f0a1b34.js"],"name":"","async":false}
-c:I{"id":7493,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-08329d831f0a1b34.js"],"name":"","async":false}
-d:T1fb3,/*@jsxRuntime automatic @jsxImportSource react*/
+a:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-afea3f0cf33f3535.js"],"name":"","async":false}
+b:I{"id":6529,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-afea3f0cf33f3535.js"],"name":"","async":false}
+c:I{"id":7493,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-afea3f0cf33f3535.js"],"name":"","async":false}
+d:T2007,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -50,7 +50,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "'styled-components'"
-        }), ";\n\n", _jsx(_components.span, {
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -58,50 +58,50 @@ function _createMdxContent(props) {
           children: "const"
         }), " reset = css`", _jsxs(_components.span, {
           className: "css",
-          children: ["\n  ", _jsx(_components.span, {
+          children: ["\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "box-sizing"
-          }), ": border-box;\n  ", _jsx(_components.span, {
+          }), ": border-box;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "margin"
           }), ": ", _jsx(_components.span, {
             className: "hljs-number",
             children: "0"
-          }), ";\n  ", _jsx(_components.span, {
+          }), ";\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "padding"
           }), ": ", _jsx(_components.span, {
             className: "hljs-number",
             children: "0"
-          }), ";\n  ", _jsx(_components.span, {
+          }), ";\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "font-family"
-          }), ": inherit;\n  ", _jsx(_components.span, {
+          }), ": inherit;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "font-weight"
-          }), ": inherit;\n  ", _jsx(_components.span, {
+          }), ": inherit;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "font-size"
-          }), ": inherit;\n  ", _jsx(_components.span, {
+          }), ": inherit;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "line-height"
-          }), ": inherit;\n  ", _jsx(_components.span, {
+          }), ": inherit;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "color"
-          }), ": inherit;\n  ", _jsx(_components.span, {
+          }), ": inherit;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "vertical-align"
-          }), ": top;\n  ", _jsx(_components.span, {
+          }), ": top;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "text-underline-position"
-          }), ": under;\n  ", _jsx(_components.span, {
+          }), ": under;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "background-repeat"
-          }), ": no-repeat;\n  ", _jsx(_components.span, {
+          }), ": no-repeat;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "mask-repeat"
-          }), ": no-repeat;\n`"]
-        }), ";\n\n", _jsx(_components.span, {
+          }), ": no-repeat;\r\n`"]
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -118,35 +118,35 @@ function _createMdxContent(props) {
           })]
         }), ") => css`", _jsxs(_components.span, {
           className: "css",
-          children: ["\n  ", _jsx(_components.span, {
+          children: ["\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "overflow"
-          }), ": hidden;\n  ", _jsx(_components.span, {
+          }), ": hidden;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "text-overflow"
-          }), ": ellipsis;\n  ", _jsx(_components.span, {
+          }), ": ellipsis;\r\n  ", _jsx(_components.span, {
             className: "hljs-attribute",
             children: "display"
-          }), ": -webkit-box;\n  -webkit-box-orient: vertical;\n  -webkit-line-clamp: "]
+          }), ": -webkit-box;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-line-clamp: "]
         }), _jsx(_components.span, {
           className: "hljs-subst",
           children: "${line}"
         }), _jsx(_components.span, {
           className: "css",
-          children: ";\n`"
-        }), ";\n\n", _jsx(_components.span, {
+          children: ";\r\n`"
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
-        }), " device = {\n  ", _jsx(_components.span, {
+        }), " device = {\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "mobile"
         }), ": ", _jsx(_components.span, {
           className: "hljs-string",
           children: "`(max-width: 768px)`"
-        }), ",\n};\n"]
+        }), ",\r\n};\n"]
       })
     }), "\n", _jsx(_components.p, {
       children: "사용 방법은 다음과 같습니다."
@@ -165,7 +165,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "'styled-components'"
-        }), ";\n", _jsx(_components.span, {
+        }), ";\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
         }), " { reset } ", _jsx(_components.span, {
@@ -174,7 +174,7 @@ function _createMdxContent(props) {
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
           children: "'@/styles/mixin'"
-        }), ";\n\n", _jsx(_components.span, {
+        }), ";\r\n\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "export"
         }), " ", _jsx(_components.span, {
@@ -185,19 +185,19 @@ function _createMdxContent(props) {
           children: "GlobalStyle"
         }), " = createGlobalStyle", _jsxs(_components.span, {
           className: "hljs-string",
-          children: ["`\n  *,\n  :before,\n  :after {\n    ", _jsx(_components.span, {
+          children: ["`\r\n  *,\r\n  :before,\r\n  :after {\r\n    ", _jsx(_components.span, {
             className: "hljs-subst",
             children: "${reset}"
-          }), ";\n  }\n  .ellipsis {\n    ", _jsxs(_components.span, {
+          }), ";\r\n  }\r\n  .ellipsis {\r\n    ", _jsxs(_components.span, {
             className: "hljs-subst",
             children: ["${ellipsis(", _jsx(_components.span, {
               className: "hljs-number",
               children: "2"
             }), ")}"]
-          }), ";\n  }\n  @media ", _jsx(_components.span, {
+          }), ";\r\n  }\r\n  @media ", _jsx(_components.span, {
             className: "hljs-subst",
             children: "${device.mobile}"
-          }), " {\n    min-width: 320px;\n  }\n`"]
+          }), " {\r\n    min-width: 320px;\r\n  }\r\n`"]
         }), ";\n"]
       })
     })]
