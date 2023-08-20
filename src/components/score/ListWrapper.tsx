@@ -1,12 +1,13 @@
 'use client';
 
 import styled from 'styled-components';
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import { Score } from '@/services/score';
 import { device } from '@/styles/mixin';
 import ScoreList from './List';
 import CommonSearch from '../common/Search';
 import CommonPagination from '../common/Pagination';
+import CommonSpinner from '../common/Spinner';
 
 type Props = {
   scoreList: Score[];
@@ -19,7 +20,8 @@ type Props = {
 function ScoreListWrapper({ scoreList }: Props) {
   const ITEM_PER_PAGE = 10;
 
-  const [displayList, setDisplayList] = useState<Score[]>([...scoreList]);
+  const [isMounted, setIsMounted] = useState(false);
+  const [displayList, setDisplayList] = useState<Score[]>([]);
   const [searchKeyword, setSearchKeyword] = useState<string>('');
   const [currentPage, setCurrentPage] = useState<number>(1);
 
@@ -37,18 +39,25 @@ function ScoreListWrapper({ scoreList }: Props) {
       const searchResult = scoreList.slice(startIndex, endIndex);
       setDisplayList(searchResult);
     }
+    setIsMounted(true);
   }, [scoreList, searchKeyword, currentPage]);
 
   return (
     <StyledScoreListWrapper>
       <CommonSearch setSearchKeyword={setSearchKeyword} />
-      <ScoreList scoreList={displayList} />
-      {!searchKeyword && (
-        <CommonPagination
-          currentPage={currentPage}
-          setCurrentPage={setCurrentPage}
-          totalCount={scoreList.length}
-        />
+      {isMounted ? (
+        <>
+          <ScoreList scoreList={displayList} />
+          {!searchKeyword && (
+            <CommonPagination
+              currentPage={currentPage}
+              setCurrentPage={setCurrentPage}
+              totalCount={scoreList.length}
+            />
+          )}
+        </>
+      ) : (
+        <CommonSpinner />
       )}
     </StyledScoreListWrapper>
   );
