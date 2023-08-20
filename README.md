@@ -26,3 +26,7 @@
 - next-mdx-remote : next.js 환경에서 mdx 컴파일 지원
 - rehype-code-titles : mdx 컴파일 시 codeblock의 title(filename) 지원
 - remark-breaks : mdx 파일 작성 시 줄바꿈 기능 지원
+
+## Song Form
+
+Intro, Verse, Bridge, Pre-Chorus, Chorus
