@@ -406,7 +406,7 @@ const rootD: ChordType = {
   },
   DmM7: {
     composition: ['D', 'F', 'A', 'C]'],
-    chartList: [],
+    chartList: [[1, 2, 2, 0, -1, -1]],
   },
   Dadd2: {
     composition: ['D', 'F]', 'A', 'E'],
@@ -865,7 +865,7 @@ const rootG: ChordType = {
   },
   Gm: {
     composition: ['G', 'B[', 'D'],
-    chartList: [],
+    chartList: [[3, 3, 3, 5, 5, 3]],
   },
   Gm6: {
     composition: ['G', 'B[', 'D', 'E'],
