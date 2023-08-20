@@ -115,6 +115,7 @@ const rootC: ChordType = {
     chartList: [
       [3, 1, 0, 0, 3, -1],
       [3, 3, 0, 0, 3, -1],
+      [3, 3, 5, 5, 3, -1],
     ],
   },
   Csus4: {
@@ -122,21 +123,22 @@ const rootC: ChordType = {
     chartList: [
       [1, 1, 0, 3, 3, -1],
       [3, 1, 0, 3, 3, -1],
+      [3, 6, 5, 3, 3, -1],
     ],
   },
   C7sus2: {
     composition: ['C', 'D', 'G', 'B['],
     chartList: [
+      [3, 3, 3, 5, 3, -1],
       [3, 1, 3, 0, 3, -1],
       [3, 3, 3, 0, 3, -1],
-      [3, 3, 3, 5, 3, -1],
     ],
   },
   C7sus4: {
     composition: ['C', 'F', 'G', 'B['],
     chartList: [
-      [3, 6, 3, 5, 3, -1],
       [3, 6, 3, 3, 3, -1],
+      [3, 6, 3, 5, 3, -1],
     ],
   },
   Cdim: {
@@ -206,7 +208,7 @@ const rootCsharp: ChordType = {
   },
   'C]6': {
     composition: ['C]', 'F', 'G]', 'B['],
-    chartList: [],
+    chartList: [[6, 6, 6, 6, 4, -1]],
   },
   'C]7': {
     composition: ['C]', 'F', 'G]', 'B'],
@@ -214,7 +216,7 @@ const rootCsharp: ChordType = {
   },
   'C]9': {
     composition: ['C]', 'F', 'G]', 'B', 'E['],
-    chartList: [],
+    chartList: [[-1, 4, 4, 3, 4, -1]],
   },
   'C]11': {
     composition: ['C]', 'F', 'G]', 'B', 'E[', 'F]'],
@@ -222,23 +224,26 @@ const rootCsharp: ChordType = {
   },
   'C]M7': {
     composition: ['C]', 'F', 'G]', 'C'],
-    chartList: [],
+    chartList: [[4, 6, 5, 6, 4, -1]],
   },
   'C]sus2': {
     composition: ['C]', 'E[', 'G]'],
-    chartList: [],
+    chartList: [[4, 4, 6, 6, 4, -1]],
   },
   'C]sus4': {
     composition: ['C]', 'F]', 'G]'],
-    chartList: [],
+    chartList: [[4, 7, 6, 4, 4, -1]],
   },
   'C]7sus2': {
     composition: ['C]', 'E[', 'G]', 'B'],
-    chartList: [],
+    chartList: [[4, 4, 4, 6, 4, -1]],
   },
   'C]7sus4': {
     composition: ['C]', 'F]', 'G]', 'B'],
-    chartList: [[4, 7, 4, 6, 4, -1]],
+    chartList: [
+      [4, 7, 4, 4, 4, -1],
+      [4, 7, 4, 6, 4, -1],
+    ],
   },
   'C]dim': {
     composition: ['C]', 'E', 'G'],
@@ -333,20 +338,27 @@ const rootD: ChordType = {
   },
   Dsus2: {
     composition: ['D', 'E', 'A'],
-    chartList: [],
+    chartList: [[5, 5, 7, 7, 5, -1]],
   },
   Dsus4: {
     composition: ['D', 'G', 'A'],
-    chartList: [[3, 3, 2, 0, -1, -1]],
+    chartList: [
+      [3, 3, 2, 0, -1, -1],
+      [5, 8, 7, 5, 5, -1],
+    ],
   },
   D7sus2: {
     composition: ['D', 'E', 'A', 'C'],
-    chartList: [[0, 1, 2, 0, -1, -1]],
+    chartList: [
+      [0, 1, 2, 0, -1, -1],
+      [5, 5, 5, 7, 5, -1],
+    ],
   },
   D7sus4: {
     composition: ['D', 'G', 'A', 'C'],
     chartList: [
       [3, 1, 2, 0, -1, -1],
+      [5, 8, 5, 5, 5, -1],
       [5, 8, 5, 7, 5, -1],
     ],
   },
@@ -437,19 +449,22 @@ const rootEfret: ChordType = {
   },
   'E[sus2': {
     composition: ['E[', 'F', 'B['],
-    chartList: [],
+    chartList: [[6, 6, 8, 8, 6, -1]],
   },
   'E[sus4': {
     composition: ['E[', 'G]', 'B['],
-    chartList: [],
+    chartList: [[6, 9, 8, 6, 6, -1]],
   },
   'E[7sus2': {
     composition: ['E[', 'F', 'B[', 'C]'],
-    chartList: [],
+    chartList: [[6, 6, 6, 8, 6, -1]],
   },
   'E[7sus4': {
     composition: ['E[', 'G]', 'B[', 'C]'],
-    chartList: [],
+    chartList: [
+      [6, 9, 6, 6, 6, -1],
+      [6, 9, 6, 8, 6, -1],
+    ],
   },
   'E[dim': {
     composition: ['E[', 'F]', 'A'],
