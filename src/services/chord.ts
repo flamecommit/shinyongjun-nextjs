@@ -52,6 +52,8 @@ export const setComposition = (root: string, steps: number[]) => {
 const getMajorChord = (root: string) => setComposition(root, [0, 4, 7]);
 
 /** 6 : 6th */
+// C6 코드는 Cadd6, Cadd13 코드와 구성음이 같다.
+// const getAdd13Chord = (root: string) => setComposition(root, [0, 4, 7, 21]);
 const get6thChord = (root: string) => setComposition(root, [0, 4, 7, 9]);
 
 /** 7 : 7th */
@@ -125,7 +127,6 @@ const getMinor11thChord = (root: string) =>
 
 const getAdd9Chord = (root: string) => setComposition(root, [0, 4, 7, 14]);
 const getAdd11Chord = (root: string) => setComposition(root, [0, 4, 7, 17]);
-const getAdd13Chord = (root: string) => setComposition(root, [0, 4, 7, 21]);
 
 export const getComposition = (chord: string) => {
   let root = '';
@@ -160,8 +161,6 @@ export const getComposition = (chord: string) => {
     return getAdd9Chord(root);
   if (chord === `${root}add11` || chord === `${root}add4`)
     return getAdd11Chord(root);
-  if (chord === `${root}add13` || chord === `${root}add6`)
-    return getAdd13Chord(root);
   return [];
 };
 

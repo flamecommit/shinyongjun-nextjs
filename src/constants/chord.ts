@@ -11,7 +11,7 @@ export interface ChordType {
 
 export const kindOfChord = [
   '',
-  '6',
+  '6', // CM6, add6, add13
   '7',
   '9',
   '11',
@@ -32,7 +32,6 @@ export const kindOfChord = [
   'm11',
   'add2', // == add9
   'add4', // == add11
-  'add6', // == add13
 ];
 
 export const chordSymbolList = [
@@ -102,7 +101,10 @@ const rootC: ChordType = {
   },
   C11: {
     composition: ['C', 'E', 'G', 'B[', 'D', 'F'],
-    chartList: [],
+    chartList: [
+      [6, 6, 0, 0, 7, 8],
+      [10, 8, 9, 8, 8, 8],
+    ],
   },
   CM7: {
     composition: ['C', 'E', 'G', 'B'],
@@ -110,27 +112,40 @@ const rootC: ChordType = {
   },
   Csus2: {
     composition: ['C', 'D', 'G'],
-    chartList: [],
+    chartList: [
+      [3, 1, 0, 0, 3, -1],
+      [3, 3, 0, 0, 3, -1],
+    ],
   },
   Csus4: {
     composition: ['C', 'F', 'G'],
-    chartList: [[1, 1, 0, 3, 3, -1]],
+    chartList: [
+      [1, 1, 0, 3, 3, -1],
+      [3, 1, 0, 3, 3, -1],
+    ],
   },
   C7sus2: {
     composition: ['C', 'D', 'G', 'B['],
-    chartList: [],
+    chartList: [
+      [3, 1, 3, 0, 3, -1],
+      [3, 3, 3, 0, 3, -1],
+      [3, 3, 3, 5, 3, -1],
+    ],
   },
   C7sus4: {
     composition: ['C', 'F', 'G', 'B['],
-    chartList: [[3, 6, 3, 5, 3, -1]],
+    chartList: [
+      [3, 6, 3, 5, 3, -1],
+      [3, 6, 3, 3, 3, -1],
+    ],
   },
   Cdim: {
     composition: ['C', 'E[', 'F]'],
-    chartList: [],
+    chartList: [[2, 1, -1, 1, 3, -1]],
   },
   Cdim7: {
     composition: ['C', 'E[', 'F]', 'A'],
-    chartList: [],
+    chartList: [[8, 7, 8, 7, 0, 8]],
   },
   Cm: {
     composition: ['C', 'E[', 'G'],
@@ -141,7 +156,7 @@ const rootC: ChordType = {
   },
   Cm6: {
     composition: ['C', 'E[', 'G', 'A'],
-    chartList: [],
+    chartList: [[8, 10, 8, 10, 10, 8]],
   },
   Cm7: {
     composition: ['C', 'E[', 'G', 'B['],
@@ -157,15 +172,15 @@ const rootC: ChordType = {
   },
   CmM7: {
     composition: ['C', 'E[', 'G', 'B'],
-    chartList: [],
+    chartList: [[3, 0, 0, 1, 3, -1]],
   },
   Cm9: {
     composition: ['C', 'E[', 'G', 'B[', 'D'],
-    chartList: [],
+    chartList: [[3, 4, 3, 0, 3, -1]],
   },
   Cm11: {
     composition: ['C', 'E[', 'G', 'B[', 'D', 'F'],
-    chartList: [],
+    chartList: [[6, 6, 0, 0, 6, 8]],
   },
   Cadd2: {
     composition: ['C', 'E', 'G', 'D'],
@@ -173,7 +188,7 @@ const rootC: ChordType = {
   },
   Cadd4: {
     composition: ['C', 'E', 'G', 'F'],
-    chartList: [],
+    chartList: [[0, 1, 0, 3, 3, -1]],
   },
   Cadd6: {
     composition: ['C', 'E', 'G', 'A'],
