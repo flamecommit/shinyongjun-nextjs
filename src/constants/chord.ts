@@ -1311,6 +1311,10 @@ const rootB: ChordType = {
 };
 
 export const inversion: ChordType = {
+  'Dm7/C': {
+    composition: [],
+    chartList: [[1, 1, 2, 0, 3, -1]],
+  },
   'Em/D': {
     composition: [],
     chartList: [[0, 0, 0, 0, -1, -1]],
@@ -1330,6 +1334,10 @@ export const inversion: ChordType = {
   'D7/F]': {
     composition: [],
     chartList: [[2, 1, 2, 0, 0, 2]],
+  },
+  'C/G': {
+    composition: [],
+    chartList: [[0, 1, 0, 2, 3, 3]],
   },
   'G/B': {
     composition: [],

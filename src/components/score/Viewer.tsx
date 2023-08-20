@@ -112,6 +112,7 @@ const StyledScoreViewer = styled.div`
       text-align: center;
       margin-top: 6px;
       color: #666;
+      font-size: 12px;
     }
     code {
       display: inline-block;

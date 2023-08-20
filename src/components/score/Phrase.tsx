@@ -38,7 +38,7 @@ function ScorePhrase({ phrase }: Props) {
 
   return (
     <>
-      <StyledScorePhrase>
+      <StyledScorePhrase className="score-phrase">
         {phraseArray.map((item, i) => {
           return (
             <div key={i} className="letter" data-letter-index={i}>
@@ -71,7 +71,7 @@ function ScorePhrase({ phrase }: Props) {
 const StyledScorePhrase = styled.div`
   display: flex;
   flex-wrap: wrap;
-  column-gap: 0.1em;
+  // column-gap: 0.1em;
   .letter {
     display: flex;
     flex-direction: column;

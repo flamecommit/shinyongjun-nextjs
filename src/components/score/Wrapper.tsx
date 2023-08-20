@@ -5,20 +5,19 @@ import { device } from '@/styles/mixin';
 
 interface Props {
   children: React.ReactNode;
+  letterSpacing?: number;
 }
 
-function ScoreWrapper({ children }: Props) {
+function ScoreWrapper({ children, letterSpacing }: Props) {
   return (
-    <>
-      <StyledScoreWrapper>
-        <p className="notice">※ 코드를 클릭하면 코드표가 나옵니다.</p>
-        {children}
-      </StyledScoreWrapper>
-    </>
+    <StyledScoreWrapper $letterSpacing={letterSpacing}>
+      <p className="notice">※ 코드를 클릭하면 코드표가 나옵니다.</p>
+      {children}
+    </StyledScoreWrapper>
   );
 }
 
-const StyledScoreWrapper = styled.article`
+const StyledScoreWrapper = styled.article<{ $letterSpacing?: number }>`
   display: grid;
   row-gap: 30px;
   font-size: 14px;
@@ -26,6 +25,10 @@ const StyledScoreWrapper = styled.article`
     margin-bottom: 0 !important;
     font-size: 14px;
     color: #f00;
+  }
+  .letter {
+    flex-basis: ${(props) => `${props.$letterSpacing}em` || `1em`};
+    width: ${(props) => `${props.$letterSpacing}em` || `1em`};
   }
   @media ${device.mobile} {
     font-size: 12px;
