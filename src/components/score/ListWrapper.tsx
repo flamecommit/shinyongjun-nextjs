@@ -45,6 +45,7 @@ function ScoreListWrapper({ scoreList }: Props) {
   return (
     <StyledScoreListWrapper>
       <CommonSearch setSearchKeyword={setSearchKeyword} />
+      <CommonSpinner />
       {isMounted ? (
         <>
           <ScoreList scoreList={displayList} />
