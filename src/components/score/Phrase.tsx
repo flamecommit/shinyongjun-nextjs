@@ -3,6 +3,7 @@
 import styled from 'styled-components';
 import { useState } from 'react';
 import ChordSymbol from '@/components/chord/Symbol';
+import { device } from '@/styles/mixin';
 import ChordChart from '../chord/Chart';
 
 type Props = {
@@ -72,6 +73,9 @@ const StyledScorePhrase = styled.div`
   display: flex;
   flex-wrap: wrap;
   // column-gap: 0.1em;
+  padding: 4px;
+  background-color: #f7f7f7;
+  row-gap: 6px;
   .letter {
     display: flex;
     flex-direction: column;
@@ -101,6 +105,9 @@ const StyledScorePhrase = styled.div`
       font-size: 10px;
       text-align: center;
     }
+  }
+  @media ${device.mobile} {
+    padding: 3px;
   }
 `;
 
