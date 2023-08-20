@@ -13,7 +13,6 @@ import { SiJira } from '@react-icons/all-files/si/SiJira';
 import { SiConfluence } from '@react-icons/all-files/si/SiConfluence';
 import { SiAzuredevops } from '@react-icons/all-files/si/SiAzuredevops';
 import { SiRedux } from '@react-icons/all-files/si/SiRedux';
-import Link from 'next/link';
 import { device } from '@/styles/mixin';
 import PageLink from '../page/Link';
 

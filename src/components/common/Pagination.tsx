@@ -6,7 +6,6 @@ import { FiChevronsRight } from '@react-icons/all-files/fi/FiChevronsRight';
 import { FiChevronLeft } from '@react-icons/all-files/fi/FiChevronLeft';
 import { FiChevronsLeft } from '@react-icons/all-files/fi/FiChevronsLeft';
 import { FiChevronRight } from '@react-icons/all-files/fi/FiChevronRight';
-import { device } from '@/styles/mixin';
 
 type Props = {
   currentPage: number;

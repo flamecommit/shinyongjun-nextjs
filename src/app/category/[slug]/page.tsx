@@ -1,4 +1,4 @@
-import { Metadata, ResolvingMetadata } from 'next';
+import { Metadata } from 'next';
 import PageTitle from '@/components/page/Title';
 import PostList from '@/components/post/List';
 import { getPostListByCategory, getCategories } from '@/services/post';

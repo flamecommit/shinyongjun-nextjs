@@ -11,8 +11,7 @@ interface Props {
 export const metadata: Metadata = {
   title: 'shinyongjun | Home',
   description: process.env.BIO,
-  viewport:
-    'width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0',
+  viewport: 'width=device-width, initial-scale=1.0',
   openGraph: {
     type: 'website',
     title: 'shinyongjun.com',
