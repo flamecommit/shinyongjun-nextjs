@@ -14,7 +14,7 @@ import ChordChart from './Chart';
 
 function ChordGenerator() {
   const startPitch = [28, 23, 19, 14, 9, 4];
-  const [resultType, setResultType] = useState(0);
+  const [resultType, setResultType] = useState(-1);
   const [pitch, setPitch] = useState<number[]>([0, 0, 0, 0, 0, 0]);
   const [composition, setComposition] = useState<string[]>([]);
   const [resultChord, setResultChord] = useState<string>('');
@@ -48,6 +48,12 @@ function ChordGenerator() {
   }, [pitch]);
 
   useEffect(() => {
+    if (!composition.length) {
+      setResultType(-1);
+      setResultChord('');
+      return;
+    }
+
     const findChord = Object.entries(newChordList).find((chord) => {
       const isSameArray = arraysHaveSameElements(
         composition,
@@ -84,7 +90,7 @@ function ChordGenerator() {
     <>
       <StyledChordGenerator>
         <div className="result-area">
-          {resultType === 0 && <div className="symbol notfound">Not Found</div>}
+          {resultType <= 0 && <div className="symbol notfound">Not Found</div>}
           {resultType === 1 && (
             <>
               <button
