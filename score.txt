@@ -1,15 +1,466 @@
-0:["UdCcMhfo8uy6_4Sed87oI",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
-3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-5a163d50c6f4295b.js"],"name":"","async":false}
-4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-5a163d50c6f4295b.js"],"name":"","async":false}
-5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-5a163d50c6f4295b.js"],"name":"","async":false}
-6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-5a163d50c6f4295b.js"],"name":"","async":false}
+0:["_NHz54pXT47lap9EdMspy",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":3802,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-dfee70d58999aeeb.js"],"name":"","async":false}
+4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-dfee70d58999aeeb.js"],"name":"","async":false}
+5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-dfee70d58999aeeb.js"],"name":"","async":false}
+6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-dfee70d58999aeeb.js"],"name":"","async":false}
 7:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 8:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","$L3",null,{"GA_TRACKING_ID":"G-LSSNKXXZKX"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]}],["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","score","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9",null],"segment":"__PAGE__"},"styles":[]}],"segment":"score"},"styles":[]}]}]}]}]}]]}],null]
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Home"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun.com"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"shinyongjun.com"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
 a:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-f874192f41352d9c.js"],"name":"","async":false}
 b:I{"id":6556,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-f874192f41352d9c.js"],"name":"","async":false}
-c:T23e5,/*@jsxRuntime automatic @jsxImportSource react*/
+c:T2b4f,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    p: "p"
+  }, _provideComponents(), props.components), {ScoreWrapper, ScorePhrase} = _components;
+  if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
+  if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.p, {
+      children: "G"
+    }), "\n", _jsxs(ScoreWrapper, {
+      children: [_jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '나는 읽기 쉬운 마음이야 당신도 쓱 훑고 가셔요',
+          chordList: [{
+            name: 'G',
+            position: 1
+          }, {
+            name: 'Bm',
+            position: 9
+          }, {
+            name: 'C',
+            position: 16
+          }, {
+            name: 'Cm',
+            position: 20
+          }, {
+            name: 'G',
+            position: 25
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '달랠 길 없는 외로운 마음 있지 머물다 가셔요 - 음',
+          chordList: [{
+            name: 'Cm',
+            position: 0
+          }, {
+            name: 'Bm',
+            position: 10
+          }, {
+            name: 'E',
+            position: 16
+          }, {
+            name: 'Am',
+            position: 22
+          }, {
+            name: 'D',
+            position: 28
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '내게 긴 여운을 남겨줘요 사랑을, 사랑을 해줘요',
+          chordList: [{
+            name: 'G',
+            position: 1
+          }, {
+            name: 'Bm',
+            position: 10
+          }, {
+            name: 'C',
+            position: 16
+          }, {
+            name: 'Cm',
+            position: 20
+          }, {
+            name: 'G',
+            position: 25
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '할 수 있다면 그럴 수만 있다면 새하얀 빛으로 그댈 비춰 줄게요',
+          chordList: [{
+            name: 'Cm',
+            position: 0
+          }, {
+            name: 'Bm',
+            position: 11
+          }, {
+            name: 'E',
+            position: 16
+          }, {
+            name: 'Am',
+            position: 22
+          }, {
+            name: 'D',
+            position: 32
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '그러다 밤이 찾아오면 우리 둘만의 비밀을 새겨요',
+          chordList: [{
+            name: 'G',
+            position: 2
+          }, {
+            name: 'B7',
+            position: 4
+          }, {
+            name: 'Em',
+            position: 9
+          }, {
+            name: 'C',
+            position: 15
+          }, {
+            name: 'Cm',
+            position: 20
+          }, {
+            name: 'G',
+            position: 25
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '추억할 그 밤 위에 갈피를 꽂고선 남몰래 펼쳐보아요',
+          chordList: [{
+            name: 'Cm',
+            position: 1
+          }, {
+            name: 'F]',
+            position: 8
+          }, {
+            name: 'Bm',
+            position: 12
+          }, {
+            name: 'Em',
+            position: 17
+          }, {
+            name: 'C',
+            position: 20
+          }, {
+            name: 'D',
+            position: 23
+          }, {
+            name: 'G',
+            position: 27
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '(간주)',
+          chordList: [{
+            name: 'C',
+            position: 0
+          }, {
+            name: 'F]m',
+            position: 4
+          }, {
+            name: 'Bm',
+            position: 8
+          }, {
+            name: 'Em',
+            position: 12
+          }, {
+            name: 'C',
+            position: 16
+          }, {
+            name: 'D',
+            position: 20
+          }, {
+            name: 'G',
+            position: 24
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '나의 자라나는 마음을 못 본채 꺾어 버릴 순 없네',
+          chordList: [{
+            name: 'G',
+            position: 1
+          }, {
+            name: 'Bm',
+            position: 8
+          }, {
+            name: 'C',
+            position: 15
+          }, {
+            name: 'Cm',
+            position: 20
+          }, {
+            name: 'G',
+            position: 26
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '미련 남길 바엔 그리워 아픈 게 나아 서둘러 안겨본 그 품은 따스할 테니',
+          chordList: [{
+            name: 'Cm',
+            position: 1
+          }, {
+            name: 'Bm',
+            position: 11
+          }, {
+            name: 'E',
+            position: 18
+          }, {
+            name: 'Am',
+            position: 25
+          }, {
+            name: 'D',
+            position: 36
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '그러다 밤이 찾아오면 우리 둘만의 비밀을 새겨요',
+          chordList: [{
+            name: 'G',
+            position: 2
+          }, {
+            name: 'B7',
+            position: 4
+          }, {
+            name: 'Em',
+            position: 9
+          }, {
+            name: 'C',
+            position: 15
+          }, {
+            name: 'Cm',
+            position: 20
+          }, {
+            name: 'G',
+            position: 25
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '추억할 그 밤 위에 갈피를 꽂고선 남몰래 펼쳐보아요',
+          chordList: [{
+            name: 'Cm',
+            position: 1
+          }, {
+            name: 'F]',
+            position: 8
+          }, {
+            name: 'Bm',
+            position: 12
+          }, {
+            name: 'Em',
+            position: 17
+          }, {
+            name: 'C',
+            position: 20
+          }, {
+            name: 'A',
+            position: 23
+          }, {
+            name: 'D',
+            position: 27
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '언젠가 또 그날이 온대도 우린 서둘러 뒤돌지 말아요',
+          chordList: [{
+            name: 'G',
+            position: 2
+          }, {
+            name: 'B7',
+            position: 6
+          }, {
+            name: 'Em',
+            position: 11
+          }, {
+            name: 'C',
+            position: 17
+          }, {
+            name: 'Cm',
+            position: 22
+          }, {
+            name: 'G',
+            position: 27
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '마주 보던 그대로 뒷걸음치면서 서로의 안녕을 보아요',
+          chordList: [{
+            name: 'C',
+            position: 1
+          }, {
+            name: 'F]',
+            position: 7
+          }, {
+            name: 'Bm',
+            position: 11
+          }, {
+            name: 'Em',
+            position: 15
+          }, {
+            name: 'Am',
+            position: 18
+          }, {
+            name: 'D',
+            position: 22
+          }, {
+            name: 'G',
+            position: 27
+          }, {
+            name: 'Bm',
+            position: 30
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '(간주)',
+          chordList: [{
+            name: 'Em',
+            position: 0
+          }, {
+            name: 'C',
+            position: 4
+          }, {
+            name: 'D',
+            position: 8
+          }, {
+            name: 'G',
+            position: 12
+          }, {
+            name: 'Em',
+            position: 16
+          }, {
+            name: 'C',
+            position: 20
+          }, {
+            name: 'D',
+            position: 24
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '피고 지는   마음을 알아요 다시 돌아온 계절 - 도',
+          chordList: [{
+            name: 'G',
+            position: 0
+          }, {
+            name: 'Bm',
+            position: 4
+          }, {
+            name: 'Em',
+            position: 7
+          }, {
+            name: 'C',
+            position: 17
+          }, {
+            name: 'D',
+            position: 24
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '난 한동안   새 활짝 피었다 질래 또 한 번 영원히',
+          chordList: [{
+            name: 'G',
+            position: 0
+          }, {
+            name: 'Bm',
+            position: 4
+          }, {
+            name: 'Em',
+            position: 7
+          }, {
+            name: 'C',
+            position: 18
+          }, {
+            name: 'D',
+            position: 27
+          }, {
+            name: 'G',
+            position: 30
+          }, {
+            name: 'Bm',
+            position: 33
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: ' 그럼에도 내 사랑은 또 같은 꿈을 꾸고',
+          chordList: [{
+            name: 'Em',
+            position: 0
+          }, {
+            name: 'C',
+            position: 10
+          }, {
+            name: 'D',
+            position: 20
+          }, {
+            name: 'G',
+            position: 25
+          }, {
+            name: 'Bm',
+            position: 30
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: ' 그럼에도 꾸던 꿈을 난 또 미루진 않을 거야',
+          chordList: [{
+            name: 'Em',
+            position: 0
+          }, {
+            name: 'C',
+            position: 10
+          }, {
+            name: 'D',
+            position: 23
+          }, {
+            name: 'G',
+            position: 28
+          }, {
+            name: 'Bm',
+            position: 33
+          }]
+        }
+      }), _jsx(ScorePhrase, {
+        phrase: {
+          lyrics: '(후주 fadeout)',
+          chordList: [{
+            name: 'Em',
+            position: 0
+          }, {
+            name: 'C',
+            position: 4
+          }, {
+            name: 'D',
+            position: 8
+          }]
+        }
+      })]
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+d:T23e5,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -409,7 +860,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-d:T1858,/*@jsxRuntime automatic @jsxImportSource react*/
+e:T1858,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -684,7 +1135,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-e:T1c75,/*@jsxRuntime automatic @jsxImportSource react*/
+f:T1c75,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1009,7 +1460,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-f:T2c3d,/*@jsxRuntime automatic @jsxImportSource react*/
+10:T2c3d,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1519,7 +1970,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-10:T194a,/*@jsxRuntime automatic @jsxImportSource react*/
+11:T194a,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1806,7 +2257,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-11:T1b73,/*@jsxRuntime automatic @jsxImportSource react*/
+12:T1b73,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -2115,7 +2566,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-12:T1811,/*@jsxRuntime automatic @jsxImportSource react*/
+13:T1811,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -2384,7 +2835,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-13:T2350,/*@jsxRuntime automatic @jsxImportSource react*/
+14:T2350,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -2759,7 +3210,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-14:T24d1,/*@jsxRuntime automatic @jsxImportSource react*/
+15:T24d1,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -3185,7 +3636,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-15:T1d02,/*@jsxRuntime automatic @jsxImportSource react*/
+16:T1d02,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -3519,7 +3970,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-16:T2aff,/*@jsxRuntime automatic @jsxImportSource react*/
+17:T2aff,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -4002,7 +4453,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-17:T2260,/*@jsxRuntime automatic @jsxImportSource react*/
+18:T2260,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -4403,7 +4854,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-18:T2793,/*@jsxRuntime automatic @jsxImportSource react*/
+19:T2793,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -4857,4 +5308,4 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-9:[["$","$La",null,{"children":"Score"}],["$","$Lb",null,{"scoreList":[{"title":"너의 의미 (feat. 김창완)","artist":"아이유","releaseYear":2014,"capo":3,"slug":"13","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}},{"title":"Yours","artist":"데이먼스 이어","releaseYear":2019,"capo":0,"slug":"12","mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}},{"title":"오늘","artist":"오왠","releaseYear":2016,"capo":0,"slug":"11","mdx":{"compiledSource":"$e","frontmatter":{},"scope":{}}},{"title":"내게 오는 길","artist":"성시경","releaseYear":2001,"capo":1,"slug":"10","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"가을 우체국 앞에서","artist":"윤도현","releaseYear":1994,"capo":0,"slug":"9","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}},{"title":"사랑two","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"8","mdx":{"compiledSource":"$11","frontmatter":{},"scope":{}}},{"title":"오래된 노래","artist":"스탠딩 에그","releaseYear":2012,"capo":0,"slug":"7","mdx":{"compiledSource":"$12","frontmatter":{},"scope":{}}},{"title":"여수 밤바다","artist":"버스커 버스커","releaseYear":2012,"capo":0,"slug":"6","mdx":{"compiledSource":"$13","frontmatter":{},"scope":{}}},{"title":"좋은 밤 좋은 꿈","artist":"너드커넥션","releaseYear":2020,"capo":2,"slug":"5","mdx":{"compiledSource":"$14","frontmatter":{},"scope":{}}},{"title":"내사랑 내곁에","artist":"김현식","releaseYear":1991,"capo":0,"slug":"4","mdx":{"compiledSource":"$15","frontmatter":{},"scope":{}}},{"title":"고백","artist":"델리스파이스","releaseYear":2003,"capo":4,"slug":"3","mdx":{"compiledSource":"$16","frontmatter":{},"scope":{}}},{"title":"가리워진 길","artist":"유재하","releaseYear":1986,"capo":0,"slug":"2","mdx":{"compiledSource":"$17","frontmatter":{},"scope":{}}},{"title":"너를 보내고","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"1","mdx":{"compiledSource":"$18","frontmatter":{},"scope":{}}}]}]]
+9:[["$","$La",null,{"children":"Score"}],["$","$Lb",null,{"scoreList":[{"title":"주저하는 연인들을 위해","artist":"잔나비","releaseYear":2019,"capo":3,"slug":"14","mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}},{"title":"너의 의미 (feat. 김창완)","artist":"아이유","releaseYear":2014,"capo":3,"slug":"13","mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}},{"title":"Yours","artist":"데이먼스 이어","releaseYear":2019,"capo":0,"slug":"12","mdx":{"compiledSource":"$e","frontmatter":{},"scope":{}}},{"title":"오늘","artist":"오왠","releaseYear":2016,"capo":0,"slug":"11","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"내게 오는 길","artist":"성시경","releaseYear":2001,"capo":1,"slug":"10","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}},{"title":"가을 우체국 앞에서","artist":"윤도현","releaseYear":1994,"capo":0,"slug":"9","mdx":{"compiledSource":"$11","frontmatter":{},"scope":{}}},{"title":"사랑two","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"8","mdx":{"compiledSource":"$12","frontmatter":{},"scope":{}}},{"title":"오래된 노래","artist":"스탠딩 에그","releaseYear":2012,"capo":0,"slug":"7","mdx":{"compiledSource":"$13","frontmatter":{},"scope":{}}},{"title":"여수 밤바다","artist":"버스커 버스커","releaseYear":2012,"capo":0,"slug":"6","mdx":{"compiledSource":"$14","frontmatter":{},"scope":{}}},{"title":"좋은 밤 좋은 꿈","artist":"너드커넥션","releaseYear":2020,"capo":2,"slug":"5","mdx":{"compiledSource":"$15","frontmatter":{},"scope":{}}},{"title":"내사랑 내곁에","artist":"김현식","releaseYear":1991,"capo":0,"slug":"4","mdx":{"compiledSource":"$16","frontmatter":{},"scope":{}}},{"title":"고백","artist":"델리스파이스","releaseYear":2003,"capo":4,"slug":"3","mdx":{"compiledSource":"$17","frontmatter":{},"scope":{}}},{"title":"가리워진 길","artist":"유재하","releaseYear":1986,"capo":0,"slug":"2","mdx":{"compiledSource":"$18","frontmatter":{},"scope":{}}},{"title":"너를 보내고","artist":"윤도현 밴드","releaseYear":1994,"capo":0,"slug":"1","mdx":{"compiledSource":"$19","frontmatter":{},"scope":{}}}]}]]
