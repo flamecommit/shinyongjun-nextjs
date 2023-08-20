@@ -28,6 +28,9 @@ const StyledPageLink = styled.h2`
     column-gap: 4px;
     &:hover {
       color: #1f883d;
+      svg {
+        transform: translateX(3px);
+      }
     }
   }
   @media ${device.mobile} {
