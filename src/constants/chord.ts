@@ -166,11 +166,11 @@ const rootC: ChordType = {
   },
   'Cm7[5': {
     composition: ['C', 'E[', 'F]', 'B['],
-    chartList: [[3, 4, 3, 5, 3, -1]],
+    chartList: [],
   },
   'Cm7]5': {
     composition: ['C', 'E[', 'G]', 'B['],
-    chartList: [[3, 4, 3, 5, 3, -1]],
+    chartList: [],
   },
   CmM7: {
     composition: ['C', 'E[', 'G', 'B'],
