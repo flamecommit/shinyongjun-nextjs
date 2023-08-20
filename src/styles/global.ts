@@ -8,7 +8,8 @@ export const GlobalStyle = createGlobalStyle`
     ${reset};
   }
   html {
-    scroll-behavior: smooth;
+    // scroll-behavior: smooth;
+    scroll-behavior: auto;
   }
   body {
     font-family: 'Noto Sans KR', sans-serif;
