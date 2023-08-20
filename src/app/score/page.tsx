@@ -1,5 +1,5 @@
 import PageTitle from '@/components/page/Title';
-import ScoreList from '@/components/score/List';
+import ScoreListWrapper from '@/components/score/ListWrapper';
 import { getScoreList } from '@/services/score';
 
 async function RootPage() {
@@ -8,7 +8,11 @@ async function RootPage() {
   return (
     <>
       <PageTitle>Score</PageTitle>
-      {scoreList.length ? <ScoreList scoreList={scoreList} /> : <div>no</div>}
+      {scoreList.length ? (
+        <ScoreListWrapper scoreList={scoreList} />
+      ) : (
+        <div>no</div>
+      )}
     </>
   );
 }
