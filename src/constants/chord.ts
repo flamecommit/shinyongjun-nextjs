@@ -1278,11 +1278,11 @@ const rootB: ChordType = {
   },
   'Bm7[5': {
     composition: ['B', 'D', 'F', 'A'],
-    chartList: [[2, 3, 2, 4, 2, -1]],
+    chartList: [],
   },
   'Bm7]5': {
     composition: ['B', 'D', 'G', 'A'],
-    chartList: [[2, 3, 2, 4, 2, -1]],
+    chartList: [],
   },
   BmM7: {
     composition: ['B', 'D', 'F]', 'B['],
