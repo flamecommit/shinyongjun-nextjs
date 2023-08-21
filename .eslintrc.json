@@ -19,6 +19,7 @@
     "project": "./tsconfig.json"
   },
   "rules": {
+    "import/no-named-as-default": "off",
     "react/no-danger": "off",
     "react/no-array-index-key": "off",
     "react/require-default-props": "off",
