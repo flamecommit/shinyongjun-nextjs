@@ -114,6 +114,7 @@ const StyledPostViewer = styled.article`
   .post-content {
     ${markdown}
     ${prism}
+    line-height: 1.8;
     img {
       display: block;
       cursor: pointer;
