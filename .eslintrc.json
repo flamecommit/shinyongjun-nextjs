@@ -8,9 +8,6 @@
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "prettier"],
   "extends": [
-    "airbnb",
-    "airbnb-typescript",
-    "airbnb/hooks",
     "plugin:@next/next/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
@@ -33,7 +30,7 @@
     "import/prefer-default-export": "off",
     "react/jsx-props-no-spreading": "off",
     "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": ["warn", { "extensions": [".ts", ".tsx"] }],
+    // "react/jsx-filename-extension": ["warn", { "extensions": [".ts", ".tsx"] }],
     "import/no-unresolved": "off",
     "import/export": "off",
     "import/extensions": [
