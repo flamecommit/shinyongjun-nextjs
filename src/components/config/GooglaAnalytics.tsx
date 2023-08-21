@@ -1,5 +1,3 @@
-'use client';
-
 import Script from 'next/script';
 
 function GoogleAnalytics({ GA_TRACKING_ID }: { GA_TRACKING_ID: string }) {

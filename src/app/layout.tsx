@@ -3,6 +3,7 @@ import StyledComponentsRegistry from '@/styles/registry';
 import RootProvider from '@/stores/provider';
 import DefaultTemplate from '@/components/template/Default';
 import GoogleAnalytics from '@/components/config/GooglaAnalytics';
+import GoogleFonts from '@/components/config/GoogleFonts';
 
 interface Props {
   children: React.ReactNode;
@@ -26,16 +27,7 @@ function RootLayout({ children }: Props) {
     <html lang="ko">
       <head>
         <GoogleAnalytics GA_TRACKING_ID="G-LSSNKXXZKX" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
-          rel="stylesheet"
-        />
+        <GoogleFonts />
       </head>
       <body>
         <RootProvider>
