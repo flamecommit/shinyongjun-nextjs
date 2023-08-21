@@ -4,6 +4,7 @@ import RootProvider from '@/stores/provider';
 import DefaultTemplate from '@/components/template/Default';
 import GoogleAnalytics from '@/components/config/GooglaAnalytics';
 import GoogleFonts from '@/components/config/GoogleFonts';
+import Favicon from '@/components/config/Favicon';
 
 interface Props {
   children: React.ReactNode;
@@ -26,6 +27,7 @@ function RootLayout({ children }: Props) {
   return (
     <html lang="ko">
       <head>
+        <Favicon />
         <GoogleAnalytics GA_TRACKING_ID="G-LSSNKXXZKX" />
         <GoogleFonts />
       </head>
