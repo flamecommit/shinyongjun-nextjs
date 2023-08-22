@@ -40,10 +40,11 @@ function ChordSymbol({ chordName, isAbbr = false }: Props) {
 
 const StyledChordSymbol = styled.div`
   white-space: nowrap;
-  font-family: ${roboto.style.fontFamily}, ${notoSansKr.style.fontFamily};
-  /* span {
-    margin-inline: -0.18em;
-  } */
+  font-family: ${roboto.style.fontFamily};
+  span {
+    font-family: ${notoSansKr.style.fontFamily};
+    margin-inline: -0.24em;
+  }
 `;
 
 export default ChordSymbol;
