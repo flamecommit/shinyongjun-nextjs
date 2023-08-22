@@ -89,9 +89,11 @@ const StyledPostViewer = styled.article`
     text-align: center;
     margin-bottom: 60px;
     .post-series {
+      color: ${config.secondaryText};
       a {
         &:hover {
           text-decoration: underline;
+          color: ${config.hoverText};
         }
       }
     }
@@ -108,7 +110,7 @@ const StyledPostViewer = styled.article`
     }
     .post-date {
       margin-top: 12px;
-      color: #666;
+      color: ${config.secondaryText};
       font-size: 14px;
     }
   }

@@ -21,13 +21,14 @@ function PageLink({ children, href }: Props) {
   );
 }
 
-const StyledPageLink = styled.h2`
+const StyledPageLink = styled.div`
   margin-bottom: 30px;
   a {
     display: inline-flex;
     align-items: center;
     column-gap: 4px;
     &:hover {
+      color: ${config.hoverText};
       text-decoration: underline;
       svg {
         transform: translateX(3px);

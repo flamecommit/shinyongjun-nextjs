@@ -16,6 +16,7 @@ import { SiRedux } from '@react-icons/all-files/si/SiRedux';
 import { device } from '@/styles/mixin';
 import PageLink from '../page/Link';
 import { roboto } from '@/styles/fonts';
+import { config } from '@/styles/config';
 
 function AuthorDetails() {
   return (
@@ -156,6 +157,12 @@ const StyledAuthorDetails = styled.div`
       svg {
         min-width: 18px;
         height: 18px;
+      }
+      a {
+        &:hover {
+          color: ${config.hoverText};
+          text-decoration: underline;
+        }
       }
     }
   }

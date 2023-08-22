@@ -6,6 +6,7 @@ import { FiChevronsRight } from '@react-icons/all-files/fi/FiChevronsRight';
 import { FiChevronLeft } from '@react-icons/all-files/fi/FiChevronLeft';
 import { FiChevronsLeft } from '@react-icons/all-files/fi/FiChevronsLeft';
 import { FiChevronRight } from '@react-icons/all-files/fi/FiChevronRight';
+import { config } from '@/styles/config';
 
 type Props = {
   currentPage: number;
@@ -102,9 +103,10 @@ const StyledCommonPagination = styled.div`
     justify-content: center;
     width: 30px;
     height: 30px;
+    border: 1px solid ${config.primaryLine};
+    &:hover,
     &.active {
-      background-color: #333;
-      color: #fff;
+      background-color: ${config.primaryBg};
     }
   }
   .page-list {
