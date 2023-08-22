@@ -1,5 +1,7 @@
 'use client';
 
+import { config } from '@/styles/config';
+import { roboto } from '@/styles/fonts';
 import styled from 'styled-components';
 
 function BaseFooter() {
@@ -18,13 +20,14 @@ const StyledBaseFooter = styled.footer`
   left: 0;
   bottom: 0;
   height: 60px;
-  border-top: 1px solid #000;
-  background-color: #ddd;
+  border-top: 1px solid ${config.gray2};
+  background-color: rgba(255, 255, 255, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
   .copyright {
-    font-size: 12px;
+    font-family: ${roboto.style.fontFamily};
+    font-size: 13px;
     color: #000;
   }
 `;

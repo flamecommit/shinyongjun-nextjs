@@ -6,6 +6,7 @@ import { kindOfChord, chordSymbolList, inversion } from '@/constants/chord';
 import { device } from '@/styles/mixin';
 import ChordSymbol from '@/components/chord/Symbol';
 import ChordChart from './Chart';
+import { config } from '@/styles/config';
 
 function ChordList() {
   const [currentChord, setCurrentChord] = useState<string>('');
@@ -80,10 +81,10 @@ const StyledChordList = styled.div`
     button {
       padding: 0 30px;
       height: 40px;
-      background-color: rgba(0, 0, 0, 0.05);
+      background-color: ${config.gray1};
+      border: 1px solid ${config.gray2};
       &:hover {
-        background-color: #333;
-        color: #fff;
+        background-color: ${config.gray3};
       }
       div {
         display: flex;

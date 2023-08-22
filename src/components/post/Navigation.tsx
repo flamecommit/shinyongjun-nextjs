@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Link from 'next/link';
 import { Post } from '@/services/post';
 import { device, ellipsis } from '@/styles/mixin';
+import { config } from '@/styles/config';
 
 interface Props {
   prevPost: Post | undefined;
@@ -43,10 +44,10 @@ const StyledPostNavigation = styled.nav`
     a {
       display: block;
       border-radius: 6px;
-      background-color: #f6f8fa;
+      background-color: ${config.gray1};
       padding: 18px 24px;
       &:hover {
-        background-color: #eee;
+        background-color: ${config.gray3};
       }
       .direction {
         font-size: 14px;

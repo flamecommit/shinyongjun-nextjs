@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import { device } from '@/styles/mixin';
+import { config } from '@/styles/config';
 
 type Props = {
   children: React.ReactNode;
@@ -17,6 +18,7 @@ const StyledBaseContainer = styled.main`
   padding: 36px;
   margin-block: 60px;
   background-color: #fff;
+  box-shadow: ${config.boxShadow1};
   @media ${device.mobile} {
     margin-block: 0;
     padding: 18px 12px 60px;

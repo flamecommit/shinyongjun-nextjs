@@ -12,6 +12,7 @@ import { device } from '@/styles/mixin';
 import GalleryWrapper from '@/components/gallery/Wrapper';
 import CategoryItem from '../category/Item';
 import { GalleryType } from '../types/gallery';
+import { config } from '@/styles/config';
 
 interface Props {
   postData: {
@@ -140,16 +141,20 @@ const StyledPostViewer = styled.article`
       font-size: 14px;
       text-shadow: 0 1px white;
       position: relative;
-      background-color: #f6f8fa;
+      background-color: ${config.gray1};
       border-radius: 6px;
       padding: 6px 16px;
-      border-bottom: 1px solid #ddd;
+      border: solid ${config.gray2};
+      border-width: 1px 1px 0;
     }
     ol {
       list-style: decimal;
     }
     ul {
       list-style: disc;
+    }
+    pre {
+      border: 1px solid ${config.gray2};
     }
   }
   @media ${device.mobile} {

@@ -120,17 +120,6 @@ const StyledScoreViewer = styled.div`
       line-height: 24px;
       padding-block: 0;
     }
-    .rehype-code-title {
-      text-align: right;
-      font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-      font-size: 14px;
-      text-shadow: 0 1px white;
-      position: relative;
-      background-color: #f6f8fa;
-      border-radius: 6px;
-      padding: 6px 16px;
-      border-bottom: 1px solid #ddd;
-    }
     ol {
       list-style: decimal;
     }
@@ -158,9 +147,6 @@ const StyledScoreViewer = styled.div`
       code {
         font-size: 12px;
         line-height: 21px;
-      }
-      .rehype-code-title {
-        font-size: 12px;
       }
     }
   }
