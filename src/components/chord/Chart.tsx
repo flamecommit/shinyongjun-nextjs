@@ -32,8 +32,6 @@ function ChordChart({ chordName, initIndex, closeChord }: Props) {
     }
   };
 
-  console.log(activeIndex);
-
   const moveToActiveIndex = (index: number) => {
     if (index > chartCount - 1) return setActiveIndex(0);
     if (index < 0) return setActiveIndex(chartCount - 1);
