@@ -130,8 +130,9 @@ const StyledPostViewer = styled.article`
     code {
       display: inline-block;
       font-size: 14px;
-      line-height: 24px;
+      line-height: 20px;
       padding-block: 0;
+      margin-block: 4.4px;
     }
     .rehype-code-title {
       text-align: right;
@@ -167,7 +168,8 @@ const StyledPostViewer = styled.article`
       font-size: 14px;
       code {
         font-size: 12px;
-        line-height: 21px;
+        line-height: 18px;
+        margin-block: 3.6px;
       }
       .rehype-code-title {
         font-size: 12px;
