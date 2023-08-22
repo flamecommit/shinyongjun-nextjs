@@ -11,6 +11,7 @@ import {
 } from '@/utils/array';
 import ChordSymbol from './Symbol';
 import ChordChart from './Chart';
+import { roboto } from '@/styles/fonts';
 
 function ChordGenerator() {
   const startPitch = [28, 23, 19, 14, 9, 4];
@@ -165,7 +166,7 @@ function ChordGenerator() {
 
 const StyledChordGenerator = styled.div`
   .result-area {
-    font-family: 'Roboto';
+    font-family: ${roboto.style.fontFamily};
     margin-bottom: 50px;
     text-align: center;
     display: flex;
@@ -245,7 +246,7 @@ const StyledChordGenerator = styled.div`
             width: 24px;
             height: 24px;
             border-radius: 50%;
-            font-family: 'Roboto';
+            font-family: ${roboto.style.fontFamily};
             font-size: 14px;
           }
         }

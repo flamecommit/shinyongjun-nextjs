@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import { transChordSymbol } from '@/services/chord';
+import { roboto, notoSansKr } from '@/styles/fonts';
 
 interface Props {
   chordName: string;
@@ -39,10 +40,10 @@ function ChordSymbol({ chordName, isAbbr = false }: Props) {
 
 const StyledChordSymbol = styled.div`
   white-space: nowrap;
-  font-family: 'Roboto', 'Noto Sans KR';
-  span {
+  font-family: ${roboto.style.fontFamily}, ${notoSansKr.style.fontFamily};
+  /* span {
     margin-inline: -0.18em;
-  }
+  } */
 `;
 
 export default ChordSymbol;

@@ -3,7 +3,6 @@ import StyledComponentsRegistry from '@/styles/registry';
 import RootProvider from '@/stores/provider';
 import DefaultTemplate from '@/components/template/Default';
 import GoogleAnalytics from '@/components/config/GooglaAnalytics';
-import GoogleFonts from '@/components/config/GoogleFonts';
 import Favicon from '@/components/config/Favicon';
 
 interface Props {
@@ -29,7 +28,6 @@ function RootLayout({ children }: Props) {
       <head>
         <Favicon />
         <GoogleAnalytics GA_TRACKING_ID="G-LSSNKXXZKX" />
-        <GoogleFonts />
       </head>
       <body>
         <RootProvider>

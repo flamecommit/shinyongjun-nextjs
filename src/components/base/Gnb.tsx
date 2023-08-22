@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import type { RootState } from '@/stores/store';
 import { coreActions } from '@/stores/features/core';
+import { roboto } from '@/styles/fonts';
 
 function BaseGnb() {
   const { categoryName } = useSelector((state: RootState) => state.core);
@@ -57,7 +58,7 @@ const StyledBaseGnb = styled.nav`
   display: flex;
   column-gap: 30px;
   a {
-    font-family: 'Roboto';
+    font-family: ${roboto.style.fontFamily};
     font-size: 16px;
     &.active {
       font-weight: 700;

@@ -10,6 +10,7 @@ import { scaleArray, newChordList } from '@/constants/chord';
 import { device } from '@/styles/mixin';
 import { getComposition, transChordSymbol } from '@/services/chord';
 import ChordSymbol from '@/components/chord/Symbol';
+import { roboto } from '@/styles/fonts';
 
 interface Props {
   chordName: string;
@@ -216,7 +217,7 @@ const StyledChordChart = styled.div`
         margin-top: 10px;
         display: flex;
         justify-content: center;
-        font-family: 'Roboto';
+        font-family: ${roboto.style.fontFamily};
         position: relative;
         bottom: 3px;
         column-gap: 6px;

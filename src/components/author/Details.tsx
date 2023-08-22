@@ -15,6 +15,7 @@ import { SiAzuredevops } from '@react-icons/all-files/si/SiAzuredevops';
 import { SiRedux } from '@react-icons/all-files/si/SiRedux';
 import { device } from '@/styles/mixin';
 import PageLink from '../page/Link';
+import { roboto } from '@/styles/fonts';
 
 function AuthorDetails() {
   return (
@@ -133,7 +134,7 @@ function AuthorDetails() {
 const StyledAuthorDetails = styled.div`
   > section {
     margin-top: 60px;
-    font-family: 'Roboto';
+    font-family: ${roboto.style.fontFamily};
   }
   .section-title {
     font-size: 20px;

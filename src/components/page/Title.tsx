@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import { device } from '@/styles/mixin';
+import { roboto } from '@/styles/fonts';
 
 type Props = {
   children: React.ReactNode;
@@ -12,7 +13,7 @@ function PageTitle({ children }: Props) {
 }
 
 const StyledPageTitle = styled.h2`
-  font-family: 'Roboto';
+  font-family: ${roboto.style.fontFamily};
   font-weight: 700;
   font-size: 30px;
   line-height: 120%;
