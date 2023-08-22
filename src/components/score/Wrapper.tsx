@@ -2,7 +2,6 @@
 
 import styled from 'styled-components';
 import { device } from '@/styles/mixin';
-import { config } from '@/styles/config';
 
 interface Props {
   children: React.ReactNode;

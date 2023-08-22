@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { HiOutlineHashtag } from '@react-icons/all-files/hi/HiOutlineHashtag';
 import { SeriesType } from '@/services/post';
 import { device } from '@/styles/mixin';
+import { config } from '@/styles/config';
 
 interface Props {
   series: SeriesType[];
@@ -38,6 +39,7 @@ const StyledSeriesList = styled.div`
       font-weight: 500;
       font-size: 20px;
       &:hover {
+        color: ${config.hoverText};
         text-decoration: underline;
       }
     }

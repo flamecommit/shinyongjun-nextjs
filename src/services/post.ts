@@ -87,10 +87,10 @@ export const getPost = async (slug: string) => {
   };
 };
 
-function removeDuplicatesByKey(arr: Array<any>, key: string) {
+function removeDuplicatesBySeries(arr: Array<Post>) {
   const seen = new Set();
   return arr.filter((item) => {
-    const value = item[key];
+    const value = item.series;
     if (value !== undefined && !seen.has(value)) {
       seen.add(value);
       return true;
@@ -101,7 +101,7 @@ function removeDuplicatesByKey(arr: Array<any>, key: string) {
 
 export const getSeries = async () => {
   const postList = await getPostList();
-  const uniqueSeries = removeDuplicatesByKey(postList, 'series');
+  const uniqueSeries = removeDuplicatesBySeries(postList);
 
   return uniqueSeries.map((post, index) => {
     return {

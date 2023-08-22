@@ -1,9 +1,8 @@
 'use client';
 
 import styled from 'styled-components';
-import { Fragment, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Score } from '@/services/score';
-import { device } from '@/styles/mixin';
 import ScoreList from './List';
 import CommonSearch from '../common/Search';
 import CommonPagination from '../common/Pagination';

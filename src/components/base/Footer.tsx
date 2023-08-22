@@ -1,6 +1,5 @@
 'use client';
 
-import { config } from '@/styles/config';
 import { roboto } from '@/styles/fonts';
 import styled from 'styled-components';
 
