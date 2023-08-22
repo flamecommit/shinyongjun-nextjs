@@ -5,6 +5,7 @@ import { useState } from 'react';
 import ChordSymbol from '@/components/chord/Symbol';
 import { device } from '@/styles/mixin';
 import ChordChart from '../chord/Chart';
+import { config } from '@/styles/config';
 
 type Props = {
   phrase: {
@@ -88,7 +89,7 @@ const StyledScorePhrase = styled.div`
   flex-wrap: wrap;
   // column-gap: 0.1em;
   padding: 4px;
-  background-color: #f7f7f7;
+  background-color: #fff;
   row-gap: 6px;
   .letter {
     display: flex;
@@ -106,7 +107,7 @@ const StyledScorePhrase = styled.div`
         font-weight: 500;
         letter-spacing: -0.04em;
         &:hover {
-          background-color: #f7f7f7;
+          color: ${config.hoverText};
         }
       }
     }

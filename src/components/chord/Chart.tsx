@@ -69,12 +69,7 @@ function ChordChart({ chordName, initIndex, closeChord }: Props) {
           {constituent.length > 0 && (
             <div className="constituent">
               {constituent.map((c) => {
-                return (
-                  <div
-                    key={c}
-                    dangerouslySetInnerHTML={{ __html: transChordSymbol(c) }}
-                  />
-                );
+                return <ChordSymbol key={c} chordName={c} />;
               })}
             </div>
           )}
@@ -142,18 +137,16 @@ function ChordChart({ chordName, initIndex, closeChord }: Props) {
                         {chart.map((position, j) => {
                           const pitch = scaleArray[j][position] || '';
                           return (
-                            <div
+                            <ChordSymbol
                               key={j}
-                              className="name"
                               data-position={position}
                               data-invalid={
                                 constituent.length && pitch
                                   ? !constituent.includes(pitch)
                                   : false
                               }
-                            >
-                              <ChordSymbol chordName={pitch} />
-                            </div>
+                              chordName={pitch}
+                            />
                           );
                         })}
                       </div>

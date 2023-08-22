@@ -6,6 +6,7 @@ import { IoIosMusicalNotes } from '@react-icons/all-files/io/IoIosMusicalNotes';
 import { Score } from '@/services/score';
 import { device } from '@/styles/mixin';
 import CommonEmpty from '../common/Empty';
+import { config } from '@/styles/config';
 
 type Props = {
   scoreList: Score[];
@@ -47,6 +48,7 @@ const StyledScoreList = styled.div`
       font-weight: 500;
       font-size: 20px;
       &:hover {
+        color: ${config.hoverText};
         text-decoration: underline;
       }
     }

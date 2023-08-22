@@ -81,10 +81,11 @@ const StyledChordList = styled.div`
     button {
       padding: 0 30px;
       height: 40px;
-      background-color: ${config.gray1};
-      border: 1px solid ${config.gray2};
+      background-color: ${config.primaryBg};
+      border: 1px solid ${config.primaryLine};
       &:hover {
-        background-color: ${config.gray3};
+        background-color: ${config.secondaryBg};
+        border-color: ${config.secondaryLine};
       }
       div {
         display: flex;

@@ -21,7 +21,7 @@ const StyledBaseContainer = styled.main`
   box-shadow: ${config.boxShadow1};
   @media ${device.mobile} {
     margin-block: 0;
-    padding: 18px 12px 60px;
+    padding: 24px 12px 60px;
   }
 `;
 

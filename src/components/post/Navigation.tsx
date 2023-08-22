@@ -44,11 +44,11 @@ const StyledPostNavigation = styled.nav`
     a {
       display: block;
       border-radius: 6px;
-      background-color: ${config.gray1};
+      background-color: ${config.primaryBg};
       padding: 18px 24px;
-      border: 1px solid ${config.gray2};
+      border: 1px solid ${config.primaryLine};
       &:hover {
-        background-color: ${config.gray3};
+        background-color: ${config.secondaryBg};
       }
       .direction {
         font-size: 14px;
@@ -67,8 +67,12 @@ const StyledPostNavigation = styled.nav`
   }
   @media ${device.mobile} {
     display: grid;
-    row-gap: 12px;
     > div {
+      &:not(:first-child) {
+        a {
+          margin-top: 12px;
+        }
+      }
       a {
         padding: 12px 18px;
       }

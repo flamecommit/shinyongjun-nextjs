@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import { useEffect, useRef } from 'react';
+import { device } from '@/styles/mixin';
 
 function Giscus() {
   const ref = useRef<HTMLDivElement>(null);
@@ -38,6 +39,9 @@ function Giscus() {
 
 const StyledGiscus = styled.div`
   margin-top: 60px;
+  @media ${device.mobile} {
+    margin-top: 42px;
+  }
 `;
 
 export default Giscus;

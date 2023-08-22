@@ -45,20 +45,20 @@ function CommonSearch({ setSearchKeyword }: Props) {
 }
 
 const StyledCommonSearch = styled.div`
-  background-color: ${config.gray1};
-  border: 1px solid ${config.gray2};
+  background-color: ${config.primaryBg};
+  border: 1px solid ${config.primaryLine};
   padding: 12px;
   display: flex;
   column-gap: 12px;
   input {
-    border: 1px solid ${config.gray2};
+    border: 1px solid ${config.primaryLine};
   }
   button {
     background-color: #fff;
     padding-inline: 24px;
-    border: 1px solid ${config.gray2};
+    border: 1px solid ${config.primaryLine};
     &:hover {
-      background-color: ${config.gray3};
+      background-color: ${config.secondaryBg};
     }
   }
   @media ${device.mobile} {

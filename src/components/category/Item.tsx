@@ -19,13 +19,13 @@ function CategoryItem({ category }: Props) {
 
 const StyledCategoryItem = styled(Link)`
   padding: 3px 12px;
-  background-color: ${config.gray1};
-  border: 1px solid ${config.gray2};
+  background-color: ${config.primaryBg};
+  border: 1px solid ${config.primaryLine};
   color: #000;
   font-size: 14px;
   &:hover {
-    background-color: ${config.gray3};
-    border-color: ${config.gray3};
+    background-color: ${config.secondaryBg};
+    border-color: ${config.secondaryLine};
   }
   @media ${device.mobile} {
     padding: 2px 8px;

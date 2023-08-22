@@ -12,6 +12,7 @@ import {
 import ChordSymbol from './Symbol';
 import ChordChart from './Chart';
 import { roboto } from '@/styles/fonts';
+import { config } from '@/styles/config';
 
 function ChordGenerator() {
   const startPitch = [28, 23, 19, 14, 9, 4];
@@ -212,7 +213,7 @@ const StyledChordGenerator = styled.div`
           position: relative;
           cursor: pointer;
           &:hover {
-            background-color: #ddd;
+            background-color: ${config.primaryBg};
           }
           input[type='checkbox'] {
             position: absolute;

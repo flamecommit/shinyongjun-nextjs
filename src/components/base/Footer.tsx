@@ -27,7 +27,9 @@ const StyledBaseFooter = styled.footer`
   left: 0;
   bottom: 0;
   height: 60px;
-  background-color: #d5dbe2;
+  // background-color: #e0f2c2;
+  background-color: #e6e1f2;
+  border-top: 1px solid #c6c1e1;
   display: flex;
   align-items: center;
   justify-content: center;

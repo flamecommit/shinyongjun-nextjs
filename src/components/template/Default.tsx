@@ -25,7 +25,7 @@ const StyledDefaultTemplate = styled.div`
   position: relative;
   min-height: 100vh;
   padding-block: 60px;
-  background-color: ${config.gray1};
+  background-color: ${config.primaryBg};
   @media ${device.mobile} {
     padding-top: 48px;
   }

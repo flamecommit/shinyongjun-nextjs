@@ -50,12 +50,13 @@ const StyledPostList = styled.div`
       font-size: 20px;
       &:hover {
         text-decoration: underline;
+        color: ${config.hoverText};
       }
     }
     .date {
       font-size: 14px;
       margin-top: 6px;
-      color: #666;
+      color: ${config.secondaryText};
     }
     .categories {
       display: flex;
@@ -65,6 +66,7 @@ const StyledPostList = styled.div`
   }
   @media ${device.mobile} {
     .post-item {
+      padding: 24px 0;
       .series {
         font-size: 14px;
       }

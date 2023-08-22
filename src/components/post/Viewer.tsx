@@ -141,10 +141,10 @@ const StyledPostViewer = styled.article`
       font-size: 14px;
       text-shadow: 0 1px white;
       position: relative;
-      background-color: ${config.gray1};
+      background-color: ${config.primaryBg};
       border-radius: 6px;
       padding: 6px 16px;
-      border: solid ${config.gray2};
+      border: solid ${config.primaryLine};
       border-width: 1px 1px 0;
     }
     ol {
@@ -154,7 +154,7 @@ const StyledPostViewer = styled.article`
       list-style: disc;
     }
     pre {
-      border: 1px solid ${config.gray2};
+      border: 1px solid ${config.primaryLine};
     }
   }
   @media ${device.mobile} {

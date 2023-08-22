@@ -47,7 +47,7 @@ const StyledAuthorProfile = styled.div`
   &[data-is-detail='true'] {
     margin-top: 60px;
     padding-bottom: 60px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid ${config.primaryLine};
   }
   .avatar {
     img {
@@ -62,6 +62,7 @@ const StyledAuthorProfile = styled.div`
       font-size: 20px;
       letter-spacing: -0.05em;
       &:hover {
+        color: ${config.hoverText};
         text-decoration: underline;
       }
       &[data-category='about'] {
@@ -69,7 +70,7 @@ const StyledAuthorProfile = styled.div`
       }
     }
     .bio {
-      color: #999;
+      color: #777;
       font-size: 14px;
       letter-spacing: -0.02em;
     }
@@ -85,6 +86,11 @@ const StyledAuthorProfile = styled.div`
   }
   @media ${device.mobile} {
     column-gap: 24px;
+    margin-bottom: 24px;
+    &[data-is-detail='true'] {
+      margin-top: 42px;
+      padding-bottom: 42px;
+    }
     .avatar {
       img {
         width: 96px;

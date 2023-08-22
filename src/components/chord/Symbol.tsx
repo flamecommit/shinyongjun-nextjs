@@ -42,7 +42,10 @@ const StyledChordSymbol = styled.div`
   white-space: nowrap;
   font-family: ${roboto.style.fontFamily};
   span {
+    position: relative;
+    top: -0.1em;
     font-family: ${notoSansKr.style.fontFamily};
+    font-size: 0.9em;
     margin-inline: -0.24em;
   }
 `;

@@ -75,7 +75,7 @@ export const markdown = css`
     font-weight: 600;
     padding-bottom: 0.3em;
     font-size: 2em;
-    border-bottom: 1px solid ${config.gray2};
+    border-bottom: 1px solid ${config.primaryLine};
   }
 
   mark {
@@ -126,7 +126,7 @@ export const markdown = css`
     box-sizing: content-box;
     overflow: hidden;
     background: transparent;
-    border-bottom: 1px solid ${config.gray2};
+    border-bottom: 1px solid ${config.primaryLine};
     height: 0.25em;
     padding: 0;
     margin: 24px 0;
@@ -258,7 +258,7 @@ export const markdown = css`
     font-weight: 600;
     padding-bottom: 0.3em;
     font-size: 1.5em;
-    border-bottom: 1px solid ${config.gray2};
+    border-bottom: 1px solid ${config.primaryLine};
   }
 
   h3 {
@@ -677,7 +677,7 @@ export const markdown = css`
 
   table tr {
     background-color: #ffffff;
-    border-top: 1px solid ${config.gray2};
+    border-top: 1px solid ${config.primaryLine};
   }
 
   table tr:nth-child(2n) {
