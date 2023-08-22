@@ -6,6 +6,7 @@ import { Post } from '@/services/post';
 import { getFormatDatetime } from '@/utils/datetime';
 import { device } from '@/styles/mixin';
 import CategoryItem from '../category/Item';
+import { config } from '@/styles/config';
 
 type Props = {
   postList: Post[];
@@ -48,7 +49,7 @@ const StyledPostList = styled.div`
       font-weight: 500;
       font-size: 20px;
       &:hover {
-        color: #1f883d;
+        text-decoration: underline;
       }
     }
     .date {

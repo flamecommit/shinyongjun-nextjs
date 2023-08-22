@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/stores/store';
 import { device } from '@/styles/mixin';
+import { config } from '@/styles/config';
 
 interface Props {
   postDetail?: boolean;
@@ -57,17 +58,18 @@ const StyledAuthorProfile = styled.div`
   }
   .names-container {
     .name {
+      font-weight: 500;
       font-size: 20px;
       letter-spacing: -0.05em;
       &:hover {
-        color: #1f883d;
+        text-decoration: underline;
       }
       &[data-category='about'] {
         pointer-events: none;
       }
     }
     .bio {
-      color: #666;
+      color: #999;
       font-size: 14px;
       letter-spacing: -0.02em;
     }

@@ -14,14 +14,20 @@ function BaseFooter() {
   );
 }
 
+/**
+ * B8D8D8
+ * D3D3D3
+ * 001F3F
+ * 006400
+ */
+
 const StyledBaseFooter = styled.footer`
   position: absolute;
   right: 0;
   left: 0;
   bottom: 0;
   height: 60px;
-  border-top: 1px solid ${config.gray2};
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #d5dbe2;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -66,25 +66,6 @@ function ScoreListWrapper({ scoreList }: Props) {
 const StyledScoreListWrapper = styled.div`
   display: grid;
   row-gap: 24px;
-  .score-item {
-    .title {
-      display: flex;
-      align-items: center;
-      column-gap: 6px;
-      font-weight: 500;
-      font-size: 20px;
-      &:hover {
-        color: #1f883d;
-      }
-    }
-  }
-  @media ${device.mobile} {
-    .score-item {
-      .title {
-        font-size: 16px;
-      }
-    }
-  }
 `;
 
 export default ScoreListWrapper;

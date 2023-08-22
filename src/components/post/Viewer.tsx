@@ -91,7 +91,7 @@ const StyledPostViewer = styled.article`
     .post-series {
       a {
         &:hover {
-          color: #1f883d;
+          text-decoration: underline;
         }
       }
     }

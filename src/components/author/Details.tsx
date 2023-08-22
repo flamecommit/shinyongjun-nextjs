@@ -158,11 +158,6 @@ const StyledAuthorDetails = styled.div`
         height: 18px;
       }
     }
-    .link {
-      &:hover {
-        color: #1f883d;
-      }
-    }
   }
   .page-link {
     margin: 0;

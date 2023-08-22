@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Link from 'next/link';
 import { FiArrowRight } from '@react-icons/all-files/fi/FiArrowRight';
 import { device } from '@/styles/mixin';
+import { config } from '@/styles/config';
 
 type Props = {
   children: React.ReactNode;
@@ -27,7 +28,7 @@ const StyledPageLink = styled.h2`
     align-items: center;
     column-gap: 4px;
     &:hover {
-      color: #1f883d;
+      text-decoration: underline;
       svg {
         transform: translateX(3px);
       }

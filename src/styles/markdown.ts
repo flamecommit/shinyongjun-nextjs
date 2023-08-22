@@ -677,7 +677,7 @@ export const markdown = css`
 
   table tr {
     background-color: #ffffff;
-    border-top: 1px solid ${config.markdownLineColor};
+    border-top: 1px solid ${config.gray2};
   }
 
   table tr:nth-child(2n) {

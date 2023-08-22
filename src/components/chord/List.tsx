@@ -93,13 +93,6 @@ const StyledChordList = styled.div`
       }
     }
   }
-  .link-area {
-    a {
-      &:hover {
-        color: #1f883d;
-      }
-    }
-  }
   @media ${device.mobile} {
     .root-area {
       .root-head {

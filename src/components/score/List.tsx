@@ -47,7 +47,7 @@ const StyledScoreList = styled.div`
       font-weight: 500;
       font-size: 20px;
       &:hover {
-        color: #1f883d;
+        text-decoration: underline;
       }
     }
   }
