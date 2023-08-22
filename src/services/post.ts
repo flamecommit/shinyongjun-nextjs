@@ -133,7 +133,7 @@ export const getPostListByCategory = async (category: string) => {
   });
 };
 
-export const getPostListBySeries = async (series: string) => {
+export const getPostListBySeries = async (series: string | undefined) => {
   const postList = await getPostList();
 
   return postList.filter((post) => {
