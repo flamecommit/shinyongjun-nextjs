@@ -46,6 +46,7 @@ const StyledPostNavigation = styled.nav`
       border-radius: 6px;
       background-color: ${config.gray1};
       padding: 18px 24px;
+      border: 1px solid ${config.gray2};
       &:hover {
         background-color: ${config.gray3};
       }
