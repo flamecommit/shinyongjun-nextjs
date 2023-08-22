@@ -14,7 +14,7 @@ import { roboto } from '@/styles/fonts';
 
 interface Props {
   chordName: string;
-  initIndex: number;
+  initIndex?: number;
   closeChord: () => void;
 }
 
@@ -25,7 +25,7 @@ function ChordChart({ chordName, initIndex, closeChord }: Props) {
   const constituent = getComposition(chordName);
 
   const chartCount = chord?.chartList.length || 0;
-  const [activeIndex, setActiveIndex] = useState(initIndex);
+  const [activeIndex, setActiveIndex] = useState(initIndex || 0);
   const clickBackground = (e: React.MouseEvent<HTMLDivElement>) => {
     if (e.target === e.currentTarget) {
       closeChord();
