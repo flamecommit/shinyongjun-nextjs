@@ -779,7 +779,7 @@ const rootFsharp: ChordType = {
   },
   'F]m7[5': {
     composition: ['F]', 'A', 'C', 'E'],
-    chartList: [],
+    chartList: [[0, 1, 2, 2, 0, 2]],
   },
   'F]m7]5': {
     composition: ['F]', 'A', 'D', 'E'],
@@ -837,7 +837,10 @@ const rootG: ChordType = {
   },
   GM7: {
     composition: ['G', 'B', 'D', 'F]'],
-    chartList: [[2, 0, 0, 0, 2, 3]],
+    chartList: [
+      [2, 0, 0, 0, 2, 3],
+      [3, 3, 4, 4, 5, 3],
+    ],
   },
   Gsus2: {
     composition: ['G', 'A', 'D'],
@@ -935,7 +938,7 @@ const rootGsharp: ChordType = {
   },
   'G]M7': {
     composition: ['G]', 'C', 'E[', 'G'],
-    chartList: [],
+    chartList: [[4, 4, 5, 5, 6, 4]],
   },
   'G]sus2': {
     composition: ['G]', 'B[', 'E['],

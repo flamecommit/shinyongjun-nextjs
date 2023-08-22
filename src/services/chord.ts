@@ -165,5 +165,7 @@ export const getComposition = (chord: string) => {
 };
 
 export const transChordSymbol = (chord: string) => {
-  return chord.replaceAll('[', '♭').replaceAll(']', '♯');
+  return chord
+    .replaceAll('[', '<span>♭</span>')
+    .replaceAll(']', '<span>♯</span>');
 };
