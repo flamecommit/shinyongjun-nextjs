@@ -8,7 +8,7 @@ import { GrClose } from '@react-icons/all-files/gr/GrClose';
 import { GrRadial } from '@react-icons/all-files/gr/GrRadial';
 import { scaleArray, newChordList } from '@/constants/chord';
 import { device } from '@/styles/mixin';
-import { getComposition, transChordSymbol } from '@/services/chord';
+import { getComposition } from '@/services/chord';
 import ChordSymbol from '@/components/chord/Symbol';
 import { roboto } from '@/styles/fonts';
 

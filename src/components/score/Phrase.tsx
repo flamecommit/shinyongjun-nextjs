@@ -10,7 +10,7 @@ import { config } from '@/styles/config';
 type Props = {
   phrase: {
     lyrics: string | undefined;
-    chordList?: [{ name: string; position: number; recommend?: number }];
+    chordList?: [{ name: string; position: number; initIndex?: number }];
   };
 };
 
@@ -28,9 +28,9 @@ function ScorePhrase({ phrase }: Props) {
     setInitIndex(0);
   };
 
-  const openChart = (chordName: string, recommend: number) => {
+  const openChart = (chordName: string, initIndex: number) => {
     setCurrentChord(chordName);
-    setInitIndex(recommend || 0);
+    setInitIndex(initIndex || 0);
   };
 
   const phraseArray = [];
@@ -44,7 +44,7 @@ function ScorePhrase({ phrase }: Props) {
     phraseArray.push({
       lyricsLetter: lyricsArray[i],
       chordName: chordObject?.name || '',
-      recommend: chordObject?.recommend || 0,
+      initIndex: chordObject?.initIndex || 0,
     });
   }
 
@@ -59,7 +59,7 @@ function ScorePhrase({ phrase }: Props) {
                   <button
                     type="button"
                     key={i}
-                    onClick={() => openChart(item.chordName, item.recommend)}
+                    onClick={() => openChart(item.chordName, item.initIndex)}
                   >
                     <ChordSymbol chordName={item.chordName} isAbbr />
                   </button>
