@@ -306,6 +306,7 @@ const StyledChordChart = styled.div`
       margin-bottom: -20px;
       display: flex;
       justify-content: center;
+      align-items: center;
       column-gap: 18px;
       button {
         font-size: 24px;
@@ -315,6 +316,7 @@ const StyledChordChart = styled.div`
   }
   @media ${device.mobile} {
     .chord-layer {
+      padding-bottom: 50px;
       .chord-name {
         // font-size: 20px;
       }
