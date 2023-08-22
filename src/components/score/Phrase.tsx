@@ -9,7 +9,7 @@ import ChordChart from '../chord/Chart';
 type Props = {
   phrase: {
     lyrics: string | undefined;
-    chordList?: [{ name: string; position: number }];
+    chordList?: [{ name: string; position: number; recommend?: number }];
   };
 };
 
@@ -20,9 +20,16 @@ type Props = {
 function ScorePhrase({ phrase }: Props) {
   const chordList = phrase.chordList || [];
   const [currentChord, setCurrentChord] = useState<string>('');
+  const [initIndex, setInitIndex] = useState<number>(0);
 
   const closeChord = () => {
     setCurrentChord('');
+    setInitIndex(0);
+  };
+
+  const openChart = (chordName: string, recommend: number) => {
+    setCurrentChord(chordName);
+    setInitIndex(recommend || 0);
   };
 
   const phraseArray = [];
@@ -31,9 +38,12 @@ function ScorePhrase({ phrase }: Props) {
   const chordPosMax = Math.max(...chordList.map((chord) => chord.position));
 
   for (let i = 0; i < Math.max(lyricsCount, chordPosMax + 1); i++) {
+    const chordObject = chordList.find((chord) => chord.position === i);
+
     phraseArray.push({
       lyricsLetter: lyricsArray[i],
-      chordName: chordList.find((chord) => chord.position === i)?.name || '',
+      chordName: chordObject?.name || '',
+      recommend: chordObject?.recommend || 0,
     });
   }
 
@@ -48,7 +58,7 @@ function ScorePhrase({ phrase }: Props) {
                   <button
                     type="button"
                     key={i}
-                    onClick={() => setCurrentChord(item.chordName)}
+                    onClick={() => openChart(item.chordName, item.recommend)}
                   >
                     <ChordSymbol chordName={item.chordName} isAbbr />
                   </button>
@@ -63,7 +73,11 @@ function ScorePhrase({ phrase }: Props) {
         })}
       </StyledScorePhrase>
       {currentChord && (
-        <ChordChart chordName={currentChord} closeChord={closeChord} />
+        <ChordChart
+          chordName={currentChord}
+          closeChord={closeChord}
+          initIndex={initIndex}
+        />
       )}
     </>
   );

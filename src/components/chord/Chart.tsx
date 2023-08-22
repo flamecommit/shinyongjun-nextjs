@@ -14,22 +14,25 @@ import { roboto } from '@/styles/fonts';
 
 interface Props {
   chordName: string;
+  initIndex: number;
   closeChord: () => void;
 }
 
-function ChordChart({ chordName, closeChord }: Props) {
+function ChordChart({ chordName, initIndex, closeChord }: Props) {
   const [startX, setStartX] = useState(0);
   const [moveX, setMoveX] = useState(0);
   const chord = newChordList[chordName];
   const constituent = getComposition(chordName);
 
   const chartCount = chord?.chartList.length || 0;
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(initIndex);
   const clickBackground = (e: React.MouseEvent<HTMLDivElement>) => {
     if (e.target === e.currentTarget) {
       closeChord();
     }
   };
+
+  console.log(activeIndex);
 
   const moveToActiveIndex = (index: number) => {
     if (index > chartCount - 1) return setActiveIndex(0);
