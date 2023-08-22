@@ -3,6 +3,7 @@
 import styled from 'styled-components';
 import { useState } from 'react';
 import { device } from '@/styles/mixin';
+import { config } from '@/styles/config';
 
 type Props = {
   setSearchKeyword: (value: string) => void;
@@ -44,14 +45,21 @@ function CommonSearch({ setSearchKeyword }: Props) {
 }
 
 const StyledCommonSearch = styled.div`
-  background-color: #eee;
+  background-color: ${config.gray1};
+  border: 1px solid ${config.gray2};
   padding: 12px;
   display: flex;
   column-gap: 12px;
+  input {
+    border: 1px solid ${config.gray2};
+  }
   button {
     background-color: #fff;
     padding-inline: 24px;
-    border: 1px solid #ccc;
+    border: 1px solid ${config.gray2};
+    &:hover {
+      background-color: ${config.gray3};
+    }
   }
   @media ${device.mobile} {
     padding: 9px;
