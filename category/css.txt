@@ -1,8 +1,8 @@
-0:["g7dYOZfuxPizxArY1YMQV",[[["",{"children":["category",{"children":[["slug","css","d"],{"children":["__PAGE__?{\"slug\":\"css\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
-3:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-0d07f3a9b982af7d.js"],"name":"","async":false}
-4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-0d07f3a9b982af7d.js"],"name":"","async":false}
-5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-0d07f3a9b982af7d.js"],"name":"","async":false}
-6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-0d07f3a9b982af7d.js"],"name":"","async":false}
+0:["1a2o7Tcp9axm6Xz0DPmwq",[[["",{"children":["category",{"children":[["slug","css","d"],{"children":["__PAGE__?{\"slug\":\"css\"}",{}]}]}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c05a88d4c74bb2ed.js"],"name":"","async":false}
+4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c05a88d4c74bb2ed.js"],"name":"","async":false}
+5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c05a88d4c74bb2ed.js"],"name":"","async":false}
+6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c05a88d4c74bb2ed.js"],"name":"","async":false}
 7:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 8:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L3",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L3",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","category","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","category","children",["slug","css","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9",null],"segment":"__PAGE__?{\"slug\":\"css\"}"},"styles":[]}],"segment":["slug","css","d"]},"styles":[]}],"segment":"category"},"styles":[]}]}]}]}]}]]}],null]
@@ -10,14 +10,13 @@
 a:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-386f569c67add7c9.js"],"name":"","async":false}
 b:I{"id":6529,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-386f569c67add7c9.js"],"name":"","async":false}
 c:I{"id":7493,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","91:static/chunks/app/category/[slug]/page-386f569c67add7c9.js"],"name":"","async":false}
-d:T2007,/*@jsxRuntime automatic @jsxImportSource react*/
+d:T1ee9,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
   const _components = Object.assign({
     p: "p",
     code: "code",
-    br: "br",
     div: "div",
     pre: "pre",
     span: "span"
@@ -28,11 +27,9 @@ function _createMdxContent(props) {
         children: "styled-component"
       }), "는 ", _jsx(_components.code, {
         children: "react"
-      }), " 생태계에서 가장 많이 사용되는 style 라이브러리 중 하나입니다.", _jsx(_components.br, {}), "\n", "자바스크립트 파일 내에서 CSS를 사용할 수 있게 해주는 대표적인 CSS-in-JS 라이브러리이며 ", _jsx(_components.code, {
-        children: "SASS"
-      }), "처럼 스타일 코드의 재사용도 가능합니다."]
-    }), "\n", _jsxs(_components.p, {
-      children: ["아래는 ", _jsx(_components.code, {
+      }), " 생태계에서 가장 많이 사용되는 ", _jsx(_components.code, {
+        children: "CSS-in-JS"
+      }), " 라이브러리 중 하나입니다. 아래는 ", _jsx(_components.code, {
         children: "styled-component"
       }), " 를 사용한 스타일 재사용 예제 코드입니다."]
     }), "\n", _jsx(_components.div, {
@@ -149,7 +146,7 @@ function _createMdxContent(props) {
         }), ",\r\n};\n"]
       })
     }), "\n", _jsx(_components.p, {
-      children: "사용 방법은 다음과 같습니다."
+      children: "사용법은 다음과 같습니다."
     }), "\n", _jsx(_components.div, {
       className: "rehype-code-title",
       children: "src/styles/reset.ts"

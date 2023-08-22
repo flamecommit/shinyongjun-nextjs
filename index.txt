@@ -1,14 +1,14 @@
-0:["g7dYOZfuxPizxArY1YMQV",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
-3:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-0d07f3a9b982af7d.js"],"name":"","async":false}
-4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-0d07f3a9b982af7d.js"],"name":"","async":false}
-5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-0d07f3a9b982af7d.js"],"name":"","async":false}
-6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-0d07f3a9b982af7d.js"],"name":"","async":false}
+0:["1a2o7Tcp9axm6Xz0DPmwq",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L1",[[],"$L2"]]]]
+3:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c05a88d4c74bb2ed.js"],"name":"","async":false}
+4:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c05a88d4c74bb2ed.js"],"name":"","async":false}
+5:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c05a88d4c74bb2ed.js"],"name":"","async":false}
+6:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-c05a88d4c74bb2ed.js"],"name":"","async":false}
 7:I{"id":7767,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 8:I{"id":7920,"chunks":["272:static/chunks/webpack-33e533793a2965ba.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 1:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L3",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L3",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]],[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap","rel":"stylesheet"}]]]}],["$","body",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L8",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$L9",null],"segment":"__PAGE__"},"styles":[]}]}]}]}]}]]}],null]
 2:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Home"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun.com"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"shinyongjun.com"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
-a:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","931:static/chunks/app/page-1f460f8a546bd046.js"],"name":"","async":false}
-b:I{"id":7493,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","931:static/chunks/app/page-1f460f8a546bd046.js"],"name":"","async":false}
+a:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","931:static/chunks/app/page-da8e5718562e0734.js"],"name":"","async":false}
+b:I{"id":7493,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","931:static/chunks/app/page-da8e5718562e0734.js"],"name":"","async":false}
 c:T1f26,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
@@ -4649,14 +4649,13 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-14:T2007,/*@jsxRuntime automatic @jsxImportSource react*/
+14:T1ee9,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
   const _components = Object.assign({
     p: "p",
     code: "code",
-    br: "br",
     div: "div",
     pre: "pre",
     span: "span"
@@ -4667,11 +4666,9 @@ function _createMdxContent(props) {
         children: "styled-component"
       }), "는 ", _jsx(_components.code, {
         children: "react"
-      }), " 생태계에서 가장 많이 사용되는 style 라이브러리 중 하나입니다.", _jsx(_components.br, {}), "\n", "자바스크립트 파일 내에서 CSS를 사용할 수 있게 해주는 대표적인 CSS-in-JS 라이브러리이며 ", _jsx(_components.code, {
-        children: "SASS"
-      }), "처럼 스타일 코드의 재사용도 가능합니다."]
-    }), "\n", _jsxs(_components.p, {
-      children: ["아래는 ", _jsx(_components.code, {
+      }), " 생태계에서 가장 많이 사용되는 ", _jsx(_components.code, {
+        children: "CSS-in-JS"
+      }), " 라이브러리 중 하나입니다. 아래는 ", _jsx(_components.code, {
         children: "styled-component"
       }), " 를 사용한 스타일 재사용 예제 코드입니다."]
     }), "\n", _jsx(_components.div, {
@@ -4788,7 +4785,7 @@ function _createMdxContent(props) {
         }), ",\r\n};\n"]
       })
     }), "\n", _jsx(_components.p, {
-      children: "사용 방법은 다음과 같습니다."
+      children: "사용법은 다음과 같습니다."
     }), "\n", _jsx(_components.div, {
       className: "rehype-code-title",
       children: "src/styles/reset.ts"
@@ -4851,7 +4848,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-15:T7ed,/*@jsxRuntime automatic @jsxImportSource react*/
+15:T80f,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -4862,13 +4859,17 @@ function _createMdxContent(props) {
   }, _provideComponents(), props.components);
   return _jsxs(_Fragment, {
     children: [_jsxs(_components.p, {
-      children: [_jsx(_components.code, {
+      children: ["회사에서 이후 프로젝트에 대한 프론트엔드 스택을 ", _jsx(_components.code, {
         children: "vue.js"
-      }), " 만 사용하던 회사에서 이후 모든 프로젝트를 ", _jsx(_components.code, {
+      }), " 에서 ", _jsx(_components.code, {
         children: "react"
-      }), " 로 개발한다는 소식이 있었습니다.", _jsx(_components.br, {}), "\n", "하여 공부 목적으로 이번에 블로그를 리뉴얼 하게 되었습니다.", _jsx(_components.br, {}), "\n", "리뉴얼은 ", _jsx(_components.code, {
+      }), " 로 변경하기로 했습니다.", _jsx(_components.br, {}), "\n", "따라서 저도 이번에 블로그를 ", _jsx(_components.code, {
+        children: "react"
+      }), " 기반의 ", _jsx(_components.code, {
         children: "next.js"
-      }), " 라는 react 기반의 SSR 프레임워크를 사용했으며 제일 최신버전인 13버전을 채택했습니다."]
+      }), " 를 사용하여 리뉴얼 해보았습니다.", _jsx(_components.br, {}), "\n", "사용 버전은 제일 최신버전인 13버전을 채택했으며 ", _jsx(_components.code, {
+        children: "Github Pages"
+      }), " 호스팅 서비스를 이용했습니다."]
     }), "\n", _jsxs(_components.p, {
       children: ["블로그 포스팅은 ", _jsx(_components.code, {
         children: "mdx"
@@ -4880,7 +4881,7 @@ function _createMdxContent(props) {
         children: "react-mdx-remote"
       }), " 를 사용했습니다."]
     }), "\n", _jsx(_components.p, {
-      children: "앞으로 이 블로그를 통하여 공부한 내용이나 문제 해결 과정 등을 공유하겠습니다."
+      children: "end."
     })]
   });
 }
