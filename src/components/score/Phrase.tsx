@@ -89,7 +89,9 @@ const StyledScorePhrase = styled.div`
   flex-wrap: wrap;
   // column-gap: 0.1em;
   padding: 4px;
-  background-color: #fff;
+  // background-color: #fff;
+  // border-bottom: 1px solid ${config.primaryLine};
+  border-bottom: 1px solid #e4e8ec;
   row-gap: 6px;
   .letter {
     display: flex;

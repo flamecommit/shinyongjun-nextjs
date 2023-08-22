@@ -22,8 +22,6 @@ const StyledScoreWrapper = styled.article<{ $letterSpacing?: number }>`
   display: grid;
   row-gap: 30px;
   font-size: 14px;
-  background-color: ${config.primaryBg};
-  padding: 24px 12px;
   .notice {
     margin-bottom: 0 !important;
     font-size: 14px;
@@ -35,8 +33,6 @@ const StyledScoreWrapper = styled.article<{ $letterSpacing?: number }>`
   }
   @media ${device.mobile} {
     font-size: 12px;
-    padding: 12px 6px;
-    margin: -6px;
   }
 `;
 
