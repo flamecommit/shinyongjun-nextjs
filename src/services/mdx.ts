@@ -10,10 +10,10 @@ type Image = {
 };
 
 export const transformImgSrc = ({
-  slug,
+  mdxPath,
   path,
 }: {
-  slug: string;
+  mdxPath: string;
   path: string;
 }) => {
   return (tree: Node) => {
@@ -25,7 +25,7 @@ export const transformImgSrc = ({
       if (image === undefined) return;
 
       const fileName = image.url.replace('./', '');
-      const imageUrl = `${path}/${slug}/${fileName}`;
+      const imageUrl = `${path}/${mdxPath}/${fileName}`;
       const imageBuffer = fs.readFileSync(imageUrl);
       const base64String = imageBuffer.toString('base64');
       const extension = getExtensionOfFilename(fileName);
@@ -45,4 +45,22 @@ export const transformImgSrc = ({
       node.children.push(citeNode);
     });
   };
+};
+
+export const extractLastDirectory = (path: string): string => {
+  const parts = path.split('/');
+  const filteredParts = parts.filter((part) => part !== '');
+
+  if (filteredParts.length > 1) {
+    return filteredParts[filteredParts.length - 2];
+  }
+
+  return '';
+};
+
+export const mdxFilePath = (path: string, basePath: string): string => {
+  return path
+    .slice(path.indexOf(basePath))
+    .replace(`${basePath}/`, '')
+    .replace('/index.mdx', '');
 };

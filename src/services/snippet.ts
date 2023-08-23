@@ -7,7 +7,7 @@ import { serialize } from 'next-mdx-remote/serialize';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeCodeTitles from 'rehype-code-titles';
 import remarkBreaks from 'remark-breaks';
-import { transformImgSrc } from './mdx';
+import { extractLastDirectory, mdxFilePath, transformImgSrc } from './mdx';
 
 const BASE_PATH = '/contents/snippets';
 const SNIPPETS_PATH = path.join(process.cwd(), BASE_PATH);
@@ -34,15 +34,14 @@ const parseSnippet = async (snippetPath: string): Promise<Snippet> => {
   const file = fs.readFileSync(snippetPath, 'utf8');
   const { data, content } = matter(file);
   const grayMatter = data as SnippetMatter;
-  const slug = snippetPath
-    .slice(snippetPath.indexOf(BASE_PATH))
-    .replace(`${BASE_PATH}/`, '')
-    .replace('/index.mdx', '');
+  const mdxPath = mdxFilePath(snippetPath, BASE_PATH);
+  const slug = extractLastDirectory(snippetPath);
+
   const mdx = await serialize(content, {
     mdxOptions: {
       remarkPlugins: [
         remarkBreaks,
-        [transformImgSrc, { slug, path: SNIPPETS_PATH }],
+        [transformImgSrc, { mdxPath, path: SNIPPETS_PATH }],
       ],
       rehypePlugins: [rehypeCodeTitles, rehypeHighlight],
       format: 'mdx',

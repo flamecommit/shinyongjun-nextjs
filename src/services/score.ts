@@ -7,7 +7,7 @@ import { serialize } from 'next-mdx-remote/serialize';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeCodeTitles from 'rehype-code-titles';
 import remarkBreaks from 'remark-breaks';
-import { transformImgSrc } from './mdx';
+import { extractLastDirectory, mdxFilePath, transformImgSrc } from './mdx';
 
 const BASE_PATH = '/contents/score';
 const SCORE_PATH = path.join(process.cwd(), BASE_PATH);
@@ -28,15 +28,14 @@ const parseScore = async (scorePath: string): Promise<Score> => {
   const file = fs.readFileSync(scorePath, 'utf8');
   const { data, content } = matter(file);
   const grayMatter = data as ScoreMatter;
-  const slug = scorePath
-    .slice(scorePath.indexOf(BASE_PATH))
-    .replace(`${BASE_PATH}/`, '')
-    .replace('/index.mdx', '');
+  const mdxPath = mdxFilePath(scorePath, BASE_PATH);
+  const slug = extractLastDirectory(scorePath);
+
   const mdx = await serialize(content, {
     mdxOptions: {
       remarkPlugins: [
         remarkBreaks,
-        [transformImgSrc, { slug, path: SCORE_PATH }],
+        [transformImgSrc, { mdxPath, path: SCORE_PATH }],
       ],
       rehypePlugins: [rehypeCodeTitles, rehypeHighlight],
       format: 'mdx',
