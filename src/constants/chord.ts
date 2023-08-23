@@ -577,7 +577,10 @@ const rootE: ChordType = {
   },
   Em: {
     composition: ['E', 'G', 'B'],
-    chartList: [[0, 0, 0, 2, 2, 0]],
+    chartList: [
+      [0, 0, 0, 2, 2, 0],
+      [7, 8, 9, 9, 7, -1],
+    ],
   },
   Em6: {
     composition: ['E', 'G', 'B', 'C]'],
