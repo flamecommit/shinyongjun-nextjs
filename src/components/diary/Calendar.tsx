@@ -2,11 +2,11 @@
 
 import styled from 'styled-components';
 import { useState, useEffect } from 'react';
-import { useDispatch } from 'react-redux';
 import { FiChevronLeft } from '@react-icons/all-files/fi/FiChevronLeft';
 import { FiChevronRight } from '@react-icons/all-files/fi/FiChevronRight';
 import { getFormatDatetime, getMonthArray } from '@/utils/datetime';
 import { diaryActions } from '@/stores/features/diary';
+import { useAppDispatch } from '@/hooks/useRedux';
 
 function DiaryCalendar() {
   const now = new Date();
@@ -15,7 +15,7 @@ function DiaryCalendar() {
   const [year, setYear] = useState(koreaTime.getFullYear());
   const [month, setMonth] = useState(koreaTime.getMonth() + 1);
   const [localCurrentDate, setLocalCurrentDate] = useState(todayDate);
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
   const [monthArray, setMonthArray] = useState(getMonthArray(year, month));
 
   const setCurrentMonth = (move: number) => {

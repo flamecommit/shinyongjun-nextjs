@@ -4,14 +4,13 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import { usePathname } from 'next/navigation';
 import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import type { RootState } from '@/stores/store';
 import { coreActions } from '@/stores/features/core';
 import { roboto } from '@/styles/fonts';
+import { useAppDispatch, useAppSelector } from '@/hooks/useRedux';
 
 function BaseGnb() {
-  const { categoryName } = useSelector((state: RootState) => state.core);
-  const dispatch = useDispatch();
+  const { categoryName } = useAppSelector((state) => state.core);
+  const dispatch = useAppDispatch();
   const pathname = usePathname();
 
   useEffect(() => {

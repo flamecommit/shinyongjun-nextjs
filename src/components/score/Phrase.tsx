@@ -6,9 +6,8 @@ import ChordSymbol from '@/components/chord/Symbol';
 import { device } from '@/styles/mixin';
 import ChordChart from '../chord/Chart';
 import { config } from '@/styles/config';
-import { useSelector } from 'react-redux';
-import { RootState } from '@/stores/store';
 import { getPitch, getRoot } from '@/services/chord';
+import { useAppSelector } from '@/hooks/useRedux';
 
 type Props = {
   phrase: {
@@ -22,7 +21,7 @@ type Props = {
 // 8마디 = 큰악절 = period, sentence
 
 function ScorePhrase({ phrase }: Props) {
-  const scoreState = useSelector((state: RootState) => state.score);
+  const scoreState = useAppSelector((state) => state.score);
   const chordList = phrase.chordList || [];
   const [currentChord, setCurrentChord] = useState<string>('');
   const [initIndex, setInitIndex] = useState<number>(0);

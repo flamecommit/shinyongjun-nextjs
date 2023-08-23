@@ -3,17 +3,16 @@
 import styled from 'styled-components';
 import { SiGithub } from '@react-icons/all-files/si/SiGithub';
 import Link from 'next/link';
-import { useSelector } from 'react-redux';
-import { RootState } from '@/stores/store';
 import { device } from '@/styles/mixin';
 import { config } from '@/styles/config';
+import { useAppSelector } from '@/hooks/useRedux';
 
 interface Props {
   postDetail?: boolean;
 }
 
 function AuthorProfile({ postDetail }: Props) {
-  const { categoryName } = useSelector((state: RootState) => state.core);
+  const { categoryName } = useAppSelector((state) => state.core);
 
   return (
     <StyledAuthorProfile data-is-detail={postDetail}>

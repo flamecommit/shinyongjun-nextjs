@@ -11,12 +11,11 @@ import GalleryWrapper from '@/components/gallery/Wrapper';
 import ScorePhrase from './Phrase';
 import ScoreWrapper from './Wrapper';
 import { GalleryType } from '../types/gallery';
-import { useDispatch, useSelector } from 'react-redux';
-import type { RootState } from '@/stores/store';
 import { scoreActions } from '@/stores/features/score';
 import { FiChevronUp } from '@react-icons/all-files/fi/FichevronUp';
 import { FiChevronDown } from '@react-icons/all-files/fi/FichevronDown';
 import { config } from '@/styles/config';
+import { useAppDispatch, useAppSelector } from '@/hooks/useRedux';
 
 interface Props {
   scoreData: Score;
@@ -27,8 +26,8 @@ function ScoreViewer({ scoreData }: Props) {
   const [isGallery, setIsGallery] = useState(false);
   const [initActiveIndex, setInitActiveIndex] = useState(0);
   const contents = useRef<HTMLDivElement>(null);
-  const scoreState = useSelector((state: RootState) => state.score);
-  const dispatch = useDispatch();
+  const scoreState = useAppSelector((state) => state.score);
+  const dispatch = useAppDispatch();
 
   const closeGallery = () => {
     setIsGallery(false);

@@ -1,12 +1,11 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { useSelector } from 'react-redux';
-import type { RootState } from '@/stores/store';
+import { useAppSelector } from '@/hooks/useRedux';
 
 function DiaryGiscus() {
   const ref = useRef<HTMLDivElement>(null);
-  const { currentDate } = useSelector((state: RootState) => state.diary);
+  const { currentDate } = useAppSelector((state) => state.diary);
 
   useEffect(() => {
     if (!ref.current || !currentDate || ref.current.hasChildNodes()) return;
