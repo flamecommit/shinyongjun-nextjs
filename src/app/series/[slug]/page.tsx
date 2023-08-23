@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = params;
 
   return {
-    title: `shinyongjun | Series - ${slug}`,
+    title: `Series - ${slug}`,
   };
 }
 

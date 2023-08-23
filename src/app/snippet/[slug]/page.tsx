@@ -13,14 +13,14 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = params;
   const { snippet } = await getSnippet(slug);
-  const description = snippet.title;
+  const title = `${snippet.title} of ${snippet.categories.join(', ')}`;
 
   return {
-    title: `shinyongjun - Snippet | ${snippet.title}`,
-    description,
+    title,
+    description: title,
     openGraph: {
-      title: snippet.title,
-      description: snippet.description,
+      title,
+      description: title,
       images: process.env.OG_IMAGE,
     },
   };

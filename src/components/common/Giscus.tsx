@@ -19,7 +19,7 @@ function Giscus() {
     scriptElem.setAttribute('data-repo-id', 'R_kgDOKAn1Tg');
     scriptElem.setAttribute('data-category', 'General');
     scriptElem.setAttribute('data-category-id', 'DIC_kwDOKAn1Ts4CYhyN');
-    scriptElem.setAttribute('data-mapping', 'title');
+    scriptElem.setAttribute('data-mapping', 'pathname');
     scriptElem.setAttribute('data-strict', '1');
     scriptElem.setAttribute('data-reactions-enabled', '1');
     scriptElem.setAttribute('data-emit-metadata', '0');

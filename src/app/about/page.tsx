@@ -4,7 +4,7 @@ import AuthorProfile from '@/components/author/Profile';
 import PageTitle from '@/components/page/Title';
 
 export const metadata: Metadata = {
-  title: 'shinyongjun - About',
+  title: 'About',
 };
 
 const AboutPage = async () => {

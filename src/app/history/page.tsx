@@ -4,7 +4,7 @@ import PageTitle from '@/components/page/Title';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: `shinyongjun - History`,
+    title: `History`,
   };
 }
 

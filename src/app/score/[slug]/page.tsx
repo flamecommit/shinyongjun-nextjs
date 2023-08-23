@@ -13,13 +13,15 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = params;
   const { score } = await getScore(slug);
+  const title = `${score.artist} - ${score.title} 기타 코드 가사 악보`;
+  const description = `${score.artist} - ${score.title} 키조절이 가능한 코드 악보입니다. 코드를 클릭하면 코드표가 나와요.`;
 
   return {
-    title: `shinyongjun - Score | ${score.artist} - ${score.title}`,
-    description: `${score.artist}의 ${score.title} 코드 악보 입니다.`,
+    title,
+    description,
     openGraph: {
-      title: `shinyongjun - Score | ${score.artist} - ${score.title}`,
-      description: `${score.artist}의 ${score.title} 코드 악보 입니다.`,
+      title,
+      description,
       images: process.env.OG_IMAGE,
     },
   };

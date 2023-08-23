@@ -4,7 +4,7 @@ import ChordList from '@/components/chord/List';
 import PageLink from '@/components/page/Link';
 
 export const metadata: Metadata = {
-  title: 'shinyongjun - Chord',
+  title: 'Guitar Chords Finder',
 };
 
 const DiaryPage = async () => {

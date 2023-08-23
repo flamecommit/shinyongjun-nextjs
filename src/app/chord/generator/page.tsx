@@ -3,10 +3,10 @@ import PageTitle from '@/components/page/Title';
 import ChordGenerator from '@/components/chord/Generator';
 
 export const metadata: Metadata = {
-  title: 'shinyongjun - Chord Generator',
+  title: 'Guitar Chord Generator',
   description: `You can use the fretboard to create the chord.`,
   openGraph: {
-    title: `shinyongjun - Chord Generator`,
+    title: `Guitar Chord Generator`,
     description: `You can use the fretboard to create the chord.`,
     images: process.env.OG_IMAGE,
   },

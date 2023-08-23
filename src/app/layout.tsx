@@ -9,18 +9,23 @@ interface Props {
   children: React.ReactNode;
 }
 
-export const metadata: Metadata = {
-  title: 'shinyongjun | Home',
-  description: process.env.BIO,
-  viewport: 'width=device-width, initial-scale=1.0',
-  openGraph: {
-    type: 'website',
-    title: 'shinyongjun.com',
-    siteName: 'shinyongjun.com',
-    description: process.env.BIO,
-    images: process.env.OG_IMAGE,
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const title = 'Shinyongjun Dev & Music Archive';
+  const description = process.env.BIO;
+
+  return {
+    title,
+    description,
+    viewport: 'width=device-width, initial-scale=1.0',
+    openGraph: {
+      type: 'website',
+      title,
+      siteName: 'shinyongjun.com',
+      description,
+      images: process.env.OG_IMAGE,
+    },
+  };
+}
 
 function RootLayout({ children }: Props) {
   return (
