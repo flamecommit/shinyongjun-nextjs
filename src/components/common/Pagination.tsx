@@ -7,6 +7,7 @@ import { FiChevronLeft } from '@react-icons/all-files/fi/FiChevronLeft';
 import { FiChevronsLeft } from '@react-icons/all-files/fi/FiChevronsLeft';
 import { FiChevronRight } from '@react-icons/all-files/fi/FiChevronRight';
 import { config } from '@/styles/config';
+import { PAGE_GROUP_SIZE, PAGE_LIST_SIZE } from '@/constants/score';
 
 type Props = {
   currentPage: number;
@@ -15,20 +16,18 @@ type Props = {
 };
 
 function CommonPagination({ currentPage, totalCount, setCurrentPage }: Props) {
-  const ITEM_PER_PAGE = 10;
-  const PAGE_PER_GROUP = 5;
-  const lastPage = Math.ceil(totalCount / ITEM_PER_PAGE);
+  const lastPage = Math.ceil(totalCount / PAGE_LIST_SIZE);
   const [currentGroupIndex, setCurrentGroupIndex] = useState<number>(0);
-  const lastGroupIndex = Math.ceil(lastPage / PAGE_PER_GROUP) - 1;
+  const lastGroupIndex = Math.ceil(lastPage / PAGE_GROUP_SIZE) - 1;
   const [pageList, setPageList] = useState<number[]>([1]);
 
   useEffect(() => {
     const temp = [];
-    const startPage = currentGroupIndex * PAGE_PER_GROUP + 1;
+    const startPage = currentGroupIndex * PAGE_GROUP_SIZE + 1;
     const endPage =
       currentGroupIndex === lastGroupIndex
         ? lastPage
-        : startPage + PAGE_PER_GROUP - 1;
+        : startPage + PAGE_GROUP_SIZE - 1;
 
     for (let i = startPage; i <= endPage; i++) {
       temp.push(i);
@@ -38,7 +37,7 @@ function CommonPagination({ currentPage, totalCount, setCurrentPage }: Props) {
   }, [currentGroupIndex, lastPage, lastGroupIndex]);
 
   useEffect(() => {
-    setCurrentGroupIndex(Math.floor((currentPage - 1) / PAGE_PER_GROUP));
+    setCurrentGroupIndex(Math.floor((currentPage - 1) / PAGE_GROUP_SIZE));
     window.scrollTo({
       top: 0,
     });

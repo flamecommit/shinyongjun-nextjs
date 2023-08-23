@@ -7,6 +7,7 @@ import ScoreList from './List';
 import CommonSearch from '../common/Search';
 import CommonPagination from '../common/Pagination';
 import CommonSpinner from '../common/Spinner';
+import { PAGE_LIST_SIZE } from '@/constants/score';
 
 type Props = {
   scoreList: Score[];
@@ -17,8 +18,6 @@ type Props = {
 // 8마디 = 큰악절 = period, sentence
 
 function ScoreListWrapper({ scoreList }: Props) {
-  const ITEM_PER_PAGE = 10;
-
   const [isMounted, setIsMounted] = useState(false);
   const [displayList, setDisplayList] = useState<Score[]>([]);
   const [searchKeyword, setSearchKeyword] = useState<string>('');
@@ -33,8 +32,8 @@ function ScoreListWrapper({ scoreList }: Props) {
       });
       setDisplayList(searchResult);
     } else {
-      const startIndex = (currentPage - 1) * ITEM_PER_PAGE;
-      const endIndex = startIndex + ITEM_PER_PAGE;
+      const startIndex = (currentPage - 1) * PAGE_LIST_SIZE;
+      const endIndex = startIndex + PAGE_LIST_SIZE;
       const searchResult = scoreList.slice(startIndex, endIndex);
       setDisplayList(searchResult);
     }
