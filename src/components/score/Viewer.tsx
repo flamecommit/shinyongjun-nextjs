@@ -145,6 +145,10 @@ const StyledScoreViewer = styled.div`
             height: 24px;
             background-color: ${config.primaryBg};
             border: 1px solid ${config.primaryLine};
+            &:hover {
+              background-color: ${config.secondaryBg};
+              background-color: ${config.secondaryLine};
+            }
           }
         }
       }
