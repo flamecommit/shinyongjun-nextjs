@@ -1,6 +1,6 @@
 1:HL["/_next/static/css/52f87e6b0f7ae474.css",{"as":"style"}]
 2:HL["/_next/static/css/0140179f5997954c.css",{"as":"style"}]
-0:["GPNjDDmVsCpugdv5NKrW-",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
+0:["b0dZwlkkoqkfNxYmHTBoX",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
 5:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","173:static/chunks/173-69a29d0c9ab86469.js","185:static/chunks/app/layout-5d28979c73588cbe.js"],"name":"","async":false}
 6:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","173:static/chunks/173-69a29d0c9ab86469.js","185:static/chunks/app/layout-5d28979c73588cbe.js"],"name":"","async":false}
 7:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","173:static/chunks/173-69a29d0c9ab86469.js","185:static/chunks/app/layout-5d28979c73588cbe.js"],"name":"","async":false}
@@ -11,7 +11,7 @@ a:I{"id":7920,"chunks":["272:static/chunks/webpack-3770a98f19222c62.js","971:sta
 4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun | Home"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun.com"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"shinyongjun.com"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
 c:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-7c31c3a026f61a1e.js"],"name":"","async":false}
 d:I{"id":6556,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","994:static/chunks/app/score/page-7c31c3a026f61a1e.js"],"name":"","async":false}
-e:T3ba3,/*@jsxRuntime automatic @jsxImportSource react*/
+e:T3bcd,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -23,16 +23,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '멈춘 시간 속 잠든 너를 찾아가',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 6
         }, {
-          name: 'D',
+          name: 'B',
           position: 11
         }, {
-          name: 'G',
+          name: 'E',
           position: 16
         }]
       }
@@ -40,16 +40,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '아무리 막아도 결국 너의 곁인 걸',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 1
         }, {
-          name: 'C',
+          name: 'A',
           position: 6
         }, {
-          name: 'D',
+          name: 'B',
           position: 11
         }, {
-          name: 'G',
+          name: 'E',
           position: 17
         }]
       }
@@ -57,16 +57,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '길고 긴 여행을 끝내 이젠 돌아가',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 3
         }, {
-          name: 'C',
+          name: 'A',
           position: 9
         }, {
-          name: 'D',
+          name: 'B',
           position: 12
         }, {
-          name: 'G',
+          name: 'E',
           position: 17
         }]
       }
@@ -74,72 +74,72 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '너라는 집으로 지금 다시 way back home',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 1
         }, {
-          name: 'C',
+          name: 'A',
           position: 6
         }, {
-          name: 'D',
+          name: 'B',
           position: 11
         }, {
-          name: 'G',
+          name: 'E',
           position: 23
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 4
         }, {
-          name: 'D',
+          name: 'B',
           position: 8
         }, {
-          name: 'G',
+          name: 'E',
           position: 12
         }, {
-          name: 'Em',
+          name: 'C]m',
           position: 16
         }, {
-          name: 'C',
+          name: 'A',
           position: 20
         }, {
-          name: 'D',
+          name: 'B',
           position: 24
         }, {
-          name: 'G',
+          name: 'E',
           position: 28
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 4
         }, {
-          name: 'D',
+          name: 'B',
           position: 8
         }, {
-          name: 'G',
+          name: 'E',
           position: 12
         }, {
-          name: 'Em',
+          name: 'C]m',
           position: 16
         }, {
-          name: 'C',
+          name: 'A',
           position: 20
         }, {
-          name: 'D',
+          name: 'B',
           position: 24
         }, {
-          name: 'G',
+          name: 'E',
           position: 28
         }]
       }
@@ -147,16 +147,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 아무리 힘껏 닫아도 다시 열린 서랍 같아',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'D',
+          name: 'B',
           position: 10
         }, {
-          name: 'G',
+          name: 'E',
           position: 15
         }]
       }
@@ -164,16 +164,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 하늘로 높이 날린 넌 자꾸 내게 되돌아와',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'D',
+          name: 'B',
           position: 12
         }, {
-          name: 'G',
+          name: 'E',
           position: 16
         }]
       }
@@ -181,28 +181,28 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 힘들게 삼킨 이별도 다 그대로인 걸, 걸, 걸 (걸, 걸, 걸, 걸)',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'D',
+          name: 'B',
           position: 11
         }, {
-          name: 'G',
+          name: 'E',
           position: 14
         }, {
-          name: 'Em',
+          name: 'C]m',
           position: 18
         }, {
-          name: 'C',
+          name: 'A',
           position: 22
         }, {
-          name: 'D',
+          name: 'B',
           position: 26
         }, {
-          name: 'G',
+          name: 'E',
           position: 30
         }]
       }
@@ -210,16 +210,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '수없이 떠난 길 위에서 난 너를 발견하고',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 4
         }, {
-          name: 'C',
+          name: 'A',
           position: 10
         }, {
-          name: 'D',
+          name: 'B',
           position: 16
         }, {
-          name: 'G',
+          name: 'E',
           position: 22
         }]
       }
@@ -227,16 +227,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '비우려 했던 맘은 또 이렇게 너로 차올라',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 1
         }, {
-          name: 'C',
+          name: 'A',
           position: 6
         }, {
-          name: 'D',
+          name: 'B',
           position: 10
         }, {
-          name: 'G',
+          name: 'E',
           position: 15
         }]
       }
@@ -244,16 +244,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '발걸음의 끝에 늘 네가 부딪혀',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 1
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'D',
+          name: 'B',
           position: 10
         }, {
-          name: 'G',
+          name: 'E',
           position: 15
         }]
       }
@@ -261,16 +261,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '그만,      그만',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 1
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'D',
+          name: 'B',
           position: 10
         }, {
-          name: 'G',
+          name: 'E',
           position: 15
         }]
       }
@@ -278,16 +278,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '멈춘 시간 속 잠든 너를 찾아가',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 6
         }, {
-          name: 'D',
+          name: 'B',
           position: 11
         }, {
-          name: 'G',
+          name: 'E',
           position: 16
         }]
       }
@@ -295,16 +295,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '아무리 막아도 결국 너의 곁인 걸',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 1
         }, {
-          name: 'C',
+          name: 'A',
           position: 6
         }, {
-          name: 'D',
+          name: 'B',
           position: 11
         }, {
-          name: 'G',
+          name: 'E',
           position: 17
         }]
       }
@@ -312,16 +312,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '길고 긴 여행을 끝내 이젠 돌아가',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 3
         }, {
-          name: 'C',
+          name: 'A',
           position: 9
         }, {
-          name: 'D',
+          name: 'B',
           position: 12
         }, {
-          name: 'G',
+          name: 'E',
           position: 17
         }]
       }
@@ -329,72 +329,72 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '너라는 집으로 지금 다시 way back home',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 1
         }, {
-          name: 'C',
+          name: 'A',
           position: 6
         }, {
-          name: 'D',
+          name: 'B',
           position: 11
         }, {
-          name: 'G',
+          name: 'E',
           position: 23
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 4
         }, {
-          name: 'D',
+          name: 'B',
           position: 8
         }, {
-          name: 'G',
+          name: 'E',
           position: 12
         }, {
-          name: 'Em',
+          name: 'C]m',
           position: 16
         }, {
-          name: 'C',
+          name: 'A',
           position: 20
         }, {
-          name: 'D',
+          name: 'B',
           position: 24
         }, {
-          name: 'G',
+          name: 'E',
           position: 28
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 4
         }, {
-          name: 'D',
+          name: 'B',
           position: 8
         }, {
-          name: 'G',
+          name: 'E',
           position: 12
         }, {
-          name: 'Em',
+          name: 'C]m',
           position: 16
         }, {
-          name: 'C',
+          name: 'A',
           position: 20
         }, {
-          name: 'D',
+          name: 'B',
           position: 24
         }, {
-          name: 'G',
+          name: 'E',
           position: 28
         }]
       }
@@ -402,16 +402,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '조용히 잠든 방을 열어 기억을 꺼내 들어',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 4
         }, {
-          name: 'C',
+          name: 'A',
           position: 11
         }, {
-          name: 'D',
+          name: 'B',
           position: 14
         }, {
-          name: 'G',
+          name: 'E',
           position: 21
         }]
       }
@@ -419,16 +419,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '부서진 시간 위에서 선명히 너는 떠올라',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 4
         }, {
-          name: 'C',
+          name: 'A',
           position: 9
         }, {
-          name: 'D',
+          name: 'B',
           position: 15
         }, {
-          name: 'G',
+          name: 'E',
           position: 20
         }]
       }
@@ -436,16 +436,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '길 잃은 맘 속에 널 가둔 채 살아',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 2
         }, {
-          name: 'C',
+          name: 'A',
           position: 8
         }, {
-          name: 'D',
+          name: 'B',
           position: 12
         }, {
-          name: 'G',
+          name: 'E',
           position: 18
         }]
       }
@@ -453,16 +453,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '그만,      그만',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 1
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'D',
+          name: 'B',
           position: 10
         }, {
-          name: 'G',
+          name: 'E',
           position: 15
         }]
       }
@@ -470,16 +470,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '멈춘 시간 속 잠든 너를 찾아가',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 6
         }, {
-          name: 'D',
+          name: 'B',
           position: 11
         }, {
-          name: 'G',
+          name: 'E',
           position: 16
         }]
       }
@@ -487,16 +487,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '아무리 막아도 결국 너의 곁인 걸',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 1
         }, {
-          name: 'C',
+          name: 'A',
           position: 6
         }, {
-          name: 'D',
+          name: 'B',
           position: 11
         }, {
-          name: 'G',
+          name: 'E',
           position: 17
         }]
       }
@@ -504,16 +504,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '길고 긴 여행을 끝내 이젠 돌아가',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 3
         }, {
-          name: 'C',
+          name: 'A',
           position: 9
         }, {
-          name: 'D',
+          name: 'B',
           position: 12
         }, {
-          name: 'G',
+          name: 'E',
           position: 17
         }]
       }
@@ -521,16 +521,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '너라는 집으로 지금 다시 way back home',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 1
         }, {
-          name: 'C',
+          name: 'A',
           position: 6
         }, {
-          name: 'D',
+          name: 'B',
           position: 11
         }, {
-          name: 'G',
+          name: 'E',
           position: 23
         }]
       }
@@ -538,10 +538,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 세상을 뒤집어 찾으려 해',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 0
         }, {
-          name: 'D',
+          name: 'B',
           position: 8
         }]
       }
@@ -549,10 +549,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 오직 너로 완결된 이야기를',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'D',
+          name: 'B',
           position: 10
         }]
       }
@@ -560,10 +560,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 모든 걸 잃어도',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'G',
+          name: 'E',
           position: 6
         }]
       }
@@ -571,41 +571,41 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 난 너 하나면 돼',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 0
         }, {
-          name: 'D',
+          name: 'B',
           position: 10
         }, {
-          name: 'G',
+          name: 'E',
           position: 15
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 4
         }, {
-          name: 'D',
+          name: 'B',
           position: 8
         }, {
-          name: 'G',
+          name: 'E',
           position: 12
         }, {
-          name: 'Em',
+          name: 'C]m',
           position: 16
         }, {
-          name: 'C',
+          name: 'A',
           position: 20
         }, {
-          name: 'D',
+          name: 'B',
           position: 24
         }, {
-          name: 'G',
+          name: 'E',
           position: 28
         }]
       }
@@ -613,28 +613,28 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '빛이 다 꺼진 여기 나를 안아줘',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 3
         }, {
-          name: 'C',
+          name: 'A',
           position: 8
         }, {
-          name: 'D',
+          name: 'B',
           position: 11
         }, {
-          name: 'G',
+          name: 'E',
           position: 16
         }, {
-          name: 'Em',
+          name: 'C]m',
           position: 20
         }, {
-          name: 'C',
+          name: 'A',
           position: 24
         }, {
-          name: 'D',
+          name: 'B',
           position: 28
         }, {
-          name: 'G',
+          name: 'E',
           position: 32
         }]
       }
@@ -642,16 +642,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '눈을 감으면 소리 없이 밀려와',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'D',
+          name: 'B',
           position: 10
         }, {
-          name: 'G',
+          name: 'E',
           position: 15
         }]
       }
@@ -659,16 +659,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '이 마음 그 위로 넌 또 한 겹 쌓여가',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 2
         }, {
-          name: 'C',
+          name: 'A',
           position: 8
         }, {
-          name: 'D',
+          name: 'B',
           position: 14
         }, {
-          name: 'G',
+          name: 'E',
           position: 20
         }]
       }
@@ -676,16 +676,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '내겐 그 누구도 아닌 네가 필요해',
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 3
         }, {
-          name: 'C',
+          name: 'A',
           position: 9
         }, {
-          name: 'D',
+          name: 'B',
           position: 12
         }, {
-          name: 'G',
+          name: 'E',
           position: 17
         }]
       }
@@ -693,16 +693,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: "돌아와 내 곁에 그날까지 I'm not done",
         chordList: [{
-          name: 'Em',
+          name: 'C]m',
           position: 1
         }, {
-          name: 'C',
+          name: 'A',
           position: 7
         }, {
-          name: 'D',
+          name: 'B',
           position: 11
         }, {
-          name: 'G',
+          name: 'E',
           position: 22
         }]
       }
@@ -2154,7 +2154,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-13:T23e5,/*@jsxRuntime automatic @jsxImportSource react*/
+13:T23f2,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -2166,16 +2166,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '(전주)',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 0
         }, {
-          name: 'Em',
+          name: 'C]m',
           position: 4
         }, {
-          name: 'G',
+          name: 'E',
           position: 8
         }, {
-          name: 'C',
+          name: 'A',
           position: 12
         }]
       }
@@ -2183,13 +2183,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '너의 그 한 마디 말도 그 웃음도',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 0
         }, {
-          name: 'G',
+          name: 'E',
           position: 5
         }, {
-          name: 'F',
+          name: 'D',
           position: 11
         }]
       }
@@ -2197,13 +2197,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '나에겐 커다란 의미',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'G',
+          name: 'E',
           position: 9
         }]
       }
@@ -2211,13 +2211,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '너의 그 작은 눈빛도 쓸쓸한 뒷모습도',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 0
         }, {
-          name: 'G',
+          name: 'E',
           position: 5
         }, {
-          name: 'F',
+          name: 'D',
           position: 10
         }]
       }
@@ -2225,13 +2225,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '나에겐 힘겨운 약속',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'G',
+          name: 'E',
           position: 9
         }]
       }
@@ -2239,10 +2239,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '너의 모든 것은 내게로 와',
         chordList: [{
-          name: 'F',
+          name: 'D',
           position: 0
         }, {
-          name: 'G',
+          name: 'E',
           position: 13
         }]
       }
@@ -2250,10 +2250,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '풀리지 않는 수수께끼가 되네',
         chordList: [{
-          name: 'F',
+          name: 'D',
           position: 0
         }, {
-          name: 'G',
+          name: 'E',
           position: 15
         }]
       }
@@ -2261,10 +2261,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '슬픔은 간이역에 코스모스로 피고',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'F',
+          name: 'D',
           position: 9
         }]
       }
@@ -2272,10 +2272,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '스쳐 불어온 넌 향긋한 바람',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 1
         }, {
-          name: 'G',
+          name: 'E',
           position: 11
         }]
       }
@@ -2283,10 +2283,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '나 이제 뭉게구름 위에 성을 짓고',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'F',
+          name: 'D',
           position: 13
         }]
       }
@@ -2294,10 +2294,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '널 향해 창을 내리 바람 드는 창을',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 2
         }, {
-          name: 'G',
+          name: 'E',
           position: 14
         }]
       }
@@ -2305,7 +2305,7 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' (이렇게 상처를 받기도 하는구나.)',
         chordList: [{
-          name: 'F',
+          name: 'D',
           position: 0
         }]
       }
@@ -2313,13 +2313,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '너의 그 한 마디 말도 그 웃음도',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 0
         }, {
-          name: 'G',
+          name: 'E',
           position: 5
         }, {
-          name: 'F',
+          name: 'D',
           position: 11
         }]
       }
@@ -2327,13 +2327,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '나에겐 커다란 의미',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'G',
+          name: 'E',
           position: 9
         }]
       }
@@ -2341,13 +2341,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '너의 그 작은 눈빛도 쓸쓸한 뒷모습도',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 0
         }, {
-          name: 'G',
+          name: 'E',
           position: 5
         }, {
-          name: 'F',
+          name: 'D',
           position: 10
         }]
       }
@@ -2355,13 +2355,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '나에겐 힘겨운 약속',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'G',
+          name: 'E',
           position: 9
         }]
       }
@@ -2369,10 +2369,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '너의 모든 것은 내게로 와',
         chordList: [{
-          name: 'F',
+          name: 'D',
           position: 0
         }, {
-          name: 'G',
+          name: 'E',
           position: 13
         }]
       }
@@ -2380,10 +2380,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '풀리지 않는 수수께끼가 되네',
         chordList: [{
-          name: 'F',
+          name: 'D',
           position: 0
         }, {
-          name: 'G',
+          name: 'E',
           position: 15
         }]
       }
@@ -2391,10 +2391,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '슬픔은 간이역에 코스모스로 피고',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'F',
+          name: 'D',
           position: 9
         }]
       }
@@ -2402,10 +2402,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '스쳐 불어온 넌 향긋한 바람',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 1
         }, {
-          name: 'G',
+          name: 'E',
           position: 11
         }]
       }
@@ -2413,10 +2413,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '나 이제 뭉게구름 위에 성을 짓고',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'F',
+          name: 'D',
           position: 13
         }]
       }
@@ -2424,10 +2424,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '널 향해 창을 내리 바람 드는 창을',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 2
         }, {
-          name: 'G',
+          name: 'E',
           position: 14
         }]
       }
@@ -2435,10 +2435,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '슬픔은 간이역에 코스모스로 피고',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'F',
+          name: 'D',
           position: 9
         }]
       }
@@ -2446,10 +2446,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '스쳐 불어온 넌 향긋한 바람',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 1
         }, {
-          name: 'G',
+          name: 'E',
           position: 11
         }]
       }
@@ -2457,10 +2457,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '나 이제 뭉게구름 위에 성을 짓고',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'F',
+          name: 'D',
           position: 13
         }]
       }
@@ -2468,10 +2468,10 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '널 향해 창을 내리 바람 드는 창을',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 2
         }, {
-          name: 'G',
+          name: 'E',
           position: 14
         }]
       }
@@ -2479,13 +2479,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '너의 그 한 마디 말도 그 웃음도',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 0
         }, {
-          name: 'G',
+          name: 'E',
           position: 5
         }, {
-          name: 'F',
+          name: 'D',
           position: 11
         }]
       }
@@ -2493,13 +2493,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '나에겐 커다란 의미',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'G',
+          name: 'E',
           position: 9
         }]
       }
@@ -2507,13 +2507,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '너의 그 작은 눈빛도 쓸쓸한 뒷모습도',
         chordList: [{
-          name: 'C',
+          name: 'A',
           position: 0
         }, {
-          name: 'G',
+          name: 'E',
           position: 5
         }, {
-          name: 'F',
+          name: 'D',
           position: 10
         }]
       }
@@ -2521,13 +2521,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '나에겐 힘겨운 약속',
         chordList: [{
-          name: 'Am',
+          name: 'F]m',
           position: 0
         }, {
-          name: 'C',
+          name: 'A',
           position: 5
         }, {
-          name: 'G',
+          name: 'E',
           position: 9
         }]
       }
@@ -2535,7 +2535,7 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' (도대체 넌 나에게 누구냐?)',
         chordList: [{
-          name: 'F',
+          name: 'D',
           position: 0
         }]
       }
@@ -3154,7 +3154,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-16:T2c3d,/*@jsxRuntime automatic @jsxImportSource react*/
+16:T2c84,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -3166,25 +3166,25 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '지금 곁에서 딴 생각에 잠겨 걷고 있는 그대',
         chordList: [{
-          name: 'D',
+          name: 'C]',
           position: 0
         }, {
-          name: 'Em',
+          name: 'E[m',
           position: 3
         }, {
-          name: 'D/F]',
+          name: 'C]/F',
           position: 6
         }, {
-          name: 'G',
+          name: 'F]',
           position: 9
         }, {
-          name: 'Em',
+          name: 'E[m',
           position: 15
         }, {
-          name: 'A',
+          name: 'G]',
           position: 19
         }, {
-          name: 'D',
+          name: 'C]',
           position: 24
         }]
       }
@@ -3192,28 +3192,28 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '설레는 마음에 몰래 그대 모습 바라보면서 내안에 담아요',
         chordList: [{
-          name: 'F]m7',
+          name: 'Fm7',
           position: 1
         }, {
-          name: 'G',
+          name: 'F]',
           position: 7
         }, {
-          name: 'Gm7',
+          name: 'F]m7',
           position: 10
         }, {
-          name: 'F]m7',
+          name: 'Fm7',
           position: 13
         }, {
-          name: 'B7',
+          name: 'B[7',
           position: 17
         }, {
-          name: 'Em',
+          name: 'E[m',
           position: 22
         }, {
-          name: 'Em/D',
+          name: 'E[m/C]',
           position: 24
         }, {
-          name: 'A',
+          name: 'G]',
           position: 30
         }]
       }
@@ -3221,25 +3221,25 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 사랑이겠죠 또 다른 말로는 설명할수 없죠',
         chordList: [{
-          name: 'D',
+          name: 'C]',
           position: 0
         }, {
-          name: 'Em',
+          name: 'E[m',
           position: 3
         }, {
-          name: 'D/F]',
+          name: 'C]/F',
           position: 6
         }, {
-          name: 'G',
+          name: 'F]',
           position: 9
         }, {
-          name: 'Em',
+          name: 'E[m',
           position: 15
         }, {
-          name: 'A7',
+          name: 'G]7',
           position: 18
         }, {
-          name: 'D',
+          name: 'C]',
           position: 23
         }]
       }
@@ -3247,31 +3247,31 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '함께 걷는 이길 다시 추억으로 끝나지 않게 꼭 오늘처럼 지켜갈게요',
         chordList: [{
-          name: 'F]m7',
+          name: 'Fm7',
           position: 1
         }, {
-          name: 'G',
+          name: 'F]',
           position: 7
         }, {
-          name: 'Gm7',
+          name: 'F]m7',
           position: 11
         }, {
-          name: 'F]m7',
+          name: 'Fm7',
           position: 14
         }, {
-          name: 'B7',
+          name: 'B[7',
           position: 17
         }, {
-          name: 'Em',
+          name: 'E[m',
           position: 22
         }, {
-          name: 'Em/D',
+          name: 'E[m/C]',
           position: 26
         }, {
-          name: 'A7sus4',
+          name: 'G]7sus4',
           position: 33
         }, {
-          name: 'A7',
+          name: 'G]7',
           position: 38
         }]
       }
@@ -3279,19 +3279,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 사랑한다는 그말 아껴둘걸 그랬죠',
         chordList: [{
-          name: 'D',
+          name: 'C]',
           position: 0
         }, {
-          name: 'D/F]',
+          name: 'C]/F',
           position: 3
         }, {
-          name: 'G',
+          name: 'F]',
           position: 8
         }, {
-          name: 'Em',
+          name: 'E[m',
           position: 12
         }, {
-          name: 'A7',
+          name: 'G]7',
           position: 14
         }]
       }
@@ -3299,16 +3299,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 이젠 어떻게 내맘 표현해야 하나',
         chordList: [{
-          name: 'D',
+          name: 'C]',
           position: 0
         }, {
-          name: 'D/F]',
+          name: 'C]/F',
           position: 4
         }, {
-          name: 'Am',
+          name: 'G]m',
           position: 9
         }, {
-          name: 'D7',
+          name: 'C]7',
           position: 12
         }]
       }
@@ -3316,19 +3316,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 모든 것이 변해가도 이 맘으로',
         chordList: [{
-          name: 'G',
+          name: 'F]',
           position: 0
         }, {
-          name: 'Gm7',
+          name: 'F]m7',
           position: 3
         }, {
-          name: 'F]m7',
+          name: 'Fm7',
           position: 7
         }, {
-          name: 'Bm11',
+          name: 'B[m11',
           position: 11
         }, {
-          name: 'Em',
+          name: 'E[m',
           position: 16
         }]
       }
@@ -3336,13 +3336,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '그대 사랑할게요',
         chordList: [{
-          name: 'A7',
+          name: 'G]7',
           position: 3
         }, {
-          name: 'Dsus4',
+          name: 'C]sus4',
           position: 8
         }, {
-          name: 'D',
+          name: 'C]',
           position: 12
         }]
       }
@@ -3350,25 +3350,25 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 망설였나요 날 받아주기가 아직 힘든가요',
         chordList: [{
-          name: 'D',
+          name: 'C]',
           position: 0
         }, {
-          name: 'Em',
+          name: 'E[m',
           position: 3
         }, {
-          name: 'D/F]',
+          name: 'C]/F',
           position: 6
         }, {
-          name: 'G',
+          name: 'F]',
           position: 9
         }, {
-          name: 'Em',
+          name: 'E[m',
           position: 14
         }, {
-          name: 'A7',
+          name: 'G]7',
           position: 18
         }, {
-          name: 'D',
+          name: 'C]',
           position: 22
         }]
       }
@@ -3376,43 +3376,194 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '그댈 떠난 사랑 그만 잊으려고 애쓰진 마요 나 그때까지 기다릴테니',
         chordList: [{
-          name: 'F]m7',
+          name: 'Fm7',
           position: 1
         }, {
-          name: 'G',
+          name: 'F]',
           position: 7
         }, {
-          name: 'Gm7',
+          name: 'F]m7',
           position: 11
         }, {
-          name: 'F]m7',
+          name: 'Fm7',
           position: 14
         }, {
-          name: 'B7',
+          name: 'B[7',
           position: 17
         }, {
-          name: 'Em',
+          name: 'E[m',
           position: 22
         }, {
-          name: 'Em/D',
+          name: 'E[m/C]',
           position: 26
         }, {
-          name: 'A7sus4',
+          name: 'G]7sus4',
           position: 33
         }, {
-          name: 'A7',
+          name: 'G]7',
           position: 38
+        }]
+      }
+    }), ' ', ' ', _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 사랑한다는 그말 아껴둘걸 그랬죠',
+        chordList: [{
+          name: 'C]',
+          position: 0
+        }, {
+          name: 'C]/F',
+          position: 3
+        }, {
+          name: 'F]',
+          position: 8
+        }, {
+          name: 'E[m',
+          position: 12
+        }, {
+          name: 'G]7',
+          position: 14
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: ' 사랑한다는 그말 아껴둘걸 그랬죠',
+        lyrics: ' 이젠 어떻게 내맘 표현해야 하나',
+        chordList: [{
+          name: 'C]',
+          position: 0
+        }, {
+          name: 'C]/F',
+          position: 4
+        }, {
+          name: 'G]m',
+          position: 9
+        }, {
+          name: 'C]7',
+          position: 12
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 모든 것이 변해가도 이 맘으로',
+        chordList: [{
+          name: 'F]',
+          position: 0
+        }, {
+          name: 'F]m7',
+          position: 3
+        }, {
+          name: 'Fm7',
+          position: 7
+        }, {
+          name: 'B[m11',
+          position: 11
+        }, {
+          name: 'E[m',
+          position: 16
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '그대 사랑할게요',
+        chordList: [{
+          name: 'G]7',
+          position: 3
+        }, {
+          name: 'C]sus4',
+          position: 8
+        }, {
+          name: 'C]',
+          position: 12
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 눈물이 또 남아있다면 모두 흘려버려요',
+        chordList: [{
+          name: 'A',
+          position: 0
+        }, {
+          name: 'B',
+          position: 7
+        }, {
+          name: 'F]m',
+          position: 12
+        }, {
+          name: 'B',
+          position: 16
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 이 좋은 하늘아래 우리만 남도록 - 오 -  허어 예 -',
+        chordList: [{
+          name: 'E',
+          position: 0
+        }, {
+          name: 'C]m',
+          position: 4
+        }, {
+          name: 'E[m',
+          position: 9
+        }, {
+          name: 'G]',
+          position: 13
+        }, {
+          name: 'C]',
+          position: 18
+        }, {
+          name: 'F]',
+          position: 23
+        }, {
+          name: 'G]',
+          position: 25
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '(전조 간주)',
+        chordList: [{
+          name: 'C]',
+          position: 0
+        }, {
+          name: 'G]m',
+          position: 8
+        }, {
+          name: 'C]',
+          position: 12
+        }, {
+          name: 'F]',
+          position: 16
+        }, {
+          name: 'F]m',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '(전조 간주)',
+        chordList: [{
+          name: 'C]',
+          position: 0
+        }, {
+          name: 'B[m',
+          position: 4
+        }, {
+          name: 'E[m',
+          position: 8
+        }, {
+          name: 'Em',
+          position: 16
+        }, {
+          name: 'A',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '사랑할 수 있나요 내가 다가간 만큼',
         chordList: [{
           name: 'D',
           position: 0
-        }, {
-          name: 'D/F]',
-          position: 3
         }, {
           name: 'G',
           position: 8
@@ -3426,13 +3577,10 @@ function _createMdxContent(props) {
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: ' 이젠 어떻게 내맘 표현해야 하나',
+        lyrics: '이젠 내게 와줘요 내게 기댄 마음',
         chordList: [{
           name: 'D',
           position: 0
-        }, {
-          name: 'D/F]',
-          position: 4
         }, {
           name: 'Am',
           position: 9
@@ -3443,169 +3591,21 @@ function _createMdxContent(props) {
       }
     }), _jsx(ScorePhrase, {
       phrase: {
-        lyrics: ' 모든 것이 변해가도 이 맘으로',
-        chordList: [{
-          name: 'G',
-          position: 0
-        }, {
-          name: 'Gm7',
-          position: 3
-        }, {
-          name: 'F]m7',
-          position: 7
-        }, {
-          name: 'Bm11',
-          position: 11
-        }, {
-          name: 'Em',
-          position: 16
-        }]
-      }
-    }), _jsx(ScorePhrase, {
-      phrase: {
-        lyrics: '그대 사랑할게요',
-        chordList: [{
-          name: 'A7',
-          position: 3
-        }, {
-          name: 'Dsus4',
-          position: 8
-        }, {
-          name: 'D',
-          position: 12
-        }]
-      }
-    }), _jsx(ScorePhrase, {
-      phrase: {
-        lyrics: ' 눈물이 또 남아있다면 모두 흘려버려요',
-        chordList: [{
-          name: 'B[',
-          position: 0
-        }, {
-          name: 'C',
-          position: 7
-        }, {
-          name: 'Gm',
-          position: 12
-        }, {
-          name: 'C',
-          position: 16
-        }]
-      }
-    }), _jsx(ScorePhrase, {
-      phrase: {
-        lyrics: ' 이 좋은 하늘아래 우리만 남도록 - 오 -  허어 예 -',
-        chordList: [{
-          name: 'F',
-          position: 0
-        }, {
-          name: 'Dm',
-          position: 4
-        }, {
-          name: 'Em',
-          position: 9
-        }, {
-          name: 'A',
-          position: 13
-        }, {
-          name: 'D',
-          position: 18
-        }, {
-          name: 'G',
-          position: 23
-        }, {
-          name: 'A',
-          position: 25
-        }]
-      }
-    }), _jsx(ScorePhrase, {
-      phrase: {
-        lyrics: '(전조 간주)',
-        chordList: [{
-          name: 'D',
-          position: 0
-        }, {
-          name: 'Am',
-          position: 8
-        }, {
-          name: 'D',
-          position: 12
-        }, {
-          name: 'G',
-          position: 16
-        }, {
-          name: 'Gm',
-          position: 20
-        }]
-      }
-    }), _jsx(ScorePhrase, {
-      phrase: {
-        lyrics: '(전조 간주)',
-        chordList: [{
-          name: 'D',
-          position: 0
-        }, {
-          name: 'Bm',
-          position: 4
-        }, {
-          name: 'Em',
-          position: 8
-        }, {
-          name: 'Fm',
-          position: 16
-        }, {
-          name: 'B[',
-          position: 20
-        }]
-      }
-    }), _jsx(ScorePhrase, {
-      phrase: {
-        lyrics: '사랑할 수 있나요 내가 다가간 만큼',
-        chordList: [{
-          name: 'E[',
-          position: 0
-        }, {
-          name: 'G]',
-          position: 8
-        }, {
-          name: 'Fm',
-          position: 12
-        }, {
-          name: 'B[7',
-          position: 14
-        }]
-      }
-    }), _jsx(ScorePhrase, {
-      phrase: {
-        lyrics: '이젠 내게 와줘요 내게 기댄 마음',
-        chordList: [{
-          name: 'E[',
-          position: 0
-        }, {
-          name: 'B[m',
-          position: 9
-        }, {
-          name: 'E[7',
-          position: 12
-        }]
-      }
-    }), _jsx(ScorePhrase, {
-      phrase: {
         lyrics: '사랑이 아니라해도 괜찮아요',
         chordList: [{
-          name: 'G]',
+          name: 'G',
           position: 0
         }, {
-          name: 'G]m',
+          name: 'Gm',
           position: 3
         }, {
-          name: 'Gm',
+          name: 'F]m',
           position: 7
         }, {
-          name: 'Cm',
+          name: 'Bm',
           position: 11
         }, {
-          name: 'Fm',
+          name: 'Em',
           position: 14
         }]
       }
@@ -3613,13 +3613,13 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '그댈 볼수 있으니 괜찮아요',
         chordList: [{
-          name: 'B[7',
+          name: 'A7',
           position: 3
         }, {
-          name: 'E[',
+          name: 'D',
           position: 9
         }, {
-          name: 'Fm',
+          name: 'Em',
           position: 14
         }]
       }
@@ -3627,25 +3627,25 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '내가 사랑할테니 -',
         chordList: [{
-          name: 'B[7',
+          name: 'A7',
           position: 3
         }, {
-          name: 'E[',
+          name: 'D',
           position: 9
         }, {
-          name: 'Fm',
+          name: 'Em',
           position: 13
         }, {
-          name: 'E[',
+          name: 'D',
           position: 17
         }, {
-          name: 'Fm',
+          name: 'Em',
           position: 21
         }, {
-          name: 'B[',
+          name: 'A',
           position: 29
         }, {
-          name: 'C',
+          name: 'B',
           position: 33
         }]
       }
@@ -4907,7 +4907,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-1b:T24d1,/*@jsxRuntime automatic @jsxImportSource react*/
+1b:T2514,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -4919,22 +4919,22 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '저 많은 별을 다 세어 보아도 그대 마음은 헤아릴 수 없어요',
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 2
         }, {
-          name: 'E',
+          name: 'D',
           position: 6
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 10
         }, {
-          name: 'F',
+          name: 'E[',
           position: 20
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 26
         }, {
-          name: 'C',
+          name: 'B[',
           position: 32
         }]
       }
@@ -4942,22 +4942,22 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '그대의 부서진 마음 조각들이 차갑게 흩어져 있는 탓에',
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 1
         }, {
-          name: 'E',
+          name: 'D',
           position: 5
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 9
         }, {
-          name: 'F',
+          name: 'E[',
           position: 18
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 24
         }, {
-          name: 'C',
+          name: 'B[',
           position: 28
         }]
       }
@@ -4965,22 +4965,22 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '그댄 나의 어떤 모습들을 그리도 깊게 사랑했나요',
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 1
         }, {
-          name: 'E',
+          name: 'D',
           position: 4
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 7
         }, {
-          name: 'F',
+          name: 'E[',
           position: 16
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 22
         }, {
-          name: 'C',
+          name: 'B[',
           position: 25
         }]
       }
@@ -4988,22 +4988,22 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '이제 내가 해줄 수 있는 건 좋은 밤 좋은 꿈 안녕',
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 1
         }, {
-          name: 'E',
+          name: 'D',
           position: 4
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 7
         }, {
-          name: 'F',
+          name: 'E[',
           position: 19
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 24
         }, {
-          name: 'C',
+          name: 'B[',
           position: 27
         }]
       }
@@ -5011,35 +5011,35 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '좋은 밤 좋은 꿈 안녕',
         chordList: [{
-          name: 'F',
+          name: 'E[',
           position: 3
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 8
         }, {
-          name: 'C',
+          name: 'B[',
           position: 11
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 0
         }, {
-          name: 'E',
+          name: 'D',
           position: 4
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 8
         }, {
-          name: 'F',
+          name: 'E[',
           position: 16
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 20
         }, {
-          name: 'C',
+          name: 'B[',
           position: 24
         }]
       }
@@ -5047,22 +5047,22 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '시월의 서늘한 공기 속에도 장미향을 난 느낄 수가 있죠',
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 1
         }, {
-          name: 'E',
+          name: 'D',
           position: 6
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 9
         }, {
-          name: 'F',
+          name: 'E[',
           position: 17
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 25
         }, {
-          name: 'C',
+          name: 'B[',
           position: 29
         }]
       }
@@ -5070,22 +5070,22 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '오월 어느 날에 피었던 빨갛던 밤을 기억하거든요',
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 1
         }, {
-          name: 'E',
+          name: 'D',
           position: 4
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 10
         }, {
-          name: 'F',
+          name: 'E[',
           position: 15
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 22
         }, {
-          name: 'C',
+          name: 'B[',
           position: 25
         }]
       }
@@ -5093,22 +5093,22 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '그댄 나의 어떤 모습들을 그리도 깊게 사랑했나요',
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 1
         }, {
-          name: 'E',
+          name: 'D',
           position: 4
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 7
         }, {
-          name: 'F',
+          name: 'E[',
           position: 16
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 22
         }, {
-          name: 'C',
+          name: 'B[',
           position: 25
         }]
       }
@@ -5116,22 +5116,22 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '이제 내가 해줄 수 있는 건 좋은 밤 좋은 꿈 안녕',
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 1
         }, {
-          name: 'E',
+          name: 'D',
           position: 4
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 7
         }, {
-          name: 'F',
+          name: 'E[',
           position: 19
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 24
         }, {
-          name: 'C',
+          name: 'B[',
           position: 27
         }]
       }
@@ -5139,25 +5139,25 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '까만 밤이 다 지나고 나면 이야기는 사라질 테지만',
         chordList: [{
-          name: 'Am',
+          name: 'Gm',
           position: 1
         }, {
-          name: 'AmM7',
+          name: 'GmM7',
           position: 4
         }, {
-          name: 'Am7',
+          name: 'Gm7',
           position: 8
         }, {
-          name: 'D7sus2',
+          name: 'C7sus2',
           position: 14
         }, {
-          name: 'F',
+          name: 'E[',
           position: 17
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 22
         }, {
-          name: 'Em',
+          name: 'Dm',
           position: 26
         }]
       }
@@ -5165,66 +5165,66 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '이름 모를 어떤 꽃말처럼 그대 곁에 남아 있을게요',
         chordList: [{
-          name: 'Am',
+          name: 'Gm',
           position: 1
         }, {
-          name: 'AmM7',
+          name: 'GmM7',
           position: 4
         }, {
-          name: 'Am7',
+          name: 'Gm7',
           position: 8
         }, {
-          name: 'D7sus2',
+          name: 'C7sus2',
           position: 12
         }, {
-          name: 'F',
+          name: 'E[',
           position: 17
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 23
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 0
         }, {
-          name: 'E',
+          name: 'D',
           position: 4
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 8
         }, {
-          name: 'F',
+          name: 'E[',
           position: 16
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 20
         }, {
-          name: 'C',
+          name: 'B[',
           position: 24
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 0
         }, {
-          name: 'E',
+          name: 'D',
           position: 4
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 8
         }, {
-          name: 'F',
+          name: 'E[',
           position: 16
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 20
         }, {
-          name: 'C',
+          name: 'B[',
           position: 24
         }]
       }
@@ -5232,22 +5232,22 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '나는 그대 어떤 모습들을 그리도 깊게 사랑했었나',
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 1
         }, {
-          name: 'E',
+          name: 'D',
           position: 4
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 7
         }, {
-          name: 'F',
+          name: 'E[',
           position: 16
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 22
         }, {
-          name: 'C',
+          name: 'B[',
           position: 26
         }]
       }
@@ -5255,66 +5255,66 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '이제 내가 해줄 수 있는 건 좋은 밤 좋은 꿈 안녕',
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 1
         }, {
-          name: 'E',
+          name: 'D',
           position: 4
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 7
         }, {
-          name: 'F',
+          name: 'E[',
           position: 19
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 24
         }, {
-          name: 'C',
+          name: 'B[',
           position: 27
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 0
         }, {
-          name: 'E',
+          name: 'D',
           position: 4
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 8
         }, {
-          name: 'F',
+          name: 'E[',
           position: 16
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 20
         }, {
-          name: 'C',
+          name: 'B[',
           position: 24
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'C',
+          name: 'B[',
           position: 0
         }, {
-          name: 'E',
+          name: 'D',
           position: 4
         }, {
-          name: 'Am',
+          name: 'Gm',
           position: 8
         }, {
-          name: 'F',
+          name: 'E[',
           position: 16
         }, {
-          name: 'Fm',
+          name: 'E[m',
           position: 20
         }, {
-          name: 'C',
+          name: 'B[',
           position: 24
         }]
       }
@@ -5667,7 +5667,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-1d:T2aff,/*@jsxRuntime automatic @jsxImportSource react*/
+1d:T2b4f,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -5679,16 +5679,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 중2때까진 늘 첫째 줄에 겨우 160이 됐을 무렵',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 14
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
@@ -5696,19 +5696,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 쓸만한 녀석들은 모두 다 이미 첫사랑 진행 중',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 26
         }, {
-          name: 'D',
+          name: 'B[',
           position: 30
         }]
       }
@@ -5716,19 +5716,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 정말 듣고 싶었던 말이야 물론 2년전 일이지만',
         chordList: [{
-          name: 'Em',
+          name: 'Cm',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 11
         }, {
-          name: 'C',
+          name: 'G]',
           position: 18
         }, {
-          name: 'G',
+          name: 'E[',
           position: 26
         }, {
-          name: 'D',
+          name: 'B[',
           position: 30
         }]
       }
@@ -5736,19 +5736,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 기뻐야하는 게 당연한데 내 기분은 그게 아냐',
         chordList: [{
-          name: 'Em',
+          name: 'Cm',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'Cm',
+          name: 'G]m',
           position: 21
         }, {
-          name: 'G',
+          name: 'E[',
           position: 25
         }]
       }
@@ -5756,16 +5756,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '하지만 미안해 네 넓은 가슴에 묻혀 다른 누구를 생각했었어',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 15
         }, {
-          name: 'C',
+          name: 'G]',
           position: 23
         }, {
-          name: 'G',
+          name: 'E[',
           position: 29
         }]
       }
@@ -5773,16 +5773,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '미안해 너의 손을 잡고 걸을 때에도 떠올렸었어 그 사람을',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 16
         }, {
-          name: 'C',
+          name: 'G]',
           position: 22
         }, {
-          name: 'G',
+          name: 'E[',
           position: 30
         }]
       }
@@ -5790,16 +5790,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 널 좋아하면 좋아할수록 상처 입은 날들이 더 많아',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 13
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
@@ -5807,19 +5807,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 모두가 즐거운 한 때에도 나는 늘 그곳에 없어',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 11
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 26
         }, {
-          name: 'D',
+          name: 'B[',
           position: 30
         }]
       }
@@ -5827,19 +5827,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 정말 미안한 일을 한걸까 나쁘진 않았었지만',
         chordList: [{
-          name: 'Em',
+          name: 'Cm',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 11
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 25
         }, {
-          name: 'D',
+          name: 'B[',
           position: 29
         }]
       }
@@ -5847,19 +5847,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 친구인 채였다면 오히려 즐거웠을 것만 같아',
         chordList: [{
-          name: 'Em',
+          name: 'Cm',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 15
         }, {
-          name: 'Cm',
+          name: 'G]m',
           position: 20
         }, {
-          name: 'G',
+          name: 'E[',
           position: 26
         }]
       }
@@ -5867,16 +5867,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '하지만 미안해 네 넓은 가슴에 묻혀 다른 누구를 생각했었어',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 15
         }, {
-          name: 'C',
+          name: 'G]',
           position: 23
         }, {
-          name: 'G',
+          name: 'E[',
           position: 29
         }]
       }
@@ -5884,48 +5884,48 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '미안해 너의 손을 잡고 걸을 때에도 떠올랐었어 그 사람이',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 16
         }, {
-          name: 'C',
+          name: 'G]',
           position: 22
         }, {
-          name: 'G',
+          name: 'E[',
           position: 30
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 8
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 8
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
@@ -5933,19 +5933,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 정말 듣고 싶었던 말이야 물론 2년전 일이지만',
         chordList: [{
-          name: 'Em',
+          name: 'Cm',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 11
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 25
         }, {
-          name: 'D',
+          name: 'B[',
           position: 29
         }]
       }
@@ -5953,19 +5953,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 기뻐야하는 게 당연한데 내 기분은 그게 아냐',
         chordList: [{
-          name: 'Em',
+          name: 'Cm',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'Cm',
+          name: 'G]m',
           position: 21
         }, {
-          name: 'G',
+          name: 'E[',
           position: 25
         }]
       }
@@ -5973,16 +5973,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '하지만 미안해 네 넓은 가슴에 묻혀 다른 누구를 생각했었어',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 15
         }, {
-          name: 'C',
+          name: 'G]',
           position: 23
         }, {
-          name: 'G',
+          name: 'E[',
           position: 29
         }]
       }
@@ -5990,80 +5990,80 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '미안해 너의 손을 잡고 걸을 때에도 떠올렸었어 그 사람을',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 16
         }, {
-          name: 'C',
+          name: 'G]',
           position: 22
         }, {
-          name: 'G',
+          name: 'E[',
           position: 30
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 8
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 8
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 8
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 8
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
@@ -6071,16 +6071,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '하지만 미안해 네 넓은 가슴에 묻혀 다른 누구를 생각했었어',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 15
         }, {
-          name: 'C',
+          name: 'G]',
           position: 23
         }, {
-          name: 'G',
+          name: 'E[',
           position: 29
         }]
       }
@@ -6088,16 +6088,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '미안해 너의 손을 잡고 걸을 때에도 떠올랐었어 그 사람이',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 16
         }, {
-          name: 'C',
+          name: 'G]',
           position: 22
         }, {
-          name: 'G',
+          name: 'E[',
           position: 30
         }]
       }
@@ -6105,16 +6105,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '라라라라라라라라, 라라라, 라라 라라라, 라라 라라라',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 18
         }, {
-          name: 'G',
+          name: 'E[',
           position: 26
         }]
       }
@@ -6122,16 +6122,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '라라라라라라라라, 라라라, 라라 라라라',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 18
         }, {
-          name: 'G',
+          name: 'E[',
           position: 26
         }]
       }

@@ -1,6 +1,6 @@
 1:HL["/_next/static/css/52f87e6b0f7ae474.css",{"as":"style"}]
 2:HL["/_next/static/css/0140179f5997954c.css",{"as":"style"}]
-0:["GPNjDDmVsCpugdv5NKrW-",[[["",{"children":["score",{"children":[["slug","3","d"],{"children":["__PAGE__?{\"slug\":\"3\"}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
+0:["b0dZwlkkoqkfNxYmHTBoX",[[["",{"children":["score",{"children":[["slug","3","d"],{"children":["__PAGE__?{\"slug\":\"3\"}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
 5:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","173:static/chunks/173-69a29d0c9ab86469.js","185:static/chunks/app/layout-5d28979c73588cbe.js"],"name":"","async":false}
 6:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","173:static/chunks/173-69a29d0c9ab86469.js","185:static/chunks/app/layout-5d28979c73588cbe.js"],"name":"","async":false}
 7:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","173:static/chunks/173-69a29d0c9ab86469.js","185:static/chunks/app/layout-5d28979c73588cbe.js"],"name":"","async":false}
@@ -9,10 +9,10 @@
 a:I{"id":7920,"chunks":["272:static/chunks/webpack-3770a98f19222c62.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 3:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L5",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L5",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]]]}],["$","body",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","score","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","score","children",["slug","3","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$Lb",null],"segment":"__PAGE__?{\"slug\":\"3\"}"},"styles":[]}],"segment":["slug","3","d"]},"styles":[]}],"segment":"score"},"styles":[]}]}]}]}]}]]}],null]
 4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun - Score | 델리스파이스 - 고백"}],["$","meta","2",{"name":"description","content":"델리스파이스의 고백 코드 악보 입니다."}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun - Score | 델리스파이스 - 고백"}],["$","meta","5",{"property":"og:description","content":"델리스파이스의 고백 코드 악보 입니다."}],["$","meta","6",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"shinyongjun - Score | 델리스파이스 - 고백"}],["$","meta","9",{"name":"twitter:description","content":"델리스파이스의 고백 코드 악보 입니다."}],["$","meta","10",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
-c:I{"id":1179,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","173:static/chunks/173-69a29d0c9ab86469.js","822:static/chunks/822-fedafad88b71ab15.js","355:static/chunks/355-b38a9abc016ce4df.js","95:static/chunks/95-1bc9556391336aad.js","589:static/chunks/app/score/[slug]/page-fa6957d8fffeb204.js"],"name":"","async":false}
-e:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","173:static/chunks/173-69a29d0c9ab86469.js","822:static/chunks/822-fedafad88b71ab15.js","355:static/chunks/355-b38a9abc016ce4df.js","95:static/chunks/95-1bc9556391336aad.js","589:static/chunks/app/score/[slug]/page-fa6957d8fffeb204.js"],"name":"","async":false}
-f:I{"id":5797,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","173:static/chunks/173-69a29d0c9ab86469.js","822:static/chunks/822-fedafad88b71ab15.js","355:static/chunks/355-b38a9abc016ce4df.js","95:static/chunks/95-1bc9556391336aad.js","589:static/chunks/app/score/[slug]/page-fa6957d8fffeb204.js"],"name":"","async":false}
-d:T2aff,/*@jsxRuntime automatic @jsxImportSource react*/
+c:I{"id":1179,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","173:static/chunks/173-69a29d0c9ab86469.js","822:static/chunks/822-fedafad88b71ab15.js","355:static/chunks/355-b38a9abc016ce4df.js","95:static/chunks/95-1bc9556391336aad.js","589:static/chunks/app/score/[slug]/page-9e9743424a862304.js"],"name":"","async":false}
+e:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","173:static/chunks/173-69a29d0c9ab86469.js","822:static/chunks/822-fedafad88b71ab15.js","355:static/chunks/355-b38a9abc016ce4df.js","95:static/chunks/95-1bc9556391336aad.js","589:static/chunks/app/score/[slug]/page-9e9743424a862304.js"],"name":"","async":false}
+f:I{"id":5797,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-1bbd926b6e0bef71.js","173:static/chunks/173-69a29d0c9ab86469.js","822:static/chunks/822-fedafad88b71ab15.js","355:static/chunks/355-b38a9abc016ce4df.js","95:static/chunks/95-1bc9556391336aad.js","589:static/chunks/app/score/[slug]/page-9e9743424a862304.js"],"name":"","async":false}
+d:T2b4f,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -24,16 +24,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 중2때까진 늘 첫째 줄에 겨우 160이 됐을 무렵',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 14
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
@@ -41,19 +41,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 쓸만한 녀석들은 모두 다 이미 첫사랑 진행 중',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 26
         }, {
-          name: 'D',
+          name: 'B[',
           position: 30
         }]
       }
@@ -61,19 +61,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 정말 듣고 싶었던 말이야 물론 2년전 일이지만',
         chordList: [{
-          name: 'Em',
+          name: 'Cm',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 11
         }, {
-          name: 'C',
+          name: 'G]',
           position: 18
         }, {
-          name: 'G',
+          name: 'E[',
           position: 26
         }, {
-          name: 'D',
+          name: 'B[',
           position: 30
         }]
       }
@@ -81,19 +81,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 기뻐야하는 게 당연한데 내 기분은 그게 아냐',
         chordList: [{
-          name: 'Em',
+          name: 'Cm',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'Cm',
+          name: 'G]m',
           position: 21
         }, {
-          name: 'G',
+          name: 'E[',
           position: 25
         }]
       }
@@ -101,16 +101,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '하지만 미안해 네 넓은 가슴에 묻혀 다른 누구를 생각했었어',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 15
         }, {
-          name: 'C',
+          name: 'G]',
           position: 23
         }, {
-          name: 'G',
+          name: 'E[',
           position: 29
         }]
       }
@@ -118,16 +118,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '미안해 너의 손을 잡고 걸을 때에도 떠올렸었어 그 사람을',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 16
         }, {
-          name: 'C',
+          name: 'G]',
           position: 22
         }, {
-          name: 'G',
+          name: 'E[',
           position: 30
         }]
       }
@@ -135,16 +135,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 널 좋아하면 좋아할수록 상처 입은 날들이 더 많아',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 13
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
@@ -152,19 +152,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 모두가 즐거운 한 때에도 나는 늘 그곳에 없어',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 11
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 26
         }, {
-          name: 'D',
+          name: 'B[',
           position: 30
         }]
       }
@@ -172,19 +172,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 정말 미안한 일을 한걸까 나쁘진 않았었지만',
         chordList: [{
-          name: 'Em',
+          name: 'Cm',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 11
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 25
         }, {
-          name: 'D',
+          name: 'B[',
           position: 29
         }]
       }
@@ -192,19 +192,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 친구인 채였다면 오히려 즐거웠을 것만 같아',
         chordList: [{
-          name: 'Em',
+          name: 'Cm',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 15
         }, {
-          name: 'Cm',
+          name: 'G]m',
           position: 20
         }, {
-          name: 'G',
+          name: 'E[',
           position: 26
         }]
       }
@@ -212,16 +212,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '하지만 미안해 네 넓은 가슴에 묻혀 다른 누구를 생각했었어',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 15
         }, {
-          name: 'C',
+          name: 'G]',
           position: 23
         }, {
-          name: 'G',
+          name: 'E[',
           position: 29
         }]
       }
@@ -229,48 +229,48 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '미안해 너의 손을 잡고 걸을 때에도 떠올랐었어 그 사람이',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 16
         }, {
-          name: 'C',
+          name: 'G]',
           position: 22
         }, {
-          name: 'G',
+          name: 'E[',
           position: 30
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 8
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 8
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
@@ -278,19 +278,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 정말 듣고 싶었던 말이야 물론 2년전 일이지만',
         chordList: [{
-          name: 'Em',
+          name: 'Cm',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 11
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 25
         }, {
-          name: 'D',
+          name: 'B[',
           position: 29
         }]
       }
@@ -298,19 +298,19 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: ' 기뻐야하는 게 당연한데 내 기분은 그게 아냐',
         chordList: [{
-          name: 'Em',
+          name: 'Cm',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'Cm',
+          name: 'G]m',
           position: 21
         }, {
-          name: 'G',
+          name: 'E[',
           position: 25
         }]
       }
@@ -318,16 +318,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '하지만 미안해 네 넓은 가슴에 묻혀 다른 누구를 생각했었어',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 15
         }, {
-          name: 'C',
+          name: 'G]',
           position: 23
         }, {
-          name: 'G',
+          name: 'E[',
           position: 29
         }]
       }
@@ -335,80 +335,80 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '미안해 너의 손을 잡고 걸을 때에도 떠올렸었어 그 사람을',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 16
         }, {
-          name: 'C',
+          name: 'G]',
           position: 22
         }, {
-          name: 'G',
+          name: 'E[',
           position: 30
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 8
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 8
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 8
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
     }), _jsx(ScorePhrase, {
       phrase: {
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 8
         }, {
-          name: 'C',
+          name: 'G]',
           position: 16
         }, {
-          name: 'G',
+          name: 'E[',
           position: 24
         }]
       }
@@ -416,16 +416,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '하지만 미안해 네 넓은 가슴에 묻혀 다른 누구를 생각했었어',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 15
         }, {
-          name: 'C',
+          name: 'G]',
           position: 23
         }, {
-          name: 'G',
+          name: 'E[',
           position: 29
         }]
       }
@@ -433,16 +433,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '미안해 너의 손을 잡고 걸을 때에도 떠올랐었어 그 사람이',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 4
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 16
         }, {
-          name: 'C',
+          name: 'G]',
           position: 22
         }, {
-          name: 'G',
+          name: 'E[',
           position: 30
         }]
       }
@@ -450,16 +450,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '라라라라라라라라, 라라라, 라라 라라라, 라라 라라라',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 18
         }, {
-          name: 'G',
+          name: 'E[',
           position: 26
         }]
       }
@@ -467,16 +467,16 @@ function _createMdxContent(props) {
       phrase: {
         lyrics: '라라라라라라라라, 라라라, 라라 라라라',
         chordList: [{
-          name: 'G',
+          name: 'E[',
           position: 0
         }, {
-          name: 'A7',
+          name: 'F7',
           position: 10
         }, {
-          name: 'C',
+          name: 'G]',
           position: 18
         }, {
-          name: 'G',
+          name: 'E[',
           position: 26
         }]
       }
