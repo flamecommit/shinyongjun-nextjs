@@ -2,36 +2,35 @@
 
 import Link from 'next/link';
 import styled from 'styled-components';
-import { Post } from '@/services/post';
+import { Snippet } from '@/services/snippet';
 import { getFormatDatetime } from '@/utils/datetime';
 import { device } from '@/styles/mixin';
 import CategoryItem from '../category/Item';
 import { config } from '@/styles/config';
 
 type Props = {
-  postList: Post[];
+  snippetList: Snippet[];
 };
 
-function PostList({ postList }: Props) {
+function SnippetList({ snippetList }: Props) {
   return (
-    <StyledPostList>
-      {postList.map((post) => {
+    <StyledSnippetList>
+      {snippetList.map((snippet) => {
         return (
-          <div key={post.slug} className="post-item">
-            {post.series && <div className="series"># {post.series}</div>}
-            <Link href={`/post/${post.slug}`} className="title">
-              {post.title}
+          <div key={snippet.slug} className="snippet-item">
+            <Link href={`/snippet/${snippet.slug}`} className="title">
+              {snippet.title}
             </Link>
             <div className="date">
-              {getFormatDatetime(post.date, 'YYYY-MM-DD')}
+              {getFormatDatetime(snippet.date, 'YYYY-MM-DD')}
             </div>
             <div className="categories">
-              {post.categories.map((category) => {
+              {snippet.categories.map((category) => {
                 return (
                   <CategoryItem
                     key={category}
                     category={category}
-                    board="post"
+                    board="snippet"
                   />
                 );
               })}
@@ -39,13 +38,13 @@ function PostList({ postList }: Props) {
           </div>
         );
       })}
-    </StyledPostList>
+    </StyledSnippetList>
   );
 }
 
-const StyledPostList = styled.div`
+const StyledSnippetList = styled.div`
   display: grid;
-  .post-item {
+  .snippet-item {
     padding: 30px 0;
     border-bottom: 1px solid #dddddd;
     &:first-child {
@@ -71,11 +70,8 @@ const StyledPostList = styled.div`
     }
   }
   @media ${device.mobile} {
-    .post-item {
+    .snippet-item {
       padding: 24px 0;
-      .series {
-        font-size: 14px;
-      }
       .title {
         font-size: 16px;
       }
@@ -91,4 +87,4 @@ const StyledPostList = styled.div`
   }
 `;
 
-export default PostList;
+export default SnippetList;

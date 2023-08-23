@@ -3,8 +3,7 @@
 import styled from 'styled-components';
 import { MDXRemote } from 'next-mdx-remote';
 import { useEffect, useRef, useState } from 'react';
-import Link from 'next/link';
-import { Post } from '@/services/post';
+import { Snippet } from '@/services/snippet';
 import { getFormatDatetime } from '@/utils/datetime';
 import { prism } from '@/styles/prism';
 import { markdown } from '@/styles/markdown';
@@ -15,12 +14,10 @@ import { GalleryType } from '../types/gallery';
 import { config } from '@/styles/config';
 
 interface Props {
-  postData: {
-    seriesIndex: number | undefined;
-  } & Post;
+  snippetData: Snippet;
 }
 
-function PostViewer({ postData }: Props) {
+function SnippetViewer({ snippetData }: Props) {
   const [images, setImages] = useState<GalleryType[]>([]);
   const [isGallery, setIsGallery] = useState(false);
   const [initActiveIndex, setInitActiveIndex] = useState(0);
@@ -49,32 +46,28 @@ function PostViewer({ postData }: Props) {
 
   return (
     <>
-      <StyledPostViewer>
-        <header className="post-header">
-          {postData.seriesIndex && (
-            <div className="post-series">
-              <Link href={`/series/${postData.seriesIndex}`}>
-                # {postData.series}
-              </Link>
-            </div>
-          )}
-
-          <h1 className="post-title">{postData.title}</h1>
-          <div className="post-categories">
-            {postData.categories.map((category) => {
+      <StyledSnippetViewer>
+        <header className="snippet-header">
+          <h1 className="snippet-title">{snippetData.title}</h1>
+          <div className="snippet-categories">
+            {snippetData.categories.map((category) => {
               return (
-                <CategoryItem key={category} category={category} board="post" />
+                <CategoryItem
+                  key={category}
+                  category={category}
+                  board="snippet"
+                />
               );
             })}
           </div>
-          <div className="post-date">
-            {getFormatDatetime(postData.date, 'YYYY-MM-DD')}
+          <div className="snippet-date">
+            {getFormatDatetime(snippetData.date, 'YYYY-MM-DD')}
           </div>
         </header>
-        <div className="post-content" ref={contents}>
-          <MDXRemote {...postData.mdx} />
+        <div className="snippet-content" ref={contents}>
+          <MDXRemote {...snippetData.mdx} />
         </div>
-      </StyledPostViewer>
+      </StyledSnippetViewer>
       {isGallery && (
         <GalleryWrapper
           images={images}
@@ -86,11 +79,11 @@ function PostViewer({ postData }: Props) {
   );
 }
 
-const StyledPostViewer = styled.article`
-  .post-header {
+const StyledSnippetViewer = styled.article`
+  .snippet-header {
     text-align: center;
     margin-bottom: 60px;
-    .post-series {
+    .snippet-series {
       color: ${config.secondaryText};
       a {
         &:hover {
@@ -99,24 +92,24 @@ const StyledPostViewer = styled.article`
         }
       }
     }
-    .post-title {
+    .snippet-title {
       font-weight: 700;
       font-size: 30px;
       margin-bottom: 12px;
     }
-    .post-categories {
+    .snippet-categories {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 12px;
     }
-    .post-date {
+    .snippet-date {
       margin-top: 12px;
       color: ${config.secondaryText};
       font-size: 14px;
     }
   }
-  .post-content {
+  .snippet-content {
     ${markdown}
     ${prism}
     line-height: 1.8;
@@ -162,18 +155,18 @@ const StyledPostViewer = styled.article`
     }
   }
   @media ${device.mobile} {
-    .post-header {
-      .post-title {
+    .snippet-header {
+      .snippet-title {
         font-size: 24px;
       }
-      .post-date {
+      .snippet-date {
         font-size: 12px;
       }
-      .post-categories {
+      .snippet-categories {
         gap: 8px;
       }
     }
-    .post-content {
+    .snippet-content {
       font-size: 14px;
       code {
         font-size: 12px;
@@ -187,4 +180,4 @@ const StyledPostViewer = styled.article`
   }
 `;
 
-export default PostViewer;
+export default SnippetViewer;

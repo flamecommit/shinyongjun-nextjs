@@ -6,12 +6,13 @@ import { device } from '@/styles/mixin';
 import { config } from '@/styles/config';
 
 type Props = {
+  board: string;
   category: string;
 };
 
-function CategoryItem({ category }: Props) {
+function CategoryItem({ board, category }: Props) {
   return (
-    <StyledCategoryItem href={`/category/${category}`}>
+    <StyledCategoryItem href={`/category/${board}/${category}`}>
       {category}
     </StyledCategoryItem>
   );

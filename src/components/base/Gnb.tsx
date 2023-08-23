@@ -24,7 +24,13 @@ function BaseGnb() {
         className={`${(categoryName === 'post' || !categoryName) && 'active'}`}
         href="/"
       >
-        Blog
+        Post
+      </Link>
+      <Link
+        className={`${categoryName === 'snippet' && 'active'}`}
+        href="/snippet"
+      >
+        Snippet
       </Link>
       {/* <Link
         className={`${categoryName === 'series' && 'active'}`}

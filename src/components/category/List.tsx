@@ -6,13 +6,16 @@ import CategoryItem from './Item';
 
 type Props = {
   categories: string[];
+  board: string;
 };
 
-function CategoryList({ categories }: Props) {
+function CategoryList({ categories, board }: Props) {
   return (
     <StyledCategoryList>
       {categories.map((category) => {
-        return <CategoryItem key={category} category={category} />;
+        return (
+          <CategoryItem board={board} key={category} category={category} />
+        );
       })}
     </StyledCategoryList>
   );
