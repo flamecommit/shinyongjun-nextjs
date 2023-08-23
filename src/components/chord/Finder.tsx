@@ -13,8 +13,9 @@ import ChordSymbol from './Symbol';
 import ChordChart from './Chart';
 import { roboto } from '@/styles/fonts';
 import { config } from '@/styles/config';
+import { device } from '@/styles/mixin';
 
-function ChordGenerator() {
+function ChordFinder() {
   const startPitch = [28, 23, 19, 14, 9, 4];
   const [resultType, setResultType] = useState(-1);
   const [pitch, setPitch] = useState<number[]>([0, 0, 0, 0, 0, 0]);
@@ -90,7 +91,7 @@ function ChordGenerator() {
 
   return (
     <>
-      <StyledChordGenerator>
+      <StyledChordFinder>
         <div className="result-area">
           {resultType <= 0 && <div className="symbol notfound">Not Found</div>}
           {resultType === 1 && (
@@ -160,12 +161,12 @@ function ChordGenerator() {
         {currentChord && (
           <ChordChart chordName={currentChord} closeChord={closeChord} />
         )}
-      </StyledChordGenerator>
+      </StyledChordFinder>
     </>
   );
 }
 
-const StyledChordGenerator = styled.div`
+const StyledChordFinder = styled.div`
   .result-area {
     font-family: ${roboto.style.fontFamily};
     margin-bottom: 50px;
@@ -173,7 +174,7 @@ const StyledChordGenerator = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    column-gap: 12px;
+    column-gap: 6px;
     .symbol {
       font-weight: 700;
       font-size: 30px;
@@ -338,6 +339,14 @@ const StyledChordGenerator = styled.div`
       }
     }
   }
+  @media ${device.mobile} {
+    .result-area {
+      column-gap: 4px;
+      .symbol {
+        font-size: 24px;
+      }
+    }
+  }
 `;
 
-export default ChordGenerator;
+export default ChordFinder;

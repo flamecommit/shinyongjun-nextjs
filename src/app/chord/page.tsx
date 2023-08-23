@@ -11,7 +11,7 @@ const DiaryPage = async () => {
   return (
     <>
       <PageTitle>Chord</PageTitle>
-      <PageLink href="/chord/generator">Go to Chord Generator</PageLink>
+      <PageLink href="/chord/generator">Go to Chord Finder</PageLink>
       <ChordList />
     </>
   );

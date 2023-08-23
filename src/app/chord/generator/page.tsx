@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import PageTitle from '@/components/page/Title';
-import ChordGenerator from '@/components/chord/Generator';
+import ChordFinder from '@/components/chord/Finder';
 
 export const metadata: Metadata = {
-  title: 'Guitar Chord Generator',
+  title: 'Guitar Chord Finder',
   description: `You can use the fretboard to create the chord.`,
   openGraph: {
-    title: `Guitar Chord Generator`,
+    title: `Guitar Chord Finder`,
     description: `You can use the fretboard to create the chord.`,
     images: process.env.OG_IMAGE,
   },
@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 const DiaryPage = async () => {
   return (
     <>
-      <PageTitle>Chord Generator</PageTitle>
-      <ChordGenerator />
+      <PageTitle>Chord Finder</PageTitle>
+      <ChordFinder />
     </>
   );
 };
