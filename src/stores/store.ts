@@ -1,10 +1,12 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import coreReducer from './features/core';
 import diaryReducer from './features/diary';
+import scoreReducer from './features/score';
 
 const reducer = combineReducers({
   core: coreReducer,
   diary: diaryReducer,
+  score: scoreReducer,
 });
 
 export const store = configureStore({

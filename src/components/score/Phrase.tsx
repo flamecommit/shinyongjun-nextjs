@@ -1,11 +1,14 @@
 'use client';
 
 import styled from 'styled-components';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ChordSymbol from '@/components/chord/Symbol';
 import { device } from '@/styles/mixin';
 import ChordChart from '../chord/Chart';
 import { config } from '@/styles/config';
+import { useSelector } from 'react-redux';
+import { RootState } from '@/stores/store';
+import { getPitch, getRoot } from '@/services/chord';
 
 type Props = {
   phrase: {
@@ -19,9 +22,11 @@ type Props = {
 // 8마디 = 큰악절 = period, sentence
 
 function ScorePhrase({ phrase }: Props) {
+  const scoreState = useSelector((state: RootState) => state.score);
   const chordList = phrase.chordList || [];
   const [currentChord, setCurrentChord] = useState<string>('');
   const [initIndex, setInitIndex] = useState<number>(0);
+  const [phraseArray, setPhraseArray] = useState<any[]>([]);
 
   const closeChord = () => {
     setCurrentChord('');
@@ -33,20 +38,33 @@ function ScorePhrase({ phrase }: Props) {
     setInitIndex(initIndex || 0);
   };
 
-  const phraseArray = [];
-  const lyricsArray = phrase.lyrics?.split('') || [];
-  const lyricsCount = lyricsArray.length;
-  const chordPosMax = Math.max(...chordList.map((chord) => chord.position));
+  const computedChordName = (chordName: string | undefined) => {
+    if (!chordName) return '';
 
-  for (let i = 0; i < Math.max(lyricsCount, chordPosMax + 1); i++) {
-    const chordObject = chordList.find((chord) => chord.position === i);
+    const root = getRoot(chordName);
+    const computedRoot = getPitch(root, scoreState.capo);
 
-    phraseArray.push({
-      lyricsLetter: lyricsArray[i],
-      chordName: chordObject?.name || '',
-      initIndex: chordObject?.initIndex || 0,
-    });
-  }
+    return chordName.replace(root, computedRoot);
+  };
+
+  useEffect(() => {
+    const temp = [];
+    const lyricsArray = phrase.lyrics?.split('') || [];
+    const lyricsCount = lyricsArray.length;
+    const chordPosMax = Math.max(...chordList.map((chord) => chord.position));
+
+    for (let i = 0; i < Math.max(lyricsCount, chordPosMax + 1); i++) {
+      const chordObject = chordList.find((chord) => chord.position === i);
+
+      temp.push({
+        lyricsLetter: lyricsArray[i],
+        chordName: computedChordName(chordObject?.name),
+        initIndex: chordObject?.initIndex || 0,
+      });
+    }
+
+    setPhraseArray(temp);
+  }, [scoreState.capo]);
 
   return (
     <>

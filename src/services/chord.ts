@@ -23,6 +23,16 @@ const getPitchIndex = (root: string) => {
   });
 };
 
+export const getRoot = (chordName: string | undefined) => {
+  if (chordName === undefined) {
+    return '';
+  } else if (chordName.charAt(1) === '[' || chordName.charAt(1) === ']') {
+    return chordName.substring(0, 2);
+  } else {
+    return chordName.charAt(0);
+  }
+};
+
 export const getPitch = (root: string, step: number) => {
   // step 4 : Major 3rd, 장 3도
   // step 7 : Perfect 5th, 완전 5도
@@ -129,13 +139,7 @@ const getAdd9Chord = (root: string) => setComposition(root, [0, 4, 7, 14]);
 const getAdd11Chord = (root: string) => setComposition(root, [0, 4, 7, 17]);
 
 export const getComposition = (chord: string) => {
-  let root = '';
-
-  if (chord.charAt(1) === '[' || chord.charAt(1) === ']') {
-    root = chord.substring(0, 2);
-  } else {
-    root = chord.charAt(0);
-  }
+  const root = getRoot(chord);
 
   if (chord === root) return getMajorChord(root);
   if (chord === `${root}6`) return get6thChord(root);

@@ -11,6 +11,9 @@ import GalleryWrapper from '@/components/gallery/Wrapper';
 import ScorePhrase from './Phrase';
 import ScoreWrapper from './Wrapper';
 import { GalleryType } from '../types/gallery';
+import { useDispatch, useSelector } from 'react-redux';
+import type { RootState } from '@/stores/store';
+import { scoreActions } from '@/stores/features/score';
 
 interface Props {
   scoreData: Score;
@@ -21,9 +24,18 @@ function ScoreViewer({ scoreData }: Props) {
   const [isGallery, setIsGallery] = useState(false);
   const [initActiveIndex, setInitActiveIndex] = useState(0);
   const contents = useRef<HTMLDivElement>(null);
+  const scoreState = useSelector((state: RootState) => state.score);
+  const dispatch = useDispatch();
 
   const closeGallery = () => {
     setIsGallery(false);
+  };
+
+  const setCapo = (value: number) => {
+    const temp = scoreState.capo + value;
+    if (temp >= 0 && temp <= 8) {
+      dispatch(scoreActions.setCapo(temp));
+    }
   };
 
   useEffect(() => {
@@ -43,6 +55,14 @@ function ScoreViewer({ scoreData }: Props) {
     setImages(result);
   }, []);
 
+  useEffect(() => {
+    dispatch(scoreActions.setCapo(scoreData.capo));
+
+    return () => {
+      dispatch(scoreActions.setCapo(0));
+    };
+  }, []);
+
   return (
     <>
       <StyledScoreViewer>
@@ -50,7 +70,15 @@ function ScoreViewer({ scoreData }: Props) {
           <h1 className="score-title">{scoreData.title}</h1>
           <div className="score-date">{scoreData.releaseYear}</div>
           <div className="score-meta">
-            <div className="score-capo">Capo : {scoreData.capo}</div>
+            <div className="score-capo">
+              Capo : {scoreState.capo}
+              <button type="button" onClick={() => setCapo(1)}>
+                key up
+              </button>
+              <button type="button" onClick={() => setCapo(-1)}>
+                key down
+              </button>
+            </div>
             <div className="score-artist">{scoreData.artist}</div>
           </div>
         </header>
@@ -97,6 +125,10 @@ const StyledScoreViewer = styled.div`
       display: flex;
       justify-content: space-between;
       font-size: 14px;
+      .score-capo {
+        display: flex;
+        column-gap: 12px;
+      }
     }
   }
   .score-content {
