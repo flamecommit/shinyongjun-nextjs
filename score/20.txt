@@ -1,0 +1,382 @@
+1:HL["/_next/static/css/52f87e6b0f7ae474.css",{"as":"style"}]
+2:HL["/_next/static/css/0140179f5997954c.css",{"as":"style"}]
+0:["jlbWUCuiwMHww_FItstzs",[[["",{"children":["score",{"children":[["slug","20","d"],{"children":["__PAGE__?{\"slug\":\"20\"}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
+5:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-a3d04a6f410b5155.js"],"name":"","async":false}
+6:I{"id":5681,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-a3d04a6f410b5155.js"],"name":"","async":false}
+7:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-a3d04a6f410b5155.js"],"name":"","async":false}
+8:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-a3d04a6f410b5155.js"],"name":"","async":false}
+9:I{"id":7767,"chunks":["272:static/chunks/webpack-bbc5afedef9bf366.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
+a:I{"id":7920,"chunks":["272:static/chunks/webpack-bbc5afedef9bf366.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
+3:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L5",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L5",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]]]}],["$","body",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","score","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","score","children",["slug","20","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$Lb",null],"segment":"__PAGE__?{\"slug\":\"20\"}"},"styles":[]}],"segment":["slug","20","d"]},"styles":[]}],"segment":"score"},"styles":[]}]}]}]}]}]]}],null]
+4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"데이먼스 이어 - Auburn 기타 코드 가사 악보"}],["$","meta","2",{"name":"description","content":"데이먼스 이어 - Auburn 키조절이 가능한 코드 악보입니다. 코드를 클릭하면 코드표가 나와요."}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"데이먼스 이어 - Auburn 기타 코드 가사 악보"}],["$","meta","5",{"property":"og:description","content":"데이먼스 이어 - Auburn 키조절이 가능한 코드 악보입니다. 코드를 클릭하면 코드표가 나와요."}],["$","meta","6",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"데이먼스 이어 - Auburn 기타 코드 가사 악보"}],["$","meta","9",{"name":"twitter:description","content":"데이먼스 이어 - Auburn 키조절이 가능한 코드 악보입니다. 코드를 클릭하면 코드표가 나와요."}],["$","meta","10",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
+c:I{"id":1179,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","822:static/chunks/822-fedafad88b71ab15.js","783:static/chunks/783-9ba320bbb751e4be.js","355:static/chunks/355-6c43df2c9f8e2424.js","95:static/chunks/95-926f685899297476.js","589:static/chunks/app/score/[slug]/page-c11fd7f1e55c25f9.js"],"name":"","async":false}
+e:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","822:static/chunks/822-fedafad88b71ab15.js","783:static/chunks/783-9ba320bbb751e4be.js","355:static/chunks/355-6c43df2c9f8e2424.js","95:static/chunks/95-926f685899297476.js","589:static/chunks/app/score/[slug]/page-c11fd7f1e55c25f9.js"],"name":"","async":false}
+f:I{"id":5797,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","822:static/chunks/822-fedafad88b71ab15.js","783:static/chunks/783-9ba320bbb751e4be.js","355:static/chunks/355-6c43df2c9f8e2424.js","95:static/chunks/95-926f685899297476.js","589:static/chunks/app/score/[slug]/page-c11fd7f1e55c25f9.js"],"name":"","async":false}
+d:T2057,/*@jsxRuntime automatic @jsxImportSource react*/
+const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const {ScoreWrapper, ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
+  if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
+  if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
+  return _jsxs(ScoreWrapper, {
+    children: [_jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'B',
+          position: 0
+        }, {
+          name: 'C]',
+          position: 4
+        }, {
+          name: 'F]',
+          position: 8
+        }, {
+          name: 'E[m7',
+          position: 12
+        }, {
+          name: 'B',
+          position: 16
+        }, {
+          name: 'C]',
+          position: 20
+        }, {
+          name: 'F]',
+          position: 24
+        }, {
+          name: 'E[m7',
+          position: 28
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 참지 말아요 나의 눈을 보며 안고 싶은 마음',
+        chordList: [{
+          name: 'B',
+          position: 0
+        }, {
+          name: 'C]',
+          position: 7
+        }, {
+          name: 'F]',
+          position: 11
+        }, {
+          name: 'E[m7',
+          position: 23
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 밤은 깊어도 잠에 들지 않고 뒤척이겠죠',
+        chordList: [{
+          name: 'B',
+          position: 0
+        }, {
+          name: 'C]',
+          position: 7
+        }, {
+          name: 'F]',
+          position: 11
+        }, {
+          name: 'E[m7',
+          position: 21
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '아직도 같은 생각을 하고 있을까요',
+        chordList: [{
+          name: 'B',
+          position: 2
+        }, {
+          name: 'C]',
+          position: 7
+        }, {
+          name: 'F]',
+          position: 17
+        }, {
+          name: 'E[m7',
+          position: 21
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '나는 왜 그대가 그럴 것만 같을까요',
+        chordList: [{
+          name: 'B',
+          position: 3
+        }, {
+          name: 'C]',
+          position: 7
+        }, {
+          name: 'F]',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 잊지 말아요 나의 모든 마음을 고백했던 날',
+        chordList: [{
+          name: 'B',
+          position: 0
+        }, {
+          name: 'C]',
+          position: 7
+        }, {
+          name: 'F]',
+          position: 11
+        }, {
+          name: 'E[m7',
+          position: 23
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 곁에 없어도 나는 항상 그대 곁에 있어요',
+        chordList: [{
+          name: 'B',
+          position: 0
+        }, {
+          name: 'C]',
+          position: 7
+        }, {
+          name: 'F]',
+          position: 11
+        }, {
+          name: 'E[m7',
+          position: 22
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '아직도 같은 생각을 하고 있을까요',
+        chordList: [{
+          name: 'B',
+          position: 2
+        }, {
+          name: 'C]',
+          position: 7
+        }, {
+          name: 'F]',
+          position: 17
+        }, {
+          name: 'E[m7',
+          position: 21
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '나는 왜 그대가 그럴 것만 같을까요',
+        chordList: [{
+          name: 'B',
+          position: 3
+        }, {
+          name: 'C]',
+          position: 7
+        }, {
+          name: 'F]',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '아침이 밝아오면 우린 서서 눈을 감죠',
+        chordList: [{
+          name: 'B',
+          position: 1
+        }, {
+          name: 'C]',
+          position: 6
+        }, {
+          name: 'F]',
+          position: 12
+        }, {
+          name: 'E[m7',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '어떤 말로 표현할 수 없어요',
+        chordList: [{
+          name: 'B',
+          position: 3
+        }, {
+          name: 'C]',
+          position: 8
+        }, {
+          name: 'F]',
+          position: 14
+        }, {
+          name: 'E[m7',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '나는 잠이 들어도 여전히 옆에 그댈 찾죠',
+        chordList: [{
+          name: 'B',
+          position: 3
+        }, {
+          name: 'C]',
+          position: 8
+        }, {
+          name: 'F]',
+          position: 14
+        }, {
+          name: 'E[m7',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '좋은 꿈을 꾸지만 난 싫어요',
+        chordList: [{
+          name: 'B',
+          position: 3
+        }, {
+          name: 'C]',
+          position: 8
+        }, {
+          name: 'F]',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'B',
+          position: 0
+        }, {
+          name: 'C]',
+          position: 4
+        }, {
+          name: 'F]',
+          position: 8
+        }, {
+          name: 'E[m7',
+          position: 12
+        }, {
+          name: 'B',
+          position: 16
+        }, {
+          name: 'C]',
+          position: 20
+        }, {
+          name: 'F]',
+          position: 24
+        }, {
+          name: 'E[m7',
+          position: 28
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        chordList: [{
+          name: 'B',
+          position: 0
+        }, {
+          name: 'C]',
+          position: 4
+        }, {
+          name: 'F]',
+          position: 8
+        }, {
+          name: 'E[m7',
+          position: 12
+        }, {
+          name: 'B',
+          position: 16
+        }, {
+          name: 'C]',
+          position: 20
+        }, {
+          name: 'F]',
+          position: 24
+        }, {
+          name: 'E[m7',
+          position: 28
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '아침이 밝아오면 우린 서서 눈을 감죠',
+        chordList: [{
+          name: 'B',
+          position: 1
+        }, {
+          name: 'C]',
+          position: 6
+        }, {
+          name: 'F]',
+          position: 12
+        }, {
+          name: 'E[m7',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '어떤 말로 표현할 수 없어요',
+        chordList: [{
+          name: 'B',
+          position: 3
+        }, {
+          name: 'C]',
+          position: 8
+        }, {
+          name: 'F]',
+          position: 14
+        }, {
+          name: 'E[m7',
+          position: 18
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '나는 잠이 들어도 여전히 옆에 그댈 찾죠',
+        chordList: [{
+          name: 'B',
+          position: 3
+        }, {
+          name: 'C]',
+          position: 8
+        }, {
+          name: 'F]',
+          position: 14
+        }, {
+          name: 'E[m7',
+          position: 20
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '좋은 꿈을 꾸지만 난 싫어요',
+        chordList: [{
+          name: 'B',
+          position: 3
+        }, {
+          name: 'C]',
+          position: 8
+        }, {
+          name: 'F]',
+          position: 14
+        }]
+      }
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+b:[["$","$Lc",null,{"scoreData":{"title":"Auburn","artist":"데이먼스 이어","releaseYear":2021,"capo":2,"slug":"20","mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}}}],["$","$Le",null,{"postDetail":true}],["$","$Lf",null,{}]]
