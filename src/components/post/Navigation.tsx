@@ -49,6 +49,7 @@ const StyledPostNavigation = styled.nav`
       border: 1px solid ${config.primaryLine};
       &:hover {
         background-color: ${config.secondaryBg};
+        border-color: ${config.secondaryLine};
       }
       .direction {
         font-size: 14px;
