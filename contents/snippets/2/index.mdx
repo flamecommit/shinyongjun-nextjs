@@ -1,0 +1,68 @@
+---
+title: useElementScroll hooks
+description: window size를 사용할 수 있게 하는 React Hook 코드 입니다.
+date: 2023-08-23T17:25:00
+categories: ['react']
+---
+
+```ts:/src/hooks/useElementScroll.ts
+import { useState, useEffect, RefObject } from 'react';
+
+export default function useElementScroll(
+  elementRef: RefObject<HTMLDivElement>, // 예외상황을 방지하기 위해 element는 div로 고정
+) {
+  const [scrollPosition, setScrollPosition] = useState({
+    scrollX: 0, // 가로 스크롤 값
+    scrollY: 0, // 세로 스크롤 값
+    isAtTop: true, // scroll이 상단에 도달하면 true
+    isAtBottom: false, // scroll이 하단에 도달하면 true
+    hasScrollbar: false, // elementRef의 scrollbar 존재 여부
+  });
+
+  useEffect(() => {
+    const targetElement = elementRef.current;
+
+    function handleScroll() {
+      const scrollHeight = targetElement ? targetElement.scrollHeight : 0;
+      const scrollTop = targetElement ? targetElement.scrollTop : 0;
+      const isAtTop = scrollTop <= 0;
+      const clientHeight = targetElement ? targetElement.clientHeight : 0;
+      const isAtBottom = scrollHeight - scrollTop <= clientHeight + 1;
+      const hasScrollbar = scrollHeight > clientHeight;
+
+      setScrollPosition({
+        scrollX: targetElement?.scrollLeft || 0,
+        scrollY: targetElement?.scrollTop || 0,
+        isAtTop,
+        isAtBottom,
+        hasScrollbar,
+      });
+    }
+
+    if (targetElement) {
+      handleScroll();
+      targetElement.addEventListener('scroll', handleScroll);
+    }
+
+    return () => {
+      if (targetElement) {
+        targetElement.removeEventListener('scroll', handleScroll);
+      }
+    };
+  }, [elementRef]);
+
+  return scrollPosition;
+}
+```
+
+use.
+
+```tsx:/src/components/example.tsx
+import useElementScroll from '@/hooks/useElementScroll';
+
+export default function ExampleComponent() {
+  const { scrollX, scrollY, isAtTop, isAtBottom, hasScrollbar } = useElementScroll();
+}
+```
+
+end.
