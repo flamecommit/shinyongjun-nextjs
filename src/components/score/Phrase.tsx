@@ -16,6 +16,12 @@ type Props = {
   };
 };
 
+interface PhraseType {
+  lyricsLetter: string;
+  chordName: string;
+  initIndex: number;
+}
+
 // 2마디 = 동기 = motive
 // 4마디 = 작은악절 = Phrase
 // 8마디 = 큰악절 = period, sentence
@@ -25,7 +31,7 @@ function ScorePhrase({ phrase }: Props) {
   const chordList = phrase.chordList || [];
   const [currentChord, setCurrentChord] = useState<string>('');
   const [initIndex, setInitIndex] = useState<number>(0);
-  const [phraseArray, setPhraseArray] = useState<any[]>([]);
+  const [phraseArray, setPhraseArray] = useState<PhraseType[]>([]);
 
   const closeChord = () => {
     setCurrentChord('');
