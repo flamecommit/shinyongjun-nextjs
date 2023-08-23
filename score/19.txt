@@ -1,0 +1,302 @@
+1:HL["/_next/static/css/52f87e6b0f7ae474.css",{"as":"style"}]
+2:HL["/_next/static/css/0140179f5997954c.css",{"as":"style"}]
+0:["CZEk8glul4tsdR8_aGTyG",[[["",{"children":["score",{"children":[["slug","19","d"],{"children":["__PAGE__?{\"slug\":\"19\"}",{}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
+5:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","173:static/chunks/173-69a29d0c9ab86469.js","185:static/chunks/app/layout-13049f87079e28c7.js"],"name":"","async":false}
+6:I{"id":5253,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","173:static/chunks/173-69a29d0c9ab86469.js","185:static/chunks/app/layout-13049f87079e28c7.js"],"name":"","async":false}
+7:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","173:static/chunks/173-69a29d0c9ab86469.js","185:static/chunks/app/layout-13049f87079e28c7.js"],"name":"","async":false}
+8:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","173:static/chunks/173-69a29d0c9ab86469.js","185:static/chunks/app/layout-13049f87079e28c7.js"],"name":"","async":false}
+9:I{"id":7767,"chunks":["272:static/chunks/webpack-699e823255cceff7.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
+a:I{"id":7920,"chunks":["272:static/chunks/webpack-699e823255cceff7.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
+3:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L5",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L5",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]]]}],["$","body",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","score","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","score","children",["slug","19","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$Lb",null],"segment":"__PAGE__?{\"slug\":\"19\"}"},"styles":[]}],"segment":["slug","19","d"]},"styles":[]}],"segment":"score"},"styles":[]}]}]}]}]}]]}],null]
+4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"shinyongjun - Score | 이세계 - 낭만젊음사랑"}],["$","meta","2",{"name":"description","content":"이세계의 낭만젊음사랑 코드 악보 입니다."}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"shinyongjun - Score | 이세계 - 낭만젊음사랑"}],["$","meta","5",{"property":"og:description","content":"이세계의 낭만젊음사랑 코드 악보 입니다."}],["$","meta","6",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","7",{"name":"twitter:card","content":"summary"}],["$","meta","8",{"name":"twitter:title","content":"shinyongjun - Score | 이세계 - 낭만젊음사랑"}],["$","meta","9",{"name":"twitter:description","content":"이세계의 낭만젊음사랑 코드 악보 입니다."}],["$","meta","10",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
+c:I{"id":1179,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","173:static/chunks/173-69a29d0c9ab86469.js","822:static/chunks/822-fedafad88b71ab15.js","355:static/chunks/355-b42b95d0ae437233.js","95:static/chunks/95-e8cb5bc73d60f8ee.js","589:static/chunks/app/score/[slug]/page-c89b407112a1f954.js"],"name":"","async":false}
+e:I{"id":7137,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","173:static/chunks/173-69a29d0c9ab86469.js","822:static/chunks/822-fedafad88b71ab15.js","355:static/chunks/355-b42b95d0ae437233.js","95:static/chunks/95-e8cb5bc73d60f8ee.js","589:static/chunks/app/score/[slug]/page-c89b407112a1f954.js"],"name":"","async":false}
+f:I{"id":5797,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","173:static/chunks/173-69a29d0c9ab86469.js","822:static/chunks/822-fedafad88b71ab15.js","355:static/chunks/355-b42b95d0ae437233.js","95:static/chunks/95-e8cb5bc73d60f8ee.js","589:static/chunks/app/score/[slug]/page-c89b407112a1f954.js"],"name":"","async":false}
+d:T1b31,/*@jsxRuntime automatic @jsxImportSource react*/
+const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const {ScoreWrapper, ScorePhrase} = Object.assign({}, _provideComponents(), props.components);
+  if (!ScorePhrase) _missingMdxReference("ScorePhrase", true);
+  if (!ScoreWrapper) _missingMdxReference("ScoreWrapper", true);
+  return _jsxs(ScoreWrapper, {
+    children: [_jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '고요한 밤이 찾아와',
+        chordList: [{
+          name: 'E',
+          position: 0
+        }, {
+          name: 'G]m7',
+          position: 7
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '아무도 몰래 멀리 떠나자',
+        chordList: [{
+          name: 'AM7',
+          position: 2
+        }, {
+          name: 'Am',
+          position: 10
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '아침 햇살이 우릴 비춰도',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'G]m7',
+          position: 10
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '계속 춤추자 너를 사랑해',
+        chordList: [{
+          name: 'AM7',
+          position: 3
+        }, {
+          name: 'Am',
+          position: 10
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '우린 낭만이란 배를 타고 떠나갈 거야',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'G]m7',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '우린 젊음이란 배를 타고 떠나갈 거야',
+        chordList: [{
+          name: 'AM7',
+          position: 3
+        }, {
+          name: 'Am',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '우린 사랑이란 배를 타고 떠나갈 거야',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'G]m7',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '아무것도 모르지만 우린 괜찮을 거야',
+        chordList: [{
+          name: 'AM7',
+          position: 2
+        }, {
+          name: 'Am',
+          position: 13
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '길을 잃어도 우린 서로 꼭',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'G]m7',
+          position: 10
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '붙잡고 있어 나를 안아줘',
+        chordList: [{
+          name: 'AM7',
+          position: 2
+        }, {
+          name: 'Am',
+          position: 10
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '따스한 아침 햇살과 우리',
+        chordList: [{
+          name: 'E',
+          position: 2
+        }, {
+          name: 'G]m7',
+          position: 9
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '둘의 사랑은 영원할 거야',
+        chordList: [{
+          name: 'AM7',
+          position: 3
+        }, {
+          name: 'Am',
+          position: 9
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '우린 낭만이란 배를 타고 떠나갈 거야',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'G]m7',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '우린 젊음이란 배를 타고 떠나갈 거야',
+        chordList: [{
+          name: 'AM7',
+          position: 3
+        }, {
+          name: 'Am',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '우린 사랑이란 배를 타고 떠나갈 거야',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'G]m7',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '아무것도 모르지만 우린 괜찮을 거야',
+        chordList: [{
+          name: 'AM7',
+          position: 2
+        }, {
+          name: 'Am',
+          position: 13
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: " We don't know 어디로 가고 있는지",
+        chordList: [{
+          name: 'F]m7',
+          position: 0
+        }, {
+          name: 'G]m7',
+          position: 16
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 어디에 있는지, 예, 예, 예',
+        chordList: [{
+          name: 'AM7',
+          position: 0
+        }, {
+          name: 'Am',
+          position: 7
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: " We don't care, 어디든 같이 떠나자",
+        chordList: [{
+          name: 'F]m7',
+          position: 0
+        }, {
+          name: 'G]m7',
+          position: 17
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: ' 괜찮을 거야',
+        chordList: [{
+          name: 'AM7',
+          position: 0
+        }, {
+          name: 'Am',
+          position: 6
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '우린 낭만이란 배를 타고 떠나갈 거야',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'G]m7',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '우린 젊음이란 배를 타고 떠나갈 거야',
+        chordList: [{
+          name: 'AM7',
+          position: 3
+        }, {
+          name: 'Am',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '우린 사랑이란 배를 타고 떠나갈 거야',
+        chordList: [{
+          name: 'E',
+          position: 3
+        }, {
+          name: 'G]m7',
+          position: 14
+        }]
+      }
+    }), _jsx(ScorePhrase, {
+      phrase: {
+        lyrics: '아무것도 모르지만 우린 괜찮을 거야',
+        chordList: [{
+          name: 'AM7',
+          position: 2
+        }, {
+          name: 'Am',
+          position: 13
+        }]
+      }
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+b:[["$","$Lc",null,{"scoreData":{"title":"낭만젊음사랑","artist":"이세계","releaseYear":2018,"capo":0,"slug":"19","mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}}}],["$","$Le",null,{"postDetail":true}],["$","$Lf",null,{}]]
