@@ -14,6 +14,9 @@ import { GalleryType } from '../types/gallery';
 import { useDispatch, useSelector } from 'react-redux';
 import type { RootState } from '@/stores/store';
 import { scoreActions } from '@/stores/features/score';
+import { FiChevronUp } from '@react-icons/all-files/fi/FichevronUp';
+import { FiChevronDown } from '@react-icons/all-files/fi/FichevronDown';
+import { config } from '@/styles/config';
 
 interface Props {
   scoreData: Score;
@@ -72,12 +75,14 @@ function ScoreViewer({ scoreData }: Props) {
           <div className="score-meta">
             <div className="score-capo">
               Capo : {scoreState.capo}
-              <button type="button" onClick={() => setCapo(1)}>
-                key up
-              </button>
-              <button type="button" onClick={() => setCapo(-1)}>
-                key down
-              </button>
+              <div className="controller">
+                <button type="button" onClick={() => setCapo(-1)}>
+                  <FiChevronDown />
+                </button>
+                <button type="button" onClick={() => setCapo(1)}>
+                  <FiChevronUp />
+                </button>
+              </div>
             </div>
             <div className="score-artist">{scoreData.artist}</div>
           </div>
@@ -127,7 +132,22 @@ const StyledScoreViewer = styled.div`
       font-size: 14px;
       .score-capo {
         display: flex;
+        align-items: center;
         column-gap: 12px;
+        .controller {
+          display: flex;
+          align-items: center;
+          column-gap: 6px;
+          button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            background-color: ${config.primaryBg};
+            border: 1px solid ${config.primaryLine};
+          }
+        }
       }
     }
   }

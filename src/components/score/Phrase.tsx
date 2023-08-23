@@ -41,10 +41,23 @@ function ScorePhrase({ phrase }: Props) {
   const computedChordName = (chordName: string | undefined) => {
     if (!chordName) return '';
 
-    const root = getRoot(chordName);
-    const computedRoot = getPitch(root, scoreState.capo);
+    if (chordName.includes('/')) {
+      const split = chordName.split('/');
+      const root1 = getRoot(split[0]);
+      const root2 = getRoot(split[1]);
 
-    return chordName.replace(root, computedRoot);
+      const computedRoot1 = getPitch(root1, scoreState.capo);
+      const computedRoot2 = getPitch(root2, scoreState.capo);
+
+      return chordName
+        .replace(root1, computedRoot1)
+        .replace(root2, computedRoot2);
+    } else {
+      const root = getRoot(chordName);
+      const computedRoot = getPitch(root, scoreState.capo);
+
+      return chordName.replace(root, computedRoot);
+    }
   };
 
   useEffect(() => {

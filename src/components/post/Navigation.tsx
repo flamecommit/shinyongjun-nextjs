@@ -54,6 +54,7 @@ const StyledPostNavigation = styled.nav`
         font-size: 14px;
       }
       .title {
+        font-weight: 500;
         margin-top: 6px;
         ${ellipsis(1)}
       }
@@ -75,6 +76,12 @@ const StyledPostNavigation = styled.nav`
       }
       a {
         padding: 12px 18px;
+        .direction {
+          font-size: 12px;
+        }
+        .title {
+          margin-top: 2px;
+        }
       }
     }
   }
