@@ -5,6 +5,6 @@ export const config = {
   secondaryLine: '#c6c1e1', // 경계선 (primaryBg, secondaryBg)
   primaryText: '#000000',
   secondaryText: '#777777',
-  hoverText: '#7A6FB4',
+  hoverText: '#7d4e9f',
   boxShadow1: '0px 2px 4px rgba(0, 0, 0, 0.1)',
 };

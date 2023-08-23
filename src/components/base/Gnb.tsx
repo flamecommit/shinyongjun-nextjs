@@ -7,6 +7,8 @@ import { useEffect } from 'react';
 import { coreActions } from '@/stores/features/core';
 import { roboto } from '@/styles/fonts';
 import { useAppDispatch, useAppSelector } from '@/hooks/useRedux';
+import { device } from '@/styles/mixin';
+import { config } from '@/styles/config';
 
 function BaseGnb() {
   const { categoryName } = useAppSelector((state) => state.core);
@@ -64,9 +66,22 @@ const StyledBaseGnb = styled.nav`
   column-gap: 30px;
   a {
     font-family: ${roboto.style.fontFamily};
-    font-size: 16px;
+    font-size: 18px;
+    &:hover {
+      color: ${config.hoverText};
+    }
     &.active {
       font-weight: 700;
+      color: ${config.hoverText};
+      // color: #775da5;
+      // color: #7d4e9f;
+      // color: #8a3b8f;
+    }
+  }
+  @media ${device.mobile} {
+    column-gap: 24px;
+    a {
+      font-size: 16px;
     }
   }
 `;
