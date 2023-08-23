@@ -35,7 +35,7 @@ function ScoreViewer({ scoreData }: Props) {
 
   const setCapo = (value: number) => {
     const temp = scoreState.capo + value;
-    if (temp >= 0 && temp <= 8) {
+    if (temp >= -8 && temp <= 8) {
       dispatch(scoreActions.setCapo(temp));
     }
   };

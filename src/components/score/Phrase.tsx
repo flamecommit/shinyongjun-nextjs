@@ -45,15 +45,15 @@ function ScorePhrase({ phrase }: Props) {
       const root1 = getRoot(split[0]);
       const root2 = getRoot(split[1]);
 
-      const computedRoot1 = getPitch(root1, scoreState.capo);
-      const computedRoot2 = getPitch(root2, scoreState.capo);
+      const computedRoot1 = getPitch(root1, scoreState.capo * -1);
+      const computedRoot2 = getPitch(root2, scoreState.capo * -1);
 
       return chordName
         .replace(root1, computedRoot1)
         .replace(root2, computedRoot2);
     } else {
       const root = getRoot(chordName);
-      const computedRoot = getPitch(root, scoreState.capo);
+      const computedRoot = getPitch(root, scoreState.capo * -1);
 
       return chordName.replace(root, computedRoot);
     }

@@ -37,10 +37,18 @@ export const getPitch = (root: string, step: number) => {
   // step 4 : Major 3rd, 장 3도
   // step 7 : Perfect 5th, 완전 5도
   const index = getPitchIndex(root);
-  const computedIndex =
-    pitchList.length > index + step
-      ? index + step
-      : (index + step) % pitchList.length;
+  const tempIndex = index + step;
+  let computedIndex;
+
+  if (pitchList.length > tempIndex && tempIndex > -1) {
+    computedIndex = tempIndex;
+  } else {
+    if (tempIndex > 0) {
+      computedIndex = tempIndex % pitchList.length;
+    } else {
+      computedIndex = pitchList.length + tempIndex;
+    }
+  }
 
   const pitch = pitchList[computedIndex];
   const type0 = ['C', 'F', 'G'];
