@@ -1,6 +1,6 @@
 1:HL["/_next/static/css/52f87e6b0f7ae474.css",{"as":"style"}]
 2:HL["/_next/static/css/0140179f5997954c.css",{"as":"style"}]
-0:["jlbWUCuiwMHww_FItstzs",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
+0:["iJKcYYK_KQ3jty2ImMosl",[[["",{"children":["score",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
 5:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-a3d04a6f410b5155.js"],"name":"","async":false}
 6:I{"id":5681,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-a3d04a6f410b5155.js"],"name":"","async":false}
 7:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-a3d04a6f410b5155.js"],"name":"","async":false}
@@ -1375,7 +1375,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-11:T1739,/*@jsxRuntime automatic @jsxImportSource react*/
+11:T16d9,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1388,8 +1388,7 @@ function _createMdxContent(props) {
         lyrics: '이별을 말하고 넌 괜찮   은 거니',
         chordList: [{
           name: 'GM7',
-          position: 5,
-          initIndex: 1
+          position: 5
         }, {
           name: 'F]m7[5',
           position: 10
@@ -1437,8 +1436,7 @@ function _createMdxContent(props) {
         lyrics: '난 두려워 시간이 쌓여갈수록',
         chordList: [{
           name: 'GM7',
-          position: 2,
-          initIndex: 1
+          position: 2
         }, {
           name: 'F]m7[5',
           position: 7
@@ -1517,8 +1515,7 @@ function _createMdxContent(props) {
         lyrics: '말해줘 지금 나 너의 집 앞에 있어',
         chordList: [{
           name: 'GM7',
-          position: 2,
-          initIndex: 1
+          position: 2
         }, {
           name: 'F]m7[5',
           position: 9
@@ -1566,8 +1563,7 @@ function _createMdxContent(props) {
         lyrics: '끝이라는게 나 너무나 두려워서',
         chordList: [{
           name: 'GM7',
-          position: 2,
-          initIndex: 1
+          position: 2
         }, {
           name: 'F]m7[5',
           position: 8
@@ -5183,7 +5179,7 @@ return {
 function _missingMdxReference(id, component) {
   throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
-1c:T2398,/*@jsxRuntime automatic @jsxImportSource react*/
+1c:T2350,/*@jsxRuntime automatic @jsxImportSource react*/
 const {jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -5245,8 +5241,7 @@ function _createMdxContent(props) {
           position: 18
         }, {
           name: 'C]7sus4',
-          position: 22,
-          initIndex: 1
+          position: 22
         }, {
           name: 'C]7',
           position: 26
@@ -5373,8 +5368,7 @@ function _createMdxContent(props) {
           position: 18
         }, {
           name: 'C]7sus4',
-          position: 22,
-          initIndex: 1
+          position: 22
         }, {
           name: 'C]7',
           position: 26
@@ -5423,8 +5417,7 @@ function _createMdxContent(props) {
           position: 28
         }, {
           name: 'C]7sus4',
-          position: 34,
-          initIndex: 1
+          position: 34
         }, {
           name: 'C]7',
           position: 38
