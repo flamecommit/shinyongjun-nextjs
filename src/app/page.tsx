@@ -1,4 +1,4 @@
-import AuthorProfile from '@/components/author/Profile';
+import PageTitle from '@/components/page/Title';
 import PostList from '@/components/post/List';
 import { getPostList } from '@/services/post';
 
@@ -7,7 +7,7 @@ async function RootPage() {
 
   return (
     <>
-      <AuthorProfile />
+      <PageTitle>Post</PageTitle>
       {postList.length ? <PostList postList={postList} /> : <div>no</div>}
     </>
   );

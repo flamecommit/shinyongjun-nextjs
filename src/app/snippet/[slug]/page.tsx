@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     openGraph: {
       title: snippet.title,
-      description,
+      description: snippet.description,
       images: process.env.OG_IMAGE,
     },
   };

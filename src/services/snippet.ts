@@ -16,6 +16,7 @@ interface SnippetMatter {
   title: string;
   date: Date;
   categories: string[];
+  description: string;
 }
 
 export interface Snippet extends SnippetMatter {
