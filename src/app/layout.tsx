@@ -10,7 +10,7 @@ interface Props {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const title = 'Shinyongjun Dev & Music Archive';
+  const title = '신용준 | Tech & Music Archive';
   const description = process.env.BIO;
 
   return {
