@@ -17,6 +17,7 @@ interface ScoreMatter {
   artist: string;
   releaseYear: number;
   capo: number;
+  computedKey?: number;
 }
 
 export interface Score extends ScoreMatter {

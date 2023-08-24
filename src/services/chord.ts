@@ -101,6 +101,10 @@ const get7thSuspended2thChord = (root: string) =>
 const get7thSuspended4thChord = (root: string) =>
   setComposition(root, [0, 5, 7, 10]);
 
+/** 7th Fret9 */
+const get7thFret9Chord = (root: string) =>
+  setComposition(root, [0, 4, 7, 10, 13]);
+
 /** dim : Diminished */
 const getDiminishedChord = (root: string) => setComposition(root, [0, 3, 6]);
 
@@ -159,6 +163,7 @@ export const getComposition = (chord: string) => {
   if (chord === `${root}sus4`) return getSuspended4thChord(root);
   if (chord === `${root}7sus2`) return get7thSuspended2thChord(root);
   if (chord === `${root}7sus4`) return get7thSuspended4thChord(root);
+  if (chord === `${root}7[9`) return get7thFret9Chord(root);
   if (chord === `${root}dim`) return getDiminishedChord(root);
   if (chord === `${root}dim7`) return getDiminished7thChord(root);
   if (chord === `${root}m`) return getMinorChord(root);

@@ -14,6 +14,7 @@ type Props = {
     lyrics: string | undefined;
     chordList?: [{ name: string; position: number; initIndex?: number }];
   };
+  letterSpacing?: number;
 };
 
 interface PhraseType {
@@ -26,7 +27,7 @@ interface PhraseType {
 // 4마디 = 작은악절 = Phrase
 // 8마디 = 큰악절 = period, sentence
 
-function ScorePhrase({ phrase }: Props) {
+function ScorePhrase({ phrase, letterSpacing }: Props) {
   const scoreState = useAppSelector((state) => state.score);
   const chordList = phrase.chordList || [];
   const [currentChord, setCurrentChord] = useState<string>('');
@@ -51,15 +52,24 @@ function ScorePhrase({ phrase }: Props) {
       const root1 = getRoot(split[0]);
       const root2 = getRoot(split[1]);
 
-      const computedRoot1 = getPitch(root1, scoreState.capo * -1);
-      const computedRoot2 = getPitch(root2, scoreState.capo * -1);
+      const computedRoot1 = getPitch(
+        root1,
+        scoreState.capo * -1 + scoreState.computedKey,
+      );
+      const computedRoot2 = getPitch(
+        root2,
+        scoreState.capo * -1 + scoreState.computedKey,
+      );
 
       return chordName
         .replace(root1, computedRoot1)
         .replace(root2, computedRoot2);
     } else {
       const root = getRoot(chordName);
-      const computedRoot = getPitch(root, scoreState.capo * -1);
+      const computedRoot = getPitch(
+        root,
+        scoreState.capo * -1 + scoreState.computedKey,
+      );
 
       return chordName.replace(root, computedRoot);
     }
@@ -86,7 +96,10 @@ function ScorePhrase({ phrase }: Props) {
 
   return (
     <>
-      <StyledScorePhrase className="score-phrase">
+      <StyledScorePhrase
+        className="score-phrase"
+        $letterSpacing={letterSpacing}
+      >
         {phraseArray.map((item, i) => {
           return (
             <div key={i} className="letter" data-letter-index={i}>
@@ -120,7 +133,7 @@ function ScorePhrase({ phrase }: Props) {
   );
 }
 
-const StyledScorePhrase = styled.div`
+const StyledScorePhrase = styled.div<{ $letterSpacing?: number }>`
   display: flex;
   flex-wrap: wrap;
   // column-gap: 0.1em;
@@ -136,6 +149,8 @@ const StyledScorePhrase = styled.div`
     flex-basis: 1em;
     width: 1em;
     text-align: center;
+    flex-basis: ${(props) => `${props.$letterSpacing}em` || `1em`};
+    width: ${(props) => `${props.$letterSpacing}em` || `1em`};
     .chord {
       height: 1.5em;
       white-space: nowrap;

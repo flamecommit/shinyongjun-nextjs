@@ -28,6 +28,7 @@ function ScoreViewer({ scoreData }: Props) {
   const contents = useRef<HTMLDivElement>(null);
   const scoreState = useAppSelector((state) => state.score);
   const dispatch = useAppDispatch();
+  const computedKey = scoreData.computedKey || 0;
 
   const closeGallery = () => {
     setIsGallery(false);
@@ -59,9 +60,11 @@ function ScoreViewer({ scoreData }: Props) {
 
   useEffect(() => {
     dispatch(scoreActions.setCapo(scoreData.capo));
+    dispatch(scoreActions.setComputedKey(computedKey));
 
     return () => {
       dispatch(scoreActions.setCapo(0));
+      dispatch(scoreActions.setComputedKey(0));
     };
   }, []);
 

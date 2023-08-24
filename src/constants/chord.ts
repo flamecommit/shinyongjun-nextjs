@@ -20,6 +20,7 @@ export const kindOfChord = [
   'sus4',
   '7sus2',
   '7sus4',
+  '7[9',
   'dim',
   'dim7',
   'm',
@@ -1160,6 +1161,10 @@ const rootBfret: ChordType = {
   'B[7sus4': {
     composition: ['B[', 'E[', 'F', 'G]'],
     chartList: [],
+  },
+  'B[7[9': {
+    composition: ['B[', 'D', 'F', 'G]', 'B'],
+    chartList: [[1, 0, 1, 0, 1, -1]],
   },
   'B[dim': {
     composition: ['B[', 'C]', 'E'],
