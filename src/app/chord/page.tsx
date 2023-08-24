@@ -4,7 +4,7 @@ import ChordList from '@/components/chord/List';
 import PageLink from '@/components/page/Link';
 
 export const metadata: Metadata = {
-  title: 'Guitar Chords Finder',
+  title: 'Guitar Chord Chart',
 };
 
 const DiaryPage = async () => {
