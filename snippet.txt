@@ -1,17 +1,185 @@
 1:HL["/_next/static/css/52f87e6b0f7ae474.css",{"as":"style"}]
 2:HL["/_next/static/css/0140179f5997954c.css",{"as":"style"}]
-0:["totyxJtUpDzn_WCfjP2Rf",[[["",{"children":["snippet",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
-5:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-aabcabb3b91e1c63.js"],"name":"","async":false}
-6:I{"id":5681,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-aabcabb3b91e1c63.js"],"name":"","async":false}
-7:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-aabcabb3b91e1c63.js"],"name":"","async":false}
-8:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-aabcabb3b91e1c63.js"],"name":"","async":false}
+0:["Hso_dyubW59bZPwj6OUsQ",[[["",{"children":["snippet",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
+5:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-8007c5ee5e4aad9f.js"],"name":"","async":false}
+6:I{"id":5681,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-8007c5ee5e4aad9f.js"],"name":"","async":false}
+7:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-8007c5ee5e4aad9f.js"],"name":"","async":false}
+8:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-8007c5ee5e4aad9f.js"],"name":"","async":false}
 9:I{"id":7767,"chunks":["272:static/chunks/webpack-bbc5afedef9bf366.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 a:I{"id":7920,"chunks":["272:static/chunks/webpack-bbc5afedef9bf366.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 3:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L5",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L5",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]]]}],["$","body",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","snippet","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$Lb",null],"segment":"__PAGE__"},"styles":[]}],"segment":"snippet"},"styles":[]}]}]}]}]}]]}],null]
 4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Shinyongjun Dev & Music Archive"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"Shinyongjun Dev & Music Archive"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"Shinyongjun Dev & Music Archive"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
-c:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","249:static/chunks/app/snippet/page-d40b9e4cf0284f41.js"],"name":"","async":false}
-d:I{"id":3839,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","249:static/chunks/app/snippet/page-d40b9e4cf0284f41.js"],"name":"","async":false}
-e:Ta68,/*@jsxRuntime automatic @jsxImportSource react*/
+c:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","249:static/chunks/app/snippet/page-2e63e7fb49c896bd.js"],"name":"","async":false}
+d:I{"id":3839,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","249:static/chunks/app/snippet/page-2e63e7fb49c896bd.js"],"name":"","async":false}
+e:T18bf,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    pre: "pre",
+    code: "code",
+    span: "span",
+    p: "p"
+  }, _provideComponents(), props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-ts",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " addCommas = (", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "value"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "string"
+        }), " | ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "number"
+        }), "): ", _jsxs(_components.span, {
+          className: "hljs-function",
+          children: [_jsx(_components.span, {
+            className: "hljs-params",
+            children: "string"
+          }), " =>"]
+        }), " {\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " formatIntegerPart = (", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "integerPart"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "string"
+        }), "): ", _jsxs(_components.span, {
+          className: "hljs-function",
+          children: [_jsx(_components.span, {
+            className: "hljs-params",
+            children: "string"
+          }), " =>"]
+        }), "\r\n    integerPart.", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "replace"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-regexp",
+          children: "/\\B(?=(\\d{3})+(?!\\d))/g"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "','"
+        }), ");\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " [integerPart, decimalPart = ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "''"
+        }), "] = value.", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "toString"
+        }), "().", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "split"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'.'"
+        }), ");\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "return"
+        }), " ", _jsxs(_components.span, {
+          className: "hljs-string",
+          children: ["`", _jsx(_components.span, {
+            className: "hljs-subst",
+            children: "${formatIntegerPart(integerPart)}"
+          }), _jsxs(_components.span, {
+            className: "hljs-subst",
+            children: ["${\r\n    decimalPart ? ", _jsxs(_components.span, {
+              className: "hljs-string",
+              children: ["`.", _jsx(_components.span, {
+                className: "hljs-subst",
+                children: "${decimalPart}"
+              }), "`"]
+            }), " : ", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "''"
+            }), "\r\n  }"]
+          }), "`"]
+        }), ";\r\n};\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-variable language_",
+          children: "console"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "log"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "addCommas"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "651651"
+        }), ")); ", _jsx(_components.span, {
+          className: "hljs-comment",
+          children: "// 651,651"
+        }), "\r\n", _jsx(_components.span, {
+          className: "hljs-variable language_",
+          children: "console"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "log"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "addCommas"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "651651.3213"
+        }), ")); ", _jsx(_components.span, {
+          className: "hljs-comment",
+          children: "// 651,651.3213"
+        }), "\r\n", _jsx(_components.span, {
+          className: "hljs-variable language_",
+          children: "console"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "log"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "addCommas"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'1534.3213'"
+        }), ")); ", _jsx(_components.span, {
+          className: "hljs-comment",
+          children: "// 1,534.3213"
+        }), "\r\n", _jsx(_components.span, {
+          className: "hljs-variable language_",
+          children: "console"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "log"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "addCommas"
+        }), "(-", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "154651651.3213"
+        }), ")); ", _jsx(_components.span, {
+          className: "hljs-comment",
+          children: "// -154,651,651.3213"
+        }), "\n"]
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "end."
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+f:Ta68,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -86,7 +254,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-f:T2a47,/*@jsxRuntime automatic @jsxImportSource react*/
+10:T2a47,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -353,7 +521,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-10:T24cf,/*@jsxRuntime automatic @jsxImportSource react*/
+11:T24cf,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -598,4 +766,4 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-b:[["$","$Lc",null,{"children":"Snippet"}],["$","$Ld",null,{"snippetList":[{"title":"첫 글자를 알파벳 대문자로 바꿔주는 함수","description":"문자열의 첫 글자를 알파벳 대문자로 바꿔주는 typescript 함수 입니다.","date":"$D2023-08-24T13:36:00.000Z","categories":["typescript","string"],"slug":"3","mdx":{"compiledSource":"$e","frontmatter":{},"scope":{}}},{"title":"useElementScroll hooks","description":"element의 scroll 변화를 감지하는 React Hook 코드 입니다.","date":"$D2023-08-23T17:25:00.000Z","categories":["react"],"slug":"2","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"useWindowSize hooks","description":"window size를 사용할 수 있게 하는 React Hook 코드 입니다.","date":"$D2023-08-23T15:51:00.000Z","categories":["react"],"slug":"1","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}}]}]]
+b:[["$","$Lc",null,{"children":"Snippet"}],["$","$Ld",null,{"snippetList":[{"title":"3자리 마다 콤마(,) 추가하는 함수 (유리수, 음수 지원)","description":"3자리 마다 콤마(,) 추가하는 함수입니다. (유리수, 음수 지원)","date":"$D2023-08-24T15:25:00.000Z","categories":["typescript","number"],"slug":"4","mdx":{"compiledSource":"$e","frontmatter":{},"scope":{}}},{"title":"첫 글자를 알파벳 대문자로 바꿔주는 함수","description":"문자열의 첫 글자를 알파벳 대문자로 바꿔주는 typescript 함수 입니다.","date":"$D2023-08-24T13:36:00.000Z","categories":["typescript","string"],"slug":"3","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"useElementScroll hooks","description":"element의 scroll 변화를 감지하는 React Hook 코드 입니다.","date":"$D2023-08-23T17:25:00.000Z","categories":["react"],"slug":"2","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}},{"title":"useWindowSize hooks","description":"window size를 사용할 수 있게 하는 React Hook 코드 입니다.","date":"$D2023-08-23T15:51:00.000Z","categories":["react"],"slug":"1","mdx":{"compiledSource":"$11","frontmatter":{},"scope":{}}}]}]]
