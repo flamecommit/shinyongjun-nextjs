@@ -3,7 +3,7 @@ import PageTitle from '@/components/page/Title';
 import PostList from '@/components/post/List';
 import { getPostListByCategory, getCategories } from '@/services/category';
 import CategoryList from '@/components/category/List';
-import { capitalizeFirstLetter } from '@/utils/string';
+import { capitalizeString } from '@/utils/string';
 import SnippetList from '@/components/snippet/List';
 
 type RouteType = {
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { board, slug } = params;
 
   return {
-    title: `${capitalizeFirstLetter(board)}Category - ${slug}`,
+    title: `${capitalizeString(board)}Category - ${slug}`,
   };
 }
 
@@ -53,7 +53,7 @@ const PostListByCategoryPage = async ({ params }: Props) => {
   return (
     <>
       <PageTitle>
-        {capitalizeFirstLetter(board)}Category - {slug}
+        {capitalizeString(board)}Category - {slug}
       </PageTitle>
       <CategoryList board={board} categories={categories} />
       {board === 'post' && <PostList postList={articleList} />}

@@ -1,0 +1,15 @@
+---
+title: 첫 글자를 알파벳 대문자로 바꿔주는 함수
+description: 문자열의 첫 글자를 알파벳 대문자로 바꿔주는 typescript 함수 입니다.
+date: 2023-08-24T13:36:00
+categories: ['typescript', 'string']
+---
+
+```ts
+const capitalizeString = (input: string): string =>
+  input.length ? input[0].toUpperCase() + input.slice(1) : input;
+
+console.log(capitalizeString('hello world')); // Hello world
+```
+
+end.
