@@ -127,7 +127,7 @@ const StyledHistoryWrapper = styled.div`
     position: sticky;
     top: 60px;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: ${config.hoverText};
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     box-shadow: ${config.boxShadow1};

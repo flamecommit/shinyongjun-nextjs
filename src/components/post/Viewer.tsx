@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import { MDXRemote } from 'next-mdx-remote';
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { Post } from '@/services/post';
 import { getFormatDatetime } from '@/utils/datetime';
 import { prism } from '@/styles/prism';
 import { markdown } from '@/styles/markdown';
@@ -13,11 +12,12 @@ import GalleryWrapper from '@/components/gallery/Wrapper';
 import CategoryItem from '../category/Item';
 import { GalleryType } from '../types/gallery';
 import { config } from '@/styles/config';
+import { IPost } from '@/types/post';
 
 interface Props {
   postData: {
     seriesIndex: number | undefined;
-  } & Post;
+  } & IPost;
 }
 
 function PostViewer({ postData }: Props) {

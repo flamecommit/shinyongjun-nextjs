@@ -3,7 +3,7 @@ import { visit } from 'unist-util-visit';
 import { Node, Parent } from 'unist';
 import { getExtensionOfFilename } from '@/utils/file';
 
-type Image = {
+type TImage = {
   type: string;
   url: string;
   alt: string;
@@ -20,7 +20,7 @@ export const transformImgSrc = ({
     visit(tree, 'paragraph', (node: Parent) => {
       const image = node.children.find(
         (child: { type: string }) => child.type === 'image',
-      ) as Image | undefined;
+      ) as TImage | undefined;
 
       if (image === undefined) return;
 

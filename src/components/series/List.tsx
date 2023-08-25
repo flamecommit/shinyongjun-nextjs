@@ -3,12 +3,12 @@
 import styled from 'styled-components';
 import Link from 'next/link';
 import { HiOutlineHashtag } from '@react-icons/all-files/hi/HiOutlineHashtag';
-import { SeriesType } from '@/services/post';
 import { device } from '@/styles/mixin';
 import { config } from '@/styles/config';
+import { TSeries } from '@/types/post';
 
 interface Props {
-  series: SeriesType[];
+  series: TSeries[];
 }
 
 function SeriesList({ series }: Props) {

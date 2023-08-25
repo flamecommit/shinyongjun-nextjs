@@ -2,38 +2,20 @@ import path from 'path';
 import fs from 'fs';
 import { sync } from 'glob';
 import matter from 'gray-matter';
-import { MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { serialize } from 'next-mdx-remote/serialize';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeCodeTitles from 'rehype-code-titles';
 import remarkBreaks from 'remark-breaks';
 import { extractLastDirectory, mdxFilePath, transformImgSrc } from './mdx';
+import { IPost, TFrontMatter } from '@/types/post';
 
 const BASE_PATH = '/contents/posts';
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
 
-interface PostMatter {
-  title: string;
-  date: Date;
-  categories: string[];
-  series?: string;
-}
-
-export interface Post extends PostMatter {
-  slug: string;
-  mdx: MDXRemoteSerializeResult;
-}
-
-export interface SeriesType {
-  index: number;
-  series: string | undefined;
-  count: number;
-}
-
-const parsePost = async (postPath: string): Promise<Post> => {
+const parsePost = async (postPath: string): Promise<IPost> => {
   const file = fs.readFileSync(postPath, 'utf8');
   const { data, content } = matter(file);
-  const grayMatter = data as PostMatter;
+  const grayMatter = data as TFrontMatter;
   const mdxPath = mdxFilePath(postPath, BASE_PATH);
   const slug = extractLastDirectory(postPath);
 
@@ -55,7 +37,7 @@ const parsePost = async (postPath: string): Promise<Post> => {
   };
 };
 
-export const getPostList = async (): Promise<Post[]> => {
+export const getPostList = async (): Promise<IPost[]> => {
   const postPaths: string[] = sync(`${POSTS_PATH}/**/*.mdx`);
   const result = await Promise.all(
     postPaths.map((postPath) => {
@@ -63,7 +45,7 @@ export const getPostList = async (): Promise<Post[]> => {
     }),
   );
 
-  return result.sort((a: Post, b: Post) => {
+  return result.sort((a: IPost, b: IPost) => {
     const dateA = a.date;
     const dateB = b.date;
 
@@ -86,7 +68,7 @@ export const getPost = async (slug: string) => {
   };
 };
 
-function removeDuplicatesBySeries(arr: Array<Post>) {
+function removeDuplicatesBySeries(arr: Array<IPost>) {
   const seen = new Set();
   return arr.filter((item) => {
     const value = item.series;

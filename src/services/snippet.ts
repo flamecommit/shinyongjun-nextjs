@@ -24,12 +24,6 @@ export interface Snippet extends SnippetMatter {
   mdx: MDXRemoteSerializeResult;
 }
 
-export interface SeriesType {
-  index: number;
-  series: string | undefined;
-  count: number;
-}
-
 const parseSnippet = async (snippetPath: string): Promise<Snippet> => {
   const file = fs.readFileSync(snippetPath, 'utf8');
   const { data, content } = matter(file);
