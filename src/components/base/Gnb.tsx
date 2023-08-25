@@ -76,6 +76,12 @@ const StyledBaseGnb = styled.nav`
     &:hover {
       color: ${config.hoverText};
     }
+    &:hover {
+      color: ${config.hoverText};
+      .symbol {
+        filter: grayscale(0.5);
+      }
+    }
     &.active {
       font-weight: 700;
       color: ${config.hoverText};
