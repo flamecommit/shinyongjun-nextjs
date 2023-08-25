@@ -21,10 +21,10 @@ function BaseGnb() {
 
   return (
     <StyledBaseGnb>
-      <Link
-        className={`${(categoryName === 'post' || !categoryName) && 'active'}`}
-        href="/"
-      >
+      <Link className={`${!categoryName && 'active'}`} href="/">
+        <img src="/images/symbol.webp" alt="" className="symbol" />
+      </Link>
+      <Link className={`${categoryName === 'post' && 'active'}`} href="/post">
         Post
       </Link>
       <Link
@@ -64,9 +64,15 @@ function BaseGnb() {
 const StyledBaseGnb = styled.nav`
   display: flex;
   column-gap: 30px;
+  align-items: center;
   a {
     font-family: ${roboto.style.fontFamily};
     font-size: 18px;
+    .symbol {
+      width: 27px;
+      height: 27px;
+      filter: grayscale(1);
+    }
     &:hover {
       color: ${config.hoverText};
     }
@@ -76,6 +82,9 @@ const StyledBaseGnb = styled.nav`
       // color: #775da5;
       // color: #7d4e9f;
       // color: #8a3b8f;
+      .symbol {
+        filter: grayscale(0);
+      }
     }
   }
   @media ${device.mobile} {

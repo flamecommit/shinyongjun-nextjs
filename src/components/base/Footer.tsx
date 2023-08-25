@@ -7,7 +7,7 @@ function BaseFooter() {
   return (
     <StyledBaseFooter>
       <p className="copyright">
-        Copyright 2023. Shinyongjun All rights reserved.
+        Copyright 2023. Shinyongjun, Some rights reserved.
       </p>
     </StyledBaseFooter>
   );
@@ -35,7 +35,7 @@ const StyledBaseFooter = styled.footer`
   .copyright {
     font-family: ${roboto.style.fontFamily};
     font-size: 13px;
-    color: #000;
+    color: #666;
   }
 `;
 
