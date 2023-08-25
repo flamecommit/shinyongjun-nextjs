@@ -1,0 +1,120 @@
+---
+title: useQueryString hook
+description: React 환경에서 QueryString의 제어를 도와주는 훅입니다.
+date: 2023-08-25T16:49:00
+categories: ['react', 'typescript', 'url']
+---
+
+React 환경에서 QueryString의 참조와 제어를 도와주는 훅입니다.
+
+```ts
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
+import { useCallback, useMemo } from 'react';
+import { objectToQueryString } from '@/utils/object';
+
+interface IQueryParams {
+  [key: string]:
+    | string
+    | string[]
+    | number
+    | number[]
+    | boolean
+    | (string | number)[];
+}
+
+const useQueryString = () => {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const parseQuery = useCallback((): IQueryParams => {
+    const params: IQueryParams = {};
+
+    searchParams.forEach((initialValue, key) => {
+      const value = initialValue.toString();
+
+      if (params[key]) {
+        const already = (
+          Array.isArray(params[key]) ? params[key] : [params[key]]
+        ) as string[];
+
+        params[key] = Array.from(new Set([...already, value]));
+      } else {
+        params[key] = value;
+      }
+    });
+
+    return params;
+  }, [searchParams]);
+
+  const query = useMemo(() => parseQuery(), [parseQuery]);
+
+  const pushQuery = (params: IQueryParams) => {
+    const queryString = objectToQueryString(params);
+    router.push(`${pathname}${queryString}`);
+  };
+
+  return {
+    query,
+    pushQuery,
+  };
+};
+
+export default useQueryString;
+```
+
+`objectToQueryString` 함수는 <Link href="/snippet/5">이 글</Link>을 참고하시기 바랍니다.
+
+use
+
+```ts
+import useQueryString from '@/hooks/useQueryString';
+
+function BoardPagination() {
+  const { query, pushQuery } = useQueryString();
+
+  return (
+    <div>
+      <button type="button" onClick={() => pushQuery({ ...query, page: 1 })}>
+        1 페이지
+      </button>
+      <button type="button" onClick={() => pushQuery({ ...query, page: 2 })}>
+        2 페이지
+      </button>
+    </div>
+  );
+}
+
+export default BoardPagination;
+```
+
+배열 parameter도 지원합니다.
+
+```ts
+import { useEffect } from 'react';
+import useQueryString from '@/hooks/useQueryString';
+
+function BoardPagination() {
+  const { query, pushQuery } = useQueryString();
+
+  const handleClick = () => {
+    pushQuery({
+      page: 1,
+      categoryIds: [101, 102, 103],
+    });
+    // result : /path?page=1&categoryIds=101&categoryIds=102&categoryIds=103
+  };
+
+  return (
+    <div>
+      <button type="button" onClick={handleClick}>
+        Button
+      </button>
+    </div>
+  );
+}
+
+export default BoardPagination;
+```
+
+end.

@@ -12,6 +12,7 @@ import CategoryItem from '../category/Item';
 import { config } from '@/styles/config';
 import { ISnippet } from '@/types/snippet';
 import { TGallery } from '@/types/gallery';
+import Link from 'next/link';
 
 interface Props {
   snippetData: ISnippet;
@@ -65,7 +66,7 @@ function SnippetViewer({ snippetData }: Props) {
           </div>
         </header>
         <div className="snippet-content" ref={contents}>
-          <MDXRemote {...snippetData.mdx} />
+          <MDXRemote {...snippetData.mdx} components={{ Link }} />
         </div>
       </StyledSnippetViewer>
       {isGallery && (
