@@ -20,7 +20,7 @@ function AuthorProfile({ postDetail }: Props) {
         <img src="/images/author-avatar.jpg" alt="숲길에서 찍은 사진" />
       </div>
       <div className="names-container">
-        <Link className="name" href="/about" data-category={categoryName}>
+        <Link className="name" href="/" data-category={categoryName}>
           신용준
         </Link>
         <div className="bio">{process.env.BIO}</div>
