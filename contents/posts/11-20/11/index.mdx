@@ -25,6 +25,7 @@ categories: ['next.js']
  ㄴ /services
  ㄴ /stores
  ㄴ /styles
+ ㄴ /types
  ㄴ /utils
 ```
 
@@ -129,6 +130,37 @@ redux 파일들을 관리하는 폴더입니다.
 ### `styles`
 
 style 파일들을 관리하는 폴더입니다.
+
+### `types`
+
+type과 interface를 관리하는 폴더입니다.
+type 이름은 `T`, interface 이름은 `I` 로 시작합니다.
+
+```ts
+export type TCompany = {
+  name: string;
+  join: [number, number];
+  leave: [number, number];
+  size?: number;
+};
+
+export type TProject = {
+  name: string;
+  started: [number, number];
+  ended: [number, number];
+  size?: number;
+};
+
+export interface IHistory {
+  index: number;
+  key: string;
+  year: number;
+  yearSize: number;
+  month: number;
+  company?: TCompany | undefined;
+  project?: TProject | undefined;
+}
+```
 
 ### `utils`
 
