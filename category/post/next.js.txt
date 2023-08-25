@@ -1,18 +1,346 @@
 1:HL["/_next/static/css/52f87e6b0f7ae474.css",{"as":"style"}]
 2:HL["/_next/static/css/0140179f5997954c.css",{"as":"style"}]
-0:["zWSUNIEgXf-nooMmVij11",[[["",{"children":["category",{"children":[["board","post","d"],{"children":[["slug","next.js","d"],{"children":["__PAGE__?{\"board\":\"post\",\"slug\":\"next.js\"}",{}]}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
-5:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-0f1d8f4c78774e0b.js"],"name":"","async":false}
-6:I{"id":5681,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-0f1d8f4c78774e0b.js"],"name":"","async":false}
-7:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-0f1d8f4c78774e0b.js"],"name":"","async":false}
-8:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-0f1d8f4c78774e0b.js"],"name":"","async":false}
+0:["lZ66_Zt7QGc5Pst2QKIdZ",[[["",{"children":["category",{"children":[["board","post","d"],{"children":[["slug","next.js","d"],{"children":["__PAGE__?{\"board\":\"post\",\"slug\":\"next.js\"}",{}]}]}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
+5:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-089d4e5e17887569.js"],"name":"","async":false}
+6:I{"id":5681,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-089d4e5e17887569.js"],"name":"","async":false}
+7:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-089d4e5e17887569.js"],"name":"","async":false}
+8:I{"id":7773,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-089d4e5e17887569.js"],"name":"","async":false}
 9:I{"id":7767,"chunks":["272:static/chunks/webpack-bbc5afedef9bf366.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 a:I{"id":7920,"chunks":["272:static/chunks/webpack-bbc5afedef9bf366.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 3:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L5",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L5",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]]]}],["$","body",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","category","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","category","children",["board","post","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","category","children",["board","post","d"],"children",["slug","next.js","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$Lb",null],"segment":"__PAGE__?{\"board\":\"post\",\"slug\":\"next.js\"}"},"styles":[]}],"segment":["slug","next.js","d"]},"styles":[]}],"segment":["board","post","d"]},"styles":[]}],"segment":"category"},"styles":[]}]}]}]}]}]]}],null]
 4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"PostCategory - next.js"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"신용준 | Tech & Music Archive"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"신용준 | Tech & Music Archive"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
-c:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","181:static/chunks/app/category/[board]/[slug]/page-68a249564313a2bf.js"],"name":"","async":false}
-d:I{"id":6529,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","181:static/chunks/app/category/[board]/[slug]/page-68a249564313a2bf.js"],"name":"","async":false}
-e:I{"id":7493,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","181:static/chunks/app/category/[board]/[slug]/page-68a249564313a2bf.js"],"name":"","async":false}
-f:T1f26,/*@jsxRuntime automatic @jsxImportSource react*/
+c:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","181:static/chunks/app/category/[board]/[slug]/page-7e9fd90ebed0f8df.js"],"name":"","async":false}
+d:I{"id":6529,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","181:static/chunks/app/category/[board]/[slug]/page-7e9fd90ebed0f8df.js"],"name":"","async":false}
+e:I{"id":7493,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","181:static/chunks/app/category/[board]/[slug]/page-7e9fd90ebed0f8df.js"],"name":"","async":false}
+f:T36eb,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    p: "p",
+    br: "br",
+    code: "code",
+    h2: "h2",
+    pre: "pre",
+    h3: "h3",
+    ul: "ul",
+    li: "li",
+    div: "div",
+    span: "span"
+  }, _provideComponents(), props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsxs(_components.p, {
+      children: ["확장성 높은 개발을 위해선 일관성있는 구성과 규칙이 중요합니다.", _jsx(_components.br, {}), "\n", "이 글에선 ", _jsx(_components.code, {
+        children: "next.js"
+      }), " 개발을 보다 체계적으로 하기 위한 제 나름대로의 규칙들을 정리해보고자 합니다."]
+    }), "\n", _jsx(_components.h2, {
+      children: "폴더 구성"
+    }), "\n", _jsxs(_components.p, {
+      children: ["우선 폴더 구성부터 살펴보도록 하겠습니다. 참고로 저는 13버전의 ", _jsx(_components.code, {
+        children: "app directory"
+      }), " 방식을 채택했습니다."]
+    }), "\n", _jsx(_components.pre, {
+      children: _jsx(_components.code, {
+        className: "",
+        children: "/public\r\n ㄴ /icons\r\n ㄴ /images\r\n ㄴ /fonts\r\n\r\n/src\r\n ㄴ /app\r\n ㄴ /components\r\n ㄴ /constants\r\n ㄴ /hooks\r\n ㄴ /services\r\n ㄴ /stores\r\n ㄴ /styles\r\n ㄴ /utils\n"
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: _jsx(_components.code, {
+        children: "public"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["public 폴더는 next.js 에서 제공하는 기본 폴더입니다.", _jsx(_components.br, {}), "\n", "favicon, img, font 등의 정적 파일들을 위치시킵니다."]
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "icons"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["웹사이트 전반에 걸쳐 재사용 가능성이 높은 아이콘 이미지들을 모아둡니다.", _jsx(_components.br, {}), "\n", "작업자가 여러명일 중복 작업 확률을 낮추기 위해 별도 폴더를 생성했습니다."]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "svg"
+        }), " 파일 확장을 지향한다."]
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "images"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "앱에서 사용하는 이미지 파일 모음 폴더입니다."
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "webp"
+        }), " 파일 확장을 지향한다."]
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "fonts"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "로컬 폰트를 사용할 경우 폰트파일이 위치할 폴더입니다."
+    }), "\n", _jsx(_components.h2, {
+      children: _jsx(_components.code, {
+        children: "src"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["프로그램 파일들을 모아놓는 선택적 기본 폴더입니다.", _jsx(_components.br, {}), "\n", "next.js 앱을 생성할때 사용여부를 선택할 수 있습니다."]
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "app"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["next.js 13버전에서 추가된 폴더입니다. 기존 ", _jsx(_components.code, {
+        children: "pages"
+      }), " 폴더가 하던 auto routing 을 지원합니다. (", _jsx(_components.code, {
+        children: "pages"
+      }), " 폴더도 여전히 지원합니다.)"]
+    }), "\n", _jsx(_components.p, {
+      children: "아래는 제가 정한 app폴더 내부 규칙입니다."
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "server component"
+        }), " 만 사용한다."]
+      }), "\n", _jsx(_components.li, {
+        children: "기본 제공하는 컴포넌트만 사용한다. (page, layout, loading 등)"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "components"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["대부분의 응용 프로그램 컴포넌트가 위치한 폴더입니다.", _jsx(_components.br, {}), "\n", "내부 구조는 그때그때 상황에 맞춰 수정, 추가 하며 기본적인 폴더만 미리 정의해보았습니다."]
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "base"
+        }), " : Header, Footer, Container 등 레이아웃 컴포넌트"]
+      }), "\n", _jsxs(_components.li, {
+        children: [_jsx(_components.code, {
+          children: "config"
+        }), " : SEO, Metadata, Google Analytics, Google Fonts 등 앱 전반에 영향을 주는 설정 컴포넌트"]
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "constants"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "전역 상수 모음 폴더입니다."
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "상수명은 영문 대문자, 숫자, 언더바 조합으로 정의한다."
+      }), "\n", _jsx(_components.li, {
+        children: "상수명의 제일 앞글자는 영문 대문자만 올 수 있다."
+      }), "\n"]
+    }), "\n", _jsx(_components.div, {
+      className: "rehype-code-title",
+      children: "/src/constants/some.ts"
+    }), _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-ts",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-variable constant_",
+          children: "SOME_NAME"
+        }), " = ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'a'"
+        }), ";\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-variable constant_",
+          children: "SOME_NAME_99"
+        }), " = ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "99"
+        }), ";\n"]
+      })
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "hooks"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["사용자 지정 hook(Custom hook) 모음 폴더입니다.", _jsx(_components.br, {}), "\n", "파일명은 함수명과 일치시킵니다.", _jsx(_components.br, {}), "\n", "아래는 mouse 클릭 여부를 판별하는 hook 코드입니다."]
+    }), "\n", _jsx(_components.div, {
+      className: "rehype-code-title",
+      children: "/src/hook/useMousePressed.ts"
+    }), _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-ts",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { useState, useEffect } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'react'"
+        }), ";\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "default"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "function"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "useMousePressed"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-params"
+        }), ") {\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " [mousePressed, setMousePressed] = ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "useState"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-literal",
+          children: "false"
+        }), ");\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "function"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "handleMouseDown"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-params"
+        }), ") {\r\n    ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "setMousePressed"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-literal",
+          children: "true"
+        }), ");\r\n  }\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "function"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "handleMouseUp"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-params"
+        }), ") {\r\n    ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "setMousePressed"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-literal",
+          children: "false"
+        }), ");\r\n  }\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "useEffect"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-function",
+          children: "() =>"
+        }), " {\r\n    ", _jsx(_components.span, {
+          className: "hljs-variable language_",
+          children: "window"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "addEventListener"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'mousedown'"
+        }), ", handleMouseDown);\r\n    ", _jsx(_components.span, {
+          className: "hljs-variable language_",
+          children: "window"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "addEventListener"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'mouseup'"
+        }), ", handleMouseUp);\r\n\r\n    ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "return"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "function"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "cleanup"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-params"
+        }), ") {\r\n      ", _jsx(_components.span, {
+          className: "hljs-variable language_",
+          children: "window"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "removeEventListener"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'mousedown'"
+        }), ", handleMouseDown);\r\n      ", _jsx(_components.span, {
+          className: "hljs-variable language_",
+          children: "window"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "removeEventListener"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'mouseup'"
+        }), ", handleMouseUp);\r\n    };\r\n  }, []);\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "return"
+        }), " mousePressed;\r\n}\n"]
+      })
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "services"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "서버에서 내려받은 데이터를 UI 컴포넌트에 넘기기 전 가공하는 함수들을 관리합니다."
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "stores"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "redux 파일들을 관리하는 폴더입니다."
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "styles"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "style 파일들을 관리하는 폴더입니다."
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "utils"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["순수 함수들을 모아놓은 폴더입니다.", _jsx(_components.br, {}), "\n", "파일명은 ", _jsx(_components.code, {
+        children: "array.ts"
+      }), ", ", _jsx(_components.code, {
+        children: "file.ts"
+      }), ", ", _jsx(_components.code, {
+        children: "string.ts"
+      }), " 과 같이 인자의 타입과 통일합니다."]
+    }), "\n", _jsx(_components.p, {
+      children: "end."
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+10:T1f26,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -184,7 +512,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-10:T171e9,/*@jsxRuntime automatic @jsxImportSource react*/
+11:T171e9,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -734,7 +1062,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-11:Tc9be7,/*@jsxRuntime automatic @jsxImportSource react*/
+12:Tc9be7,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1673,7 +2001,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-12:T1d858,/*@jsxRuntime automatic @jsxImportSource react*/
+13:T1d858,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -2548,7 +2876,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-13:T11b30,/*@jsxRuntime automatic @jsxImportSource react*/
+14:T11b30,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -3221,7 +3549,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-14:T6e590,/*@jsxRuntime automatic @jsxImportSource react*/
+15:T6e590,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -3564,7 +3892,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-15:T1c49c,/*@jsxRuntime automatic @jsxImportSource react*/
+16:T1c49c,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -4320,7 +4648,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-16:T3ed40,/*@jsxRuntime automatic @jsxImportSource react*/
+17:T3ed40,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -4652,7 +4980,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-17:T80f,/*@jsxRuntime automatic @jsxImportSource react*/
+18:T80f,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -4698,4 +5026,4 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-b:[["$","$Lc",null,{"children":["Post","Category - ","next.js"]}],["$","$Ld",null,{"board":"post","categories":["next.js","blog","github","mdx","deploy","styled-components","css"]}],["$","$Le",null,{"postList":[{"title":"Github Pages 블로그 구축시 알아두면 좋은것들","date":"$D2023-08-21T09:41:00.000Z","categories":["next.js","blog","github"],"slug":"10","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"7. Next.js 블로그 상세페이지에 상대경로 이미지 넣기","date":"$D2023-08-17T11:31:00.000Z","categories":["next.js","mdx","blog"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"9","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}},{"title":"6. Next.js 블로그 포스팅 상세페이지 만들기","date":"$D2023-08-15T05:09:00.000Z","categories":["next.js","mdx","blog"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"8","mdx":{"compiledSource":"$11","frontmatter":{},"scope":{}}},{"title":"5. Next.js 블로그 포스팅 목록 만들기","date":"$D2023-08-14T15:16:00.000Z","categories":["next.js","mdx","blog"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"7","mdx":{"compiledSource":"$12","frontmatter":{},"scope":{}}},{"title":"4. Layout 구성요소 생성 및 적용하기","date":"$D2023-08-14T07:03:00.000Z","categories":["next.js"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"6","mdx":{"compiledSource":"$13","frontmatter":{},"scope":{}}},{"title":"3. Github Actions 를 사용하여 Next.js 앱 배포하기 (feat. Github Pages)","date":"$D2023-08-13T18:00:00.000Z","categories":["next.js","github","deploy"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"5","mdx":{"compiledSource":"$14","frontmatter":{},"scope":{}}},{"title":"2. Next.js 앱에 styled-components 적용하기","date":"$D2023-08-13T16:47:00.000Z","categories":["next.js","styled-components"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"4","mdx":{"compiledSource":"$15","frontmatter":{},"scope":{}}},{"title":"1. Next.js 앱, Github Repository 생성","date":"$D2023-08-13T09:00:00.000Z","categories":["next.js","github","blog","mdx"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"3","mdx":{"compiledSource":"$16","frontmatter":{},"scope":{}}},{"title":"블로그 리뉴얼 (by Next.js 13)","date":"$D2023-08-11T09:00:00.000Z","categories":["next.js"],"slug":"1","mdx":{"compiledSource":"$17","frontmatter":{},"scope":{}}}]}],false]
+b:[["$","$Lc",null,{"children":["Post","Category - ","next.js"]}],["$","$Ld",null,{"board":"post","categories":["next.js","blog","github","mdx","deploy","styled-components","css"]}],["$","$Le",null,{"postList":[{"title":"Next.js 프로젝트 폴더 구성 과 개발 규칙","date":"$D2023-08-25T11:09:00.000Z","categories":["next.js"],"slug":"11","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"Github Pages 블로그 구축시 알아두면 좋은것들","date":"$D2023-08-21T09:41:00.000Z","categories":["next.js","blog","github"],"slug":"10","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}},{"title":"7. Next.js 블로그 상세페이지에 상대경로 이미지 넣기","date":"$D2023-08-17T11:31:00.000Z","categories":["next.js","mdx","blog"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"9","mdx":{"compiledSource":"$11","frontmatter":{},"scope":{}}},{"title":"6. Next.js 블로그 포스팅 상세페이지 만들기","date":"$D2023-08-15T05:09:00.000Z","categories":["next.js","mdx","blog"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"8","mdx":{"compiledSource":"$12","frontmatter":{},"scope":{}}},{"title":"5. Next.js 블로그 포스팅 목록 만들기","date":"$D2023-08-14T15:16:00.000Z","categories":["next.js","mdx","blog"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"7","mdx":{"compiledSource":"$13","frontmatter":{},"scope":{}}},{"title":"4. Layout 구성요소 생성 및 적용하기","date":"$D2023-08-14T07:03:00.000Z","categories":["next.js"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"6","mdx":{"compiledSource":"$14","frontmatter":{},"scope":{}}},{"title":"3. Github Actions 를 사용하여 Next.js 앱 배포하기 (feat. Github Pages)","date":"$D2023-08-13T18:00:00.000Z","categories":["next.js","github","deploy"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"5","mdx":{"compiledSource":"$15","frontmatter":{},"scope":{}}},{"title":"2. Next.js 앱에 styled-components 적용하기","date":"$D2023-08-13T16:47:00.000Z","categories":["next.js","styled-components"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"4","mdx":{"compiledSource":"$16","frontmatter":{},"scope":{}}},{"title":"1. Next.js 앱, Github Repository 생성","date":"$D2023-08-13T09:00:00.000Z","categories":["next.js","github","blog","mdx"],"series":"Next.js 로 Github Page 블로그 만들기","slug":"3","mdx":{"compiledSource":"$17","frontmatter":{},"scope":{}}},{"title":"블로그 리뉴얼 (by Next.js 13)","date":"$D2023-08-11T09:00:00.000Z","categories":["next.js"],"slug":"1","mdx":{"compiledSource":"$18","frontmatter":{},"scope":{}}}]}],false]
