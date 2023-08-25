@@ -1,6 +1,6 @@
 1:HL["/_next/static/css/52f87e6b0f7ae474.css",{"as":"style"}]
 2:HL["/_next/static/css/0140179f5997954c.css",{"as":"style"}]
-0:["UoyBaWW_9B3KeZe45ffz-",[[["",{"children":["snippet",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
+0:["LQDDNXXn1w0QSNxcw_VO_",[[["",{"children":["snippet",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L3",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/52f87e6b0f7ae474.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/0140179f5997954c.css","precedence":"next"}]],"$L4"]]]]
 5:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-59a6293e8c8ecd5f.js"],"name":"","async":false}
 6:I{"id":5681,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-59a6293e8c8ecd5f.js"],"name":"","async":false}
 7:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","198:static/chunks/198-e5e94c14e0e9d11e.js","783:static/chunks/783-9ba320bbb751e4be.js","185:static/chunks/app/layout-59a6293e8c8ecd5f.js"],"name":"","async":false}
@@ -11,18 +11,496 @@ a:I{"id":7920,"chunks":["272:static/chunks/webpack-3391474f67f9d332.js","971:sta
 4:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"신용준 | Tech & Music Archive"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"신용준 | Tech & Music Archive"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"신용준 | Tech & Music Archive"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
 c:I{"id":6680,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","249:static/chunks/app/snippet/page-65577f1d50873eb0.js"],"name":"","async":false}
 d:I{"id":3839,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","249:static/chunks/app/snippet/page-65577f1d50873eb0.js"],"name":"","async":false}
-e:T2f60,/*@jsxRuntime automatic @jsxImportSource react*/
+e:T4a82,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
   const _components = Object.assign({
+    p: "p",
     pre: "pre",
     code: "code",
-    span: "span",
-    p: "p"
+    span: "span"
+  }, _provideComponents(), props.components), {Link} = _components;
+  if (!Link) _missingMdxReference("Link", true);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.p, {
+      children: "React 환경에서 QueryString의 참조와 제어를 도와주는 훅입니다."
+    }), "\n", _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-ts",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { usePathname, useRouter, useSearchParams } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'next/navigation'"
+        }), ";\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { useCallback, useMemo } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'react'"
+        }), ";\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { objectToQueryString } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'@/utils/object'"
+        }), ";\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "interface"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "IQueryParams"
+        }), " {\r\n  [", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "key"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "string"
+        }), "]:\r\n    | ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "string"
+        }), "\r\n    | ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "string"
+        }), "[]\r\n    | ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "number"
+        }), "\r\n    | ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "number"
+        }), "[]\r\n    | ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "boolean"
+        }), "\r\n    | (", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "string"
+        }), " | ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "number"
+        }), ")[];\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "useQueryString"
+        }), " = (", _jsx(_components.span, {
+          className: "hljs-params"
+        }), ") => {\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " router = ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "useRouter"
+        }), "();\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " pathname = ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "usePathname"
+        }), "();\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " searchParams = ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "useSearchParams"
+        }), "();\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " parseQuery = ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "useCallback"
+        }), "((): ", _jsxs(_components.span, {
+          className: "hljs-function",
+          children: [_jsx(_components.span, {
+            className: "hljs-params",
+            children: "IQueryParams"
+          }), " =>"]
+        }), " {\r\n    ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "params"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "IQueryParams"
+        }), " = {};\r\n\r\n    searchParams.", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "forEach"
+        }), "(", _jsxs(_components.span, {
+          className: "hljs-function",
+          children: ["(", _jsx(_components.span, {
+            className: "hljs-params",
+            children: "initialValue, key"
+          }), ") =>"]
+        }), " {\r\n      ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " value = initialValue.", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "toString"
+        }), "();\r\n\r\n      ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "if"
+        }), " (params[key]) {\r\n        ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " already = (\r\n          ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "Array"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "isArray"
+        }), "(params[key]) ? params[key] : [params[key]]\r\n        ) ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "as"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "string"
+        }), "[];\r\n\r\n        params[key] = ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "Array"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "from"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "new"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "Set"
+        }), "([...already, value]));\r\n      } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "else"
+        }), " {\r\n        params[key] = value;\r\n      }\r\n    });\r\n\r\n    ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "return"
+        }), " params;\r\n  }, [searchParams]);\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " query = ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "useMemo"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-function",
+          children: "() =>"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "parseQuery"
+        }), "(), [parseQuery]);\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "pushQuery"
+        }), " = (", _jsx(_components.span, {
+          className: "hljs-params",
+          children: "params: IQueryParams"
+        }), ") => {\r\n    ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " queryString = ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "objectToQueryString"
+        }), "(params);\r\n    router.", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "push"
+        }), "(", _jsxs(_components.span, {
+          className: "hljs-string",
+          children: ["`", _jsx(_components.span, {
+            className: "hljs-subst",
+            children: "${pathname}"
+          }), _jsx(_components.span, {
+            className: "hljs-subst",
+            children: "${queryString}"
+          }), "`"]
+        }), ");\r\n  };\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "return"
+        }), " {\r\n    query,\r\n    pushQuery,\r\n  };\r\n};\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "default"
+        }), " useQueryString;\n"]
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.code, {
+        children: "objectToQueryString"
+      }), " 함수는 ", _jsx(Link, {
+        href: "/snippet/5",
+        children: "이 글"
+      }), "을 참고하시기 바랍니다."]
+    }), "\n", _jsx(_components.p, {
+      children: "use"
+    }), "\n", _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-ts",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " useQueryString ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'@/hooks/useQueryString'"
+        }), ";\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "function"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "BoardPagination"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-params"
+        }), ") {\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " { query, pushQuery } = ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "useQueryString"
+        }), "();\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "return"
+        }), " (\r\n    ", _jsxs(_components.span, {
+          className: "xml",
+          children: [_jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "button"
+            }), " ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "type"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "\"button\""
+            }), " ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "onClick"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{()"
+            }), " =>"]
+          }), " pushQuery({ ...query, page: 1 })}>\r\n        1 페이지\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "button"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "button"
+            }), " ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "type"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "\"button\""
+            }), " ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "onClick"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{()"
+            }), " =>"]
+          }), " pushQuery({ ...query, page: 2 })}>\r\n        2 페이지\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "button"
+            }), ">"]
+          }), "\r\n    ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          })]
+        }), "\r\n  );\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "default"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "BoardPagination"
+        }), ";\n"]
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "배열 parameter도 지원합니다."
+    }), "\n", _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-ts",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { useEffect } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'react'"
+        }), ";\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " useQueryString ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'@/hooks/useQueryString'"
+        }), ";\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "function"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "BoardPagination"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-params"
+        }), ") {\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " { query, pushQuery } = ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "useQueryString"
+        }), "();\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "handleClick"
+        }), " = (", _jsx(_components.span, {
+          className: "hljs-params"
+        }), ") => {\r\n    ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "pushQuery"
+        }), "({\r\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "page"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "1"
+        }), ",\r\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "categoryIds"
+        }), ": [", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "101"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "102"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "103"
+        }), "],\r\n    });\r\n    ", _jsx(_components.span, {
+          className: "hljs-comment",
+          children: "// result : /path?page=1&categoryIds=101&categoryIds=102&categoryIds=103"
+        }), "\r\n  };\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "return"
+        }), " (\r\n    ", _jsxs(_components.span, {
+          className: "xml",
+          children: [_jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "button"
+            }), " ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "type"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "\"button\""
+            }), " ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "onClick"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{handleClick}"
+            }), ">"]
+          }), "\r\n        Button\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "button"
+            }), ">"]
+          }), "\r\n    ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          })]
+        }), "\r\n  );\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "default"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "BoardPagination"
+        }), ";\n"]
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "end."
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+f:T2c64,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    p: "p",
+    pre: "pre",
+    code: "code",
+    span: "span"
   }, _provideComponents(), props.components);
   return _jsxs(_Fragment, {
-    children: [_jsx(_components.pre, {
+    children: [_jsx(_components.p, {
+      children: "GET, DELETE 요청시 유용하게 쓰입니다."
+    }), "\n", _jsx(_components.pre, {
       children: _jsxs(_components.code, {
         className: "hljs language-ts",
         children: [_jsx(_components.span, {
@@ -211,31 +689,23 @@ function _createMdxContent(props) {
         }), " : ", _jsx(_components.span, {
           className: "hljs-string",
           children: "''"
-        }), ";\r\n};\r\n\r\n", _jsx(_components.span, {
-          className: "hljs-comment",
-          children: "// result"
-        }), "\r\n", _jsx(_components.span, {
-          className: "hljs-variable language_",
-          children: "console"
-        }), ".", _jsx(_components.span, {
-          className: "hljs-title function_",
-          children: "log"
-        }), "(", _jsx(_components.span, {
+        }), ";\r\n};\n"]
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "result"
+    }), "\n", _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-ts",
+        children: [_jsx(_components.span, {
           className: "hljs-title function_",
           children: "objectToQueryString"
         }), "(", _jsx(_components.span, {
           className: "hljs-literal",
           children: "undefined"
-        }), ")); ", _jsx(_components.span, {
+        }), "); ", _jsx(_components.span, {
           className: "hljs-comment",
           children: "//"
         }), "\r\n", _jsx(_components.span, {
-          className: "hljs-variable language_",
-          children: "console"
-        }), ".", _jsx(_components.span, {
-          className: "hljs-title function_",
-          children: "log"
-        }), "(", _jsx(_components.span, {
           className: "hljs-title function_",
           children: "objectToQueryString"
         }), "({ ", _jsx(_components.span, {
@@ -244,16 +714,10 @@ function _createMdxContent(props) {
         }), ": ", _jsx(_components.span, {
           className: "hljs-number",
           children: "1"
-        }), " })); ", _jsx(_components.span, {
+        }), " }); ", _jsx(_components.span, {
           className: "hljs-comment",
           children: "// ?page=1"
         }), "\r\n", _jsx(_components.span, {
-          className: "hljs-variable language_",
-          children: "console"
-        }), ".", _jsx(_components.span, {
-          className: "hljs-title function_",
-          children: "log"
-        }), "(", _jsx(_components.span, {
           className: "hljs-title function_",
           children: "objectToQueryString"
         }), "({ ", _jsx(_components.span, {
@@ -268,31 +732,25 @@ function _createMdxContent(props) {
         }), ": ", _jsx(_components.span, {
           className: "hljs-string",
           children: "'Title'"
-        }), " })); ", _jsx(_components.span, {
+        }), " }); ", _jsx(_components.span, {
           className: "hljs-comment",
           children: "// ?page=1&searchType=Title"
         }), "\r\n", _jsx(_components.span, {
-          className: "hljs-variable language_",
-          children: "console"
-        }), ".", _jsx(_components.span, {
-          className: "hljs-title function_",
-          children: "log"
-        }), "(\r\n  ", _jsx(_components.span, {
           className: "hljs-title function_",
           children: "objectToQueryString"
-        }), "({\r\n    ", _jsx(_components.span, {
+        }), "({\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "page"
         }), ": ", _jsx(_components.span, {
           className: "hljs-number",
           children: "1"
-        }), ",\r\n    ", _jsx(_components.span, {
+        }), ",\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "searchType"
         }), ": ", _jsx(_components.span, {
           className: "hljs-string",
           children: "'Title'"
-        }), ",\r\n    ", _jsx(_components.span, {
+        }), ",\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
           children: "categoryIds"
         }), ": [", _jsx(_components.span, {
@@ -307,7 +765,7 @@ function _createMdxContent(props) {
         }), ", ", _jsx(_components.span, {
           className: "hljs-number",
           children: "104"
-        }), "],\r\n  }),\r\n); ", _jsx(_components.span, {
+        }), "],\r\n}); ", _jsx(_components.span, {
           className: "hljs-comment",
           children: "// ?page=1&searchType=Title&categoryIds=101&categoryIds=102&categoryIds=103&categoryIds=104"
         }), "\n"]
@@ -326,18 +784,20 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-f:T18bf,/*@jsxRuntime automatic @jsxImportSource react*/
+10:T1947,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
   const _components = Object.assign({
+    p: "p",
     pre: "pre",
     code: "code",
-    span: "span",
-    p: "p"
+    span: "span"
   }, _provideComponents(), props.components);
   return _jsxs(_Fragment, {
-    children: [_jsx(_components.pre, {
+    children: [_jsx(_components.p, {
+      children: "3자리 마다 콤마(,) 추가하는 함수입니다. (유리수, 음수 지원)"
+    }), "\n", _jsx(_components.pre, {
       children: _jsxs(_components.code, {
         className: "hljs language-ts",
         children: [_jsx(_components.span, {
@@ -494,18 +954,20 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-10:Ta68,/*@jsxRuntime automatic @jsxImportSource react*/
+11:Tafa,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
   const _components = Object.assign({
+    p: "p",
     pre: "pre",
     code: "code",
-    span: "span",
-    p: "p"
+    span: "span"
   }, _provideComponents(), props.components);
   return _jsxs(_Fragment, {
-    children: [_jsx(_components.pre, {
+    children: [_jsx(_components.p, {
+      children: "문자열의 첫 글자를 알파벳 대문자로 바꿔주는 typescript 함수 입니다."
+    }), "\n", _jsx(_components.pre, {
       children: _jsxs(_components.code, {
         className: "hljs language-ts",
         children: [_jsx(_components.span, {
@@ -569,19 +1031,21 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-11:T2a47,/*@jsxRuntime automatic @jsxImportSource react*/
+12:T2ac3,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
   const _components = Object.assign({
+    p: "p",
     div: "div",
     pre: "pre",
     code: "code",
-    span: "span",
-    p: "p"
+    span: "span"
   }, _provideComponents(), props.components);
   return _jsxs(_Fragment, {
-    children: [_jsx(_components.div, {
+    children: [_jsx(_components.p, {
+      children: "element의 scroll 변화를 감지하는 React Hook 코드 입니다."
+    }), "\n", _jsx(_components.div, {
       className: "rehype-code-title",
       children: "/src/hooks/useElementScroll.ts"
     }), _jsx(_components.pre, {
@@ -836,19 +1300,21 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-12:T24cf,/*@jsxRuntime automatic @jsxImportSource react*/
+13:T254d,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
   const _components = Object.assign({
+    p: "p",
     div: "div",
     pre: "pre",
     code: "code",
-    span: "span",
-    p: "p"
+    span: "span"
   }, _provideComponents(), props.components);
   return _jsxs(_Fragment, {
-    children: [_jsx(_components.div, {
+    children: [_jsx(_components.p, {
+      children: "window size를 사용할 수 있게 하는 React Hook 코드 입니다."
+    }), "\n", _jsx(_components.div, {
       className: "rehype-code-title",
       children: "/src/hooks/useWindowSize.ts"
     }), _jsx(_components.pre, {
@@ -1081,4 +1547,4 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-b:[["$","$Lc",null,{"children":"Snippet"}],["$","$Ld",null,{"snippetList":[{"title":"객체(Object)를 받아서 QueryString을 반환하는 함수","description":"GET, DELETE 요청시 유용하게 쓰입니다.","date":"$D2023-08-25T15:03:00.000Z","categories":["typescript","object","string"],"slug":"5","mdx":{"compiledSource":"$e","frontmatter":{},"scope":{}}},{"title":"3자리 마다 콤마(,) 추가하는 함수 (유리수, 음수 지원)","description":"3자리 마다 콤마(,) 추가하는 함수입니다. (유리수, 음수 지원)","date":"$D2023-08-24T15:25:00.000Z","categories":["typescript","number"],"slug":"4","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"첫 글자를 알파벳 대문자로 바꿔주는 함수","description":"문자열의 첫 글자를 알파벳 대문자로 바꿔주는 typescript 함수 입니다.","date":"$D2023-08-24T13:36:00.000Z","categories":["typescript","string"],"slug":"3","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}},{"title":"useElementScroll hooks","description":"element의 scroll 변화를 감지하는 React Hook 코드 입니다.","date":"$D2023-08-23T17:25:00.000Z","categories":["react"],"slug":"2","mdx":{"compiledSource":"$11","frontmatter":{},"scope":{}}},{"title":"useWindowSize hooks","description":"window size를 사용할 수 있게 하는 React Hook 코드 입니다.","date":"$D2023-08-23T15:51:00.000Z","categories":["react"],"slug":"1","mdx":{"compiledSource":"$12","frontmatter":{},"scope":{}}}]}]]
+b:[["$","$Lc",null,{"children":"Snippet"}],["$","$Ld",null,{"snippetList":[{"title":"useQueryString hook","description":"React 환경에서 QueryString의 제어를 도와주는 훅입니다.","date":"$D2023-08-25T16:49:00.000Z","categories":["react","typescript","url"],"slug":"6","mdx":{"compiledSource":"$e","frontmatter":{},"scope":{}}},{"title":"객체(Object)를 받아서 QueryString을 반환하는 함수","description":"GET, DELETE 요청시 유용하게 쓰입니다.","date":"$D2023-08-25T15:03:00.000Z","categories":["typescript","object","string"],"slug":"5","mdx":{"compiledSource":"$f","frontmatter":{},"scope":{}}},{"title":"3자리 마다 콤마(,) 추가하는 함수 (유리수, 음수 지원)","description":"3자리 마다 콤마(,) 추가하는 함수입니다. (유리수, 음수 지원)","date":"$D2023-08-24T15:25:00.000Z","categories":["typescript","number"],"slug":"4","mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}},{"title":"첫 글자를 알파벳 대문자로 바꿔주는 함수","description":"문자열의 첫 글자를 알파벳 대문자로 바꿔주는 typescript 함수 입니다.","date":"$D2023-08-24T13:36:00.000Z","categories":["typescript","string"],"slug":"3","mdx":{"compiledSource":"$11","frontmatter":{},"scope":{}}},{"title":"useElementScroll hook","description":"element의 scroll 변화를 감지하는 React Hook 코드 입니다.","date":"$D2023-08-23T17:25:00.000Z","categories":["react","typescript"],"slug":"2","mdx":{"compiledSource":"$12","frontmatter":{},"scope":{}}},{"title":"useWindowSize hook","description":"window size를 사용할 수 있게 하는 React Hook 코드 입니다.","date":"$D2023-08-23T15:51:00.000Z","categories":["react","typescript"],"slug":"1","mdx":{"compiledSource":"$13","frontmatter":{},"scope":{}}}]}]]
