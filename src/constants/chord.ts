@@ -1,15 +1,10 @@
-export interface ChordType {
-  [key: string]: {
-    composition: string[];
-    chartList: number[][];
-  };
-}
+import { IRootChord } from '@/types/chord';
 
 // [ => ♭
 // ] => ♯
 // 코드에서 음을 하나 빼야 한다면 5도음을 뺸다.
 
-export const kindOfChord = [
+export const KIND_OF_CHORD = [
   '',
   '6', // CM6, add6, add13
   '7',
@@ -35,7 +30,7 @@ export const kindOfChord = [
   'add4', // == add11
 ];
 
-export const chordSymbolList = [
+export const CHORD_SYMBOL_LIST = [
   'C',
   'C]',
   'D',
@@ -50,7 +45,7 @@ export const chordSymbolList = [
   'B',
 ];
 
-export const pitchList = [
+export const PITCH_LIST = [
   'C',
   ['C]', 'D['],
   'D',
@@ -74,7 +69,7 @@ export const scaleArray = [
   ['E', 'F', 'F]', 'G', 'G]', 'A', 'B[', 'B', 'C', 'C]', 'D', 'E[', 'E'],
 ];
 
-const rootC: ChordType = {
+const ROOT_C: IRootChord = {
   C: {
     composition: ['C', 'E', 'G'],
     chartList: [
@@ -199,7 +194,7 @@ const rootC: ChordType = {
   },
 };
 
-const rootCsharp: ChordType = {
+const ROOT_C_SHARP: IRootChord = {
   'C]': {
     composition: ['C]', 'F', 'G]'],
     chartList: [
@@ -306,7 +301,7 @@ const rootCsharp: ChordType = {
   },
 };
 
-const rootD: ChordType = {
+const ROOT_D: IRootChord = {
   D: {
     composition: ['D', 'F]', 'A'],
     chartList: [
@@ -426,7 +421,7 @@ const rootD: ChordType = {
   },
 };
 
-const rootEfret: ChordType = {
+const ROOT_E_FRET: IRootChord = {
   'E[': {
     composition: ['E[', 'G', 'B['],
     chartList: [[6, 8, 8, 8, 6, -1]],
@@ -524,7 +519,7 @@ const rootEfret: ChordType = {
   },
 };
 
-const rootE: ChordType = {
+const ROOT_E: IRootChord = {
   E: {
     composition: ['E', 'G]', 'B'],
     chartList: [
@@ -628,7 +623,7 @@ const rootE: ChordType = {
   },
 };
 
-const rootF: ChordType = {
+const ROOT_F: IRootChord = {
   F: {
     composition: ['F', 'A', 'C'],
     chartList: [[1, 1, 2, 3, 3, 1]],
@@ -723,7 +718,7 @@ const rootF: ChordType = {
   },
 };
 
-const rootFsharp: ChordType = {
+const ROOT_F_SHARP: IRootChord = {
   'F]': {
     composition: ['F]', 'B[', 'C]'],
     chartList: [[2, 2, 3, 4, 4, 2]],
@@ -818,7 +813,7 @@ const rootFsharp: ChordType = {
   },
 };
 
-const rootG: ChordType = {
+const ROOT_G: IRootChord = {
   G: {
     composition: ['G', 'B', 'D'],
     chartList: [
@@ -922,7 +917,7 @@ const rootG: ChordType = {
   },
 };
 
-const rootGsharp: ChordType = {
+const ROOT_G_SHARP: IRootChord = {
   'G]': {
     composition: ['G]', 'C', 'E['],
     chartList: [[4, 4, 5, 6, 6, 4]],
@@ -1017,7 +1012,7 @@ const rootGsharp: ChordType = {
   },
 };
 
-const rootA: ChordType = {
+const ROOT_A: IRootChord = {
   A: {
     composition: ['A', 'C]', 'E'],
     chartList: [
@@ -1124,7 +1119,7 @@ const rootA: ChordType = {
   },
 };
 
-const rootBfret: ChordType = {
+const ROOT_B_FRET: IRootChord = {
   'B[': {
     composition: ['B[', 'D', 'F'],
     chartList: [[1, 3, 3, 3, 1, -1]],
@@ -1223,7 +1218,7 @@ const rootBfret: ChordType = {
   },
 };
 
-const rootB: ChordType = {
+const ROOT_B: IRootChord = {
   B: {
     composition: ['B', 'E[', 'F]'],
     chartList: [
@@ -1324,7 +1319,7 @@ const rootB: ChordType = {
   },
 };
 
-export const inversion: ChordType = {
+export const INVERSION: IRootChord = {
   'Dm7/C': {
     composition: [],
     chartList: [[1, 1, 2, 0, 3, -1]],
@@ -1359,18 +1354,18 @@ export const inversion: ChordType = {
   },
 };
 
-export const newChordList: ChordType = {
-  ...rootC,
-  ...rootCsharp,
-  ...rootD,
-  ...rootEfret,
-  ...rootE,
-  ...rootF,
-  ...rootFsharp,
-  ...rootG,
-  ...rootGsharp,
-  ...rootA,
-  ...rootBfret,
-  ...rootB,
-  ...inversion,
+export const NEW_CHORD_LIST: IRootChord = {
+  ...ROOT_C,
+  ...ROOT_C_SHARP,
+  ...ROOT_D,
+  ...ROOT_E_FRET,
+  ...ROOT_E,
+  ...ROOT_F,
+  ...ROOT_F_SHARP,
+  ...ROOT_G,
+  ...ROOT_G_SHARP,
+  ...ROOT_A,
+  ...ROOT_B_FRET,
+  ...ROOT_B,
+  ...INVERSION,
 };

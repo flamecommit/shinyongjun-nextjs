@@ -1,4 +1,4 @@
-import { pitchList } from '@/constants/chord';
+import { PITCH_LIST } from '@/constants/chord';
 // 근음 = 으뜸음 = Root = 뿌리
 // 음이름 = pitch names = 음의 고정 위치
 // 계이름 = syllable names = 음의 상대 위치
@@ -15,7 +15,7 @@ import { pitchList } from '@/constants/chord';
 // eslint-disable-next-line prettier/prettier
 
 const getPitchIndex = (root: string) => {
-  return pitchList.findIndex((p) => {
+  return PITCH_LIST.findIndex((p) => {
     if (typeof p === 'string') {
       return p === root;
     }
@@ -40,17 +40,17 @@ export const getPitch = (root: string, step: number) => {
   const tempIndex = index + step;
   let computedIndex;
 
-  if (pitchList.length > tempIndex && tempIndex > -1) {
+  if (PITCH_LIST.length > tempIndex && tempIndex > -1) {
     computedIndex = tempIndex;
   } else {
     if (tempIndex > 0) {
-      computedIndex = tempIndex % pitchList.length;
+      computedIndex = tempIndex % PITCH_LIST.length;
     } else {
-      computedIndex = pitchList.length + tempIndex;
+      computedIndex = PITCH_LIST.length + tempIndex;
     }
   }
 
-  const pitch = pitchList[computedIndex];
+  const pitch = PITCH_LIST[computedIndex];
   const type0 = ['C', 'F', 'G'];
   // const type1 = ['B', 'E'];
 

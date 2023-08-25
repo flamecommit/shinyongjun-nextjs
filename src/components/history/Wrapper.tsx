@@ -2,7 +2,7 @@
 
 import { Fragment, useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { companies, projects } from '@/constants/history';
+import { COMPONY_LIST, PROJECT_LIST } from '@/constants/history';
 import { device, ellipsis } from '@/styles/mixin';
 import { config } from '@/styles/config';
 import { IHistory, TCompany, TProject } from '@/types/history';
@@ -24,11 +24,11 @@ function HistoryWrapper() {
       const firstMonth = year === historyStart[0] ? historyStart[1] : 1;
 
       for (let month = lastMonth; month >= firstMonth; month--) {
-        const company: TCompany | undefined = companies.find(
+        const company: TCompany | undefined = COMPONY_LIST.find(
           (item) => item.leave[0] === year && item.leave[1] === month,
         );
 
-        const project: TProject | undefined = projects.find(
+        const project: TProject | undefined = PROJECT_LIST.find(
           (item) => item.ended[0] === year && item.ended[1] === month,
         );
 

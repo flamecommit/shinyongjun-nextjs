@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import styled from 'styled-components';
-import { kindOfChord, chordSymbolList, inversion } from '@/constants/chord';
+import { KIND_OF_CHORD, CHORD_SYMBOL_LIST, INVERSION } from '@/constants/chord';
 import { device } from '@/styles/mixin';
 import ChordSymbol from '@/components/chord/Symbol';
 import ChordChart from './Chart';
@@ -18,14 +18,14 @@ function ChordList() {
   return (
     <>
       <StyledChordList>
-        {chordSymbolList.map((symbol) => {
+        {CHORD_SYMBOL_LIST.map((symbol) => {
           return (
             <div key={symbol} className="root-area">
               <h2 className="root-head">
                 <ChordSymbol chordName={symbol} />
               </h2>
               <div className="chord-area">
-                {kindOfChord.map((kind) => {
+                {KIND_OF_CHORD.map((kind) => {
                   return (
                     <button
                       type="button"
@@ -43,7 +43,7 @@ function ChordList() {
         <div className="root-area">
           <h2 className="root-head">Inversion</h2>
           <div className="chord-area">
-            {Object.entries(inversion).map((chord) => {
+            {Object.entries(INVERSION).map((chord) => {
               return (
                 <button
                   type="button"

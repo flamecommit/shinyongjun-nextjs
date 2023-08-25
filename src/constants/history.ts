@@ -4,7 +4,7 @@ const today = new Date();
 const todayYear = today.getFullYear();
 const todayMonth = today.getMonth() + 1;
 
-export const companies: TCompany[] = [
+export const COMPONY_LIST: TCompany[] = [
   { name: 'Wise C&S', join: [2013, 9], leave: [2014, 1] },
   { name: 'Megacoding', join: [2014, 2], leave: [2015, 3] },
   { name: 'Newriver', join: [2015, 4], leave: [2018, 8] },
@@ -12,7 +12,7 @@ export const companies: TCompany[] = [
   { name: 'Wemade', join: [2022, 3], leave: [todayYear, todayMonth] },
 ];
 
-export const projects: TProject[] = [
+export const PROJECT_LIST: TProject[] = [
   { name: '에이스카운터', started: [2014, 6], ended: [2014, 6] },
   { name: '올라운드', started: [2020, 10], ended: [2021, 5] },
   { name: '알파스캔', started: [2014, 8], ended: [2014, 9] },

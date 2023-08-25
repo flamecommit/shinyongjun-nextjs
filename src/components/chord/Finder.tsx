@@ -2,7 +2,7 @@
 
 import styled from 'styled-components';
 import { useEffect, useState } from 'react';
-import { scaleArray, newChordList } from '@/constants/chord';
+import { scaleArray, NEW_CHORD_LIST } from '@/constants/chord';
 import { getPitch } from '@/services/chord';
 import {
   removeDuplicates,
@@ -57,7 +57,7 @@ function ChordFinder() {
       return;
     }
 
-    const findChord = Object.entries(newChordList).find((chord) => {
+    const findChord = Object.entries(NEW_CHORD_LIST).find((chord) => {
       const isSameArray = arraysHaveSameElements(
         composition,
         chord[1].composition,
@@ -70,7 +70,7 @@ function ChordFinder() {
       setResultType(1);
       setResultChord(findChord[0]);
     } else {
-      const similarChord = Object.entries(newChordList).find((chord) => {
+      const similarChord = Object.entries(NEW_CHORD_LIST).find((chord) => {
         const isSimilarArray = arraysHaveElements(
           composition,
           chord[1].composition,

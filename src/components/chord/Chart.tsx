@@ -6,7 +6,7 @@ import { FiChevronLeft } from '@react-icons/all-files/fi/FiChevronLeft';
 import { FiChevronRight } from '@react-icons/all-files/fi/FiChevronRight';
 import { GrClose } from '@react-icons/all-files/gr/GrClose';
 import { GrRadial } from '@react-icons/all-files/gr/GrRadial';
-import { scaleArray, newChordList } from '@/constants/chord';
+import { scaleArray, NEW_CHORD_LIST } from '@/constants/chord';
 import { device } from '@/styles/mixin';
 import { getComposition } from '@/services/chord';
 import ChordSymbol from '@/components/chord/Symbol';
@@ -21,7 +21,7 @@ interface Props {
 function ChordChart({ chordName, initIndex, closeChord }: Props) {
   const [startX, setStartX] = useState(0);
   const [moveX, setMoveX] = useState(0);
-  const chord = newChordList[chordName];
+  const chord = NEW_CHORD_LIST[chordName];
   const constituent = getComposition(chordName);
 
   const chartCount = chord?.chartList.length || 0;
