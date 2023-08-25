@@ -128,9 +128,9 @@ const StyledSnippetViewer = styled.article`
     code {
       display: inline-block;
       font-size: 14px;
-      line-height: 20px;
+      line-height: 1.5em;
       padding-block: 0;
-      margin-block: 4.4px;
+      margin-block: 0.25em;
     }
     .rehype-code-title {
       text-align: right;
@@ -170,8 +170,7 @@ const StyledSnippetViewer = styled.article`
       font-size: 14px;
       code {
         font-size: 12px;
-        line-height: 18px;
-        margin-block: 3.6px;
+        margin-block: 0.3em;
       }
       .rehype-code-title {
         font-size: 12px;

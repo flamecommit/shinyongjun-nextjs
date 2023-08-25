@@ -16,6 +16,8 @@ import { FiChevronUp } from '@react-icons/all-files/fi/FichevronUp';
 import { FiChevronDown } from '@react-icons/all-files/fi/FichevronDown';
 import { config } from '@/styles/config';
 import { useAppDispatch, useAppSelector } from '@/hooks/useRedux';
+import Link from 'next/link';
+import { FiArrowLeft } from '@react-icons/all-files/fi/FiArrowLeft';
 
 interface Props {
   scoreData: Score;
@@ -71,6 +73,12 @@ function ScoreViewer({ scoreData }: Props) {
   return (
     <>
       <StyledScoreViewer>
+        <div className="back-link">
+          <Link href="/score">
+            <FiArrowLeft />
+            목록으로
+          </Link>
+        </div>
         <header className="score-header">
           <h1 className="score-title">{scoreData.title}</h1>
           <div className="score-date">{scoreData.releaseYear}</div>
@@ -94,6 +102,12 @@ function ScoreViewer({ scoreData }: Props) {
             {...scoreData.mdx}
             components={{ ScoreWrapper, ScorePhrase }}
           />
+        </div>
+        <div className="back-link">
+          <Link href="/score">
+            <FiArrowLeft />
+            목록으로
+          </Link>
         </div>
       </StyledScoreViewer>
       {isGallery && (
@@ -185,6 +199,29 @@ const StyledScoreViewer = styled.div`
       list-style: disc;
     }
   }
+  .score-navigation {
+    margin-top: 30px;
+  }
+  .back-link {
+    &:first-child {
+      margin-bottom: 30px;
+    }
+    &:last-child {
+      margin-top: 60px;
+    }
+    a {
+      display: inline-flex;
+      align-items: center;
+      column-gap: 4px;
+      &:hover {
+        color: ${config.hoverText};
+        text-decoration: underline;
+        svg {
+          transform: translateX(-3px);
+        }
+      }
+    }
+  }
   @media ${device.mobile} {
     .score-header {
       .score-title {
@@ -205,6 +242,14 @@ const StyledScoreViewer = styled.div`
       code {
         font-size: 12px;
         line-height: 21px;
+      }
+    }
+    .back-link {
+      &:first-child {
+        margin-bottom: 12px;
+      }
+      &:last-child {
+        margin-top: 48px;
       }
     }
   }

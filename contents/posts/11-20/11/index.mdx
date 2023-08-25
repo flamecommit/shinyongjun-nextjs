@@ -1,0 +1,138 @@
+---
+title: Next.js 프로젝트 폴더 구성 과 개발 규칙
+date: 2023-08-25T11:09:00
+categories: ['next.js']
+---
+
+확장성 높은 개발을 위해선 일관성있는 구성과 규칙이 중요합니다.
+이 글에선 `next.js` 개발을 보다 체계적으로 하기 위한 제 나름대로의 규칙들을 정리해보고자 합니다.
+
+## 폴더 구성
+
+우선 폴더 구성부터 살펴보도록 하겠습니다. 참고로 저는 13버전의 `app directory` 방식을 채택했습니다.
+
+```
+/public
+ ㄴ /icons
+ ㄴ /images
+ ㄴ /fonts
+
+/src
+ ㄴ /app
+ ㄴ /components
+ ㄴ /constants
+ ㄴ /hooks
+ ㄴ /services
+ ㄴ /stores
+ ㄴ /styles
+ ㄴ /utils
+```
+
+## public
+
+public 폴더는 next.js 에서 제공하는 기본 폴더입니다.
+favicon, img, font 등의 정적 파일들을 위치시킵니다.
+
+### `icons`
+
+웹사이트 전반에 걸쳐 재사용 가능성이 높은 아이콘 이미지들을 모아둡니다.
+작업자가 여러명일 중복 작업 확률을 낮추기 위해 별도 폴더를 생성했습니다.
+
+- `svg` 파일 확장을 지향한다.
+
+### `images`
+
+앱에서 사용하는 이미지 파일 모음 폴더입니다.
+
+- `webp` 파일 확장을 지향한다.
+
+### `fonts`
+
+로컬 폰트를 사용할 경우 폰트파일이 위치할 폴더입니다.
+
+## src
+
+프로그램 파일들을 모아놓는 선택적 기본 폴더입니다.
+next.js 앱을 생성할때 사용여부를 선택할 수 있습니다.
+
+### `app`
+
+next.js 13버전에서 추가된 폴더입니다. 기존 `pages` 폴더가 하던 auto routing 을 지원합니다. (`pages` 폴더도 여전히 지원합니다.)
+
+아래는 제가 정한 app폴더 내부 규칙입니다.
+
+- `server component` 만 사용한다.
+- 기본 제공하는 컴포넌트만 사용한다. (page, layout, loading 등)
+
+### `components`
+
+대부분의 응용 프로그램 컴포넌트가 위치한 폴더입니다.
+내부 구조는 그때그때 상황에 맞춰 수정, 추가 하며 기본적인 폴더만 미리 정의해보았습니다.
+
+- `base` : Header, Footer, Container 등 레이아웃 컴포넌트
+- `config` : SEO, Metadata, Google Analytics, Google Fonts 등 앱 전반에 영향을 주는 설정 컴포넌트
+
+### `constants`
+
+전역 상수 모음 폴더입니다.
+
+- 상수명은 영문 대문자, 숫자, 언더바 조합으로 정의한다.
+- 상수명의 제일 앞글자는 영문 대문자만 올 수 있다.
+
+```ts:/src/constants/some.ts
+export const SOME_NAME = 'a';
+export const SOME_NAME_99 = 99;
+```
+
+### `hooks`
+
+사용자 지정 hook(Custom hook) 모음 폴더입니다.
+파일명은 함수명과 일치시킵니다.
+아래는 mouse 클릭 여부를 판별하는 hook 코드입니다.
+
+```ts:/src/hook/useMousePressed.ts
+import { useState, useEffect } from 'react';
+
+export default function useMousePressed() {
+  const [mousePressed, setMousePressed] = useState(false);
+
+  function handleMouseDown() {
+    setMousePressed(true);
+  }
+
+  function handleMouseUp() {
+    setMousePressed(false);
+  }
+
+  useEffect(() => {
+    window.addEventListener('mousedown', handleMouseDown);
+    window.addEventListener('mouseup', handleMouseUp);
+
+    return function cleanup() {
+      window.removeEventListener('mousedown', handleMouseDown);
+      window.removeEventListener('mouseup', handleMouseUp);
+    };
+  }, []);
+
+  return mousePressed;
+}
+```
+
+### `services`
+
+서버에서 내려받은 데이터를 UI 컴포넌트에 넘기기 전 가공하는 함수들을 관리합니다.
+
+### `stores`
+
+redux 파일들을 관리하는 폴더입니다.
+
+### `styles`
+
+style 파일들을 관리하는 폴더입니다.
+
+### `utils`
+
+순수 함수들을 모아놓은 폴더입니다.
+파일명은 `array.ts`, `file.ts`, `string.ts` 과 같이 인자의 타입과 통일합니다.
+
+end.
