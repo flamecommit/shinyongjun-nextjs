@@ -10,7 +10,6 @@ import { device } from '@/styles/mixin';
 import GalleryWrapper from '@/components/gallery/Wrapper';
 import ScorePhrase from './Phrase';
 import ScoreWrapper from './Wrapper';
-import { GalleryType } from '../types/gallery';
 import { scoreActions } from '@/stores/features/score';
 import { FiChevronUp } from '@react-icons/all-files/fi/FichevronUp';
 import { FiChevronDown } from '@react-icons/all-files/fi/FichevronDown';
@@ -18,13 +17,14 @@ import { config } from '@/styles/config';
 import { useAppDispatch, useAppSelector } from '@/hooks/useRedux';
 import Link from 'next/link';
 import { FiArrowLeft } from '@react-icons/all-files/fi/FiArrowLeft';
+import { TGallery } from '@/types/gallery';
 
 interface Props {
   scoreData: Score;
 }
 
 function ScoreViewer({ scoreData }: Props) {
-  const [images, setImages] = useState<GalleryType[]>([]);
+  const [images, setImages] = useState<TGallery[]>([]);
   const [isGallery, setIsGallery] = useState(false);
   const [initActiveIndex, setInitActiveIndex] = useState(0);
   const contents = useRef<HTMLDivElement>(null);

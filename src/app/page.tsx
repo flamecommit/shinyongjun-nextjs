@@ -1,10 +1,11 @@
-import PageTitle from '@/components/page/Title';
+import AuthorDetails from '@/components/author/Details';
+import AuthorProfile from '@/components/author/Profile';
 
 async function RootPage() {
   return (
     <>
-      <PageTitle>Home</PageTitle>
-      <p>Welcome</p>
+      <AuthorProfile />
+      <AuthorDetails />
     </>
   );
 }

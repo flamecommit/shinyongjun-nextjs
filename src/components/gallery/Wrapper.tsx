@@ -6,14 +6,10 @@ import { FiChevronLeft } from '@react-icons/all-files/fi/FiChevronLeft';
 import { FiChevronRight } from '@react-icons/all-files/fi/FiChevronRight';
 import { CSSTransition } from 'react-transition-group';
 import GalleryItem from '@/components/gallery/Item';
-
-interface GalleryType {
-  key: number;
-  src: string;
-}
+import { TGallery } from '@/types/gallery';
 
 interface Props {
-  images: GalleryType[];
+  images: TGallery[];
   initActiveIndex: number;
   closeGallery: () => void;
 }

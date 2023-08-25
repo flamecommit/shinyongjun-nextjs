@@ -10,9 +10,9 @@ import { markdown } from '@/styles/markdown';
 import { device } from '@/styles/mixin';
 import GalleryWrapper from '@/components/gallery/Wrapper';
 import CategoryItem from '../category/Item';
-import { GalleryType } from '../types/gallery';
 import { config } from '@/styles/config';
 import { IPost } from '@/types/post';
+import { TGallery } from '@/types/gallery';
 
 interface Props {
   postData: {
@@ -21,7 +21,7 @@ interface Props {
 }
 
 function PostViewer({ postData }: Props) {
-  const [images, setImages] = useState<GalleryType[]>([]);
+  const [images, setImages] = useState<TGallery[]>([]);
   const [isGallery, setIsGallery] = useState(false);
   const [initActiveIndex, setInitActiveIndex] = useState(0);
   const contents = useRef<HTMLDivElement>(null);
