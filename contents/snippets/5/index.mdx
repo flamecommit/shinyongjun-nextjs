@@ -1,0 +1,50 @@
+---
+title: 객체(Object)를 받아서 QueryString을 반환하는 함수
+description: GET, DELETE 요청시 유용하게 쓰입니다.
+date: 2023-08-25T15:03:00
+categories: ['typescript', 'object', 'string']
+---
+
+```ts
+export const objectToQueryString = (
+  params: Record<string, unknown> | undefined,
+): string => {
+  const queryParts: string[] = [];
+
+  if (!params) return '';
+
+  Object.entries(params).forEach(([key, initialValue]) => {
+    const value =
+      typeof initialValue === 'boolean' || typeof initialValue === 'number'
+        ? JSON.stringify(initialValue)
+        : initialValue;
+    const isObject = initialValue?.constructor === Object;
+
+    if (!value) return;
+    if (isObject) throw new Error(`객체는 올 수 없습니다.`);
+
+    if (Array.isArray(value)) {
+      const uniqueValue = Array.from(new Set(value));
+      queryParts.push(`${key}=${uniqueValue.join(`&${key}=`)}`);
+      return;
+    }
+    queryParts.push(`${key}=${value}`);
+  });
+
+  return queryParts.length ? `?${queryParts.join('&')}` : '';
+};
+
+// result
+console.log(objectToQueryString(undefined)); //
+console.log(objectToQueryString({ page: 1 })); // ?page=1
+console.log(objectToQueryString({ page: 1, searchType: 'Title' })); // ?page=1&searchType=Title
+console.log(
+  objectToQueryString({
+    page: 1,
+    searchType: 'Title',
+    categoryIds: [101, 102, 103, 104],
+  }),
+); // ?page=1&searchType=Title&categoryIds=101&categoryIds=102&categoryIds=103&categoryIds=104
+```
+
+end.
