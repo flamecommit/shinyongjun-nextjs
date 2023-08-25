@@ -1,32 +1,10 @@
-export interface CompanyType {
-  name: string;
-  join: [number, number];
-  leave: [number, number];
-  size?: number;
-}
-
-export interface ProjectType {
-  name: string;
-  started: [number, number];
-  ended: [number, number];
-  size?: number;
-}
-
-export interface HistoryType {
-  index: number;
-  key: string;
-  year: number;
-  yearSize: number;
-  month: number;
-  company?: CompanyType | undefined;
-  project?: ProjectType | undefined;
-}
+import { TCompany, TProject } from '@/types/history';
 
 const today = new Date();
 const todayYear = today.getFullYear();
 const todayMonth = today.getMonth() + 1;
 
-export const companies: CompanyType[] = [
+export const companies: TCompany[] = [
   { name: 'Wise C&S', join: [2013, 9], leave: [2014, 1] },
   { name: 'Megacoding', join: [2014, 2], leave: [2015, 3] },
   { name: 'Newriver', join: [2015, 4], leave: [2018, 8] },
@@ -34,7 +12,7 @@ export const companies: CompanyType[] = [
   { name: 'Wemade', join: [2022, 3], leave: [todayYear, todayMonth] },
 ];
 
-export const projects: ProjectType[] = [
+export const projects: TProject[] = [
   { name: '에이스카운터', started: [2014, 6], ended: [2014, 6] },
   { name: '올라운드', started: [2020, 10], ended: [2021, 5] },
   { name: '알파스캔', started: [2014, 8], ended: [2014, 9] },
@@ -82,7 +60,7 @@ export const projects: ProjectType[] = [
   { name: 'NightCrows 티저 사이트', started: [2022, 12], ended: [2022, 12] },
   { name: 'NightCrows 헛개수 이벤트', started: [2023, 7], ended: [2023, 7] },
   {
-    name: 'NightCrows 해외 공식 사이트',
+    name: 'shinyongjun.com',
     started: [2023, 8],
     ended: [todayYear, todayMonth],
   },

@@ -3,15 +3,12 @@
 import { Fragment, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { companies, projects } from '@/constants/history';
-import type {
-  CompanyType,
-  HistoryType,
-  ProjectType,
-} from '@/constants/history';
 import { device, ellipsis } from '@/styles/mixin';
+import { config } from '@/styles/config';
+import { IHistory, TCompany, TProject } from '@/types/history';
 
 function HistoryWrapper() {
-  const [histories, setHistories] = useState<HistoryType[]>([]);
+  const [histories, setHistories] = useState<IHistory[]>([]);
 
   useEffect(() => {
     const now = new Date();
@@ -27,11 +24,11 @@ function HistoryWrapper() {
       const firstMonth = year === historyStart[0] ? historyStart[1] : 1;
 
       for (let month = lastMonth; month >= firstMonth; month--) {
-        const company: CompanyType | undefined = companies.find(
+        const company: TCompany | undefined = companies.find(
           (item) => item.leave[0] === year && item.leave[1] === month,
         );
 
-        const project: ProjectType | undefined = projects.find(
+        const project: TProject | undefined = projects.find(
           (item) => item.ended[0] === year && item.ended[1] === month,
         );
 
@@ -133,6 +130,7 @@ const StyledHistoryWrapper = styled.div`
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    box-shadow: ${config.boxShadow1};
     > div {
       display: flex;
       align-items: center;
@@ -160,18 +158,21 @@ const StyledHistoryWrapper = styled.div`
     .year {
       &[data-value='true'] {
         position: relative;
-        background-color: rgba(0, 0, 0, 0.05);
+        background-color: ${config.primaryBg};
+        box-shadow: ${config.boxShadow1};
       }
     }
     .month {
-      background-color: rgba(0, 0, 0, 0.05);
+      background-color: ${config.primaryBg};
+      box-shadow: ${config.boxShadow1};
     }
     .company,
     .project {
       color: #000;
       &[data-value='true'] {
         position: relative;
-        background-color: rgba(0, 0, 0, 0.05);
+        background-color: ${config.primaryBg};
+        box-shadow: ${config.boxShadow1};
       }
     }
     .sticky {
