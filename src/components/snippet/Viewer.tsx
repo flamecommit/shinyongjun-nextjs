@@ -3,7 +3,6 @@
 import styled from 'styled-components';
 import { MDXRemote } from 'next-mdx-remote';
 import { useEffect, useRef, useState } from 'react';
-import { Snippet } from '@/services/snippet';
 import { getFormatDatetime } from '@/utils/datetime';
 import { prism } from '@/styles/prism';
 import { markdown } from '@/styles/markdown';
@@ -12,9 +11,10 @@ import GalleryWrapper from '@/components/gallery/Wrapper';
 import CategoryItem from '../category/Item';
 import { GalleryType } from '../types/gallery';
 import { config } from '@/styles/config';
+import { ISnippet } from '@/types/snippet';
 
 interface Props {
-  snippetData: Snippet;
+  snippetData: ISnippet;
 }
 
 function SnippetViewer({ snippetData }: Props) {

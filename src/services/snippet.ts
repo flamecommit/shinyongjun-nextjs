@@ -2,32 +2,20 @@ import path from 'path';
 import fs from 'fs';
 import { sync } from 'glob';
 import matter from 'gray-matter';
-import { MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { serialize } from 'next-mdx-remote/serialize';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeCodeTitles from 'rehype-code-titles';
 import remarkBreaks from 'remark-breaks';
 import { extractLastDirectory, mdxFilePath, transformImgSrc } from './mdx';
+import { ISnippet, TSnippetMatter } from '@/types/snippet';
 
 const BASE_PATH = '/contents/snippets';
 const SNIPPETS_PATH = path.join(process.cwd(), BASE_PATH);
 
-interface SnippetMatter {
-  title: string;
-  date: Date;
-  categories: string[];
-  description?: string;
-}
-
-export interface Snippet extends SnippetMatter {
-  slug: string;
-  mdx: MDXRemoteSerializeResult;
-}
-
-const parseSnippet = async (snippetPath: string): Promise<Snippet> => {
+const parseSnippet = async (snippetPath: string): Promise<ISnippet> => {
   const file = fs.readFileSync(snippetPath, 'utf8');
   const { data, content } = matter(file);
-  const grayMatter = data as SnippetMatter;
+  const grayMatter = data as TSnippetMatter;
   const mdxPath = mdxFilePath(snippetPath, BASE_PATH);
   const slug = extractLastDirectory(snippetPath);
 
@@ -49,7 +37,7 @@ const parseSnippet = async (snippetPath: string): Promise<Snippet> => {
   };
 };
 
-export const getSnippetList = async (): Promise<Snippet[]> => {
+export const getSnippetList = async (): Promise<ISnippet[]> => {
   const snippetPaths: string[] = sync(`${SNIPPETS_PATH}/**/*.mdx`);
   const result = await Promise.all(
     snippetPaths.map((snippetPath) => {
@@ -57,7 +45,7 @@ export const getSnippetList = async (): Promise<Snippet[]> => {
     }),
   );
 
-  return result.sort((a: Snippet, b: Snippet) => {
+  return result.sort((a: ISnippet, b: ISnippet) => {
     const dateA = a.date;
     const dateB = b.date;
 

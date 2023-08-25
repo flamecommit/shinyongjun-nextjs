@@ -1,8 +1,10 @@
-import { getPostList, Post } from './post';
-import { getSnippetList, Snippet } from './snippet';
+import { IPost } from '@/types/post';
+import { getPostList } from './post';
+import { getSnippetList } from './snippet';
+import { ISnippet } from '@/types/snippet';
 
 export const getCategories = async (board: string) => {
-  let articleList: Array<Post | Snippet> = [];
+  let articleList: Array<IPost | ISnippet> = [];
 
   if (board === 'post') {
     articleList = await getPostList();
@@ -29,7 +31,7 @@ export const getPostListByCategory = async (
   board: string,
   category: string,
 ) => {
-  let articleList: Array<Post | Snippet> = [];
+  let articleList: Array<IPost | ISnippet> = [];
 
   if (board === 'post') {
     articleList = await getPostList();

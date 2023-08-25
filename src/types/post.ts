@@ -1,13 +1,13 @@
 import { MDXRemoteSerializeResult } from 'next-mdx-remote';
 
-export type TFrontMatter = {
+export type TPostFrontMatter = {
   title: string;
   date: Date;
   categories: string[];
   series?: string;
 };
 
-export interface IPost extends TFrontMatter {
+export interface IPost extends TPostFrontMatter {
   slug: string;
   mdx: MDXRemoteSerializeResult;
 }

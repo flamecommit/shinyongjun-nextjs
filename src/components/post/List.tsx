@@ -2,14 +2,14 @@
 
 import Link from 'next/link';
 import styled from 'styled-components';
-import { Post } from '@/services/post';
 import { getFormatDatetime } from '@/utils/datetime';
 import { device } from '@/styles/mixin';
 import CategoryItem from '../category/Item';
 import { config } from '@/styles/config';
+import { IPost } from '@/types/post';
 
 type Props = {
-  postList: Post[];
+  postList: IPost[];
 };
 
 function PostList({ postList }: Props) {

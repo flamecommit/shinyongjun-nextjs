@@ -2,14 +2,14 @@
 
 import Link from 'next/link';
 import styled from 'styled-components';
-import { Snippet } from '@/services/snippet';
 import { getFormatDatetime } from '@/utils/datetime';
 import { device } from '@/styles/mixin';
 import CategoryItem from '../category/Item';
 import { config } from '@/styles/config';
+import { ISnippet } from '@/types/snippet';
 
 type Props = {
-  snippetList: Snippet[];
+  snippetList: ISnippet[];
 };
 
 function SnippetList({ snippetList }: Props) {

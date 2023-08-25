@@ -7,7 +7,7 @@ import rehypeHighlight from 'rehype-highlight';
 import rehypeCodeTitles from 'rehype-code-titles';
 import remarkBreaks from 'remark-breaks';
 import { extractLastDirectory, mdxFilePath, transformImgSrc } from './mdx';
-import { IPost, TFrontMatter } from '@/types/post';
+import { IPost, TPostFrontMatter } from '@/types/post';
 
 const BASE_PATH = '/contents/posts';
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
@@ -15,7 +15,7 @@ const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
 const parsePost = async (postPath: string): Promise<IPost> => {
   const file = fs.readFileSync(postPath, 'utf8');
   const { data, content } = matter(file);
-  const grayMatter = data as TFrontMatter;
+  const grayMatter = data as TPostFrontMatter;
   const mdxPath = mdxFilePath(postPath, BASE_PATH);
   const slug = extractLastDirectory(postPath);
 

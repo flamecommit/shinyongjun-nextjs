@@ -2,13 +2,13 @@
 
 import styled from 'styled-components';
 import Link from 'next/link';
-import { Post } from '@/services/post';
 import { device, ellipsis } from '@/styles/mixin';
 import { config } from '@/styles/config';
+import { IPost } from '@/types/post';
 
 interface Props {
-  prevPost: Post | undefined;
-  nextPost: Post | undefined;
+  prevPost: IPost | undefined;
+  nextPost: IPost | undefined;
 }
 
 function PostNavigation({ nextPost, prevPost }: Props) {
