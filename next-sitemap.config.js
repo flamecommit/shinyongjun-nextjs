@@ -21,4 +21,13 @@ module.exports = {
       alternateRefs: config.alternateRefs ?? [],
     };
   },
+  robotsTxtOptions: {
+    policies: [
+      {
+        userAgent: '*',
+        allow: '/',
+        disallow: ['/score/'],
+      },
+    ],
+  },
 };
