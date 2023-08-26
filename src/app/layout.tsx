@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import StyledComponentsRegistry from '@/styles/registry';
 import RootProvider from '@/stores/provider';
-import GoogleAnalytics from '@/components/config/GooglaAnalytics';
+import GoogleAnalytics from '@/components/config/GoogleAnalytics';
 import Favicon from '@/components/config/Favicon';
 
 interface Props {
