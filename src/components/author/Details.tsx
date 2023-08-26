@@ -13,10 +13,12 @@ import { SiJira } from '@react-icons/all-files/si/SiJira';
 import { SiConfluence } from '@react-icons/all-files/si/SiConfluence';
 import { SiAzuredevops } from '@react-icons/all-files/si/SiAzuredevops';
 import { SiRedux } from '@react-icons/all-files/si/SiRedux';
+import { ImNpm } from '@react-icons/all-files/im/ImNpm';
 import { device } from '@/styles/mixin';
 import PageLink from '../page/Link';
 import { roboto } from '@/styles/fonts';
 import { config } from '@/styles/config';
+import Link from 'next/link';
 
 function AuthorDetails() {
   return (
@@ -117,9 +119,17 @@ function AuthorDetails() {
       </section>
       <section>
         <h3 className="section-title">Packages</h3>
-        <PageLink href="/package/react-fullpage">
-          @shinyongjun/react-fullpage
-        </PageLink>
+        <div className="package-list">
+          <div className="package">
+            <a
+              href="https://www.npmjs.com/package/@shinyongjun/react-fullpage"
+              target="_blank"
+            >
+              <ImNpm style={{ color: '#CB0303' }} />
+              @shinyongjun/react-fullpage
+            </a>
+          </div>
+        </div>
       </section>
       <section>
         <h3 className="section-title">Contact</h3>
@@ -165,6 +175,28 @@ const StyledAuthorDetails = styled.div`
         height: 18px;
       }
       a {
+        &:hover {
+          color: ${config.hoverText};
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .package-list {
+    display: grid;
+    row-gap: 18px;
+    max-width: 600px;
+    .package {
+      a {
+        display: inline-flex;
+        align-items: center;
+        column-gap: 4px;
+        font-size: 14px;
+        img,
+        svg {
+          min-width: 18px;
+          height: 18px;
+        }
         &:hover {
           color: ${config.hoverText};
           text-decoration: underline;
