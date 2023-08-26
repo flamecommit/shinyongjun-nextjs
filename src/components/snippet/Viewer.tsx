@@ -4,8 +4,6 @@ import styled from 'styled-components';
 import { MDXRemote } from 'next-mdx-remote';
 import { useEffect, useRef, useState } from 'react';
 import { getFormatDatetime } from '@/utils/datetime';
-import { prism } from '@/styles/prism';
-import { markdown } from '@/styles/markdown';
 import { device } from '@/styles/mixin';
 import GalleryWrapper from '@/components/gallery/Wrapper';
 import CategoryItem from '../category/Item';
@@ -13,6 +11,7 @@ import { config } from '@/styles/config';
 import { ISnippet } from '@/types/snippet';
 import { TGallery } from '@/types/gallery';
 import Link from 'next/link';
+import MdxContents from '../mdx/Contents';
 
 interface Props {
   snippetData: ISnippet;
@@ -66,7 +65,9 @@ function SnippetViewer({ snippetData }: Props) {
           </div>
         </header>
         <div className="snippet-content" ref={contents}>
-          <MDXRemote {...snippetData.mdx} components={{ Link }} />
+          <MdxContents>
+            <MDXRemote {...snippetData.mdx} components={{ Link }} />
+          </MdxContents>
         </div>
       </StyledSnippetViewer>
       {isGallery && (
@@ -110,51 +111,6 @@ const StyledSnippetViewer = styled.article`
       font-size: 14px;
     }
   }
-  .snippet-content {
-    ${markdown}
-    ${prism}
-    line-height: 1.8;
-    img {
-      display: block;
-      cursor: pointer;
-      margin-inline: auto;
-    }
-    .image-cite {
-      display: block;
-      text-align: center;
-      margin-top: 6px;
-      color: #666;
-      font-size: 12px;
-    }
-    code {
-      display: inline-block;
-      font-size: 14px;
-      line-height: 1.5em;
-      padding-block: 0;
-      margin-block: 0.25em;
-    }
-    .rehype-code-title {
-      text-align: right;
-      font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-      font-size: 14px;
-      text-shadow: 0 1px white;
-      position: relative;
-      background-color: ${config.primaryBg};
-      border-radius: 6px;
-      padding: 6px 16px;
-      border: solid ${config.primaryLine};
-      border-width: 1px 1px 0;
-    }
-    ol {
-      list-style: decimal;
-    }
-    ul {
-      list-style: disc;
-    }
-    pre {
-      border: 1px solid ${config.primaryLine};
-    }
-  }
   @media ${device.mobile} {
     .snippet-header {
       .snippet-title {
@@ -165,16 +121,6 @@ const StyledSnippetViewer = styled.article`
       }
       .snippet-categories {
         gap: 8px;
-      }
-    }
-    .snippet-content {
-      font-size: 14px;
-      code {
-        font-size: 12px;
-        margin-block: 0.3em;
-      }
-      .rehype-code-title {
-        font-size: 12px;
       }
     }
   }

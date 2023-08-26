@@ -4,8 +4,6 @@ import styled from 'styled-components';
 import { MDXRemote } from 'next-mdx-remote';
 import { useEffect, useState, useRef } from 'react';
 import { Score } from '@/services/score';
-import { prism } from '@/styles/prism';
-import { markdown } from '@/styles/markdown';
 import { device } from '@/styles/mixin';
 import GalleryWrapper from '@/components/gallery/Wrapper';
 import ScorePhrase from './Phrase';
@@ -18,6 +16,7 @@ import { useAppDispatch, useAppSelector } from '@/hooks/useRedux';
 import Link from 'next/link';
 import { FiArrowLeft } from '@react-icons/all-files/fi/FiArrowLeft';
 import { TGallery } from '@/types/gallery';
+import MdxContents from '../mdx/Contents';
 
 interface Props {
   scoreData: Score;
@@ -98,10 +97,12 @@ function ScoreViewer({ scoreData }: Props) {
           </div>
         </header>
         <div className="score-content" ref={contents}>
-          <MDXRemote
-            {...scoreData.mdx}
-            components={{ ScoreWrapper, ScorePhrase }}
-          />
+          <MdxContents>
+            <MDXRemote
+              {...scoreData.mdx}
+              components={{ ScoreWrapper, ScorePhrase }}
+            />
+          </MdxContents>
         </div>
         <div className="back-link">
           <Link href="/score">
@@ -171,34 +172,6 @@ const StyledScoreViewer = styled.div`
       }
     }
   }
-  .score-content {
-    ${markdown}
-    ${prism}
-    img {
-      display: block;
-      cursor: pointer;
-      margin-inline: auto;
-    }
-    .image-cite {
-      display: block;
-      text-align: center;
-      margin-top: 6px;
-      color: #666;
-      font-size: 12px;
-    }
-    code {
-      display: inline-block;
-      font-size: 14px;
-      line-height: 24px;
-      padding-block: 0;
-    }
-    ol {
-      list-style: decimal;
-    }
-    li {
-      list-style: disc;
-    }
-  }
   .score-navigation {
     margin-top: 30px;
   }
@@ -235,13 +208,6 @@ const StyledScoreViewer = styled.div`
       }
       .score-meta {
         font-size: 12px;
-      }
-    }
-    .score-content {
-      font-size: 14px;
-      code {
-        font-size: 12px;
-        line-height: 21px;
       }
     }
     .back-link {
