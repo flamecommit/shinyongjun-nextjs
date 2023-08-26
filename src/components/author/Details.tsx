@@ -18,7 +18,6 @@ import { device } from '@/styles/mixin';
 import PageLink from '../page/Link';
 import { roboto } from '@/styles/fonts';
 import { config } from '@/styles/config';
-import Link from 'next/link';
 
 function AuthorDetails() {
   return (
@@ -126,7 +125,24 @@ function AuthorDetails() {
               target="_blank"
             >
               <ImNpm style={{ color: '#CB0303' }} />
-              @shinyongjun/react-fullpage
+              @shinyongjun/react-fullpage (2023)
+            </a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3 className="section-title">Plugins</h3>
+        <div className="package-list">
+          <div className="package">
+            <a href="https://shinyj1991.github.io/eclipse" target="_blank">
+              <SiJquery style={{ color: '#1066A9' }} />
+              Carousel - jQuery Plugin (2017)
+            </a>
+          </div>
+          <div className="package">
+            <a href="https://shinyj1991.github.io/kronos" target="_blank">
+              <SiJquery style={{ color: '#1066A9' }} />
+              Datepicker - jQuery Plugin (2016)
             </a>
           </div>
         </div>
@@ -167,7 +183,7 @@ const StyledAuthorDetails = styled.div`
     .item {
       display: flex;
       align-items: center;
-      column-gap: 4px;
+      column-gap: 6px;
       font-size: 14px;
       img,
       svg {
@@ -184,13 +200,13 @@ const StyledAuthorDetails = styled.div`
   }
   .package-list {
     display: grid;
-    row-gap: 18px;
+    row-gap: 12px;
     max-width: 600px;
     .package {
       a {
         display: inline-flex;
         align-items: center;
-        column-gap: 4px;
+        column-gap: 6px;
         font-size: 14px;
         img,
         svg {
