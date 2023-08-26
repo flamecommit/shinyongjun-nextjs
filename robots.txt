@@ -1,6 +1,7 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /score/
 
 # Host
 Host: https://shinyongjun.com
