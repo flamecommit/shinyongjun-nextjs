@@ -21,8 +21,8 @@ function PackageReactFullpageExample() {
               <h2>HasScroll</h2>
               {Array(100)
                 .fill(1)
-                .map(() => {
-                  return <div>↓</div>;
+                .map((i, index) => {
+                  return <div key={index}>↓</div>;
                 })}
               <div>1</div>
             </div>
