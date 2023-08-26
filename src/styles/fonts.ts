@@ -17,6 +17,7 @@ const pretendard = localFont({
       style: 'normal',
     },
   ],
+  display: 'block',
 });
 
 // const notoSansKr = Noto_Sans_KR({
@@ -28,7 +29,7 @@ const pretendard = localFont({
 
 const roboto = Roboto({
   weight: ['400', '500', '700'],
-  display: 'swap',
+  display: 'block',
   subsets: ['latin'],
   style: 'normal',
 });
