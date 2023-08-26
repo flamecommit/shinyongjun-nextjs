@@ -2,7 +2,7 @@
 
 import styled from 'styled-components';
 import { transChordSymbol } from '@/services/chord';
-import { roboto, notoSansKr } from '@/styles/fonts';
+import { roboto, pretendard } from '@/styles/fonts';
 
 interface Props {
   chordName: string;
@@ -44,9 +44,9 @@ const StyledChordSymbol = styled.div`
   span {
     position: relative;
     top: -0.1em;
-    font-family: ${notoSansKr.style.fontFamily};
+    font-family: ${pretendard.style.fontFamily};
     font-size: 0.9em;
-    margin-inline: -0.24em;
+    margin-inline: -0.05em;
   }
 `;
 

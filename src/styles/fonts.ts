@@ -1,11 +1,31 @@
-import { Noto_Sans_KR, Roboto } from 'next/font/google';
+import { Roboto } from 'next/font/google';
+import localFont from 'next/font/local';
 
-const notoSansKr = Noto_Sans_KR({
-  weight: ['400', '500', '700'],
-  display: 'swap',
-  subsets: ['latin'],
-  style: 'normal',
+// Pretendard-Regular
+// Pretendard-Bold
+
+const pretendard = localFont({
+  src: [
+    {
+      path: '../../public/fonts/Pretendard-Regular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Pretendard-Bold.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
 });
+
+// const notoSansKr = Noto_Sans_KR({
+//   weight: ['400', '500', '700'],
+//   display: 'swap',
+//   subsets: ['latin'],
+//   style: 'normal',
+// });
+
 const roboto = Roboto({
   weight: ['400', '500', '700'],
   display: 'swap',
@@ -13,4 +33,4 @@ const roboto = Roboto({
   style: 'normal',
 });
 
-export { notoSansKr, roboto };
+export { pretendard, roboto };

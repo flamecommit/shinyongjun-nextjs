@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import { reset } from '@/styles/mixin';
-import { roboto, notoSansKr } from './fonts';
+import { roboto, pretendard } from './fonts';
 
 export const GlobalStyle = createGlobalStyle`
   *,
@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
     scroll-behavior: auto;
   }
   body {
-    font-family: ${notoSansKr.style.fontFamily}, ${roboto.style.fontFamily};
+    font-family: ${pretendard.style.fontFamily}, ${roboto.style.fontFamily};
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
