@@ -116,6 +116,12 @@ function AuthorDetails() {
         </div>
       </section>
       <section>
+        <h3 className="section-title">Packages</h3>
+        <PageLink href="/package/react-fullpage">
+          @shinyongjun/react-fullpage
+        </PageLink>
+      </section>
+      <section>
         <h3 className="section-title">Contact</h3>
         <div className="item-list">
           <div className="item">

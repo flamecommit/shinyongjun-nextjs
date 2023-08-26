@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import StyledComponentsRegistry from '@/styles/registry';
 import RootProvider from '@/stores/provider';
-import DefaultTemplate from '@/components/template/Default';
 import GoogleAnalytics from '@/components/config/GooglaAnalytics';
 import Favicon from '@/components/config/Favicon';
 
@@ -36,9 +35,7 @@ function RootLayout({ children }: Props) {
       </head>
       <body>
         <RootProvider>
-          <StyledComponentsRegistry>
-            <DefaultTemplate>{children}</DefaultTemplate>
-          </StyledComponentsRegistry>
+          <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
         </RootProvider>
       </body>
     </html>
