@@ -674,7 +674,7 @@ const ROOT_F: IRootChord = {
   },
   Fm: {
     composition: ['F', 'G]', 'C'],
-    chartList: [],
+    chartList: [[1, 1, 1, 3, 3, 1]],
   },
   Fm6: {
     composition: ['F', 'G]', 'C', 'D'],
@@ -827,7 +827,7 @@ const ROOT_G: IRootChord = {
   },
   G7: {
     composition: ['G', 'B', 'D', 'F'],
-    chartList: [],
+    chartList: [[1, 0, 0, 0, 2, 3]],
   },
   G9: {
     composition: ['G', 'B', 'D', 'F', 'A'],
