@@ -31,7 +31,7 @@ function PackageReactFullpageExample() {
         <FullpageSection>
           <div className="section third">Third Section</div>
         </FullpageSection>
-        <FullpageSection isFooter>
+        <FullpageSection isAutoHeight>
           <div className="section footer">Footer Section</div>
         </FullpageSection>
       </FullpageContainer>
