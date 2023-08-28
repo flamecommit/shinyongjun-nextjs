@@ -2,6 +2,12 @@ import fs from 'fs';
 import { visit } from 'unist-util-visit';
 import { Node, Parent } from 'unist';
 import { getExtensionOfFilename } from '@/utils/file';
+import path from 'path';
+import { serialize } from 'next-mdx-remote/serialize';
+import remarkBreaks from 'remark-breaks';
+import rehypeCodeTitles from 'rehype-code-titles';
+import rehypeHighlight from 'rehype-highlight';
+import remarkGfm from 'remark-gfm';
 
 type TImage = {
   type: string;
@@ -63,4 +69,21 @@ export const mdxFilePath = (path: string, basePath: string): string => {
     .slice(path.indexOf(basePath))
     .replace(`${basePath}/`, '')
     .replace('/index.mdx', '');
+};
+
+export const getPackageDocument = async (documentPath: string) => {
+  const DOCUMENT_PATH = path.join(process.cwd(), documentPath);
+  const content = fs.readFileSync(DOCUMENT_PATH, 'utf8');
+
+  const mdx = await serialize(content, {
+    mdxOptions: {
+      remarkPlugins: [remarkBreaks, remarkGfm],
+      rehypePlugins: [rehypeCodeTitles, rehypeHighlight],
+      format: 'mdx',
+    },
+  });
+
+  return {
+    mdx,
+  };
 };

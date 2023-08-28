@@ -12,7 +12,7 @@ import { IPost, TPostFrontMatter } from '@/types/post';
 const BASE_PATH = '/contents/posts';
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
 
-const parsePost = async (postPath: string): Promise<IPost> => {
+export const parsePost = async (postPath: string): Promise<IPost> => {
   const file = fs.readFileSync(postPath, 'utf8');
   const { data, content } = matter(file);
   const grayMatter = data as TPostFrontMatter;

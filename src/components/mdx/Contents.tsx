@@ -12,9 +12,7 @@ interface Props {
 
 function MdxContents({ children }: Props) {
   return (
-    <>
-      <StyledMdxContents>{children}</StyledMdxContents>
-    </>
+    <StyledMdxContents className="mdx-contents">{children}</StyledMdxContents>
   );
 }
 
