@@ -17,7 +17,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-const DiaryPage = async () => {
+const ChordFinderPage = async () => {
   return (
     <>
       <PageTitle>Chord Finder</PageTitle>
@@ -26,4 +26,4 @@ const DiaryPage = async () => {
   );
 };
 
-export default DiaryPage;
+export default ChordFinderPage;

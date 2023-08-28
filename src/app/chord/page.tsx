@@ -7,14 +7,14 @@ export const metadata: Metadata = {
   title: 'Guitar Chord Chart',
 };
 
-const DiaryPage = async () => {
+const ChordPage = async () => {
   return (
     <>
       <PageTitle>Chord</PageTitle>
-      <PageLink href="/chord/generator">Go to Chord Finder</PageLink>
+      <PageLink href="/chord/finder">Go to Chord Finder</PageLink>
       <ChordList />
     </>
   );
 };
 
-export default DiaryPage;
+export default ChordPage;
