@@ -43,17 +43,133 @@ export default ExampleComponent;
 
 ## FullpageContainer Props
 
-| name           | Type | default | Parameter               | description                                              |
-| -------------- | ---- | ------- | ----------------------- | -------------------------------------------------------- |
-| onBeforeChange |      |         | beforeIndex, afterIndex | Fullpage 전환 시작 시점에 실행하는 Callback 함수 입니다. |
-| onAfterChange  |      |         | beforeIndex, afterIndex | Fullpage 전환 끝 시점에 실행하는 Callback 함수 입니다.   |
+### `controlIndex`
+
+**Type** : `number`
+**Description** : 외부에서 Fullpage를 조작하는 데 사용됩니다.
+
+### `setControlIndex`
+
+**Type** : `function`
+**Description** : 사용 시 `activeIndex` 와 `controlIndex` 가 동기화 됩니다.
+
+`controlIndex` & `setControlIndex` 예제
+
+```tsx
+import {
+  FullpageContainer,
+  FullpageSection,
+} from '@shinyongjun/react-fullpage';
+import { useState } from 'react';
+
+function ExampleComponent() {
+  const [controlIndex, setControlIndex] = useState<number>(0);
+
+  return (
+    <>
+      <FullpageContainer
+        controlIndex={controlIndex}
+        setControlIndex={setControlIndex}
+      >
+        <FullpageSection>
+          <div>Section 1</div>
+        </FullpageSection>
+        <FullpageSection>
+          <div>Section 2</div>
+        </FullpageSection>
+        <FullpageSection>
+          <div>Section 3</div>
+        </FullpageSection>
+        <FullpageSection isAutoHeight>
+          <footer>Footer</footer>
+        </FullpageSection>
+      </FullpageContainer>
+      <div className="controller">
+        <button
+          type="button"
+          className={`${controlIndex === 0 ? 'active' : ''}`}
+          onClick={() => setControlIndex(0)}
+        >
+          1
+        </button>
+        <button
+          type="button"
+          className={`${controlIndex === 1 ? 'active' : ''}`}
+          onClick={() => setControlIndex(1)}
+        >
+          2
+        </button>
+        <button
+          type="button"
+          className={`${controlIndex === 2 ? 'active' : ''}`}
+          onClick={() => setControlIndex(2)}
+        >
+          3
+        </button>
+      </div>
+    </>
+  );
+}
+
+export default ExampleComponent;
+```
+
+### `onBeforeChange(beforeIndex, afterIndex)`
+
+**Description** : Fullpage 전환 시작 시점에 실행되는 Callback 함수 입니다.
+
+### `onAfterChange(beforeIndex, afterIndex)`
+
+**Description** : Fullpage 전환 끝 시점에 실행되는 Callback 함수 입니다.
+
+`onBeforeChange` & `onAfterChange` 예제
+
+```tsx
+import {
+  FullpageContainer,
+  FullpageSection,
+} from '@shinyongjun/react-fullpage';
+
+function ExampleComponent() {
+  return (
+    <FullpageContainer
+      onBeforeChange={(beforeIndex, afterIndex) => {
+        console.log('before', beforeIndex, afterIndex);
+      }}
+      onAfterChange={(beforeIndex, afterIndex) => {
+        console.log('after', beforeIndex, afterIndex);
+      }}
+    >
+      <FullpageSection>
+        <div>Section 1</div>
+      </FullpageSection>
+      <FullpageSection>
+        <div>Section 2</div>
+      </FullpageSection>
+      <FullpageSection>
+        <div>Section 3</div>
+      </FullpageSection>
+      <FullpageSection isAutoHeight>
+        <footer>Footer</footer>
+      </FullpageSection>
+    </FullpageContainer>
+  );
+}
+
+export default ExampleComponent;
+```
 
 ## FullpageSection Props
 
-| name         | Type    | default | Parameter | description                                                                                              |
-| ------------ | ------- | ------- | --------- | -------------------------------------------------------------------------------------------------------- |
-| name         | string  |         |           | 렌더링 시 url의 hash(#)와 일치하는 name 섹션으로 이동합니다.<br />(렌더링 후 hash는 url에서 사라집니다.) |
-| isAutoHeight | boolean |         |           | true일 때 height 값이 auto 가 됩니다. (주로 Footer에 사용합니다.)                                        |
+### `name`
+
+**Type** : `string`
+**Description** : 렌더링 시 url의 hash(#)와 일치하는 name 섹션으로 이동합니다.<br />(렌더링 후 hash는 url에서 사라집니다.)
+
+### `isAutoHeight`
+
+**Type** : `boolean`
+**Description** : true일 때 height 값이 auto 가 됩니다. (주로 Footer에 사용합니다.)
 
 ## License
 

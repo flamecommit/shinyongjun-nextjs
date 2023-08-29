@@ -6,12 +6,14 @@ import {
   FullpageSection,
 } from '@shinyongjun/react-fullpage';
 import { useState } from 'react';
+import PackageReactFullpageHeader from './Header';
 
 function PackageReactFullpageExample() {
   const [controlIndex, setControlIndex] = useState<number>(0);
 
   return (
     <StyledPackageReactFullpageExample>
+      <PackageReactFullpageHeader />
       <FullpageContainer
         controlIndex={controlIndex}
         setControlIndex={setControlIndex}
@@ -43,21 +45,21 @@ function PackageReactFullpageExample() {
       <div className="fullpage-controller">
         <button
           type="button"
-          className={`${controlIndex === 0 && 'active'}`}
+          className={`${controlIndex === 0 ? 'active' : ''}`}
           onClick={() => setControlIndex(0)}
         >
           1
         </button>
         <button
           type="button"
-          className={`${controlIndex === 1 && 'active'}`}
+          className={`${controlIndex === 1 ? 'active' : ''}`}
           onClick={() => setControlIndex(1)}
         >
           2
         </button>
         <button
           type="button"
-          className={`${controlIndex === 2 && 'active'}`}
+          className={`${controlIndex === 2 ? 'active' : ''}`}
           onClick={() => setControlIndex(2)}
         >
           3

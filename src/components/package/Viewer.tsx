@@ -3,7 +3,6 @@
 import styled from 'styled-components';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { device } from '@/styles/mixin';
-import { config } from '@/styles/config';
 import MdxContents from '../mdx/Contents';
 
 interface Props {
@@ -25,7 +24,7 @@ function PackageDocumentViewer({ documentData }: Props) {
 }
 
 const StyledPackageDocumentViewer = styled.div`
-  padding: 50px;
+  padding: 100px 50px 50px;
   min-height: 100vh;
   background-color: #f6f8fa;
   .mdx-contents {
@@ -33,6 +32,12 @@ const StyledPackageDocumentViewer = styled.div`
     table {
       table-layout: fixed;
       width: 100%;
+    }
+  }
+  @media ${device.mobile} {
+    padding: 48px 0 0;
+    .mdx-contents {
+      padding: 20px;
     }
   }
 `;

@@ -1,4 +1,5 @@
 import PackageDocumentViewer from '@/components/package/Viewer';
+import PackageReactFullpageHeader from '@/components/package/react-fullpage/Header';
 import { getPackageDocument } from '@/services/mdx';
 
 async function PackageReactFullpageDocumentPage() {
@@ -8,6 +9,7 @@ async function PackageReactFullpageDocumentPage() {
 
   return (
     <>
+      <PackageReactFullpageHeader />
       <PackageDocumentViewer documentData={document} />
     </>
   );
