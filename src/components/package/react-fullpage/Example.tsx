@@ -5,11 +5,19 @@ import {
   FullpageContainer,
   FullpageSection,
 } from '@shinyongjun/react-fullpage';
+import { useState } from 'react';
 
 function PackageReactFullpageExample() {
+  const [controlIndex, setControlIndex] = useState<number>(0);
+
   return (
     <StyledPackageReactFullpageExample>
-      <FullpageContainer>
+      <FullpageContainer
+        controlIndex={controlIndex}
+        onBeforeChange={(beforeIndex, afterIndex) => {
+          setControlIndex(afterIndex);
+        }}
+      >
         <FullpageSection>
           <div className="section first">
             Welcome @shinyongjun/react-fullpage
@@ -24,7 +32,6 @@ function PackageReactFullpageExample() {
                 .map((i, index) => {
                   return <div key={index}>↓</div>;
                 })}
-              <div>1</div>
             </div>
           </div>
         </FullpageSection>
@@ -35,6 +42,29 @@ function PackageReactFullpageExample() {
           <div className="section footer">Footer Section</div>
         </FullpageSection>
       </FullpageContainer>
+      <div className="fullpage-controller">
+        <button
+          type="button"
+          className={`${controlIndex === 0 && 'active'}`}
+          onClick={() => setControlIndex(0)}
+        >
+          1
+        </button>
+        <button
+          type="button"
+          className={`${controlIndex === 1 && 'active'}`}
+          onClick={() => setControlIndex(1)}
+        >
+          2
+        </button>
+        <button
+          type="button"
+          className={`${controlIndex === 2 && 'active'}`}
+          onClick={() => setControlIndex(2)}
+        >
+          3
+        </button>
+      </div>
     </StyledPackageReactFullpageExample>
   );
 }
@@ -57,6 +87,26 @@ const StyledPackageReactFullpageExample = styled.div`
     &.footer {
       height: 200px;
       background-color: #7374eb;
+    }
+  }
+  .fullpage-controller {
+    display: grid;
+    row-gap: 6px;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    button {
+      display: block;
+      font-size: 0;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #7d4e9f;
+      opacity: 0.3;
+      &.active {
+        opacity: 1;
+      }
     }
   }
 `;
