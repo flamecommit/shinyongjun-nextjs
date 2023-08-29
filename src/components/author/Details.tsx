@@ -18,6 +18,7 @@ import { device } from '@/styles/mixin';
 import PageLink from '../page/Link';
 import { roboto } from '@/styles/fonts';
 import { config } from '@/styles/config';
+import Link from 'next/link';
 
 function AuthorDetails() {
   return (
@@ -127,6 +128,9 @@ function AuthorDetails() {
               <ImNpm style={{ color: '#CB0303' }} />
               @shinyongjun/react-fullpage (2023)
             </a>
+            <Link className="demo" href="/package/react-fullpage">
+              Demo
+            </Link>
           </div>
         </div>
       </section>
@@ -203,6 +207,8 @@ const StyledAuthorDetails = styled.div`
     row-gap: 12px;
     max-width: 600px;
     .package {
+      display: flex;
+      column-gap: 9px;
       a {
         display: inline-flex;
         align-items: center;
@@ -217,6 +223,9 @@ const StyledAuthorDetails = styled.div`
           color: ${config.hoverText};
           text-decoration: underline;
         }
+      }
+      .demo {
+        font-weight: 500;
       }
     }
   }

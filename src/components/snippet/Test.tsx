@@ -1,29 +1,13 @@
 'use client';
 
 import styled from 'styled-components';
-import {
-  FullpageContainer,
-  FullpageSection,
-} from '@shinyongjun/react-fullpage';
+import { FullpageWrapper, FullpageSection } from '@shinyongjun/test';
 
 function SnippetTest() {
   return (
     <StyledSnippetTest>
-      <div>teset</div>
-      <FullpageContainer>
-        <FullpageSection>
-          <div>1</div>
-        </FullpageSection>
-        <FullpageSection>
-          <div>1</div>
-        </FullpageSection>
-        <FullpageSection>
-          <div>1</div>
-        </FullpageSection>
-        <FullpageSection>
-          <div>1</div>
-        </FullpageSection>
-      </FullpageContainer>
+      <FullpageWrapper />
+      <FullpageSection />
     </StyledSnippetTest>
   );
 }
