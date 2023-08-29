@@ -14,9 +14,7 @@ function PackageReactFullpageExample() {
     <StyledPackageReactFullpageExample>
       <FullpageContainer
         controlIndex={controlIndex}
-        onBeforeChange={(beforeIndex, afterIndex) => {
-          setControlIndex(afterIndex);
-        }}
+        setControlIndex={setControlIndex}
       >
         <FullpageSection>
           <div className="section first">
