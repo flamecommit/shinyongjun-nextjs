@@ -1,15 +1,16 @@
 1:HL["/_next/static/css/a8432a49c2a6ac20.css",{"as":"style"}]
-0:["EAvZ2LCrHIQvXAzcNxDfF",[[["",{"children":["package",{"children":["react-fullpage",{"children":["document",{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next"}]],"$L3"]]]]
+0:["9zzaNN5MMPEZWsoWRcKJ7",[[["",{"children":["package",{"children":["react-fullpage",{"children":["document",{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next"}]],"$L3"]]]]
 4:HL["/_next/static/css/6811f05884bfe76f.css",{"as":"style"}]
-5:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-de7ba8c15e013f76.js"],"name":"","async":false}
-6:I{"id":5681,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-de7ba8c15e013f76.js"],"name":"","async":false}
-7:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","198:static/chunks/198-1bbd926b6e0bef71.js","663:static/chunks/663-6acad380889a82c6.js","185:static/chunks/app/layout-de7ba8c15e013f76.js"],"name":"","async":false}
+5:I{"id":3015,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","979:static/chunks/979-b8dbd20b56cbf316.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-d03f823cc1fd7fbb.js"],"name":"","async":false}
+6:I{"id":5681,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","979:static/chunks/979-b8dbd20b56cbf316.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-d03f823cc1fd7fbb.js"],"name":"","async":false}
+7:I{"id":1744,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","979:static/chunks/979-b8dbd20b56cbf316.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-d03f823cc1fd7fbb.js"],"name":"","async":false}
 8:I{"id":7767,"chunks":["272:static/chunks/webpack-8d671973a9338063.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 9:I{"id":7920,"chunks":["272:static/chunks/webpack-8d671973a9338063.js","971:static/chunks/fd9d1056-158bd2a597018d29.js","596:static/chunks/596-eabdfb18d38341e5.js"],"name":"default","async":false}
 2:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L5",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L5",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]]]}],["$","body",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children","package","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children","package","children","react-fullpage","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L8",null,{"parallelRouterKey":"children","segmentPath":["children","package","children","react-fullpage","children","document","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$La",null],"segment":"__PAGE__"},"styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/6811f05884bfe76f.css","precedence":"next"}]]}],"segment":"document"},"styles":[]}],"segment":"react-fullpage"},"styles":[]}],"segment":"package"},"styles":[]}]}]}]}]]}],null]
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"신용준 | Tech & Music Archive"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"신용준 | Tech & Music Archive"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"신용준 | Tech & Music Archive"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
-b:I{"id":3415,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","523:static/chunks/523-342c752ac1aa04af.js","890:static/chunks/app/package/react-fullpage/document/page-89b43dcd6147dcdc.js"],"name":"","async":false}
-c:T2d42,/*@jsxRuntime automatic @jsxImportSource react*/
+b:I{"id":8462,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","523:static/chunks/523-342c752ac1aa04af.js","890:static/chunks/app/package/react-fullpage/document/page-1d954531ce05a2f6.js"],"name":"","async":false}
+c:I{"id":3415,"chunks":["576:static/chunks/576-3a4a1c7f09f7f0ae.js","396:static/chunks/396-7c70254e7292304b.js","523:static/chunks/523-342c752ac1aa04af.js","890:static/chunks/app/package/react-fullpage/document/page-1d954531ce05a2f6.js"],"name":"","async":false}
+d:T7d9f,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -22,12 +23,9 @@ function _createMdxContent(props) {
     h2: "h2",
     pre: "pre",
     span: "span",
-    table: "table",
-    thead: "thead",
-    tr: "tr",
-    th: "th",
-    tbody: "tbody",
-    td: "td"
+    h3: "h3",
+    strong: "strong",
+    br: "br"
   }, _provideComponents(), props.components);
   return _jsxs(_Fragment, {
     children: [_jsx(_components.h1, {
@@ -219,76 +217,585 @@ function _createMdxContent(props) {
       })
     }), "\n", _jsx(_components.h2, {
       children: "FullpageContainer Props"
-    }), "\n", _jsxs(_components.table, {
-      children: [_jsx(_components.thead, {
-        children: _jsxs(_components.tr, {
-          children: [_jsx(_components.th, {
-            children: "name"
-          }), _jsx(_components.th, {
-            children: "Type"
-          }), _jsx(_components.th, {
-            children: "default"
-          }), _jsx(_components.th, {
-            children: "Parameter"
-          }), _jsx(_components.th, {
-            children: "description"
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "controlIndex"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "Type"
+      }), " : ", _jsx(_components.code, {
+        children: "number"
+      }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
+        children: "Description"
+      }), " : 외부에서 Fullpage를 조작하는 데 사용됩니다."]
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "setControlIndex"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "Type"
+      }), " : ", _jsx(_components.code, {
+        children: "function"
+      }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
+        children: "Description"
+      }), " : 사용 시 ", _jsx(_components.code, {
+        children: "activeIndex"
+      }), " 와 ", _jsx(_components.code, {
+        children: "controlIndex"
+      }), " 가 동기화 됩니다."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.code, {
+        children: "controlIndex"
+      }), " & ", _jsx(_components.code, {
+        children: "setControlIndex"
+      }), " 예제"]
+    }), "\n", _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-tsx",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " {\r\n  ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "FullpageContainer"
+        }), ",\r\n  ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "FullpageSection"
+        }), ",\r\n} ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'@shinyongjun/react-fullpage'"
+        }), ";\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { useState } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'react'"
+        }), ";\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "function"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "ExampleComponent"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-params"
+        }), ") {\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " [controlIndex, setControlIndex] = useState<", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "number"
+        }), ">(", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "0"
+        }), ");\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "return"
+        }), " (\r\n    ", _jsxs(_components.span, {
+          className: "xml",
+          children: [_jsx(_components.span, {
+            className: "hljs-tag",
+            children: "<>"
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageContainer"
+            }), "\r\n        ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "controlIndex"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{controlIndex}"
+            }), "\r\n        ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "setControlIndex"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{setControlIndex}"
+            }), "\r\n      >"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n          ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "Section 1", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n          ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "Section 2", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n          ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "Section 3", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), " ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "isAutoHeight"
+            }), ">"]
+          }), "\r\n          ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "footer"
+            }), ">"]
+          }), "Footer", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "footer"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageContainer"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), " ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "className"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "\"controller\""
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "button"
+            }), "\r\n          ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "type"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "\"button\""
+            }), "\r\n          ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "className"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{"
+            }), "`${", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "controlIndex"
+            }), " === ", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "0"
+            }), " ? '", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "active"
+            }), "' ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: ":"
+            }), " ''}`}\r\n          ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "onClick"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{()"
+            }), " =>"]
+          }), " setControlIndex(0)}\r\n        >\r\n          1\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "button"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "button"
+            }), "\r\n          ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "type"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "\"button\""
+            }), "\r\n          ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "className"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{"
+            }), "`${", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "controlIndex"
+            }), " === ", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "1"
+            }), " ? '", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "active"
+            }), "' ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: ":"
+            }), " ''}`}\r\n          ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "onClick"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{()"
+            }), " =>"]
+          }), " setControlIndex(1)}\r\n        >\r\n          2\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "button"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "button"
+            }), "\r\n          ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "type"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "\"button\""
+            }), "\r\n          ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "className"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{"
+            }), "`${", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "controlIndex"
+            }), " === ", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "2"
+            }), " ? '", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "active"
+            }), "' ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: ":"
+            }), " ''}`}\r\n          ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "onClick"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{()"
+            }), " =>"]
+          }), " setControlIndex(2)}\r\n        >\r\n          3\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "button"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "\r\n    ", _jsx(_components.span, {
+            className: "hljs-tag",
+            children: "</>"
           })]
-        })
-      }), _jsxs(_components.tbody, {
-        children: [_jsxs(_components.tr, {
-          children: [_jsx(_components.td, {
-            children: "onBeforeChange"
-          }), _jsx(_components.td, {}), _jsx(_components.td, {}), _jsx(_components.td, {
-            children: "beforeIndex, afterIndex"
-          }), _jsx(_components.td, {
-            children: "Fullpage 전환 시작 시점에 실행하는 Callback 함수 입니다."
+        }), "\r\n  );\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "default"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "ExampleComponent"
+        }), ";\n"]
+      })
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "onBeforeChange(beforeIndex, afterIndex)"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "Description"
+      }), " : Fullpage 전환 시작 시점에 실행되는 Callback 함수 입니다."]
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "onAfterChange(beforeIndex, afterIndex)"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "Description"
+      }), " : Fullpage 전환 끝 시점에 실행되는 Callback 함수 입니다."]
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.code, {
+        children: "onBeforeChange"
+      }), " & ", _jsx(_components.code, {
+        children: "onAfterChange"
+      }), " 예제"]
+    }), "\n", _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-tsx",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " {\r\n  ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "FullpageContainer"
+        }), ",\r\n  ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "FullpageSection"
+        }), ",\r\n} ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'@shinyongjun/react-fullpage'"
+        }), ";\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "function"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "ExampleComponent"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-params"
+        }), ") {\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "return"
+        }), " (\r\n    ", _jsxs(_components.span, {
+          className: "xml",
+          children: [_jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageContainer"
+            }), "\r\n      ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "onBeforeChange"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{(beforeIndex,"
+            }), " ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "afterIndex"
+            }), ") =>"]
+          }), " {\r\n        console.log('before', beforeIndex, afterIndex);\r\n      }}\r\n      onAfterChange={(beforeIndex, afterIndex) => {\r\n        console.log('after', beforeIndex, afterIndex);\r\n      }}\r\n    >\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "Section 1", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "Section 2", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "Section 3", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "div"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), " ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "isAutoHeight"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "footer"
+            }), ">"]
+          }), "Footer", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "footer"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageSection"
+            }), ">"]
+          }), "\r\n    ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "FullpageContainer"
+            }), ">"]
           })]
-        }), _jsxs(_components.tr, {
-          children: [_jsx(_components.td, {
-            children: "onAfterChange"
-          }), _jsx(_components.td, {}), _jsx(_components.td, {}), _jsx(_components.td, {
-            children: "beforeIndex, afterIndex"
-          }), _jsx(_components.td, {
-            children: "Fullpage 전환 끝 시점에 실행하는 Callback 함수 입니다."
-          })]
-        })]
-      })]
+        }), "\r\n  );\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "default"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "ExampleComponent"
+        }), ";\n"]
+      })
     }), "\n", _jsx(_components.h2, {
       children: "FullpageSection Props"
-    }), "\n", _jsxs(_components.table, {
-      children: [_jsx(_components.thead, {
-        children: _jsxs(_components.tr, {
-          children: [_jsx(_components.th, {
-            children: "name"
-          }), _jsx(_components.th, {
-            children: "Type"
-          }), _jsx(_components.th, {
-            children: "default"
-          }), _jsx(_components.th, {
-            children: "Parameter"
-          }), _jsx(_components.th, {
-            children: "description"
-          })]
-        })
-      }), _jsxs(_components.tbody, {
-        children: [_jsxs(_components.tr, {
-          children: [_jsx(_components.td, {
-            children: "name"
-          }), _jsx(_components.td, {
-            children: "string"
-          }), _jsx(_components.td, {}), _jsx(_components.td, {}), _jsxs(_components.td, {
-            children: ["렌더링 시 url의 hash(#)와 일치하는 name 섹션으로 이동합니다.", _jsx("br", {}), "(렌더링 후 hash는 url에서 사라집니다.)"]
-          })]
-        }), _jsxs(_components.tr, {
-          children: [_jsx(_components.td, {
-            children: "isAutoHeight"
-          }), _jsx(_components.td, {
-            children: "boolean"
-          }), _jsx(_components.td, {}), _jsx(_components.td, {}), _jsx(_components.td, {
-            children: "true일 때 height 값이 auto 가 됩니다. (주로 Footer에 사용합니다.)"
-          })]
-        })]
-      })]
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "name"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "Type"
+      }), " : ", _jsx(_components.code, {
+        children: "string"
+      }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
+        children: "Description"
+      }), " : 렌더링 시 url의 hash(#)와 일치하는 name 섹션으로 이동합니다.", _jsx("br", {}), "(렌더링 후 hash는 url에서 사라집니다.)"]
+    }), "\n", _jsx(_components.h3, {
+      children: _jsx(_components.code, {
+        children: "isAutoHeight"
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.strong, {
+        children: "Type"
+      }), " : ", _jsx(_components.code, {
+        children: "boolean"
+      }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
+        children: "Description"
+      }), " : true일 때 height 값이 auto 가 됩니다. (주로 Footer에 사용합니다.)"]
     }), "\n", _jsx(_components.h2, {
       children: "License"
     }), "\n", _jsx(_components.p, {
@@ -305,4 +812,4 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-a:["$","$Lb",null,{"documentData":{"mdx":{"compiledSource":"$c","frontmatter":{},"scope":{}}}}]
+a:[["$","$Lb",null,{}],["$","$Lc",null,{"documentData":{"mdx":{"compiledSource":"$d","frontmatter":{},"scope":{}}}}]]
