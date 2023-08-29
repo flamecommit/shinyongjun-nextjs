@@ -1,16 +1,31 @@
 'use client';
 
+import { usePathname } from 'next/navigation';
 import styled from 'styled-components';
 import Link from 'next/link';
 import { device } from '@/styles/mixin';
 import { config } from '@/styles/config';
 
 function PackageReactFullpageHeader() {
+  const pathname = usePathname();
+
   return (
     <StyledPackageReactFullpageHeader>
       <div className="gnb">
-        <Link href="/package/react-fullpage/document">API</Link>
-        <Link href="/package/react-fullpage">DEMO</Link>
+        <Link
+          className={`${
+            pathname === '/package/react-fullpage/document' && 'active'
+          }`}
+          href="/package/react-fullpage/document"
+        >
+          API
+        </Link>
+        <Link
+          className={`${pathname === '/package/react-fullpage' && 'active'}`}
+          href="/package/react-fullpage"
+        >
+          DEMO
+        </Link>
       </div>
     </StyledPackageReactFullpageHeader>
   );
@@ -43,7 +58,10 @@ const StyledPackageReactFullpageHeader = styled.header`
     a {
       &:hover {
         color: ${config.hoverText};
-        text-decoration: underline;
+      }
+      &.active {
+        font-weight: 700;
+        color: ${config.hoverText};
       }
     }
   }

@@ -128,7 +128,10 @@ function AuthorDetails() {
               <ImNpm style={{ color: '#CB0303' }} />
               @shinyongjun/react-fullpage (2023)
             </a>
-            <Link className="demo" href="/package/react-fullpage">
+            <Link className="link" href="/package/react-fullpage/document">
+              API
+            </Link>
+            <Link className="link" href="/package/react-fullpage">
               Demo
             </Link>
           </div>
@@ -224,7 +227,7 @@ const StyledAuthorDetails = styled.div`
           text-decoration: underline;
         }
       }
-      .demo {
+      .link {
         font-weight: 500;
       }
     }

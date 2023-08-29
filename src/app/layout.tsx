@@ -3,6 +3,7 @@ import StyledComponentsRegistry from '@/styles/registry';
 import RootProvider from '@/stores/provider';
 import GoogleAnalytics from '@/components/config/GoogleAnalytics';
 import Favicon from '@/components/config/Favicon';
+import PathTracker from '@/components/config/PathTracker';
 
 interface Props {
   children: React.ReactNode;
@@ -35,6 +36,7 @@ function RootLayout({ children }: Props) {
       </head>
       <body>
         <RootProvider>
+          <PathTracker />
           <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
         </RootProvider>
       </body>
