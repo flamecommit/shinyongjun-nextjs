@@ -5,6 +5,7 @@ import { prism } from '@/styles/prism';
 import { markdown } from '@/styles/markdown';
 import { device } from '@/styles/mixin';
 import { config } from '@/styles/config';
+import { pretendard, roboto } from '@/styles/fonts';
 
 interface Props {
   children: React.ReactNode;
@@ -33,6 +34,9 @@ line-height: 1.8;
     font-size: 12px;
   }
   code {
+    font-family: Consolas, ${roboto.style.fontFamily},
+      ${pretendard.style.fontFamily};
+    font-weight: 400;
     display: inline-block;
     font-size: 14px;
     line-height: 1.5em;
