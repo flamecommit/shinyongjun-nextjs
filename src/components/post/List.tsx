@@ -8,8 +8,12 @@ import CategoryItem from '../category/Item';
 import { config } from '@/styles/config';
 import { IPost } from '@/types/post';
 
+interface IPostItem extends IPost {
+  seriesId: number | undefined;
+}
+
 type Props = {
-  postList: IPost[];
+  postList: IPostItem[];
 };
 
 function PostList({ postList }: Props) {
@@ -18,10 +22,14 @@ function PostList({ postList }: Props) {
       {postList.map((post) => {
         return (
           <div key={post.slug} className="post-item">
-            {post.series && <div className="series"># {post.series}</div>}
-            <Link href={`/post/${post.slug}`} className="title">
-              {post.title}
-            </Link>
+            {post.seriesId && (
+              <div className="series">
+                <Link href={`/series/${post.seriesId}`}># {post.series}</Link>
+              </div>
+            )}
+            <div className="title">
+              <Link href={`/post/${post.slug}`}>{post.title}</Link>
+            </div>
             <div className="date">
               {getFormatDatetime(post.date, 'YYYY-MM-DD')}
             </div>
@@ -51,12 +59,22 @@ const StyledPostList = styled.div`
     &:first-child {
       border-top: 1px solid #dddddd;
     }
+    .series {
+      a {
+        &:hover {
+          text-decoration: underline;
+          color: ${config.hoverText};
+        }
+      }
+    }
     .title {
-      font-weight: 500;
-      font-size: 20px;
-      &:hover {
-        text-decoration: underline;
-        color: ${config.hoverText};
+      a {
+        font-weight: 500;
+        font-size: 20px;
+        &:hover {
+          text-decoration: underline;
+          color: ${config.hoverText};
+        }
       }
     }
     .date {
@@ -77,7 +95,9 @@ const StyledPostList = styled.div`
         font-size: 14px;
       }
       .title {
-        font-size: 16px;
+        a {
+          font-size: 16px;
+        }
       }
       .date {
         margin-top: 4px;
