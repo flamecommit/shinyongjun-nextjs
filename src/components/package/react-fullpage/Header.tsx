@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import Link from 'next/link';
 import { device } from '@/styles/mixin';
 import { config } from '@/styles/config';
+import { roboto } from '@/styles/fonts';
 
 function PackageReactFullpageHeader() {
   const pathname = usePathname();
@@ -56,6 +57,7 @@ const StyledPackageReactFullpageHeader = styled.header`
       height: 27px;
     }
     a {
+      font-family: ${roboto.style.fontFamily};
       &:hover {
         color: ${config.hoverText};
       }
