@@ -8,12 +8,8 @@ import CategoryItem from '../category/Item';
 import { config } from '@/styles/config';
 import { IPost } from '@/types/post';
 
-interface IPostItem extends IPost {
-  seriesId: number | undefined;
-}
-
 type Props = {
-  postList: IPostItem[];
+  postList: IPost[];
 };
 
 function PostList({ postList }: Props) {
@@ -22,11 +18,7 @@ function PostList({ postList }: Props) {
       {postList.map((post) => {
         return (
           <div key={post.slug} className="post-item">
-            {post.seriesId && (
-              <div className="series">
-                <Link href={`/series/${post.seriesId}`}># {post.series}</Link>
-              </div>
-            )}
+            {post.series && <div className="series">{post.series}</div>}
             <div className="title">
               <Link href={`/post/${post.slug}`}>{post.title}</Link>
             </div>
