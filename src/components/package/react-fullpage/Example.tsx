@@ -6,14 +6,12 @@ import {
   FullpageSection,
 } from '@shinyongjun/react-fullpage';
 import { useState } from 'react';
-import PackageReactFullpageHeader from './Header';
 
 function PackageReactFullpageExample() {
   const [activeIndex, setActiveIndex] = useState<number>(0);
 
   return (
     <StyledPackageReactFullpageExample>
-      <PackageReactFullpageHeader />
       <FullpageContainer
         activeIndex={activeIndex}
         setActiveIndex={setActiveIndex}
