@@ -24,11 +24,14 @@ function PackageDocumentViewer({ documentData }: Props) {
 }
 
 const StyledPackageDocumentViewer = styled.div`
-  padding: 100px 50px 50px;
+  padding: 60px 50px 50px;
   min-height: 100vh;
   background-color: #f6f8fa;
   .mdx-contents {
-    padding: 30px 50px;
+    width: 768px;
+    max-width: 100%;
+    padding: 36px;
+    margin: 60px auto;
     table {
       table-layout: fixed;
       width: 100%;
@@ -38,6 +41,7 @@ const StyledPackageDocumentViewer = styled.div`
     padding: 48px 0 0;
     .mdx-contents {
       padding: 20px;
+      margin: 0;
     }
   }
 `;

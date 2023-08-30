@@ -53,14 +53,13 @@ export default ExampleComponent;
 **Type** : `function`
 **Description** : 사용 시 `activeIndex` 와 `controlIndex` 가 동기화 됩니다.
 
-`controlIndex` & `setControlIndex` 예제
-
 ```tsx
+// controlIndex & setControlIndex 예제
+import { useState } from 'react';
 import {
   FullpageContainer,
   FullpageSection,
 } from '@shinyongjun/react-fullpage';
-import { useState } from 'react';
 
 function ExampleComponent() {
   const [controlIndex, setControlIndex] = useState<number>(0);
@@ -114,17 +113,18 @@ function ExampleComponent() {
 export default ExampleComponent;
 ```
 
-### `onBeforeChange(beforeIndex, afterIndex)`
+### `onBeforeChange`
 
+**Argument** : `beforeIndex: number`, `afterIndex: number`
 **Description** : Fullpage 전환 시작 시점에 실행되는 Callback 함수 입니다.
 
-### `onAfterChange(beforeIndex, afterIndex)`
+### `onAfterChange`
 
+**Argument** : `beforeIndex: number`, `afterIndex: number`
 **Description** : Fullpage 전환 끝 시점에 실행되는 Callback 함수 입니다.
 
-`onBeforeChange` & `onAfterChange` 예제
-
 ```tsx
+// onBeforeChange & onAfterChange 예제
 import {
   FullpageContainer,
   FullpageSection,
@@ -170,7 +170,3 @@ export default ExampleComponent;
 
 **Type** : `boolean`
 **Description** : true일 때 height 값이 auto 가 됩니다. (주로 Footer에 사용합니다.)
-
-## License
-
-MIT Licensed. Copyright (c) 2023-present Shinyongjun.
