@@ -9,14 +9,14 @@ import { useState } from 'react';
 import PackageReactFullpageHeader from './Header';
 
 function PackageReactFullpageExample() {
-  const [controlIndex, setControlIndex] = useState<number>(0);
+  const [activeIndex, setActiveIndex] = useState<number>(0);
 
   return (
     <StyledPackageReactFullpageExample>
       <PackageReactFullpageHeader />
       <FullpageContainer
-        controlIndex={controlIndex}
-        setControlIndex={setControlIndex}
+        activeIndex={activeIndex}
+        setActiveIndex={setActiveIndex}
       >
         <FullpageSection>
           <div className="section first">
@@ -45,22 +45,22 @@ function PackageReactFullpageExample() {
       <div className="fullpage-controller">
         <button
           type="button"
-          className={`${controlIndex === 0 ? 'active' : ''}`}
-          onClick={() => setControlIndex(0)}
+          className={`${activeIndex === 0 ? 'active' : ''}`}
+          onClick={() => setActiveIndex(0)}
         >
           1
         </button>
         <button
           type="button"
-          className={`${controlIndex === 1 ? 'active' : ''}`}
-          onClick={() => setControlIndex(1)}
+          className={`${activeIndex === 1 ? 'active' : ''}`}
+          onClick={() => setActiveIndex(1)}
         >
           2
         </button>
         <button
           type="button"
-          className={`${controlIndex === 2 ? 'active' : ''}`}
-          onClick={() => setControlIndex(2)}
+          className={`${activeIndex === 2 ? 'active' : ''}`}
+          onClick={() => setActiveIndex(2)}
         >
           3
         </button>

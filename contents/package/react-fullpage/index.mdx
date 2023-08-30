@@ -1,6 +1,9 @@
 # React Fullpage
 
-`React-fullpage` is a React Component library inspired by [fullpage.js](https://github.com/alvarotrigo/fullPage.js). It is characterized by its light size because it contains only key functions. [Demo](https://shinyongjun.com/package/react-fullpage)
+This is a Fullpage library that operates in React.
+
+[Issues](https://github.com/shinyj1991/react-fullpage/issues)
+[NPM](https://www.npmjs.com/package/@shinyongjun/react-fullpage)
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fshinyj1991%2Freact-fullpage&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
@@ -14,14 +17,20 @@ yarn add @shinyongjun/react-fullpage
 There are two types of components: `FullpageContainer` and `FullpageSection`.
 
 ```tsx
+import { useState } from 'react';
 import {
   FullpageContainer,
   FullpageSection,
 } from '@shinyongjun/react-fullpage';
 
 function ExampleComponent() {
+  const [activeIndex, setActiveIndex] = useState<number>(0);
+
   return (
-    <FullpageContainer>
+    <FullpageContainer
+      activeIndex={activeIndex}
+      setActiveIndex={setActiveIndex}
+    >
       <FullpageSection>
         <div>Section 1</div>
       </FullpageSection>
@@ -43,18 +52,19 @@ export default ExampleComponent;
 
 ## FullpageContainer Props
 
-### `controlIndex`
+### `activeIndex`
 
+**required** : `true`
 **Type** : `number`
-**Description** : 외부에서 Fullpage를 조작하는 데 사용됩니다.
+**Description** : index of activeSection.
 
-### `setControlIndex`
+### `setActiveIndex`
 
+**required** : `true`
 **Type** : `function`
-**Description** : 사용 시 `activeIndex` 와 `controlIndex` 가 동기화 됩니다.
+**Description** : set activeIndex.
 
 ```tsx
-// controlIndex & setControlIndex 예제
 import { useState } from 'react';
 import {
   FullpageContainer,
@@ -62,13 +72,13 @@ import {
 } from '@shinyongjun/react-fullpage';
 
 function ExampleComponent() {
-  const [controlIndex, setControlIndex] = useState<number>(0);
+  const [activeIndex, setActiveIndex] = useState<number>(0);
 
   return (
     <>
       <FullpageContainer
-        controlIndex={controlIndex}
-        setControlIndex={setControlIndex}
+        activeIndex={activeIndex}
+        setActiveIndex={setActiveIndex}
       >
         <FullpageSection>
           <div>Section 1</div>
@@ -86,22 +96,22 @@ function ExampleComponent() {
       <div className="controller">
         <button
           type="button"
-          className={`${controlIndex === 0 ? 'active' : ''}`}
-          onClick={() => setControlIndex(0)}
+          className={`${activeIndex === 0 ? 'active' : ''}`}
+          onClick={() => setActiveIndex(0)}
         >
           1
         </button>
         <button
           type="button"
-          className={`${controlIndex === 1 ? 'active' : ''}`}
-          onClick={() => setControlIndex(1)}
+          className={`${activeIndex === 1 ? 'active' : ''}`}
+          onClick={() => setActiveIndex(1)}
         >
           2
         </button>
         <button
           type="button"
-          className={`${controlIndex === 2 ? 'active' : ''}`}
-          onClick={() => setControlIndex(2)}
+          className={`${activeIndex === 2 ? 'active' : ''}`}
+          onClick={() => setActiveIndex(2)}
         >
           3
         </button>
@@ -116,23 +126,27 @@ export default ExampleComponent;
 ### `onBeforeChange`
 
 **Argument** : `beforeIndex: number`, `afterIndex: number`
-**Description** : Fullpage 전환 시작 시점에 실행되는 Callback 함수 입니다.
+**Description** : The callback that runs when you before a transition.
 
 ### `onAfterChange`
 
 **Argument** : `beforeIndex: number`, `afterIndex: number`
-**Description** : Fullpage 전환 끝 시점에 실행되는 Callback 함수 입니다.
+**Description** : The callback that runs when you after a transition.
 
 ```tsx
-// onBeforeChange & onAfterChange 예제
+import { useState } from 'react';
 import {
   FullpageContainer,
   FullpageSection,
 } from '@shinyongjun/react-fullpage';
 
 function ExampleComponent() {
+  const [activeIndex, setActiveIndex] = useState<number>(0);
+
   return (
     <FullpageContainer
+      activeIndex={activeIndex}
+      setActiveIndex={setActiveIndex}
       onBeforeChange={(beforeIndex, afterIndex) => {
         console.log('before', beforeIndex, afterIndex);
       }}
@@ -164,9 +178,9 @@ export default ExampleComponent;
 ### `name`
 
 **Type** : `string`
-**Description** : 렌더링 시 url의 hash(#)와 일치하는 name 섹션으로 이동합니다.<br />(렌더링 후 hash는 url에서 사라집니다.)
+**Description** : When rendering, it goes to the name section that matches the hash(#).<br />(After rendering, hash disappears from url.)
 
 ### `isAutoHeight`
 
 **Type** : `boolean`
-**Description** : true일 때 height 값이 auto 가 됩니다. (주로 Footer에 사용합니다.)
+**Description** : When true, the height value is auto. (Used primarily for Footer.)
