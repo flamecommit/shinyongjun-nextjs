@@ -3,23 +3,26 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 import { roboto } from '@/styles/fonts';
-import { useAppSelector } from '@/hooks/useRedux';
 import { device } from '@/styles/mixin';
 import { config } from '@/styles/config';
+import { usePathname } from 'next/navigation';
 
 function BaseGnb() {
-  const { categoryName } = useAppSelector((state) => state.core);
+  const pathname = usePathname();
 
   return (
     <StyledBaseGnb>
-      <Link className={`${!categoryName && 'active'}`} href="/">
+      <Link className={`${!pathname.split('/')[1] && 'active'}`} href="/">
         <img src="/images/symbol.webp" alt="" className="symbol" />
       </Link>
-      <Link className={`${categoryName === 'post' && 'active'}`} href="/post">
+      <Link
+        className={`${pathname.split('/')[1] === 'post' && 'active'}`}
+        href="/post"
+      >
         Post
       </Link>
       <Link
-        className={`${categoryName === 'snippet' && 'active'}`}
+        className={`${pathname.split('/')[1] === 'snippet' && 'active'}`}
         href="/snippet"
       >
         Snippet
@@ -30,7 +33,10 @@ function BaseGnb() {
       >
         Series
       </Link> */}
-      <Link className={`${categoryName === 'chord' && 'active'}`} href="/chord">
+      <Link
+        className={`${pathname.split('/')[1] === 'chord' && 'active'}`}
+        href="/chord"
+      >
         Chord
       </Link>
       {/* <Link className={`${categoryName === 'score' && 'active'}`} href="/score">
