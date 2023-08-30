@@ -123,6 +123,7 @@ function AuthorDetails() {
           <div className="package">
             <a
               href="https://www.npmjs.com/package/@shinyongjun/react-fullpage"
+              rel="noreferrer"
               target="_blank"
             >
               <ImNpm style={{ color: '#CB0303' }} />
@@ -141,13 +142,21 @@ function AuthorDetails() {
         <h3 className="section-title">Plugins</h3>
         <div className="package-list">
           <div className="package">
-            <a href="https://shinyj1991.github.io/eclipse" target="_blank">
+            <a
+              href="https://shinyj1991.github.io/eclipse"
+              rel="noreferrer"
+              target="_blank"
+            >
               <SiJquery style={{ color: '#1066A9' }} />
               Carousel - jQuery Plugin (2017)
             </a>
           </div>
           <div className="package">
-            <a href="https://shinyj1991.github.io/kronos" target="_blank">
+            <a
+              href="https://shinyj1991.github.io/kronos"
+              rel="noreferrer"
+              target="_blank"
+            >
               <SiJquery style={{ color: '#1066A9' }} />
               Datepicker - jQuery Plugin (2016)
             </a>

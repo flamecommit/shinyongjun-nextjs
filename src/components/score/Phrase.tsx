@@ -92,6 +92,7 @@ function ScorePhrase({ phrase, letterSpacing }: Props) {
     }
 
     setPhraseArray(temp);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [scoreState.capo]);
 
   return (

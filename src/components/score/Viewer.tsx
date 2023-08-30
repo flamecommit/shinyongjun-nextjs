@@ -67,6 +67,7 @@ function ScoreViewer({ scoreData }: Props) {
       dispatch(scoreActions.setCapo(0));
       dispatch(scoreActions.setComputedKey(0));
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
