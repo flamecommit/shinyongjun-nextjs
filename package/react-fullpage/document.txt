@@ -1,45 +1,45 @@
 1:HL["/_next/static/css/a8432a49c2a6ac20.css",{"as":"style"}]
-0:["pIivM_6AGF-BOZS4-Y4y2",[[["",{"children":["package",{"children":["react-fullpage",{"children":["document",{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next"}]],"$L3"]]]]
+0:["JmKecLAqSkXpARhSHUc0J",[[["",{"children":["package",{"children":["react-fullpage",{"children":["document",{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next"}]],"$L3"]]]]
 4:HL["/_next/static/css/6811f05884bfe76f.css",{"as":"style"}]
-5:I{"id":3015,"chunks":["576:static/chunks/576-3bcbac25f7cec408.js","979:static/chunks/979-7a78feeb6e3b9327.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-25ef2fbb324bd5b4.js"],"name":"","async":false}
-6:I{"id":5681,"chunks":["576:static/chunks/576-3bcbac25f7cec408.js","979:static/chunks/979-7a78feeb6e3b9327.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-25ef2fbb324bd5b4.js"],"name":"","async":false}
-7:I{"id":9079,"chunks":["576:static/chunks/576-3bcbac25f7cec408.js","979:static/chunks/979-7a78feeb6e3b9327.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-25ef2fbb324bd5b4.js"],"name":"","async":false}
-8:I{"id":1744,"chunks":["576:static/chunks/576-3bcbac25f7cec408.js","979:static/chunks/979-7a78feeb6e3b9327.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-25ef2fbb324bd5b4.js"],"name":"","async":false}
+5:I{"id":3015,"chunks":["576:static/chunks/576-3bcbac25f7cec408.js","979:static/chunks/979-7a78feeb6e3b9327.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-f7188ac38aadb43e.js"],"name":"","async":false}
+6:I{"id":5681,"chunks":["576:static/chunks/576-3bcbac25f7cec408.js","979:static/chunks/979-7a78feeb6e3b9327.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-f7188ac38aadb43e.js"],"name":"","async":false}
+7:I{"id":9079,"chunks":["576:static/chunks/576-3bcbac25f7cec408.js","979:static/chunks/979-7a78feeb6e3b9327.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-f7188ac38aadb43e.js"],"name":"","async":false}
+8:I{"id":1744,"chunks":["576:static/chunks/576-3bcbac25f7cec408.js","979:static/chunks/979-7a78feeb6e3b9327.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-f7188ac38aadb43e.js"],"name":"","async":false}
 9:I{"id":7767,"chunks":["272:static/chunks/webpack-8d671973a9338063.js","971:static/chunks/fd9d1056-87ebf21a46e61cc6.js","596:static/chunks/596-348cf86af2ee52f7.js"],"name":"default","async":false}
 a:I{"id":7920,"chunks":["272:static/chunks/webpack-8d671973a9338063.js","971:static/chunks/fd9d1056-87ebf21a46e61cc6.js","596:static/chunks/596-348cf86af2ee52f7.js"],"name":"default","async":false}
 2:[["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L5",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L5",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]]]}],["$","body",null,{"children":["$","$L6",null,{"children":[["$","$L7",null,{}],["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","package","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","package","children","react-fullpage","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","package","children","react-fullpage","children","document","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$La",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$Lb",null],"segment":"__PAGE__"},"styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/6811f05884bfe76f.css","precedence":"next"}]]}],"segment":"document"},"styles":[]}],"segment":"react-fullpage"},"styles":[]}],"segment":"package"},"styles":[]}]}]]}]}]]}],null]
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"신용준 | Tech & Music Archive"}],["$","meta","2",{"name":"description","content":"code도 치고 chord도 칩니다"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta","4",{"property":"og:title","content":"신용준 | Tech & Music Archive"}],["$","meta","5",{"property":"og:description","content":"code도 치고 chord도 칩니다"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"신용준 | Tech & Music Archive"}],["$","meta","11",{"name":"twitter:description","content":"code도 치고 chord도 칩니다"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
-c:I{"id":8462,"chunks":["576:static/chunks/576-3bcbac25f7cec408.js","396:static/chunks/396-e66466a8d2293de8.js","523:static/chunks/523-342c752ac1aa04af.js","890:static/chunks/app/package/react-fullpage/document/page-c6893f9d72ec6f77.js"],"name":"","async":false}
-d:I{"id":3415,"chunks":["576:static/chunks/576-3bcbac25f7cec408.js","396:static/chunks/396-e66466a8d2293de8.js","523:static/chunks/523-342c752ac1aa04af.js","890:static/chunks/app/package/react-fullpage/document/page-c6893f9d72ec6f77.js"],"name":"","async":false}
-e:T7e46,/*@jsxRuntime automatic @jsxImportSource react*/
+c:I{"id":8462,"chunks":["576:static/chunks/576-3bcbac25f7cec408.js","396:static/chunks/396-e66466a8d2293de8.js","523:static/chunks/523-342c752ac1aa04af.js","890:static/chunks/app/package/react-fullpage/document/page-d7cc364640b271f5.js"],"name":"","async":false}
+d:I{"id":3415,"chunks":["576:static/chunks/576-3bcbac25f7cec408.js","396:static/chunks/396-e66466a8d2293de8.js","523:static/chunks/523-342c752ac1aa04af.js","890:static/chunks/app/package/react-fullpage/document/page-d7cc364640b271f5.js"],"name":"","async":false}
+e:T86c2,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
   const _components = Object.assign({
     h1: "h1",
     p: "p",
-    code: "code",
     a: "a",
+    br: "br",
     img: "img",
     h2: "h2",
     pre: "pre",
+    code: "code",
     span: "span",
     h3: "h3",
-    strong: "strong",
-    br: "br"
+    strong: "strong"
   }, _provideComponents(), props.components);
   return _jsxs(_Fragment, {
     children: [_jsx(_components.h1, {
       children: "React Fullpage"
+    }), "\n", _jsx(_components.p, {
+      children: "This is a Fullpage library that operates in React."
     }), "\n", _jsxs(_components.p, {
-      children: [_jsx(_components.code, {
-        children: "React-fullpage"
-      }), " is a React Component library inspired by ", _jsx(_components.a, {
-        href: "https://github.com/alvarotrigo/fullPage.js",
-        children: "fullpage.js"
-      }), ". It is characterized by its light size because it contains only key functions. ", _jsx(_components.a, {
-        href: "https://shinyongjun.com/package/react-fullpage",
-        children: "Demo"
+      children: [_jsx(_components.a, {
+        href: "https://github.com/shinyj1991/react-fullpage/issues",
+        children: "Issues"
+      }), _jsx(_components.br, {}), "\n", _jsx(_components.a, {
+        href: "https://www.npmjs.com/package/@shinyongjun/react-fullpage",
+        children: "NPM"
       })]
     }), "\n", _jsx(_components.p, {
       children: _jsx(_components.a, {
@@ -68,6 +68,15 @@ function _createMdxContent(props) {
         children: [_jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
+        }), " { useState } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'react'"
+        }), ";\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
         }), " {\r\n  ", _jsx(_components.span, {
           className: "hljs-title class_",
           children: "FullpageContainer"
@@ -90,6 +99,15 @@ function _createMdxContent(props) {
           className: "hljs-params"
         }), ") {\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
+          children: "const"
+        }), " [activeIndex, setActiveIndex] = useState<", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "number"
+        }), ">(", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "0"
+        }), ");\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
           children: "return"
         }), " (\r\n    ", _jsxs(_components.span, {
           className: "xml",
@@ -98,7 +116,19 @@ function _createMdxContent(props) {
             children: ["<", _jsx(_components.span, {
               className: "hljs-name",
               children: "FullpageContainer"
-            }), ">"]
+            }), "\r\n      ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "activeIndex"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{activeIndex}"
+            }), "\r\n      ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "setActiveIndex"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{setActiveIndex}"
+            }), "\r\n    >"]
           }), "\r\n      ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["<", _jsx(_components.span, {
@@ -220,39 +250,40 @@ function _createMdxContent(props) {
       children: "FullpageContainer Props"
     }), "\n", _jsx(_components.h3, {
       children: _jsx(_components.code, {
-        children: "controlIndex"
+        children: "activeIndex"
       })
     }), "\n", _jsxs(_components.p, {
       children: [_jsx(_components.strong, {
+        children: "required"
+      }), " : ", _jsx(_components.code, {
+        children: "true"
+      }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
         children: "Type"
       }), " : ", _jsx(_components.code, {
         children: "number"
       }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
         children: "Description"
-      }), " : 외부에서 Fullpage를 조작하는 데 사용됩니다."]
+      }), " : index of activeSection."]
     }), "\n", _jsx(_components.h3, {
       children: _jsx(_components.code, {
-        children: "setControlIndex"
+        children: "setActiveIndex"
       })
     }), "\n", _jsxs(_components.p, {
       children: [_jsx(_components.strong, {
+        children: "required"
+      }), " : ", _jsx(_components.code, {
+        children: "true"
+      }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
         children: "Type"
       }), " : ", _jsx(_components.code, {
         children: "function"
       }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
         children: "Description"
-      }), " : 사용 시 ", _jsx(_components.code, {
-        children: "activeIndex"
-      }), " 와 ", _jsx(_components.code, {
-        children: "controlIndex"
-      }), " 가 동기화 됩니다."]
+      }), " : set activeIndex."]
     }), "\n", _jsx(_components.pre, {
       children: _jsxs(_components.code, {
         className: "hljs language-tsx",
         children: [_jsx(_components.span, {
-          className: "hljs-comment",
-          children: "// controlIndex & setControlIndex 예제"
-        }), "\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
         }), " { useState } ", _jsx(_components.span, {
@@ -287,7 +318,7 @@ function _createMdxContent(props) {
         }), ") {\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "const"
-        }), " [controlIndex, setControlIndex] = useState<", _jsx(_components.span, {
+        }), " [activeIndex, setActiveIndex] = useState<", _jsx(_components.span, {
           className: "hljs-built_in",
           children: "number"
         }), ">(", _jsx(_components.span, {
@@ -308,16 +339,16 @@ function _createMdxContent(props) {
               children: "FullpageContainer"
             }), "\r\n        ", _jsx(_components.span, {
               className: "hljs-attr",
-              children: "controlIndex"
+              children: "activeIndex"
             }), "=", _jsx(_components.span, {
               className: "hljs-string",
-              children: "{controlIndex}"
+              children: "{activeIndex}"
             }), "\r\n        ", _jsx(_components.span, {
               className: "hljs-attr",
-              children: "setControlIndex"
+              children: "setActiveIndex"
             }), "=", _jsx(_components.span, {
               className: "hljs-string",
-              children: "{setControlIndex}"
+              children: "{setActiveIndex}"
             }), "\r\n      >"]
           }), "\r\n        ", _jsxs(_components.span, {
             className: "hljs-tag",
@@ -455,7 +486,7 @@ function _createMdxContent(props) {
               children: "{"
             }), "`${", _jsx(_components.span, {
               className: "hljs-attr",
-              children: "controlIndex"
+              children: "activeIndex"
             }), " === ", _jsx(_components.span, {
               className: "hljs-string",
               children: "0"
@@ -472,7 +503,7 @@ function _createMdxContent(props) {
               className: "hljs-string",
               children: "{()"
             }), " =>"]
-          }), " setControlIndex(0)}\r\n        >\r\n          1\r\n        ", _jsxs(_components.span, {
+          }), " setActiveIndex(0)}\r\n        >\r\n          1\r\n        ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["</", _jsx(_components.span, {
               className: "hljs-name",
@@ -497,7 +528,7 @@ function _createMdxContent(props) {
               children: "{"
             }), "`${", _jsx(_components.span, {
               className: "hljs-attr",
-              children: "controlIndex"
+              children: "activeIndex"
             }), " === ", _jsx(_components.span, {
               className: "hljs-string",
               children: "1"
@@ -514,7 +545,7 @@ function _createMdxContent(props) {
               className: "hljs-string",
               children: "{()"
             }), " =>"]
-          }), " setControlIndex(1)}\r\n        >\r\n          2\r\n        ", _jsxs(_components.span, {
+          }), " setActiveIndex(1)}\r\n        >\r\n          2\r\n        ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["</", _jsx(_components.span, {
               className: "hljs-name",
@@ -539,7 +570,7 @@ function _createMdxContent(props) {
               children: "{"
             }), "`${", _jsx(_components.span, {
               className: "hljs-attr",
-              children: "controlIndex"
+              children: "activeIndex"
             }), " === ", _jsx(_components.span, {
               className: "hljs-string",
               children: "2"
@@ -556,7 +587,7 @@ function _createMdxContent(props) {
               className: "hljs-string",
               children: "{()"
             }), " =>"]
-          }), " setControlIndex(2)}\r\n        >\r\n          3\r\n        ", _jsxs(_components.span, {
+          }), " setActiveIndex(2)}\r\n        >\r\n          3\r\n        ", _jsxs(_components.span, {
             className: "hljs-tag",
             children: ["</", _jsx(_components.span, {
               className: "hljs-name",
@@ -596,7 +627,7 @@ function _createMdxContent(props) {
         children: "afterIndex: number"
       }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
         children: "Description"
-      }), " : Fullpage 전환 시작 시점에 실행되는 Callback 함수 입니다."]
+      }), " : The callback that runs when you before a transition."]
     }), "\n", _jsx(_components.h3, {
       children: _jsx(_components.code, {
         children: "onAfterChange"
@@ -610,14 +641,20 @@ function _createMdxContent(props) {
         children: "afterIndex: number"
       }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
         children: "Description"
-      }), " : Fullpage 전환 끝 시점에 실행되는 Callback 함수 입니다."]
+      }), " : The callback that runs when you after a transition."]
     }), "\n", _jsx(_components.pre, {
       children: _jsxs(_components.code, {
         className: "hljs language-tsx",
         children: [_jsx(_components.span, {
-          className: "hljs-comment",
-          children: "// onBeforeChange & onAfterChange 예제"
-        }), "\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { useState } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'react'"
+        }), ";\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
           children: "import"
         }), " {\r\n  ", _jsx(_components.span, {
@@ -642,6 +679,15 @@ function _createMdxContent(props) {
           className: "hljs-params"
         }), ") {\r\n  ", _jsx(_components.span, {
           className: "hljs-keyword",
+          children: "const"
+        }), " [activeIndex, setActiveIndex] = useState<", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "number"
+        }), ">(", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "0"
+        }), ");\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
           children: "return"
         }), " (\r\n    ", _jsxs(_components.span, {
           className: "xml",
@@ -650,6 +696,18 @@ function _createMdxContent(props) {
             children: ["<", _jsx(_components.span, {
               className: "hljs-name",
               children: "FullpageContainer"
+            }), "\r\n      ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "activeIndex"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{activeIndex}"
+            }), "\r\n      ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "setActiveIndex"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{setActiveIndex}"
             }), "\r\n      ", _jsx(_components.span, {
               className: "hljs-attr",
               children: "onBeforeChange"
@@ -790,7 +848,7 @@ function _createMdxContent(props) {
         children: "string"
       }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
         children: "Description"
-      }), " : 렌더링 시 url의 hash(#)와 일치하는 name 섹션으로 이동합니다.", _jsx("br", {}), "(렌더링 후 hash는 url에서 사라집니다.)"]
+      }), " : When rendering, it goes to the name section that matches the hash(#).", _jsx("br", {}), "(After rendering, hash disappears from url.)"]
     }), "\n", _jsx(_components.h3, {
       children: _jsx(_components.code, {
         children: "isAutoHeight"
@@ -802,7 +860,7 @@ function _createMdxContent(props) {
         children: "boolean"
       }), _jsx(_components.br, {}), "\n", _jsx(_components.strong, {
         children: "Description"
-      }), " : true일 때 height 값이 auto 가 됩니다. (주로 Footer에 사용합니다.)"]
+      }), " : When true, the height value is auto. (Used primarily for Footer.)"]
     })]
   });
 }
