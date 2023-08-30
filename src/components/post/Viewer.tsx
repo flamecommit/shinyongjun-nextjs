@@ -12,6 +12,7 @@ import { config } from '@/styles/config';
 import { IPost } from '@/types/post';
 import { TGallery } from '@/types/gallery';
 import MdxContents from '../mdx/Contents';
+import PostOutlink from './Outlink';
 
 interface Props {
   postData: {
@@ -72,7 +73,12 @@ function PostViewer({ postData }: Props) {
         </header>
         <div className="post-content" ref={contents}>
           <MdxContents>
-            <MDXRemote {...postData.mdx} />
+            <MDXRemote
+              {...postData.mdx}
+              components={{
+                PostOutlink,
+              }}
+            />
           </MdxContents>
         </div>
       </StyledPostViewer>
