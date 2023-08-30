@@ -82,7 +82,7 @@ function removeDuplicatesBySeries(arr: Array<IPost>) {
 
 export const getSeries = async () => {
   const postList = await getPostList();
-  const uniqueSeries = removeDuplicatesBySeries(postList);
+  const uniqueSeries = removeDuplicatesBySeries(postList).reverse();
 
   return uniqueSeries.map((post, index) => {
     return {
