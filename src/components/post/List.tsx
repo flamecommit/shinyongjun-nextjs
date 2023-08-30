@@ -10,15 +10,22 @@ import { IPost } from '@/types/post';
 
 type Props = {
   postList: IPost[];
+  isBySeries?: boolean;
 };
 
-function PostList({ postList }: Props) {
+function PostList({ postList, isBySeries }: Props) {
   return (
     <StyledPostList>
       {postList.map((post) => {
         return (
           <div key={post.slug} className="post-item">
-            {post.series && <div className="series">{post.series}</div>}
+            {post.seriesId && !isBySeries && (
+              <div className="series">
+                <Link href={`/series/${post.seriesId}`}>
+                  # {post.seriesTitle}
+                </Link>
+              </div>
+            )}
             <div className="title">
               <Link href={`/post/${post.slug}`}>{post.title}</Link>
             </div>

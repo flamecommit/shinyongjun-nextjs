@@ -7,7 +7,7 @@ import rehypeHighlight from 'rehype-highlight';
 import rehypeCodeTitles from 'rehype-code-titles';
 import remarkBreaks from 'remark-breaks';
 import { extractLastDirectory, mdxFilePath, transformImgSrc } from './mdx';
-import { IPost, TPostFrontMatter } from '@/types/post';
+import { IPost, TPostFrontMatter, TSeries } from '@/types/post';
 
 const BASE_PATH = '/contents/posts';
 const POSTS_PATH = path.join(process.cwd(), BASE_PATH);
@@ -71,26 +71,36 @@ export const getPost = async (slug: string) => {
 function removeDuplicatesBySeries(arr: Array<IPost>) {
   const seen = new Set();
   return arr.filter((item) => {
-    const value = item.series;
+    const value = item.seriesId;
     if (value !== undefined && !seen.has(value)) {
       seen.add(value);
       return true;
     }
     return false;
-  });
+  }) as unknown as TSeries[];
 }
 
-export const getSeries = async () => {
+export const getSeriesList = async () => {
   const postList = await getPostList();
   const uniqueSeries = removeDuplicatesBySeries(postList).reverse();
 
-  return uniqueSeries.map((post, index) => {
-    return {
-      index: index + 1,
-      series: post.series,
-      count: postList.filter((item) => item.series === post.series).length,
-    };
-  });
+  return uniqueSeries
+    .map((series) => {
+      return {
+        seriesId: series.seriesId,
+        seriesTitle: series.seriesTitle,
+        count: postList.filter((item) => item.seriesId === series.seriesId)
+          .length,
+      };
+    })
+    .sort((a, b) => {
+      const seriesIdA = a.seriesId;
+      const seriesIdB = b.seriesId;
+
+      if (seriesIdA > seriesIdB) return -1;
+      if (seriesIdA < seriesIdB) return 1;
+      return 0;
+    });
 };
 
 export const getCategories = async () => {
@@ -114,10 +124,10 @@ export const getPostListByCategory = async (category: string) => {
   });
 };
 
-export const getPostListBySeries = async (series: string | undefined) => {
+export const getPostListBySeries = async (seriesId: number) => {
   const postList = await getPostList();
 
   return postList.filter((post) => {
-    return post.series === series;
+    return post.seriesId === seriesId;
   });
 };

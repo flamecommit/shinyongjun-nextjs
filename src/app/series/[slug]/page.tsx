@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import PageTitle from '@/components/page/Title';
 import PostList from '@/components/post/List';
-import { getPostListBySeries, getSeries } from '@/services/post';
+import { getPostListBySeries, getSeriesList } from '@/services/post';
 import PageLink from '@/components/page/Link';
 
 type Props = {
@@ -19,24 +19,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export async function generateStaticParams() {
-  const series = await getSeries();
+  const series = await getSeriesList();
 
   return series.map((item) => ({
-    slug: String(item.index),
+    slug: String(item.seriesId),
   }));
 }
 
 const PostListByCategoryPage = async ({ params }: Props) => {
   const { slug } = params;
-  const series = await getSeries();
-  const seriesText = series.find((item) => String(item.index) === slug)?.series;
-  const postList = await getPostListBySeries(seriesText);
+  const series = await getSeriesList();
+  const seriesId = Number(slug);
+  const seriesText = series.find((item) => item.seriesId === seriesId)
+    ?.seriesTitle;
+  const postList = await getPostListBySeries(Number(slug));
 
   return (
     <>
       <PageTitle>Series - {seriesText}</PageTitle>
       <PageLink href="/series">Go to Series List</PageLink>
-      <PostList postList={postList} />
+      <PostList postList={postList} isBySeries />
     </>
   );
 };

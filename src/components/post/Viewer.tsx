@@ -15,9 +15,7 @@ import MdxContents from '../mdx/Contents';
 import PostOutlink from './Outlink';
 
 interface Props {
-  postData: {
-    seriesIndex: number | undefined;
-  } & IPost;
+  postData: IPost;
 }
 
 function PostViewer({ postData }: Props) {
@@ -51,10 +49,10 @@ function PostViewer({ postData }: Props) {
     <>
       <StyledPostViewer>
         <header className="post-header">
-          {postData.seriesIndex && (
+          {postData.seriesId && (
             <div className="post-series">
-              <Link href={`/series/${postData.seriesIndex}`}>
-                # {postData.series}
+              <Link href={`/series/${postData.seriesId}`}>
+                # {postData.seriesTitle}
               </Link>
             </div>
           )}

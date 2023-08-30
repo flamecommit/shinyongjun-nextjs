@@ -8,18 +8,18 @@ import { config } from '@/styles/config';
 import { TSeries } from '@/types/post';
 
 interface Props {
-  series: TSeries[];
+  seriesList: TSeries[];
 }
 
-function SeriesList({ series }: Props) {
+function SeriesList({ seriesList }: Props) {
   return (
     <StyledSeriesList>
-      {series.map((item) => {
+      {seriesList.map((series) => {
         return (
-          <div key={item.index} className="series-item">
-            <Link href={`/series/${item.index}`} className="title">
+          <div key={series.seriesId} className="series-item">
+            <Link href={`/series/${series.seriesId}`} className="title">
               <HiOutlineHashtag />
-              {item.series} ({item.count})
+              {series.seriesTitle} ({series.count})
             </Link>
           </div>
         );

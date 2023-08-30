@@ -4,7 +4,8 @@ export type TPostFrontMatter = {
   title: string;
   date: Date;
   categories: string[];
-  series?: string;
+  seriesId?: number;
+  seriesTitle?: string;
 };
 
 export interface IPost extends TPostFrontMatter {
@@ -13,7 +14,7 @@ export interface IPost extends TPostFrontMatter {
 }
 
 export type TSeries = {
-  index: number;
-  series: string | undefined;
+  seriesId: number;
+  seriesTitle: string;
   count: number;
 };

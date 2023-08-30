@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getPost, getPostList, getSeries } from '@/services/post';
+import { getPost, getPostList } from '@/services/post';
 import PostViewer from '@/components/post/Viewer';
 import Giscus from '@/components/common/Giscus';
 import AuthorProfile from '@/components/author/Profile';
@@ -16,8 +16,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { post } = await getPost(slug);
   let description = post.title;
 
-  if (post.series) {
-    description = `${post.series} - ${description}`;
+  if (post.seriesTitle) {
+    description = `${post.seriesTitle} - ${description}`;
   }
 
   return {
@@ -42,17 +42,10 @@ export async function generateStaticParams() {
 const PostViewPage = async ({ params }: Props) => {
   const { slug } = params;
   const { post, nextPost, prevPost } = await getPost(slug);
-  const series = await getSeries();
-  const seriesIndex = series.find((item) => item.series === post.series)?.index;
 
   return (
     <>
-      <PostViewer
-        postData={{
-          ...post,
-          seriesIndex,
-        }}
-      />
+      <PostViewer postData={post} />
       <PostNavigation prevPost={prevPost} nextPost={nextPost} />
       <AuthorProfile postDetail />
       <Giscus />
