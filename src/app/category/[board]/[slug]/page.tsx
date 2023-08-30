@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import PageTitle from '@/components/page/Title';
 import PostList from '@/components/post/List';
-import { getPostListByCategory, getCategories } from '@/services/category';
+import { getPostListByCategory, getCategoryList } from '@/services/category';
 import CategoryList from '@/components/category/List';
 import { capitalizeString } from '@/utils/string';
 import SnippetList from '@/components/snippet/List';
@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export async function generateStaticParams() {
-  const postCategoryList = await getCategories('post');
-  const snippetCategoryList = await getCategories('snippet');
+  const postCategoryList = await getCategoryList('post');
+  const snippetCategoryList = await getCategoryList('snippet');
 
   const addCategoriesToRouteList = (
     categoryList: string[],
@@ -47,7 +47,7 @@ export async function generateStaticParams() {
 
 const PostListByCategoryPage = async ({ params }: Props) => {
   const { board, slug } = params;
-  const categories = await getCategories(board);
+  const categoryList = await getCategoryList(board);
   const articleList = await getPostListByCategory(board, slug);
 
   return (
@@ -55,7 +55,7 @@ const PostListByCategoryPage = async ({ params }: Props) => {
       <PageTitle>
         {capitalizeString(board)}Category - {slug}
       </PageTitle>
-      <CategoryList board={board} categories={categories} />
+      <CategoryList board={board} categoryList={categoryList} />
       {board === 'post' && <PostList postList={articleList} />}
       {board === 'snippet' && <SnippetList snippetList={articleList} />}
     </>

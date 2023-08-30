@@ -103,27 +103,6 @@ export const getSeriesList = async () => {
     });
 };
 
-export const getCategories = async () => {
-  const result: string[] = [];
-  const postList = await getPostList();
-  const flattenedCategories = postList.flatMap((post) => post.categories);
-  const uniqueCategories = new Set(flattenedCategories);
-
-  uniqueCategories.forEach((category) => {
-    result.push(category);
-  });
-
-  return result;
-};
-
-export const getPostListByCategory = async (category: string) => {
-  const postList = await getPostList();
-
-  return postList.filter((post) => {
-    return post.categories.includes(category);
-  });
-};
-
 export const getPostListBySeries = async (seriesId: number) => {
   const postList = await getPostList();
 

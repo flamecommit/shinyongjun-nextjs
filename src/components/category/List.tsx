@@ -5,14 +5,14 @@ import { device } from '@/styles/mixin';
 import CategoryItem from './Item';
 
 type Props = {
-  categories: string[];
+  categoryList: string[];
   board: string;
 };
 
-function CategoryList({ categories, board }: Props) {
+function CategoryList({ categoryList, board }: Props) {
   return (
     <StyledCategoryList>
-      {categories.map((category) => {
+      {categoryList.map((category) => {
         return (
           <CategoryItem board={board} key={category} category={category} />
         );

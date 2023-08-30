@@ -3,7 +3,7 @@ import { getPostList } from './post';
 import { getSnippetList } from './snippet';
 import { ISnippet } from '@/types/snippet';
 
-export const getCategories = async (board: string) => {
+export const getCategoryList = async (board: string) => {
   let articleList: Array<IPost | ISnippet> = [];
 
   if (board === 'post') {
