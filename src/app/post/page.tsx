@@ -6,8 +6,6 @@ async function RootPage() {
   const seriesList = await getSeries();
   const postList = await getPostList();
 
-  console.log(seriesList);
-
   return (
     <>
       <PageTitle>Post</PageTitle>
