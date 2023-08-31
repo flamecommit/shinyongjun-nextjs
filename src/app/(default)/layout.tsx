@@ -4,8 +4,8 @@ interface Props {
   children: React.ReactNode;
 }
 
-function SeriesLayout({ children }: Props) {
+function DefaultLayout({ children }: Props) {
   return <DefaultTemplate>{children}</DefaultTemplate>;
 }
 
-export default SeriesLayout;
+export default DefaultLayout;

@@ -8,8 +8,8 @@ module.exports = {
   exclude: [],
   outDir: 'out',
   transform: async (config, path) => {
+    // 악보 페이지는 sitemap에서 제외
     if (path.startsWith('/score')) {
-      // 악보 페이지는 sitemap에서 제외
       return null;
     }
 

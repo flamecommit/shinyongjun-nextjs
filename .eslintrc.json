@@ -1,4 +1,5 @@
 {
+  "root": true,
   "extends": "@shinyongjun",
   "rules": {
     "import/no-unresolved": "off"
