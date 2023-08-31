@@ -55,14 +55,14 @@ export default ExampleComponent;
 ### `activeIndex`
 
 **required** : `true`
-**Type** : `number`
-**Description** : index of activeSection.
+**type** : `number`
+**description** : index of activeSection.
 
 ### `setActiveIndex`
 
 **required** : `true`
-**Type** : `function`
-**Description** : set activeIndex.
+**type** : `function`
+**description** : set activeIndex.
 
 ```tsx
 import { useState } from 'react';
@@ -123,15 +123,25 @@ function ExampleComponent() {
 export default ExampleComponent;
 ```
 
+### `transitionDuration`
+
+**type** : `number`
+**description** : The speed at which the section transition.
+
+### `onAfterLoad`
+
+**Argument** : `container: React.RefObject<HTMLDivElement>`
+**description** : The callback that runs at the after loading.
+
 ### `onBeforeChange`
 
 **Argument** : `beforeIndex: number`, `afterIndex: number`
-**Description** : The callback that runs when you before a transition.
+**description** : The callback that runs at the before transition.
 
 ### `onAfterChange`
 
 **Argument** : `beforeIndex: number`, `afterIndex: number`
-**Description** : The callback that runs when you after a transition.
+**description** : The callback that runs at the after transition.
 
 ```tsx
 import { useState } from 'react';
@@ -177,10 +187,10 @@ export default ExampleComponent;
 
 ### `name`
 
-**Type** : `string`
-**Description** : When rendering, it goes to the name section that matches the hash(#).<br />(After rendering, hash disappears from url.)
+**type** : `string`
+**description** : When rendering, it goes to the name section that matches the hash(#).<br />(After rendering, hash disappears from url.)
 
 ### `isAutoHeight`
 
-**Type** : `boolean`
-**Description** : When true, the height value is auto. (Used primarily for Footer.)
+**type** : `boolean`
+**description** : When true, the height value is auto. (Used primarily for Footer.)
