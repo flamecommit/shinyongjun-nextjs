@@ -32,6 +32,9 @@ function AuthorProfile({ postDetail }: Props) {
           >
             <SiGithub style={{ color: '#000000' }} title="Github" />
           </a>
+          <a href="mailto:shinyj1991@gmail.com">
+            <img src="/icons/gmail.svg" alt="" />
+          </a>
         </div>
       </div>
     </StyledAuthorProfile>
@@ -76,10 +79,15 @@ const StyledAuthorProfile = styled.div`
     .links {
       display: flex;
       margin-top: 6px;
+      column-gap: 12px;
       a {
         display: block;
         font-size: 20px;
         line-height: 1;
+        img {
+          width: 20px;
+          height: 20px;
+        }
       }
     }
   }
@@ -98,10 +106,17 @@ const StyledAuthorProfile = styled.div`
     }
     .names-container {
       .name {
-        font-size: 16px;
+        font-size: 18px;
       }
-      .bio {
-        font-size: 12px;
+      .links {
+        column-gap: 9px;
+        a {
+          font-size: 16px;
+          img {
+            width: 16px;
+            height: 16px;
+          }
+        }
       }
     }
   }

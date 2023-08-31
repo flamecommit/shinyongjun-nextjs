@@ -9,11 +9,10 @@ import { SiNodeDotJs } from '@react-icons/all-files/si/SiNodeDotJs';
 import { SiGit } from '@react-icons/all-files/si/SiGit';
 import { SiJquery } from '@react-icons/all-files/si/SiJquery';
 import { SiNotion } from '@react-icons/all-files/si/SiNotion';
-import { SiJira } from '@react-icons/all-files/si/SiJira';
-import { SiConfluence } from '@react-icons/all-files/si/SiConfluence';
 import { SiAzuredevops } from '@react-icons/all-files/si/SiAzuredevops';
 import { SiRedux } from '@react-icons/all-files/si/SiRedux';
 import { ImNpm } from '@react-icons/all-files/im/ImNpm';
+import { HiLink } from '@react-icons/all-files/hi/HiLink';
 import { device } from '@/styles/mixin';
 import PageLink from '../page/Link';
 import { roboto } from '@/styles/fonts';
@@ -104,16 +103,24 @@ function AuthorDetails() {
             Notion
           </div>
           <div className="item">
-            <SiJira style={{ color: '#2580F7' }} />
+            <img src="/icons/jira.svg" alt="" />
             Jira
           </div>
           <div className="item">
-            <SiConfluence style={{ color: '#2684FF' }} />
+            <img src="/icons/confluence.svg" alt="" />
             Confluence
           </div>
           <div className="item">
             <SiAzuredevops style={{ color: '#0078D4' }} />
-            Azure DevOps
+            Azure - DevOps
+          </div>
+          <div className="item">
+            <img src="/icons/eslint.svg" alt="" />
+            ESLint
+          </div>
+          <div className="item">
+            <img src="/icons/prettier.svg" alt="" />
+            Prettier
           </div>
         </div>
       </section>
@@ -125,14 +132,17 @@ function AuthorDetails() {
               href="https://www.npmjs.com/package/@shinyongjun/react-fullpage"
               rel="noreferrer"
               target="_blank"
+              className="name"
             >
               <ImNpm style={{ color: '#CB0303' }} />
               @shinyongjun/react-fullpage (2023)
             </a>
             <Link className="link" href="/package/react-fullpage/document">
+              <HiLink />
               API
             </Link>
             <Link className="link" href="/package/react-fullpage">
+              <HiLink />
               Demo
             </Link>
           </div>
@@ -146,6 +156,7 @@ function AuthorDetails() {
               href="https://shinyj1991.github.io/eclipse"
               rel="noreferrer"
               target="_blank"
+              className="name"
             >
               <SiJquery style={{ color: '#1066A9' }} />
               Carousel - jQuery Plugin (2017)
@@ -156,6 +167,7 @@ function AuthorDetails() {
               href="https://shinyj1991.github.io/kronos"
               rel="noreferrer"
               target="_blank"
+              className="name"
             >
               <SiJquery style={{ color: '#1066A9' }} />
               Datepicker - jQuery Plugin (2016)
@@ -163,7 +175,7 @@ function AuthorDetails() {
           </div>
         </div>
       </section>
-      <section>
+      {/* <section>
         <h3 className="section-title">Contact</h3>
         <div className="item-list">
           <div className="item">
@@ -171,7 +183,7 @@ function AuthorDetails() {
             <a href="mailto:shinyj1991@gmail.com">shinyj1991@gmail.com</a>
           </div>
         </div>
-      </section>
+      </section> */}
       <section>
         <h3 className="section-title">History</h3>
         <PageLink href="/history">Go to History</PageLink>
@@ -220,8 +232,8 @@ const StyledAuthorDetails = styled.div`
     max-width: 600px;
     .package {
       display: flex;
-      column-gap: 9px;
-      a {
+      column-gap: 12px;
+      .name {
         display: inline-flex;
         align-items: center;
         column-gap: 6px;
@@ -237,7 +249,19 @@ const StyledAuthorDetails = styled.div`
         }
       }
       .link {
-        font-weight: 500;
+        display: flex;
+        align-items: center;
+        column-gap: 4px;
+        font-size: 14px;
+        svg {
+          line-height: 1;
+          width: 14px;
+          height: 14px;
+        }
+        &:hover {
+          color: ${config.hoverText};
+          text-decoration: underline;
+        }
       }
     }
   }
