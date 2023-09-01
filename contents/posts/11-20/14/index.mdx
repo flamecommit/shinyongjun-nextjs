@@ -1,0 +1,24 @@
+---
+title: 3. NPM Registry에 Package 배포하기
+date: 2023-09-01T10:38:00
+categories: ['npm', 'package', 'symlink']
+seriesId: 2
+seriesTitle: npm package 만들어 배포하기
+hidden: true
+---
+
+이 글에선 제작한 패키지를 `npm registry`에 업로드 하는 방법을 소개하겠습니다.
+그전에 우선 [NPM](https://www.npmjs.com/) 사이트에 회원가입을 해야하는데 이 과정에 대한 설명은 생략합니다.
+
+### package.json
+
+`package.json`에 `npm registry` 배포에 필요한 옵션들을 추가하겠습니다.
+
+- `name` - 패키지의 이름입니다. 아직 `npm registry`에 등록되지 않은 유니크한 이름을 넣어줍니다.
+- `version` - 버저닝 옵션입니다.
+- `description` - 패키지에 대한 설명입니다. 사용자들이 이해하기 쉽도록 짧고 간략한 설명을 넣어줍니다.
+- `main` - 진입점입니다. `CommonJS`를 바라보게 합니다.
+- `module` - 진입점입니다. `ESM`를 바라보게 합니다.
+- `types` - 타입 지정 파일을 넣어줍니다.
+
+end.

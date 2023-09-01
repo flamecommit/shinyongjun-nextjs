@@ -45,14 +45,16 @@ export const getPostList = async (): Promise<IPost[]> => {
     }),
   );
 
-  return result.sort((a: IPost, b: IPost) => {
-    const dateA = a.date;
-    const dateB = b.date;
+  return result
+    .filter((post) => post.hidden !== true)
+    .sort((a: IPost, b: IPost) => {
+      const dateA = a.date;
+      const dateB = b.date;
 
-    if (dateA > dateB) return -1;
-    if (dateA < dateB) return 1;
-    return 0;
-  });
+      if (dateA > dateB) return -1;
+      if (dateA < dateB) return 1;
+      return 0;
+    });
 };
 
 export const getPost = async (slug: string) => {
