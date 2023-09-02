@@ -7,32 +7,34 @@ import { device } from '@/styles/mixin';
 import { config } from '@/styles/config';
 import { roboto } from '@/styles/fonts';
 
-function PackageReactFullpageHeader() {
+interface IProps {
+  packageName: string;
+}
+
+function PackageHeader({ packageName }: IProps) {
   const pathname = usePathname();
 
   return (
-    <StyledPackageReactFullpageHeader>
+    <StyledPackageHeader>
       <div className="gnb">
         <Link
-          className={`${
-            pathname === '/package/react-fullpage/document' && 'active'
-          }`}
-          href="/package/react-fullpage/document"
+          className={`${pathname === `/${packageName}/document` && 'active'}`}
+          href={`/${packageName}/document`}
         >
           API
         </Link>
         <Link
-          className={`${pathname === '/package/react-fullpage' && 'active'}`}
-          href="/package/react-fullpage"
+          className={`${pathname === `/${packageName}/example` && 'active'}`}
+          href={`/${packageName}/example`}
         >
           DEMO
         </Link>
       </div>
-    </StyledPackageReactFullpageHeader>
+    </StyledPackageHeader>
   );
 }
 
-const StyledPackageReactFullpageHeader = styled.header`
+const StyledPackageHeader = styled.header`
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   display: flex;
@@ -72,4 +74,4 @@ const StyledPackageReactFullpageHeader = styled.header`
   }
 `;
 
-export default PackageReactFullpageHeader;
+export default PackageHeader;

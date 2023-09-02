@@ -6,6 +6,7 @@ export type TPostFrontMatter = {
   categories: string[];
   seriesId?: number;
   seriesTitle?: string;
+  hidden?: boolean;
 };
 
 export interface IPost extends TPostFrontMatter {

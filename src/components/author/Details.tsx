@@ -137,14 +137,16 @@ function AuthorDetails() {
               <ImNpm style={{ color: '#CB0303' }} />
               @shinyongjun/react-fullpage (2023)
             </a>
-            <Link className="link" href="/package/react-fullpage/document">
-              <HiLink />
-              API
-            </Link>
-            <Link className="link" href="/package/react-fullpage">
-              <HiLink />
-              Demo
-            </Link>
+            <div className="links">
+              <Link className="link" href="/react-fullpage/document">
+                <HiLink />
+                API
+              </Link>
+              <Link className="link" href="/react-fullpage/example">
+                <HiLink />
+                Demo
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -232,7 +234,9 @@ const StyledAuthorDetails = styled.div`
     max-width: 600px;
     .package {
       display: flex;
+      flex-wrap: wrap;
       column-gap: 12px;
+      row-gap: 9px;
       .name {
         display: inline-flex;
         align-items: center;
@@ -247,6 +251,10 @@ const StyledAuthorDetails = styled.div`
           color: ${config.hoverText};
           text-decoration: underline;
         }
+      }
+      .links {
+        display: flex;
+        column-gap: 9px;
       }
       .link {
         display: flex;
