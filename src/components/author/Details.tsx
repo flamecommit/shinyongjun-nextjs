@@ -140,11 +140,11 @@ function AuthorDetails() {
             <div className="links">
               <Link className="link" href="/react-datepicker/document">
                 <HiLink />
-                API
+                Document
               </Link>
               <Link className="link" href="/react-datepicker/example">
                 <HiLink />
-                Demo
+                Example
               </Link>
             </div>
           </div>
@@ -161,11 +161,11 @@ function AuthorDetails() {
             <div className="links">
               <Link className="link" href="/react-fullpage/document">
                 <HiLink />
-                API
+                Document
               </Link>
               <Link className="link" href="/react-fullpage/example">
                 <HiLink />
-                Demo
+                Example
               </Link>
             </div>
           </div>
