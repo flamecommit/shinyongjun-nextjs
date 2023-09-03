@@ -1,4 +1,4 @@
-import PackageReactDatepickerExample from '@/components/package/react-datepicker/example';
+import PackageReactDatepickerExample from '@/components/package/react-datepicker/Example';
 import PackageReactFullpageExample from '@/components/package/react-fullpage/Example';
 
 type Props = {
