@@ -6,8 +6,6 @@ async function PackageReactDatepickerExample() {
     `/contents/example/react-datepicker/index.mdx`,
   );
 
-  console.log(document);
-
   return (
     <>
       <ReactDatepickerMdx documentData={document} />
