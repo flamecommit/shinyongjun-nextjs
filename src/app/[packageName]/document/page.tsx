@@ -1,5 +1,5 @@
 import PackageDocumentViewer from '@/components/package/Viewer';
-import { getPackageDocument } from '@/services/mdx';
+import { getSingleDocument } from '@/services/mdx';
 
 type Props = {
   params: {
@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 }
 
 async function PackageReactFullpageDocumentPage({ params }: Props) {
-  const document = await getPackageDocument(
+  const document = await getSingleDocument(
     `/contents/package/${params.packageName}/index.mdx`,
   );
 

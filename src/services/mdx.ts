@@ -71,7 +71,7 @@ export const mdxFilePath = (path: string, basePath: string): string => {
     .replace('/index.mdx', '');
 };
 
-export const getPackageDocument = async (documentPath: string) => {
+export const getSingleDocument = async (documentPath: string) => {
   const DOCUMENT_PATH = path.join(process.cwd(), documentPath);
   const content = fs.readFileSync(DOCUMENT_PATH, 'utf8');
 

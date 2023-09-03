@@ -1,29 +1,18 @@
-'use client';
+import { getSingleDocument } from '@/services/mdx';
+import ReactDatepickerMdx from './Mdx';
 
-import styled from 'styled-components';
-import { Datepicker } from '@shinyongjun/react-datepicker';
+async function PackageReactDatepickerExample() {
+  const document = await getSingleDocument(
+    `/contents/example/react-datepicker/index.mdx`,
+  );
 
-function PackageReactDatepickerExample() {
+  console.log(document);
+
   return (
-    <StyledPackageReactDatepickerExample>
-      <section className="section">
-        <header className="head">
-          <h3>Default</h3>
-        </header>
-        <Datepicker />
-      </section>
-    </StyledPackageReactDatepickerExample>
+    <>
+      <ReactDatepickerMdx documentData={document} />
+    </>
   );
 }
-
-const StyledPackageReactDatepickerExample = styled.div`
-  padding: 90px 50px;
-  .react-datepicker__wrapper {
-    font-size: 14px;
-    .react-datepicker__input-container {
-      width: 200px;
-    }
-  }
-`;
 
 export default PackageReactDatepickerExample;
