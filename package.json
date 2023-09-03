@@ -13,7 +13,7 @@
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@reduxjs/toolkit": "^1.9.5",
-    "@shinyongjun/react-datepicker": "^1.0.1",
+    "@shinyongjun/react-datepicker": "^1.1.0",
     "@shinyongjun/react-fullpage": "^1.2.7",
     "@types/glob": "^8.1.0",
     "@types/node": "20.4.5",
