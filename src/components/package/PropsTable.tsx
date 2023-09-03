@@ -1,5 +1,6 @@
 'use client';
 
+import { roboto } from '@/styles/fonts';
 import { device } from '@/styles/mixin';
 import styled from 'styled-components';
 
@@ -27,10 +28,14 @@ function PropsTable({ propsData }: Props) {
             <dl className={key} key={key}>
               <dt>{key}</dt>
               <dd>
-                <div
-                  className="value"
-                  dangerouslySetInnerHTML={{ __html: value }}
-                />
+                {key === 'component' ? (
+                  <div className="value">{value}</div>
+                ) : (
+                  <div
+                    className="value"
+                    dangerouslySetInnerHTML={{ __html: value }}
+                  />
+                )}
               </dd>
             </dl>
           ))}
@@ -81,7 +86,7 @@ const StyledPropsTable = styled.div`
       .value {
         display: inline-block;
         background-color: #eff1f3;
-        font-family: Consolas;
+        font-family: Consolas, ${roboto.style.fontFamily};
         font-weight: 400;
         font-size: 14px;
         line-height: 1.5em;
@@ -94,7 +99,10 @@ const StyledPropsTable = styled.div`
   dl.component {
     dd {
       .value {
+        font-weight: 700;
         color: #267f99;
+        font-family: Consolas, ${roboto.style.fontFamily};
+        letter-spacing: -0.05em;
       }
     }
   }

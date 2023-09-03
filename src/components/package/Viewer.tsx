@@ -14,13 +14,11 @@ interface Props {
 
 function PackageDocumentViewer({ documentData }: Props) {
   return (
-    <>
-      <StyledPackageDocumentViewer>
-        <MdxContents>
-          <MDXRemote {...documentData.mdx} components={{ PropsTable }} />
-        </MdxContents>
-      </StyledPackageDocumentViewer>
-    </>
+    <StyledPackageDocumentViewer>
+      <MdxContents>
+        <MDXRemote {...documentData.mdx} components={{ PropsTable }} />
+      </MdxContents>
+    </StyledPackageDocumentViewer>
   );
 }
 
