@@ -50,19 +50,27 @@ function ExampleComponent() {
 export default ExampleComponent;
 ```
 
-## FullpageContainer Props
+## Props
 
-### `activeIndex`
+<PropsTable
+  propsData={{
+    name: 'activeIndex',
+    component: '<FullpageContainer />',
+    required: 'true',
+    type: 'number',
+    description: 'index of activeSection.',
+  }}
+/>
 
-**required** : `true`
-**type** : `number`
-**description** : index of activeSection.
-
-### `setActiveIndex`
-
-**required** : `true`
-**type** : `function`
-**description** : set activeIndex.
+<PropsTable
+  propsData={{
+    name: 'setActiveIndex',
+    component: '<FullpageContainer />',
+    required: 'true',
+    type: 'setter',
+    description: 'index of activeSection.',
+  }}
+/>
 
 ```tsx
 import { useState } from 'react';
@@ -123,25 +131,46 @@ function ExampleComponent() {
 export default ExampleComponent;
 ```
 
-### `transitionDuration`
+<PropsTable
+  propsData={{
+    name: 'transitionDuration',
+    component: '<FullpageContainer />',
+    required: 'false',
+    type: 'number',
+    default: '700',
+    description: 'The speed at which the section transition.',
+  }}
+/>
 
-**type** : `number`
-**description** : The speed at which the section transition.
+<PropsTable
+  propsData={{
+    name: 'onAfterLoad',
+    component: '<FullpageContainer />',
+    required: 'false',
+    type: '(container: RefObject<HTMLDivElement>) => void;',
+    description: 'The callback that runs at the after loading.',
+  }}
+/>
 
-### `onAfterLoad`
+<PropsTable
+  propsData={{
+    name: 'onBeforeChange',
+    component: '<FullpageContainer />',
+    required: 'false',
+    type: '(beforeIndex: number, afterIndex: number) => void;',
+    description: 'The callback that runs at the before transition.',
+  }}
+/>
 
-**Argument** : `container: React.RefObject<HTMLDivElement>`
-**description** : The callback that runs at the after loading.
-
-### `onBeforeChange`
-
-**Argument** : `beforeIndex: number`, `afterIndex: number`
-**description** : The callback that runs at the before transition.
-
-### `onAfterChange`
-
-**Argument** : `beforeIndex: number`, `afterIndex: number`
-**description** : The callback that runs at the after transition.
+<PropsTable
+  propsData={{
+    name: 'onAfterChange',
+    component: '<FullpageContainer />',
+    required: 'false',
+    type: '(beforeIndex: number, afterIndex: number) => void;',
+    description: 'The callback that runs at the after transition.',
+  }}
+/>
 
 ```tsx
 import { useState } from 'react';
@@ -183,14 +212,23 @@ function ExampleComponent() {
 export default ExampleComponent;
 ```
 
-## FullpageSection Props
+<PropsTable
+  propsData={{
+    name: 'name',
+    component: '<FullpageSection />',
+    required: 'false',
+    type: 'string',
+    description: `When rendering, it goes to the name section that matches the hash(#).<br />(After rendering, hash disappears from url.)`,
+  }}
+/>
 
-### `name`
-
-**type** : `string`
-**description** : When rendering, it goes to the name section that matches the hash(#).<br />(After rendering, hash disappears from url.)
-
-### `isAutoHeight`
-
-**type** : `boolean`
-**description** : When true, the height value is auto. (Used primarily for Footer.)
+<PropsTable
+  propsData={{
+    name: 'isAutoHeight',
+    component: '<FullpageSection />',
+    required: 'false',
+    type: 'boolean',
+    description:
+      'When true, the height value is auto. (Used primarily for Footer.)',
+  }}
+/>

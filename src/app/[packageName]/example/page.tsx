@@ -1,3 +1,4 @@
+import PackageReactDatepickerExample from '@/components/package/react-datepicker/example';
 import PackageReactFullpageExample from '@/components/package/react-fullpage/Example';
 
 type Props = {
@@ -19,6 +20,9 @@ async function PackageReactFullpagePage({ params }: Props) {
     <>
       {params.packageName === 'react-fullpage' && (
         <PackageReactFullpageExample />
+      )}
+      {params.packageName === 'react-datepicker' && (
+        <PackageReactDatepickerExample />
       )}
     </>
   );

@@ -202,7 +202,6 @@ export const markdown = css`
   table {
     border-spacing: 0;
     border-collapse: collapse;
-    display: block;
     width: max-content;
     max-width: 100%;
     overflow: auto;

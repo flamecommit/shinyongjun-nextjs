@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { device } from '@/styles/mixin';
 import MdxContents from '../mdx/Contents';
+import PropsTable from './PropsTable';
 
 interface Props {
   documentData: {
@@ -16,7 +17,7 @@ function PackageDocumentViewer({ documentData }: Props) {
     <>
       <StyledPackageDocumentViewer>
         <MdxContents>
-          <MDXRemote {...documentData.mdx} />
+          <MDXRemote {...documentData.mdx} components={{ PropsTable }} />
         </MdxContents>
       </StyledPackageDocumentViewer>
     </>
@@ -28,7 +29,7 @@ const StyledPackageDocumentViewer = styled.div`
   min-height: 100vh;
   background-color: #f6f8fa;
   .mdx-contents {
-    width: 768px;
+    width: 1024px;
     max-width: 100%;
     padding: 36px;
     margin: 60px auto;
