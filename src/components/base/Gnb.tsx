@@ -68,13 +68,9 @@ const StyledBaseGnb = styled.nav`
     .symbol {
       width: 27px;
       height: 27px;
-      filter: grayscale(1);
     }
     &:hover {
       color: ${config.hoverText};
-      .symbol {
-        filter: grayscale(0.5);
-      }
     }
     &.active {
       font-weight: 700;
@@ -82,9 +78,6 @@ const StyledBaseGnb = styled.nav`
       // color: #775da5;
       // color: #7d4e9f;
       // color: #8a3b8f;
-      .symbol {
-        filter: grayscale(0);
-      }
     }
   }
   @media ${device.mobile} {

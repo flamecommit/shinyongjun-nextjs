@@ -17,6 +17,9 @@ function PackageHeader({ packageName }: IProps) {
   return (
     <StyledPackageHeader>
       <div className="gnb">
+        <Link className={`${!pathname.split('/')[1] && 'active'}`} href="/">
+          <img src="/images/symbol.webp" alt="" className="symbol" />
+        </Link>
         <Link
           className={`${pathname === `/${packageName}/document` && 'active'}`}
           href={`/${packageName}/document`}

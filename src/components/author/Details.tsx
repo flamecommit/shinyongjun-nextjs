@@ -211,6 +211,10 @@ function AuthorDetails() {
         <h3 className="section-title">History</h3>
         <PageLink href="/history">Go to History</PageLink>
       </section>
+      <section>
+        <h3 className="section-title">Score Board</h3>
+        <PageLink href="/score">Go to Score</PageLink>
+      </section>
     </StyledAuthorDetails>
   );
 }
