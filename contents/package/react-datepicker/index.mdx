@@ -25,3 +25,24 @@ function ExampleComponent() {
 
 export default ExampleComponent;
 ```
+
+<PropsTable
+  propsData={{
+    name: 'initValue',
+    component: '<Datepicker />',
+    required: 'false',
+    type: 'Date',
+    description:
+      'Datepicker component allows you to declare the initial value.',
+  }}
+/>
+
+<PropsTable
+  propsData={{
+    name: 'onChange',
+    component: '<Datepicker />',
+    required: 'false',
+    type: '(activeValue: Date) => void',
+    description: 'Triggered whenever the value of the Datepicker changes.',
+  }}
+/>
