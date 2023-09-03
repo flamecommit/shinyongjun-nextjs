@@ -24,13 +24,13 @@ function PackageHeader({ packageName }: IProps) {
           className={`${pathname === `/${packageName}/document` && 'active'}`}
           href={`/${packageName}/document`}
         >
-          API
+          Document
         </Link>
         <Link
           className={`${pathname === `/${packageName}/example` && 'active'}`}
           href={`/${packageName}/example`}
         >
-          DEMO
+          Example
         </Link>
       </div>
     </StyledPackageHeader>
