@@ -27,9 +27,21 @@ function ReactDatepickerMdx({ documentData }: IProps) {
 }
 
 const StyledReactDatepickerMdx = styled.div`
-  padding: 60px 30px 60px;
+  padding: 60px 50px 50px;
+  min-height: 100vh;
+  background-color: #f6f8fa;
+  .mdx-contents {
+    width: 1024px;
+    max-width: 100%;
+    padding: 36px;
+    margin: 60px auto;
+  }
   @media ${device.mobile} {
-    padding: 48px 12px 60px;
+    padding: 48px 0 0;
+    .mdx-contents {
+      padding: 20px;
+      margin: 0;
+    }
   }
 `;
 

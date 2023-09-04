@@ -6,11 +6,7 @@ async function PackageReactDatepickerExample() {
     `/contents/example/react-datepicker/index.mdx`,
   );
 
-  return (
-    <>
-      <ReactDatepickerMdx documentData={document} />
-    </>
-  );
+  return <ReactDatepickerMdx documentData={document} />;
 }
 
 export default PackageReactDatepickerExample;

@@ -14,6 +14,9 @@ function ReactDatepickerSection({ children }: IProps) {
 
 const StyledReactDatepickerSection = styled.section`
   margin: 50px 0;
+  h3 {
+    margin: 0 0 12px;
+  }
   .react-datepicker__wrapper {
     width: 200px;
     margin-bottom: 15px;
