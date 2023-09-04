@@ -6,6 +6,7 @@ import {
   FullpageSection,
 } from '@shinyongjun/react-fullpage';
 import { useState } from 'react';
+import { device } from '@/styles/mixin';
 
 function PackageReactFullpageExample() {
   const [activeIndex, setActiveIndex] = useState<number>(0);
@@ -105,6 +106,11 @@ const StyledPackageReactFullpageExample = styled.div`
       &.active {
         opacity: 1;
       }
+    }
+  }
+  @media ${device.mobile} {
+    .fullpage-controller {
+      right: 20px;
     }
   }
 `;
