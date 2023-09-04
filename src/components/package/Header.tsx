@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { device } from '@/styles/mixin';
 import { config } from '@/styles/config';
 import { roboto } from '@/styles/fonts';
+import { HiOutlineExternalLink } from '@react-icons/all-files/hi/HiOutlineExternalLink';
 
 interface IProps {
   packageName: string;
@@ -32,6 +33,14 @@ function PackageHeader({ packageName }: IProps) {
         >
           Example
         </Link>
+        <a
+          href={`https://github.com/shinyj1991/${packageName}`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Repository
+          <HiOutlineExternalLink />
+        </a>
       </div>
     </StyledPackageHeader>
   );
@@ -62,6 +71,9 @@ const StyledPackageHeader = styled.header`
       height: 27px;
     }
     a {
+      display: flex;
+      column-gap: 4px;
+      align-items: center;
       font-family: ${roboto.style.fontFamily};
       &:hover {
         color: ${config.hoverText};
