@@ -55,3 +55,25 @@ export default ExampleComponent;
     description: 'Whether to use the Clear button.',
   }}
 />
+
+<PropsTable
+  propsData={{
+    name: 'valueFormat',
+    component: '<Datepicker />',
+    required: 'false',
+    type: 'string',
+    default: 'YYYY-MM-DD',
+    description: 'It must contain "YYYY", "MM", and "DD" in the value.',
+  }}
+/>
+
+<PropsTable
+  propsData={{
+    name: 'labelFormat',
+    component: '<Datepicker />',
+    required: 'false',
+    type: 'string',
+    default: 'YYYY / MM',
+    description: 'It must contain "YYYY" and "MM" in the value.',
+  }}
+/>
