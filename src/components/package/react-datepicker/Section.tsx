@@ -24,6 +24,9 @@ const StyledReactDatepickerSection = styled.section`
   .react-datepicker__datepicker {
     font-size: 14px;
   }
+  .react-datepicker__input {
+    height: 36px;
+  }
 `;
 
 export default ReactDatepickerSection;

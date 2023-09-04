@@ -28,7 +28,8 @@ export default ExampleComponent;
     name: 'initValue',
     component: '<Datepicker />',
     required: 'false',
-    type: 'Date',
+    type: 'Date | null',
+    default: 'null',
     description:
       'Datepicker component allows you to declare the initial value.',
   }}
@@ -39,7 +40,18 @@ export default ExampleComponent;
     name: 'onChange',
     component: '<Datepicker />',
     required: 'false',
-    type: '(value: Date) => void',
+    type: '(value: Date | null) => void',
     description: 'Triggered whenever the value of the Datepicker changes.',
+  }}
+/>
+
+<PropsTable
+  propsData={{
+    name: 'isClearButton',
+    component: '<Datepicker />',
+    required: 'false',
+    type: 'boolean',
+    default: 'false',
+    description: 'Whether to use the Clear button.',
   }}
 />
