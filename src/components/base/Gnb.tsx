@@ -64,7 +64,7 @@ const StyledBaseGnb = styled.nav`
   align-items: center;
   a {
     font-family: ${roboto.style.fontFamily};
-    font-size: 18px;
+    font-size: 16px;
     .symbol {
       width: 27px;
       height: 27px;
@@ -83,7 +83,7 @@ const StyledBaseGnb = styled.nav`
   @media ${device.mobile} {
     column-gap: 24px;
     a {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 `;

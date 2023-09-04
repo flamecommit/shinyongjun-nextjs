@@ -75,6 +75,7 @@ const StyledPackageHeader = styled.header`
       column-gap: 4px;
       align-items: center;
       font-family: ${roboto.style.fontFamily};
+      font-size: 16px;
       &:hover {
         color: ${config.hoverText};
       }
@@ -86,6 +87,11 @@ const StyledPackageHeader = styled.header`
   }
   @media ${device.mobile} {
     height: 48px;
+    .gnb {
+      a {
+        font-size: 14px;
+      }
+    }
   }
 `;
 
