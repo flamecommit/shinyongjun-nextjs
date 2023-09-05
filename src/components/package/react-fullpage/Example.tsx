@@ -16,6 +16,9 @@ function PackageReactFullpageExample() {
       <FullpageContainer
         activeIndex={activeIndex}
         setActiveIndex={setActiveIndex}
+        onAfterLoad={() => {
+          console.log('After Load');
+        }}
       >
         <FullpageSection>
           <div className="section first">
