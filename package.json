@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "sitemap": "next-sitemap",
+    "deploy": "next build && next-sitemap && gh-pages -d out --dotfiles",
     "dev": "next dev -p 3333",
     "lint": "next lint",
     "serve": "npx http-server out",
-    "deploy": "next build && next-sitemap && gh-pages -d out --dotfiles"
+    "sitemap": "next-sitemap"
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
