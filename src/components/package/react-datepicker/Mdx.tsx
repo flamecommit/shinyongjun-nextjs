@@ -1,6 +1,6 @@
 'use client';
 
-import { Datepicker } from '@shinyongjun/react-datepicker';
+import { Datepicker, Rangepicker } from '@shinyongjun/react-datepicker';
 import styled from 'styled-components';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import MdxContents from '@/components/mdx/Contents';
@@ -19,7 +19,7 @@ function ReactDatepickerMdx({ documentData }: IProps) {
       <MdxContents>
         <MDXRemote
           {...documentData.mdx}
-          components={{ Datepicker, ReactDatepickerSection }}
+          components={{ Datepicker, Rangepicker, ReactDatepickerSection }}
         />
       </MdxContents>
     </StyledReactDatepickerMdx>
@@ -27,7 +27,7 @@ function ReactDatepickerMdx({ documentData }: IProps) {
 }
 
 const StyledReactDatepickerMdx = styled.div`
-  padding: 60px 50px 50px;
+  padding: 60px 50px 100px;
   min-height: 100vh;
   background-color: #f6f8fa;
   .mdx-contents {
@@ -37,7 +37,7 @@ const StyledReactDatepickerMdx = styled.div`
     margin: 60px auto;
   }
   @media ${device.mobile} {
-    padding: 48px 0 0;
+    padding: 48px 0 100px;
     .mdx-contents {
       padding: 20px;
       margin: 0;

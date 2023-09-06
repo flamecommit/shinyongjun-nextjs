@@ -9,13 +9,25 @@ npm install @shinyongjun/react-datepicker
 yarn add @shinyongjun/react-datepicker
 ```
 
-## Usage
+## Usage Datepicker
 
 ```tsx
 import { Datepicker } from '@shinyongjun/react-datepicker';
 
 function ExampleComponent() {
   return <Datepicker />;
+}
+
+export default ExampleComponent;
+```
+
+## Usage Rangepicker
+
+```tsx
+import { Rangepicker } from '@shinyongjun/react-datepicker';
+
+function ExampleComponent() {
+  return <Rangepicker />;
 }
 
 export default ExampleComponent;
@@ -47,8 +59,8 @@ export default ExampleComponent;
 
 <PropsTable
   propsData={{
-    name: 'isClearButton',
-    component: '<Datepicker />',
+    name: 'useClearButton',
+    component: '<Datepicker />, <Rangepicker />',
     required: 'false',
     type: 'boolean',
     default: 'false',
@@ -59,7 +71,7 @@ export default ExampleComponent;
 <PropsTable
   propsData={{
     name: 'valueFormat',
-    component: '<Datepicker />',
+    component: '<Datepicker />, <Rangepicker />',
     required: 'false',
     type: 'string',
     default: 'YYYY-MM-DD',
@@ -70,7 +82,7 @@ export default ExampleComponent;
 <PropsTable
   propsData={{
     name: 'labelFormat',
-    component: '<Datepicker />',
+    component: '<Datepicker />, <Rangepicker />',
     required: 'false',
     type: 'string',
     default: 'YYYY / MM',
@@ -80,8 +92,8 @@ export default ExampleComponent;
 
 <PropsTable
   propsData={{
-    name: 'isMultipleCalendar',
-    component: '<Datepicker />',
+    name: 'showsMultipleCalendar',
+    component: '<Datepicker />, <Rangepicker />',
     required: 'false',
     type: 'boolean',
     default: 'false',
