@@ -88,6 +88,7 @@ const StyledPackageHeader = styled.header`
   @media ${device.mobile} {
     height: 48px;
     .gnb {
+      column-gap: 24px;
       a {
         font-size: 14px;
       }
