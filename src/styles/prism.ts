@@ -1,4 +1,5 @@
 import { css } from 'styled-components';
+import { pretendard } from './fonts';
 
 export const prism = css`
   code[class*='language-'],
@@ -6,7 +7,7 @@ export const prism = css`
     color: black;
     background: none;
     text-shadow: 0 1px white;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-family: Consolas, ${pretendard.style.fontFamily};
     font-size: 1em;
     text-align: left;
     white-space: pre;

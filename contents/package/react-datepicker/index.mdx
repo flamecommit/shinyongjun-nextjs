@@ -112,3 +112,15 @@ export default ExampleComponent;
       'If "true", the datepicker will automatically close after a date is selected by clicking a date on the calendar.',
   }}
 />
+
+<PropsTable
+  propsData={{
+    name: 'weekdayLabels',
+    component: '<Datepicker />, <Rangepicker />',
+    required: 'false',
+    type: 'string[]',
+    default: "['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']",
+    description:
+      'An option that allows you to label the day of the week in any format that you want.',
+  }}
+/>
