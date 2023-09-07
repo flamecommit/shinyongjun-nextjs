@@ -23,7 +23,7 @@ function AuthorDetails() {
   return (
     <StyledAuthorDetails>
       <section>
-        <h3 className="section-title">Stacks</h3>
+        <h3 className="section-title">Stacks &amp; Tools</h3>
         <div className="item-list">
           <div className="item">
             <img src="/icons/html.svg" alt="" />
@@ -77,11 +77,6 @@ function AuthorDetails() {
             <SiJquery style={{ color: '#1066A9' }} />
             JQuery
           </div>
-        </div>
-      </section>
-      <section>
-        <h3 className="section-title">Tools</h3>
-        <div className="item-list">
           <div className="item">
             <img src="/icons/vscode.svg" alt="" />
             VSCode
@@ -125,7 +120,7 @@ function AuthorDetails() {
         </div>
       </section>
       <section>
-        <h3 className="section-title">Packages</h3>
+        <h3 className="section-title">Libraries</h3>
         <div className="package-list">
           <div className="package">
             <a
@@ -169,11 +164,6 @@ function AuthorDetails() {
               </Link>
             </div>
           </div>
-        </div>
-      </section>
-      <section>
-        <h3 className="section-title">Plugins</h3>
-        <div className="package-list">
           <div className="package">
             <a
               href="https://shinyj1991.github.io/eclipse"
@@ -198,21 +188,12 @@ function AuthorDetails() {
           </div>
         </div>
       </section>
-      {/* <section>
-        <h3 className="section-title">Contact</h3>
-        <div className="item-list">
-          <div className="item">
-            <img src="/icons/gmail.svg" alt="" />
-            <a href="mailto:shinyj1991@gmail.com">shinyj1991@gmail.com</a>
-          </div>
-        </div>
-      </section> */}
       <section>
         <h3 className="section-title">History</h3>
         <PageLink href="/history">Go to History</PageLink>
       </section>
       <section>
-        <h3 className="section-title">Score Board</h3>
+        <h3 className="section-title">Score</h3>
         <PageLink href="/score">Go to Score</PageLink>
       </section>
     </StyledAuthorDetails>
