@@ -42,8 +42,29 @@ export default ExampleComponent;
     required: 'false',
     type: 'Date | null',
     default: 'null',
-    description:
-      'Datepicker component allows you to declare the initial value.',
+    description: 'Set the initial value of "Datepicker".',
+  }}
+/>
+
+<PropsTable
+  propsData={{
+    name: 'initStartValue',
+    component: '<Rangepicker />',
+    required: 'false',
+    type: 'Date | null',
+    default: 'null',
+    description: 'Set the initial value of "Rangepicker".',
+  }}
+/>
+
+<PropsTable
+  propsData={{
+    name: 'initEndValue',
+    component: '<Rangepicker />',
+    required: 'false',
+    type: 'Date | null',
+    default: 'null',
+    description: 'Set the initial value of "Rangepicker".',
   }}
 />
 
@@ -52,8 +73,18 @@ export default ExampleComponent;
     name: 'onChange',
     component: '<Datepicker />',
     required: 'false',
-    type: '(value: Date | null) => void',
+    type: '(activeDate: Date | null) => void',
     description: 'Triggered whenever the value of the Datepicker changes.',
+  }}
+/>
+
+<PropsTable
+  propsData={{
+    name: 'onChange',
+    component: '<Rangepicker />',
+    required: 'false',
+    type: '(startDate: Date | null, endDate: Date | null) => void',
+    description: 'Triggered whenever the value of the Rangepicker changes.',
   }}
 />
 
