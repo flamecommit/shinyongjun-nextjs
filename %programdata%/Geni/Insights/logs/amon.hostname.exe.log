@@ -1,0 +1,25 @@
+[25428:1] 2023-09-13 15:43:12.309 [0x3200(0) CxCommonApi::LogModuleInfo] [MODULE LOADING] ModuleName amon64.dll, Version [2.0.0.1], ModulePath C:\Program Files\Geni\Insights\temp\amon64.dll ModifiedTime 2023-04-06 11:48:32
+[25428:1] 2023-09-13 15:43:12.309 [0x3200(0) CxSensorPipeClient::Initialize] [Initialize]
+[25428:1] 2023-09-13 15:43:12.309 [0x3200(0) CxThreadPool::Initialize] Queue init : OutputQue 0, nThreadPoolSize : 1
+[25428:1] 2023-09-13 15:43:12.310 [0x3200(183) CxThreadPool::CreateThreadPool] Create 1 WorkerThread
+[25428:1] 2023-09-13 15:43:12.310 [0x3200(0) CAttachMonitor::_InstallHook] [INSTALL_HOOK] GetOpenFileNameW : hostname.exe:25428
+[25428:1] 2023-09-13 15:43:12.311 [0x3200(183) CAttachMonitor::_InstallHook] [INSTALL_HOOK] CoCreateInstance : hostname.exe:25428
+[25428:1] 2023-09-13 15:43:12.311 [0x3200(183) CAttachMonitor::_InstallHook] [INSTALL_HOOK] DoDragDrop : hostname.exe:25428
+[25428:1] 2023-09-13 15:43:12.311 [0x3200(183) CUIAManager::Initialize] [Initialize]
+[25428:1] 2023-09-13 15:43:12.311 [0x3200(183) CUIAManager::Initialize] [/Initialize] SUCCESS
+[25428:1] 2023-09-13 15:43:12.312 [0x3200(536871044) CxDllNotifier::Initialize] [Initialize]
+[25428:1] 2023-09-13 15:43:12.312 [0x3200(183) CxDllNotifier::Initialize] [RegisterDllNotification] 00000000006D9190
+[25428:1] 2023-09-13 15:43:12.312 [0x3200(183) CxDllNotifier::RegisterCallback] [RegisterCallback] Callback 00007FFD6CDE5300 Context 00000000006D6E80
+[25428:1] 2023-09-13 15:43:12.313 [0x6580(87) CxThreadPool::ThreadEntry] Worker Thread begins
+[25428:1] 2023-09-13 15:43:12.314 [0x6580(1) CxSensorPipeClient::SendJson] [SEND][ReqType:10] {
+   "PID" : 25428,
+   "ProcPath" : "C:\\Program Files\\Git\\usr\\bin\\hostname.exe",
+   "ReqType" : "xSensorRequestType_GetAmonProfile"
+}
+
+[25428:1] 2023-09-13 15:43:12.314 [0x6580(183) CxSensorPipeClient::SendJson] [RECV] {
+   "DetectionProcessList" : ""
+}
+
+[25428:1] 2023-09-13 15:43:12.314 [0x6580(183) CAttachMonitor::_PipeResponseCallback] Addtional DetectionProcessList is empty
+[25428:1] 2023-09-13 15:43:12.315 [0x6580(183) CAttachMonitor::_PipeResponseCallback] Not Target Process[myself]
