@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 import useMousePressed from '@/hooks/useMousePressed';
+import useWindowSize from '@/hooks/useWindowSize';
 
 type Props = {
   image: string;
@@ -18,6 +19,7 @@ function GalleryItem({ image, scale }: Props) {
   const [transformY, setTransformY] = useState(0);
   const transform = `translate(${transformX}px, ${transformY}px) scale(${scale})`;
   const isMousePressed = useMousePressed();
+  const { width: windowWidth, height: windowHeight } = useWindowSize();
 
   const mousedownGallery = (e: React.MouseEvent) => {
     setStartX(e.clientX);
@@ -37,6 +39,8 @@ function GalleryItem({ image, scale }: Props) {
       onMouseDown={mousedownGallery}
       onMouseMove={mousemoveGallery}
       $transform={transform}
+      $windowWidth={windowWidth}
+      $windowHeight={windowHeight}
       data-pressed={isMousePressed.toString()}
     >
       <img src={image} alt="" />
@@ -44,9 +48,15 @@ function GalleryItem({ image, scale }: Props) {
   );
 }
 
-const StyledGalleryItem = styled.div.attrs<{ $transform: string }>((props) => ({
+const StyledGalleryItem = styled.div.attrs<{
+  $transform: string;
+  $windowWidth: number;
+  $windowHeight: number;
+}>((props) => ({
   style: {
     transform: props.$transform,
+    windowWidth: props.$windowWidth,
+    windowHeight: props.$windowHeight,
   },
 }))`
   position: absolute;
@@ -58,7 +68,8 @@ const StyledGalleryItem = styled.div.attrs<{ $transform: string }>((props) => ({
   img {
     pointer-events: none;
     user-select: none;
-    max-width: 100%;
+    max-width: ${(props) => `${props.$windowWidth - 100}px`};
+    max-height: ${(props) => `${props.$windowHeight - 280}px`};
   }
   &[data-pressed='true'] {
     cursor: grabbing;

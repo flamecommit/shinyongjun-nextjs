@@ -127,7 +127,7 @@ const StyledGalleryWrapper = styled.div<{ $scale: number }>`
   background-color: rgba(0, 0, 0, 0.7);
   .image-list {
     position: absolute;
-    inset: 0;
+    inset: 0 0 50px;
     display: flex;
     justify-content: center;
     align-items: center;
