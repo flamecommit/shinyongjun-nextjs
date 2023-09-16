@@ -1,5 +1,5 @@
 1:HL["/_next/static/css/a8432a49c2a6ac20.css",{"as":"style"}]
-0:["_f32CRJgB5VEnN4kRGbgz",[[["",{"children":[["packageName","react-datepicker","d"],{"children":["document",{"children":["__PAGE__?{\"packageName\":\"react-datepicker\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next"}]],"$L3"]]]]
+0:["_YvNBV2vMxr2XuUgtbccS",[[["",{"children":[["packageName","react-datepicker","d"],{"children":["document",{"children":["__PAGE__?{\"packageName\":\"react-datepicker\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next"}]],"$L3"]]]]
 4:HL["/_next/static/css/da23838ccc6fd56f.css",{"as":"style"}]
 5:I{"id":3015,"chunks":["891:static/chunks/891-1ee43409ad43f76e.js","198:static/chunks/198-5d8ce411b881c43c.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-51bcb131de76027e.js"],"name":"","async":false}
 6:I{"id":2071,"chunks":["891:static/chunks/891-1ee43409ad43f76e.js","198:static/chunks/198-5d8ce411b881c43c.js","663:static/chunks/663-7a508362af48048a.js","185:static/chunks/app/layout-51bcb131de76027e.js"],"name":"","async":false}
