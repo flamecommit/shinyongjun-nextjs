@@ -5,6 +5,7 @@ import {
   FullpageContainer,
   FullpageSection,
 } from '@shinyongjun/react-fullpage';
+import '@shinyongjun/react-fullpage/css';
 import { useState } from 'react';
 import { device } from '@/styles/mixin';
 
