@@ -1,6 +1,7 @@
 'use client';
 
 import { Datepicker, Rangepicker } from '@shinyongjun/react-datepicker';
+import '@shinyongjun/react-datepicker/css';
 import styled from 'styled-components';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import MdxContents from '@/components/mdx/Contents';
