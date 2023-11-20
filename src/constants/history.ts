@@ -59,11 +59,7 @@ export const PROJECT_LIST: TProject[] = [
   { name: 'NightCrows 사전예약 사이트', started: [2023, 3], ended: [2023, 3] },
   { name: 'NightCrows 티저 사이트', started: [2022, 12], ended: [2022, 12] },
   { name: 'NightCrows 헛개수 이벤트', started: [2023, 7], ended: [2023, 7] },
-  {
-    name: 'shinyongjun.com',
-    started: [2023, 8],
-    ended: [todayYear, todayMonth],
-  },
+  { name: 'shinyongjun.com', started: [2023, 8], ended: [2023, 10] },
   { name: '뉴딘몰', started: [2017, 7], ended: [2017, 7] },
   { name: 'SA TECH', started: [2016, 11], ended: [2016, 12] },
   { name: 'slorder', started: [2021, 8], ended: [2021, 8] },
@@ -74,4 +70,9 @@ export const PROJECT_LIST: TProject[] = [
   { name: '뜨르들로', started: [2015, 4], ended: [2015, 4] },
   { name: 'Winsome', started: [2022, 2], ended: [2022, 2] },
   { name: '제오헤어', started: [2015, 10], ended: [2015, 10] },
+  {
+    name: 'NightCrows Global 티저',
+    started: [2023, 11],
+    ended: [todayYear, todayMonth],
+  },
 ];
