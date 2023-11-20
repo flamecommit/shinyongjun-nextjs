@@ -1,0 +1,75 @@
+---
+title: pm2 - 환경에 따라 dotenv 파일 분기처리 하기
+date: 2023-11-20T10:23:00
+categories: ['pm2']
+---
+
+### 상황
+
+`pm2`를 사용하여 서버에 `next.js` 앱을 실행할 때 각 환경(`alpha`, `dev`, `prod`)에 따른 환경변수 파일(`dotenv`)을 참조하고 싶었습니다.
+
+### 설정
+
+`ecosystem.conf.js` 는 `pm2` 설정 파일입니다. `env_...` 구문이 각 환경별 설정을 나누는 구간입니다.
+코드를 보다보면 `NODE_ENV` 환경변수를 `production`으로 선언하는 구문이있는데, 이는 위에서 `--env` 옵션을 사용하여 `NODE_ENV`의 값이 변질되었기 때문입니다.
+`typescript`에선 `NODE_ENV`의 값을 `production`, `development`, `test` 이 세가지만 허용하기 때문에 `pm2` 에서 각 환경별 참조를 끝낸 후 다시 본래의 값으로 돌려주는것입니다.
+이제 `pm2`는 root경로에 있는 `.env.alpha`, `.env.dev`, `.env.prod` 파일을 가지고 환경변수를 셋팅한 후 앱을 실행시킬 것입니다.
+
+```js:/ecosystem.config.js
+/* eslint-disable @typescript-eslint/no-var-requires */
+const path = require('path');
+
+module.exports = {
+  apps: [
+    {
+      name: 'my-app-name',
+      exec_mode: 'cluster',
+      script: 'node_modules/next/dist/bin/next',
+      args: 'start',
+      HOST: '0.0.0.0',
+      env_alpha: {
+        instances: 1,
+        PORT: 8080,
+        NODE_ENV: 'production',
+        ...require('dotenv').config({
+          path: path.resolve(__dirname, '.env.alpha'),
+        }).parsed,
+      },
+      env_dev: {
+        instances: 1,
+        PORT: 8080,
+        NODE_ENV: 'production',
+        ...require('dotenv').config({
+          path: path.resolve(__dirname, '.env.dev'),
+        }).parsed,
+      },
+      env_prod: {
+        instances: 'max',
+        PORT: 8080,
+        NODE_ENV: 'production',
+        ...require('dotenv').config({
+          path: path.resolve(__dirname, '.env.prod'),
+        }).parsed,
+      },
+    },
+  ],
+};
+```
+
+### 실행
+
+아래는 `pm2` 설정 파일인 `ecosystem.config.js` 를 참조하여 `pm2` 프로세스를 리로드 하는 스크립트 예제입니다.
+`--env` 옵션은 어떤 `dotenv` 파일을 사용할 지 지정하는 역할을 합니다.
+
+```json:/package.json
+{
+  "name": "my-app-name",
+  "version": "0.0.1",
+  "scripts": {
+    "pm2:alpha": "pm2 reload ecosystem.config.js --env=alpha",
+    "pm2:dev": "pm2 reload ecosystem.config.js --env=dev",
+    "pm2:prod": "pm2 reload ecosystem.config.js --env=prod",
+  },
+  ...
+}
+```
