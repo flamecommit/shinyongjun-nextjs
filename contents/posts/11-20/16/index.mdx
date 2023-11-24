@@ -10,7 +10,7 @@ categories: ['pm2']
 
 ### 설정
 
-`ecosystem.conf.js` 는 `pm2` 설정 파일입니다. `env_...` 구문이 각 환경별 설정을 나누는 구간입니다.
+`ecosystem.config.js` 는 `pm2` 설정 파일입니다. `env_...` 구문이 각 환경별 설정을 나누는 구간입니다.
 코드를 보다보면 `NODE_ENV` 환경변수를 `production`으로 선언하는 구문이있는데, 이는 위에서 `--env` 옵션을 사용하여 `NODE_ENV`의 값이 변질되었기 때문입니다.
 `typescript`에선 `NODE_ENV`의 값을 `production`, `development`, `test` 이 세가지만 허용하기 때문에 `pm2` 에서 각 환경별 참조를 끝낸 후 다시 본래의 값으로 돌려주는것입니다.
 이제 `pm2`는 root경로에 있는 `.env.alpha`, `.env.dev`, `.env.prod` 파일을 가지고 환경변수를 셋팅한 후 앱을 실행시킬 것입니다.
