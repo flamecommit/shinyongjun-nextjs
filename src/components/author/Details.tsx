@@ -75,7 +75,7 @@ function AuthorDetails() {
           </div>
           <div className="item">
             <SiJquery style={{ color: '#1066A9' }} />
-            JQuery
+            jQuery
           </div>
           <div className="item">
             <img src="/icons/vscode.svg" alt="" />
