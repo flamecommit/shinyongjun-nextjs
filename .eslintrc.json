@@ -2,6 +2,12 @@
   "root": true,
   "extends": "@shinyongjun",
   "rules": {
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off",
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        "labelAttributes": ["htmlFor"]
+      }
+    ]
   }
 }
