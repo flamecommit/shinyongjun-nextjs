@@ -33,7 +33,7 @@ function AuthorProfile({ postDetail }: Props) {
             <SiGithub style={{ color: '#000000' }} title="Github" />
           </a>
           <a href="mailto:shinyj1991@gmail.com">
-            <img src="/icons/gmail.svg" alt="" />
+            <img src="/icons/gmail.svg" alt="Gmail" title="G-mail" />
           </a>
         </div>
       </div>
