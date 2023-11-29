@@ -141,6 +141,42 @@ export default ExampleComponent;
 
 <PropsTable
   propsData={{
+    name: 'allowScroll',
+    component: '<FullpageContainer />',
+    required: 'false',
+    type: 'boolean',
+    default: 'true',
+    description:
+      'This option determines whether scrolling is allowed for the entire page. If allowScroll is set to true, the page becomes scrollable. On the other hand, if set to false, page scrolling is disabled.',
+  }}
+/>
+
+<PropsTable
+  propsData={{
+    name: 'allowScrollUp',
+    component: '<FullpageContainer />',
+    required: 'false',
+    type: 'boolean',
+    default: 'true',
+    description:
+      'This option decides whether scrolling upward on the page is allowed. When allowScrollUp is set to true, scrolling upwards is permitted. If set to false, scrolling upwards is disabled.',
+  }}
+/>
+
+<PropsTable
+  propsData={{
+    name: 'allowScrollDown',
+    component: '<FullpageContainer />',
+    required: 'false',
+    type: 'boolean',
+    default: 'true',
+    description:
+      'This option determines whether scrolling downward on the page is allowed. If allowScrollDown is set to true, scrolling downwards is permitted. If set to false, scrolling downwards is disabled.',
+  }}
+/>
+
+<PropsTable
+  propsData={{
     name: 'onAfterLoad',
     component: '<FullpageContainer />',
     required: 'false',
