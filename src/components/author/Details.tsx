@@ -121,6 +121,14 @@ function AuthorDetails() {
             <img src="/icons/obsidian.svg" alt="" />
             Obsidian
           </div>
+          <div className="item">
+            <img src="/icons/nginx.svg" alt="" />
+            Nginx
+          </div>
+          <div className="item">
+            <img src="/icons/pm2.svg" alt="" />
+            PM2
+          </div>
         </div>
       </section>
       <section>
