@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import StyledComponentsRegistry from '@/styles/registry';
 import RootProvider from '@/stores/provider';
 import GoogleAnalytics from '@/components/config/GoogleAnalytics';
@@ -8,6 +8,11 @@ interface Props {
   children: React.ReactNode;
 }
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+};
+
 export async function generateMetadata(): Promise<Metadata> {
   const title = '신용준 | Tech & Music Archive';
   const description = process.env.BIO;
@@ -15,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title,
     description,
-    viewport: 'width=device-width, initial-scale=1.0',
+    metadataBase: new URL('https://shinyongjun.com'),
     openGraph: {
       type: 'website',
       title,
