@@ -40,4 +40,3 @@ computedKey : 기입 코드가 0capo 기준이 아닐때 조정값 (UI 노출 X)
 end.
 
 1
-2
