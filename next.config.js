@@ -20,7 +20,7 @@ const nextConfig = {
   },
   env: {
     MODE: process.env.MODE,
-    OG_IMAGE: 'https://shinyongjun.com/og-image.jpg',
+    OG_IMAGE: '/og-image.jpg',
     BIO: '기타 치는 개발자',
   },
 };
