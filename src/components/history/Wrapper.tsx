@@ -32,13 +32,6 @@ function HistoryWrapper() {
           (item) => item.ended[0] === year && item.ended[1] === month,
         );
 
-        console.log(
-          month,
-          lastMonth,
-          firstMonth,
-          month === lastMonth ? lastMonth - firstMonth : 0,
-        );
-
         temp.push({
           index: ++rowIndex,
           key: `${year}-${month}`,
