@@ -32,11 +32,18 @@ function HistoryWrapper() {
           (item) => item.ended[0] === year && item.ended[1] === month,
         );
 
+        console.log(
+          month,
+          lastMonth,
+          firstMonth,
+          month === lastMonth ? lastMonth - firstMonth : 0,
+        );
+
         temp.push({
           index: ++rowIndex,
           key: `${year}-${month}`,
           year,
-          yearSize: month === lastMonth ? lastMonth - firstMonth : 0,
+          yearSize: month === lastMonth ? lastMonth - firstMonth + 1 : 0,
           month,
           company: company && {
             ...company,
@@ -73,7 +80,7 @@ function HistoryWrapper() {
                   gridColumnStart: 1,
                   gridColumnEnd: 1,
                   gridRowStart: history.index,
-                  gridRowEnd: history.index + history.yearSize + 1,
+                  gridRowEnd: history.index + history.yearSize,
                 }}
               >
                 <div className="sticky">
@@ -180,12 +187,12 @@ const StyledHistoryWrapper = styled.div`
       top: 120px;
       left: 0;
       height: 60px;
-      padding-inline: 6px;
+      padding-inline: 12px;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
-      word-break: break-all;
+      word-break: keep-all;
     }
     .ellipsis {
       ${ellipsis(2)};

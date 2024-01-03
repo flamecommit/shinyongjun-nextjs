@@ -71,8 +71,13 @@ export const PROJECT_LIST: TProject[] = [
   { name: 'Winsome', started: [2022, 2], ended: [2022, 2] },
   { name: '제오헤어', started: [2015, 10], ended: [2015, 10] },
   {
-    name: 'NightCrows Global 티저',
+    name: 'NightCrows Global Teaser',
     started: [2023, 11],
+    ended: [2023, 12],
+  },
+  {
+    name: 'NightCrows Global Preregister',
+    started: [2024, 1],
     ended: [todayYear, todayMonth],
   },
 ];
