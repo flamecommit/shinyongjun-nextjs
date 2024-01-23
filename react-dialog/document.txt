@@ -1,0 +1,320 @@
+1:HL["/_next/static/css/a8432a49c2a6ac20.css","style",{"crossOrigin":""}]
+0:["ImgyEMo-NRnR_dRA4hAGS",[[["",{"children":[["packageName","react-dialog","d"],{"children":["document",{"children":["__PAGE__?{\"packageName\":\"react-dialog\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+4:HL["/_next/static/css/da23838ccc6fd56f.css","style",{"crossOrigin":""}]
+5:I[3994,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-12a7eeedf6a11535.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-d6fe29fc9e693143.js"],""]
+6:I[4333,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-12a7eeedf6a11535.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-d6fe29fc9e693143.js"],""]
+7:I[9048,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-12a7eeedf6a11535.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-d6fe29fc9e693143.js"],""]
+8:I[80,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-12a7eeedf6a11535.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-d6fe29fc9e693143.js"],""]
+9:I[6954,[],""]
+a:I[7264,[],""]
+b:I[8894,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","10","static/chunks/app/%5BpackageName%5D/layout-9d3b368325108356.js"],""]
+c:["packageName","react-dialog","d"]
+2:[null,["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L5",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L5",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]]]}],["$","body",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":[null,[["$","$Lb",null,{"packageName":"react-dialog"}],["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children",["packageName","react-dialog","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","$c","children","document","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$Ld","$Le",null],"childPropSegment":"__PAGE__?{\"packageName\":\"react-dialog\"}","styles":null}],"childPropSegment":"document","styles":null}]],null],"childPropSegment":["packageName","react-dialog","d"],"styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/da23838ccc6fd56f.css","precedence":"next","crossOrigin":""}]]}]}]}]}]}]]}],null]
+3:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"@shinyongjun/react-dialog"}],["$","meta","3",{"name":"description","content":"powered by @shinyongjun"}],["$","meta","4",{"property":"og:title","content":"@shinyongjun/react-dialog"}],["$","meta","5",{"property":"og:description","content":"powered by @shinyongjun"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"@shinyongjun/react-dialog"}],["$","meta","11",{"name":"twitter:description","content":"powered by @shinyongjun"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
+f:I[3729,["433","static/chunks/433-e80d328241e3a719.js","896","static/chunks/896-c41ede4b3d6b117a.js","959","static/chunks/app/%5BpackageName%5D/document/page-47c1d9b83337e1af.js"],""]
+10:T2d76,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    h1: "h1",
+    p: "p",
+    h2: "h2",
+    pre: "pre",
+    code: "code",
+    span: "span"
+  }, _provideComponents(), props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h1, {
+      children: "React Dialog"
+    }), "\n", _jsx(_components.p, {
+      children: "This is a Dialog library that operates in React."
+    }), "\n", _jsx(_components.h2, {
+      children: "Installation"
+    }), "\n", _jsx(_components.pre, {
+      children: _jsx(_components.code, {
+        className: "",
+        children: "npm install @shinyongjun/react-dialog\r\nyarn add @shinyongjun/react-dialog\n"
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Default Style"
+    }), "\n", _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-css",
+        children: [_jsx(_components.span, {
+          className: "hljs-selector-class",
+          children: ".react-dialog__wrapper"
+        }), " {\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "position"
+        }), ": fixed;\r\n  inset: ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "0"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "z-index"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "1000"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "background-color"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "rgba"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "0"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "0"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "0"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "0.7"
+        }), ");\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "display"
+        }), ": flex;\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "justify-content"
+        }), ": center;\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "align-items"
+        }), ": center;\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-selector-class",
+          children: ".react-dialog__dialog"
+        }), " {\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "background-color"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "#fff"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "padding"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "30px"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "text-align"
+        }), ": center;\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-selector-class",
+          children: ".react-dialog__message"
+        }), " {\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "font-size"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "16px"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "color"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "#000"
+        }), ";\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-selector-class",
+          children: ".react-dialog__input"
+        }), " {\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "width"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "240px"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "height"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "40px"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "border"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "1px"
+        }), " solid ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "#000"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "margin-top"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "20px"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "padding"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "0"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "20px"
+        }), ";\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-selector-class",
+          children: ".react-dialog__button-wrapper"
+        }), " {\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "margin-top"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "20px"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "display"
+        }), ": flex;\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "justify-content"
+        }), ": center;\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "column-gap"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "10px"
+        }), ";\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-selector-class",
+          children: ".react-dialog__button-wrapper"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-selector-tag",
+          children: "button"
+        }), _jsx(_components.span, {
+          className: "hljs-selector-pseudo",
+          children: ":focus"
+        }), " {\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "outline"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "2px"
+        }), " dashed ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "#000"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "outline-offset"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "2px"
+        }), ";\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-selector-class",
+          children: ".react-dialog__button-ok"
+        }), " {\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "display"
+        }), ": flex;\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "justify-content"
+        }), ": center;\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "align-items"
+        }), ": center;\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "width"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "80px"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "height"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "40px"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "border-radius"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "0px"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "border"
+        }), ": none;\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "background"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "#333"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "color"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "#fff"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "cursor"
+        }), ": pointer;\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-selector-class",
+          children: ".react-dialog__button-cancel"
+        }), " {\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "display"
+        }), ": flex;\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "justify-content"
+        }), ": center;\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "align-items"
+        }), ": center;\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "width"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "80px"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "height"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "40px"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "border-radius"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "0px"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "border"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "1px"
+        }), " solid ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "#333"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "color"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "#333"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "background-color"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "#fff"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attribute",
+          children: "cursor"
+        }), ": pointer;\r\n}\n"]
+      })
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+e:["$","$Lf",null,{"documentData":{"mdx":{"compiledSource":"$10","frontmatter":{},"scope":{}}}}]
+d:null

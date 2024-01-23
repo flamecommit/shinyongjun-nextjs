@@ -1,0 +1,469 @@
+1:HL["/_next/static/css/a8432a49c2a6ac20.css","style",{"crossOrigin":""}]
+0:["ImgyEMo-NRnR_dRA4hAGS",[[["",{"children":[["packageName","react-dialog","d"],{"children":["example",{"children":["__PAGE__?{\"packageName\":\"react-dialog\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+4:HL["/_next/static/css/da23838ccc6fd56f.css","style",{"crossOrigin":""}]
+5:HL["/_next/static/css/d80b0428ad69a909.css","style",{"crossOrigin":""}]
+6:I[3994,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-12a7eeedf6a11535.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-d6fe29fc9e693143.js"],""]
+7:I[4333,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-12a7eeedf6a11535.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-d6fe29fc9e693143.js"],""]
+8:I[9048,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-12a7eeedf6a11535.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-d6fe29fc9e693143.js"],""]
+9:I[80,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-12a7eeedf6a11535.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-d6fe29fc9e693143.js"],""]
+a:I[6954,[],""]
+b:I[7264,[],""]
+c:I[8894,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","10","static/chunks/app/%5BpackageName%5D/layout-9d3b368325108356.js"],""]
+d:["packageName","react-dialog","d"]
+2:[null,["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L6",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L6",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]]]}],["$","body",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":[null,[["$","$Lc",null,{"packageName":"react-dialog"}],["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children",["packageName","react-dialog","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$La",null,{"parallelRouterKey":"children","segmentPath":["children","$d","children","example","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$Le","$Lf",null],"childPropSegment":"__PAGE__?{\"packageName\":\"react-dialog\"}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d80b0428ad69a909.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":"example","styles":null}]],null],"childPropSegment":["packageName","react-dialog","d"],"styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/da23838ccc6fd56f.css","precedence":"next","crossOrigin":""}]]}]}]}]}]}]]}],null]
+3:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"@shinyongjun/react-dialog"}],["$","meta","3",{"name":"description","content":"powered by @shinyongjun"}],["$","meta","4",{"property":"og:title","content":"@shinyongjun/react-dialog"}],["$","meta","5",{"property":"og:description","content":"powered by @shinyongjun"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"@shinyongjun/react-dialog"}],["$","meta","11",{"name":"twitter:description","content":"powered by @shinyongjun"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
+f:[false,false,"$L10"]
+e:null
+11:I[5722,["433","static/chunks/433-e80d328241e3a719.js","977","static/chunks/977-2283c49affd0c16e.js","896","static/chunks/896-c41ede4b3d6b117a.js","339","static/chunks/app/%5BpackageName%5D/example/page-f0715bc3ddfb740f.js"],""]
+12:T47ae,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    h2: "h2",
+    h3: "h3",
+    h4: "h4",
+    pre: "pre",
+    code: "code",
+    span: "span"
+  }, _provideComponents(), props.components), {ReactDialogSection, AlertExample, ConfirmExample, PromptExample} = _components;
+  if (!AlertExample) _missingMdxReference("AlertExample", true);
+  if (!ConfirmExample) _missingMdxReference("ConfirmExample", true);
+  if (!PromptExample) _missingMdxReference("PromptExample", true);
+  if (!ReactDialogSection) _missingMdxReference("ReactDialogSection", true);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.h2, {
+      children: "React-Dialog"
+    }), "\n", _jsxs(ReactDialogSection, {
+      children: [_jsx(_components.h3, {
+        children: "Alert Example"
+      }), _jsx(_components.h4, {
+        children: "- code"
+      }), _jsx(_components.pre, {
+        children: _jsxs(_components.code, {
+          className: "hljs language-tsx",
+          children: [_jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "import"
+          }), " { ", _jsx(_components.span, {
+            className: "hljs-title class_",
+            children: "AlertContext"
+          }), " } ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "from"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "'@shinyongjun/react-dialog'"
+          }), ";\r\n", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "import"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "'@shinyongjun/react-dialog/css'"
+          }), ";\r\n\r\n", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "function"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "AlertExample"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-params"
+          }), ") {\r\n  ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "const"
+          }), " { alert } = ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "useContext"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-title class_",
+            children: "AlertContext"
+          }), ");\r\n  ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "const"
+          }), " [state, setState] = ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "useState"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "'close'"
+          }), ");\r\n\r\n  ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "const"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "handleAlert"
+          }), " = ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "async"
+          }), " (", _jsx(_components.span, {
+            className: "hljs-params"
+          }), ") => {\r\n    ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "setState"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "'open'"
+          }), ");\r\n    ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "await"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "alert"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "'Alert message.'"
+          }), ");\r\n    ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "setState"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "'close'"
+          }), ");\r\n  };\r\n\r\n  ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "return"
+          }), " (\r\n    ", _jsxs(_components.span, {
+            className: "xml",
+            children: [_jsx(_components.span, {
+              className: "hljs-tag",
+              children: "<>"
+            }), "\r\n      ", _jsxs(_components.span, {
+              className: "hljs-tag",
+              children: ["<", _jsx(_components.span, {
+                className: "hljs-name",
+                children: "button"
+              }), " ", _jsx(_components.span, {
+                className: "hljs-attr",
+                children: "type"
+              }), "=", _jsx(_components.span, {
+                className: "hljs-string",
+                children: "\"button\""
+              }), " ", _jsx(_components.span, {
+                className: "hljs-attr",
+                children: "onClick"
+              }), "=", _jsx(_components.span, {
+                className: "hljs-string",
+                children: "{handleAlert}"
+              }), ">"]
+            }), "\r\n        Alert\r\n      ", _jsxs(_components.span, {
+              className: "hljs-tag",
+              children: ["</", _jsx(_components.span, {
+                className: "hljs-name",
+                children: "button"
+              }), ">"]
+            }), "\r\n      ", _jsxs(_components.span, {
+              className: "hljs-tag",
+              children: ["<", _jsx(_components.span, {
+                className: "hljs-name",
+                children: "div"
+              }), ">"]
+            }), "state : {state}", _jsxs(_components.span, {
+              className: "hljs-tag",
+              children: ["</", _jsx(_components.span, {
+                className: "hljs-name",
+                children: "div"
+              }), ">"]
+            }), "\r\n    ", _jsx(_components.span, {
+              className: "hljs-tag",
+              children: "</>"
+            })]
+          }), "\r\n  );\r\n}\n"]
+        })
+      }), _jsx(_components.h4, {
+        children: "- result"
+      }), _jsx(AlertExample, {})]
+    }), "\n", _jsxs(ReactDialogSection, {
+      children: [_jsx(_components.h3, {
+        children: "Confirm Example"
+      }), _jsx(_components.h4, {
+        children: "- code"
+      }), _jsx(_components.pre, {
+        children: _jsxs(_components.code, {
+          className: "hljs language-tsx",
+          children: [_jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "import"
+          }), " { ", _jsx(_components.span, {
+            className: "hljs-title class_",
+            children: "ConfirmContext"
+          }), " } ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "from"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "'@shinyongjun/react-dialog'"
+          }), ";\r\n", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "import"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "'@shinyongjun/react-dialog/css'"
+          }), ";\r\n\r\n", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "function"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "ConfirmExample"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-params"
+          }), ") {\r\n  ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "const"
+          }), " { confirm } = ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "useContext"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-title class_",
+            children: "ConfirmContext"
+          }), ");\r\n  ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "const"
+          }), " [result, setResult] = useState<", _jsx(_components.span, {
+            className: "hljs-built_in",
+            children: "string"
+          }), ">(", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "''"
+          }), ");\r\n\r\n  ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "const"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "handleConfirm"
+          }), " = ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "async"
+          }), " (", _jsx(_components.span, {
+            className: "hljs-params"
+          }), ") => {\r\n    ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "setResult"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "''"
+          }), ");\r\n    ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "const"
+          }), " r = ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "await"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "confirm"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "'Confirm message.'"
+          }), ");\r\n    ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "setResult"
+          }), "(r.", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "toString"
+          }), "());\r\n  };\r\n\r\n  ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "return"
+          }), " (\r\n    ", _jsxs(_components.span, {
+            className: "xml",
+            children: [_jsx(_components.span, {
+              className: "hljs-tag",
+              children: "<>"
+            }), "\r\n      ", _jsxs(_components.span, {
+              className: "hljs-tag",
+              children: ["<", _jsx(_components.span, {
+                className: "hljs-name",
+                children: "button"
+              }), " ", _jsx(_components.span, {
+                className: "hljs-attr",
+                children: "type"
+              }), "=", _jsx(_components.span, {
+                className: "hljs-string",
+                children: "\"button\""
+              }), " ", _jsx(_components.span, {
+                className: "hljs-attr",
+                children: "onClick"
+              }), "=", _jsx(_components.span, {
+                className: "hljs-string",
+                children: "{handleConfirm}"
+              }), ">"]
+            }), "\r\n        Confirm\r\n      ", _jsxs(_components.span, {
+              className: "hljs-tag",
+              children: ["</", _jsx(_components.span, {
+                className: "hljs-name",
+                children: "button"
+              }), ">"]
+            }), "\r\n      ", _jsxs(_components.span, {
+              className: "hljs-tag",
+              children: ["<", _jsx(_components.span, {
+                className: "hljs-name",
+                children: "span"
+              }), ">"]
+            }), "result : {result}", _jsxs(_components.span, {
+              className: "hljs-tag",
+              children: ["</", _jsx(_components.span, {
+                className: "hljs-name",
+                children: "span"
+              }), ">"]
+            }), "\r\n    ", _jsx(_components.span, {
+              className: "hljs-tag",
+              children: "</>"
+            })]
+          }), "\r\n  );\r\n}\n"]
+        })
+      }), _jsx(_components.h4, {
+        children: "- result"
+      }), _jsx(ConfirmExample, {})]
+    }), "\n", _jsxs(ReactDialogSection, {
+      children: [_jsx(_components.h3, {
+        children: "Prompt Example"
+      }), _jsx(_components.h4, {
+        children: "- code"
+      }), _jsx(_components.pre, {
+        children: _jsxs(_components.code, {
+          className: "hljs language-tsx",
+          children: [_jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "import"
+          }), " { ", _jsx(_components.span, {
+            className: "hljs-title class_",
+            children: "PromptContext"
+          }), " } ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "from"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "'@shinyongjun/react-dialog'"
+          }), ";\r\n", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "import"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "'@shinyongjun/react-dialog/css'"
+          }), ";\r\n\r\n", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "function"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "PromptExample"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-params"
+          }), ") {\r\n  ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "const"
+          }), " { prompt } = ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "useContext"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-title class_",
+            children: "PromptContext"
+          }), ");\r\n  ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "const"
+          }), " [result, setResult] = useState<", _jsx(_components.span, {
+            className: "hljs-built_in",
+            children: "string"
+          }), " | ", _jsx(_components.span, {
+            className: "hljs-literal",
+            children: "null"
+          }), ">(", _jsx(_components.span, {
+            className: "hljs-literal",
+            children: "null"
+          }), ");\r\n\r\n  ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "const"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "handlePrompt"
+          }), " = ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "async"
+          }), " (", _jsx(_components.span, {
+            className: "hljs-params"
+          }), ") => {\r\n    ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "setResult"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-literal",
+            children: "null"
+          }), ");\r\n    ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "const"
+          }), " r = ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "await"
+          }), " ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "prompt"
+          }), "(", _jsx(_components.span, {
+            className: "hljs-string",
+            children: "'Prompt message.'"
+          }), ");\r\n    ", _jsx(_components.span, {
+            className: "hljs-title function_",
+            children: "setResult"
+          }), "(r);\r\n  };\r\n\r\n  ", _jsx(_components.span, {
+            className: "hljs-keyword",
+            children: "return"
+          }), " (\r\n    ", _jsxs(_components.span, {
+            className: "xml",
+            children: [_jsx(_components.span, {
+              className: "hljs-tag",
+              children: "<>"
+            }), "\r\n      ", _jsxs(_components.span, {
+              className: "hljs-tag",
+              children: ["<", _jsx(_components.span, {
+                className: "hljs-name",
+                children: "button"
+              }), " ", _jsx(_components.span, {
+                className: "hljs-attr",
+                children: "type"
+              }), "=", _jsx(_components.span, {
+                className: "hljs-string",
+                children: "\"button\""
+              }), " ", _jsx(_components.span, {
+                className: "hljs-attr",
+                children: "onClick"
+              }), "=", _jsx(_components.span, {
+                className: "hljs-string",
+                children: "{handlePrompt}"
+              }), ">"]
+            }), "\r\n        Prompt\r\n      ", _jsxs(_components.span, {
+              className: "hljs-tag",
+              children: ["</", _jsx(_components.span, {
+                className: "hljs-name",
+                children: "button"
+              }), ">"]
+            }), "\r\n      ", _jsxs(_components.span, {
+              className: "hljs-tag",
+              children: ["<", _jsx(_components.span, {
+                className: "hljs-name",
+                children: "span"
+              }), ">"]
+            }), "result : {result}", _jsxs(_components.span, {
+              className: "hljs-tag",
+              children: ["</", _jsx(_components.span, {
+                className: "hljs-name",
+                children: "span"
+              }), ">"]
+            }), "\r\n    ", _jsx(_components.span, {
+              className: "hljs-tag",
+              children: "</>"
+            })]
+          }), "\r\n  );\r\n}\n"]
+        })
+      }), _jsx(_components.h4, {
+        children: "- result"
+      }), _jsx(PromptExample, {})]
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
+}
+10:["$","$L11",null,{"documentData":{"mdx":{"compiledSource":"$12","frontmatter":{},"scope":{}}}}]
