@@ -1,4 +1,5 @@
 import PackageReactDatepickerExample from '@/components/package/react-datepicker/Example';
+import PackageReactDialogExample from '@/components/package/react-dialog/Example';
 import PackageReactFullpageExample from '@/components/package/react-fullpage/Example';
 
 type Props = {
@@ -8,14 +9,14 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  const packageList = ['react-fullpage', 'react-datepicker'];
+  const packageList = ['react-fullpage', 'react-datepicker', 'react-dialog'];
 
   return packageList.map((packageName) => ({
     packageName,
   }));
 }
 
-async function PackageReactFullpagePage({ params }: Props) {
+async function PackageExamplePage({ params }: Props) {
   return (
     <>
       {params.packageName === 'react-fullpage' && (
@@ -24,8 +25,9 @@ async function PackageReactFullpagePage({ params }: Props) {
       {params.packageName === 'react-datepicker' && (
         <PackageReactDatepickerExample />
       )}
+      {params.packageName === 'react-dialog' && <PackageReactDialogExample />}
     </>
   );
 }
 
-export default PackageReactFullpagePage;
+export default PackageExamplePage;

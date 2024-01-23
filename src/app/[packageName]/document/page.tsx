@@ -8,7 +8,7 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  const packageList = ['react-fullpage', 'react-datepicker'];
+  const packageList = ['react-fullpage', 'react-datepicker', 'react-dialog'];
 
   return packageList.map((packageName) => ({
     packageName,

@@ -1,0 +1,106 @@
+## React-Dialog
+
+<ReactDialogSection>
+### Alert Example
+
+#### - code
+
+```tsx
+import { AlertContext } from '@shinyongjun/react-dialog';
+import '@shinyongjun/react-dialog/css';
+
+function AlertExample() {
+  const { alert } = useContext(AlertContext);
+  const [state, setState] = useState('close');
+
+  const handleAlert = async () => {
+    setState('open');
+    await alert('Alert message.');
+    setState('close');
+  };
+
+  return (
+    <>
+      <button type="button" onClick={handleAlert}>
+        Alert
+      </button>
+      <div>state : {state}</div>
+    </>
+  );
+}
+```
+
+#### - result
+
+<AlertExample />
+</ReactDialogSection>
+
+<ReactDialogSection>
+### Confirm Example
+
+#### - code
+
+```tsx
+import { ConfirmContext } from '@shinyongjun/react-dialog';
+import '@shinyongjun/react-dialog/css';
+
+function ConfirmExample() {
+  const { confirm } = useContext(ConfirmContext);
+  const [result, setResult] = useState<string>('');
+
+  const handleConfirm = async () => {
+    setResult('');
+    const r = await confirm('Confirm message.');
+    setResult(r.toString());
+  };
+
+  return (
+    <>
+      <button type="button" onClick={handleConfirm}>
+        Confirm
+      </button>
+      <span>result : {result}</span>
+    </>
+  );
+}
+```
+
+#### - result
+
+<ConfirmExample />
+</ReactDialogSection>
+
+<ReactDialogSection>
+### Prompt Example
+
+#### - code
+
+```tsx
+import { PromptContext } from '@shinyongjun/react-dialog';
+import '@shinyongjun/react-dialog/css';
+
+function PromptExample() {
+  const { prompt } = useContext(PromptContext);
+  const [result, setResult] = useState<string | null>(null);
+
+  const handlePrompt = async () => {
+    setResult(null);
+    const r = await prompt('Prompt message.');
+    setResult(r);
+  };
+
+  return (
+    <>
+      <button type="button" onClick={handlePrompt}>
+        Prompt
+      </button>
+      <span>result : {result}</span>
+    </>
+  );
+}
+```
+
+#### - result
+
+<PromptExample />
+</ReactDialogSection>

@@ -3,6 +3,7 @@ import StyledComponentsRegistry from '@/styles/registry';
 import RootProvider from '@/stores/provider';
 import GoogleAnalytics from '@/components/config/GoogleAnalytics';
 import Favicon from '@/components/config/Favicon';
+import { DialogProvider } from '@shinyongjun/react-dialog';
 
 interface Props {
   children: React.ReactNode;
@@ -40,7 +41,9 @@ function RootLayout({ children }: Props) {
       </head>
       <body>
         <RootProvider>
-          <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+          <DialogProvider>
+            <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+          </DialogProvider>
         </RootProvider>
       </body>
     </html>

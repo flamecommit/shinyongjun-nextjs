@@ -136,6 +136,27 @@ function AuthorDetails() {
         <div className="package-list">
           <div className="package">
             <a
+              href="https://www.npmjs.com/package/@shinyongjun/react-dialog"
+              rel="noreferrer"
+              target="_blank"
+              className="name"
+            >
+              <ImNpm style={{ color: '#CB0303' }} />
+              @shinyongjun/react-dialog (2024)
+            </a>
+            <div className="links">
+              <Link className="link" href="/react-dialog/document">
+                <HiLink />
+                Document
+              </Link>
+              <Link className="link" href="/react-dialog/example">
+                <HiLink />
+                Example
+              </Link>
+            </div>
+          </div>
+          <div className="package">
+            <a
               href="https://www.npmjs.com/package/@shinyongjun/react-datepicker"
               rel="noreferrer"
               target="_blank"
