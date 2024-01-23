@@ -6,11 +6,12 @@
 #### - code
 
 ```tsx
-import { AlertContext } from '@shinyongjun/react-dialog';
+import { useState } from 'react';
+import { useDialog } from '@shinyongjun/react-dialog';
 import '@shinyongjun/react-dialog/css';
 
 function AlertExample() {
-  const { alert } = useContext(AlertContext);
+  const { alert } = useDialog();
   const [state, setState] = useState('close');
 
   const handleAlert = async () => {
@@ -41,11 +42,12 @@ function AlertExample() {
 #### - code
 
 ```tsx
-import { ConfirmContext } from '@shinyongjun/react-dialog';
+import { useState } from 'react';
+import { useDialog } from '@shinyongjun/react-dialog';
 import '@shinyongjun/react-dialog/css';
 
 function ConfirmExample() {
-  const { confirm } = useContext(ConfirmContext);
+  const { confirm } = useDialog();
   const [result, setResult] = useState<string>('');
 
   const handleConfirm = async () => {
@@ -76,11 +78,12 @@ function ConfirmExample() {
 #### - code
 
 ```tsx
-import { PromptContext } from '@shinyongjun/react-dialog';
+import { useState } from 'react';
+import { useDialog } from '@shinyongjun/react-dialog';
 import '@shinyongjun/react-dialog/css';
 
 function PromptExample() {
-  const { prompt } = useContext(PromptContext);
+  const { prompt } = useDialog();
   const [result, setResult] = useState<string | null>(null);
 
   const handlePrompt = async () => {

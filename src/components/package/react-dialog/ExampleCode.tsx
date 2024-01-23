@@ -1,11 +1,7 @@
 'use client';
 
-import { useContext, useState } from 'react';
-import {
-  AlertContext,
-  ConfirmContext,
-  PromptContext,
-} from '@shinyongjun/react-dialog';
+import { useState } from 'react';
+import { useDialog } from '@shinyongjun/react-dialog';
 import '@shinyongjun/react-dialog/css';
 
 const buttonStyle = {
@@ -16,7 +12,7 @@ const buttonStyle = {
 };
 
 function AlertExample() {
-  const { alert } = useContext(AlertContext);
+  const { alert } = useDialog();
   const [state, setState] = useState('close');
 
   const handleAlert = async () => {
@@ -41,7 +37,7 @@ function AlertExample() {
 }
 
 function ConfirmExample() {
-  const { confirm } = useContext(ConfirmContext);
+  const { confirm } = useDialog();
   const [result, setResult] = useState<string>('');
 
   const handleConfirm = async () => {
@@ -66,7 +62,7 @@ function ConfirmExample() {
 }
 
 function PromptExample() {
-  const { prompt } = useContext(PromptContext);
+  const { prompt } = useDialog();
   const [result, setResult] = useState<string | null>(null);
 
   const handlePrompt = async () => {
