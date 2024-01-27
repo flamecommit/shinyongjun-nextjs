@@ -21,7 +21,7 @@ const nextConfig = {
   env: {
     MODE: process.env.MODE,
     OG_IMAGE: '/og-image.jpg',
-    BIO: '기타 치는 개발자',
+    BIO: '숲 좋아하는 개발자',
   },
 };
 
