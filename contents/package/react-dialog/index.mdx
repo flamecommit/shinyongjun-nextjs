@@ -1,6 +1,6 @@
 # React Dialog
 
-This is a Dialog library that operates in React.
+`react-dialog` is a library that enables the usage of custom dialog boxes in a synchronous-like manner within the `react` environment.
 
 ## Installation
 
@@ -9,7 +9,55 @@ npm install @shinyongjun/react-dialog
 yarn add @shinyongjun/react-dialog
 ```
 
+## Usage Dialog
+
+Using DialogProvider in root component (`_app.tsx` or `layout.tsx`)
+
+```tsx:src/app/layout.tsx
+import { DialogProvider } from '@shinyongjun/react-dialog';
+import '@shinyongjun/react-dialog/css';
+
+interface IProps {
+  children: React.ReactNode;
+}
+
+function RootLayout({ children }: IProps) {
+  return <DialogProvider>{children}</DialogProvider>;
+}
+
+export default RootLayout;
+```
+
+Now, you can use the `useDialog` Hook to utilize the `alert`, `confirm`, and `prompt` functions in a way that closely resembles synchronous behavior.
+
+```tsx:src/components/SomeComponent.tsx
+import { useState } from 'react';
+import { useDialog } from '@shinyongjun/react-dialog';
+
+function AlertExample() {
+  const { alert } = useDialog();
+  const [state, setState] = useState('close');
+
+  const handleAlert = async () => {
+    setState('open');
+    await alert('Alert message.');
+    setState('close');
+  };
+
+  return (
+    <>
+      <button type="button" onClick={handleAlert}>
+        Alert
+      </button>
+      <div>state : {state}</div>
+    </>
+  );
+}
+```
+
 ## Default Style
+
+Below is the default CSS code for `react-dialog`, allowing users to customize the style according to their preferences.
 
 ```css
 .react-dialog__wrapper {
