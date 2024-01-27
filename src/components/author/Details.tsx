@@ -34,36 +34,24 @@ function AuthorDetails() {
             CSS
           </div>
           <div className="item">
-            <SiSass style={{ color: '#C66394' }} />
-            SASS
-          </div>
-          <div className="item">
             <img src="/icons/javascript.svg" alt="" />
             Javascript
           </div>
           <div className="item">
-            <SiTypescript style={{ color: '#2F74C0' }} />
-            Typescript
+            <SiJquery style={{ color: '#1066A9' }} />
+            jQuery
           </div>
           <div className="item">
-            <SiNodeDotJs style={{ color: '#87BF00' }} />
-            Node.js
+            <SiSass style={{ color: '#C66394' }} />
+            SASS
           </div>
           <div className="item">
             <SiGit style={{ color: '#E84D31' }} />
             Git
           </div>
           <div className="item">
-            <SiReact style={{ color: '#5ED3F3' }} />
-            React
-          </div>
-          <div className="item">
-            <SiRedux style={{ color: '#593D88' }} />
-            Redux
-          </div>
-          <div className="item">
-            <SiNextDotJs style={{ color: '#000000' }} />
-            Next.js
+            <SiNodeDotJs style={{ color: '#87BF00' }} />
+            Node.js
           </div>
           <div className="item">
             <img src="/icons/vue.svg" alt="" />
@@ -74,16 +62,36 @@ function AuthorDetails() {
             Nuxt.js
           </div>
           <div className="item">
-            <SiJquery style={{ color: '#1066A9' }} />
-            jQuery
+            <SiReact style={{ color: '#5ED3F3' }} />
+            React
+          </div>
+          <div className="item">
+            <SiTypescript style={{ color: '#2F74C0' }} />
+            Typescript
+          </div>
+          <div className="item">
+            <SiRedux style={{ color: '#593D88' }} />
+            Redux
+          </div>
+          <div className="item">
+            <SiNextDotJs style={{ color: '#000000' }} />
+            Next.js
           </div>
           <div className="item">
             <img src="/icons/vscode.svg" alt="" />
             VSCode
           </div>
           <div className="item">
-            <img src="/icons/figma.svg" alt="" />
-            Figma
+            <img src="/icons/eslint.svg" alt="" />
+            ESLint
+          </div>
+          <div className="item">
+            <img src="/icons/prettier.svg" alt="" />
+            Prettier
+          </div>
+          <div className="item">
+            <ImNpm style={{ color: '#CB0303' }} />
+            NPM
           </div>
           <div className="item">
             <img src="/icons/photoshop.svg" alt="" />
@@ -92,6 +100,10 @@ function AuthorDetails() {
           <div className="item">
             <img src="/icons/zeplin.svg" alt="" />
             Zeplin
+          </div>
+          <div className="item">
+            <img src="/icons/figma.svg" alt="" />
+            Figma
           </div>
           <div className="item">
             <SiNotion style={{ color: '#000000' }} />
@@ -108,14 +120,6 @@ function AuthorDetails() {
           <div className="item">
             <SiAzuredevops style={{ color: '#0078D4' }} />
             Azure - DevOps
-          </div>
-          <div className="item">
-            <img src="/icons/eslint.svg" alt="" />
-            ESLint
-          </div>
-          <div className="item">
-            <img src="/icons/prettier.svg" alt="" />
-            Prettier
           </div>
           <div className="item">
             <img src="/icons/obsidian.svg" alt="" />
@@ -184,7 +188,7 @@ function AuthorDetails() {
               className="name"
             >
               <ImNpm style={{ color: '#CB0303' }} />
-              @shinyongjun/react-fullpage (2023)
+              @shinyongjun/react-fullpage (2022)
             </a>
             <div className="links">
               <Link className="link" href="/react-fullpage/document">
