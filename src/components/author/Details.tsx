@@ -54,14 +54,6 @@ function AuthorDetails() {
             Node.js
           </div>
           <div className="item">
-            <img src="/icons/vue.svg" alt="" />
-            Vue.js
-          </div>
-          <div className="item">
-            <img src="/icons/nuxt.svg" alt="" />
-            Nuxt.js
-          </div>
-          <div className="item">
             <SiReact style={{ color: '#5ED3F3' }} />
             React
           </div>
@@ -76,6 +68,14 @@ function AuthorDetails() {
           <div className="item">
             <SiNextDotJs style={{ color: '#000000' }} />
             Next.js
+          </div>
+          <div className="item">
+            <img src="/icons/vue.svg" alt="" />
+            Vue.js
+          </div>
+          <div className="item">
+            <img src="/icons/nuxt.svg" alt="" />
+            Nuxt.js
           </div>
           <div className="item">
             <img src="/icons/vscode.svg" alt="" />
