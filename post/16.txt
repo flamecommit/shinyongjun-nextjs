@@ -1,5 +1,5 @@
 1:HL["/_next/static/css/a8432a49c2a6ac20.css","style",{"crossOrigin":""}]
-0:["0A_pgqXAVgFiF1p8wZ2fv",[[["",{"children":["(default)",{"children":["post",{"children":[["slug","16","d"],{"children":["__PAGE__?{\"slug\":\"16\"}",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["hiMXmkE9hMYoypfdBDHfp",[[["",{"children":["(default)",{"children":["post",{"children":[["slug","16","d"],{"children":["__PAGE__?{\"slug\":\"16\"}",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:HL["/_next/static/css/da23838ccc6fd56f.css","style",{"crossOrigin":""}]
 5:I[3994,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-12a7eeedf6a11535.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-210856c9c70a6a84.js"],""]
 6:I[4333,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-12a7eeedf6a11535.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-210856c9c70a6a84.js"],""]
@@ -473,7 +473,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-16:T5dc14,/*@jsxRuntime automatic @jsxImportSource react*/
+16:T5de7d,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -556,6 +556,16 @@ function _createMdxContent(props) {
         className: "image-cite",
         children: "height: 1000px"
       })]
+    }), "\n", _jsx(_components.h3, {
+      children: "마무리"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.code, {
+        children: "position: sticky"
+      }), " 는 과거 ", _jsx(_components.code, {
+        children: "position: fixed"
+      }), " 와 ", _jsx(_components.code, {
+        children: "javascript"
+      }), " 를 사용해서 구현해야 했던 조건부 요소 고정 기능을 css만으로 구현할 수 있게 해줍니다.", _jsx(_components.br, {}), "\n", "사용법을 잘 숙지한다면 적절히 사용하여 필요한 UI를 구현할 수 있을것입니다."]
     })]
   });
 }
