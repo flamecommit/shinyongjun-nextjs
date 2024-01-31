@@ -1,5 +1,5 @@
 1:HL["/_next/static/css/a8432a49c2a6ac20.css","style",{"crossOrigin":""}]
-0:["0A_pgqXAVgFiF1p8wZ2fv",[[["",{"children":["(default)",{"children":["category",{"children":[["board","post","d"],{"children":[["slug","css","d"],{"children":["__PAGE__?{\"board\":\"post\",\"slug\":\"css\"}",{}]}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["0A_pgqXAVgFiF1p8wZ2fv",[[["",{"children":["(default)",{"children":["post",{"children":[["slug","17","d"],{"children":["__PAGE__?{\"slug\":\"17\"}",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:HL["/_next/static/css/da23838ccc6fd56f.css","style",{"crossOrigin":""}]
 5:I[3994,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-12a7eeedf6a11535.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-210856c9c70a6a84.js"],""]
 6:I[4333,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-12a7eeedf6a11535.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-210856c9c70a6a84.js"],""]
@@ -12,13 +12,13 @@ c:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Appl
 d:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
 e:{"display":"inline-block"}
 f:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
-10:["board","post","d"]
-2:[null,["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L5",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L5",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]]]}],["$","body",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":[null,["$","$Lb",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","(default)","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$c","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$d","children":"404"}],["$","div",null,{"style":"$e","children":["$","h2",null,{"style":"$f","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","(default)","children","category","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","(default)","children","category","children",["board","post","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","(default)","children","category","children","$10","children",["slug","css","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L11","$L12",null],"childPropSegment":"__PAGE__?{\"board\":\"post\",\"slug\":\"css\"}","styles":null}],"childPropSegment":["slug","css","d"],"styles":null}],"childPropSegment":["board","post","d"],"styles":null}],"childPropSegment":"category","styles":null}]}],null],"childPropSegment":"(default)","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/da23838ccc6fd56f.css","precedence":"next","crossOrigin":""}]]}]}]}]}]}]]}],null]
-3:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"PostCategory - css"}],["$","meta","3",{"name":"description","content":"숲 좋아하는 개발자"}],["$","meta","4",{"property":"og:title","content":"신용준 | Tech & Music Archive"}],["$","meta","5",{"property":"og:description","content":"숲 좋아하는 개발자"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"신용준 | Tech & Music Archive"}],["$","meta","11",{"name":"twitter:description","content":"숲 좋아하는 개발자"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
-13:I[3430,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","661","static/chunks/app/(default)/category/%5Bboard%5D/%5Bslug%5D/page-4b19dc951c415839.js"],""]
-14:I[7509,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","661","static/chunks/app/(default)/category/%5Bboard%5D/%5Bslug%5D/page-4b19dc951c415839.js"],""]
-15:I[1666,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","661","static/chunks/app/(default)/category/%5Bboard%5D/%5Bslug%5D/page-4b19dc951c415839.js"],""]
-16:T5dc14,/*@jsxRuntime automatic @jsxImportSource react*/
+2:[null,["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L5",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L5",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]]]}],["$","body",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":[null,["$","$Lb",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","(default)","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$c","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$d","children":"404"}],["$","div",null,{"style":"$e","children":["$","h2",null,{"style":"$f","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","(default)","children","post","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","(default)","children","post","children",["slug","17","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L10","$L11",null],"childPropSegment":"__PAGE__?{\"slug\":\"17\"}","styles":null}],"childPropSegment":["slug","17","d"],"styles":null}],"childPropSegment":"post","styles":null}]}],null],"childPropSegment":"(default)","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/da23838ccc6fd56f.css","precedence":"next","crossOrigin":""}]]}]}]}]}]}]]}],null]
+3:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"CSS position sticky 속성이 동작하지 않는 이유"}],["$","meta","3",{"name":"description","content":"CSS position sticky 속성이 동작하지 않는 이유"}],["$","meta","4",{"property":"og:title","content":"CSS position sticky 속성이 동작하지 않는 이유"}],["$","meta","5",{"property":"og:description","content":"CSS position sticky 속성이 동작하지 않는 이유"}],["$","meta","6",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","7",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","8",{"name":"twitter:title","content":"CSS position sticky 속성이 동작하지 않는 이유"}],["$","meta","9",{"name":"twitter:description","content":"CSS position sticky 속성이 동작하지 않는 이유"}],["$","meta","10",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
+12:I[6637,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","198","static/chunks/198-12a7eeedf6a11535.js","872","static/chunks/872-58093384cbacc894.js","896","static/chunks/896-c41ede4b3d6b117a.js","280","static/chunks/280-5e89d5e21fcdfff5.js","738","static/chunks/app/(default)/post/%5Bslug%5D/page-d12152df049acaf3.js"],""]
+14:I[1601,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","198","static/chunks/198-12a7eeedf6a11535.js","872","static/chunks/872-58093384cbacc894.js","896","static/chunks/896-c41ede4b3d6b117a.js","280","static/chunks/280-5e89d5e21fcdfff5.js","738","static/chunks/app/(default)/post/%5Bslug%5D/page-d12152df049acaf3.js"],""]
+16:I[2791,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","198","static/chunks/198-12a7eeedf6a11535.js","872","static/chunks/872-58093384cbacc894.js","896","static/chunks/896-c41ede4b3d6b117a.js","280","static/chunks/280-5e89d5e21fcdfff5.js","738","static/chunks/app/(default)/post/%5Bslug%5D/page-d12152df049acaf3.js"],""]
+17:I[2635,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","198","static/chunks/198-12a7eeedf6a11535.js","872","static/chunks/872-58093384cbacc894.js","896","static/chunks/896-c41ede4b3d6b117a.js","280","static/chunks/280-5e89d5e21fcdfff5.js","738","static/chunks/app/(default)/post/%5Bslug%5D/page-d12152df049acaf3.js"],""]
+13:T5dc14,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -113,192 +113,363 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-17:T1ee9,/*@jsxRuntime automatic @jsxImportSource react*/
+15:T390f,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
   const _components = Object.assign({
+    h3: "h3",
     p: "p",
     code: "code",
+    br: "br",
     div: "div",
     pre: "pre",
     span: "span"
   }, _provideComponents(), props.components);
   return _jsxs(_Fragment, {
-    children: [_jsxs(_components.p, {
+    children: [_jsx(_components.h3, {
+      children: "상황"
+    }), "\n", _jsxs(_components.p, {
       children: [_jsx(_components.code, {
-        children: "styled-component"
-      }), "는 ", _jsx(_components.code, {
-        children: "react"
-      }), " 생태계에서 가장 많이 사용되는 ", _jsx(_components.code, {
-        children: "CSS-in-JS"
-      }), " 라이브러리 중 하나입니다. 아래는 ", _jsx(_components.code, {
-        children: "styled-component"
-      }), " 를 사용한 스타일 재사용 예제 코드입니다."]
+        children: "pm2"
+      }), "를 사용하여 서버에 ", _jsx(_components.code, {
+        children: "next.js"
+      }), " 앱을 실행할 때 각 환경(", _jsx(_components.code, {
+        children: "alpha"
+      }), ", ", _jsx(_components.code, {
+        children: "dev"
+      }), ", ", _jsx(_components.code, {
+        children: "prod"
+      }), ")에 따른 환경변수 파일(", _jsx(_components.code, {
+        children: "dotenv"
+      }), ")을 참조하고 싶었습니다."]
+    }), "\n", _jsx(_components.h3, {
+      children: "설정"
+    }), "\n", _jsxs(_components.p, {
+      children: [_jsx(_components.code, {
+        children: "ecosystem.config.js"
+      }), " 는 ", _jsx(_components.code, {
+        children: "pm2"
+      }), " 설정 파일입니다. ", _jsx(_components.code, {
+        children: "env_..."
+      }), " 구문이 각 환경별 설정을 나누는 구간입니다.", _jsx(_components.br, {}), "\n", "코드를 보면 ", _jsx(_components.code, {
+        children: "NODE_ENV"
+      }), " 환경변수를 ", _jsx(_components.code, {
+        children: "production"
+      }), "으로 선언하는 구문이있는데, 이는 아래에서 나올 ", _jsx(_components.code, {
+        children: "pm2"
+      }), " 실행 스크립트 에서 ", _jsx(_components.code, {
+        children: "--env"
+      }), " 옵션을 사용하여 ", _jsx(_components.code, {
+        children: "NODE_ENV"
+      }), "의 값이 변환하기 때문입니다.", _jsx(_components.br, {}), "\n", _jsx(_components.code, {
+        children: "NODE_ENV"
+      }), "의 값이 ", _jsx(_components.code, {
+        children: "production"
+      }), ", ", _jsx(_components.code, {
+        children: "development"
+      }), ", ", _jsx(_components.code, {
+        children: "test"
+      }), " 이 세가지가 아니라면 타입에러가 발생하기 때문에, ", _jsx(_components.code, {
+        children: "pm2"
+      }), " 에서 각 환경별 참조를 끝낸 후 다시 ", _jsx(_components.code, {
+        children: "production"
+      }), " 값으로 되돌려 놓는 것입니다.", _jsx(_components.br, {}), "\n", "이제 ", _jsx(_components.code, {
+        children: "pm2"
+      }), "는 root경로에 있는 ", _jsx(_components.code, {
+        children: ".env.alpha"
+      }), ", ", _jsx(_components.code, {
+        children: ".env.dev"
+      }), ", ", _jsx(_components.code, {
+        children: ".env.prod"
+      }), " 파일을 가지고 환경변수를 셋팅한 후 앱을 실행시킬 것입니다."]
     }), "\n", _jsx(_components.div, {
       className: "rehype-code-title",
-      children: "src/styles/mixin.ts"
+      children: "/ecosystem.config.js"
     }), _jsx(_components.pre, {
       children: _jsxs(_components.code, {
-        className: "hljs language-ts",
+        className: "hljs language-js",
         children: [_jsx(_components.span, {
+          className: "hljs-comment",
+          children: "/* eslint-disable @typescript-eslint/no-var-requires */"
+        }), "\r\n", _jsx(_components.span, {
           className: "hljs-keyword",
-          children: "import"
-        }), " { css } ", _jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "from"
-        }), " ", _jsx(_components.span, {
+          children: "const"
+        }), " path = ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "require"
+        }), "(", _jsx(_components.span, {
           className: "hljs-string",
-          children: "'styled-components'"
-        }), ";\r\n\r\n", _jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "export"
-        }), " ", _jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "const"
-        }), " reset = css`", _jsxs(_components.span, {
-          className: "css",
-          children: ["\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "box-sizing"
-          }), ": border-box;\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "margin"
-          }), ": ", _jsx(_components.span, {
-            className: "hljs-number",
-            children: "0"
-          }), ";\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "padding"
-          }), ": ", _jsx(_components.span, {
-            className: "hljs-number",
-            children: "0"
-          }), ";\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "font-family"
-          }), ": inherit;\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "font-weight"
-          }), ": inherit;\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "font-size"
-          }), ": inherit;\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "line-height"
-          }), ": inherit;\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "color"
-          }), ": inherit;\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "vertical-align"
-          }), ": top;\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "text-underline-position"
-          }), ": under;\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "background-repeat"
-          }), ": no-repeat;\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "mask-repeat"
-          }), ": no-repeat;\r\n`"]
-        }), ";\r\n\r\n", _jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "export"
-        }), " ", _jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "const"
-        }), " ", _jsx(_components.span, {
-          className: "hljs-title function_",
-          children: "ellipsis"
-        }), " = (", _jsxs(_components.span, {
-          className: "hljs-params",
-          children: ["line: ", _jsx(_components.span, {
-            className: "hljs-built_in",
-            children: "number"
-          })]
-        }), ") => css`", _jsxs(_components.span, {
-          className: "css",
-          children: ["\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "overflow"
-          }), ": hidden;\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "text-overflow"
-          }), ": ellipsis;\r\n  ", _jsx(_components.span, {
-            className: "hljs-attribute",
-            children: "display"
-          }), ": -webkit-box;\r\n  -webkit-box-orient: vertical;\r\n  -webkit-line-clamp: "]
-        }), _jsx(_components.span, {
-          className: "hljs-subst",
-          children: "${line}"
-        }), _jsx(_components.span, {
-          className: "css",
-          children: ";\r\n`"
-        }), ";\r\n\r\n", _jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "export"
-        }), " ", _jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "const"
-        }), " device = {\r\n  ", _jsx(_components.span, {
+          children: "'path'"
+        }), ");\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-variable language_",
+          children: "module"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-property",
+          children: "exports"
+        }), " = {\r\n  ", _jsx(_components.span, {
           className: "hljs-attr",
-          children: "mobile"
+          children: "apps"
+        }), ": [\r\n    {\r\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "name"
         }), ": ", _jsx(_components.span, {
           className: "hljs-string",
-          children: "`(max-width: 768px)`"
-        }), ",\r\n};\n"]
+          children: "'my-app-name'"
+        }), ",\r\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "exec_mode"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'cluster'"
+        }), ",\r\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "script"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'node_modules/next/dist/bin/next'"
+        }), ",\r\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "args"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'start'"
+        }), ",\r\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "HOST"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'0.0.0.0'"
+        }), ",\r\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "env_alpha"
+        }), ": {\r\n        ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "instances"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "1"
+        }), ",\r\n        ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "PORT"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "8080"
+        }), ",\r\n        ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "NODE_ENV"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'production'"
+        }), ",\r\n        ...", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "require"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'dotenv'"
+        }), ").", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "config"
+        }), "({\r\n          ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "path"
+        }), ": path.", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "resolve"
+        }), "(__dirname, ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'.env.alpha'"
+        }), "),\r\n        }).", _jsx(_components.span, {
+          className: "hljs-property",
+          children: "parsed"
+        }), ",\r\n      },\r\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "env_dev"
+        }), ": {\r\n        ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "instances"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "1"
+        }), ",\r\n        ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "PORT"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "8080"
+        }), ",\r\n        ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "NODE_ENV"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'production'"
+        }), ",\r\n        ...", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "require"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'dotenv'"
+        }), ").", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "config"
+        }), "({\r\n          ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "path"
+        }), ": path.", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "resolve"
+        }), "(__dirname, ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'.env.dev'"
+        }), "),\r\n        }).", _jsx(_components.span, {
+          className: "hljs-property",
+          children: "parsed"
+        }), ",\r\n      },\r\n      ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "env_prod"
+        }), ": {\r\n        ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "instances"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'max'"
+        }), ",\r\n        ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "PORT"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-number",
+          children: "8080"
+        }), ",\r\n        ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "NODE_ENV"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'production'"
+        }), ",\r\n        ...", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "require"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'dotenv'"
+        }), ").", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "config"
+        }), "({\r\n          ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "path"
+        }), ": path.", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "resolve"
+        }), "(__dirname, ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'.env.prod'"
+        }), "),\r\n        }).", _jsx(_components.span, {
+          className: "hljs-property",
+          children: "parsed"
+        }), ",\r\n      },\r\n    },\r\n  ],\r\n};\n"]
       })
-    }), "\n", _jsx(_components.p, {
-      children: "사용법은 다음과 같습니다."
+    }), "\n", _jsx(_components.h3, {
+      children: "실행"
+    }), "\n", _jsxs(_components.p, {
+      children: ["아래는 ", _jsx(_components.code, {
+        children: "pm2"
+      }), " 설정 파일인 ", _jsx(_components.code, {
+        children: "ecosystem.config.js"
+      }), " 를 참조하여 ", _jsx(_components.code, {
+        children: "pm2"
+      }), " 프로세스를 리로드 하는 스크립트 예제입니다.", _jsx(_components.br, {}), "\n", _jsx(_components.code, {
+        children: "--env"
+      }), " 옵션은 어떤 ", _jsx(_components.code, {
+        children: "dotenv"
+      }), " 파일을 사용할 지 지정하는 역할을 합니다."]
     }), "\n", _jsx(_components.div, {
       className: "rehype-code-title",
-      children: "src/styles/reset.ts"
+      children: "/package.json"
     }), _jsx(_components.pre, {
       children: _jsxs(_components.code, {
-        className: "hljs language-ts",
+        className: "hljs language-json",
         children: [_jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "import"
-        }), " { createGlobalStyle } ", _jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "from"
+          className: "hljs-punctuation",
+          children: "{"
+        }), "\r\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "\"name\""
+        }), _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: ":"
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
-          children: "'styled-components'"
-        }), ";\r\n", _jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "import"
-        }), " { reset } ", _jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "from"
+          children: "\"my-app-name\""
+        }), _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: ","
+        }), "\r\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "\"version\""
+        }), _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: ":"
         }), " ", _jsx(_components.span, {
           className: "hljs-string",
-          children: "'@/styles/mixin'"
-        }), ";\r\n\r\n", _jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "export"
+          children: "\"0.0.1\""
+        }), _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: ","
+        }), "\r\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "\"scripts\""
+        }), _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: ":"
         }), " ", _jsx(_components.span, {
-          className: "hljs-keyword",
-          children: "const"
+          className: "hljs-punctuation",
+          children: "{"
+        }), "\r\n    ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "\"pm2:alpha\""
+        }), _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: ":"
         }), " ", _jsx(_components.span, {
-          className: "hljs-title class_",
-          children: "GlobalStyle"
-        }), " = createGlobalStyle", _jsxs(_components.span, {
           className: "hljs-string",
-          children: ["`\r\n  *,\r\n  :before,\r\n  :after {\r\n    ", _jsx(_components.span, {
-            className: "hljs-subst",
-            children: "${reset}"
-          }), ";\r\n  }\r\n  .ellipsis {\r\n    ", _jsxs(_components.span, {
-            className: "hljs-subst",
-            children: ["${ellipsis(", _jsx(_components.span, {
-              className: "hljs-number",
-              children: "2"
-            }), ")}"]
-          }), ";\r\n  }\r\n  @media ", _jsx(_components.span, {
-            className: "hljs-subst",
-            children: "${device.mobile}"
-          }), " {\r\n    min-width: 320px;\r\n  }\r\n`"]
-        }), ";\n"]
+          children: "\"pm2 reload ecosystem.config.js --env=alpha\""
+        }), _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: ","
+        }), "\r\n    ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "\"pm2:dev\""
+        }), _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: ":"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "\"pm2 reload ecosystem.config.js --env=dev\""
+        }), _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: ","
+        }), "\r\n    ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "\"pm2:prod\""
+        }), _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: ":"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "\"pm2 reload ecosystem.config.js --env=prod\""
+        }), _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: ","
+        }), "\r\n  ", _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: "}"
+        }), _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: ","
+        }), "\r\n  ...\r\n", _jsx(_components.span, {
+          className: "hljs-punctuation",
+          children: "}"
+        }), "\n"]
       })
     })]
   });
@@ -312,5 +483,5 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-12:[["$","$L13",null,{"children":["Post","Category - ","css"]}],["$","$L14",null,{"board":"post","categoryList":["css","pm2","next.js","blog","github","mdx","deploy","styled-components"]}],["$","$L15",null,{"postList":[{"title":"CSS position sticky 속성이 동작하지 않는 이유","date":"$D2024-01-31T07:35:00.000Z","categories":["css"],"slug":"17","mdx":{"compiledSource":"$16","frontmatter":{},"scope":{}}},{"title":"styled-component 재사용 코드 예제 (mixin)","date":"$D2023-08-12T09:00:00.000Z","categories":["css","styled-components"],"slug":"2","mdx":{"compiledSource":"$17","frontmatter":{},"scope":{}}}]}],false]
-11:null
+11:[["$","$L12",null,{"postData":{"title":"CSS position sticky 속성이 동작하지 않는 이유","date":"$D2024-01-31T07:35:00.000Z","categories":["css"],"slug":"17","mdx":{"compiledSource":"$13","frontmatter":{},"scope":{}}}}],["$","$L14",null,{"prevPost":{"title":"pm2 - 환경에 따라 dotenv 파일 분기처리 하기","date":"$D2023-11-20T10:23:00.000Z","categories":["pm2"],"slug":"16","mdx":{"compiledSource":"$15","frontmatter":{},"scope":{}}},"nextPost":"$undefined"}],["$","$L16",null,{"postDetail":true}],["$","$L17",null,{}]]
+10:null
