@@ -157,3 +157,37 @@ export default ExampleComponent;
       'An option that allows you to label the day of the week in any format that you want.',
   }}
 />
+
+<PropsTable
+  propsData={{
+    name: 'className',
+    component: '<Datepicker />, <Rangepicker />',
+    required: 'false',
+    type: 'string',
+    default: "''",
+    description:
+      '최상위 Element(.react-datepicker__wrapper)에 className를 추가할 수 있습니다.',
+  }}
+/>
+
+<PropsTable
+  propsData={{
+    name: 'placeholder',
+    component: '<Datepicker />, <Rangepicker />',
+    required: 'false',
+    type: 'string',
+    default: "''",
+    description: 'input의 placeholder속성을 제어합니다.',
+  }}
+/>
+
+<PropsTable
+  propsData={{
+    name: 'disabled',
+    component: '<Datepicker />, <Rangepicker />',
+    required: 'false',
+    type: 'boolean',
+    default: 'false',
+    description: 'input의 disabled속성을 제어합니다.',
+  }}
+/>
