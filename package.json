@@ -15,7 +15,7 @@
     "@reduxjs/toolkit": "^1.9.5",
     "@shinyongjun/eslint-config": "^0.0.2",
     "@shinyongjun/react-datepicker": "^1.9.2",
-    "@shinyongjun/react-dialog": "^1.1.0",
+    "@shinyongjun/react-dialog": "^1.2.0",
     "@shinyongjun/react-fullpage": "^1.7.0",
     "@types/glob": "^8.1.0",
     "@types/node": "20.4.5",
