@@ -1,10 +1,10 @@
 1:HL["/_next/static/css/a8432a49c2a6ac20.css","style",{"crossOrigin":""}]
-0:["dsMaj12tdmSGyyCMVH-r6",[[["",{"children":["(default)",{"children":["post",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["2vi_x5aYT2xYvnxP9QakX",[[["",{"children":["(default)",{"children":["post",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:HL["/_next/static/css/da23838ccc6fd56f.css","style",{"crossOrigin":""}]
-5:I[3994,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-57f5ab8becca807d.js"],""]
-6:I[4333,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-57f5ab8becca807d.js"],""]
-7:I[9842,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-57f5ab8becca807d.js"],""]
-8:I[80,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-57f5ab8becca807d.js"],""]
+5:I[3994,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-f0ceab1f9397f55b.js"],""]
+6:I[4333,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-f0ceab1f9397f55b.js"],""]
+7:I[9842,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-f0ceab1f9397f55b.js"],""]
+8:I[80,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-f0ceab1f9397f55b.js"],""]
 9:I[6954,[],""]
 a:I[7264,[],""]
 b:I[4411,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","534","static/chunks/app/(default)/layout-8b5f9ffc3a7a76e3.js"],""]
@@ -16,7 +16,438 @@ f:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
 3:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"신용준 | Tech & Music Archive"}],["$","meta","3",{"name":"description","content":"숲 좋아하는 개발자"}],["$","meta","4",{"property":"og:title","content":"신용준 | Tech & Music Archive"}],["$","meta","5",{"property":"og:description","content":"숲 좋아하는 개발자"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"신용준 | Tech & Music Archive"}],["$","meta","11",{"name":"twitter:description","content":"숲 좋아하는 개발자"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
 12:I[3430,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","208","static/chunks/app/(default)/post/page-98c74445befb2289.js"],""]
 13:I[1666,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","208","static/chunks/app/(default)/post/page-98c74445befb2289.js"],""]
-14:T5de7d,/*@jsxRuntime automatic @jsxImportSource react*/
+14:T4152,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    p: "p",
+    code: "code",
+    h3: "h3",
+    ul: "ul",
+    li: "li",
+    div: "div",
+    pre: "pre",
+    span: "span",
+    br: "br"
+  }, _provideComponents(), props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsxs(_components.p, {
+      children: ["SSR시점 ", _jsx(_components.code, {
+        children: "body"
+      }), " 태그에 ", _jsx(_components.code, {
+        children: "device"
+      }), " 를 특정하는 ", _jsx(_components.code, {
+        children: "className"
+      }), "을 추가하는 방법에 대해 정리했습니다."]
+    }), "\n", _jsx(_components.h3, {
+      children: "개발 환경"
+    }), "\n", _jsxs(_components.ul, {
+      children: ["\n", _jsx(_components.li, {
+        children: "next.js@13.5.6"
+      }), "\n", _jsx(_components.li, {
+        children: "pages directory"
+      }), "\n"]
+    }), "\n", _jsx(_components.h3, {
+      children: "document.tsx"
+    }), "\n", _jsx(_components.div, {
+      className: "rehype-code-title",
+      children: "/src/pages/_document.tsx"
+    }), _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-tsx",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { detectDevice } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'@/utils/detectDevice'"
+        }), ";\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "Document"
+        }), ", { ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "Html"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "Main"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "NextScript"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "DocumentContext"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "DocumentInitialProps"
+        }), " } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'next/document'"
+        }), ";\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "import"
+        }), " { ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "ServerStyleSheet"
+        }), " } ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "from"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'styled-components'"
+        }), ";\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "interface"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "CustomDocumentInitialProps"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "extends"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "DocumentInitialProps"
+        }), " {\r\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "isMobile"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "boolean"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "isTablet"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "boolean"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "isDesktop"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "boolean"
+        }), ";\r\n}\r\n\r\n", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "default"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "class"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "MyDocument"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "extends"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title class_ inherited__",
+          children: "Document"
+        }), "<", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "CustomDocumentInitialProps"
+        }), "> {\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "static"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "async"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "getInitialProps"
+        }), "(\r\n    ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "ctx"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "DocumentContext"
+        }), ",\r\n  ): ", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "Promise"
+        }), "<", _jsx(_components.span, {
+          className: "hljs-title class_",
+          children: "CustomDocumentInitialProps"
+        }), "> {\r\n    ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " userAgent = ctx.", _jsx(_components.span, {
+          className: "hljs-property",
+          children: "req"
+        }), "\r\n      ? ctx.", _jsx(_components.span, {
+          className: "hljs-property",
+          children: "req"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-property",
+          children: "headers"
+        }), "[", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'user-agent'"
+        }), "]\r\n      : navigator.", _jsx(_components.span, {
+          className: "hljs-property",
+          children: "userAgent"
+        }), ";\r\n    ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " { isMobile, isTablet, isDesktop } = ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "detectDevice"
+        }), "(userAgent || ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "''"
+        }), ");\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "render"
+        }), "(", _jsx(_components.span, {
+          className: "hljs-params"
+        }), ") {\r\n    ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " { isMobile, isTablet, isDesktop } = ", _jsx(_components.span, {
+          className: "hljs-variable language_",
+          children: "this"
+        }), ".", _jsx(_components.span, {
+          className: "hljs-property",
+          children: "props"
+        }), ";\r\n    ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " bodyClassName = ", _jsxs(_components.span, {
+          className: "hljs-string",
+          children: ["`", _jsxs(_components.span, {
+            className: "hljs-subst",
+            children: ["${isMobile ? ", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "'is-mobile'"
+            }), " : ", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "''"
+            }), "}"]
+          }), " ", _jsxs(_components.span, {
+            className: "hljs-subst",
+            children: ["${isTablet ? ", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "'is-tablet'"
+            }), " : ", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "''"
+            }), "}"]
+          }), " ", _jsxs(_components.span, {
+            className: "hljs-subst",
+            children: ["${isDesktop ? is-desktop : ", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "''"
+            }), "}"]
+          }), "`"]
+        }), ";\r\n\r\n    ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "return"
+        }), " (\r\n      ", _jsxs(_components.span, {
+          className: "xml",
+          children: [_jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "Html"
+            }), ">"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "body"
+            }), " ", _jsx(_components.span, {
+              className: "hljs-attr",
+              children: "className"
+            }), "=", _jsx(_components.span, {
+              className: "hljs-string",
+              children: "{bodyClassName}"
+            }), ">"]
+          }), "\r\n          ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "Main"
+            }), " />"]
+          }), "\r\n          ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["<", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "NextScript"
+            }), " />"]
+          }), "\r\n        ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "body"
+            }), ">"]
+          }), "\r\n      ", _jsxs(_components.span, {
+            className: "hljs-tag",
+            children: ["</", _jsx(_components.span, {
+              className: "hljs-name",
+              children: "Html"
+            }), ">"]
+          })]
+        }), "\r\n    );\r\n  }\r\n}\n"]
+      })
+    }), "\n", _jsxs(_components.p, {
+      children: ["요청 헤더에서 ", _jsx(_components.code, {
+        children: "userAgent"
+      }), " 값을 가지고 device정보를 추출합니다.", _jsx(_components.br, {}), "\n", "아래는 detectDevice 함수 예제 입니다."]
+    }), "\n", _jsx(_components.div, {
+      className: "rehype-code-title",
+      children: "/src/utils/detectDevice.ts"
+    }), _jsx(_components.pre, {
+      children: _jsxs(_components.code, {
+        className: "hljs language-ts",
+        children: [_jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "export"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " detectDevice = (\r\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "userAgent"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "string"
+        }), ",\r\n): {\r\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "isMobile"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "boolean"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "isTablet"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "boolean"
+        }), ";\r\n  ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "isDesktop"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "boolean"
+        }), ";\r\n} => {\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "mobileKeywords"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "string"
+        }), "[] = [\r\n    ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'Mobile'"
+        }), ",\r\n    ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'Android'"
+        }), ",\r\n    ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'iPhone'"
+        }), ",\r\n    ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'Windows Phone'"
+        }), ",\r\n    ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'BlackBerry'"
+        }), ",\r\n  ];\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "tabletKeywords"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "string"
+        }), "[] = [", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'iPad'"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'Tablet'"
+        }), ", ", _jsx(_components.span, {
+          className: "hljs-string",
+          children: "'Kindle'"
+        }), "];\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "isMobile"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "boolean"
+        }), " = mobileKeywords.", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "some"
+        }), "(", _jsxs(_components.span, {
+          className: "hljs-function",
+          children: ["(", _jsx(_components.span, {
+            className: "hljs-params",
+            children: "keyword"
+          }), ") =>"]
+        }), "\r\n    userAgent.", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "includes"
+        }), "(keyword),\r\n  );\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "isTablet"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "boolean"
+        }), " = tabletKeywords.", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "some"
+        }), "(", _jsxs(_components.span, {
+          className: "hljs-function",
+          children: ["(", _jsx(_components.span, {
+            className: "hljs-params",
+            children: "keyword"
+          }), ") =>"]
+        }), "\r\n    userAgent.", _jsx(_components.span, {
+          className: "hljs-title function_",
+          children: "includes"
+        }), "(keyword),\r\n  );\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "const"
+        }), " ", _jsx(_components.span, {
+          className: "hljs-attr",
+          children: "isDesktop"
+        }), ": ", _jsx(_components.span, {
+          className: "hljs-built_in",
+          children: "boolean"
+        }), " = !isMobile && !isTablet;\r\n\r\n  ", _jsx(_components.span, {
+          className: "hljs-keyword",
+          children: "return"
+        }), " { isMobile, isTablet, isDesktop };\r\n};\n"]
+      })
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+15:T5de7d,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -121,7 +552,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-15:T390f,/*@jsxRuntime automatic @jsxImportSource react*/
+16:T390f,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -491,7 +922,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-16:T258d2,/*@jsxRuntime automatic @jsxImportSource react*/
+17:T258d2,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -576,7 +1007,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-17:T4acb,/*@jsxRuntime automatic @jsxImportSource react*/
+18:T4acb,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1040,7 +1471,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-18:T1f26,/*@jsxRuntime automatic @jsxImportSource react*/
+19:T1f26,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1212,7 +1643,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-19:T171e9,/*@jsxRuntime automatic @jsxImportSource react*/
+1a:T171e9,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -1762,7 +2193,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-1a:Tc9be7,/*@jsxRuntime automatic @jsxImportSource react*/
+1b:Tc9be7,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -2701,7 +3132,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-1b:T1d858,/*@jsxRuntime automatic @jsxImportSource react*/
+1c:T1d858,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -3576,7 +4007,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-1c:T11b30,/*@jsxRuntime automatic @jsxImportSource react*/
+1d:T11b30,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -4249,7 +4680,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-1d:T6e590,/*@jsxRuntime automatic @jsxImportSource react*/
+1e:T6e590,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -4592,7 +5023,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-1e:T1c49c,/*@jsxRuntime automatic @jsxImportSource react*/
+1f:T1c49c,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -5348,7 +5779,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-1f:T3ed40,/*@jsxRuntime automatic @jsxImportSource react*/
+20:T3ed40,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -5680,7 +6111,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-20:T1ee9,/*@jsxRuntime automatic @jsxImportSource react*/
+21:T1ee9,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -5879,7 +6310,7 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-21:T80f,/*@jsxRuntime automatic @jsxImportSource react*/
+22:T80f,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -5925,5 +6356,5 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-11:[["$","$L12",null,{"children":"Post"}],["$","$L13",null,{"postList":[{"title":"CSS position sticky 속성이 동작하지 않는 이유","date":"$D2024-01-31T07:35:00.000Z","categories":["css"],"slug":"17","mdx":{"compiledSource":"$14","frontmatter":{},"scope":{}}},{"title":"pm2 - 환경에 따라 dotenv 파일 분기처리 하기","date":"$D2023-11-20T10:23:00.000Z","categories":["pm2"],"slug":"16","mdx":{"compiledSource":"$15","frontmatter":{},"scope":{}}},{"title":"Error - Cannot find module 'mini-css-extract-plugin/dist/CssDependency'","date":"$D2023-10-19T10:19:00.000Z","categories":["next.js"],"slug":"15","mdx":{"compiledSource":"$16","frontmatter":{},"scope":{}}},{"title":"Next.js 프로젝트 폴더 구성 과 개발 규칙","date":"$D2023-08-25T11:09:00.000Z","categories":["next.js"],"slug":"11","mdx":{"compiledSource":"$17","frontmatter":{},"scope":{}}},{"title":"Github Pages 블로그 구축시 알아두면 좋은것들","date":"$D2023-08-21T09:41:00.000Z","categories":["next.js","blog","github"],"slug":"10","mdx":{"compiledSource":"$18","frontmatter":{},"scope":{}}},{"title":"7. Next.js 블로그 상세페이지에 상대경로 이미지 넣기","date":"$D2023-08-17T11:31:00.000Z","categories":["next.js","mdx","blog"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"9","mdx":{"compiledSource":"$19","frontmatter":{},"scope":{}}},{"title":"6. Next.js 블로그 포스팅 상세페이지 만들기","date":"$D2023-08-15T05:09:00.000Z","categories":["next.js","mdx","blog"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"8","mdx":{"compiledSource":"$1a","frontmatter":{},"scope":{}}},{"title":"5. Next.js 블로그 포스팅 목록 만들기","date":"$D2023-08-14T15:16:00.000Z","categories":["next.js","mdx","blog"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"7","mdx":{"compiledSource":"$1b","frontmatter":{},"scope":{}}},{"title":"4. Layout 구성요소 생성 및 적용하기","date":"$D2023-08-14T07:03:00.000Z","categories":["next.js"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"6","mdx":{"compiledSource":"$1c","frontmatter":{},"scope":{}}},{"title":"3. Github Actions 를 사용하여 Next.js 앱 배포하기 (feat. Github Pages)","date":"$D2023-08-13T18:00:00.000Z","categories":["next.js","github","deploy"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"5","mdx":{"compiledSource":"$1d","frontmatter":{},"scope":{}}},{"title":"2. Next.js 앱에 styled-components 적용하기","date":"$D2023-08-13T16:47:00.000Z","categories":["next.js","styled-components"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"4","mdx":{"compiledSource":"$1e","frontmatter":{},"scope":{}}},{"title":"1. Next.js 앱, Github Repository 생성","date":"$D2023-08-13T09:00:00.000Z","categories":["next.js","github","blog","mdx"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"3","mdx":{"compiledSource":"$1f","frontmatter":{},"scope":{}}},{"title":"styled-component 재사용 코드 예제 (mixin)","date":"$D2023-08-12T09:00:00.000Z","categories":["css","styled-components"],"slug":"2","mdx":{"compiledSource":"$20","frontmatter":{},"scope":{}}},{"title":"블로그 리뉴얼 (by Next.js 13)","date":"$D2023-08-11T09:00:00.000Z","categories":["next.js"],"slug":"1","mdx":{"compiledSource":"$21","frontmatter":{},"scope":{}}}]}]]
+11:[["$","$L12",null,{"children":"Post"}],["$","$L13",null,{"postList":[{"title":"Next.js, SSR <body>에 device class 추가하기","date":"$D2024-02-08T19:41:00.000Z","categories":["next.js"],"slug":"18","mdx":{"compiledSource":"$14","frontmatter":{},"scope":{}}},{"title":"CSS position sticky 속성이 동작하지 않는 이유","date":"$D2024-01-31T07:35:00.000Z","categories":["css"],"slug":"17","mdx":{"compiledSource":"$15","frontmatter":{},"scope":{}}},{"title":"pm2 - 환경에 따라 dotenv 파일 분기처리 하기","date":"$D2023-11-20T10:23:00.000Z","categories":["pm2"],"slug":"16","mdx":{"compiledSource":"$16","frontmatter":{},"scope":{}}},{"title":"Error - Cannot find module 'mini-css-extract-plugin/dist/CssDependency'","date":"$D2023-10-19T10:19:00.000Z","categories":["next.js"],"slug":"15","mdx":{"compiledSource":"$17","frontmatter":{},"scope":{}}},{"title":"Next.js 프로젝트 폴더 구성 과 개발 규칙","date":"$D2023-08-25T11:09:00.000Z","categories":["next.js"],"slug":"11","mdx":{"compiledSource":"$18","frontmatter":{},"scope":{}}},{"title":"Github Pages 블로그 구축시 알아두면 좋은것들","date":"$D2023-08-21T09:41:00.000Z","categories":["next.js","blog","github"],"slug":"10","mdx":{"compiledSource":"$19","frontmatter":{},"scope":{}}},{"title":"7. Next.js 블로그 상세페이지에 상대경로 이미지 넣기","date":"$D2023-08-17T11:31:00.000Z","categories":["next.js","mdx","blog"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"9","mdx":{"compiledSource":"$1a","frontmatter":{},"scope":{}}},{"title":"6. Next.js 블로그 포스팅 상세페이지 만들기","date":"$D2023-08-15T05:09:00.000Z","categories":["next.js","mdx","blog"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"8","mdx":{"compiledSource":"$1b","frontmatter":{},"scope":{}}},{"title":"5. Next.js 블로그 포스팅 목록 만들기","date":"$D2023-08-14T15:16:00.000Z","categories":["next.js","mdx","blog"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"7","mdx":{"compiledSource":"$1c","frontmatter":{},"scope":{}}},{"title":"4. Layout 구성요소 생성 및 적용하기","date":"$D2023-08-14T07:03:00.000Z","categories":["next.js"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"6","mdx":{"compiledSource":"$1d","frontmatter":{},"scope":{}}},{"title":"3. Github Actions 를 사용하여 Next.js 앱 배포하기 (feat. Github Pages)","date":"$D2023-08-13T18:00:00.000Z","categories":["next.js","github","deploy"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"5","mdx":{"compiledSource":"$1e","frontmatter":{},"scope":{}}},{"title":"2. Next.js 앱에 styled-components 적용하기","date":"$D2023-08-13T16:47:00.000Z","categories":["next.js","styled-components"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"4","mdx":{"compiledSource":"$1f","frontmatter":{},"scope":{}}},{"title":"1. Next.js 앱, Github Repository 생성","date":"$D2023-08-13T09:00:00.000Z","categories":["next.js","github","blog","mdx"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"3","mdx":{"compiledSource":"$20","frontmatter":{},"scope":{}}},{"title":"styled-component 재사용 코드 예제 (mixin)","date":"$D2023-08-12T09:00:00.000Z","categories":["css","styled-components"],"slug":"2","mdx":{"compiledSource":"$21","frontmatter":{},"scope":{}}},{"title":"블로그 리뉴얼 (by Next.js 13)","date":"$D2023-08-11T09:00:00.000Z","categories":["next.js"],"slug":"1","mdx":{"compiledSource":"$22","frontmatter":{},"scope":{}}}]}]]
 10:null

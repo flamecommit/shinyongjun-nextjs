@@ -1,10 +1,10 @@
 1:HL["/_next/static/css/a8432a49c2a6ac20.css","style",{"crossOrigin":""}]
-0:["dsMaj12tdmSGyyCMVH-r6",[[["",{"children":["(default)",{"children":["category",{"children":[["board","post","d"],{"children":[["slug","styled-components","d"],{"children":["__PAGE__?{\"board\":\"post\",\"slug\":\"styled-components\"}",{}]}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["2vi_x5aYT2xYvnxP9QakX",[[["",{"children":["(default)",{"children":["category",{"children":[["board","post","d"],{"children":[["slug","styled-components","d"],{"children":["__PAGE__?{\"board\":\"post\",\"slug\":\"styled-components\"}",{}]}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:HL["/_next/static/css/da23838ccc6fd56f.css","style",{"crossOrigin":""}]
-5:I[3994,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-57f5ab8becca807d.js"],""]
-6:I[4333,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-57f5ab8becca807d.js"],""]
-7:I[9842,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-57f5ab8becca807d.js"],""]
-8:I[80,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-57f5ab8becca807d.js"],""]
+5:I[3994,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-f0ceab1f9397f55b.js"],""]
+6:I[4333,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-f0ceab1f9397f55b.js"],""]
+7:I[9842,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-f0ceab1f9397f55b.js"],""]
+8:I[80,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-f0ceab1f9397f55b.js"],""]
 9:I[6954,[],""]
 a:I[7264,[],""]
 b:I[4411,["433","static/chunks/433-e80d328241e3a719.js","396","static/chunks/396-0e0c7f5317d0ada1.js","534","static/chunks/app/(default)/layout-8b5f9ffc3a7a76e3.js"],""]
@@ -973,5 +973,5 @@ function MDXContent(props = {}) {
 return {
   default: MDXContent
 };
-12:[["$","$L13",null,{"children":["Post","Category - ","styled-components"]}],["$","$L14",null,{"board":"post","categoryList":["css","pm2","next.js","blog","github","mdx","deploy","styled-components"]}],["$","$L15",null,{"postList":[{"title":"2. Next.js 앱에 styled-components 적용하기","date":"$D2023-08-13T16:47:00.000Z","categories":["next.js","styled-components"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"4","mdx":{"compiledSource":"$16","frontmatter":{},"scope":{}}},{"title":"styled-component 재사용 코드 예제 (mixin)","date":"$D2023-08-12T09:00:00.000Z","categories":["css","styled-components"],"slug":"2","mdx":{"compiledSource":"$17","frontmatter":{},"scope":{}}}]}],false]
+12:[["$","$L13",null,{"children":["Post","Category - ","styled-components"]}],["$","$L14",null,{"board":"post","categoryList":["next.js","css","pm2","blog","github","mdx","deploy","styled-components"]}],["$","$L15",null,{"postList":[{"title":"2. Next.js 앱에 styled-components 적용하기","date":"$D2023-08-13T16:47:00.000Z","categories":["next.js","styled-components"],"seriesId":1,"seriesTitle":"Next.js 로 Github Page 블로그 만들기","slug":"4","mdx":{"compiledSource":"$16","frontmatter":{},"scope":{}}},{"title":"styled-component 재사용 코드 예제 (mixin)","date":"$D2023-08-12T09:00:00.000Z","categories":["css","styled-components"],"slug":"2","mdx":{"compiledSource":"$17","frontmatter":{},"scope":{}}}]}],false]
 11:null
