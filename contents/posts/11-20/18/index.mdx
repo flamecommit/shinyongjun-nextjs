@@ -1,0 +1,82 @@
+---
+title: Next.js, SSR <body>에 device class 추가하기
+date: 2024-02-08T19:41:00
+categories: ['next.js']
+---
+
+SSR시점 `body` 태그에 `device` 를 특정하는 `className`을 추가하는 방법에 대해 정리했습니다.
+
+### 개발 환경
+
+- next.js@13.5.6
+- pages directory
+
+### document.tsx
+
+```tsx:/src/pages/_document.tsx
+import { detectDevice } from '@/utils/detectDevice';
+import Document, { Html, Main, NextScript, DocumentContext, DocumentInitialProps } from 'next/document';
+import { ServerStyleSheet } from 'styled-components';
+
+interface CustomDocumentInitialProps extends DocumentInitialProps {
+  isMobile: boolean;
+  isTablet: boolean;
+  isDesktop: boolean;
+}
+
+export default class MyDocument extends Document<CustomDocumentInitialProps> {
+  static async getInitialProps(
+    ctx: DocumentContext,
+  ): Promise<CustomDocumentInitialProps> {
+    const userAgent = ctx.req
+      ? ctx.req.headers['user-agent']
+      : navigator.userAgent;
+    const { isMobile, isTablet, isDesktop } = detectDevice(userAgent || '');
+
+  render() {
+    const { isMobile, isTablet, isDesktop } = this.props;
+    const bodyClassName = `${isMobile ? 'is-mobile' : ''} ${isTablet ? 'is-tablet' : ''} ${isDesktop ? is-desktop : ''}`;
+
+    return (
+      <Html>
+        <body className={bodyClassName}>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
+}
+```
+
+요청 헤더에서 `userAgent` 값을 가지고 device정보를 추출합니다.
+아래는 detectDevice 함수 예제 입니다.
+
+```ts:/src/utils/detectDevice.ts
+export const detectDevice = (
+  userAgent: string,
+): {
+  isMobile: boolean;
+  isTablet: boolean;
+  isDesktop: boolean;
+} => {
+  const mobileKeywords: string[] = [
+    'Mobile',
+    'Android',
+    'iPhone',
+    'Windows Phone',
+    'BlackBerry',
+  ];
+  const tabletKeywords: string[] = ['iPad', 'Tablet', 'Kindle'];
+
+  const isMobile: boolean = mobileKeywords.some((keyword) =>
+    userAgent.includes(keyword),
+  );
+  const isTablet: boolean = tabletKeywords.some((keyword) =>
+    userAgent.includes(keyword),
+  );
+  const isDesktop: boolean = !isMobile && !isTablet;
+
+  return { isMobile, isTablet, isDesktop };
+};
+```
