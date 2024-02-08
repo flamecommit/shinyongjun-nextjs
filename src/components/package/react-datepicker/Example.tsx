@@ -1,4 +1,5 @@
 import { getSingleDocument } from '@/services/mdx';
+import '@shinyongjun/react-datepicker/css';
 import ReactDatepickerMdx from './Mdx';
 
 async function PackageReactDatepickerExample() {
