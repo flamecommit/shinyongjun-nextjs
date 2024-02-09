@@ -1,5 +1,5 @@
 1:HL["/_next/static/css/a8432a49c2a6ac20.css","style",{"crossOrigin":""}]
-0:["2vi_x5aYT2xYvnxP9QakX",[[["",{"children":[["packageName","react-datepicker","d"],{"children":["document",{"children":["__PAGE__?{\"packageName\":\"react-datepicker\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["mmBWjSL9eBevBVMAe79jQ",[[["",{"children":[["packageName","react-datepicker","d"],{"children":["document",{"children":["__PAGE__?{\"packageName\":\"react-datepicker\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a8432a49c2a6ac20.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:HL["/_next/static/css/da23838ccc6fd56f.css","style",{"crossOrigin":""}]
 5:I[3994,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-f0ceab1f9397f55b.js"],""]
 6:I[4333,["433","static/chunks/433-e80d328241e3a719.js","198","static/chunks/198-bf1999e73d785f01.js","663","static/chunks/663-89bcd07c1acfbb14.js","185","static/chunks/app/layout-f0ceab1f9397f55b.js"],""]
@@ -12,7 +12,7 @@ c:["packageName","react-datepicker","d"]
 2:[null,["$","html",null,{"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.ico"}],[["$","$L5",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-LSSNKXXZKX","strategy":"afterInteractive"}],["$","$L5",null,{"id":"google-analytics","strategy":"afterInteractive","children":"\n        window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n\n          gtag('config', \"G-LSSNKXXZKX\");\n        "}]]]}],["$","body",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":[null,[["$","$Lb",null,{"packageName":"react-datepicker"}],["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children",["packageName","react-datepicker","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L9",null,{"parallelRouterKey":"children","segmentPath":["children","$c","children","document","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$Ld","$Le",null],"childPropSegment":"__PAGE__?{\"packageName\":\"react-datepicker\"}","styles":null}],"childPropSegment":"document","styles":null}]],null],"childPropSegment":["packageName","react-datepicker","d"],"styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/da23838ccc6fd56f.css","precedence":"next","crossOrigin":""}]]}]}]}]}]}]]}],null]
 3:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"@shinyongjun/react-datepicker"}],["$","meta","3",{"name":"description","content":"powered by @shinyongjun"}],["$","meta","4",{"property":"og:title","content":"@shinyongjun/react-datepicker"}],["$","meta","5",{"property":"og:description","content":"powered by @shinyongjun"}],["$","meta","6",{"property":"og:site_name","content":"shinyongjun.com"}],["$","meta","7",{"property":"og:image","content":"https://shinyongjun.com/og-image.jpg"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"@shinyongjun/react-datepicker"}],["$","meta","11",{"name":"twitter:description","content":"powered by @shinyongjun"}],["$","meta","12",{"name":"twitter:image","content":"https://shinyongjun.com/og-image.jpg"}]]
 f:I[3729,["433","static/chunks/433-e80d328241e3a719.js","896","static/chunks/896-c41ede4b3d6b117a.js","959","static/chunks/app/%5BpackageName%5D/document/page-2c0d0982b0b2e735.js"],""]
-10:T27b1,/*@jsxRuntime automatic @jsxImportSource react*/
+10:T2b96,/*@jsxRuntime automatic @jsxImportSource react*/
 const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
 const {useMDXComponents: _provideComponents} = arguments[0];
 function _createMdxContent(props) {
@@ -206,7 +206,7 @@ function _createMdxContent(props) {
         required: 'false',
         type: 'string',
         default: 'YYYY-MM-DD',
-        description: 'It must contain "YYYY", "MM", and "DD" in the value.'
+        description: "value의 format을 지정합니다. timeselector 옵션이 true라면 기본값은 'YYYY-MM-DD HH:mm:ss'가 됩니다."
       }
     }), "\n", _jsx(PropsTable, {
       propsData: {
@@ -233,7 +233,7 @@ function _createMdxContent(props) {
         required: 'false',
         type: 'boolean',
         default: 'true',
-        description: 'If "true", the datepicker will automatically close after a date is selected by clicking a date on the calendar.'
+        description: '"true"인 경우 날짜 선택한 후 자동으로 날짜선택기가 닫힙니다. <a href="#timeselector">timeselector<a> 옵션을 사용한다면 "false"로 강제됩니다.'
       }
     }), "\n", _jsx(PropsTable, {
       propsData: {
@@ -279,6 +279,28 @@ function _createMdxContent(props) {
         type: 'boolean',
         default: 'false',
         description: 'Datepicker가 body밑에 생성됩니다. position: fixed 속성이 적용됩니다.'
+      }
+    }), "\n", _jsx(PropsTable, {
+      propsData: {
+        name: 'timeselector',
+        component: '<Datepicker />',
+        required: `false`,
+        type: `false | {
+      hour?: boolean;
+      minute?: boolean;
+      second?: boolean;
+    }`,
+        default: 'false',
+        description: '시간선택기 사용 여부를 결정합니다. 하위 옵션(hour, minute, second)으로 사용할 선택기를 고를 수 있습니다. 시간선택기를 사용한다면 <a href="#closesAfterChange">closesAfterChange<a>옵션은 false값으로 강제됩니다.'
+      }
+    }), "\n", _jsx(PropsTable, {
+      propsData: {
+        name: 'hourStep, minuteStep, secondStep',
+        component: '<Datepicker />',
+        required: `false`,
+        type: `number`,
+        default: '1',
+        description: '시간선택기 옵션 간격을 지정합니다.'
       }
     })]
   });
