@@ -129,3 +129,80 @@
 ```
 
 </ReactDatepickerSection>
+
+<ReactDatepickerSection>
+### timeselector
+
+<Datepicker
+  timeselector={{
+    hour: true,
+    minute: true,
+    second: true,
+  }}
+/>
+
+```tsx
+<Datepicker
+  timeselector={{
+    hour: true,
+    minute: true,
+    second: true,
+  }}
+/>
+```
+
+</ReactDatepickerSection>
+
+<ReactDatepickerSection>
+### timeselector + initValue
+
+<Datepicker
+  timeselector={{
+    hour: true,
+    minute: true,
+    second: true,
+  }}
+  initValue={new Date(2024, 1, 9, 12, 30, 30)}
+/>
+
+```tsx
+<Datepicker
+  timeselector={{
+    hour: true,
+    minute: true,
+    second: true,
+  }}
+  initValue={new Date(2024, 1, 9, 12, 30, 30)}
+/>
+```
+
+</ReactDatepickerSection>
+
+<ReactDatepickerSection>
+### hourStep, minuteStep, secondStep
+
+<Datepicker
+  timeselector={{
+    hour: true,
+    minute: true,
+    second: true,
+  }}
+  hourStep={2}
+  minuteStep={5}
+  secondStep={20}
+/>
+
+```tsx
+<Datepicker
+  timeselector={{
+    hour: true,
+    minute: true,
+    second: true,
+  }}
+  hourStep={2}
+  minuteStep={5}
+  secondStep={20}
+/>
+```
+
+</ReactDatepickerSection>
